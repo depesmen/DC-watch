@@ -3,6 +3,7 @@
   "note": "Chiffres agrégés depuis les rapports publics (JLL, CBRE, Cushman & Wakefield, Newmark, Avison Young). Vérifier la source de chaque KPI avant usage en présentation.",
   "regions": [
     {
+      "flag": "🌍",
       "name": "Monde",
       "kpis": [
         { "label": "Demande active", "value": "5+ GW", "sub": "vs 3,2 GW un an plus tôt", "trend": "up", "source": "JLL — Global DC Outlook Q1 2026", "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook" },
@@ -11,6 +12,7 @@
       ]
     },
     {
+      "flag": "🇺🇸",
       "name": "Amérique du Nord",
       "kpis": [
         { "label": "Vacance US", "value": "1,2 %", "sub": "0,3 % en Northern Virginia (Q1 2026)", "trend": "down", "source": "CBRE / Avison Young", "url": "https://www.avisonyoung.us/us-data-center-market-overview" },
@@ -20,6 +22,7 @@
       ]
     },
     {
+      "flag": "🇨🇦",
       "name": "Canada",
       "kpis": [
         { "label": "Capacité 2029 (proj.)", "value": "1,16 GW", "sub": "depuis ~750 MW aujourd'hui", "trend": "up", "source": "TD Economics / Mordor Intelligence", "url": "https://economics.td.com/ca-data-centers-and-grid-constraints" },
@@ -28,6 +31,7 @@
       ]
     },
     {
+      "flag": "🇪🇺",
       "name": "Europe / EMEA",
       "kpis": [
         { "label": "Capacité opérationnelle", "value": "11,4 GW", "sub": "+ 2,7 GW en construction", "trend": "up", "source": "Cushman & Wakefield", "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison" },
@@ -37,6 +41,7 @@
       ]
     },
     {
+      "flag": "🇳🇴",
       "name": "Norvège",
       "kpis": [
         { "label": "Capacité installée", "value": "501 MW", "sub": "~1 % de la prod nationale, vers 1,8 % en 2028", "trend": "up", "source": "STW / Bulk", "url": "https://stw.no/en/blog/norway-a-high-growth-data-centre-market-built-on-hydropower/" },
@@ -45,6 +50,7 @@
       ]
     },
     {
+      "flag": "🌏",
       "name": "Asie-Pacifique",
       "kpis": [
         { "label": "Capacité 2030 (proj.)", "value": "57 GW", "sub": "depuis 32 GW aujourd'hui", "trend": "up", "source": "Rapports APAC 2026", "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook" },
@@ -53,6 +59,7 @@
       ]
     },
     {
+      "flag": "🇫🇷",
       "name": "France",
       "kpis": [
         { "label": "Conso énergétique data centers", "value": "2,7 TWh", "sub": "en 2024, +38 % depuis 2021", "trend": "up", "source": "Économie Matin", "url": "https://www.economiematin.fr/data-center-explosion-energetique-france" },
@@ -61,6 +68,7 @@
       ]
     },
     {
+      "flag": "🇦🇪",
       "name": "Émirats arabes unis",
       "kpis": [
         { "label": "Campus IA UAE-US", "value": "5 GW", "sub": "objectif total ; Stargate UAE = cluster de 1 GW", "trend": "up", "source": "Data Center World Middle East", "url": "https://www.datacenterworldmiddleeast.com/the-strategic-case-for-uae-data-centre-investment/" },

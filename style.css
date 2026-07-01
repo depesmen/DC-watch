@@ -709,19 +709,55 @@ html, body {
   font-size: 11.5px; color: var(--accent-bright); margin-top: auto;
 }
 
-/* ===== Situation (KPIs) ===== */
-.kpi-region { margin-bottom: 28px; }
-.kpi-region-title {
+/* ===== Situation (KPIs, accordéon) ===== */
+.kpi-region { margin-bottom: 10px; }
+.kpi-region-header {
+  width: 100%;
+  display: flex;
+  align-items: center;
+  gap: 12px;
+  background: var(--panel);
+  border: 1px solid var(--border);
+  border-radius: var(--radius);
+  padding: 14px 18px;
+  cursor: pointer;
   font-family: var(--font-mono);
-  font-size: 13px;
-  font-weight: 500;
-  color: var(--cyan);
-  margin: 0 0 12px;
-  padding-bottom: 8px;
-  border-bottom: 1px solid var(--border);
-  letter-spacing: 0.02em;
+  color: var(--text);
+  text-align: left;
+  transition: border-color 0.15s ease, background 0.15s ease;
 }
-.kpi-region-title::before { content: "▸ "; color: var(--text-faint); }
+.kpi-region-header:hover { border-color: var(--accent); background: var(--panel-hover); }
+.kpi-region.is-open .kpi-region-header {
+  border-bottom-left-radius: 0;
+  border-bottom-right-radius: 0;
+  border-color: var(--accent);
+}
+.kpi-region-flag { font-size: 18px; line-height: 1; }
+.kpi-region-name { font-size: 14px; font-weight: 500; flex-grow: 1; }
+.kpi-region-count {
+  font-size: 11.5px;
+  color: var(--text-dim);
+  background: var(--bg-raised);
+  border: 1px solid var(--border-soft);
+  border-radius: 4px;
+  padding: 1px 7px;
+}
+.kpi-region-chevron {
+  font-size: 13px;
+  color: var(--text-faint);
+  transition: transform 0.2s ease;
+}
+.kpi-region.is-open .kpi-region-chevron { transform: rotate(180deg); color: var(--cyan); }
+.kpi-region-body { display: none; }
+.kpi-region.is-open .kpi-region-body {
+  display: block;
+  border: 1px solid var(--accent);
+  border-top: none;
+  border-bottom-left-radius: var(--radius);
+  border-bottom-right-radius: var(--radius);
+  padding: 14px;
+  background: rgba(59, 130, 246, 0.03);
+}
 .kpi-region-grid {
   display: grid;
   grid-template-columns: repeat(auto-fill, minmax(240px, 1fr));

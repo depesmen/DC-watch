@@ -277,25 +277,40 @@ async function loadSituation() {
     const data = await res.json();
     asOf.textContent = `Chiffres clés par région — arrêtés au ${data.asOf}.`;
     note.textContent = data.note || '';
-    grid.innerHTML = (data.regions || []).map((region) => `
-      <section class="kpi-region">
-        <h3 class="kpi-region-title">${region.name}</h3>
-        <div class="kpi-region-grid">
-          ${region.kpis.map((k) => `
-            <div class="kpi-card">
-              <div class="kpi-top">
-                <span class="kpi-group">${region.name}</span>
-                <span class="kpi-trend kpi-trend-${k.trend || 'flat'}">${trendIcon(k.trend)}</span>
+    grid.innerHTML = (data.regions || []).map((region, i) => `
+      <section class="kpi-region ${i === 0 ? 'is-open' : ''}">
+        <button class="kpi-region-header" type="button" aria-expanded="${i === 0}">
+          <span class="kpi-region-flag">${region.flag || ''}</span>
+          <span class="kpi-region-name">${region.name}</span>
+          <span class="kpi-region-count">${region.kpis.length}</span>
+          <span class="kpi-region-chevron" aria-hidden="true">▾</span>
+        </button>
+        <div class="kpi-region-body">
+          <div class="kpi-region-grid">
+            ${region.kpis.map((k) => `
+              <div class="kpi-card">
+                <div class="kpi-top">
+                  <span class="kpi-group">${region.flag || ''} ${region.name}</span>
+                  <span class="kpi-trend kpi-trend-${k.trend || 'flat'}">${trendIcon(k.trend)}</span>
+                </div>
+                <div class="kpi-value">${k.value}</div>
+                <div class="kpi-label">${k.label}</div>
+                <div class="kpi-sub">${k.sub || ''}</div>
+                <a class="kpi-source" href="${k.url}" target="_blank" rel="noopener noreferrer">${k.source} →</a>
               </div>
-              <div class="kpi-value">${k.value}</div>
-              <div class="kpi-label">${k.label}</div>
-              <div class="kpi-sub">${k.sub || ''}</div>
-              <a class="kpi-source" href="${k.url}" target="_blank" rel="noopener noreferrer">${k.source} →</a>
-            </div>
-          `).join('')}
+            `).join('')}
+          </div>
         </div>
       </section>
     `).join('');
+
+    grid.querySelectorAll('.kpi-region-header').forEach((header) => {
+      header.addEventListener('click', () => {
+        const region = header.closest('.kpi-region');
+        const open = region.classList.toggle('is-open');
+        header.setAttribute('aria-expanded', open);
+      });
+    });
   } catch (err) {
     grid.innerHTML = '<p class="empty-state">Impossible de charger les chiffres du marché.</p>';
     console.error('Failed to load situation.json', err);
