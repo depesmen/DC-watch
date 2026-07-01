@@ -696,7 +696,13 @@ html, body {
 .predict-pct {
   font-family: var(--font-mono);
   font-size: 15px; font-weight: 500; color: var(--cyan);
-  min-width: 40px; text-align: right;
+  text-align: right; white-space: nowrap;
+}
+.predict-yes {
+  font-size: 10.5px;
+  color: var(--text-faint);
+  text-transform: uppercase;
+  letter-spacing: 0.04em;
 }
 .predict-cta {
   font-family: var(--font-mono);

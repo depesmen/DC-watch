@@ -20,12 +20,28 @@
       ]
     },
     {
+      "name": "Canada",
+      "kpis": [
+        { "label": "Capacité 2029 (proj.)", "value": "1,16 GW", "sub": "depuis ~750 MW aujourd'hui", "trend": "up", "source": "TD Economics / Mordor Intelligence", "url": "https://economics.td.com/ca-data-centers-and-grid-constraints" },
+        { "label": "Alberta — file d'interconnexion", "value": "10+ GW", "sub": "programme phasé 1,2 GW, 100 Md CAD d'incitations", "trend": "up", "source": "Blackridge Research", "url": "https://www.blackridgeresearch.com/blog/list-of-largest-upcoming-data-centers-in-canada" },
+        { "label": "Québec", "value": "24,6 %", "sub": "part du marché, mais raccordements gelés depuis 2024", "trend": "down", "source": "Mordor Intelligence", "url": "https://www.mordorintelligence.com/industry-reports/canada-data-center-market" }
+      ]
+    },
+    {
       "name": "Europe / EMEA",
       "kpis": [
         { "label": "Capacité opérationnelle", "value": "11,4 GW", "sub": "+ 2,7 GW en construction", "trend": "up", "source": "Cushman & Wakefield", "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison" },
         { "label": "Capacité planifiée", "value": "12,1 GW", "sub": "+13 GW de nouvelle offre attendue", "trend": "up", "source": "Cushman & Wakefield", "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison" },
         { "label": "Délai de raccordement", "value": "5,2 ans", "sub": "le plus long des grandes régions", "trend": "up", "source": "Cushman & Wakefield", "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison" },
         { "label": "Croissance annuelle (CAGR)", "value": "~10 %", "sub": "portée par l'IA souveraine", "trend": "up", "source": "CBRE / rapports EMEA 2026", "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026" }
+      ]
+    },
+    {
+      "name": "Norvège",
+      "kpis": [
+        { "label": "Capacité installée", "value": "501 MW", "sub": "~1 % de la prod nationale, vers 1,8 % en 2028", "trend": "up", "source": "STW / Bulk", "url": "https://stw.no/en/blog/norway-a-high-growth-data-centre-market-built-on-hydropower/" },
+        { "label": "Stargate Norway", "value": "230 MW", "sub": "+290 MW visés, 100 000 GPU NVIDIA fin 2026, 100 % renouvelable", "trend": "up", "source": "Nscale / Aker / OpenAI", "url": "https://www.nscale.com/press-releases/stargate-norway-nscale-aker-openai" },
+        { "label": "Puissance dispo (Nord)", "value": "~1 GW", "sub": "excédent hydro inutilisé ; 34 GW hydro installés", "trend": "flat", "source": "Time / opérateur réseau NO", "url": "https://time.com/article/2026/06/03/ai-norway-nscale-data-center/" }
       ]
     },
     {
@@ -42,6 +58,15 @@
         { "label": "Conso énergétique data centers", "value": "2,7 TWh", "sub": "en 2024, +38 % depuis 2021", "trend": "up", "source": "Économie Matin", "url": "https://www.economiematin.fr/data-center-explosion-energetique-france" },
         { "label": "Engagement SoftBank", "value": "75 Md€ / 5 GW", "sub": "Dunkerque, Bosquel, Bouchain — 3,1 GW d'ici 2031", "trend": "up", "source": "Construction Dive", "url": "https://www.constructiondive.com/news/data-center-construction-rolls-into-2026/808636/" },
         { "label": "Campus IA de Fouju", "value": "1,4 GW", "sub": "8,5 Md€ — MGX, Bpifrance, Mistral, NVIDIA", "trend": "up", "source": "Media24", "url": "https://media24.fr/2026/06/03/avec-le-campus-ia-de-fouju-eiffage-met-les-mains-dans-le-coeur-electrique-de-lintelligence-artificielle-francaise/" }
+      ]
+    },
+    {
+      "name": "Émirats arabes unis",
+      "kpis": [
+        { "label": "Campus IA UAE-US", "value": "5 GW", "sub": "objectif total ; Stargate UAE = cluster de 1 GW", "trend": "up", "source": "Data Center World Middle East", "url": "https://www.datacenterworldmiddleeast.com/the-strategic-case-for-uae-data-centre-investment/" },
+        { "label": "Stargate UAE — 1re tranche", "value": "200 MW", "sub": "en service en 2026, ~100 000 GB300 NVIDIA", "trend": "up", "source": "Gulf News", "url": "https://gulfnews.com/business/markets/stargate-uae-first-phase-of-200mw-to-complete-by-2026-1.500310364" },
+        { "label": "Capacité installée", "value": "358 MW", "sub": "vers ~950 MW en 2028 ; pipeline 46,1 Md$ (55 % du GCC)", "trend": "up", "source": "Mordor Intelligence", "url": "https://www.mordorintelligence.com/industry-reports/united-arab-emirates-data-center-server-market" },
+        { "label": "MGX — acquisition Aligned", "value": "40 Md$", "sub": "5+ GW, 50 sites — plus grosse acquisition data center de l'histoire", "trend": "up", "source": "The National", "url": "https://www.thenationalnews.com/business/2025/10/15/mgx-aip-and-blackrocks-gip-to-acquire-aligned-data-centers-in-boost-to-ai-infrastructure/" }
       ]
     }
   ]

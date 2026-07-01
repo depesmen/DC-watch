@@ -261,7 +261,7 @@ async function loadPredictions() {
       <h4>${c.titleFr}</h4>
       <div class="predict-prob">
         <div class="predict-bar"><span style="width:${c.pct}%"></span></div>
-        <span class="predict-pct">${c.pct}%</span>
+        <span class="predict-pct">${c.pct}% <span class="predict-yes">Oui</span></span>
       </div>
       <span class="predict-cta">Voir le marché →</span>
     </a>`).join('');
