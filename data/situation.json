@@ -1,0 +1,78 @@
+{
+  "asOf": "2026-Q1 / 2026-07-01",
+  "note": "Chiffres agrégés depuis les rapports publics (CBRE, JLL, Newmark, Avison Young, Build Inc.). Vérifier la source de chaque KPI avant usage en présentation.",
+  "kpis": [
+    {
+      "label": "Demande active mondiale",
+      "value": "5+ GW",
+      "sub": "vs 3,2 GW un an plus tôt",
+      "trend": "up",
+      "group": "Demande",
+      "source": "JLL — Global Data Center Outlook Q1 2026",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "label": "Vacance US",
+      "value": "1,2 %",
+      "sub": "plus bas historique (Q1 2026)",
+      "trend": "down",
+      "group": "Offre",
+      "source": "CBRE / Avison Young",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+    },
+    {
+      "label": "Vacance Northern Virginia",
+      "value": "0,3 %",
+      "sub": "marché le plus tendu au monde",
+      "trend": "down",
+      "group": "Offre",
+      "source": "CBRE",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+    },
+    {
+      "label": "Absorption nette US",
+      "value": "5,29 GW",
+      "sub": "Q1 2026 (Austin 1 909 MW, Dallas-FW 912 MW)",
+      "trend": "up",
+      "group": "Demande",
+      "source": "Avison Young — US DC Market Overview Q1 2026",
+      "url": "https://www.avisonyoung.us/us-data-center-market-overview"
+    },
+    {
+      "label": "Pipeline US en construction/annoncé",
+      "value": "160 GW",
+      "sub": "aucun relâchement à l'horizon",
+      "trend": "up",
+      "group": "Offre",
+      "source": "Newmark — 2026 US Data Center Outlook",
+      "url": "https://www.nmrk.com/insights/market-report/2026-u-s-data-center-market-outlook"
+    },
+    {
+      "label": "Pré-location des nouvelles livraisons",
+      "value": "> 90 %",
+      "sub": "très peu de capacité sur le marché ouvert",
+      "trend": "up",
+      "group": "Offre",
+      "source": "Build Inc. — Data Center Market Trends 2026",
+      "url": "https://build.inc/insights/data-center-market-trends-2026"
+    },
+    {
+      "label": "Contrainte n°1 au développement",
+      "value": "Électricité",
+      "sub": "devant le capital et le foncier",
+      "trend": "flat",
+      "group": "Contraintes",
+      "source": "Newmark / CBRE",
+      "url": "https://www.nmrk.com/insights/market-report/2026-u-s-data-center-market-outlook"
+    },
+    {
+      "label": "Engagement SoftBank — France",
+      "value": "75 Md€ / 5 GW",
+      "sub": "Dunkerque, Bosquel, Bouchain — 3,1 GW d'ici 2031",
+      "trend": "up",
+      "group": "Europe",
+      "source": "Construction Dive",
+      "url": "https://www.constructiondive.com/news/data-center-construction-rolls-into-2026/808636/"
+    }
+  ]
+}

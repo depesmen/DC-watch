@@ -1,0 +1,53 @@
+{
+  "companies": [
+    {
+      "id": "polarise",
+      "name": "Polarise",
+      "legalForm": "GmbH (Allemagne)",
+      "relation": "concurrent",
+      "hq": "Paderborn, Allemagne",
+      "founded": "2024",
+      "focus": "AI Factories souveraines : conception, construction et exploitation de data centers IA + plateforme cloud GPU (GPUaaS).",
+      "facts": [
+        "Financement jusqu'à 117 M€ de Macquarie pour l'expansion en Allemagne.",
+        "SWI Stoneweg Icona acquiert une position majoritaire ; valorisation fixée à 0,5 Md€, engagement de 1,0 Md$.",
+        "AI Factories en Bavière (Munich, Amberg), Hesse et Rhénanie-du-Nord-Westphalie."
+      ],
+      "watch": "Positionnement 'IA souveraine européenne' — concurrent direct sur le foncier + énergie en Allemagne.",
+      "website": "https://polarise.eu",
+      "keywords": ["Polarise"]
+    },
+    {
+      "id": "aurora-infra",
+      "name": "Aurora Infra",
+      "legalForm": "À confirmer",
+      "relation": "concurrent",
+      "hq": "International",
+      "founded": "n.c.",
+      "focus": "Infrastructure data center IA : sélection de sites, sourcing colocation, achat/financement GPU, déploiement et exploitation de clusters.",
+      "facts": [
+        "Livre de la capacité IA 'net new' du choix du site jusqu'au cluster opérationnel.",
+        "Modernise aussi des data centers existants pour des charges IA sans reconstruction complète.",
+        "Reste dans la stack après déploiement (monitoring, scaling, exploitation long terme)."
+      ],
+      "watch": "Modèle full-cycle (site → cluster → exploitation). À distinguer d'Aurora Infrastructure (télécom nordique) et des sites d'Aurora, IL.",
+      "website": "https://aurorainfra.ai",
+      "keywords": ["Aurora Infra"]
+    },
+    {
+      "id": "fde-tech",
+      "name": "FDE Tech",
+      "legalForm": "À compléter",
+      "relation": "à-qualifier",
+      "hq": "À compléter",
+      "founded": "n.c.",
+      "focus": "Fiche à compléter — aucune information publique fiable trouvée lors de la mise en place. À renseigner avec tes infos internes.",
+      "facts": [
+        "Profil à enrichir : activité exacte, périmètre géographique, statut concurrent/partenaire."
+      ],
+      "watch": "La veille quotidienne surveillera automatiquement toute mention de 'FDE Tech' dans l'actualité.",
+      "website": "",
+      "keywords": ["FDE Tech", "FDE"]
+    }
+  ]
+}

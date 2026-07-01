@@ -4,7 +4,7 @@
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>Data Center Watch — Veille Land + Power</title>
-<meta name="description" content="Veille quotidienne sur la construction de data centers, le foncier raccordé en énergie, la législation et le marché mondial.">
+<meta name="description" content="Veille sur la construction de data centers, le foncier raccordé en énergie, la législation, le marché, la concurrence et les prévisions.">
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
@@ -25,46 +25,98 @@
       <span class="updated-badge" id="updated-badge">Dernière mise à jour : —</span>
     </div>
   </div>
+  <nav class="tabs" aria-label="Navigation principale">
+    <div class="tabs-inner">
+      <button class="tab is-active" data-tab="veille">Veille</button>
+      <button class="tab" data-tab="concurrents">Concurrents &amp; Partenaires</button>
+      <button class="tab" data-tab="previsions">Prévisions</button>
+      <button class="tab" data-tab="situation">Situation</button>
+    </div>
+  </nav>
 </header>
 
 <main>
-  <section class="hero">
-    <div class="hero-inner">
-      <span class="hero-tag">LIVE VEILLE — LAND + POWER</span>
-      <h1>L'actualité mondiale du foncier et de l'énergie pour data centers, en un seul endroit.</h1>
-      <p class="hero-lede">Construction &amp; projets, foncier &amp; transactions, énergie &amp; réseau, législation, marché et concurrence — synthétisés chaque jour pour votre sourcing.</p>
+
+  <!-- ===================== VEILLE ===================== -->
+  <section class="view is-active" id="view-veille">
+    <div class="hero">
+      <div class="hero-inner">
+        <span class="hero-tag">LIVE VEILLE — LAND + POWER</span>
+        <h1>L'actualité mondiale du foncier et de l'énergie pour data centers, en un seul endroit.</h1>
+        <p class="hero-lede">Construction &amp; projets, foncier &amp; transactions, énergie &amp; réseau, législation, marché et concurrence — synthétisés chaque jour pour votre sourcing.</p>
+      </div>
+    </div>
+
+    <div class="takeaways">
+      <div class="section-inner">
+        <h2 id="takeaways-title">Points clés du jour</h2>
+        <ul id="takeaways-list" class="takeaways-list"></ul>
+      </div>
+    </div>
+
+    <nav class="filters" aria-label="Filtrer par catégorie">
+      <div class="section-inner filters-inner">
+        <button class="filter-btn is-active" data-filter="all">Tout</button>
+        <button class="filter-btn" data-filter="construction">Construction &amp; Projets</button>
+        <button class="filter-btn" data-filter="land">Foncier &amp; Transactions</button>
+        <button class="filter-btn" data-filter="power">Énergie &amp; Réseau</button>
+        <button class="filter-btn" data-filter="legislation">Législation</button>
+        <button class="filter-btn" data-filter="market">État du marché</button>
+        <button class="filter-btn" data-filter="competition">Concurrence &amp; Acteurs</button>
+      </div>
+    </nav>
+
+    <div class="feed section-inner">
+      <div id="card-grid" class="card-grid" aria-live="polite"></div>
+      <p id="empty-state" class="empty-state" hidden>Aucun article dans cette catégorie pour l'instant.</p>
     </div>
   </section>
 
-  <section class="takeaways" aria-labelledby="takeaways-title">
+  <!-- ===================== CONCURRENTS ===================== -->
+  <section class="view" id="view-concurrents">
+    <div class="view-head section-inner">
+      <h2 class="view-title">Concurrents &amp; Partenaires</h2>
+      <p class="view-sub">Suivi des acteurs que vous surveillez, avec les actus liées détectées dans la veille.</p>
+    </div>
     <div class="section-inner">
-      <h2 id="takeaways-title">Points clés du jour</h2>
-      <ul id="takeaways-list" class="takeaways-list"></ul>
+      <div id="watchlist-grid" class="watchlist-grid"></div>
     </div>
   </section>
 
-  <nav class="filters" aria-label="Filtrer par catégorie">
-    <div class="section-inner filters-inner">
-      <button class="filter-btn is-active" data-filter="all">Tout</button>
-      <button class="filter-btn" data-filter="construction">Construction &amp; Projets</button>
-      <button class="filter-btn" data-filter="land">Foncier &amp; Transactions</button>
-      <button class="filter-btn" data-filter="power">Énergie &amp; Réseau</button>
-      <button class="filter-btn" data-filter="legislation">Législation</button>
-      <button class="filter-btn" data-filter="market">État du marché</button>
-      <button class="filter-btn" data-filter="competition">Concurrence &amp; Acteurs</button>
+  <!-- ===================== PRÉVISIONS ===================== -->
+  <section class="view" id="view-previsions">
+    <div class="view-head section-inner">
+      <h2 class="view-title">Prévisions</h2>
+      <p class="view-sub">Probabilités implicites des marchés de prédiction sur des sujets data center / IA / énergie. <strong>Ce sont des cotes de marché, pas des certitudes.</strong></p>
     </div>
-  </nav>
-
-  <section class="feed section-inner">
-    <div id="card-grid" class="card-grid" aria-live="polite"></div>
-    <p id="empty-state" class="empty-state" hidden>Aucun article dans cette catégorie pour l'instant.</p>
+    <div class="section-inner">
+      <h3 class="block-label">Manifold — cotes en direct</h3>
+      <div id="manifold-grid" class="predict-grid">
+        <p class="empty-state">Chargement des marchés…</p>
+      </div>
+      <h3 class="block-label" style="margin-top:32px;">Polymarket — marchés suivis</h3>
+      <div id="polymarket-grid" class="predict-grid"></div>
+    </div>
   </section>
 
+  <!-- ===================== SITUATION ===================== -->
+  <section class="view" id="view-situation">
+    <div class="view-head section-inner">
+      <h2 class="view-title">Situation du marché</h2>
+      <p class="view-sub" id="situation-asof">Chiffres clés agrégés des principaux rapports du secteur.</p>
+    </div>
+    <div class="section-inner">
+      <div id="kpi-grid" class="kpi-grid"></div>
+      <p id="situation-note" class="situation-note"></p>
+    </div>
+  </section>
+
+  <!-- ===================== NEWSLETTER (global) ===================== -->
   <section class="newsletter">
     <div class="section-inner newsletter-inner">
       <div class="newsletter-copy">
         <h2>Recevez l'essentiel chaque semaine</h2>
-        <p>Un résumé hebdomadaire des faits marquants — construction, foncier &amp; énergie, législation, marché — directement par email.</p>
+        <p>Un résumé hebdomadaire des faits marquants — construction, foncier &amp; énergie, législation, marché, concurrence — directement par email.</p>
       </div>
       <form id="subscribe-form" class="subscribe-form" novalidate>
         <label for="email" class="sr-only">Adresse email</label>
@@ -74,11 +126,12 @@
       <p id="subscribe-message" class="subscribe-message" role="status"></p>
     </div>
   </section>
+
 </main>
 
 <footer class="site-footer">
   <div class="section-inner">
-    <p>Data Center Watch — outil de veille interne. Sources citées pour chaque article.</p>
+    <p>Data Center Watch — outil de veille interne. Sources citées pour chaque donnée.</p>
   </div>
 </footer>
 

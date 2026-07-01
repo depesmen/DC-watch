@@ -1,0 +1,16 @@
+{
+  "note": "Cotes des marchés de prédiction — probabilités implicites, PAS des certitudes. Manifold est chargé en direct ; les liens Polymarket sont curés.",
+  "manifoldTerms": ["data center", "AI data center", "datacenter power grid"],
+  "polymarket": [
+    {
+      "title": "AI data center dans l'espace — à quelle date ?",
+      "note": "Marché multi-issues (Starcloud/NVIDIA, entraînement en orbite).",
+      "url": "https://polymarket.com/event/ai-data-center-in-space-by"
+    },
+    {
+      "title": "Prédictions IA (temps réel)",
+      "note": "Catégorie IA de Polymarket — 200+ marchés, cotes en direct.",
+      "url": "https://polymarket.com/tech/ai"
+    }
+  ]
+}
