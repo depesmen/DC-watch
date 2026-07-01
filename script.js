@@ -7,12 +7,6 @@ const CATEGORY_LABELS = {
   competition: 'Concurrence & Acteurs',
 };
 
-const RELATION_LABELS = {
-  concurrent: 'Concurrent',
-  partenaire: 'Partenaire',
-  'à-qualifier': 'À qualifier',
-};
-
 /* ---------- Tabs ---------- */
 const tabs = document.querySelectorAll('.tab');
 const views = document.querySelectorAll('.view');
@@ -183,39 +177,43 @@ async function loadWatchlist(veilleItems) {
     const data = await res.json();
     grid.innerHTML = '';
     for (const c of data.companies) {
-      const related = veilleItems.filter((item) =>
-        (c.keywords || []).some((kw) => {
-          const hay = `${item.title} ${item.summary}`.toLowerCase();
-          return hay.includes(kw.toLowerCase());
-        })
-      );
+      // Curated news + any veille items mentioning the company (dedup by url)
+      const matched = veilleItems.filter((item) =>
+        (c.keywords || []).some((kw) => `${item.title} ${item.summary}`.toLowerCase().includes(kw.toLowerCase()))
+      ).map((item) => ({ date: item.date, title: item.title, source: item.source, url: item.url }));
+      const seenUrls = new Set((c.news || []).map((n) => n.url));
+      const news = [...(c.news || []), ...matched.filter((m) => !seenUrls.has(m.url))];
+
       const factsHtml = (c.facts || []).map((f) => `<li>${f}</li>`).join('');
-      const relatedHtml = related.length
-        ? `<div class="wl-related">
-             <span class="wl-related-label">Actus liées (${related.length})</span>
-             ${related.map((r) => `<a href="${r.url}" target="_blank" rel="noopener noreferrer">${r.title}</a>`).join('')}
+      const newsHtml = news.length
+        ? `<div class="wl-news">
+             <span class="wl-news-label">Dernières infos</span>
+             ${news.map((n) => `
+               <a class="wl-news-item" href="${n.url}" target="_blank" rel="noopener noreferrer">
+                 <span class="wl-news-date">${formatDate(n.date)}</span>
+                 <span class="wl-news-title">${n.title}</span>
+                 <span class="wl-news-src">${n.source}</span>
+               </a>`).join('')}
            </div>`
-        : `<div class="wl-related"><span class="wl-related-label wl-muted">Aucune actu détectée pour l'instant</span></div>`;
+        : `<div class="wl-news"><span class="wl-news-label wl-muted">Aucune info récente</span></div>`;
       const website = c.website
         ? `<a class="wl-link" href="${c.website}" target="_blank" rel="noopener noreferrer">${c.website.replace(/^https?:\/\//, '')} →</a>`
         : '';
       const card = document.createElement('article');
       card.className = 'wl-card';
-      card.dataset.relation = c.relation;
+      card.dataset.accent = c.accent || 'cyan';
       card.innerHTML = `
         <div class="wl-head">
           <h3>${c.name}</h3>
-          <span class="wl-tag wl-tag-${c.relation}">${RELATION_LABELS[c.relation] || c.relation}</span>
         </div>
         <dl class="wl-meta">
           <div><dt>Forme</dt><dd>${c.legalForm}</dd></div>
           <div><dt>Siège</dt><dd>${c.hq}</dd></div>
-          <div><dt>Créée</dt><dd>${c.founded}</dd></div>
         </dl>
         <p class="wl-focus">${c.focus}</p>
         <ul class="wl-facts">${factsHtml}</ul>
+        ${newsHtml}
         <p class="wl-watch"><span>À surveiller —</span> ${c.watch}</p>
-        ${relatedHtml}
         ${website}
       `;
       grid.appendChild(card);
@@ -229,62 +227,44 @@ async function loadWatchlist(veilleItems) {
 /* ---------- Prévisions ---------- */
 async function loadPredictions() {
   const manifoldGrid = document.getElementById('manifold-grid');
-  const polyGrid = document.getElementById('polymarket-grid');
-  let config = { manifoldTerms: ['data center'], polymarket: [] };
+  let config = { manifold: [] };
   try {
     const res = await fetch('data/predictions.json', { cache: 'no-store' });
     config = await res.json();
   } catch (e) { /* use defaults */ }
 
-  // Polymarket curated links
-  polyGrid.innerHTML = (config.polymarket || []).map((p) => `
-    <a class="predict-card predict-link" href="${p.url}" target="_blank" rel="noopener noreferrer">
-      <span class="predict-platform">Polymarket</span>
-      <h4>${p.title}</h4>
-      <p>${p.note || ''}</p>
-      <span class="predict-cta">Voir le marché →</span>
-    </a>
-  `).join('');
-
-  // Manifold live
-  try {
-    const seen = new Set();
-    const markets = [];
-    for (const term of (config.manifoldTerms || [])) {
-      const url = `https://api.manifold.markets/v0/search-markets?term=${encodeURIComponent(term)}&limit=8&sort=score&filter=open`;
-      const res = await fetch(url);
-      if (!res.ok) continue;
-      const data = await res.json();
-      for (const m of data) {
-        if (m.outcomeType !== 'BINARY' || m.isResolved) continue;
-        if (seen.has(m.id)) continue;
-        seen.add(m.id);
-        markets.push(m);
-      }
-    }
-    markets.sort((a, b) => (b.volume || 0) - (a.volume || 0));
-    const top = markets.slice(0, 9);
-    if (!top.length) {
-      manifoldGrid.innerHTML = '<p class="empty-state">Aucun marché ouvert trouvé pour ces termes actuellement.</p>';
-      return;
-    }
-    manifoldGrid.innerHTML = top.map((m) => {
-      const pct = Math.round((m.probability || 0) * 100);
-      return `
-        <a class="predict-card" href="${m.url}" target="_blank" rel="noopener noreferrer">
-          <span class="predict-platform">Manifold</span>
-          <h4>${m.question}</h4>
-          <div class="predict-prob">
-            <div class="predict-bar"><span style="width:${pct}%"></span></div>
-            <span class="predict-pct">${pct}%</span>
-          </div>
-          <span class="predict-cta">Voir le marché →</span>
-        </a>`;
-    }).join('');
-  } catch (err) {
-    manifoldGrid.innerHTML = '<p class="empty-state">Impossible de charger les cotes Manifold (réseau ?).</p>';
-    console.error('Manifold fetch failed', err);
+  const entries = config.manifold || [];
+  if (!entries.length) {
+    manifoldGrid.innerHTML = '<p class="empty-state">Aucun marché configuré.</p>';
+    return;
   }
+
+  // Fetch each curated market live by slug
+  const results = await Promise.all(entries.map(async (entry) => {
+    try {
+      const res = await fetch(`https://api.manifold.markets/v0/slug/${entry.slug}`);
+      if (!res.ok) return null;
+      const m = await res.json();
+      return { titleFr: entry.titleFr, pct: Math.round((m.probability || 0) * 100), url: m.url, closed: m.isResolved };
+    } catch { return null; }
+  }));
+
+  const cards = results.filter((r) => r && !r.closed);
+  if (!cards.length) {
+    manifoldGrid.innerHTML = '<p class="empty-state">Impossible de charger les cotes Manifold (réseau ?).</p>';
+    return;
+  }
+
+  manifoldGrid.innerHTML = cards.map((c) => `
+    <a class="predict-card" href="${c.url}" target="_blank" rel="noopener noreferrer">
+      <span class="predict-platform">Manifold · cote en direct</span>
+      <h4>${c.titleFr}</h4>
+      <div class="predict-prob">
+        <div class="predict-bar"><span style="width:${c.pct}%"></span></div>
+        <span class="predict-pct">${c.pct}%</span>
+      </div>
+      <span class="predict-cta">Voir le marché →</span>
+    </a>`).join('');
 }
 
 /* ---------- Situation ---------- */
@@ -295,19 +275,26 @@ async function loadSituation() {
   try {
     const res = await fetch('data/situation.json', { cache: 'no-store' });
     const data = await res.json();
-    asOf.textContent = `Chiffres clés — arrêtés au ${data.asOf}.`;
+    asOf.textContent = `Chiffres clés par région — arrêtés au ${data.asOf}.`;
     note.textContent = data.note || '';
-    grid.innerHTML = data.kpis.map((k) => `
-      <div class="kpi-card">
-        <div class="kpi-top">
-          <span class="kpi-group">${k.group || ''}</span>
-          <span class="kpi-trend kpi-trend-${k.trend || 'flat'}">${trendIcon(k.trend)}</span>
+    grid.innerHTML = (data.regions || []).map((region) => `
+      <section class="kpi-region">
+        <h3 class="kpi-region-title">${region.name}</h3>
+        <div class="kpi-region-grid">
+          ${region.kpis.map((k) => `
+            <div class="kpi-card">
+              <div class="kpi-top">
+                <span class="kpi-group">${region.name}</span>
+                <span class="kpi-trend kpi-trend-${k.trend || 'flat'}">${trendIcon(k.trend)}</span>
+              </div>
+              <div class="kpi-value">${k.value}</div>
+              <div class="kpi-label">${k.label}</div>
+              <div class="kpi-sub">${k.sub || ''}</div>
+              <a class="kpi-source" href="${k.url}" target="_blank" rel="noopener noreferrer">${k.source} →</a>
+            </div>
+          `).join('')}
         </div>
-        <div class="kpi-value">${k.value}</div>
-        <div class="kpi-label">${k.label}</div>
-        <div class="kpi-sub">${k.sub || ''}</div>
-        <a class="kpi-source" href="${k.url}" target="_blank" rel="noopener noreferrer">${k.source} →</a>
-      </div>
+      </section>
     `).join('');
   } catch (err) {
     grid.innerHTML = '<p class="empty-state">Impossible de charger les chiffres du marché.</p>';

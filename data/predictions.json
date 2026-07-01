@@ -1,16 +1,13 @@
 {
-  "note": "Cotes des marchés de prédiction — probabilités implicites, PAS des certitudes. Manifold est chargé en direct ; les liens Polymarket sont curés.",
-  "manifoldTerms": ["data center", "AI data center", "datacenter power grid"],
-  "polymarket": [
-    {
-      "title": "AI data center dans l'espace — à quelle date ?",
-      "note": "Marché multi-issues (Starcloud/NVIDIA, entraînement en orbite).",
-      "url": "https://polymarket.com/event/ai-data-center-in-space-by"
-    },
-    {
-      "title": "Prédictions IA (temps réel)",
-      "note": "Catégorie IA de Polymarket — 200+ marchés, cotes en direct.",
-      "url": "https://polymarket.com/tech/ai"
-    }
+  "note": "Probabilités implicites des marchés Manifold, chargées en direct. Ce sont des cotes de marché, pas des certitudes. Titres traduits en français.",
+  "manifold": [
+    { "slug": "will-combined-2026-ai-capex-from-aw", "titleFr": "Le capex IA cumulé 2026 (AWS, Azure, GCP, Meta, Oracle) dépassera-t-il 300 Md$ ?" },
+    { "slug": "will-there-be-an-ai-data-center-pow", "titleFr": "Un data center IA sera-t-il alimenté par une nouvelle centrale nucléaire d'ici 2030 ?" },
+    { "slug": "will-microsoft-power-its-data-cente", "titleFr": "Microsoft alimentera-t-il un data center avec un petit réacteur modulaire (SMR) d'ici 2030 ?" },
+    { "slug": "will-us-datacenter-electricity-dema", "titleFr": "La conso électrique des data centers US dépassera-t-elle 6 % du total national fin 2026 ?" },
+    { "slug": "nvidias-datacenter-revenue-and-bigt", "titleFr": "Le CA data center de NVIDIA et le capex IA des BigTech vont-ils doubler d'ici le T4 2026 ?" },
+    { "slug": "will-gov-hochul-sign-new-yorks-data", "titleFr": "La gouverneure Hochul signera-t-elle le moratoire data center de New York d'ici fin 2026 ?" },
+    { "slug": "will-the-ai-data-center-moratorium", "titleFr": "L'AI Data Center Moratorium Act (S.4214) sera-t-il adopté par le Congrès ?" },
+    { "slug": "soai9-datacenter-nimbyism-takes-the", "titleFr": "Le rejet local (NIMBY) des data centers va-t-il s'imposer aux USA et peser sur les midterms ?" }
   ]
 }

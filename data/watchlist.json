@@ -4,52 +4,62 @@
       "id": "polarise",
       "name": "Polarise",
       "legalForm": "GmbH (Allemagne)",
-      "relation": "concurrent",
+      "accent": "cyan",
       "hq": "Paderborn, Allemagne",
       "founded": "2024",
-      "focus": "AI Factories souveraines : conception, construction et exploitation de data centers IA + plateforme cloud GPU (GPUaaS).",
+      "focus": "AI Factories souveraines : conception, construction et exploitation de data centers IA + cloud GPU (GPUaaS / AIaaS). NVIDIA Cloud Service Provider en Europe.",
       "facts": [
-        "Financement jusqu'à 117 M€ de Macquarie pour l'expansion en Allemagne.",
-        "SWI Stoneweg Icona acquiert une position majoritaire ; valorisation fixée à 0,5 Md€, engagement de 1,0 Md$.",
-        "AI Factories en Bavière (Munich, Amberg), Hesse et Rhénanie-du-Nord-Westphalie."
+        "Positionnement 'IA souveraine européenne' — concurrent direct sur le foncier + énergie sécurisée.",
+        "AI Factories en Bavière (Munich, Amberg), Hesse et Rhénanie-du-Nord-Westphalie ; projet AI Hub One à Oslo (Norvège)."
       ],
-      "watch": "Positionnement 'IA souveraine européenne' — concurrent direct sur le foncier + énergie en Allemagne.",
+      "watch": "rythme d'expansion et sécurisation de puissance électrique en Europe continentale.",
       "website": "https://polarise.eu",
-      "keywords": ["Polarise"]
+      "keywords": ["Polarise"],
+      "news": [
+        { "date": "2026-06", "title": "SWI Group prend une position majoritaire (valo 0,5 Md€, engagement 1,0 Md$)", "source": "Data Centre Magazine", "url": "https://datacentremagazine.com/news/why-is-polarise-expanding-its-european-ai-data-centres" },
+        { "date": "2026-01-11", "title": "Macquarie prête jusqu'à 117 M€ pour l'aménagement de data centers", "source": "Macquarie", "url": "https://www.macquarie.com/us/en/about/news/2026/polarise-and-macquarie-announce-up-to-117-million-euros-financing-deal-for-european-ai-ambitions.html" },
+        { "date": "2026", "title": "DDN signe un accord de stockage avec Polarise", "source": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/news/ddn-signs-deal-with-european-ai-data-center-hopeful-polarise/" }
+      ]
     },
     {
       "id": "aurora-infra",
       "name": "Aurora Infra",
-      "legalForm": "À confirmer",
-      "relation": "concurrent",
-      "hq": "International",
+      "legalForm": "Plateforme privée d'infra IA",
+      "accent": "violet",
+      "hq": "Sites en Norvège & États-Unis",
       "founded": "n.c.",
-      "focus": "Infrastructure data center IA : sélection de sites, sourcing colocation, achat/financement GPU, déploiement et exploitation de clusters.",
+      "focus": "Infra IA full-stack : sélection de sites, sourcing colocation, achat/financement GPU, déploiement et exploitation de clusters (B200/B300 managés), stockage objet à l'échelle PB.",
       "facts": [
-        "Livre de la capacité IA 'net new' du choix du site jusqu'au cluster opérationnel.",
-        "Modernise aussi des data centers existants pour des charges IA sans reconstruction complète.",
-        "Reste dans la stack après déploiement (monitoring, scaling, exploitation long terme)."
+        "Modèle full-cycle : du choix du site au cluster opérationnel, puis exploitation long terme (monitoring, scaling).",
+        "Réfère un marché de 700 Md$+ de dépenses hyperscaler IA en 2026 ; SLA de disponibilité 99,9 %."
       ],
-      "watch": "Modèle full-cycle (site → cluster → exploitation). À distinguer d'Aurora Infrastructure (télécom nordique) et des sites d'Aurora, IL.",
+      "watch": "peu de presse dédiée à ce jour. Ne pas confondre avec 'Aurora Infrastructure' (télécom nordique) ni avec le data center 'Aurora' de 96 MW de Digital Realty à Manassas (VA).",
       "website": "https://aurorainfra.ai",
-      "keywords": ["Aurora Infra"]
+      "keywords": ["Aurora Infra"],
+      "news": [
+        { "date": "2026", "title": "Clusters GPU managés B200/B300 + inférence IA as-a-service, sites en Norvège et aux USA", "source": "Aurora Infra", "url": "https://aurorainfra.ai/products/gpu-ai" }
+      ]
     },
     {
       "id": "fde",
       "name": "La Française de l'Énergie (FDE)",
       "legalForm": "SA cotée — Euronext Paris (FDE)",
-      "relation": "partenaire",
-      "hq": "France (Hauts-de-France, Lorraine) & Wallonie",
+      "accent": "green",
+      "hq": "Hauts-de-France, Lorraine & Wallonie",
       "founded": "Producteur multi-énergies local",
-      "focus": "Production locale de gaz, d'électricité verte et de chaleur à partir de ressources régionales (circuits courts), à empreinte carbone négative.",
+      "focus": "Producteur multi-énergies à empreinte carbone négative : gaz (récupération de gaz de mine abandonné), électricité verte et chaleur, en circuits courts sur son territoire.",
       "facts": [
-        "Implantée en Hauts-de-France, Wallonie et Lorraine — territoire pertinent pour du land+power local.",
-        "Contexte : les data centers en France saturent le réseau RTE (demandes = 3× la conso électrique de l'industrie) et cherchent des sources d'énergie locales / au gaz.",
-        "Angle : fournisseur d'énergie décentralisée potentiel pour alimenter des sites data center régionaux."
+        "Seul producteur d'énergie français revendiquant une empreinte carbone négative ; valorise le gaz de mine pour éviter les émissions fatales.",
+        "Implantée pile sur des territoires en tension foncière/énergétique (Hauts-de-France, Lorraine) proches des couloirs data center France/Benelux."
       ],
-      "watch": "Suivre tout rapprochement FDE ↔ data center / raccordement énergie en Lorraine et Hauts-de-France. Partenaire énergie potentiel plutôt que concurrent foncier.",
+      "watch": "Lien potentiel avec les data centers : fournisseur d'énergie décentralisée (gaz/élec locale) alors que la saturation du réseau RTE (demandes = 3× la conso de l'industrie) pousse les projets à chercher des sources locales, voire au gaz. Surveiller tout rapprochement FDE ↔ data center / raccordement en Lorraine et Hauts-de-France.",
       "website": "https://www.francaisedelenergie.fr",
-      "keywords": ["Française de l'Énergie", "Française de l'Energie", "FDE"]
+      "keywords": ["Française de l'Énergie", "Française de l'Energie", "FDE"],
+      "news": [
+        { "date": "2026-06", "title": "Contexte — Campus IA de Fouju (1,4 GW, 8,5 Md€) illustre la ruée énergétique data center en France", "source": "Media24", "url": "https://media24.fr/2026/06/03/avec-le-campus-ia-de-fouju-eiffage-met-les-mains-dans-le-coeur-electrique-de-lintelligence-artificielle-francaise/" },
+        { "date": "2026", "title": "Contexte — Face à la saturation du réseau RTE, les data centers lorgnent le gaz", "source": "Reporterre", "url": "https://reporterre.net/C-est-une-aberration-pour-les-besoins-de-l-IA-les-data-centers-veulent-tourner-au-gaz" },
+        { "date": "2024", "title": "Contexte — Conso énergétique des data centers en France : 2,7 TWh (+38 % depuis 2021)", "source": "Économie Matin", "url": "https://www.economiematin.fr/data-center-explosion-energetique-france" }
+      ]
     }
   ]
 }
