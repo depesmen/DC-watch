@@ -32,12 +32,12 @@
     },
     {
       "flag": "🇪🇺",
-      "name": "Europe / EMEA",
+      "name": "Europe",
       "kpis": [
-        { "label": "Capacité opérationnelle", "value": "11,4 GW", "sub": "+ 2,7 GW en construction", "trend": "up", "source": "Cushman & Wakefield", "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison" },
-        { "label": "Capacité planifiée", "value": "12,1 GW", "sub": "+13 GW de nouvelle offre attendue", "trend": "up", "source": "Cushman & Wakefield", "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison" },
-        { "label": "Délai de raccordement", "value": "5,2 ans", "sub": "le plus long des grandes régions", "trend": "up", "source": "Cushman & Wakefield", "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison" },
-        { "label": "Croissance annuelle (CAGR)", "value": "~10 %", "sub": "portée par l'IA souveraine", "trend": "up", "source": "CBRE / rapports EMEA 2026", "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026" }
+        { "label": "Marchés primaires (FLAP-D)", "value": "5 hubs", "sub": "Francfort · Londres · Amsterdam · Paris · Dublin", "trend": "flat", "source": "CBRE — European Data Centres", "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026" },
+        { "label": "Plus gros plan IA en Europe", "value": "5 GW", "sub": "SoftBank en France — 75 Md€ d'ici 2031", "trend": "up", "source": "Construction Dive", "url": "https://www.constructiondive.com/news/data-center-construction-rolls-into-2026/808636/" },
+        { "label": "Méga-campus IA", "value": "1,4 GW", "sub": "Campus de Fouju (France) — 8,5 Md€", "trend": "up", "source": "Media24", "url": "https://media24.fr/2026/06/03/avec-le-campus-ia-de-fouju-eiffage-met-les-mains-dans-le-coeur-electrique-de-lintelligence-artificielle-francaise/" },
+        { "label": "Marchés secondaires en essor", "value": "6 villes", "sub": "Milan, Madrid, Zaragoza, Helsinki, Oslo, Stockholm", "trend": "up", "source": "Cushman & Wakefield", "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison" }
       ]
     },
     {
