@@ -40,6 +40,16 @@ function formatDate(iso) {
   return iso;
 }
 
+function domainOf(url) {
+  try { return new URL(url).hostname.replace(/^www\./, ''); }
+  catch { return ''; }
+}
+
+function faviconOf(url) {
+  const d = domainOf(url);
+  return d ? `https://www.google.com/s2/favicons?domain=${d}&sz=32` : '';
+}
+
 /* ---------- Veille ---------- */
 const grid = document.getElementById('card-grid');
 const emptyState = document.getElementById('empty-state');
@@ -58,6 +68,7 @@ function renderCards() {
     const card = document.createElement('article');
     card.className = 'card';
     card.dataset.category = item.category;
+    const fav = faviconOf(item.url);
     card.innerHTML = `
       <div class="card-top">
         <span class="badge badge-${item.category}">${CATEGORY_LABELS[item.category] || item.category}</span>
@@ -65,7 +76,10 @@ function renderCards() {
       </div>
       <h3>${item.title}</h3>
       <p>${item.summary}</p>
-      <a class="card-source" href="${item.url}" target="_blank" rel="noopener noreferrer">${item.source} →</a>
+      <a class="card-source" href="${item.url}" target="_blank" rel="noopener noreferrer">
+        ${fav ? `<img class="card-favicon" src="${fav}" alt="" width="16" height="16" loading="lazy">` : ''}
+        <span>${item.source} →</span>
+      </a>
     `;
     grid.appendChild(card);
   }
@@ -89,6 +103,60 @@ filterButtons.forEach((btn) => {
   });
 });
 
+function renderAggregates(items, lastUpdated) {
+  // Freshness counter
+  const status = document.getElementById('feed-status');
+  if (status) {
+    status.innerHTML = `<strong>${items.length}</strong> actus &middot; Mis à jour le ${formatDate(lastUpdated)}`;
+  }
+
+  // Filter counts
+  const byCat = {};
+  for (const it of items) byCat[it.category] = (byCat[it.category] || 0) + 1;
+  filterButtons.forEach((btn) => {
+    const f = btn.dataset.filter;
+    const n = f === 'all' ? items.length : (byCat[f] || 0);
+    let badge = btn.querySelector('.filter-count');
+    if (!badge) {
+      badge = document.createElement('span');
+      badge.className = 'filter-count';
+      btn.appendChild(badge);
+    }
+    badge.textContent = n;
+  });
+
+  // Region breakdown
+  const byRegion = {};
+  for (const it of items) byRegion[it.region] = (byRegion[it.region] || 0) + 1;
+  const regionList = document.getElementById('region-breakdown');
+  if (regionList) {
+    regionList.innerHTML = Object.entries(byRegion)
+      .sort((a, b) => b[1] - a[1])
+      .map(([name, n]) => `<li><span class="side-name">${name}</span><span class="side-count">${n}</span></li>`)
+      .join('');
+  }
+
+  // Source breakdown (with favicon)
+  const bySource = {};
+  for (const it of items) {
+    if (!bySource[it.source]) bySource[it.source] = { count: 0, url: it.url };
+    bySource[it.source].count += 1;
+  }
+  const sourceList = document.getElementById('source-breakdown');
+  if (sourceList) {
+    sourceList.innerHTML = Object.entries(bySource)
+      .sort((a, b) => b[1].count - a[1].count)
+      .map(([name, info]) => {
+        const fav = faviconOf(info.url);
+        return `<li>
+          <span class="side-name">${fav ? `<img src="${fav}" alt="" width="14" height="14" loading="lazy">` : ''}${name}</span>
+          <span class="side-count">${info.count}</span>
+        </li>`;
+      })
+      .join('');
+  }
+}
+
 async function loadVeille() {
   try {
     const res = await fetch('data/veille.json', { cache: 'no-store' });
@@ -97,6 +165,7 @@ async function loadVeille() {
     updatedBadge.textContent = `Dernière mise à jour : ${formatDate(data.lastUpdated)}`;
     renderTakeaways(data.keyTakeaways || []);
     renderCards();
+    renderAggregates(allItems, data.lastUpdated);
     return allItems;
   } catch (err) {
     emptyState.hidden = false;

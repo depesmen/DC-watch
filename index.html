@@ -66,9 +66,22 @@
       </div>
     </nav>
 
-    <div class="feed section-inner">
-      <div id="card-grid" class="card-grid" aria-live="polite"></div>
-      <p id="empty-state" class="empty-state" hidden>Aucun article dans cette catégorie pour l'instant.</p>
+    <div class="section-inner veille-layout">
+      <div class="feed">
+        <div class="feed-status" id="feed-status"></div>
+        <div id="card-grid" class="card-grid" aria-live="polite"></div>
+        <p id="empty-state" class="empty-state" hidden>Aucun article dans cette catégorie pour l'instant.</p>
+      </div>
+      <aside class="veille-sidebar">
+        <div class="side-box">
+          <h3 class="side-title">Répartition par région</h3>
+          <ul id="region-breakdown" class="side-list"></ul>
+        </div>
+        <div class="side-box">
+          <h3 class="side-title">Sources</h3>
+          <ul id="source-breakdown" class="side-list"></ul>
+        </div>
+      </aside>
     </div>
   </section>
 

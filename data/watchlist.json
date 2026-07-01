@@ -35,19 +35,21 @@
       "keywords": ["Aurora Infra"]
     },
     {
-      "id": "fde-tech",
-      "name": "FDE Tech",
-      "legalForm": "À compléter",
-      "relation": "à-qualifier",
-      "hq": "À compléter",
-      "founded": "n.c.",
-      "focus": "Fiche à compléter — aucune information publique fiable trouvée lors de la mise en place. À renseigner avec tes infos internes.",
+      "id": "fde",
+      "name": "La Française de l'Énergie (FDE)",
+      "legalForm": "SA cotée — Euronext Paris (FDE)",
+      "relation": "partenaire",
+      "hq": "France (Hauts-de-France, Lorraine) & Wallonie",
+      "founded": "Producteur multi-énergies local",
+      "focus": "Production locale de gaz, d'électricité verte et de chaleur à partir de ressources régionales (circuits courts), à empreinte carbone négative.",
       "facts": [
-        "Profil à enrichir : activité exacte, périmètre géographique, statut concurrent/partenaire."
+        "Implantée en Hauts-de-France, Wallonie et Lorraine — territoire pertinent pour du land+power local.",
+        "Contexte : les data centers en France saturent le réseau RTE (demandes = 3× la conso électrique de l'industrie) et cherchent des sources d'énergie locales / au gaz.",
+        "Angle : fournisseur d'énergie décentralisée potentiel pour alimenter des sites data center régionaux."
       ],
-      "watch": "La veille quotidienne surveillera automatiquement toute mention de 'FDE Tech' dans l'actualité.",
-      "website": "",
-      "keywords": ["FDE Tech", "FDE"]
+      "watch": "Suivre tout rapprochement FDE ↔ data center / raccordement énergie en Lorraine et Hauts-de-France. Partenaire énergie potentiel plutôt que concurrent foncier.",
+      "website": "https://www.francaisedelenergie.fr",
+      "keywords": ["Française de l'Énergie", "Française de l'Energie", "FDE"]
     }
   ]
 }
