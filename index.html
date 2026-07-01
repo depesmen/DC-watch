@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<title>Data Center Watch — Veille Land + Power</title>
+<meta name="description" content="Veille quotidienne sur la construction de data centers, le foncier raccordé en énergie, la législation et le marché mondial.">
+<link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+
+<header class="topbar">
+  <div class="topbar-inner">
+    <div class="brand">
+      <span class="brand-mark" aria-hidden="true"></span>
+      <div class="brand-text">
+        <span class="brand-name">Data Center Watch</span>
+        <span class="brand-sub">Veille Land + Power</span>
+      </div>
+    </div>
+    <div class="topbar-meta">
+      <span class="updated-badge" id="updated-badge">Dernière mise à jour : —</span>
+    </div>
+  </div>
+</header>
+
+<main>
+  <section class="hero">
+    <div class="hero-inner">
+      <span class="hero-tag">LIVE VEILLE — LAND + POWER</span>
+      <h1>L'actualité mondiale du foncier et de l'énergie pour data centers, en un seul endroit.</h1>
+      <p class="hero-lede">Construction &amp; projets, foncier &amp; transactions, énergie &amp; réseau, législation, marché et concurrence — synthétisés chaque jour pour votre sourcing.</p>
+    </div>
+  </section>
+
+  <section class="takeaways" aria-labelledby="takeaways-title">
+    <div class="section-inner">
+      <h2 id="takeaways-title">Points clés du jour</h2>
+      <ul id="takeaways-list" class="takeaways-list"></ul>
+    </div>
+  </section>
+
+  <nav class="filters" aria-label="Filtrer par catégorie">
+    <div class="section-inner filters-inner">
+      <button class="filter-btn is-active" data-filter="all">Tout</button>
+      <button class="filter-btn" data-filter="construction">Construction &amp; Projets</button>
+      <button class="filter-btn" data-filter="land">Foncier &amp; Transactions</button>
+      <button class="filter-btn" data-filter="power">Énergie &amp; Réseau</button>
+      <button class="filter-btn" data-filter="legislation">Législation</button>
+      <button class="filter-btn" data-filter="market">État du marché</button>
+      <button class="filter-btn" data-filter="competition">Concurrence &amp; Acteurs</button>
+    </div>
+  </nav>
+
+  <section class="feed section-inner">
+    <div id="card-grid" class="card-grid" aria-live="polite"></div>
+    <p id="empty-state" class="empty-state" hidden>Aucun article dans cette catégorie pour l'instant.</p>
+  </section>
+
+  <section class="newsletter">
+    <div class="section-inner newsletter-inner">
+      <div class="newsletter-copy">
+        <h2>Recevez l'essentiel chaque semaine</h2>
+        <p>Un résumé hebdomadaire des faits marquants — construction, foncier &amp; énergie, législation, marché — directement par email.</p>
+      </div>
+      <form id="subscribe-form" class="subscribe-form" novalidate>
+        <label for="email" class="sr-only">Adresse email</label>
+        <input type="email" id="email" name="email" placeholder="vous@entreprise.com" required autocomplete="email">
+        <button type="submit">S'inscrire</button>
+      </form>
+      <p id="subscribe-message" class="subscribe-message" role="status"></p>
+    </div>
+  </section>
+</main>
+
+<footer class="site-footer">
+  <div class="section-inner">
+    <p>Data Center Watch — outil de veille interne. Sources citées pour chaque article.</p>
+  </div>
+</footer>
+
+<script src="script.js"></script>
+</body>
+</html>

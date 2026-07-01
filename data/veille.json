@@ -1,0 +1,183 @@
+{
+  "lastUpdated": "2026-07-01",
+  "keyTakeaways": [
+    "L'électricité, plus que le capital ou le foncier, est devenue la principale contrainte au développement de nouveaux data centers.",
+    "La vacance atteint des niveaux historiquement bas aux USA (1,2% au Q1 2026, 0,3% en Northern Virginia) malgré un pipeline de 160 GW en construction/annoncé.",
+    "Les acquisitions foncières commencent désormais par la négociation avec l'électricien local, avant même le foncier — les développeurs sécurisent le raccordement des années à l'avance.",
+    "La vague législative s'accélère : plus de 300 projets de loi liés aux data centers déposés dans 30 États américains en six semaines ; New York pourrait devenir le premier État à voter un moratoire.",
+    "Les géants tech intègrent directement la production d'énergie (Alphabet/Intersect) ou lancent leurs propres véhicules d'investissement (KKR/Helix) pour sécuriser terrain et capacité en amont."
+  ],
+  "items": [
+    {
+      "category": "construction",
+      "title": "CloudBurst démarre son campus phare de 1,2 GW au Texas",
+      "region": "Amérique du Nord",
+      "date": "2026-06",
+      "summary": "CloudBurst Data Centers a lancé la construction de son campus phare de 1,2 GW dans la zone San Marcos/New Braunfels, au centre du Texas.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-june-2026"
+    },
+    {
+      "category": "construction",
+      "title": "SoftBank annonce jusqu'à 75 Md€ pour 5 GW de capacité en France",
+      "region": "Europe",
+      "date": "2026-06",
+      "summary": "SoftBank prévoit d'investir jusqu'à 75 milliards d'euros pour développer 5 GW de capacité data center en France, avec trois premiers sites à Dunkerque, Bosquel et Bouchain, visant 3,1 GW d'ici 2031.",
+      "source": "Construction Dive",
+      "url": "https://www.constructiondive.com/news/data-center-construction-rolls-into-2026/808636/"
+    },
+    {
+      "category": "construction",
+      "title": "Le campus Stargate Frontier au Texas entre en service dès le second semestre 2026",
+      "region": "Amérique du Nord",
+      "date": "2026-06",
+      "summary": "La construction, débutée fin 2025, avance sur plusieurs phases ; la première installation doit entrer en service au second semestre 2026 pour les besoins d'entraînement et d'inférence IA d'OpenAI sur Oracle Cloud Infrastructure.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-april-2026"
+    },
+    {
+      "category": "land",
+      "title": "Amazon acquiert 1 300 acres au Texas, Hut 8 signe un bail de près de 10 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-05",
+      "summary": "Des entités liées à Amazon Data Services ont acquis au moins 1 300 acres dans le comté de Bastrop (zone Cedar Creek, à 30 miles au sud-est d'Austin) — l'une des plus grosses acquisitions foncières du centre du Texas liées à un projet hyperscale.",
+      "source": "The Real Deal",
+      "url": "https://therealdeal.com/texas/2026/05/07/amazons-1000-acre-land-buy-deepens-texas-data-center-bench/"
+    },
+    {
+      "category": "land",
+      "title": "Microsoft veut acquérir 3 200 acres à Cheyenne (Wyoming)",
+      "region": "Amérique du Nord",
+      "date": "2026-04",
+      "summary": "Microsoft a annoncé son intention d'acheter environ 3 200 acres pour développer un data center à Cheyenne — deux parcelles, dont 3 000 acres dans le sud-est de la ville, pour une extension future de ses opérations.",
+      "source": "Microsoft Source",
+      "url": "https://news.microsoft.com/source/2026/04/14/microsoft-announces-intent-to-expand-datacenter-operations-in-cheyenne-accelerating-innovation-and-economic-growth/"
+    },
+    {
+      "category": "land",
+      "title": "Projet Stratos dans l'Utah : campus data center + énergie sur 40 000 acres",
+      "region": "Amérique du Nord",
+      "date": "2026-05",
+      "summary": "Le comté de Box Elder (Utah) doit voter sur le projet Stratos, un campus combiné data center et production d'énergie envisagé sur environ 40 000 acres de terrain non incorporé, centré sur Hansel Valley.",
+      "source": "The Salt Lake Tribune",
+      "url": "https://www.sltrib.com/news/2026/05/04/hyperscale-data-center-project/"
+    },
+    {
+      "category": "land",
+      "title": "Meta finance le déploiement Aurora d'Okla en Ohio, terrain facilité par une association locale",
+      "region": "Amérique du Nord",
+      "date": "2026",
+      "summary": "Meta finance les coûts initiaux du projet Aurora d'Okla dans l'Ohio (1,2 GW dédié) ; l'achat du terrain a été facilité par une association locale à but non lucratif — un montage à surveiller pour le sourcing.",
+      "source": "Global Data Center Hub",
+      "url": "https://www.globaldatacenterhub.com/p/this-week-in-data-centers-the-deliverable"
+    },
+    {
+      "category": "power",
+      "title": "Extension d'un accord livrant 2,8 GW de piles à combustible aux data centers Oracle",
+      "region": "Amérique du Nord",
+      "date": "2026",
+      "summary": "L'un des plus gros deals du secteur en 2026 : extension d'un accord initial pour livrer 2,8 GW de piles à combustible aux data centers Oracle, livraisons déjà en cours.",
+      "source": "Datacloud Global Congress",
+      "url": "https://www.datacloudglobalcongress.com/data-centres-finding-net-new-power"
+    },
+    {
+      "category": "power",
+      "title": "Les évaluations de sites démarrent désormais par la négociation avec l'électricien, avant le foncier",
+      "region": "Monde",
+      "date": "2026",
+      "summary": "Les développeurs engagent les discussions avec les gestionnaires de réseau parfois des années avant la clôture de l'acquisition foncière, pour éviter les actifs échoués faute de raccordement.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/energy-power-supply/gridlocked-how-power-constraints-are-shaping-the-future-of-data-centers"
+    },
+    {
+      "category": "legislation",
+      "title": "New York vote un moratoire d'un an sur les data centers IA",
+      "region": "Amérique du Nord",
+      "date": "2026-06",
+      "summary": "Le Sénat et l'Assemblée de l'État de New York ont adopté le Responsible Data Center Development Act (S10642), instaurant un moratoire d'un an sur les data centers IA. En attente de signature de la gouverneure Kathy Hochul — New York deviendrait le premier État américain avec un moratoire statewide.",
+      "source": "Earthjustice",
+      "url": "https://earthjustice.org/press/2026/nys-legislature-passes-data-center-moratorium"
+    },
+    {
+      "category": "legislation",
+      "title": "Plus de 300 projets de loi liés aux data centers déposés dans 30 États américains",
+      "region": "Amérique du Nord",
+      "date": "2026",
+      "summary": "En six semaines début 2026, plus de 300 textes ont été déposés dans 30 États, marquant un pivot net des politiques incitatives vers une surveillance réglementaire accrue face aux besoins énergétiques des installations hyperscale.",
+      "source": "ArentFox Schiff",
+      "url": "https://www.afslaw.com/perspectives/alerts/state-regulation-data-centers-2026-shifting-landscape"
+    },
+    {
+      "category": "legislation",
+      "title": "Le Congrès examine l'AI Data Center Moratorium Act (Sanders/Ocasio-Cortez)",
+      "region": "Amérique du Nord",
+      "date": "2026",
+      "summary": "Le sénateur Bernie Sanders et la représentante Alexandria Ocasio-Cortez ont présenté une loi visant à suspendre la construction de data centers jusqu'à l'adoption d'un cadre réglementaire plus large.",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/ocasio-cortez-and-sanders-introduce-ai-data-center-moratorium-act/"
+    },
+    {
+      "category": "legislation",
+      "title": "La réglementation sur l'usage de l'eau gagne du terrain aux USA",
+      "region": "Amérique du Nord",
+      "date": "2026",
+      "summary": "De plus en plus d'États exigent la déclaration et la gestion de la consommation d'eau des data centers ; le Minnesota a instauré dès 2025 un permis spécifique, suivi par d'autres États en 2026.",
+      "source": "Good Jobs First",
+      "url": "https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/"
+    },
+    {
+      "category": "market",
+      "title": "JLL : plus de 5 GW de demande active dans le monde au Q1 2026",
+      "region": "Monde",
+      "date": "2026-Q1",
+      "summary": "Le Global Data Center Outlook de JLL rapporte plus de 5 GW de besoins actifs dans le monde, contre 3,2 GW un an plus tôt ; la demande américaine atteint des niveaux inédits, 2026 s'annonçant comme une année record pour la commercialisation.",
+      "source": "JLL",
+      "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook"
+    },
+    {
+      "category": "market",
+      "title": "Vacance record aux USA : 1,2% au Q1 2026, 0,3% en Northern Virginia",
+      "region": "Amérique du Nord",
+      "date": "2026-Q1",
+      "summary": "L'absorption nette atteint 5,29 GW au Q1 2026, portée par Austin (1 909 MW) et Dallas-Fort Worth (912 MW). Le marché américain entre dans 2026 avec un pipeline de 160 GW en construction ou annoncé et une vacance à des plus bas historiques.",
+      "source": "CBRE",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+    },
+    {
+      "category": "market",
+      "title": "L'écart entre offre et demande continue de se creuser malgré des livraisons record",
+      "region": "Monde",
+      "date": "2026",
+      "summary": "Le pré-loué dépasse 90% des nouvelles livraisons, laissant très peu de capacité disponible sur le marché ouvert ; le virage vers des campus IA de 500 MW+ allonge les délais de construction sur plusieurs années.",
+      "source": "Build Inc.",
+      "url": "https://build.inc/insights/data-center-market-trends-2026"
+    },
+    {
+      "category": "market",
+      "title": "L'accès à une électricité fiable dépasse désormais le capital et le foncier comme contrainte n°1",
+      "region": "Monde",
+      "date": "2026",
+      "summary": "L'IA reste le principal moteur d'investissement mondial en data centers, portant le secteur dans un supercycle de capex pluriannuel ; l'électricité devient le facteur limitant numéro un, devant le capital et le foncier.",
+      "source": "Newmark",
+      "url": "https://www.nmrk.com/insights/market-report/2026-u-s-data-center-market-outlook"
+    },
+    {
+      "category": "competition",
+      "title": "KKR lance Helix Digital Infrastructure, développeur hyperscale doté de 10 Md$",
+      "region": "Monde",
+      "date": "2026-06",
+      "summary": "KKR officialise le lancement de Helix Digital Infrastructure, un développeur de data centers hyperscale soutenu par plus de 10 milliards de dollars de capital engagé de long terme, avec la Kuwait Investment Authority, NVIDIA et Vistra — un nouvel entrant à surveiller sur le foncier.",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/?term=construction-site-selection"
+    },
+    {
+      "category": "competition",
+      "title": "Alphabet rachète le développeur d'énergie renouvelable Intersect",
+      "region": "Amérique du Nord",
+      "date": "2026-03",
+      "summary": "Rachat finalisé en mars 2026 : première fois qu'un géant tech acquiert directement une plateforme de développement d'énergie renouvelable, illustrant une stratégie d'intégration verticale qui court-circuite les intermédiaires du sourcing foncier et énergétique.",
+      "source": "Milken Institute",
+      "url": "https://milkeninstitute.org/content-hub/insights/deal-behind-meter-vertical-integration-reaches-grid"
+    }
+  ]
+}
