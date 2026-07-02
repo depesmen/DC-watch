@@ -44,5 +44,53 @@
     { "name": "Immersion monophasique", "pue": "1,03 – 1,08", "density": "Très haute (100+ kW/rack)", "maturity": "En essor (à venir)" },
     { "name": "Immersion diphasique", "pue": "1,02 – 1,05", "density": "Extrême", "maturity": "Émergente, contraintes fluides" }
   ],
-  "coolingSource": "https://www.adamsilvaconsulting.com/insights/data-center-cooling-economics-2026"
+  "coolingSource": "https://www.adamsilvaconsulting.com/insights/data-center-cooling-economics-2026",
+
+  "rackDensity": {
+    "note": "En ~4 ans, la puissance par rack passe de ~40 kW à ~600 kW (×15) : à puissance de campus égale, la concentration explose → refroidissement liquide obligatoire, planchers renforcés et distribution 800 VDC. Le nombre de racks baisse mais chaque emplacement devient un point de charge électrique et thermique extrême.",
+    "source": "Introl / SemiAnalysis",
+    "url": "https://introl.com/blog/nvidia-vera-rubin-gpu-600kw-racks-2027",
+    "rows": [
+      { "gen": "Air (héritage)", "system": "Racks classiques", "kw": "5 – 15 kW", "cooling": "Air", "period": "—" },
+      { "gen": "Hopper (H100)", "system": "HGX H100", "kw": "~40 kW", "cooling": "Air / hybride", "period": "2022-23" },
+      { "gen": "Blackwell (GB200/GB300)", "system": "NVL72", "kw": "120 – 140 kW", "cooling": "Liquide direct-to-chip", "period": "2025-26" },
+      { "gen": "Vera Rubin (VR200)", "system": "NVL72", "kw": "190 – 230 kW", "cooling": "Liquide", "period": "H2 2026" },
+      { "gen": "Rubin Ultra (Kyber)", "system": "NVL576", "kw": "~600 kW", "cooling": "Liquide + 800 VDC", "period": "H2 2027" },
+      { "gen": "Cap visé (roadmap)", "system": "Rack ~1 MW", "kw": "~1 000 kW", "cooling": "800 VDC", "period": "2027+" }
+    ]
+  },
+
+  "onSitePower": {
+    "note": "D'ici 2030, ~38% des data centers utiliseraient de la production on-site (Bloom Energy) ; le behind-the-meter couvrirait 1/4 à 1/3 de la demande incrémentale. C'est le cœur du sujet land + power : sécuriser l'énergie sans attendre la file de raccordement (4-7 ans).",
+    "source": "Goldman Sachs / Bloom Energy / DCK",
+    "url": "https://www.datacenterknowledge.com/energy-power-supply/why-data-centers-produce-their-own-power",
+    "rows": [
+      { "src": "Réseau (grid)", "capacity": "Théoriquement illimité", "lead": "4 – 7 ans (file d'attente)", "cost": "Le moins cher", "carbon": "Variable", "maturity": "Standard" },
+      { "src": "Turbines à gaz", "capacity": "Dizaines–centaines de MW", "lead": "Rapide", "cost": "Modéré", "carbon": "Élevé (fossile)", "maturity": "Déployé à l'échelle" },
+      { "src": "Piles à combustible (Bloom)", "capacity": "Modulaire", "lead": "< 1 an", "cost": "Modéré-élevé", "carbon": "Gaz, 10-30% + efficace que turbine", "maturity": "Forte expansion" },
+      { "src": "Solaire + stockage", "capacity": "Selon foncier", "lead": "Quelques mois (post-permis)", "cost": "Faible (énergie)", "carbon": "Zéro (intermittent)", "maturity": "Mûr, gourmand en terrain" },
+      { "src": "SMR (petit nucléaire)", "capacity": "50 – 300 MW", "lead": "Long (≥ 2030)", "cost": "Élevé", "carbon": "Zéro, pilotable", "maturity": "Émergent" },
+      { "src": "Géothermie", "capacity": "Site-dépendant", "lead": "Long", "cost": "Élevé (capex)", "carbon": "Zéro, pilotable", "maturity": "Niche" }
+    ]
+  },
+
+  "water": {
+    "note": "La consommation d'eau (WUE = litres/kWh) est une contrainte de site majeure : la conso directe des data centers US passerait de 17,4 Md gallons (2023) à 38-73 Md d'ici 2028. Le liquide et l'immersion réduisent fortement l'eau ; les designs « zéro eau » montent (Microsoft, 2026).",
+    "source": "EESI / Microsoft",
+    "url": "https://www.eesi.org/articles/view/data-centers-and-water-consumption",
+    "rows": [
+      { "method": "Air évaporatif", "wue": "Élevée (~1,8 L/kWh)", "note": "Grosse consommation d'eau" },
+      { "method": "Direct-to-chip (liquide)", "wue": "Réduite", "note": "Moins d'évaporation" },
+      { "method": "Immersion", "wue": "Très faible (−90% d'eau)", "note": "Fluides synthétiques" },
+      { "method": "Circuit fermé / air sec", "wue": "~0 L/kWh", "note": "+ conso électrique ; adopté par Microsoft (2026)" }
+    ],
+    "heatReuse": "Chaleur fatale : 50-70% de la chaleur rejetée peut être récupérée pour le chauffage urbain/industriel (revenus + conformité). Ex. Google Hamina (Finlande), projets nordiques. L'UE impose désormais un reporting de réutilisation d'énergie."
+  },
+
+  "hardwareContext": [
+    { "topic": "Packaging CoWoS (TSMC)", "detail": "LE goulot d'étranglement n°1 de l'IA en 2026 : capacité vendue jusqu'en 2026, NVIDIA ~60% des allocations. Plus limitant que la mémoire elle-même.", "source": "Silicon Analysts", "url": "https://siliconanalysts.com/analysis/foundry-allocation-status-q1-2026" },
+    { "topic": "Mémoire HBM4", "detail": "Montée en volume fin 2026. SK Hynix ~62% du marché (≈ 2/3 de l'appro NVIDIA), Micron progresse. Souvent le facteur limitant des livraisons.", "source": "FusionWW", "url": "https://www.fusionww.com/insights/blog/inside-the-ai-bottleneck-cowos-hbm-and-2-3nm-capacity-constraints-through-2027" },
+    { "topic": "Gravure 2 nm", "detail": "Rampe TSMC N2 sous tension, délais 52-156 semaines. Le Rubin sera le premier HBM4 sur N3P (3 nm).", "source": "Silicon Analysts", "url": "https://siliconanalysts.com/analysis/foundry-allocation-status-q1-2026" },
+    { "topic": "Réseau & optique", "detail": "NVLink 6 (3,6 To/s/GPU), InfiniBand/Ethernet 800G → 1,6T, optique co-packagée (CPO) pour réduire la conso des liens à haute densité.", "source": "NextPlatform", "url": "https://www.nextplatform.com/compute/2026/03/19/driving-down-the-ai-system-roadmap-with-nvidia/5210195" }
+  ]
 }

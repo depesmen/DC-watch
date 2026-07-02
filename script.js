@@ -382,10 +382,55 @@ async function loadTechnologies() {
           </tr>`).join('')}
       </tbody>`;
     document.getElementById('cooling-note').textContent = data.coolingNote || '';
+
+    // Densité électrique par rack
+    const rd = data.rackDensity;
+    if (rd) {
+      document.getElementById('rack-table').innerHTML = `
+        <thead><tr><th>Génération</th><th>Système</th><th>Puissance / rack</th><th>Refroidissement</th><th>Période</th></tr></thead>
+        <tbody>${rd.rows.map((r) => `
+          <tr><td class="ct-name">${r.gen}</td><td>${r.system}</td><td class="ct-pue">${r.kw}</td><td>${r.cooling}</td><td class="ct-hl">${r.period}</td></tr>`).join('')}</tbody>`;
+      document.getElementById('rack-note').innerHTML = noteWithSource(rd);
+    }
+
+    // Énergie on-site
+    const op = data.onSitePower;
+    if (op) {
+      document.getElementById('power-table').innerHTML = `
+        <thead><tr><th>Source</th><th>Capacité</th><th>Délai</th><th>Coût</th><th>Carbone</th><th>Maturité</th></tr></thead>
+        <tbody>${op.rows.map((r) => `
+          <tr><td class="ct-name">${r.src}</td><td>${r.capacity}</td><td class="ct-hl">${r.lead}</td><td>${r.cost}</td><td>${r.carbon}</td><td>${r.maturity}</td></tr>`).join('')}</tbody>`;
+      document.getElementById('power-note').innerHTML = noteWithSource(op);
+    }
+
+    // Eau (WUE) + chaleur fatale
+    const w = data.water;
+    if (w) {
+      document.getElementById('water-table').innerHTML = `
+        <thead><tr><th>Méthode</th><th>Eau (WUE)</th><th>Remarque</th></tr></thead>
+        <tbody>${w.rows.map((r) => `
+          <tr><td class="ct-name">${r.method}</td><td class="ct-pue">${r.wue}</td><td>${r.note}</td></tr>`).join('')}</tbody>`;
+      document.getElementById('water-note').innerHTML = `<strong>Chaleur fatale —</strong> ${w.heatReuse || ''}<br>${noteWithSource(w)}`;
+    }
+
+    // Contexte matériel
+    const hw = data.hardwareContext || [];
+    document.getElementById('hw-context').innerHTML = hw.map((h) => `
+      <article class="hw-card">
+        <h4>${h.topic}</h4>
+        <p>${h.detail}</p>
+        <a href="${h.url}" target="_blank" rel="noopener noreferrer">${h.source} →</a>
+      </article>`).join('');
   } catch (err) {
     groupsEl.innerHTML = '<p class="empty-state">Impossible de charger les technologies.</p>';
     console.error('Failed to load technologies.json', err);
   }
+}
+
+function noteWithSource(obj) {
+  const note = obj.note || '';
+  if (obj.url && obj.source) return `${note} <a href="${obj.url}" target="_blank" rel="noopener noreferrer">${obj.source} →</a>`;
+  return note;
 }
 
 /* ---------- Init ---------- */
