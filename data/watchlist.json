@@ -16,6 +16,7 @@
       "website": "https://polarise.eu",
       "keywords": ["Polarise"],
       "news": [
+        { "date": "2026", "title": "Nouvelle AI Factory de 30 MW (extensible à 120 MW) à Amberg (Bavière), alimentée en solaire + stockage, mise en service mi-2027", "source": "Data Centre Magazine", "url": "https://datacentremagazine.com/news/why-is-polarise-expanding-its-european-ai-data-centres" },
         { "date": "2026-06", "title": "SWI Group prend une position majoritaire (valo 0,5 Md€, engagement 1,0 Md$)", "source": "Data Centre Magazine", "url": "https://datacentremagazine.com/news/why-is-polarise-expanding-its-european-ai-data-centres" },
         { "date": "2026-01-11", "title": "Macquarie prête jusqu'à 117 M€ pour l'aménagement de data centers", "source": "Macquarie", "url": "https://www.macquarie.com/us/en/about/news/2026/polarise-and-macquarie-announce-up-to-117-million-euros-financing-deal-for-european-ai-ambitions.html" },
         { "date": "2026", "title": "DDN signe un accord de stockage avec Polarise", "source": "Data Center Dynamics", "url": "https://www.datacenterdynamics.com/en/news/ddn-signs-deal-with-european-ai-data-center-hopeful-polarise/" }
