@@ -330,38 +330,52 @@ function trendIcon(trend) {
 
 /* ---------- Technologies ---------- */
 const VENDOR_ACCENT = { NVIDIA: 'green', AMD: 'pink', Google: 'cyan', 'Amazon (AWS)': 'violet' };
+const GROUP_ACCENT = { upcoming: 'cyan', current: 'green', legacy: 'pink' };
 
 async function loadTechnologies() {
-  const chipsGrid = document.getElementById('chips-grid');
+  const groupsEl = document.getElementById('tech-groups');
   const coolingTable = document.getElementById('cooling-table');
   try {
     const res = await fetch('data/technologies.json', { cache: 'no-store' });
     const data = await res.json();
 
-    chipsGrid.innerHTML = (data.chips || []).map((c) => `
-      <article class="chip-card" data-accent="${VENDOR_ACCENT[c.vendor] || 'cyan'}">
-        <div class="chip-top">
-          <span class="chip-vendor">${c.vendor}</span>
-          <span class="chip-type">${c.type}</span>
+    groupsEl.innerHTML = (data.groups || []).map((g) => `
+      <section class="tech-group" data-accent="${GROUP_ACCENT[g.id] || 'cyan'}">
+        <h3 class="tech-group-title">${g.title} <span class="tech-group-count">${g.chips.length}</span></h3>
+        <p class="tech-group-intro">${g.intro || ''}</p>
+        <div class="cooling-table-wrap">
+          <table class="compare-table">
+            <thead><tr>
+              <th>Puce</th><th>Fabricant</th><th>Gravure</th><th>Mémoire</th><th>Performance</th><th>Dispo</th><th>Prix</th>
+            </tr></thead>
+            <tbody>
+              ${g.chips.map((c) => `
+                <tr>
+                  <td class="ct-name"><a href="${c.url}" target="_blank" rel="noopener noreferrer">${c.name}</a></td>
+                  <td class="ct-vendor" data-v="${VENDOR_ACCENT[c.vendor] || 'cyan'}">${c.vendor}</td>
+                  <td>${c.process}</td>
+                  <td>${c.memory}</td>
+                  <td>${c.perf}</td>
+                  <td class="ct-hl">${c.availability}</td>
+                  <td>${c.price}</td>
+                </tr>`).join('')}
+            </tbody>
+          </table>
         </div>
-        <h4 class="chip-name">${c.name}</h4>
-        <div class="chip-avail">${c.availability}</div>
-        <ul class="chip-specs">${(c.specs || []).map((s) => `<li>${s}</li>`).join('')}</ul>
-        <div class="chip-price"><span class="chip-price-label">Prix</span> ${c.price}</div>
-        <a class="chip-source" href="${c.url}" target="_blank" rel="noopener noreferrer">${c.source} →</a>
-      </article>`).join('');
+      </section>`).join('');
 
-    document.getElementById('price-note').textContent = data.priceNote || '';
+    document.getElementById('chips-note').textContent = data.chipsNote || '';
 
     const cool = data.cooling || [];
+    const cSrc = data.coolingSource || '#';
     coolingTable.innerHTML = `
       <thead><tr>
-        <th>Méthode</th><th>PUE typique</th><th>Densité supportée</th><th>Maturité / adoption</th>
+        <th>Méthode</th><th>PUE typique</th><th>Densité supportée</th><th>Maturité / cycle</th>
       </tr></thead>
       <tbody>
         ${cool.map((m) => `
           <tr>
-            <td class="ct-name"><a href="${m.url}" target="_blank" rel="noopener noreferrer">${m.name}</a></td>
+            <td class="ct-name"><a href="${cSrc}" target="_blank" rel="noopener noreferrer">${m.name}</a></td>
             <td class="ct-pue">${m.pue}</td>
             <td>${m.density}</td>
             <td>${m.maturity}</td>
@@ -369,7 +383,7 @@ async function loadTechnologies() {
       </tbody>`;
     document.getElementById('cooling-note').textContent = data.coolingNote || '';
   } catch (err) {
-    chipsGrid.innerHTML = '<p class="empty-state">Impossible de charger les technologies.</p>';
+    groupsEl.innerHTML = '<p class="empty-state">Impossible de charger les technologies.</p>';
     console.error('Failed to load technologies.json', err);
   }
 }

@@ -1,131 +1,48 @@
 {
   "lastUpdated": "2026-07-02",
-  "priceNote": "Les fabricants ne publient pas de prix catalogue : ces puces se vendent en systèmes/racks complets. Les montants ci-dessous sont des estimations de marché (rack fini ou prix unitaire rapporté), à prendre avec prudence. La vraie métrique de coût côté exploitant est souvent le $/GPU-heure en cloud.",
-  "chips": [
+  "chipsNote": "Comparaisons indicatives : les repères de performance mêlent des précisions différentes (FP4/FP8/FP16) selon les générations. Les prix ne sont pas des tarifs catalogue (vente en systèmes/racks) mais des estimations de marché ou de prix de rack fini — à prendre avec prudence.",
+  "groups": [
     {
-      "name": "NVIDIA Rubin (R100)",
-      "vendor": "NVIDIA",
-      "type": "GPU",
-      "availability": "Prod. Q3/Q4 2026 · large dispo cloud 2027",
-      "specs": [
-        "TSMC 3 nm · 336 Md de transistors (double die)",
-        "288 Go HBM4 à ~13 To/s",
-        "NVLink 6.0 (3,6 To/s par GPU)",
-        "Système NVL72 : 3,6 ExaFLOPS FP4"
-      ],
-      "price": "Non public (vendu en rack NVL72)",
-      "source": "TweakTown",
-      "url": "https://www.tweaktown.com/news/100151/this-data-center-ai-chip-roadmap-shows-nvidia-will-dominate-far-into-2027-and-beyond/index.html"
+      "id": "upcoming",
+      "title": "À venir",
+      "intro": "Générations annoncées, en production ou attendues d'ici 2027 — celles qui dicteront la densité et la puissance électrique des futurs campus.",
+      "chips": [
+        { "name": "NVIDIA Rubin (R100)", "vendor": "NVIDIA", "process": "3 nm", "memory": "288 Go HBM4 (~13 To/s)", "perf": "3,6 ExaFLOPS FP4 (rack NVL72)", "availability": "Prod. fin 2026 → cloud 2027", "price": "Non public", "source": "TweakTown", "url": "https://www.tweaktown.com/news/100151/this-data-center-ai-chip-roadmap-shows-nvidia-will-dominate-far-into-2027-and-beyond/index.html" },
+        { "name": "NVIDIA Rubin Ultra", "vendor": "NVIDIA", "process": "3 nm", "memory": "HBM4e (rack NVL576)", "perf": "Annoncé, specs non confirmées", "availability": "2027", "price": "Non public", "source": "NextPlatform", "url": "https://www.nextplatform.com/compute/2026/03/19/driving-down-the-ai-system-roadmap-with-nvidia/5210195" },
+        { "name": "AMD Instinct MI400 (MI455X)", "vendor": "AMD", "process": "2 nm", "memory": "432 Go HBM4", "perf": "40 PF FP4 / 20 PF FP8", "availability": "2026-2027 (rack Helios)", "price": "Non public", "source": "Wccftech", "url": "https://wccftech.com/amd-to-battle-nvidia-ai-dominance-instinct-mi400-accelerators-2026-mi500-2027/" },
+        { "name": "AMD Instinct MI500", "vendor": "AMD", "process": "n.c.", "memory": "n.c.", "perf": "Annoncé, specs non confirmées", "availability": "2027", "price": "Non public", "source": "Wccftech", "url": "https://wccftech.com/amd-to-battle-nvidia-ai-dominance-instinct-mi400-accelerators-2026-mi500-2027/" }
+      ]
     },
     {
-      "name": "NVIDIA Blackwell Ultra (GB300)",
-      "vendor": "NVIDIA",
-      "type": "GPU",
-      "availability": "Expédié en 2026",
-      "specs": [
-        "Évolution du B200 (~288 Go HBM3e)",
-        "Rack GB300 NVL72 pour l'entraînement IA",
-        "Génération dominante du marché en 2026"
-      ],
-      "price": "~3 M$ le rack NVL72 (est. marché)",
-      "source": "GPUAdvisor",
-      "url": "https://gpuadvisor.com/gpu-roadmap"
+      "id": "current",
+      "title": "Actuelles",
+      "intro": "Le matériel déployé aujourd'hui dans les data centers IA (2026).",
+      "chips": [
+        { "name": "NVIDIA Blackwell Ultra (GB300)", "vendor": "NVIDIA", "process": "4NP", "memory": "~288 Go HBM3e", "perf": "~15 PF FP4 (GPU)", "availability": "Expédié 2026", "price": "~3 M$ le rack NVL72 (est.)", "source": "GPUAdvisor", "url": "https://gpuadvisor.com/gpu-roadmap" },
+        { "name": "AMD Instinct MI355X", "vendor": "AMD", "process": "3 nm (CDNA 4)", "memory": "288 Go HBM3e", "perf": "~10 PF FP4 / 5 PF FP8", "availability": "2026", "price": "Non public", "source": "Silicon Analysts", "url": "https://siliconanalysts.com/analysis/amd-vs-nvidia-ai-gpu-market-share-2026" },
+        { "name": "Google TPU v7 « Ironwood »", "vendor": "Google", "process": "n.c.", "memory": "192 Go HBM3e", "perf": "4,6 PFLOPS / puce", "availability": "GA avr. 2026", "price": "~25 k$/u en rack fini (est.)", "source": "Google Cloud", "url": "https://cloud.google.com/blog/products/compute/ironwood-tpus-and-new-axion-based-vms-for-your-ai-workloads" },
+        { "name": "AWS Trainium3", "vendor": "Amazon (AWS)", "process": "3 nm", "memory": "144 Go HBM3e (4,9 To/s)", "perf": "2,52 PFLOPS FP8", "availability": "2026 (cloud AWS)", "price": "Accès cloud uniquement", "source": "Spheron", "url": "https://www.spheron.network/blog/hyperscaler-custom-ai-chips-2026-trainium-tpu-maia-mtia-vs-nvidia-gpu/" }
+      ]
     },
     {
-      "name": "AMD Instinct MI400 (MI455X / MI430X)",
-      "vendor": "AMD",
-      "type": "GPU",
-      "availability": "2026 · rack « Helios »",
-      "specs": [
-        "TSMC 2 nm · 432 Go HBM4 (+50% vs MI355X)",
-        "40 PFLOP FP4 · 20 PFLOP FP8",
-        "MI455X (IA à l'échelle) · MI430X (HPC/IA souveraine, FP64)"
-      ],
-      "price": "Non public",
-      "source": "Wccftech",
-      "url": "https://wccftech.com/amd-to-battle-nvidia-ai-dominance-instinct-mi400-accelerators-2026-mi500-2027/"
-    },
-    {
-      "name": "AMD Instinct MI355X",
-      "vendor": "AMD",
-      "type": "GPU",
-      "availability": "Disponible en 2026",
-      "specs": [
-        "Architecture CDNA 4 · 288 Go HBM3e",
-        "Concurrent direct du NVIDIA B200",
-        "Ramp-up des déploiements en 2026"
-      ],
-      "price": "Non public",
-      "source": "Silicon Analysts",
-      "url": "https://siliconanalysts.com/analysis/amd-vs-nvidia-ai-gpu-market-share-2026"
-    },
-    {
-      "name": "Google TPU v7 « Ironwood »",
-      "vendor": "Google",
-      "type": "ASIC maison",
-      "availability": "Disponibilité générale : 22 avril 2026",
-      "specs": [
-        "Premier TPU « inference-first »",
-        "4,6 PFLOPS par puce (≈ parité Blackwell)",
-        "42,5 ExaFLOPS en superpod de 9 216 puces",
-        "Anthropic : jusqu'à 1 M de puces / >1 GW en 2026"
-      ],
-      "price": "~25 k$/unité en rack fini (est., 400 000 unités ≈ 10 Md$)",
-      "source": "Google Cloud",
-      "url": "https://cloud.google.com/blog/products/compute/ironwood-tpus-and-new-axion-based-vms-for-your-ai-workloads"
-    },
-    {
-      "name": "AWS Trainium3",
-      "vendor": "Amazon (AWS)",
-      "type": "ASIC maison",
-      "availability": "Expédié en 2026 (cloud AWS)",
-      "specs": [
-        "Gravure 3 nm · 144 Go HBM3e à 4,9 To/s",
-        "2,52 PFLOPS FP8 par puce",
-        "Jusqu'à 4,4× la génération précédente",
-        "Trainium4 annoncé (NVLink 6 / MGX NVIDIA)"
-      ],
-      "price": "Non public (accès cloud uniquement)",
-      "source": "Spheron",
-      "url": "https://www.spheron.network/blog/hyperscaler-custom-ai-chips-2026-trainium-tpu-maia-mtia-vs-nvidia-gpu/"
+      "id": "legacy",
+      "title": "Bientôt obsolètes",
+      "intro": "Générations sortantes, encore très présentes mais en fin de cycle — prix en baisse, souvent basculées vers l'inférence ou l'occasion.",
+      "chips": [
+        { "name": "NVIDIA H200 (Hopper)", "vendor": "NVIDIA", "process": "4N", "memory": "141 Go HBM3e (4,8 To/s)", "perf": "~2 PF FP8", "availability": "2024", "price": "~40 k$ (marché)", "source": "IntuitionLabs", "url": "https://intuitionlabs.ai/articles/nvidia-ai-gpu-pricing-guide" },
+        { "name": "NVIDIA H100 (Hopper)", "vendor": "NVIDIA", "process": "4N", "memory": "80 Go HBM3 (3,35 To/s)", "perf": "~2 PF FP8 (sparse)", "availability": "2022-2023", "price": "~27-40 k$ (marché, en baisse)", "source": "IntuitionLabs", "url": "https://intuitionlabs.ai/articles/nvidia-ai-gpu-pricing-guide" },
+        { "name": "AMD Instinct MI300X", "vendor": "AMD", "process": "5 nm (CDNA 3)", "memory": "192 Go HBM3 (5,3 To/s)", "perf": "~2,6 PF FP8", "availability": "2023-2024", "price": "~15-20 k$ (marché)", "source": "TRG Datacenters", "url": "https://www.trgdatacenters.com/resource/mi300x-vs-h100/" },
+        { "name": "NVIDIA A100 (Ampere)", "vendor": "NVIDIA", "process": "7 nm", "memory": "40-80 Go HBM2e", "perf": "~0,6 PF FP16 (sparse)", "availability": "2020", "price": "~10-17 k$ (occasion)", "source": "Thunder Compute", "url": "https://www.thundercompute.com/blog/nvidia-h100-specs-full-guide" }
+      ]
     }
   ],
-  "coolingNote": "La part du refroidissement liquide bondit de ~3% (2021) à ~37% (2026). Le direct-to-chip domine le liquide installé ; l'immersion offre les meilleurs PUE mais reste plus de niche.",
+  "coolingNote": "La part du refroidissement liquide bondit de ~3% (2021) à ~37% (2026). L'air (haut du tableau) est la techno sortante ; le direct-to-chip domine le liquide installé ; l'immersion (bas) est la plus efficace mais encore de niche.",
   "cooling": [
-    {
-      "name": "Air (traditionnel)",
-      "pue": "1,55 – 1,67",
-      "density": "Faible (< 20 kW/rack)",
-      "maturity": "Standard historique",
-      "url": "https://www.adamsilvaconsulting.com/insights/data-center-cooling-economics-2026"
-    },
-    {
-      "name": "Porte arrière (rear-door HX)",
-      "pue": "1,20 – 1,40",
-      "density": "Moyenne (~20-50 kW/rack)",
-      "maturity": "Transition / retrofit",
-      "url": "https://www.adamsilvaconsulting.com/insights/data-center-cooling-economics-2026"
-    },
-    {
-      "name": "Direct-to-chip (plaques froides)",
-      "pue": "1,10 – 1,35",
-      "density": "Haute (50-150+ kW/rack)",
-      "maturity": "N°1 du liquide pour l'IA",
-      "url": "https://www.datacenterdynamics.com/en/opinions/the-rise-of-direct-to-chip-cooling-as-a-top-ai-cooling-system/"
-    },
-    {
-      "name": "Immersion monophasique",
-      "pue": "1,03 – 1,08",
-      "density": "Très haute (100+ kW/rack)",
-      "maturity": "Croissance, plus de niche",
-      "url": "https://www.adamsilvaconsulting.com/insights/data-center-cooling-economics-2026"
-    },
-    {
-      "name": "Immersion diphasique",
-      "pue": "1,02 – 1,05",
-      "density": "Extrême",
-      "maturity": "La + efficace, contraintes fluides",
-      "url": "https://www.adamsilvaconsulting.com/insights/data-center-cooling-economics-2026"
-    }
-  ]
+    { "name": "Air (traditionnel)", "pue": "1,55 – 1,67", "density": "Faible (< 20 kW/rack)", "maturity": "Sortant pour l'IA" },
+    { "name": "Porte arrière (rear-door HX)", "pue": "1,20 – 1,40", "density": "Moyenne (~20-50 kW/rack)", "maturity": "Transition / retrofit" },
+    { "name": "Direct-to-chip (plaques froides)", "pue": "1,10 – 1,35", "density": "Haute (50-150+ kW/rack)", "maturity": "N°1 du liquide pour l'IA" },
+    { "name": "Immersion monophasique", "pue": "1,03 – 1,08", "density": "Très haute (100+ kW/rack)", "maturity": "En essor (à venir)" },
+    { "name": "Immersion diphasique", "pue": "1,02 – 1,05", "density": "Extrême", "maturity": "Émergente, contraintes fluides" }
+  ],
+  "coolingSource": "https://www.adamsilvaconsulting.com/insights/data-center-cooling-economics-2026"
 }
