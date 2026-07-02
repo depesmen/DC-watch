@@ -1,0 +1,6 @@
+{
+  "_comment": "Liste interne des destinataires de la newsletter hebdo. Ajoute/retire des adresses ici puis commit. Une chaîne par personne.",
+  "recipients": [
+    "depesme.noemie@gmail.com"
+  ]
+}

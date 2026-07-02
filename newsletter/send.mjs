@@ -1,38 +1,29 @@
-// Worker d'envoi de la newsletter hebdomadaire Data Center Watch.
-// Déclenché par cron (voir wrangler.toml). N'envoie que le vendredi à 14h heure de Luxembourg.
+// Envoi de la newsletter hebdomadaire via Gmail (SMTP) depuis GitHub Actions.
+// Destinataires : liste interne fixe (newsletter/recipients.json).
+// Secrets attendus (env) : GMAIL_USER, GMAIL_APP_PASSWORD.
+// N'envoie qu'à 14h heure de Luxembourg, sauf FORCE=1 (déclenchement manuel).
 
-export default {
-  async scheduled(event, env, ctx) {
-    ctx.waitUntil(run(env));
-  },
-  // Endpoint manuel de test : GET /?key=SECRET pour déclencher un envoi hors planning.
-  async fetch(request, env) {
-    const url = new URL(request.url);
-    if (url.searchParams.get('key') && url.searchParams.get('key') === env.UNSUB_SECRET) {
-      const result = await run(env, { force: true });
-      return new Response(JSON.stringify(result), { headers: { 'Content-Type': 'application/json' } });
-    }
-    return new Response('Data Center Watch — newsletter worker', { status: 200 });
-  },
-};
+import { readFile } from 'node:fs/promises';
+import nodemailer from 'nodemailer';
 
-async function run(env, opts = {}) {
-  // 1) Garde-fou horaire : n'envoyer qu'à 14h heure de Luxembourg (sauf test forcé).
-  if (!opts.force) {
-    const hourLux = Number(
-      new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Luxembourg', hour: 'numeric', hour12: false }).format(new Date())
-    );
-    if (hourLux !== 14) return { skipped: `heure Luxembourg = ${hourLux}h, envoi uniquement à 14h` };
+const FORCE = process.env.FORCE === '1';
+const { GMAIL_USER, GMAIL_APP_PASSWORD } = process.env;
+
+async function main() {
+  // Garde-fou horaire (14h Europe/Luxembourg), sauf envoi manuel.
+  if (!FORCE) {
+    const hour = Number(new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Luxembourg', hour: 'numeric', hour12: false }).format(new Date()));
+    if (hour !== 14) { console.log(`Heure Luxembourg = ${hour}h — envoi uniquement à 14h. Abandon.`); return; }
   }
+  if (!GMAIL_USER || !GMAIL_APP_PASSWORD) throw new Error('GMAIL_USER / GMAIL_APP_PASSWORD manquants.');
 
-  // 2) Récupérer les données de veille (depuis le site en ligne).
-  const [veille, watchlist] = await Promise.all([
-    fetchJson(`${env.SITE_URL}/data/veille.json`),
-    fetchJson(`${env.SITE_URL}/data/watchlist.json`),
-  ]);
-  if (!veille) return { error: 'veille.json introuvable' };
+  const veille = JSON.parse(await readFile('data/veille.json', 'utf8'));
+  const watchlist = JSON.parse(await readFile('data/watchlist.json', 'utf8').catch(() => '{}'));
+  const { recipients = [] } = JSON.parse(await readFile('newsletter/recipients.json', 'utf8'));
+  const list = recipients.filter((e) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e));
+  if (!list.length) { console.log('Aucun destinataire valide.'); return; }
 
-  // 3) Sélection du contenu de la semaine.
+  // Sélection du contenu.
   const now = Date.now();
   const weekAgo = now - 8 * 24 * 3600 * 1000;
   const items = (veille.items || [])
@@ -41,62 +32,33 @@ async function run(env, opts = {}) {
   const recent = items.filter((it) => it.ts >= weekAgo);
   const topItems = (recent.length ? recent : items).slice(0, 5);
   const takeaways = (veille.keyTakeaways || []).slice(0, 4);
-  const companies = (watchlist?.companies || [])
+  const companies = (watchlist.companies || [])
     .map((c) => ({ name: c.name, accent: c.accent, latest: (c.news || [])[0] }))
     .filter((c) => c.latest);
 
-  // 4) Lister tous les inscrits (KV, avec pagination).
-  const emails = [];
-  let cursor;
-  do {
-    const page = await env.SUBSCRIBERS.list({ cursor });
-    for (const k of page.keys) emails.push(k.name);
-    cursor = page.list_complete ? null : page.cursor;
-  } while (cursor);
-  if (!emails.length) return { sent: 0, note: 'aucun inscrit' };
-
-  // 5) Envoyer un email individuel à chaque inscrit (jamais tous en copie).
   const dateRange = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Luxembourg' }).format(new Date());
-  let sent = 0, failed = 0;
-  for (const email of emails) {
-    const token = await sign(email, env.UNSUB_SECRET);
-    const unsubUrl = `${env.SITE_URL}/api/unsubscribe?e=${encodeURIComponent(email)}&t=${token}`;
-    const html = renderEmail({ takeaways, topItems, companies, dateRange, siteUrl: env.SITE_URL, unsubUrl });
-    const ok = await sendViaResend(env, email, `Veille Data Center — ${dateRange}`, html);
-    ok ? sent++ : failed++;
-  }
-  return { sent, failed, recipients: emails.length };
+  const html = renderEmail({ takeaways, topItems, companies, dateRange, siteUrl: 'https://dc-watch.depesme-noemie.workers.dev' });
+
+  const transporter = nodemailer.createTransport({
+    host: 'smtp.gmail.com', port: 465, secure: true,
+    auth: { user: GMAIL_USER, pass: GMAIL_APP_PASSWORD },
+  });
+
+  // Un seul envoi : destinataires en Cci (adresses masquées entre elles).
+  await transporter.sendMail({
+    from: `Data Center Watch <${GMAIL_USER}>`,
+    to: GMAIL_USER,
+    bcc: list,
+    subject: `Veille Data Center — ${dateRange}`,
+    html,
+  });
+  console.log(`Newsletter envoyée à ${list.length} destinataire(s).`);
 }
 
-async function fetchJson(url) {
-  try {
-    const r = await fetch(url, { cf: { cacheTtl: 0 } });
-    return r.ok ? await r.json() : null;
-  } catch { return null; }
-}
-
-async function sendViaResend(env, to, subject, html) {
-  try {
-    const r = await fetch('https://api.resend.com/emails', {
-      method: 'POST',
-      headers: { 'Authorization': `Bearer ${env.RESEND_API_KEY}`, 'Content-Type': 'application/json' },
-      body: JSON.stringify({ from: env.FROM_EMAIL, to: [to], subject, html }),
-    });
-    return r.ok;
-  } catch { return false; }
-}
-
-// HMAC-SHA256(email) → jeton hex, pour un lien de désinscription infalsifiable.
-async function sign(email, secret) {
-  const key = await crypto.subtle.importKey('raw', new TextEncoder().encode(secret), { name: 'HMAC', hash: 'SHA-256' }, false, ['sign']);
-  const sig = await crypto.subtle.sign('HMAC', key, new TextEncoder().encode(email.toLowerCase()));
-  return [...new Uint8Array(sig)].map((b) => b.toString(16).padStart(2, '0')).join('');
-}
-
-// ---- Rendu HTML de l'email (DA du site, compatible clients mail) ----
+// ---- Rendu HTML (DA du site, compatible clients mail) ----
 function esc(s) { return String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
 
-function renderEmail({ takeaways, topItems, companies, dateRange, siteUrl, unsubUrl }) {
+function renderEmail({ takeaways, topItems, companies, dateRange, siteUrl }) {
   const CAT = { construction: 'Construction & Projets', land: 'Foncier & Transactions', power: 'Énergie & Réseau', legislation: 'Législation', market: 'État du marché', competition: 'Concurrence & Acteurs' };
   const ACCENT = { cyan: '#22d3ee', green: '#34d399', violet: '#a78bfa', pink: '#f472b6' };
 
@@ -152,8 +114,10 @@ function renderEmail({ takeaways, topItems, companies, dateRange, siteUrl, unsub
       ${itemsHtml}
       ${companiesHtml ? `<tr><td style="padding:16px 28px 4px;"><div style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:1.5px;color:#5f7186;text-transform:uppercase;">// Concurrents &amp; Partenaires</div></td></tr>${companiesHtml}` : ''}
       <tr><td align="center" style="padding:20px 28px 28px;"><table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="background:#2563eb;border-radius:8px;"><a href="${esc(siteUrl)}" style="display:inline-block;padding:12px 24px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;color:#ffffff;text-decoration:none;">Voir toute la veille →</a></td></tr></table></td></tr>
-      <tr><td style="padding:20px 28px;background:#0b1220;border-top:1px solid #1f2a3a;"><div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5f7186;line-height:1.6;">Vous recevez cet email car vous vous êtes inscrit(e) à la veille Data Center Watch.<br><a href="${esc(unsubUrl)}" style="color:#93a1b5;text-decoration:underline;">Se désinscrire</a> · Data Center Watch — veille interne</div></td></tr>
+      <tr><td style="padding:20px 28px;background:#0b1220;border-top:1px solid #1f2a3a;"><div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5f7186;line-height:1.6;">Newsletter interne Data Center Watch. Pour ne plus la recevoir, réponds simplement « stop » à cet email.</div></td></tr>
     </table>
   </td></tr></table>
 </body></html>`;
 }
+
+main().catch((e) => { console.error(e); process.exit(1); });
