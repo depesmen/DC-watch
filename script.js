@@ -323,31 +323,6 @@ function trendIcon(trend) {
   return '■';
 }
 
-/* ---------- Newsletter ---------- */
-const subscribeForm = document.getElementById('subscribe-form');
-const subscribeMessage = document.getElementById('subscribe-message');
-
-subscribeForm.addEventListener('submit', async (e) => {
-  e.preventDefault();
-  const email = document.getElementById('email').value.trim();
-  subscribeMessage.classList.remove('is-error');
-  subscribeMessage.textContent = 'Inscription en cours…';
-  try {
-    const res = await fetch('/api/subscribe', {
-      method: 'POST',
-      headers: { 'Content-Type': 'application/json' },
-      body: JSON.stringify({ email }),
-    });
-    const data = await res.json().catch(() => ({}));
-    if (!res.ok) throw new Error(data.error || "Erreur lors de l'inscription");
-    subscribeMessage.textContent = 'Merci ! Vous recevrez les prochains résumés hebdomadaires.';
-    subscribeForm.reset();
-  } catch (err) {
-    subscribeMessage.classList.add('is-error');
-    subscribeMessage.textContent = err.message || 'Une erreur est survenue, réessayez plus tard.';
-  }
-});
-
 /* ---------- Init ---------- */
 (async function init() {
   const items = await loadVeille();
