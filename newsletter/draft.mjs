@@ -1,31 +1,23 @@
-// Envoi de la newsletter hebdomadaire via Gmail (SMTP) depuis GitHub Actions.
-// Destinataires : liste interne fixe (newsletter/recipients.json).
-// Secrets attendus (env) : GMAIL_USER, GMAIL_APP_PASSWORD.
-// N'envoie qu'à 14h heure de Luxembourg, sauf FORCE=1 (déclenchement manuel).
+// Dépose la newsletter hebdomadaire en BROUILLON dans la boîte Gmail (via IMAP).
+// Noémie relit puis envoie elle-même. Aucun envoi automatique.
+// Secrets attendus (env) : GMAIL_USER, GMAIL_APP_PASSWORD (mot de passe d'application Google, IMAP activé).
 
 import { readFile } from 'node:fs/promises';
-import nodemailer from 'nodemailer';
+import { ImapFlow } from 'imapflow';
+import MailComposer from 'nodemailer/lib/mail-composer/index.js';
 
-const FORCE = process.env.FORCE === '1';
 const { GMAIL_USER, GMAIL_APP_PASSWORD } = process.env;
 
 async function main() {
-  // Garde-fou horaire (14h Europe/Luxembourg), sauf envoi manuel.
-  if (!FORCE) {
-    const hour = Number(new Intl.DateTimeFormat('en-US', { timeZone: 'Europe/Luxembourg', hour: 'numeric', hour12: false }).format(new Date()));
-    if (hour !== 14) { console.log(`Heure Luxembourg = ${hour}h — envoi uniquement à 14h. Abandon.`); return; }
-  }
   if (!GMAIL_USER || !GMAIL_APP_PASSWORD) throw new Error('GMAIL_USER / GMAIL_APP_PASSWORD manquants.');
 
   const veille = JSON.parse(await readFile('data/veille.json', 'utf8'));
   const watchlist = JSON.parse(await readFile('data/watchlist.json', 'utf8').catch(() => '{}'));
   const { recipients = [] } = JSON.parse(await readFile('newsletter/recipients.json', 'utf8'));
   const list = recipients.filter((e) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e));
-  if (!list.length) { console.log('Aucun destinataire valide.'); return; }
 
   // Sélection du contenu.
-  const now = Date.now();
-  const weekAgo = now - 8 * 24 * 3600 * 1000;
+  const weekAgo = Date.now() - 8 * 24 * 3600 * 1000;
   const items = (veille.items || [])
     .map((it) => ({ ...it, ts: Date.parse((it.date || '').length === 7 ? it.date + '-15' : it.date) || 0 }))
     .sort((a, b) => b.ts - a.ts);
@@ -39,20 +31,24 @@ async function main() {
   const dateRange = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Luxembourg' }).format(new Date());
   const html = renderEmail({ takeaways, topItems, companies, dateRange, siteUrl: 'https://dc-watch.depesme-noemie.workers.dev' });
 
-  const transporter = nodemailer.createTransport({
-    host: 'smtp.gmail.com', port: 465, secure: true,
-    auth: { user: GMAIL_USER, pass: GMAIL_APP_PASSWORD },
-  });
-
-  // Un seul envoi : destinataires en Cci (adresses masquées entre elles).
-  await transporter.sendMail({
+  // Construire le message MIME (destinataires internes pré-remplis en Cci).
+  const mail = new MailComposer({
     from: `Data Center Watch <${GMAIL_USER}>`,
     to: GMAIL_USER,
-    bcc: list,
+    bcc: list.length ? list : undefined,
     subject: `Veille Data Center — ${dateRange}`,
     html,
   });
-  console.log(`Newsletter envoyée à ${list.length} destinataire(s).`);
+  const raw = await new Promise((res, rej) => mail.compile().build((err, msg) => (err ? rej(err) : res(msg))));
+
+  // Déposer dans le dossier Brouillons (détection robuste FR/EN via special-use).
+  const client = new ImapFlow({ host: 'imap.gmail.com', port: 993, secure: true, auth: { user: GMAIL_USER, pass: GMAIL_APP_PASSWORD }, logger: false });
+  await client.connect();
+  const boxes = await client.list();
+  const drafts = boxes.find((b) => b.specialUse === '\\Drafts')?.path || '[Gmail]/Drafts';
+  await client.append(drafts, raw, ['\\Draft']);
+  await client.logout();
+  console.log(`Brouillon déposé dans "${drafts}" (${list.length} destinataire(s) en Cci). Sujet : Veille Data Center — ${dateRange}`);
 }
 
 // ---- Rendu HTML (DA du site, compatible clients mail) ----
@@ -114,7 +110,7 @@ function renderEmail({ takeaways, topItems, companies, dateRange, siteUrl }) {
       ${itemsHtml}
       ${companiesHtml ? `<tr><td style="padding:16px 28px 4px;"><div style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:1.5px;color:#5f7186;text-transform:uppercase;">// Concurrents &amp; Partenaires</div></td></tr>${companiesHtml}` : ''}
       <tr><td align="center" style="padding:20px 28px 28px;"><table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="background:#2563eb;border-radius:8px;"><a href="${esc(siteUrl)}" style="display:inline-block;padding:12px 24px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;color:#ffffff;text-decoration:none;">Voir toute la veille →</a></td></tr></table></td></tr>
-      <tr><td style="padding:20px 28px;background:#0b1220;border-top:1px solid #1f2a3a;"><div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5f7186;line-height:1.6;">Newsletter interne Data Center Watch. Pour ne plus la recevoir, réponds simplement « stop » à cet email.</div></td></tr>
+      <tr><td style="padding:20px 28px;background:#0b1220;border-top:1px solid #1f2a3a;"><div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5f7186;line-height:1.6;">Newsletter interne Data Center Watch.</div></td></tr>
     </table>
   </td></tr></table>
 </body></html>`;
