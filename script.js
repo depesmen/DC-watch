@@ -11,6 +11,7 @@ const CATEGORY_LABELS = {
 const tabs = document.querySelectorAll('.tab');
 const views = document.querySelectorAll('.view');
 let predictionsLoaded = false;
+let technologiesLoaded = false;
 
 tabs.forEach((tab) => {
   tab.addEventListener('click', () => {
@@ -21,6 +22,10 @@ tabs.forEach((tab) => {
     if (target === 'previsions' && !predictionsLoaded) {
       predictionsLoaded = true;
       loadPredictions();
+    }
+    if (target === 'technologies' && !technologiesLoaded) {
+      technologiesLoaded = true;
+      loadTechnologies();
     }
   });
 });
@@ -321,6 +326,52 @@ function trendIcon(trend) {
   if (trend === 'up') return '▲';
   if (trend === 'down') return '▼';
   return '■';
+}
+
+/* ---------- Technologies ---------- */
+const VENDOR_ACCENT = { NVIDIA: 'green', AMD: 'pink', Google: 'cyan', 'Amazon (AWS)': 'violet' };
+
+async function loadTechnologies() {
+  const chipsGrid = document.getElementById('chips-grid');
+  const coolingTable = document.getElementById('cooling-table');
+  try {
+    const res = await fetch('data/technologies.json', { cache: 'no-store' });
+    const data = await res.json();
+
+    chipsGrid.innerHTML = (data.chips || []).map((c) => `
+      <article class="chip-card" data-accent="${VENDOR_ACCENT[c.vendor] || 'cyan'}">
+        <div class="chip-top">
+          <span class="chip-vendor">${c.vendor}</span>
+          <span class="chip-type">${c.type}</span>
+        </div>
+        <h4 class="chip-name">${c.name}</h4>
+        <div class="chip-avail">${c.availability}</div>
+        <ul class="chip-specs">${(c.specs || []).map((s) => `<li>${s}</li>`).join('')}</ul>
+        <div class="chip-price"><span class="chip-price-label">Prix</span> ${c.price}</div>
+        <a class="chip-source" href="${c.url}" target="_blank" rel="noopener noreferrer">${c.source} →</a>
+      </article>`).join('');
+
+    document.getElementById('price-note').textContent = data.priceNote || '';
+
+    const cool = data.cooling || [];
+    coolingTable.innerHTML = `
+      <thead><tr>
+        <th>Méthode</th><th>PUE typique</th><th>Densité supportée</th><th>Maturité / adoption</th>
+      </tr></thead>
+      <tbody>
+        ${cool.map((m) => `
+          <tr>
+            <td class="ct-name"><a href="${m.url}" target="_blank" rel="noopener noreferrer">${m.name}</a></td>
+            <td class="ct-pue">${m.pue}</td>
+            <td>${m.density}</td>
+            <td>${m.maturity}</td>
+          </tr>`).join('')}
+      </tbody>`;
+    document.getElementById('cooling-note').textContent = data.coolingNote || '';
+  } catch (err) {
+    chipsGrid.innerHTML = '<p class="empty-state">Impossible de charger les technologies.</p>';
+    console.error('Failed to load technologies.json', err);
+  }
 }
 
 /* ---------- Init ---------- */
