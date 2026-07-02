@@ -36,7 +36,7 @@ async function main() {
     from: `Data Center Watch <${GMAIL_USER}>`,
     to: GMAIL_USER,
     bcc: list.length ? list : undefined,
-    subject: `Veille Data Center — ${dateRange}`,
+    subject: `DC Watch — ${dateRange}`,
     html,
   });
   const raw = await new Promise((res, rej) => mail.compile().build((err, msg) => (err ? rej(err) : res(msg))));
@@ -48,7 +48,7 @@ async function main() {
   const drafts = boxes.find((b) => b.specialUse === '\\Drafts')?.path || '[Gmail]/Drafts';
   await client.append(drafts, raw, ['\\Draft']);
   await client.logout();
-  console.log(`Brouillon déposé dans "${drafts}" (${list.length} destinataire(s) en Cci). Sujet : Veille Data Center — ${dateRange}`);
+  console.log(`Brouillon déposé dans "${drafts}" (${list.length} destinataire(s) en Cci). Sujet : DC Watch — ${dateRange}`);
 }
 
 // ---- Rendu HTML (DA du site, compatible clients mail) ----
