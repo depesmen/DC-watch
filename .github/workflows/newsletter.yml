@@ -1,0 +1,20 @@
+name: Newsletter hebdo
+
+on:
+  schedule:
+    - cron: '0 7 * * 5'      # vendredi ~9h Luxembourg : brouillon prêt avant ton envoi
+  workflow_dispatch: {}       # bouton "Run workflow" pour tester quand tu veux
+
+jobs:
+  draft:
+    runs-on: ubuntu-latest
+    steps:
+      - uses: actions/checkout@v4
+      - uses: actions/setup-node@v4
+        with:
+          node-version: '20'
+      - run: npm install nodemailer@6 imapflow@1
+      - run: node newsletter/draft.mjs
+        env:
+          GMAIL_USER: ${{ secrets.GMAIL_USER }}
+          GMAIL_APP_PASSWORD: ${{ secrets.GMAIL_APP_PASSWORD }}
