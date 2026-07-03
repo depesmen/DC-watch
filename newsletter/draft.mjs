@@ -13,23 +13,34 @@ async function main() {
 
   const veille = JSON.parse(await readFile('data/veille.json', 'utf8'));
   const watchlist = JSON.parse(await readFile('data/watchlist.json', 'utf8').catch(() => '{}'));
+  const techno = JSON.parse(await readFile('data/technologies.json', 'utf8').catch(() => '{}'));
   const { recipients = [] } = JSON.parse(await readFile('newsletter/recipients.json', 'utf8'));
   const list = recipients.filter((e) => /^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(e));
 
-  // Sélection du contenu.
-  const weekAgo = Date.now() - 8 * 24 * 3600 * 1000;
-  const items = (veille.items || [])
-    .map((it) => ({ ...it, ts: Date.parse((it.date || '').length === 7 ? it.date + '-15' : it.date) || 0 }))
+  // Ne garder QUE l'actualité des 7 derniers jours (la semaine d'envoi).
+  const cutoff = Date.now() - 7 * 24 * 3600 * 1000;
+  const weekItems = (veille.items || [])
+    .map((it) => ({ ...it, ts: itemTs(it.date) }))
+    .filter((it) => it.ts >= cutoff)
     .sort((a, b) => b.ts - a.ts);
-  const recent = items.filter((it) => it.ts >= weekAgo);
-  const topItems = (recent.length ? recent : items).slice(0, 5);
+
+  // Séparer les sujets « technologies » du reste (inclus seulement s'ils sont dans l'actu de la semaine).
+  const TECH_KW = ['puce', 'chip', 'gpu', 'tpu', 'nvidia', 'amd', 'rubin', 'blackwell', 'hopper', 'trainium', 'ironwood', 'hbm', 'accélérat', 'refroidissement', 'immersion', 'tsmc', 'semiconduc', 'nvlink', 'cowos'];
+  const isTech = (it) => TECH_KW.some((k) => `${it.title} ${it.summary}`.toLowerCase().includes(k));
+  const techItems = weekItems.filter(isTech).slice(0, 4);
+  const topItems = weekItems.filter((it) => !isTech(it)).slice(0, 5);
+  // Puces « à venir » ajoutées en contexte uniquement s'il y a de l'actu techno cette semaine.
+  const upcomingChips = techItems.length
+    ? ((techno.groups || []).find((g) => g.id === 'upcoming')?.chips || []).slice(0, 3)
+    : [];
+
   const takeaways = (veille.keyTakeaways || []).slice(0, 4);
   const companies = (watchlist.companies || [])
-    .map((c) => ({ name: c.name, accent: c.accent, latest: (c.news || [])[0] }))
+    .map((c) => ({ name: c.name, accent: c.accent, latest: (c.news || []).find((n) => itemTs(n.date) >= cutoff) }))
     .filter((c) => c.latest);
 
   const dateRange = new Intl.DateTimeFormat('fr-FR', { day: 'numeric', month: 'long', year: 'numeric', timeZone: 'Europe/Luxembourg' }).format(new Date());
-  const html = renderEmail({ takeaways, topItems, companies, dateRange, siteUrl: 'https://dc-watch.depesme-noemie.workers.dev' });
+  const html = renderEmail({ takeaways, topItems, techItems, upcomingChips, companies, dateRange, siteUrl: 'https://dc-watch.depesme-noemie.workers.dev' });
 
   // Construire le message MIME (destinataires internes pré-remplis en Cci).
   const mail = new MailComposer({
@@ -51,10 +62,37 @@ async function main() {
   console.log(`Brouillon déposé dans "${drafts}" (${list.length} destinataire(s) en Cci). Sujet : DC Watch — ${dateRange}`);
 }
 
+// Horodatage d'un item : date complète = ce jour ; mois seul = fin de mois ; année/trimestre = exclu du hebdo.
+function itemTs(date) {
+  const d = String(date || '');
+  if (/^\d{4}-\d{2}-\d{2}$/.test(d)) return Date.parse(d);
+  if (/^\d{4}-\d{2}$/.test(d)) return Date.parse(d + '-28');
+  return 0;
+}
+
 // ---- Rendu HTML (DA du site, compatible clients mail) ----
 function esc(s) { return String(s ?? '').replace(/[&<>"]/g, (c) => ({ '&': '&amp;', '<': '&lt;', '>': '&gt;', '"': '&quot;' }[c])); }
 
-function renderEmail({ takeaways, topItems, companies, dateRange, siteUrl }) {
+function itemCard(it, CAT) {
+  return `
+    <tr><td style="padding:8px 28px;">
+      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#121a28;border:1px solid #1f2a3a;border-radius:8px;"><tr><td style="padding:16px 18px;">
+        <table role="presentation" cellpadding="0" cellspacing="0"><tr>
+          <td style="font-family:'Courier New',monospace;font-size:10px;letter-spacing:0.5px;color:#3b82f6;text-transform:uppercase;background:#0e1930;border:1px solid #23324d;border-radius:4px;padding:3px 8px;">${esc(CAT[it.category] || it.category)}</td>
+        </tr></table>
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:700;color:#ffffff;padding-top:10px;line-height:1.35;">${esc(it.title)}</div>
+        <div style="font-family:'Courier New',monospace;font-size:11px;color:#5f7186;padding-top:4px;">${esc(it.region)} · ${esc(it.date)}</div>
+        <div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#93a1b5;padding-top:8px;line-height:1.55;">${esc(it.summary)}</div>
+        <div style="padding-top:10px;"><a href="${esc(it.url)}" style="font-family:'Courier New',monospace;font-size:12px;color:#22d3ee;text-decoration:none;">${esc(it.source)} →</a></div>
+      </td></tr></table>
+    </td></tr>`;
+}
+
+function sectionLabel(txt) {
+  return `<tr><td style="padding:16px 28px 4px;"><div style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:1.5px;color:#5f7186;text-transform:uppercase;">${txt}</div></td></tr>`;
+}
+
+function renderEmail({ takeaways, topItems, techItems, upcomingChips, companies, dateRange, siteUrl }) {
   const CAT = { construction: 'Construction & Projets', land: 'Foncier & Transactions', power: 'Énergie & Réseau', legislation: 'Législation', market: 'État du marché', competition: 'Concurrence & Acteurs' };
   const ACCENT = { cyan: '#22d3ee', green: '#34d399', violet: '#a78bfa', pink: '#f472b6' };
 
@@ -66,18 +104,21 @@ function renderEmail({ takeaways, topItems, companies, dateRange, siteUrl }) {
       <td style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#eaf1f8;line-height:1.55;">${esc(t)}</td>
     </tr></table>`).join('');
 
-  const itemsHtml = topItems.map((it) => `
-    <tr><td style="padding:8px 28px;">
-      <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#121a28;border:1px solid #1f2a3a;border-radius:8px;"><tr><td style="padding:16px 18px;">
-        <table role="presentation" cellpadding="0" cellspacing="0"><tr>
-          <td style="font-family:'Courier New',monospace;font-size:10px;letter-spacing:0.5px;color:#3b82f6;text-transform:uppercase;background:#0e1930;border:1px solid #23324d;border-radius:4px;padding:3px 8px;">${esc(CAT[it.category] || it.category)}</td>
-        </tr></table>
-        <div style="font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:700;color:#ffffff;padding-top:10px;line-height:1.35;">${esc(it.title)}</div>
-        <div style="font-family:'Courier New',monospace;font-size:11px;color:#5f7186;padding-top:4px;">${esc(it.region)} · ${esc(it.date)}</div>
-        <div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#93a1b5;padding-top:8px;line-height:1.55;">${esc(it.summary)}</div>
-        <div style="padding-top:10px;"><a href="${esc(it.url)}" style="font-family:'Courier New',monospace;font-size:12px;color:#22d3ee;text-decoration:none;">${esc(it.source)} →</a></div>
-      </td></tr></table>
-    </td></tr>`).join('');
+  const itemsHtml = topItems.map((it) => itemCard(it, CAT)).join('');
+
+  // Section Technologies : seulement si de l'actu techno est tombée cette semaine.
+  let techHtml = '';
+  if (techItems.length) {
+    techHtml = sectionLabel('// Technologies') + techItems.map((it) => itemCard(it, CAT)).join('');
+    if (upcomingChips.length) {
+      const chipsLine = upcomingChips.map((c) => `<strong style="color:#eaf1f8;">${esc(c.name)}</strong> (${esc(c.availability)})`).join(' · ');
+      techHtml += `<tr><td style="padding:4px 28px 8px;"><div style="font-family:Arial,Helvetica,sans-serif;font-size:12.5px;color:#93a1b5;line-height:1.6;"><span style="font-family:'Courier New',monospace;font-size:10.5px;color:#22d3ee;">À SURVEILLER —</span> ${chipsLine}</div></td></tr>`;
+    }
+  }
+
+  const emptyHtml = (!topItems.length && !techItems.length)
+    ? `<tr><td style="padding:8px 28px;"><div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#93a1b5;">Pas d'actualité majeure cette semaine.</div></td></tr>`
+    : '';
 
   const companiesHtml = companies.map((c) => `
     <tr><td style="padding:8px 28px;">
@@ -106,9 +147,10 @@ function renderEmail({ takeaways, topItems, companies, dateRange, siteUrl }) {
           <tr><td style="padding:18px 20px 8px;">${takeawaysHtml}</td></tr>
         </table>
       </td></tr>
-      <tr><td style="padding:16px 28px 4px;"><div style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:1.5px;color:#5f7186;text-transform:uppercase;">// À la une</div></td></tr>
-      ${itemsHtml}
-      ${companiesHtml ? `<tr><td style="padding:16px 28px 4px;"><div style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:1.5px;color:#5f7186;text-transform:uppercase;">// Concurrents &amp; Partenaires</div></td></tr>${companiesHtml}` : ''}
+      ${topItems.length ? sectionLabel('// À la une') + itemsHtml : ''}
+      ${techHtml}
+      ${emptyHtml}
+      ${companiesHtml ? sectionLabel('// Concurrents &amp; Partenaires') + companiesHtml : ''}
       <tr><td align="center" style="padding:20px 28px 28px;"><table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="background:#2563eb;border-radius:8px;"><a href="${esc(siteUrl)}" style="display:inline-block;padding:12px 24px;font-family:Arial,Helvetica,sans-serif;font-size:14px;font-weight:700;color:#ffffff;text-decoration:none;">Voir toute la veille →</a></td></tr></table></td></tr>
       <tr><td style="padding:20px 28px;background:#0b1220;border-top:1px solid #1f2a3a;"><div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#5f7186;line-height:1.6;">Newsletter interne Data Center Watch.</div></td></tr>
     </table>
