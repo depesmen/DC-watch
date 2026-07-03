@@ -1,73 +1,109 @@
 {
-  "lastUpdated": "2026-07-02",
+  "lastUpdated": "2026-07-03",
   "keyTakeaways": [
-    "Les méga-campus s'enchaînent aux USA : Vantage 25 Md$/1,4 GW au Texas, Meta 1 GW en Indiana, Microsoft 13 Md$ sur 15 data centers dans le Wisconsin.",
-    "La demande électrique des data centers US est passée de 23 GW (2023) à 42 GW (2026) ; la file d'interconnexion dépasse 1 500 GW et les délais atteignent 4 à 7 ans dans les grands hubs (Northern Virginia, Dublin, Singapour, Amsterdam).",
-    "La vacance reste à un plancher record (1% aux USA, 0,3% en Northern Virginia) avec 92% des capacités en construction déjà pré-louées — l'offre disponible est quasi nulle.",
-    "Le front réglementaire se durcit par le bas : 116 municipalités US ont un moratoire local, et des États (Floride SB 484, Oklahoma HB 2992) interdisent de refacturer les coûts data center aux particuliers.",
-    "L'Europe accélère : sommet Choose France 2026 = 93 Md€ d'investissements étrangers, en majorité numériques ; Polarise pousse son AI Factory d'Amberg (30 MW extensible à 120 MW) en Allemagne."
+    "Déluge de méga-deals : Montgomery County cumule 25 Md$ (Amazon 10 Md$ + Google 15 Md$), et le DC01UK de 5,3 Md$ près de Londres vient d'être approuvé.",
+    "Le « mégawatt livrable » devient l'actif clé : le capital se concentre sur les terrains déjà énergisés et la puissance sécurisée, plus que sur le foncier nu.",
+    "Contournement du réseau : Chevron + Microsoft (Kilby, 2,67 GW) et Stark/Sagebrush misent sur de la production dédiée (gaz co-localisé) pour éviter la file d'attente de raccordement.",
+    "Offtake de compute géant : Reflection AI signe avec SpaceX jusqu'à 6,3 Md$ pour de la capacité GB300 à Colossus 2.",
+    "Moyen-Orient en force : Damac Digital atteint 6 000 MW planifiés sur 13 pays, 10 sites lancés en 5 mois."
   ],
   "items": [
     {
       "category": "construction",
-      "title": "Vantage lance un campus de 25 Md$ et 1,4 GW au Texas",
+      "title": "Montgomery County : Amazon (10 Md$) et Google (15 Md$) portent le total à 25 Md$",
       "region": "Amérique du Nord",
-      "date": "2026-06",
-      "summary": "Vantage Data Centers développe un campus de 1,4 GW dans le comté de Shackelford (Texas) — 25 Md$ d'investissement et jusqu'à 5 000 emplois annoncés.",
-      "source": "Datacenters.com",
-      "url": "https://www.datacenters.com/news/2026-data-center-projects-that-could-add-20-gw-of-new-capacity"
+      "date": "2026-07",
+      "summary": "Amazon prévoit 10 Md$ pour un nouveau campus data center et Google 15 Md$ pour un projet distinct dans le comté de Montgomery — 25 Md$ de projets hyperscale récemment annoncés sur ce seul comté.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
     },
     {
       "category": "construction",
-      "title": "Meta développe un campus de 1 GW à Lebanon (Indiana)",
+      "title": "DC01UK : data center IA de 5,3 Md$ approuvé près de Londres",
+      "region": "Europe",
+      "date": "2026-07",
+      "summary": "Le conseil de Hertsmere Borough a approuvé DC01UK, un data center « AI-ready » de 4 Md£ (5,3 Md$) près de Londres.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+    },
+    {
+      "category": "power",
+      "title": "Chevron + Microsoft (Kilby, 2,67 GW) contournent la file d'attente réseau",
       "region": "Amérique du Nord",
-      "date": "2026-06",
-      "summary": "Meta construit un campus data center de 1 GW à Lebanon, Indiana, mobilisant jusqu'à 4 000 ouvriers au pic du chantier.",
-      "source": "Datacenters.com",
-      "url": "https://www.datacenters.com/news/2026-data-center-projects-that-could-add-20-gw-of-new-capacity"
+      "date": "2026-07",
+      "summary": "Le projet Kilby de 2,67 GW de Chevron et Microsoft sécurise une production d'électricité dédiée en direct, contournant la file d'interconnexion du réseau — illustration du basculement vers l'énergie behind-the-meter.",
+      "source": "Global Data Center Hub",
+      "url": "https://www.globaldatacenterhub.com/p/this-week-in-data-centers-the-deliverable"
+    },
+    {
+      "category": "competition",
+      "title": "Stark Power rachète Sagebrush (data centers + centrales gaz co-localisées)",
+      "region": "Moyen-Orient",
+      "date": "2026-07",
+      "summary": "En Israël, Stark Power s'engage à acquérir 100% de Sagebrush Infrastructure Partners, développeur de data centers hyperscale avec centrales au gaz co-localisées — le capital se consolide autour des terrains énergisés.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+    },
+    {
+      "category": "market",
+      "title": "Reflection AI signe un offtake de compute jusqu'à 6,3 Md$ avec SpaceX",
+      "region": "Amérique du Nord",
+      "date": "2026-07",
+      "summary": "Reflection AI a signé un accord d'achat de capacité de calcul avec SpaceX valorisé jusqu'à 6,3 Md$, pour de la capacité GB300 sur le site Colossus 2.",
+      "source": "Global Data Center Hub",
+      "url": "https://www.globaldatacenterhub.com/p/this-week-in-data-centers-the-deliverable"
     },
     {
       "category": "construction",
-      "title": "Microsoft investit 13 Md$ sur 15 data centers dans le Wisconsin",
+      "title": "Damac Digital atteint 6 000 MW planifiés sur 13 pays",
+      "region": "Émirats arabes unis",
+      "date": "2026-07",
+      "summary": "Le développeur émirati Damac Digital revendique 6 000 MW de capacité IT planifiée sur 13 pays, avec 10 sites lancés en 5 mois et 8 attendus opérationnels d'ici fin 2026.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+    },
+    {
+      "category": "construction",
+      "title": "Microsoft lance la construction d'un data center à La Porte (Indiana)",
       "region": "Amérique du Nord",
-      "date": "2026-06",
-      "summary": "Microsoft déploie plus de 13 Md$ pour 15 nouveaux data centers sur l'ancien site Foxconn de Mount Pleasant (Wisconsin).",
-      "source": "Blackridge Research",
-      "url": "https://www.blackridgeresearch.com/blog/latest-list-new-upcoming-data-center-construction-project-developments-world"
+      "date": "2026-07",
+      "summary": "Microsoft a démarré les travaux de son dernier projet de data center à La Porte, dans l'Indiana.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+    },
+    {
+      "category": "land",
+      "title": "L'IA provoque le plus grand « land grab » d'infrastructure de l'histoire",
+      "region": "Monde",
+      "date": "2026-07",
+      "summary": "Analyse : la ruée hyperscale sur le foncier énergisé s'accélère ; le capital se concentre sur les plateformes qui associent financement et mégawatts déjà raccordés au réseau.",
+      "source": "Datacenters.com",
+      "url": "https://www.datacenters.com/news/hyperscale-is-driving-the-largest-infrastructure-land-grab-in-history"
     },
     {
       "category": "construction",
       "title": "Amazon ajoute 13 Md$ pour ses data centers en Inde (Mumbai, Hyderabad)",
       "region": "Asie-Pacifique",
       "date": "2026-06-25",
-      "summary": "Amazon annonce 13 Md$ supplémentaires pour AWS à Mumbai et Hyderabad, portant son engagement total en Inde à 48 Md$ sur 2026-2030 (annoncé après la rencontre d'Andy Jassy avec le PM Modi).",
+      "summary": "Amazon annonce 13 Md$ supplémentaires pour AWS à Mumbai et Hyderabad, portant son engagement total en Inde à 48 Md$ sur 2026-2030.",
       "source": "Datacenters.com",
       "url": "https://www.datacenters.com/news/2026-data-center-projects-that-could-add-20-gw-of-new-capacity"
     },
     {
-      "category": "land",
-      "title": "Hyperscale Data finalise l'achat de 48,5 acres pour étendre son campus du Michigan",
-      "region": "Amérique du Nord",
-      "date": "2026-07",
-      "summary": "Hyperscale Data a bouclé l'acquisition de 48,5 acres de terrain boisé destinés à l'extension de son campus data center dans le Michigan.",
-      "source": "Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/hyperscale-data-completes-land-acquisition-to-expand-michigan-campus/"
+      "category": "construction",
+      "title": "Campus IA de Fouju : 1,4 GW et 8,5 Md€ en Seine-et-Marne",
+      "region": "Europe",
+      "date": "2026-06-03",
+      "summary": "Projet de 1,4 GW à Fouju (Seine-et-Marne), première tranche de 8,5 Md€, travaux dès 2026, mise en service visée en 2028. Actionnaires : MGX, Bpifrance, Mistral AI, NVIDIA.",
+      "source": "Media24",
+      "url": "https://media24.fr/2026/06/03/avec-le-campus-ia-de-fouju-eiffage-met-les-mains-dans-le-coeur-electrique-de-lintelligence-artificielle-francaise/"
     },
     {
       "category": "land",
       "title": "Hut 8 signe un bail de 9,8 Md$ pour son campus Beacon Point (Texas)",
       "region": "Amérique du Nord",
       "date": "2026-05",
-      "summary": "Hut 8 a annoncé un bail de 15 ans valorisé à 9,8 Md$ pour la première phase de son campus Beacon Point, dans le comté de Nueces près de Corpus Christi.",
-      "source": "The Real Deal",
-      "url": "https://therealdeal.com/texas/2026/05/07/amazons-1000-acre-land-buy-deepens-texas-data-center-bench/"
-    },
-    {
-      "category": "land",
-      "title": "Amazon acquiert 1 300 acres au Texas (comté de Bastrop)",
-      "region": "Amérique du Nord",
-      "date": "2026-05",
-      "summary": "Des entités liées à Amazon Data Services ont acquis au moins 1 300 acres dans la zone Cedar Creek (comté de Bastrop, ~30 miles au SE d'Austin) pour un potentiel campus hyperscale.",
+      "summary": "Hut 8 annonce un bail de 15 ans valorisé à 9,8 Md$ pour la première phase de son campus Beacon Point, comté de Nueces près de Corpus Christi.",
       "source": "The Real Deal",
       "url": "https://therealdeal.com/texas/2026/05/07/amazons-1000-acre-land-buy-deepens-texas-data-center-bench/"
     },
@@ -90,20 +126,11 @@
       "url": "https://www.belfercenter.org/research-analysis/ai-data-centers-us-electric-grid"
     },
     {
-      "category": "power",
-      "title": "La FERC lance une action ciblée pour accélérer le raccordement des grandes charges",
-      "region": "Amérique du Nord",
-      "date": "2026-06",
-      "summary": "Le régulateur fédéral de l'énergie engage une démarche agressive et ciblée pour accélérer l'intégration des grandes charges (data centers) au réseau électrique.",
-      "source": "FERC",
-      "url": "https://www.ferc.gov/news-events/news/ferc-launches-aggressive-targeted-action-speed-large-load-integration"
-    },
-    {
       "category": "legislation",
       "title": "New York vote un moratoire d'un an sur les data centers IA",
       "region": "Amérique du Nord",
       "date": "2026-06-05",
-      "summary": "Le 5 juin 2026, le Sénat et l'Assemblée de New York ont adopté le Responsible Data Center Development Act (S10642), moratoire d'un an sur les data centers IA. En attente de signature de la gouverneure — ce serait le premier moratoire statewide du pays.",
+      "summary": "Le Sénat et l'Assemblée de New York ont adopté le Responsible Data Center Development Act (S10642), moratoire d'un an sur les data centers IA. En attente de signature de la gouverneure — premier moratoire statewide du pays.",
       "source": "Earthjustice",
       "url": "https://earthjustice.org/press/2026/nys-legislature-passes-data-center-moratorium"
     },
@@ -121,61 +148,34 @@
       "title": "Floride et Oklahoma interdisent de refacturer les coûts data center aux particuliers",
       "region": "Amérique du Nord",
       "date": "2026",
-      "summary": "La Floride (SB 484) interdit aux services publics de répercuter les coûts des data centers sur les particuliers et impose aux grands consommateurs de payer leur plein coût de service ; l'Oklahoma (HB 2992) adopte des règles similaires.",
+      "summary": "La Floride (SB 484) interdit de répercuter les coûts des data centers sur les particuliers et impose aux grands consommateurs leur plein coût de service ; l'Oklahoma (HB 2992) adopte des règles similaires.",
       "source": "Good Jobs First",
       "url": "https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/"
-    },
-    {
-      "category": "legislation",
-      "title": "AI Data Center Moratorium Act déposé au Congrès (Sanders / Ocasio-Cortez)",
-      "region": "Amérique du Nord",
-      "date": "2026-06",
-      "summary": "Bernie Sanders et Alexandria Ocasio-Cortez ont déposé à la Chambre une loi suspendant temporairement la construction et l'extension de data centers jusqu'à l'adoption d'un cadre réglementaire fédéral.",
-      "source": "Data Center Dynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/ocasio-cortez-and-sanders-introduce-ai-data-center-moratorium-act/"
-    },
-    {
-      "category": "market",
-      "title": "Absorption nette top-4 Amérique du Nord : +34% sur un an au Q1 (2 236 MW)",
-      "region": "Amérique du Nord",
-      "date": "2026-Q1",
-      "summary": "L'absorption nette des 4 grands marchés nord-américains a bondi de 34% sur un an à 2 236 MW au Q1, portée par Northern Virginia (record de 1 148 MW). 92% des capacités en construction sont déjà pré-louées.",
-      "source": "JLL",
-      "url": "https://www.jll.com/en-us/newsroom/data-center-availability-crisis-deepens-as-vacancy-hits-historic-low"
     },
     {
       "category": "market",
       "title": "Vacance à un plancher record : 1% aux USA, 0,3% en Northern Virginia",
       "region": "Amérique du Nord",
       "date": "2026-Q1",
-      "summary": "La vacance reste à 1% pour la 2e année consécutive malgré des niveaux de construction inédits ; Northern Virginia tombe à un record de 0,3%.",
+      "summary": "La vacance reste à 1% pour la 2e année consécutive malgré des niveaux de construction inédits ; Northern Virginia tombe à un record de 0,3%. 92% des capacités en construction déjà pré-louées.",
       "source": "JLL",
       "url": "https://www.jll.com/en-us/newsroom/data-center-availability-crisis-deepens-as-vacancy-hits-historic-low"
     },
     {
       "category": "market",
-      "title": "Asie-Pacifique : absorption record de 609 MW au Q1, Sydney et Tokyo en tête",
-      "region": "Asie-Pacifique",
-      "date": "2026-Q1",
-      "summary": "L'absorption nette a progressé sur les 4 grands marchés APAC à 608,9 MW au Q1, juste devant l'Europe. La demande est la plus forte à Sydney et Tokyo, avec des baisses de vacance sur un an.",
-      "source": "JLL",
-      "url": "https://www.jll.com/en-us/newsroom/data-center-availability-crisis-deepens-as-vacancy-hits-historic-low"
-    },
-    {
-      "category": "construction",
-      "title": "Choose France 2026 : 93 Md€ d'investissements étrangers, en majorité numériques",
+      "title": "EMEA : 11,4 GW opérationnels, 12,1 GW planifiés, mais 5,2 ans d'attente pour se raccorder",
       "region": "Europe",
       "date": "2026",
-      "summary": "Le sommet Choose France 2026 a généré 93 Md€ de promesses d'investissements étrangers, en majorité dédiés au numérique et aux infrastructures stratégiques ; SoftBank prévoit 45 Md€ pour trois data centers dans le nord de la France d'ici 2031.",
-      "source": "Batirama",
-      "url": "https://www.batirama.com/article/96970-le-marche-des-data-centers-en-france-croit-rapidement-et-s-elargit-a-de-nouvelles-regions.html"
+      "summary": "L'EMEA compte 11,4 GW opérationnels, 2,7 GW en construction et 12,1 GW planifiés. Le délai moyen de raccordement y atteint 5,2 ans, contre 2,7 ans en APAC.",
+      "source": "Cushman & Wakefield",
+      "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison"
     },
     {
       "category": "competition",
       "title": "Polarise lance une AI Factory de 30 MW (extensible à 120 MW) à Amberg (Bavière)",
       "region": "Allemagne",
       "date": "2026",
-      "summary": "Après Munich, Polarise construit un data center IA à Amberg (Unterallgäu, région d'Augsbourg) : 30 MW au départ, scalable à 120 MW, mise en service mi-2027, alimenté par 70 MWp de solaire + stockage (WV Energie).",
+      "summary": "Après Munich, Polarise construit un data center IA à Amberg : 30 MW au départ, scalable à 120 MW, mise en service mi-2027, alimenté par 70 MWp de solaire + stockage.",
       "source": "Data Centre Magazine",
       "url": "https://datacentremagazine.com/news/why-is-polarise-expanding-its-european-ai-data-centres"
     },
@@ -184,7 +184,7 @@
       "title": "SWI Group prend une position majoritaire dans Polarise (valo 0,5 Md€)",
       "region": "Europe",
       "date": "2026-06",
-      "summary": "SWI (Stoneweg Icona) signe pour une participation majoritaire dans Polarise — valorisation 0,5 Md€, engagement de 1,0 Md$ pour développer l'infra IA souveraine européenne.",
+      "summary": "SWI (Stoneweg Icona) signe pour une participation majoritaire dans Polarise — valorisation 0,5 Md€, engagement de 1,0 Md$ pour l'infra IA souveraine européenne.",
       "source": "Data Centre Magazine",
       "url": "https://datacentremagazine.com/news/why-is-polarise-expanding-its-european-ai-data-centres"
     }
