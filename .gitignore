@@ -2,3 +2,10 @@
 
 # Workflow ajouté via le web GitHub (le jeton local n a pas le scope workflow)
 .github/workflows/
+
+# wrangler files
+.wrangler
+.dev.vars*
+!.dev.vars.example
+.env*
+!.env.example
