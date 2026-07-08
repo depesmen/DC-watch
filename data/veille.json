@@ -1,13 +1,58 @@
 {
-  "lastUpdated": "2026-07-07",
+  "lastUpdated": "2026-07-08",
   "keyTakeaways": [
-    "Land + Power en direct : Digital Edge sécurise 60 MW + 90 MVA à Ansan (Corée) avec double alimentation 154 kV ; Iren signe le raccordement d'un campus de 800 MW en Australie (sous tension en 2028).",
-    "Vague de méga-deals énergie : Bloom + Brookfield signent 25 Md$ ; Chevron + Microsoft (Kilby, 2,67 GW) contournent le réseau.",
-    "Microsoft met en service son 1er data center (3,3 Md$) au campus Mount Pleasant (Wisconsin).",
-    "Face à la pénurie de foncier, Samsung se lance dans les data centers flottants.",
-    "L'Europe bascule vers le refroidissement liquide (direct-to-chip / immersion) ; marché construction visé à +23%/an."
+    "La FERC met la pression : ordres « show-cause » aux 6 grands gestionnaires de réseau US pour cadrer les demandes de charge à l'échelle du gigawatt et la production co-localisée.",
+    "Course à l'énergie ferme : Meta sécurise jusqu'à 6,6 GW de nucléaire (Oklo, Vistra, TerraPower) ; National Grid investit 1,75 Md$ dans Joulent (puissance multi-GW pour l'IA).",
+    "Démesure : un campus IA de 9 GW approuvé dans l'Utah — il consommerait plus du double de l'électricité de tout l'État.",
+    "Land + Power : Digital Edge sécurise 60 MW + 90 MVA à Ansan (Corée) ; Iren raccorde 800 MW en Australie (sous tension 2028).",
+    "La Virginie taxe l'électricité des data centers (0,011 $/kWh) depuis le 1er juillet — premier signal fiscal fort du plus grand marché mondial."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "La FERC ordonne aux 6 grands réseaux US de cadrer les charges à l'échelle du gigawatt",
+      "region": "Amérique du Nord",
+      "date": "2026-07",
+      "summary": "La FERC a émis des ordres « show-cause » aux six plus grands gestionnaires de réseau américains, leur fixant un délai pour définir le traitement des demandes de raccordement de charges à l'échelle du gigawatt et l'évaluation de la production co-localisée.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/energy-power-supply/national-grid-agrees-to-1-75b-investment-in-joulent-to-expand-ai-power-infrastructure"
+    },
+    {
+      "category": "power",
+      "title": "Meta signe des accords nucléaires pour jusqu'à 6,6 GW (Oklo, Vistra, TerraPower)",
+      "region": "Amérique du Nord",
+      "date": "2026-07",
+      "summary": "Meta a conclu des accords pour jusqu'à 6,6 GW d'électricité nucléaire auprès d'Oklo, Vistra et TerraPower afin d'alimenter ses data centers IA.",
+      "source": "Utility Dive",
+      "url": "https://www.utilitydive.com/news/meta-nuclear-deal-oklo-vistra-terrapower-ai-data-centers/809215/"
+    },
+    {
+      "category": "power",
+      "title": "National Grid investit 1,75 Md$ dans Joulent (énergie multi-GW pour l'IA)",
+      "region": "Amérique du Nord",
+      "date": "2026-07",
+      "summary": "Face aux délais d'interconnexion, National Grid Ventures prévoit 1,75 Md$ dans Joulent, énergéticien spécialisé dans la fourniture de puissance multi-gigawatt aux infrastructures IA.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/energy-power-supply/national-grid-agrees-to-1-75b-investment-in-joulent-to-expand-ai-power-infrastructure"
+    },
+    {
+      "category": "construction",
+      "title": "Un campus data center de 9 GW approuvé dans l'Utah",
+      "region": "Amérique du Nord",
+      "date": "2026-07",
+      "summary": "Le campus IA de 9 GW porté par Kevin O'Leary a été approuvé dans l'Utah — il générerait et consommerait plus du double de l'électricité utilisée par tout l'État.",
+      "source": "Tom's Hardware",
+      "url": "https://www.tomshardware.com/tech-industry/kevin-o-learys-9-gw-utah-data-center-campus-approved"
+    },
+    {
+      "category": "legislation",
+      "title": "La Virginie taxe l'électricité des data centers : 0,011 $/kWh depuis le 1er juillet",
+      "region": "Amérique du Nord",
+      "date": "2026-07",
+      "summary": "La Virginie applique depuis le 1er juillet 2026 une taxe de consommation de 0,011 $/kWh sur toute l'électricité consommée par les data centers — premier signal fiscal fort dans le plus grand marché mondial.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+    },
     {
       "category": "land",
       "title": "Digital Edge sécurise 60 MW + 90 MVA à Ansan (Corée du Sud)",
@@ -122,15 +167,6 @@
       "region": "Émirats arabes unis",
       "date": "2026-07",
       "summary": "Le développeur émirati Damac Digital revendique 6 000 MW de capacité IT planifiée sur 13 pays, avec 10 sites lancés en 5 mois.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
-    },
-    {
-      "category": "construction",
-      "title": "SunCon obtient 370 M$ de financement supplémentaire pour deux projets",
-      "region": "Asie-Pacifique",
-      "date": "2026-07",
-      "summary": "SunCon a vu ses financements relevés de 370 M$ au total pour deux projets de data centers, signe de l'accélération des chantiers en Asie du Sud-Est.",
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
     },
