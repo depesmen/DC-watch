@@ -1,13 +1,67 @@
 {
-  "lastUpdated": "2026-07-08",
+  "lastUpdated": "2026-07-09",
   "keyTakeaways": [
-    "La FERC met la pression : ordres « show-cause » aux 6 grands gestionnaires de réseau US pour cadrer les demandes de charge à l'échelle du gigawatt et la production co-localisée.",
-    "Course à l'énergie ferme : Meta sécurise jusqu'à 6,6 GW de nucléaire (Oklo, Vistra, TerraPower) ; National Grid investit 1,75 Md$ dans Joulent (puissance multi-GW pour l'IA).",
-    "Démesure : un campus IA de 9 GW approuvé dans l'Utah — il consommerait plus du double de l'électricité de tout l'État.",
-    "Land + Power : Digital Edge sécurise 60 MW + 90 MVA à Ansan (Corée) ; Iren raccorde 800 MW en Australie (sous tension 2028).",
-    "La Virginie taxe l'électricité des data centers (0,011 $/kWh) depuis le 1er juillet — premier signal fiscal fort du plus grand marché mondial."
+    "L'Inde attire les géants : AirTrunk (Blackstone) investit 21 Md$ pour 3 GW au Maharashtra ; Meta loue son 1er data center IA en Inde via Reliance + ~1 GW de renouvelable.",
+    "L'Europe accélère : Arcem sécurise un site de 80 ha en Finlande (jusqu'à 500 MW) ; Hscale investit 2 Md€ pour un 2e campus à Milan.",
+    "Course au nucléaire : 13 projets annoncés totalisent plus de 9,8 GW de capacité nucléaire dédiée à l'IA.",
+    "La FERC met la pression sur les 6 grands réseaux US (charges à l'échelle du gigawatt, production co-localisée).",
+    "Land + Power : Digital Edge (60 MW + 90 MVA, Corée) et Iren (800 MW, Australie) sécurisent foncier et raccordement."
   ],
   "items": [
+    {
+      "category": "construction",
+      "title": "AirTrunk (Blackstone) investit 21 Md$ pour 3 GW au Maharashtra (Inde)",
+      "region": "Asie-Pacifique",
+      "date": "2026-07",
+      "summary": "AirTrunk, soutenu par Blackstone, prévoit 21 Md$ dans l'État indien du Maharashtra pour bâtir un data center de 3 GW de capacité.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+    },
+    {
+      "category": "construction",
+      "title": "Meta loue son 1er data center IA en Inde (Reliance) + ~1 GW de renouvelable",
+      "region": "Asie-Pacifique",
+      "date": "2026-07",
+      "summary": "Meta a signé avec Reliance Industries pour louer son premier data center IA en Inde, et s'associe à CleanMax et Fourth Partner Energy pour soutenir près de 1 GW d'énergie renouvelable.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+    },
+    {
+      "category": "land",
+      "title": "Arcem sécurise un site de 80 ha en Finlande (jusqu'à 500 MW)",
+      "region": "Europe",
+      "date": "2026-07",
+      "summary": "Arcem a signé avec la municipalité de Joroinen (Finlande) pour un site de 800 000 m² accueillant jusqu'à 500 MW ; la première tranche de 60 MW doit démarrer début 2027.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+    },
+    {
+      "category": "construction",
+      "title": "Hscale investit 2 Md€ pour un 2e campus data center à Milan",
+      "region": "Europe",
+      "date": "2026-07",
+      "summary": "Hscale étend son empreinte en Italie avec un investissement de 2 Md€ : acquisition d'un second campus à Milan (capacité combinée 250 MW), le nouveau site MXP2 livrant 120 MW d'ici fin 2028.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+    },
+    {
+      "category": "construction",
+      "title": "STT étend son campus de Jakarta de 360 MW (vers 2,7 GW d'ici 2030)",
+      "region": "Asie-Pacifique",
+      "date": "2026-07",
+      "summary": "STT Global Data Centers ajoute 360 MW de capacité AI-ready à son campus de Jakarta, qui vise une capacité combinée de 2,7 GW d'ici 2030.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+    },
+    {
+      "category": "power",
+      "title": "13 projets totalisent plus de 9,8 GW de nucléaire dédié à l'IA",
+      "region": "Monde",
+      "date": "2026-07",
+      "summary": "Le décompte des accords nucléaires pour data centers (Google, Amazon, Meta, Microsoft, etc.) dépasse désormais 9,8 GW de capacité engagée sur 13 projets annoncés.",
+      "source": "SMR Intel",
+      "url": "https://smrintel.com/nuclear-data-center-deals/"
+    },
     {
       "category": "legislation",
       "title": "La FERC ordonne aux 6 grands réseaux US de cadrer les charges à l'échelle du gigawatt",
