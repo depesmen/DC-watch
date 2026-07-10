@@ -1,13 +1,22 @@
 {
-  "lastUpdated": "2026-07-09",
+  "lastUpdated": "2026-07-10",
   "keyTakeaways": [
-    "L'Inde attire les géants : AirTrunk (Blackstone) investit 21 Md$ pour 3 GW au Maharashtra ; Meta loue son 1er data center IA en Inde via Reliance + ~1 GW de renouvelable.",
+    "Démesure US : Crusoe lance « Project Jade » dans le Wyoming — un campus IA extensible à 10 GW (le plus grand des USA), avec une centrale dédiée voisine (Tallgrass) ; 1re tranche de 1,8 GW approuvée par le comté de Laramie.",
+    "L'Inde attire les géants : AirTrunk (Blackstone) investit 21 Md$ pour 3 GW au Maharashtra ; Meta loue son 1er data center IA en Inde via Reliance.",
     "L'Europe accélère : Arcem sécurise un site de 80 ha en Finlande (jusqu'à 500 MW) ; Hscale investit 2 Md€ pour un 2e campus à Milan.",
     "Course au nucléaire : 13 projets annoncés totalisent plus de 9,8 GW de capacité nucléaire dédiée à l'IA.",
-    "La FERC met la pression sur les 6 grands réseaux US (charges à l'échelle du gigawatt, production co-localisée).",
-    "Land + Power : Digital Edge (60 MW + 90 MVA, Corée) et Iren (800 MW, Australie) sécurisent foncier et raccordement."
+    "La FERC met la pression sur les 6 grands réseaux US (charges à l'échelle du gigawatt, production co-localisée)."
   ],
   "items": [
+    {
+      "category": "construction",
+      "title": "Crusoe lance « Project Jade » dans le Wyoming — campus IA extensible à 10 GW",
+      "region": "Amérique du Nord",
+      "date": "2026-07",
+      "summary": "Crusoe lance le campus Project Jade, conçu pour monter jusqu'à 10 GW (le plus grand campus IA des USA). Le comté de Laramie a approuvé une première tranche de 1,8 GW ; l'électricité sera fournie par le BFC Power / Cheyenne Power Hub de Tallgrass Energy, construit à côté.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+    },
     {
       "category": "construction",
       "title": "AirTrunk (Blackstone) investit 21 Md$ pour 3 GW au Maharashtra (Inde)",
@@ -223,15 +232,6 @@
       "summary": "Le développeur émirati Damac Digital revendique 6 000 MW de capacité IT planifiée sur 13 pays, avec 10 sites lancés en 5 mois.",
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
-    },
-    {
-      "category": "land",
-      "title": "L'IA provoque le plus grand « land grab » d'infrastructure de l'histoire",
-      "region": "Monde",
-      "date": "2026-07",
-      "summary": "Analyse : la ruée hyperscale sur le foncier énergisé s'accélère ; le capital se concentre sur les plateformes associant financement et mégawatts déjà raccordés au réseau.",
-      "source": "Datacenters.com",
-      "url": "https://www.datacenters.com/news/hyperscale-is-driving-the-largest-infrastructure-land-grab-in-history"
     },
     {
       "category": "power",
