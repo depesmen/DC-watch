@@ -1,13 +1,22 @@
 {
-  "lastUpdated": "2026-07-10",
+  "lastUpdated": "2026-07-13",
   "keyTakeaways": [
-    "Démesure US : Crusoe lance « Project Jade » dans le Wyoming — un campus IA extensible à 10 GW (le plus grand des USA), avec une centrale dédiée voisine (Tallgrass) ; 1re tranche de 1,8 GW approuvée par le comté de Laramie.",
+    "Course au nucléaire : GridMarket et Deployable Energy scellent un pipeline nucléaire de 22,5 Md$ (>3 GW d'ici 2035) ; au total, 13 projets dépassent 9,8 GW de nucléaire dédié à l'IA.",
+    "Démesure US : Crusoe lance « Project Jade » dans le Wyoming — campus IA extensible à 10 GW (le plus grand des USA), avec une centrale dédiée voisine ; 1re tranche de 1,8 GW approuvée.",
     "L'Inde attire les géants : AirTrunk (Blackstone) investit 21 Md$ pour 3 GW au Maharashtra ; Meta loue son 1er data center IA en Inde via Reliance.",
     "L'Europe accélère : Arcem sécurise un site de 80 ha en Finlande (jusqu'à 500 MW) ; Hscale investit 2 Md€ pour un 2e campus à Milan.",
-    "Course au nucléaire : 13 projets annoncés totalisent plus de 9,8 GW de capacité nucléaire dédiée à l'IA.",
     "La FERC met la pression sur les 6 grands réseaux US (charges à l'échelle du gigawatt, production co-localisée)."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "GridMarket et Deployable Energy scellent un pipeline nucléaire de 22,5 Md$ pour data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-07",
+      "summary": "Partenariat autour d'un pipeline nucléaire de 22,5 Md$ : plus de 3 GW de déploiements nucléaires cumulés d'ici 2035, pour une valeur de contrats sur 40 ans estimée à ~145 Md$, destinés à alimenter des data centers.",
+      "source": "FinancialContent",
+      "url": "https://www.financialcontent.com/article/gnwcq-2026-7-7-gridmarket-and-deployable-energy-partner-on-225b-nuclear-pipeline-to-power-data-center-customers-through-2035"
+    },
     {
       "category": "construction",
       "title": "Crusoe lance « Project Jade » dans le Wyoming — campus IA extensible à 10 GW",
