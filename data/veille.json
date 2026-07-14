@@ -1,13 +1,22 @@
 {
-  "lastUpdated": "2026-07-13",
+  "lastUpdated": "2026-07-14",
   "keyTakeaways": [
-    "Course au nucléaire : GridMarket et Deployable Energy scellent un pipeline nucléaire de 22,5 Md$ (>3 GW d'ici 2035) ; au total, 13 projets dépassent 9,8 GW de nucléaire dédié à l'IA.",
-    "Démesure US : Crusoe lance « Project Jade » dans le Wyoming — campus IA extensible à 10 GW (le plus grand des USA), avec une centrale dédiée voisine ; 1re tranche de 1,8 GW approuvée.",
+    "Énergie co-localisée à grande échelle : Microsoft boucle un data center de 2 GW avec centrale gaz dédiée au Texas Ouest (PPA sur 20 ans) — l'un des plus gros montages gaz + data center des USA.",
+    "Course au nucléaire : GridMarket et Deployable Energy scellent un pipeline nucléaire de 22,5 Md$ (>3 GW d'ici 2035) ; au total, 13 projets dépassent 9,8 GW dédiés à l'IA.",
+    "Démesure US : Crusoe lance « Project Jade » dans le Wyoming — campus IA extensible à 10 GW, avec une centrale dédiée voisine ; 1re tranche de 1,8 GW approuvée.",
     "L'Inde attire les géants : AirTrunk (Blackstone) investit 21 Md$ pour 3 GW au Maharashtra ; Meta loue son 1er data center IA en Inde via Reliance.",
-    "L'Europe accélère : Arcem sécurise un site de 80 ha en Finlande (jusqu'à 500 MW) ; Hscale investit 2 Md€ pour un 2e campus à Milan.",
-    "La FERC met la pression sur les 6 grands réseaux US (charges à l'échelle du gigawatt, production co-localisée)."
+    "L'Europe accélère : Arcem sécurise un site de 80 ha en Finlande (jusqu'à 500 MW) ; Hscale investit 2 Md€ pour un 2e campus à Milan."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "Microsoft boucle un data center de 2 GW avec centrale gaz co-localisée au Texas Ouest",
+      "region": "Amérique du Nord",
+      "date": "2026-07",
+      "summary": "Microsoft finalise un projet de 2 GW associant data center et centrale au gaz co-localisée dans l'ouest du Texas, adossé à un PPA de 20 ans — l'un des plus gros montages gaz + data center co-localisés des USA (6 000+ emplois de chantier).",
+      "source": "Orrick",
+      "url": "https://www.orrick.com/en/News/2026/07/Microsoft-Expands-Global-Data-Center-Capacity-with-2-GW-Data-Center-and-Co-Located-Power-Facility"
+    },
     {
       "category": "power",
       "title": "GridMarket et Deployable Energy scellent un pipeline nucléaire de 22,5 Md$ pour data centers",
