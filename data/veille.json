@@ -1,13 +1,31 @@
 {
-  "lastUpdated": "2026-07-14",
+  "lastUpdated": "2026-07-16",
   "keyTakeaways": [
-    "Énergie co-localisée à grande échelle : Microsoft boucle un data center de 2 GW avec centrale gaz dédiée au Texas Ouest (PPA sur 20 ans) — l'un des plus gros montages gaz + data center des USA.",
+    "Powered land par excellence : Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie (Hawesville, Kentucky) reconvertie par TeraWulf — ~480 MW déjà disponibles sur site, portant le portefeuille TeraWulf à 2,8 GW.",
+    "Flexibilité réseau : Google franchit 1 GW de « demand response » sur son parc de data centers — un levier pour soulager le réseau aux pics et accélérer les raccordements.",
+    "Énergie co-localisée : Microsoft boucle un data center de 2 GW avec centrale gaz dédiée au Texas Ouest (PPA sur 20 ans) — l'un des plus gros montages gaz + data center des USA.",
     "Course au nucléaire : GridMarket et Deployable Energy scellent un pipeline nucléaire de 22,5 Md$ (>3 GW d'ici 2035) ; au total, 13 projets dépassent 9,8 GW dédiés à l'IA.",
-    "Démesure US : Crusoe lance « Project Jade » dans le Wyoming — campus IA extensible à 10 GW, avec une centrale dédiée voisine ; 1re tranche de 1,8 GW approuvée.",
-    "L'Inde attire les géants : AirTrunk (Blackstone) investit 21 Md$ pour 3 GW au Maharashtra ; Meta loue son 1er data center IA en Inde via Reliance.",
-    "L'Europe accélère : Arcem sécurise un site de 80 ha en Finlande (jusqu'à 500 MW) ; Hscale investit 2 Md€ pour un 2e campus à Milan."
+    "Démesure US : Crusoe lance « Project Jade » dans le Wyoming — campus IA extensible à 10 GW, avec une centrale dédiée voisine ; 1re tranche de 1,8 GW approuvée."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie (Kentucky)",
+      "region": "Amérique du Nord",
+      "date": "2026-07-15",
+      "summary": "Anthropic sécurise 401 MW d'infrastructure IA sur le site de Hawesville (Kentucky), une ancienne fonderie d'aluminium reconvertie par TeraWulf en « Justified Data Campus ». Le site dispose déjà d'environ 480 MW de puissance ; livraison par phases (calcul IA au S2 2027, pleine capacité début 2028). Le portefeuille de TeraWulf atteint 2,8 GW.",
+      "source": "News Anyway",
+      "url": "https://www.newsanyway.com/2026/07/15/anthropic-kentucky-data-center-signs-20-year-lease-at-former-smelter-site"
+    },
+    {
+      "category": "power",
+      "title": "Google franchit 1 GW de « demand response » sur ses data centers",
+      "region": "Monde",
+      "date": "2026-07",
+      "summary": "Google annonce avoir atteint 1 GW de capacité de demand response (flexibilité/effacement) sur son parc de data centers — un moyen de soulager le réseau aux heures de pointe et d'accélérer les nouveaux raccordements.",
+      "source": "Google",
+      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/demand-response-data-center-milestone/"
+    },
     {
       "category": "power",
       "title": "Microsoft boucle un data center de 2 GW avec centrale gaz co-localisée au Texas Ouest",
