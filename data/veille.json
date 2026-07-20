@@ -1,13 +1,22 @@
 {
-  "lastUpdated": "2026-07-16",
+  "lastUpdated": "2026-07-20",
   "keyTakeaways": [
-    "Powered land par excellence : Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie (Hawesville, Kentucky) reconvertie par TeraWulf — ~480 MW déjà disponibles sur site, portant le portefeuille TeraWulf à 2,8 GW.",
-    "Flexibilité réseau : Google franchit 1 GW de « demand response » sur son parc de data centers — un levier pour soulager le réseau aux pics et accélérer les raccordements.",
+    "Le « powered land » se monétise : Plug Power cède à Stream US Data Centers son projet de Graham (Texas) — terrain + 164 MW d'actifs de raccordement — pour jusqu'à 76,5 M$.",
+    "Powered land par excellence : Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie (Hawesville, Kentucky) reconvertie par TeraWulf — ~480 MW déjà disponibles sur site.",
     "Énergie co-localisée : Microsoft boucle un data center de 2 GW avec centrale gaz dédiée au Texas Ouest (PPA sur 20 ans) — l'un des plus gros montages gaz + data center des USA.",
     "Course au nucléaire : GridMarket et Deployable Energy scellent un pipeline nucléaire de 22,5 Md$ (>3 GW d'ici 2035) ; au total, 13 projets dépassent 9,8 GW dédiés à l'IA.",
     "Démesure US : Crusoe lance « Project Jade » dans le Wyoming — campus IA extensible à 10 GW, avec une centrale dédiée voisine ; 1re tranche de 1,8 GW approuvée."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "Plug Power cède à Stream son projet de Graham (Texas) : terrain + 164 MW de raccordement",
+      "region": "Amérique du Nord",
+      "date": "2026-07-20",
+      "summary": "Plug Power a signé deux accords avec Stream US Data Centers, dont la vente de son projet de Graham (Texas) — terrain et 164 MW d'actifs de raccordement au réseau — pour jusqu'à 76,5 M$. Nouvelle illustration de la valeur du foncier déjà raccordé (« powered land »).",
+      "source": "Yahoo Finance",
+      "url": "https://finance.yahoo.com/markets/stocks/articles/plug-power-data-center-deals-130002780.html"
+    },
     {
       "category": "land",
       "title": "Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie (Kentucky)",
@@ -207,15 +216,6 @@
       "url": "https://world.einnews.com/pr_news/908714298/europe-data-center-market-trends-in-2026-liquid-cooling-power-constraints-and-new-site-selection-priorities"
     },
     {
-      "category": "legislation",
-      "title": "USA : l'administration Trump avance sur l'implantation de data centers sur des terres fédérales",
-      "region": "Amérique du Nord",
-      "date": "2026-07",
-      "summary": "Premières étapes concrètes du programme fédéral pour siter des data centers sur des terres publiques (identification de sites, énergie), même si des obstacles réglementaires demeurent.",
-      "source": "Davis Graham",
-      "url": "https://davisgraham.com/news-events/the-trump-administrations-progress-to-site-data-centers-on-federal-lands-initial-steps-but-work-remains/"
-    },
-    {
       "category": "construction",
       "title": "Montgomery County : Amazon (10 Md$) et Google (15 Md$) portent le total à 25 Md$",
       "region": "Amérique du Nord",
@@ -250,51 +250,6 @@
       "summary": "En Israël, Stark Power s'engage à acquérir 100% de Sagebrush Infrastructure Partners, développeur de data centers hyperscale avec centrales au gaz co-localisées.",
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
-    },
-    {
-      "category": "market",
-      "title": "Reflection AI signe un offtake de compute jusqu'à 6,3 Md$ avec SpaceX",
-      "region": "Amérique du Nord",
-      "date": "2026-07",
-      "summary": "Reflection AI a signé un accord d'achat de capacité de calcul avec SpaceX valorisé jusqu'à 6,3 Md$, pour de la capacité GB300 sur le site Colossus 2.",
-      "source": "Global Data Center Hub",
-      "url": "https://www.globaldatacenterhub.com/p/this-week-in-data-centers-the-deliverable"
-    },
-    {
-      "category": "construction",
-      "title": "Damac Digital atteint 6 000 MW planifiés sur 13 pays",
-      "region": "Émirats arabes unis",
-      "date": "2026-07",
-      "summary": "Le développeur émirati Damac Digital revendique 6 000 MW de capacité IT planifiée sur 13 pays, avec 10 sites lancés en 5 mois.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
-    },
-    {
-      "category": "power",
-      "title": "La demande électrique des data centers US passe de 23 GW (2023) à 42 GW (2026)",
-      "region": "Amérique du Nord",
-      "date": "2026",
-      "summary": "Tirée par l'IA, la consommation des data centers US a presque doublé en trois ans. Les racks IA réclament 50-100 kW contre 5-10 kW pour un rack classique.",
-      "source": "Belfer Center (Harvard)",
-      "url": "https://www.belfercenter.org/research-analysis/ai-data-centers-us-electric-grid"
-    },
-    {
-      "category": "power",
-      "title": "File d'interconnexion US > 1 500 GW ; 4 à 7 ans d'attente dans les grands hubs",
-      "region": "Monde",
-      "date": "2026",
-      "summary": "Les nouvelles connexions réseau à forte capacité subissent 4 à 7 ans d'attente à Northern Virginia, Dublin, Singapour et Amsterdam ; la file d'interconnexion US dépasse 1 500 GW.",
-      "source": "Belfer Center (Harvard)",
-      "url": "https://www.belfercenter.org/research-analysis/ai-data-centers-us-electric-grid"
-    },
-    {
-      "category": "legislation",
-      "title": "116 municipalités américaines ont désormais un moratoire local",
-      "region": "Amérique du Nord",
-      "date": "2026-07",
-      "summary": "Le rejet local s'intensifie : 116 municipalités ont instauré un moratoire sur les data centers, déplaçant le centre de gravité réglementaire vers les collectivités.",
-      "source": "Good Jobs First",
-      "url": "https://goodjobsfirst.org/data-center-moratorium-bills-are-spreading-in-2026/"
     },
     {
       "category": "market",
