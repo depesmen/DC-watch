@@ -9,6 +9,7 @@
 <link rel="preconnect" href="https://fonts.googleapis.com">
 <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
 <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;500;600;700;800&family=JetBrains+Mono:wght@400;500&display=swap" rel="stylesheet">
+<link rel="stylesheet" href="https://unpkg.com/leaflet@1.9.4/dist/leaflet.css">
 <link rel="stylesheet" href="style.css">
 </head>
 <body>
@@ -29,6 +30,8 @@
   <nav class="tabs" aria-label="Navigation principale">
     <div class="tabs-inner">
       <button class="tab is-active" data-tab="veille">Veille</button>
+      <button class="tab" data-tab="carte">🗺️ Carte</button>
+      <button class="tab" data-tab="powered">⚡ Powered Land</button>
       <button class="tab" data-tab="concurrents">Concurrents &amp; Partenaires</button>
       <button class="tab" data-tab="situation">Situation</button>
       <button class="tab" data-tab="technologies">Technologies</button>
@@ -48,6 +51,8 @@
         <p class="hero-lede">Construction &amp; projets, foncier &amp; transactions, énergie &amp; réseau, législation, marché et concurrence — synthétisés chaque jour pour votre sourcing.</p>
       </div>
     </div>
+
+    <div class="section-inner"><div id="veille-metrics" class="metrics-row"></div></div>
 
     <div class="takeaways">
       <div class="section-inner">
@@ -85,6 +90,30 @@
           <ul id="source-breakdown" class="side-list"></ul>
         </div>
       </aside>
+    </div>
+  </section>
+
+  <!-- ===================== CARTE ===================== -->
+  <section class="view" id="view-carte">
+    <div class="view-head section-inner">
+      <h2 class="view-title">🗺️ Carte des deals</h2>
+      <p class="view-sub">Chaque annonce géolocalisée. Marqueur ⚡ = powered land. Cliquez un point pour la fiche.</p>
+    </div>
+    <div class="section-inner">
+      <div id="map"></div>
+      <div id="map-legend" class="map-legend"></div>
+    </div>
+  </section>
+
+  <!-- ===================== POWERED LAND ===================== -->
+  <section class="view" id="view-powered">
+    <div class="view-head section-inner">
+      <h2 class="view-title">⚡ Powered Land Tracker</h2>
+      <p class="view-sub">Le cœur du sourcing : foncier déjà énergisé, friches industrielles reconverties, production co-localisée.</p>
+    </div>
+    <div class="section-inner">
+      <div class="cooling-table-wrap"><table class="compare-table" id="powered-table"></table></div>
+      <p id="powered-note" class="tech-note"></p>
     </div>
   </section>
 
@@ -164,6 +193,7 @@
   </div>
 </footer>
 
+<script src="https://unpkg.com/leaflet@1.9.4/dist/leaflet.js"></script>
 <script src="script.js"></script>
 </body>
 </html>

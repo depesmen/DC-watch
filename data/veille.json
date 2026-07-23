@@ -16,7 +16,11 @@
       "summary": "Calpine et CyrusOne annoncent le Thad Hill Energy Center, un site de « powered land » (foncier avec production électrique dédiée) destiné à accueillir du développement data center hyperscale au Texas.",
       "source": "Barchart",
       "url": "https://www.barchart.com/story/news/33756833/calpine-and-cyrusone-announce-thad-hill-energy-center-powered-land-to-support-hyperscale-data-center-development-in-texas",
-      "poweredLand": true
+      "poweredLand": true,
+      "coords": [
+        31.0,
+        -99.0
+      ]
     },
     {
       "category": "market",
@@ -35,7 +39,13 @@
       "summary": "Plug Power a signé deux accords avec Stream US Data Centers, dont la vente de son projet de Graham (Texas) — terrain et 164 MW d'actifs de raccordement au réseau — pour jusqu'à 76,5 M$. Nouvelle illustration de la valeur du foncier déjà raccordé (« powered land »).",
       "source": "Yahoo Finance",
       "url": "https://finance.yahoo.com/markets/stocks/articles/plug-power-data-center-deals-130002780.html",
-      "poweredLand": true
+      "poweredLand": true,
+      "mw": 164,
+      "inv": 76.5,
+      "coords": [
+        33.1,
+        -98.59
+      ]
     },
     {
       "category": "land",
@@ -45,7 +55,12 @@
       "summary": "Anthropic sécurise 401 MW d'infrastructure IA sur le site de Hawesville (Kentucky), une ancienne fonderie d'aluminium reconvertie par TeraWulf en « Justified Data Campus ». Le site dispose déjà d'environ 480 MW de puissance ; livraison par phases (calcul IA au S2 2027, pleine capacité début 2028). Le portefeuille de TeraWulf atteint 2,8 GW.",
       "source": "News Anyway",
       "url": "https://www.newsanyway.com/2026/07/15/anthropic-kentucky-data-center-signs-20-year-lease-at-former-smelter-site",
-      "poweredLand": true
+      "poweredLand": true,
+      "mw": 401,
+      "coords": [
+        37.9,
+        -86.75
+      ]
     },
     {
       "category": "power",
@@ -64,7 +79,12 @@
       "summary": "Microsoft finalise un projet de 2 GW associant data center et centrale au gaz co-localisée dans l'ouest du Texas, adossé à un PPA de 20 ans — l'un des plus gros montages gaz + data center co-localisés des USA (6 000+ emplois de chantier).",
       "source": "Orrick",
       "url": "https://www.orrick.com/en/News/2026/07/Microsoft-Expands-Global-Data-Center-Capacity-with-2-GW-Data-Center-and-Co-Located-Power-Facility",
-      "poweredLand": true
+      "poweredLand": true,
+      "mw": 2000,
+      "coords": [
+        31.8,
+        -102.4
+      ]
     },
     {
       "category": "power",
@@ -73,7 +93,8 @@
       "date": "2026-07",
       "summary": "Partenariat autour d'un pipeline nucléaire de 22,5 Md$ : plus de 3 GW de déploiements nucléaires cumulés d'ici 2035, pour une valeur de contrats sur 40 ans estimée à ~145 Md$, destinés à alimenter des data centers.",
       "source": "FinancialContent",
-      "url": "https://www.financialcontent.com/article/gnwcq-2026-7-7-gridmarket-and-deployable-energy-partner-on-225b-nuclear-pipeline-to-power-data-center-customers-through-2035"
+      "url": "https://www.financialcontent.com/article/gnwcq-2026-7-7-gridmarket-and-deployable-energy-partner-on-225b-nuclear-pipeline-to-power-data-center-customers-through-2035",
+      "inv": 22500
     },
     {
       "category": "construction",
@@ -83,7 +104,12 @@
       "summary": "Crusoe lance le campus Project Jade, conçu pour monter jusqu'à 10 GW (le plus grand campus IA des USA). Le comté de Laramie a approuvé une première tranche de 1,8 GW ; l'électricité sera fournie par le BFC Power / Cheyenne Power Hub de Tallgrass Energy, construit à côté.",
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "poweredLand": true
+      "poweredLand": true,
+      "mw": 10000,
+      "coords": [
+        41.31,
+        -104.68
+      ]
     },
     {
       "category": "construction",
@@ -92,7 +118,13 @@
       "date": "2026-07",
       "summary": "AirTrunk, soutenu par Blackstone, prévoit 21 Md$ dans l'État indien du Maharashtra pour bâtir un data center de 3 GW de capacité.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "mw": 3000,
+      "inv": 21000,
+      "coords": [
+        19.75,
+        75.71
+      ]
     },
     {
       "category": "construction",
@@ -101,7 +133,12 @@
       "date": "2026-07",
       "summary": "Meta a signé avec Reliance Industries pour louer son premier data center IA en Inde, et s'associe à CleanMax et Fourth Partner Energy pour soutenir près de 1 GW d'énergie renouvelable.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "mw": 1000,
+      "coords": [
+        20.59,
+        78.96
+      ]
     },
     {
       "category": "land",
@@ -110,7 +147,12 @@
       "date": "2026-07",
       "summary": "Arcem a signé avec la municipalité de Joroinen (Finlande) pour un site de 800 000 m² accueillant jusqu'à 500 MW ; la première tranche de 60 MW doit démarrer début 2027.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "mw": 500,
+      "coords": [
+        62.18,
+        27.83
+      ]
     },
     {
       "category": "construction",
@@ -119,7 +161,13 @@
       "date": "2026-07",
       "summary": "Hscale étend son empreinte en Italie avec un investissement de 2 Md€ : acquisition d'un second campus à Milan (capacité combinée 250 MW), le nouveau site MXP2 livrant 120 MW d'ici fin 2028.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "mw": 250,
+      "inv": 2000,
+      "coords": [
+        45.46,
+        9.19
+      ]
     },
     {
       "category": "construction",
@@ -128,7 +176,12 @@
       "date": "2026-07",
       "summary": "STT Global Data Centers ajoute 360 MW de capacité AI-ready à son campus de Jakarta, qui vise une capacité combinée de 2,7 GW d'ici 2030.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "mw": 360,
+      "coords": [
+        -6.21,
+        106.85
+      ]
     },
     {
       "category": "power",
@@ -164,7 +217,8 @@
       "date": "2026-07",
       "summary": "Face aux délais d'interconnexion, National Grid Ventures prévoit 1,75 Md$ dans Joulent, énergéticien spécialisé dans la fourniture de puissance multi-gigawatt aux infrastructures IA.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/energy-power-supply/national-grid-agrees-to-1-75b-investment-in-joulent-to-expand-ai-power-infrastructure"
+      "url": "https://www.datacenterknowledge.com/energy-power-supply/national-grid-agrees-to-1-75b-investment-in-joulent-to-expand-ai-power-infrastructure",
+      "inv": 1750
     },
     {
       "category": "construction",
@@ -173,7 +227,12 @@
       "date": "2026-07",
       "summary": "Le campus IA de 9 GW porté par Kevin O'Leary a été approuvé dans l'Utah — il générerait et consommerait plus du double de l'électricité utilisée par tout l'État.",
       "source": "Tom's Hardware",
-      "url": "https://www.tomshardware.com/tech-industry/kevin-o-learys-9-gw-utah-data-center-campus-approved"
+      "url": "https://www.tomshardware.com/tech-industry/kevin-o-learys-9-gw-utah-data-center-campus-approved",
+      "mw": 9000,
+      "coords": [
+        39.32,
+        -111.7
+      ]
     },
     {
       "category": "legislation",
@@ -192,7 +251,12 @@
       "summary": "Digital Edge a acquis un terrain à Ansan pour développer 60 MW de capacité AI-ready, adossé à un accord de puissance de 90 MVA et une architecture double alimentation via deux postes source indépendants de 154 kV.",
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "poweredLand": true
+      "poweredLand": true,
+      "mw": 60,
+      "coords": [
+        37.32,
+        126.83
+      ]
     },
     {
       "category": "power",
@@ -202,7 +266,12 @@
       "summary": "Iren a signé un accord de raccordement au réseau de transport pour un campus data center de 800 MW prévu à Bundey (Australie-Méridionale), avec mise sous tension visée en 2028.",
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "poweredLand": true
+      "poweredLand": true,
+      "mw": 800,
+      "coords": [
+        -33.5,
+        139.4
+      ]
     },
     {
       "category": "power",
@@ -211,7 +280,8 @@
       "date": "2026-07",
       "summary": "Bloom Energy et Brookfield annoncent un partenariat de 25 Md$ pour déployer des piles à combustible et alimenter des data centers — un des plus gros deals d'énergie on-site du secteur.",
       "source": "Delaware Business Now",
-      "url": "https://www.delawarebusinessnow.com/news/green_biz/bloom-brookfield-announce-25b-data-center-power-deal/article_ab87cdaf-3320-4e2d-873b-5d848185365c.html"
+      "url": "https://www.delawarebusinessnow.com/news/green_biz/bloom-brookfield-announce-25b-data-center-power-deal/article_ab87cdaf-3320-4e2d-873b-5d848185365c.html",
+      "inv": 25000
     },
     {
       "category": "construction",
@@ -220,7 +290,12 @@
       "date": "2026-07",
       "summary": "Microsoft a inauguré une installation de 3,3 Md$ dans le Wisconsin — le premier data center opérationnel de son campus Mount Pleasant, l'un de ses projets d'infrastructure IA les plus emblématiques.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "inv": 3300,
+      "coords": [
+        42.72,
+        -87.88
+      ]
     },
     {
       "category": "land",
@@ -247,7 +322,12 @@
       "date": "2026-07",
       "summary": "Amazon prévoit 10 Md$ pour un nouveau campus et Google 15 Md$ pour un projet distinct dans le comté de Montgomery — 25 Md$ de projets hyperscale récemment annoncés sur ce seul comté.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "inv": 25000,
+      "coords": [
+        39.14,
+        -77.2
+      ]
     },
     {
       "category": "construction",
@@ -256,7 +336,12 @@
       "date": "2026-07",
       "summary": "Le conseil de Hertsmere Borough a approuvé DC01UK, un data center « AI-ready » de 4 Md£ (5,3 Md$) près de Londres.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "inv": 5300,
+      "coords": [
+        51.66,
+        -0.3
+      ]
     },
     {
       "category": "power",
@@ -266,7 +351,13 @@
       "summary": "Le projet Kilby de 2,67 GW sécurise une production d'électricité dédiée en direct, contournant la file d'interconnexion — illustration du basculement vers l'énergie behind-the-meter.",
       "source": "Global Data Center Hub",
       "url": "https://www.globaldatacenterhub.com/p/this-week-in-data-centers-the-deliverable",
-      "poweredLand": true
+      "poweredLand": true,
+      "mw": 2670,
+      "inv": 7000,
+      "coords": [
+        31.8,
+        -100.0
+      ]
     },
     {
       "category": "competition",
@@ -276,7 +367,11 @@
       "summary": "En Israël, Stark Power s'engage à acquérir 100% de Sagebrush Infrastructure Partners, développeur de data centers hyperscale avec centrales au gaz co-localisées.",
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "poweredLand": true
+      "poweredLand": true,
+      "coords": [
+        31.5,
+        34.9
+      ]
     },
     {
       "category": "market",
@@ -303,7 +398,12 @@
       "date": "2026-07",
       "summary": "Après Munich, Polarise construit un data center IA à Amberg : 30 MW au départ, scalable à 120 MW, mise en service mi-2027, alimenté par 70 MWp de solaire + stockage.",
       "source": "Data Centre Magazine",
-      "url": "https://datacentremagazine.com/news/why-is-polarise-expanding-its-european-ai-data-centres"
+      "url": "https://datacentremagazine.com/news/why-is-polarise-expanding-its-european-ai-data-centres",
+      "mw": 30,
+      "coords": [
+        49.44,
+        11.85
+      ]
     },
     {
       "category": "competition",

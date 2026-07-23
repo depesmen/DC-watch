@@ -12,6 +12,8 @@ const tabs = document.querySelectorAll('.tab');
 const views = document.querySelectorAll('.view');
 let predictionsLoaded = false;
 let technologiesLoaded = false;
+let mapLoaded = false;
+let dcMap = null;
 
 tabs.forEach((tab) => {
   tab.addEventListener('click', () => {
@@ -26,6 +28,10 @@ tabs.forEach((tab) => {
     if (target === 'technologies' && !technologiesLoaded) {
       technologiesLoaded = true;
       loadTechnologies();
+    }
+    if (target === 'carte') {
+      if (!mapLoaded) { mapLoaded = true; initMap(allItems); }
+      else if (dcMap) { setTimeout(() => dcMap.invalidateSize(), 60); }
     }
   });
 });
@@ -173,6 +179,8 @@ async function loadVeille() {
     renderTakeaways(data.keyTakeaways || []);
     renderCards();
     renderAggregates(allItems, data.lastUpdated);
+    renderMetrics(allItems);
+    renderPowered(allItems);
     return allItems;
   } catch (err) {
     emptyState.hidden = false;
@@ -439,6 +447,77 @@ function noteWithSource(obj) {
   const note = obj.note || '';
   if (obj.url && obj.source) return `${note} <a href="${obj.url}" target="_blank" rel="noopener noreferrer">${obj.source} →</a>`;
   return note;
+}
+
+/* ---------- Métriques / Powered Land / Carte ---------- */
+const CAT_COLOR = { construction: '#3b82f6', land: '#34d399', power: '#22d3ee', legislation: '#f59e0b', market: '#a78bfa', competition: '#f472b6' };
+
+function fmtMW(mw) { return mw >= 1000 ? (mw / 1000).toLocaleString('fr-FR') + ' GW' : mw + ' MW'; }
+function fmtInv(m) { return m >= 1000 ? (m / 1000).toLocaleString('fr-FR', { maximumFractionDigits: 1 }) + ' Md$' : m + ' M$'; }
+
+function renderMetrics(items) {
+  const el = document.getElementById('veille-metrics');
+  if (!el) return;
+  const gw = items.reduce((s, it) => s + (it.mw || 0), 0) / 1000;
+  const inv = items.reduce((s, it) => s + (it.inv || 0), 0) / 1000;
+  const pl = items.filter((it) => it.poweredLand).length;
+  const tiles = [
+    { v: items.length, l: 'actus suivies' },
+    { v: '~' + gw.toFixed(0) + ' GW', l: 'capacité annoncée' },
+    { v: '~' + inv.toFixed(0) + ' Md$', l: 'investissements' },
+    { v: pl, l: 'deals ⚡ powered land', accent: true },
+  ];
+  el.innerHTML = tiles.map((t) => `
+    <div class="metric-tile${t.accent ? ' metric-powered' : ''}">
+      <div class="metric-value">${t.v}</div>
+      <div class="metric-label">${t.l}</div>
+    </div>`).join('');
+}
+
+function renderPowered(items) {
+  const t = document.getElementById('powered-table');
+  if (!t) return;
+  const pl = items.filter((it) => it.poweredLand);
+  t.innerHTML = `
+    <thead><tr><th>Deal / Site</th><th>Localisation</th><th>Puissance</th><th>Catégorie</th><th>Source</th></tr></thead>
+    <tbody>${pl.map((it) => `
+      <tr>
+        <td class="ct-name"><a href="${it.url}" target="_blank" rel="noopener noreferrer">${it.title}</a></td>
+        <td>${it.region}</td>
+        <td class="ct-pue">${it.mw ? fmtMW(it.mw) : '—'}</td>
+        <td>${CATEGORY_LABELS[it.category] || it.category}</td>
+        <td>${it.source}</td>
+      </tr>`).join('')}</tbody>`;
+  const note = document.getElementById('powered-note');
+  if (note) note.textContent = `${pl.length} deals « powered land » recensés. La colonne Puissance indique la capacité/le raccordement associé quand il est connu.`;
+}
+
+function initMap(items) {
+  if (typeof L === 'undefined') { document.getElementById('map').innerHTML = '<p class="empty-state">Carte indisponible (Leaflet non chargé).</p>'; return; }
+  const pts = items.filter((it) => Array.isArray(it.coords) && it.coords.length === 2);
+  dcMap = L.map('map', { scrollWheelZoom: false, worldCopyJump: true, minZoom: 1 }).setView([20, 20], 2);
+  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
+    attribution: '© OpenStreetMap · © CARTO', subdomains: 'abcd', maxZoom: 12,
+  }).addTo(dcMap);
+  pts.forEach((it) => {
+    const col = it.poweredLand ? '#f5a623' : (CAT_COLOR[it.category] || '#22d3ee');
+    const m = L.circleMarker(it.coords, { radius: it.poweredLand ? 9 : 7, color: col, weight: 2, fillColor: col, fillOpacity: 0.55 }).addTo(dcMap);
+    const bits = [it.region];
+    if (it.mw) bits.push(fmtMW(it.mw));
+    if (it.inv) bits.push('~' + fmtInv(it.inv));
+    m.bindPopup(`<div style="font-family:Arial,sans-serif;max-width:230px;line-height:1.45;">
+      <b style="color:#0f1b2d;">${it.title}</b><br>
+      <span style="color:#64748b;font-size:12px;">${bits.join(' · ')}</span><br>
+      ${it.poweredLand ? '<span style="color:#b45309;font-weight:bold;font-size:12px;">⚡ Powered Land</span><br>' : ''}
+      <a href="${it.url}" target="_blank" rel="noopener noreferrer" style="color:#0e7490;font-size:12px;">${it.source} →</a>
+    </div>`);
+  });
+  const legend = document.getElementById('map-legend');
+  if (legend) {
+    const entries = [['#f5a623', '⚡ Powered Land'], ['#3b82f6', 'Construction'], ['#34d399', 'Foncier'], ['#22d3ee', 'Énergie'], ['#a78bfa', 'Marché'], ['#f472b6', 'Concurrence']];
+    legend.innerHTML = entries.map(([c, l]) => `<span class="legend-item"><span class="legend-dot" style="background:${c}"></span>${l}</span>`).join('');
+  }
+  setTimeout(() => dcMap.invalidateSize(), 80);
 }
 
 /* ---------- Init ---------- */
