@@ -3,186 +3,157 @@
 <head>
 <meta charset="UTF-8">
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
-<meta name="color-scheme" content="dark">
-<title>Newsletter — aperçu</title>
+<meta name="color-scheme" content="light">
+<title>Newsletter — aperçu (fond clair, images)</title>
 </head>
 <!--
-  TEMPLATE NEWSLETTER — Data Center Watch
-  Compatible email : layout en tables, styles inline, polices de secours.
-  Les {{VARIABLES}} sont remplacées par le Worker à l'envoi.
+  MAQUETTE NEWSLETTER v3 — Data Center Watch
+  Fond clair, titres sans-serif, vraie image d'article en "Une" + vignettes (repli icône).
 -->
-<body style="margin:0; padding:0; background:#070b12;">
-  <!-- préheader masqué (aperçu boîte de réception) -->
-  <div style="display:none; max-height:0; overflow:hidden; opacity:0;">L'essentiel de la semaine : foncier, énergie, législation et marché des data centers.</div>
+<body style="margin:0;padding:0;background:#e9edf2;">
+  <div style="display:none;max-height:0;overflow:hidden;opacity:0;">L'essentiel de la semaine : le powered land devient un actif — Anthropic, Calpine/CyrusOne, Microsoft…</div>
 
-  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#070b12; padding:24px 12px;">
-    <tr>
-      <td align="center">
-        <table role="presentation" width="600" cellpadding="0" cellspacing="0" style="width:600px; max-width:600px; background:#0d1420; border:1px solid #1f2a3a; border-radius:12px; overflow:hidden;">
+  <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#e9edf2;padding:28px 14px;">
+    <tr><td align="center">
+      <table role="presentation" width="620" cellpadding="0" cellspacing="0" style="width:620px;max-width:620px;background:#ffffff;border-radius:16px;overflow:hidden;border:1px solid #e2e8f0;">
 
-          <!-- Bandeau -->
-          <tr>
-            <td style="padding:24px 28px; background:#0b1220; border-bottom:1px solid #1f2a3a;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0">
-                <tr>
-                  <td style="font-family:'Courier New',monospace; font-size:11px; letter-spacing:2px; color:#22d3ee; text-transform:uppercase;">Data Center Watch</td>
-                  <td align="right" style="font-family:'Courier New',monospace; font-size:11px; color:#5f7186;">{{DATE_RANGE}}</td>
-                </tr>
-              </table>
-              <div style="font-family:Arial,Helvetica,sans-serif; font-size:24px; font-weight:700; color:#ffffff; padding-top:12px; line-height:1.25;">L'essentiel de la semaine</div>
-              <div style="font-family:Arial,Helvetica,sans-serif; font-size:14px; color:#93a1b5; padding-top:6px;">Land + Power · construction, foncier, énergie, législation, marché</div>
-            </td>
-          </tr>
+        <!-- ===== En-tête ===== -->
+        <tr>
+          <td style="padding:28px 34px 22px;border-bottom:1px solid #eef1f5;">
+            <table role="presentation" cellpadding="0" cellspacing="0"><tr>
+              <td style="padding-right:12px;">
+                <div style="width:34px;height:34px;border-radius:9px;background:#06b6d4;text-align:center;line-height:34px;font-size:18px;color:#fff;">▦</div>
+              </td>
+              <td>
+                <div style="font-family:'Courier New',monospace;font-size:13px;letter-spacing:3px;color:#0e7490;font-weight:bold;">DC WATCH</div>
+                <div style="font-family:'Courier New',monospace;font-size:10px;letter-spacing:1px;color:#94a3b8;">VEILLE LAND + POWER</div>
+              </td>
+            </tr></table>
+            <div style="font-family:Arial,Helvetica,sans-serif;font-size:28px;font-weight:bold;color:#0f1b2d;padding-top:20px;line-height:1.2;letter-spacing:-0.5px;">L'essentiel de la semaine</div>
+            <div style="font-family:Arial,Helvetica,sans-serif;font-size:14px;color:#64748b;padding-top:7px;">Construction · Foncier · Énergie · Législation · Marché</div>
+            <div style="font-family:'Courier New',monospace;font-size:12px;color:#94a3b8;padding-top:12px;">📅 Semaine du 23 juillet 2026</div>
+          </td>
+        </tr>
 
-          <!-- Points clés (encart mis en avant) -->
-          <tr>
-            <td style="padding:24px 28px 8px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#0f1c33; border:1px solid #22d3ee; border-radius:10px;">
-                <tr>
-                  <td style="padding:6px 20px; background:#22d3ee; border-radius:9px 9px 0 0;">
-                    <span style="font-family:'Courier New',monospace; font-size:12px; letter-spacing:2px; color:#06131f; text-transform:uppercase; font-weight:bold;">★ Les points clés de la semaine</span>
-                  </td>
-                </tr>
-                <tr>
-                  <td style="padding:18px 20px 8px;">
-                    <!-- {{#KEY_TAKEAWAYS}} -->
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="padding-bottom:14px;">
-                      <tr>
-                        <td width="30" valign="top">
-                          <table role="presentation" cellpadding="0" cellspacing="0"><tr>
-                            <td width="22" height="22" align="center" valign="middle" style="background:#22d3ee; border-radius:11px; font-family:Arial,sans-serif; font-size:12px; font-weight:bold; color:#06131f; line-height:22px;">1</td>
-                          </tr></table>
-                        </td>
-                        <td style="font-family:Arial,Helvetica,sans-serif; font-size:14px; color:#eaf1f8; line-height:1.55;">Amazon ajoute 13 Md$ pour ses data centers en Inde, portant son engagement à 48 Md$ sur 2026-2030.</td>
-                      </tr>
-                    </table>
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="padding-bottom:14px;">
-                      <tr>
-                        <td width="30" valign="top">
-                          <table role="presentation" cellpadding="0" cellspacing="0"><tr>
-                            <td width="22" height="22" align="center" valign="middle" style="background:#22d3ee; border-radius:11px; font-family:Arial,sans-serif; font-size:12px; font-weight:bold; color:#06131f; line-height:22px;">2</td>
-                          </tr></table>
-                        </td>
-                        <td style="font-family:Arial,Helvetica,sans-serif; font-size:14px; color:#eaf1f8; line-height:1.55;">CDC Data Centres signe le plus gros contrat de l'histoire australienne : 555 MW sur 30 ans.</td>
-                      </tr>
-                    </table>
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="padding-bottom:14px;">
-                      <tr>
-                        <td width="30" valign="top">
-                          <table role="presentation" cellpadding="0" cellspacing="0"><tr>
-                            <td width="22" height="22" align="center" valign="middle" style="background:#22d3ee; border-radius:11px; font-family:Arial,sans-serif; font-size:12px; font-weight:bold; color:#06131f; line-height:22px;">3</td>
-                          </tr></table>
-                        </td>
-                        <td style="font-family:Arial,Helvetica,sans-serif; font-size:14px; color:#eaf1f8; line-height:1.55;">La France se positionne : campus IA de Fouju (1,4 GW, 8,5 Md€) et SoftBank (5 GW).</td>
-                      </tr>
-                    </table>
-                    <!-- {{/KEY_TAKEAWAYS}} -->
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
+        <!-- ===== LA UNE avec vraie image ===== -->
+        <tr>
+          <td style="padding:24px 34px 6px;">
+            <div style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:2px;color:#b45309;text-transform:uppercase;padding-bottom:12px;">◆ La une de la semaine</div>
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="border:1px solid #e5e9f0;border-radius:14px;overflow:hidden;">
+              <tr><td style="padding:0;">
+                <img src="https://www.newsanyway.com/wp-content/uploads/2026/07/Anthropic-Kentucky-data-center.webp" alt="Data center Anthropic Kentucky" width="620" style="width:100%;max-width:620px;height:auto;display:block;border:0;">
+              </td></tr>
+              <tr><td style="padding:20px 22px 22px;">
+                <table role="presentation" cellpadding="0" cellspacing="0" style="padding-bottom:12px;"><tr>
+                  <td style="font-family:'Courier New',monospace;font-size:10.5px;color:#059669;text-transform:uppercase;background:#ecfdf5;border:1px solid #a7f3d0;border-radius:5px;padding:4px 10px;">🏞️ Foncier</td>
+                  <td style="padding-left:8px;font-family:'Courier New',monospace;font-size:10.5px;color:#b45309;text-transform:uppercase;background:#fef3c7;border:1px solid #fde68a;border-radius:5px;padding:4px 10px;">⚡ Powered Land</td>
+                </tr></table>
+                <div style="font-family:Arial,Helvetica,sans-serif;font-size:21px;font-weight:bold;color:#0f1b2d;line-height:1.35;letter-spacing:-0.3px;">Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie du Kentucky</div>
+                <div style="font-family:'Courier New',monospace;font-size:11.5px;color:#94a3b8;padding-top:8px;">🇺🇸 Amérique du Nord &nbsp;·&nbsp; 15 juil. 2026</div>
+                <div style="font-family:Arial,Helvetica,sans-serif;font-size:14.5px;color:#475569;padding-top:12px;line-height:1.65;">Le site de Hawesville, reconverti par TeraWulf, dispose déjà de ~480 MW de puissance existante — le cas d'école du powered land : réutiliser une friche industrielle déjà raccordée plutôt que d'attendre 5 ans un raccordement.</div>
+                <div style="padding-top:14px;"><a href="#" style="font-family:'Courier New',monospace;font-size:12.5px;color:#0e7490;text-decoration:none;font-weight:bold;">Lire l'article →</a></div>
+              </td></tr>
+            </table>
+          </td>
+        </tr>
 
-          <!-- À la une -->
-          <tr>
-            <td style="padding:16px 28px 8px;">
-              <div style="font-family:'Courier New',monospace; font-size:11px; letter-spacing:1.5px; color:#5f7186; text-transform:uppercase; padding-bottom:4px;">// À la une</div>
-            </td>
-          </tr>
+        <!-- ===== 3 chiffres ===== -->
+        <tr>
+          <td style="padding:24px 34px 8px;">
+            <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#ecfeff;border:1px solid #a5f3fc;border-radius:12px;">
+              <tr><td style="padding:8px 22px;background:#06b6d4;border-radius:11px 11px 0 0;"><span style="font-family:'Courier New',monospace;font-size:12px;letter-spacing:2px;color:#ffffff;text-transform:uppercase;font-weight:bold;">★ Les 3 chiffres à retenir</span></td></tr>
+              <tr><td style="padding:20px 22px 8px;">
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="padding-bottom:15px;"><tr>
+                  <td width="34" valign="top"><div style="width:26px;height:26px;background:#06b6d4;border-radius:13px;text-align:center;line-height:26px;font-family:Arial,sans-serif;font-size:13px;font-weight:bold;color:#ffffff;">1</div></td>
+                  <td style="font-family:Arial,Helvetica,sans-serif;font-size:14.5px;color:#1e293b;line-height:1.6;">Calpine et CyrusOne lancent le <b>Thad Hill Energy Center</b> — du powered land clé en main pour l'hyperscale au Texas.</td>
+                </tr></table>
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="padding-bottom:15px;"><tr>
+                  <td width="34" valign="top"><div style="width:26px;height:26px;background:#06b6d4;border-radius:13px;text-align:center;line-height:26px;font-family:Arial,sans-serif;font-size:13px;font-weight:bold;color:#ffffff;">2</div></td>
+                  <td style="font-family:Arial,Helvetica,sans-serif;font-size:14.5px;color:#1e293b;line-height:1.6;">Plug Power cède à Stream un projet au Texas : terrain + <b>164 MW</b> de raccordement pour jusqu'à 76,5 M$.</td>
+                </tr></table>
+                <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+                  <td width="34" valign="top"><div style="width:26px;height:26px;background:#06b6d4;border-radius:13px;text-align:center;line-height:26px;font-family:Arial,sans-serif;font-size:13px;font-weight:bold;color:#ffffff;">3</div></td>
+                  <td style="font-family:Arial,Helvetica,sans-serif;font-size:14.5px;color:#1e293b;line-height:1.6;">Microsoft boucle un data center de <b>2 GW</b> avec centrale gaz co-localisée au Texas Ouest.</td>
+                </tr></table>
+              </td></tr>
+            </table>
+          </td>
+        </tr>
 
-          <!-- {{#ITEMS}} : carte article -->
-          <tr>
-            <td style="padding:8px 28px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#121a28; border:1px solid #1f2a3a; border-radius:8px;">
-                <tr>
-                  <td style="padding:16px 18px;">
-                    <table role="presentation" cellpadding="0" cellspacing="0">
-                      <tr>
-                        <td style="font-family:'Courier New',monospace; font-size:10px; letter-spacing:0.5px; color:#3b82f6; text-transform:uppercase; background:#0e1930; border:1px solid #23324d; border-radius:4px; padding:3px 8px;">Construction &amp; Projets</td>
-                      </tr>
-                    </table>
-                    <div style="font-family:Arial,Helvetica,sans-serif; font-size:16px; font-weight:700; color:#ffffff; padding-top:10px; line-height:1.35;">Amazon ajoute 13 Md$ pour ses data centers en Inde</div>
-                    <div style="font-family:'Courier New',monospace; font-size:11px; color:#5f7186; padding-top:4px;">Asie-Pacifique · 25 juin 2026</div>
-                    <div style="font-family:Arial,Helvetica,sans-serif; font-size:13px; color:#93a1b5; padding-top:8px; line-height:1.55;">Amazon annonce 13 Md$ supplémentaires pour étendre AWS à Mumbai et Hyderabad, portant son engagement total en Inde à 48 Md$ sur 2026-2030.</div>
-                    <div style="padding-top:10px;"><a href="{{ITEM_URL}}" style="font-family:'Courier New',monospace; font-size:12px; color:#22d3ee; text-decoration:none;">Data Center Knowledge →</a></div>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- {{/ITEMS}} -->
+        <!-- ===== Le reste de l'actu ===== -->
+        <tr><td style="padding:26px 34px 6px;"><div style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:2px;color:#94a3b8;text-transform:uppercase;">📡 Le reste de l'actu</div></td></tr>
 
-          <!-- Concurrents & Partenaires -->
-          <tr>
-            <td style="padding:16px 28px 4px;">
-              <div style="font-family:'Courier New',monospace; font-size:11px; letter-spacing:1.5px; color:#5f7186; text-transform:uppercase; padding-bottom:4px;">// Concurrents &amp; Partenaires</div>
+        <!-- item AVEC vignette photo -->
+        <tr><td style="padding:12px 34px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+            <td width="86" valign="top">
+              <img src="https://media.orrick.com/Media%20Library/public/images/news/2026/data_center_740x360.jpg" alt="" width="74" height="74" style="width:74px;height:74px;object-fit:cover;border-radius:12px;display:block;border:1px solid #e5e9f0;">
             </td>
-          </tr>
-          <!-- {{#WATCHLIST}} -->
-          <tr>
-            <td style="padding:8px 28px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#121a28; border:1px solid #1f2a3a; border-left:3px solid #34d399; border-radius:8px;">
-                <tr>
-                  <td style="padding:14px 18px;">
-                    <div style="font-family:Arial,Helvetica,sans-serif; font-size:15px; font-weight:700; color:#ffffff; padding-bottom:8px;">La Française de l'Énergie (FDE)</div>
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="padding-bottom:6px;">
-                      <tr>
-                        <td style="font-family:Arial,Helvetica,sans-serif; font-size:13px; color:#c3ced9; line-height:1.5;">
-                          <span style="font-family:'Courier New',monospace; font-size:11px; color:#5f7186;">2026-06 · </span>Contexte — Campus IA de Fouju (1,4 GW) illustre la ruée énergétique data center en France <a href="{{NEWS_URL}}" style="color:#22d3ee; text-decoration:none;">· Media24 →</a>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
+            <td style="padding-left:14px;">
+              <div style="font-family:'Courier New',monospace;font-size:10.5px;color:#0e7490;text-transform:uppercase;letter-spacing:0.4px;">Énergie &nbsp;·&nbsp; 🇺🇸 Amérique du Nord</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;color:#0f1b2d;padding-top:4px;line-height:1.4;">Microsoft : data center de 2 GW avec centrale gaz co-localisée au Texas</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:13.5px;color:#64748b;padding-top:6px;line-height:1.6;">PPA de 20 ans, structure behind-the-meter — l'un des plus gros montages gaz + data center des USA.</div>
+              <div style="padding-top:8px;"><a href="#" style="font-family:'Courier New',monospace;font-size:12px;color:#0e7490;text-decoration:none;">Orrick →</a></div>
             </td>
-          </tr>
-          <tr>
-            <td style="padding:8px 28px;">
-              <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#121a28; border:1px solid #1f2a3a; border-left:3px solid #f472b6; border-radius:8px;">
-                <tr>
-                  <td style="padding:14px 18px;">
-                    <div style="font-family:Arial,Helvetica,sans-serif; font-size:15px; font-weight:700; color:#ffffff; padding-bottom:8px;">Polarise</div>
-                    <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="padding-bottom:6px;">
-                      <tr>
-                        <td style="font-family:Arial,Helvetica,sans-serif; font-size:13px; color:#c3ced9; line-height:1.5;">
-                          <span style="font-family:'Courier New',monospace; font-size:11px; color:#5f7186;">2026-06 · </span>SWI Group prend une position majoritaire (valo 0,5 Md€, engagement 1,0 Md$) <a href="{{NEWS_URL}}" style="color:#22d3ee; text-decoration:none;">· Data Centre Magazine →</a>
-                        </td>
-                      </tr>
-                    </table>
-                  </td>
-                </tr>
-              </table>
-            </td>
-          </tr>
-          <!-- {{/WATCHLIST}} -->
+          </tr></table>
+        </td></tr>
+        <tr><td style="padding:0 34px;"><div style="border-top:1px solid #eef1f5;height:1px;line-height:1px;">&nbsp;</div></td></tr>
 
-          <!-- CTA vers le site -->
-          <tr>
-            <td align="center" style="padding:20px 28px 28px;">
-              <table role="presentation" cellpadding="0" cellspacing="0">
-                <tr>
-                  <td style="background:#2563eb; border-radius:8px;">
-                    <a href="{{SITE_URL}}" style="display:inline-block; padding:12px 24px; font-family:Arial,Helvetica,sans-serif; font-size:14px; font-weight:700; color:#ffffff; text-decoration:none;">Voir toute la veille →</a>
-                  </td>
-                </tr>
-              </table>
+        <!-- item AVEC vignette -->
+        <tr><td style="padding:12px 34px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+            <td width="86" valign="top">
+              <img src="https://storage.googleapis.com/gweb-uniblog-publish-prod/images/affordable_electricity_growth_Social.width-1300.png" alt="" width="74" height="74" style="width:74px;height:74px;object-fit:cover;border-radius:12px;display:block;border:1px solid #e5e9f0;">
             </td>
-          </tr>
-
-          <!-- Pied de page -->
-          <tr>
-            <td style="padding:20px 28px; background:#0b1220; border-top:1px solid #1f2a3a;">
-              <div style="font-family:Arial,Helvetica,sans-serif; font-size:12px; color:#5f7186; line-height:1.6;">
-                Vous recevez cet email car vous vous êtes inscrit(e) à la veille Data Center Watch.<br>
-                <a href="{{UNSUBSCRIBE_URL}}" style="color:#93a1b5; text-decoration:underline;">Se désinscrire</a> · Data Center Watch — veille interne
-              </div>
+            <td style="padding-left:14px;">
+              <div style="font-family:'Courier New',monospace;font-size:10.5px;color:#0e7490;text-transform:uppercase;letter-spacing:0.4px;">Énergie &nbsp;·&nbsp; 🌍 Monde</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;color:#0f1b2d;padding-top:4px;line-height:1.4;">Google franchit 1 GW de « demand response » sur ses data centers</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:13.5px;color:#64748b;padding-top:6px;line-height:1.6;">Un levier pour soulager le réseau aux heures de pointe et accélérer les raccordements.</div>
+              <div style="padding-top:8px;"><a href="#" style="font-family:'Courier New',monospace;font-size:12px;color:#0e7490;text-decoration:none;">Google →</a></div>
             </td>
-          </tr>
+          </tr></table>
+        </td></tr>
+        <tr><td style="padding:0 34px;"><div style="border-top:1px solid #eef1f5;height:1px;line-height:1px;">&nbsp;</div></td></tr>
 
-        </table>
-      </td>
-    </tr>
+        <!-- item SANS image dispo -> repli icône -->
+        <tr><td style="padding:12px 34px 4px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0"><tr>
+            <td width="86" valign="top">
+              <div style="width:74px;height:74px;background:#eff6ff;border:1px solid #dbeafe;border-radius:12px;text-align:center;line-height:74px;font-size:30px;">🏗️</div>
+            </td>
+            <td style="padding-left:14px;">
+              <div style="font-family:'Courier New',monospace;font-size:10.5px;color:#2563eb;text-transform:uppercase;letter-spacing:0.4px;">Construction &nbsp;·&nbsp; 🌏 Asie-Pacifique</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:16px;font-weight:bold;color:#0f1b2d;padding-top:4px;line-height:1.4;">AirTrunk (Blackstone) investit 21 Md$ pour 3 GW au Maharashtra</div>
+              <div style="font-family:Arial,Helvetica,sans-serif;font-size:13.5px;color:#64748b;padding-top:6px;line-height:1.6;">L'Inde s'impose comme un nouveau front majeur de la construction hyperscale. <span style="color:#94a3b8;font-style:italic;">(pas d'image d'article → icône)</span></div>
+              <div style="padding-top:8px;"><a href="#" style="font-family:'Courier New',monospace;font-size:12px;color:#0e7490;text-decoration:none;">Data Center Knowledge →</a></div>
+            </td>
+          </tr></table>
+        </td></tr>
+
+        <!-- ===== Concurrents ===== -->
+        <tr><td style="padding:24px 34px 4px;"><div style="font-family:'Courier New',monospace;font-size:11px;letter-spacing:2px;color:#94a3b8;text-transform:uppercase;">🎯 Concurrents &amp; Partenaires</div></td></tr>
+        <tr><td style="padding:12px 34px;">
+          <table role="presentation" width="100%" cellpadding="0" cellspacing="0" style="background:#fdf2f8;border:1px solid #fbcfe8;border-left:4px solid #db2777;border-radius:12px;"><tr><td style="padding:16px 20px;">
+            <div style="font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:bold;color:#0f1b2d;">Polarise</div>
+            <div style="font-family:Arial,Helvetica,sans-serif;font-size:13px;color:#475569;padding-top:6px;line-height:1.55;"><span style="font-family:'Courier New',monospace;font-size:11px;color:#94a3b8;">Cette semaine · </span>Nouvelle AI Factory de 30 MW (extensible à 120 MW) à Amberg <a href="#" style="color:#0e7490;text-decoration:none;">→</a></div>
+          </td></tr></table>
+        </td></tr>
+
+        <!-- ===== CTA ===== -->
+        <tr><td align="center" style="padding:26px 34px 30px;">
+          <table role="presentation" cellpadding="0" cellspacing="0"><tr><td style="background:#06b6d4;border-radius:10px;">
+            <a href="#" style="display:inline-block;padding:15px 30px;font-family:Arial,Helvetica,sans-serif;font-size:15px;font-weight:bold;color:#ffffff;text-decoration:none;">Explorer toute la veille →</a>
+          </td></tr></table>
+        </td></tr>
+
+        <!-- ===== Footer ===== -->
+        <tr><td style="padding:22px 34px;background:#f8fafc;border-top:1px solid #eef1f5;">
+          <div style="font-family:Arial,Helvetica,sans-serif;font-size:12px;color:#94a3b8;line-height:1.7;">Newsletter interne <b style="color:#64748b;">Data Center Watch</b> — synthèse hebdomadaire land + power.<br>Sources citées pour chaque information.</div>
+        </td></tr>
+
+      </table>
+      <div style="font-family:Arial,Helvetica,sans-serif;font-size:11px;color:#aab4c0;padding-top:16px;">Aperçu de maquette · contenus illustratifs</div>
+    </td></tr>
   </table>
 </body>
 </html>
