@@ -60,7 +60,11 @@ let allItems = [];
 let activeFilter = 'all';
 
 function renderCards() {
-  const items = activeFilter === 'all' ? allItems : allItems.filter((i) => i.category === activeFilter);
+  const items = activeFilter === 'all'
+    ? allItems
+    : activeFilter === 'powered'
+      ? allItems.filter((i) => i.poweredLand)
+      : allItems.filter((i) => i.category === activeFilter);
   grid.innerHTML = '';
   emptyState.hidden = items.length > 0;
   for (const item of items) {
@@ -70,7 +74,10 @@ function renderCards() {
     const fav = faviconOf(item.url);
     card.innerHTML = `
       <div class="card-top">
-        <span class="badge badge-${item.category}">${CATEGORY_LABELS[item.category] || item.category}</span>
+        <span class="card-badges">
+          <span class="badge badge-${item.category}">${CATEGORY_LABELS[item.category] || item.category}</span>
+          ${item.poweredLand ? '<span class="badge badge-powered">⚡ Powered Land</span>' : ''}
+        </span>
         <span class="card-meta">${item.region} · ${formatDate(item.date)}</span>
       </div>
       <h3>${item.title}</h3>
@@ -112,9 +119,10 @@ function renderAggregates(items, lastUpdated) {
   // Filter counts
   const byCat = {};
   for (const it of items) byCat[it.category] = (byCat[it.category] || 0) + 1;
+  const poweredCount = items.filter((it) => it.poweredLand).length;
   filterButtons.forEach((btn) => {
     const f = btn.dataset.filter;
-    const n = f === 'all' ? items.length : (byCat[f] || 0);
+    const n = f === 'all' ? items.length : f === 'powered' ? poweredCount : (byCat[f] || 0);
     let badge = btn.querySelector('.filter-count');
     if (!badge) {
       badge = document.createElement('span');

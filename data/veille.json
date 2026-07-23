@@ -15,7 +15,8 @@
       "date": "2026-07-23",
       "summary": "Calpine et CyrusOne annoncent le Thad Hill Energy Center, un site de « powered land » (foncier avec production électrique dédiée) destiné à accueillir du développement data center hyperscale au Texas.",
       "source": "Barchart",
-      "url": "https://www.barchart.com/story/news/33756833/calpine-and-cyrusone-announce-thad-hill-energy-center-powered-land-to-support-hyperscale-data-center-development-in-texas"
+      "url": "https://www.barchart.com/story/news/33756833/calpine-and-cyrusone-announce-thad-hill-energy-center-powered-land-to-support-hyperscale-data-center-development-in-texas",
+      "poweredLand": true
     },
     {
       "category": "market",
@@ -33,7 +34,8 @@
       "date": "2026-07-20",
       "summary": "Plug Power a signé deux accords avec Stream US Data Centers, dont la vente de son projet de Graham (Texas) — terrain et 164 MW d'actifs de raccordement au réseau — pour jusqu'à 76,5 M$. Nouvelle illustration de la valeur du foncier déjà raccordé (« powered land »).",
       "source": "Yahoo Finance",
-      "url": "https://finance.yahoo.com/markets/stocks/articles/plug-power-data-center-deals-130002780.html"
+      "url": "https://finance.yahoo.com/markets/stocks/articles/plug-power-data-center-deals-130002780.html",
+      "poweredLand": true
     },
     {
       "category": "land",
@@ -42,7 +44,8 @@
       "date": "2026-07-15",
       "summary": "Anthropic sécurise 401 MW d'infrastructure IA sur le site de Hawesville (Kentucky), une ancienne fonderie d'aluminium reconvertie par TeraWulf en « Justified Data Campus ». Le site dispose déjà d'environ 480 MW de puissance ; livraison par phases (calcul IA au S2 2027, pleine capacité début 2028). Le portefeuille de TeraWulf atteint 2,8 GW.",
       "source": "News Anyway",
-      "url": "https://www.newsanyway.com/2026/07/15/anthropic-kentucky-data-center-signs-20-year-lease-at-former-smelter-site"
+      "url": "https://www.newsanyway.com/2026/07/15/anthropic-kentucky-data-center-signs-20-year-lease-at-former-smelter-site",
+      "poweredLand": true
     },
     {
       "category": "power",
@@ -60,7 +63,8 @@
       "date": "2026-07",
       "summary": "Microsoft finalise un projet de 2 GW associant data center et centrale au gaz co-localisée dans l'ouest du Texas, adossé à un PPA de 20 ans — l'un des plus gros montages gaz + data center co-localisés des USA (6 000+ emplois de chantier).",
       "source": "Orrick",
-      "url": "https://www.orrick.com/en/News/2026/07/Microsoft-Expands-Global-Data-Center-Capacity-with-2-GW-Data-Center-and-Co-Located-Power-Facility"
+      "url": "https://www.orrick.com/en/News/2026/07/Microsoft-Expands-Global-Data-Center-Capacity-with-2-GW-Data-Center-and-Co-Located-Power-Facility",
+      "poweredLand": true
     },
     {
       "category": "power",
@@ -78,7 +82,8 @@
       "date": "2026-07",
       "summary": "Crusoe lance le campus Project Jade, conçu pour monter jusqu'à 10 GW (le plus grand campus IA des USA). Le comté de Laramie a approuvé une première tranche de 1,8 GW ; l'électricité sera fournie par le BFC Power / Cheyenne Power Hub de Tallgrass Energy, construit à côté.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "poweredLand": true
     },
     {
       "category": "construction",
@@ -186,7 +191,8 @@
       "date": "2026-07",
       "summary": "Digital Edge a acquis un terrain à Ansan pour développer 60 MW de capacité AI-ready, adossé à un accord de puissance de 90 MVA et une architecture double alimentation via deux postes source indépendants de 154 kV.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "poweredLand": true
     },
     {
       "category": "power",
@@ -195,7 +201,8 @@
       "date": "2026-07",
       "summary": "Iren a signé un accord de raccordement au réseau de transport pour un campus data center de 800 MW prévu à Bundey (Australie-Méridionale), avec mise sous tension visée en 2028.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "poweredLand": true
     },
     {
       "category": "power",
@@ -258,7 +265,8 @@
       "date": "2026-07",
       "summary": "Le projet Kilby de 2,67 GW sécurise une production d'électricité dédiée en direct, contournant la file d'interconnexion — illustration du basculement vers l'énergie behind-the-meter.",
       "source": "Global Data Center Hub",
-      "url": "https://www.globaldatacenterhub.com/p/this-week-in-data-centers-the-deliverable"
+      "url": "https://www.globaldatacenterhub.com/p/this-week-in-data-centers-the-deliverable",
+      "poweredLand": true
     },
     {
       "category": "competition",
@@ -267,7 +275,8 @@
       "date": "2026-07",
       "summary": "En Israël, Stark Power s'engage à acquérir 100% de Sagebrush Infrastructure Partners, développeur de data centers hyperscale avec centrales au gaz co-localisées.",
       "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "poweredLand": true
     },
     {
       "category": "market",

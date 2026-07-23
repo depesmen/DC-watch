@@ -411,6 +411,14 @@ html, body {
 .badge-legislation { background: rgba(251, 191, 36, 0.1); color: var(--amber); border-color: rgba(251, 191, 36, 0.25); }
 .badge-market { background: rgba(167, 139, 250, 0.1); color: var(--violet); border-color: rgba(167, 139, 250, 0.25); }
 .badge-competition { background: rgba(244, 114, 182, 0.1); color: var(--pink); border-color: rgba(244, 114, 182, 0.25); }
+.badge-powered { background: rgba(245, 158, 11, 0.16); color: #f5a623; border-color: rgba(245, 158, 11, 0.45); }
+.card-badges { display: inline-flex; gap: 6px; flex-wrap: wrap; }
+
+/* Filtre Powered Land */
+.filter-powered { border-color: rgba(245, 158, 11, 0.45); color: #f5a623; }
+.filter-powered:hover { border-color: #f5a623; color: #f5a623; }
+.filter-powered.is-active { background: #f5a623; border-color: #f5a623; color: #0a0e16; }
+.filter-powered.is-active .filter-count { color: #0a0e16; background: rgba(0,0,0,0.2); }
 
 .card[data-category="construction"] { --card-accent: var(--accent); }
 .card[data-category="land"] { --card-accent: var(--green); }
