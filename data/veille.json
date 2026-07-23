@@ -1,13 +1,31 @@
 {
-  "lastUpdated": "2026-07-20",
+  "lastUpdated": "2026-07-23",
   "keyTakeaways": [
-    "Le « powered land » se monétise : Plug Power cède à Stream US Data Centers son projet de Graham (Texas) — terrain + 164 MW d'actifs de raccordement — pour jusqu'à 76,5 M$.",
-    "Powered land par excellence : Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie (Hawesville, Kentucky) reconvertie par TeraWulf — ~480 MW déjà disponibles sur site.",
-    "Énergie co-localisée : Microsoft boucle un data center de 2 GW avec centrale gaz dédiée au Texas Ouest (PPA sur 20 ans) — l'un des plus gros montages gaz + data center des USA.",
-    "Course au nucléaire : GridMarket et Deployable Energy scellent un pipeline nucléaire de 22,5 Md$ (>3 GW d'ici 2035) ; au total, 13 projets dépassent 9,8 GW dédiés à l'IA.",
-    "Démesure US : Crusoe lance « Project Jade » dans le Wyoming — campus IA extensible à 10 GW, avec une centrale dédiée voisine ; 1re tranche de 1,8 GW approuvée."
+    "Le « powered land » se structure : Calpine et CyrusOne lancent le Thad Hill Energy Center — du foncier avec production électrique dédiée pour de l'hyperscale au Texas.",
+    "Le foncier raccordé se monétise : Plug Power cède à Stream son projet de Graham (Texas) — terrain + 164 MW de raccordement — pour jusqu'à 76,5 M$.",
+    "Reconversion de friches : Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie (Kentucky) reconvertie par TeraWulf — ~480 MW déjà disponibles.",
+    "Énergie co-localisée : Microsoft boucle un data center de 2 GW avec centrale gaz dédiée au Texas Ouest (PPA sur 20 ans).",
+    "Signal marché : selon BofA, l'essor des data centers IA force les utilities US à repenser leurs plans de production électrique."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "Calpine et CyrusOne lancent le « Thad Hill Energy Center » : powered land pour hyperscale au Texas",
+      "region": "Amérique du Nord",
+      "date": "2026-07-23",
+      "summary": "Calpine et CyrusOne annoncent le Thad Hill Energy Center, un site de « powered land » (foncier avec production électrique dédiée) destiné à accueillir du développement data center hyperscale au Texas.",
+      "source": "Barchart",
+      "url": "https://www.barchart.com/story/news/33756833/calpine-and-cyrusone-announce-thad-hill-energy-center-powered-land-to-support-hyperscale-data-center-development-in-texas"
+    },
+    {
+      "category": "market",
+      "title": "BofA : la croissance des data centers IA force les utilities US à revoir leurs plans de production",
+      "region": "Amérique du Nord",
+      "date": "2026-07-23",
+      "summary": "Selon Bank of America, l'essor des data centers IA contraint les compagnies d'électricité américaines à repenser leurs plans de production et d'investissement réseau pour absorber la nouvelle demande.",
+      "source": "Utility Dive",
+      "url": "https://www.utilitydive.com/news/ai-data-center-growth-utilities-generation-plans/825541/"
+    },
     {
       "category": "land",
       "title": "Plug Power cède à Stream son projet de Graham (Texas) : terrain + 164 MW de raccordement",
