@@ -20,7 +20,9 @@
       "coords": [
         31.0,
         -99.0
-      ]
+      ],
+      "owners": "Calpine · CyrusOne",
+      "investors": "KKR · Global Infrastructure Partners"
     },
     {
       "category": "market",
@@ -45,7 +47,9 @@
       "coords": [
         33.1,
         -98.59
-      ]
+      ],
+      "owners": "Stream US Data Centers (acquéreur)",
+      "investors": "Stream Realty Partners"
     },
     {
       "category": "land",
@@ -60,7 +64,9 @@
       "coords": [
         37.9,
         -86.75
-      ]
+      ],
+      "owners": "TeraWulf (site) · Anthropic (locataire)",
+      "investors": "coté NASDAQ (WULF)"
     },
     {
       "category": "power",
@@ -84,7 +90,9 @@
       "coords": [
         31.8,
         -102.4
-      ]
+      ],
+      "owners": "Microsoft",
+      "investors": "Microsoft (autofinancé)"
     },
     {
       "category": "power",
@@ -109,7 +117,9 @@
       "coords": [
         41.31,
         -104.68
-      ]
+      ],
+      "owners": "Crusoe (site) · Tallgrass Energy (énergie)",
+      "investors": "Founders Fund · Fidelity · NVIDIA"
     },
     {
       "category": "construction",
@@ -256,7 +266,9 @@
       "coords": [
         37.32,
         126.83
-      ]
+      ],
+      "owners": "Digital Edge",
+      "investors": "Stonepeak"
     },
     {
       "category": "power",
@@ -271,7 +283,9 @@
       "coords": [
         -33.5,
         139.4
-      ]
+      ],
+      "owners": "IREN",
+      "investors": "coté NASDAQ (IREN)"
     },
     {
       "category": "power",
@@ -357,7 +371,9 @@
       "coords": [
         31.8,
         -100.0
-      ]
+      ],
+      "owners": "Chevron (énergie) · Microsoft (DC)",
+      "investors": "n.c."
     },
     {
       "category": "competition",
@@ -371,7 +387,9 @@
       "coords": [
         31.5,
         34.9
-      ]
+      ],
+      "owners": "Stark Power (rachat de Sagebrush)",
+      "investors": "n.c."
     },
     {
       "category": "market",

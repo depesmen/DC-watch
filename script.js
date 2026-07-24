@@ -478,18 +478,19 @@ function renderPowered(items) {
   const t = document.getElementById('powered-table');
   if (!t) return;
   const pl = items.filter((it) => it.poweredLand);
+  const nc = '<span style="color:var(--text-faint);">n.c.</span>';
   t.innerHTML = `
-    <thead><tr><th>Deal / Site</th><th>Localisation</th><th>Puissance</th><th>Catégorie</th><th>Source</th></tr></thead>
+    <thead><tr><th>Deal / Site</th><th>Localisation</th><th>Puissance</th><th>Propriétaires</th><th>Investisseurs</th></tr></thead>
     <tbody>${pl.map((it) => `
       <tr>
         <td class="ct-name"><a href="${it.url}" target="_blank" rel="noopener noreferrer">${it.title}</a></td>
         <td>${it.region}</td>
         <td class="ct-pue">${it.mw ? fmtMW(it.mw) : '—'}</td>
-        <td>${CATEGORY_LABELS[it.category] || it.category}</td>
-        <td>${it.source}</td>
+        <td>${it.owners || nc}</td>
+        <td>${it.investors || nc}</td>
       </tr>`).join('')}</tbody>`;
   const note = document.getElementById('powered-note');
-  if (note) note.textContent = `${pl.length} deals « powered land » recensés. La colonne Puissance indique la capacité/le raccordement associé quand il est connu.`;
+  if (note) note.textContent = `${pl.length} deals « powered land » recensés. Propriétaires = propriétaire/opérateur du site ; Investisseurs = principaux bailleurs de fonds connus. Le titre reste cliquable vers la source. Données indicatives, à vérifier.`;
 }
 
 function initMap(items) {
