@@ -1,13 +1,27 @@
 {
-  "lastUpdated": "2026-07-23",
+  "lastUpdated": "2026-07-24",
   "keyTakeaways": [
+    "Nouvelle plateforme powered land : Liberty Energy et PowerBridge créent une JV pour un campus data center énergisé de 2 GW au Texas Ouest — et une plateforme pour de futurs campus à l'échelle du gigawatt.",
     "Le « powered land » se structure : Calpine et CyrusOne lancent le Thad Hill Energy Center — du foncier avec production électrique dédiée pour de l'hyperscale au Texas.",
     "Le foncier raccordé se monétise : Plug Power cède à Stream son projet de Graham (Texas) — terrain + 164 MW de raccordement — pour jusqu'à 76,5 M$.",
     "Reconversion de friches : Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie (Kentucky) reconvertie par TeraWulf — ~480 MW déjà disponibles.",
-    "Énergie co-localisée : Microsoft boucle un data center de 2 GW avec centrale gaz dédiée au Texas Ouest (PPA sur 20 ans).",
-    "Signal marché : selon BofA, l'essor des data centers IA force les utilities US à repenser leurs plans de production électrique."
+    "Énergie co-localisée : Microsoft boucle un data center de 2 GW avec centrale gaz dédiée au Texas Ouest (PPA sur 20 ans)."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "Liberty Energy et PowerBridge créent une JV pour un campus data center « powered » de 2 GW au Texas",
+      "region": "Amérique du Nord",
+      "date": "2026-07-24",
+      "summary": "Liberty Energy et PowerBridge forment une coentreprise pour développer un campus data center énergisé de 2 GW dans l'ouest du Texas, avec l'ambition d'en faire une plateforme pour de futurs campus « powered land » à l'échelle du gigawatt.",
+      "source": "PTC",
+      "url": "https://www.ptc.org/2026/07/liberty-energy-and-powerbridge-form-strategic-joint-venture-to-support-powered-data-center-campus-development/",
+      "mw": 2000,
+      "coords": [31.9, -102.3],
+      "poweredLand": true,
+      "owners": "Liberty Energy · PowerBridge (JV)",
+      "investors": "n.c."
+    },
     {
       "category": "land",
       "title": "Calpine et CyrusOne lancent le « Thad Hill Energy Center » : powered land pour hyperscale au Texas",
