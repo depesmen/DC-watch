@@ -1,13 +1,40 @@
 {
-  "lastUpdated": "2026-07-24",
+  "lastUpdated": "2026-07-27",
   "keyTakeaways": [
-    "Nouvelle plateforme powered land : Liberty Energy et PowerBridge créent une JV pour un campus data center énergisé de 2 GW au Texas Ouest — et une plateforme pour de futurs campus à l'échelle du gigawatt.",
-    "Le « powered land » se structure : Calpine et CyrusOne lancent le Thad Hill Energy Center — du foncier avec production électrique dédiée pour de l'hyperscale au Texas.",
-    "Le foncier raccordé se monétise : Plug Power cède à Stream son projet de Graham (Texas) — terrain + 164 MW de raccordement — pour jusqu'à 76,5 M$.",
-    "Reconversion de friches : Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie (Kentucky) reconvertie par TeraWulf — ~480 MW déjà disponibles.",
-    "Énergie co-localisée : Microsoft boucle un data center de 2 GW avec centrale gaz dédiée au Texas Ouest (PPA sur 20 ans)."
+    "Méga-projet US : OpenAI investit plus de 30 Md$ dans un data center en Géorgie, avec 3,2 GW déjà sécurisés auprès de Georgia Power (comté d'Effingham).",
+    "IA souveraine coréenne : NAVER, NVIDIA et Brookfield scellent 10 Md$ pour tripler l'AI factory à 200 MW (la Corée vise 8,4 GW d'ici 2029).",
+    "Nouvelle plateforme powered land : Liberty Energy et PowerBridge créent une JV pour un campus énergisé de 2 GW au Texas Ouest.",
+    "Le « powered land » se structure : Calpine et CyrusOne lancent le Thad Hill Energy Center — foncier + production électrique dédiée pour l'hyperscale.",
+    "Reconversion de friches : Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie (Kentucky) — ~480 MW déjà disponibles."
   ],
   "items": [
+    {
+      "category": "construction",
+      "title": "OpenAI investit 30+ Md$ dans un data center géant en Géorgie (3,2 GW sécurisés)",
+      "region": "Amérique du Nord",
+      "date": "2026-07-22",
+      "summary": "OpenAI prévoit plus de 30 Md$ pour un data center près de Savannah (comté d'Effingham, Géorgie), avec 3,2 GW d'énergie déjà contractés auprès de Georgia Power. Premières centaines de MW en 2028, développement jusqu'en 2032.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-22/openai-plans-to-spend-over-30-billion-on-georgia-data-center",
+      "mw": 3200,
+      "inv": 30000,
+      "coords": [32.37, -81.28],
+      "poweredLand": true,
+      "owners": "OpenAI",
+      "investors": "n.c."
+    },
+    {
+      "category": "construction",
+      "title": "NAVER, NVIDIA et Brookfield triplent l'AI factory souveraine coréenne à 200 MW (10 Md$)",
+      "region": "Asie-Pacifique",
+      "date": "2026-07-25",
+      "summary": "NAVER, NVIDIA et Brookfield annoncent un accord de 10 Md$ pour porter la capacité de l'AI factory souveraine coréenne de 55 à 200 MW d'ici 2028. La Corée du Sud vise 8,4 GW de capacité IA d'ici 2029 (~377 Md$ d'investissement privé : SK, GS, NAVER).",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/321630/20260726/naver-nvidia-triple-koreas-ai-factory-200-megawatts-10-billion-deal-brookfield.htm",
+      "mw": 200,
+      "inv": 10000,
+      "coords": [36.5, 127.8]
+    },
     {
       "category": "power",
       "title": "Liberty Energy et PowerBridge créent une JV pour un campus data center « powered » de 2 GW au Texas",
