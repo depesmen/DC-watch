@@ -1,13 +1,103 @@
 {
   "lastUpdated": "2026-07-27",
   "keyTakeaways": [
+    "Moratoire historique : New York suspend pour un an les permis environnementaux des data centers hyperscale (décret Hochul, 14/07) — 1er moratoire à l'échelle d'un État US.",
+    "Plus gros deal M&A du secteur bouclé : AIP/MGX/BlackRock GIP finalisent le rachat d'Aligned Data Centers à 40 Md$ (+5 Md$ de croissance), 6,4 GW sur 51 campus.",
     "Méga-projet US : OpenAI investit plus de 30 Md$ dans un data center en Géorgie, avec 3,2 GW déjà sécurisés auprès de Georgia Power (comté d'Effingham).",
-    "IA souveraine coréenne : NAVER, NVIDIA et Brookfield scellent 10 Md$ pour tripler l'AI factory à 200 MW (la Corée vise 8,4 GW d'ici 2029).",
-    "Nouvelle plateforme powered land : Liberty Energy et PowerBridge créent une JV pour un campus énergisé de 2 GW au Texas Ouest.",
-    "Le « powered land » se structure : Calpine et CyrusOne lancent le Thad Hill Energy Center — foncier + production électrique dédiée pour l'hyperscale.",
-    "Reconversion de friches : Anthropic signe un bail de 20 ans pour 401 MW sur une ancienne fonderie (Kentucky) — ~480 MW déjà disponibles."
+    "Le « powered land » brownfield s'accélère des deux côtés de l'Atlantique : ancienne aciérie AK Steel dans le Kentucky (Rubix/Submer, 8-12 Md$, 2 GW) et friche Usinor d'Escaudain en France (Data4, 5 Md€, 700 MW).",
+    "Tension réseau US : 2 600 GW en file d'attente d'interconnexion nationale, 198 GW de demandes rien qu'au T1 2026 en ERCOT — la puissance déjà raccordée devient l'actif rare."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "New York instaure le premier moratoire d'un État US sur les data centers hyperscale",
+      "region": "Amérique du Nord",
+      "date": "2026-07-14",
+      "summary": "La gouverneure Kathy Hochul signe un décret suspendant pour un an la délivrance des permis environnementaux d'État aux nouveaux data centers hyperscale, le temps d'élaborer une étude d'impact (énergie, eau, qualité de l'air). Premier moratoire à l'échelle d'un État américain ; en Géorgie, le HB 1059 (moratoire 2026-2028) n'a lui pas été adopté.",
+      "source": "Governor Hochul / NY State",
+      "url": "https://www.governor.ny.gov/news/first-statewide-moratorium-new-hyperscale-data-centers-launched-governor-kathy-hochul"
+    },
+    {
+      "category": "competition",
+      "title": "AIP, MGX et BlackRock (GIP) bouclent le rachat d'Aligned Data Centers pour ~40 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-07-21",
+      "summary": "Le consortium Artificial Intelligence Infrastructure Partnership, MGX et BlackRock's Global Infrastructure Partners finalise l'acquisition à 100% d'Aligned Data Centers et engage 5 Md$ de capital de croissance supplémentaire au closing. Aligned pèse 6,4 GW de capacité opérationnelle et planifiée sur 51 campus — l'une des plus grosses opérations privées jamais réalisées en digital infrastructure.",
+      "source": "Aligned Data Centers",
+      "url": "https://aligneddc.com/press-release/aip-mgx-and-blackrocks-gip-close-acquisition-of-aligned-data-centers/",
+      "mw": 6400,
+      "inv": 40000
+    },
+    {
+      "category": "land",
+      "title": "Rubix Data Centers (Submer) propose un hyperscale de 8-12 Md$ sur l'ancienne aciérie AK Steel (Kentucky)",
+      "region": "Amérique du Nord",
+      "date": "2026-07-22",
+      "summary": "Rubix Data Centers, filiale du groupe barcelonais Submer, propose un campus hyperscale de 8 à 12 Md$ sur les 425 à 500 acres de l'ancien site sidérurgique AK Steel près d'Ashland (Kentucky) — jusqu'à 2 GW de puissance, 8 bâtiments, ~1 000 emplois de chantier et ~200 emplois permanents.",
+      "source": "Kentucky Lantern",
+      "url": "https://kentuckylantern.com/2026/07/22/developer-proposes-hyperscale-data-center-at-the-site-at-former-eastern-kentucky-steel-mill/",
+      "mw": 2000,
+      "coords": [38.4778, -82.6382],
+      "poweredLand": true,
+      "owners": "Rubix Data Centers (Submer Group)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "France : EDF ouvre son foncier industriel de Creys-Mépieu aux data centers",
+      "region": "Europe",
+      "date": "2026-07-03",
+      "summary": "EDF lance un appel à manifestation d'intérêt pour son ancien site industriel de Creys-Mépieu (Isère), en vue d'un data center haute puissance en bail emphytéotique — foncier mobilisable rapidement, fort potentiel de raccordement électrique, accompagnement de la conception à la mise en service.",
+      "source": "Groupe EDF",
+      "url": "https://www.edf.fr/en/the-edf-group/dedicated-sections/journalists/all-press-releases/edf-launches-calls-for-expressions-of-interest-for-new-data-centers-in-france",
+      "coords": [45.712, 5.516],
+      "poweredLand": true,
+      "owners": "EDF",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Data4 confirme son plus gros campus France : 700 MW sur la friche Usinor d'Escaudain",
+      "region": "Europe",
+      "date": "2026-06-12",
+      "summary": "Data4 confirme un investissement de 5 Md€ pour son plus gros campus data center en France, sur 33 ha de l'ancienne friche sidérurgique Usinor à Escaudain (Nord) — 700 MW de capacité à terme, ~2 400 emplois annoncés.",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
+      "mw": 700,
+      "inv": 5400,
+      "coords": [50.334, 3.267],
+      "poweredLand": true,
+      "owners": "Data4",
+      "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "La file d'interconnexion US atteint 2 600 GW, ERCOT reçoit 198 GW de demandes au T1 2026",
+      "region": "Amérique du Nord",
+      "date": "2026-07",
+      "summary": "Selon le rapport « Queued Up 2026 » du Lawrence Berkeley National Lab, la file d'attente nationale de projets d'interconnexion atteint 2 600 GW avec un délai médian de 4 ans et un taux d'aboutissement historique de ~13 %. En ERCOT, 198 GW de demandes de grosses charges ont été déposées au seul T1 2026 (86 GW à l'étude) ; les délais de fabrication des transformateurs de poste source dépassent désormais 160 semaines.",
+      "source": "LBNL / Landgate",
+      "url": "https://emp.lbl.gov/queues"
+    },
+    {
+      "category": "competition",
+      "title": "Realty Income et Cloud Capital lancent une coentreprise dédiée aux data centers hyperscale",
+      "region": "Amérique du Nord",
+      "date": "2026-07-01",
+      "summary": "La foncière cotée Realty Income s'associe à Cloud Capital pour investir dans les data centers hyperscale, avec des actifs d'amorçage évalués à plus de 6 Md$ — nouvel exemple de foncière traditionnelle diversifiant vers le digital infrastructure.",
+      "source": "CoStar",
+      "url": "https://www.costar.com/article/1714231790/realty-income-enters-venture-to-acquire-data-centers",
+      "inv": 6000
+    },
+    {
+      "category": "competition",
+      "title": "La Française de l'Énergie (FDE) publie son CA annuel 2026 : montée en puissance de la production électrique verte",
+      "region": "France",
+      "date": "2026-07-21",
+      "summary": "La Française de l'Énergie affiche un CA 2026 de 29,1 M€ (gaz +14%, électricité 11,7 M€ sur 139 GWh). Deux nouveaux moteurs de production d'électricité verte ont démarré à Angres en juin, deux autres suivront à Rouvignies à la rentrée — capacité de production locale croissante à surveiller pour d'éventuels rapprochements avec des projets data center en Hauts-de-France/Lorraine.",
+      "source": "Actusnews",
+      "url": "https://www.actusnews.com/fr/la-francaise-de-l-energie/cp/2026/07/21/chiffre-d_affaires-annuel-2026"
+    },
     {
       "category": "construction",
       "title": "OpenAI investit 30+ Md$ dans un data center géant en Géorgie (3,2 GW sécurisés)",
@@ -463,15 +553,6 @@
         49.44,
         11.85
       ]
-    },
-    {
-      "category": "competition",
-      "title": "SWI Group prend une position majoritaire dans Polarise (valo 0,5 Md€)",
-      "region": "Europe",
-      "date": "2026-06",
-      "summary": "SWI (Stoneweg Icona) signe pour une participation majoritaire dans Polarise — valorisation 0,5 Md€, engagement de 1,0 Md$ pour l'infra IA souveraine européenne.",
-      "source": "Data Centre Magazine",
-      "url": "https://datacentremagazine.com/news/why-is-polarise-expanding-its-european-ai-data-centres"
     }
   ]
 }

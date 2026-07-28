@@ -18,7 +18,8 @@
         { "label": "Vacance US", "value": "1,2 %", "sub": "0,3 % en Northern Virginia (Q1 2026)", "trend": "down", "source": "CBRE / Avison Young", "url": "https://www.avisonyoung.us/us-data-center-market-overview" },
         { "label": "Absorption nette US", "value": "5,29 GW", "sub": "Q1 2026 (Austin 1 909 MW, Dallas-FW 912 MW)", "trend": "up", "source": "Avison Young Q1 2026", "url": "https://www.avisonyoung.us/us-data-center-market-overview" },
         { "label": "Pipeline en construction/annoncé", "value": "160 GW", "sub": "pré-location des livraisons > 90 %", "trend": "up", "source": "Newmark — 2026 US DC Outlook", "url": "https://www.nmrk.com/insights/market-report/2026-u-s-data-center-market-outlook" },
-        { "label": "Délai de raccordement", "value": "5,0 ans", "sub": "attente moyenne d'interconnexion", "trend": "flat", "source": "Cushman & Wakefield", "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison" }
+        { "label": "Délai de raccordement", "value": "5,0 ans", "sub": "attente moyenne d'interconnexion", "trend": "flat", "source": "Cushman & Wakefield", "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison" },
+        { "label": "File d'interconnexion nationale", "value": "2 600 GW", "sub": "délai médian 4 ans, ~13 % des projets aboutissent ; ERCOT : 198 GW de demandes au T1 2026", "trend": "up", "source": "LBNL — Queued Up 2026", "url": "https://emp.lbl.gov/queues" }
       ]
     },
     {
@@ -74,7 +75,7 @@
         { "label": "Campus IA UAE-US", "value": "5 GW", "sub": "objectif total ; Stargate UAE = cluster de 1 GW", "trend": "up", "source": "Data Center World Middle East", "url": "https://www.datacenterworldmiddleeast.com/the-strategic-case-for-uae-data-centre-investment/" },
         { "label": "Stargate UAE — 1re tranche", "value": "200 MW", "sub": "en service en 2026, ~100 000 GB300 NVIDIA", "trend": "up", "source": "Gulf News", "url": "https://gulfnews.com/business/markets/stargate-uae-first-phase-of-200mw-to-complete-by-2026-1.500310364" },
         { "label": "Capacité installée", "value": "358 MW", "sub": "vers ~950 MW en 2028 ; pipeline 46,1 Md$ (55 % du GCC)", "trend": "up", "source": "Mordor Intelligence", "url": "https://www.mordorintelligence.com/industry-reports/united-arab-emirates-data-center-server-market" },
-        { "label": "MGX — acquisition Aligned", "value": "40 Md$", "sub": "5+ GW, 50 sites — plus grosse acquisition data center de l'histoire", "trend": "up", "source": "The National", "url": "https://www.thenationalnews.com/business/2025/10/15/mgx-aip-and-blackrocks-gip-to-acquire-aligned-data-centers-in-boost-to-ai-infrastructure/" }
+        { "label": "MGX — acquisition Aligned", "value": "40 Md$", "sub": "Closing confirmé 21/07/2026 (+5 Md$ croissance) — 6,4 GW, 51 campus", "trend": "up", "source": "Aligned Data Centers", "url": "https://aligneddc.com/press-release/aip-mgx-and-blackrocks-gip-close-acquisition-of-aligned-data-centers/" }
       ]
     }
   ]
