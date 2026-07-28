@@ -1,5 +1,5 @@
 {
-  "asOf": "2026-Q1 / 2026-07-01",
+  "asOf": "2026-Q1 / 2026-07-28",
   "note": "Chiffres agrégés depuis les rapports publics (JLL, CBRE, Cushman & Wakefield, Newmark, Avison Young). Vérifier la source de chaque KPI avant usage en présentation.",
   "regions": [
     {
@@ -8,7 +8,8 @@
       "kpis": [
         { "label": "Demande active", "value": "5+ GW", "sub": "vs 3,2 GW un an plus tôt", "trend": "up", "source": "JLL — Global DC Outlook Q1 2026", "url": "https://www.jll.com/en-us/insights/market-outlook/data-center-outlook" },
         { "label": "Contrainte n°1", "value": "Électricité", "sub": "devant le capital et le foncier, toutes régions", "trend": "flat", "source": "CBRE — Global DC Trends 2026", "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026" },
-        { "label": "Data centers ≥ 1 GW en 2026", "value": "5", "sub": "premiers campus à l'échelle du gigawatt", "trend": "up", "source": "Data Center Knowledge", "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-june-2026" }
+        { "label": "Data centers ≥ 1 GW en 2026", "value": "5", "sub": "premiers campus à l'échelle du gigawatt", "trend": "up", "source": "Data Center Knowledge", "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-june-2026" },
+        { "label": "Vacance mondiale moyenne", "value": "6,7 %", "sub": "vs 8,3 % un an plus tôt, malgré +25 % d'offre (16 GW, 16 plus grands marchés, T1 2026)", "trend": "down", "source": "CBRE — Global DC Trends 2026", "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026" }
       ]
     },
     {
@@ -19,7 +20,8 @@
         { "label": "Absorption nette US", "value": "5,29 GW", "sub": "Q1 2026 (Austin 1 909 MW, Dallas-FW 912 MW)", "trend": "up", "source": "Avison Young Q1 2026", "url": "https://www.avisonyoung.us/us-data-center-market-overview" },
         { "label": "Pipeline en construction/annoncé", "value": "160 GW", "sub": "pré-location des livraisons > 90 %", "trend": "up", "source": "Newmark — 2026 US DC Outlook", "url": "https://www.nmrk.com/insights/market-report/2026-u-s-data-center-market-outlook" },
         { "label": "Délai de raccordement", "value": "5,0 ans", "sub": "attente moyenne d'interconnexion", "trend": "flat", "source": "Cushman & Wakefield", "url": "https://www.cushmanwakefield.com/en/germany/news/2026/05/global-data-center-market-comparison" },
-        { "label": "File d'interconnexion nationale", "value": "2 600 GW", "sub": "délai médian 4 ans, ~13 % des projets aboutissent ; ERCOT : 198 GW de demandes au T1 2026", "trend": "up", "source": "LBNL — Queued Up 2026", "url": "https://emp.lbl.gov/queues" }
+        { "label": "File d'interconnexion nationale", "value": "2 600 GW", "sub": "délai médian 4 ans, ~13 % des projets aboutissent ; ERCOT : 198 GW de demandes au T1 2026", "trend": "up", "source": "LBNL — Queued Up 2026", "url": "https://emp.lbl.gov/queues" },
+        { "label": "Inventaire colocation US", "value": "29,0 GW", "sub": "+22 % T/T, +48 % en glissement annuel (T1 2026)", "trend": "up", "source": "CBRE / Avison Young Q1 2026", "url": "https://www.avisonyoung.us/us-data-center-market-overview" }
       ]
     },
     {

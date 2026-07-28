@@ -1,13 +1,153 @@
 {
-  "lastUpdated": "2026-07-27",
+  "lastUpdated": "2026-07-28",
   "keyTakeaways": [
-    "Moratoire historique : New York suspend pour un an les permis environnementaux des data centers hyperscale (décret Hochul, 14/07) — 1er moratoire à l'échelle d'un État US.",
-    "Plus gros deal M&A du secteur bouclé : AIP/MGX/BlackRock GIP finalisent le rachat d'Aligned Data Centers à 40 Md$ (+5 Md$ de croissance), 6,4 GW sur 51 campus.",
-    "Méga-projet US : OpenAI investit plus de 30 Md$ dans un data center en Géorgie, avec 3,2 GW déjà sécurisés auprès de Georgia Power (comté d'Effingham).",
-    "Le « powered land » brownfield s'accélère des deux côtés de l'Atlantique : ancienne aciérie AK Steel dans le Kentucky (Rubix/Submer, 8-12 Md$, 2 GW) et friche Usinor d'Escaudain en France (Data4, 5 Md€, 700 MW).",
-    "Tension réseau US : 2 600 GW en file d'attente d'interconnexion nationale, 198 GW de demandes rien qu'au T1 2026 en ERCOT — la puissance déjà raccordée devient l'actif rare."
+    "Divergence réglementaire US État par État : le New Jersey crée une classe tarifaire dédiée aux data centers (Fair Share Act, 07/07) et la Pennsylvanie impose un reporting eau/énergie sous astreinte (HB 1924, 12/07), un mois après le moratoire new-yorkais.",
+    "Le « powered land » reste le cœur des deals concrets : Plug Power monétise pour 142 M$ son site raccordé STAMP (NY) juste avant le moratoire ; Nebius/Azur avancent sur les 240 MW de l'ex-friche Bridgestone à Béthune ; Brookfield porte son engagement France à 30 Md€.",
+    "Vacance mondiale à 6,7% (CBRE) malgré +25% d'offre en un an — la demande IA continue de devancer la construction, confirmant la rareté de la capacité et du foncier raccordé.",
+    "La course au nucléaire/SMR s'internationalise : MoU Samsung Heavy/Sargent & Lundy sur le SMR flottant et accord USA-Japon-Corée du Sud pour l'Indo-Pacifique.",
+    "Consolidation financière : Pure DC lève 1,3 Md€ de plus pour Dublin/Amsterdam, TECfusions entre au Nasdaq à 4 Md$ (reconversion industrielle), Damac Digital revendique 6 GW de foncier planifié dans 13 pays."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "New Jersey signe le « Data Center Fair Share Act »",
+      "region": "Amérique du Nord",
+      "date": "2026-07-07",
+      "summary": "La gouverneure Mikie Sherrill instaure une nouvelle classe tarifaire pour les data centers : les sites de 50 MW+ devront couvrir au moins 85% de leurs coûts d'électricité projetés sur 10 ans. Premier État américain à réguler ainsi la facturation électrique des data centers IA.",
+      "source": "NJ.gov",
+      "url": "https://www.nj.gov/governor/news/2026/20260707a.shtml"
+    },
+    {
+      "category": "legislation",
+      "title": "La Pennsylvanie impose un reporting annuel eau/énergie aux data centers (HB 1924)",
+      "region": "Amérique du Nord",
+      "date": "2026-07-12",
+      "summary": "Budget signé par le gouverneur Shapiro : les sites de plus de 10 MW de puissance de pointe devront déclarer chaque année leur consommation exacte d'eau et d'électricité au Department of Environmental Protection, sous peine de 10 000$/jour d'amende. PJM devra aussi partager ses prévisions de demande avec les régulateurs de l'État.",
+      "source": "Utility Dive",
+      "url": "https://www.utilitydive.com/news/pennsylvania-passes-budget-increasing-data-center-oversight/825177/"
+    },
+    {
+      "category": "land",
+      "title": "Plug Power cède son site raccordé de Western New York (STAMP) à Stream Data Centers pour 142 M$",
+      "region": "Amérique du Nord",
+      "date": "2026-07-15",
+      "summary": "Vente du foncier et des actifs de raccordement (dont des équipements de poste source) de l'industrial park STAMP, à la veille de l'entrée en vigueur du moratoire new-yorkais. Clôture visée au plus tard le 31/03/2027.",
+      "source": "WSKG",
+      "url": "https://www.wskg.org/2026-07-15/plug-power-stream-data-centers-stamp-land-sale-new-york-data-center-moratorium",
+      "poweredLand": true,
+      "inv": 142,
+      "coords": [43.06, -78.24],
+      "owners": "Stream Data Centers (acquéreur)",
+      "investors": "Stream Realty Partners"
+    },
+    {
+      "category": "land",
+      "title": "atNorth acquiert son premier terrain en Norvège, à Haugaland",
+      "region": "Europe",
+      "date": "2026-06-03",
+      "summary": "36 hectares dans le Haugaland Business Park pour le site NOR01 : 120 MW en première phase, jusqu'à 350 MW à terme, ~1,1 Md$ d'investissement en phase 1. Deux nouveaux postes source (Statnett + Fagne) doivent alimenter le site d'ici 2028.",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/atnorth-plans-350mw-data-center-campus-in-norway/",
+      "mw": 350,
+      "inv": 1100,
+      "coords": [59.41, 5.27],
+      "owners": "atNorth",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Nebius et Azur Datacenter confirment un data center de 240 MW sur l'ex-friche Bridgestone à Béthune",
+      "region": "Europe",
+      "date": "2026-02-12",
+      "summary": "8 Md€ d'investissement sur l'ancien site du pneumaticien Bridgestone (fermé en 2021) dans le Pas-de-Calais : 60 MW dès l'été 2026, 120 MW fin 2026, 240 MW fin 2027. Azur finance l'infrastructure physique, Nebius apporte les GPU et l'exploitation.",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/nebius-plans-240mw-data-center-in-b%C3%A9thune-france/",
+      "poweredLand": true,
+      "mw": 240,
+      "inv": 8600,
+      "coords": [50.53, 2.64],
+      "owners": "Azur Datacenter (site) · Nebius (exploitation)",
+      "investors": "n.c."
+    },
+    {
+      "category": "competition",
+      "title": "TECfusions entre en bourse via un SPAC à 4 Md$ de valorisation",
+      "region": "Amérique du Nord",
+      "date": "2026-07-22",
+      "summary": "Fusion avec Apex Treasury Corp. (Nasdaq: TECF attendu), levée PIPE de 35 M$. TECfusions est spécialisé dans la reconversion de sites industriels existants en data centers (Clarksville VA, Tucson AZ, New Kensington PA), clôture visée au T4 2026.",
+      "source": "Bisnow",
+      "url": "https://www.bisnow.com/national/news/data-center-capital-markets/data-center-operator-to-go-public-in-merger-valuing-it-at-4b-135521",
+      "inv": 4000
+    },
+    {
+      "category": "competition",
+      "title": "Damac Digital atteint 6 000 MW de foncier planifié dans 13 pays",
+      "region": "Monde",
+      "date": "2026-06",
+      "summary": "Portefeuille de 35+ sites à travers l'Amérique du Nord, l'Europe, l'Asie (Thaïlande, Indonésie, Malaisie, Philippines) et le Moyen-Orient. 10 nouveaux chantiers lancés en 5 mois, objectif de 2 GW opérationnels d'ici le T1 2028.",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/damac-digital-reaches-6-000mw-planned-it-capacity-landbank-across-north-america-europe-asia-and-the-middle-east-302788524.html",
+      "mw": 6000
+    },
+    {
+      "category": "market",
+      "title": "CBRE : la vacance mondiale tombe à 6,7% malgré +25% d'offre en un an",
+      "region": "Monde",
+      "date": "2026-07",
+      "summary": "L'offre mondiale sur les 16 plus grands marchés atteint 16 GW au T1 2026 (+25% sur un an), mais la vacance recule de 8,3% à 6,7%, signe d'une demande IA qui continue de dépasser l'offre malgré la vague de constructions.",
+      "source": "CBRE",
+      "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
+    },
+    {
+      "category": "competition",
+      "title": "Pure DC lève 1,3 Md€ supplémentaires pour son campus IA européen",
+      "region": "Europe",
+      "date": "2026-07-21",
+      "summary": "Financement senior additionnel pour accélérer la croissance de ses campus de Dublin et Amsterdam, portant le financement total à plus de 2,7 Md$. Le site de Dublin (Ballycoolin) vise 150 MW de capacité IT.",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/07/21/3330594/0/en/pure-dc-secures-additional-1-3-billion-to-accelerate-growth-of-one-of-europe-s-largest-ai-campuses.html",
+      "inv": 1400,
+      "coords": [53.35, -6.26]
+    },
+    {
+      "category": "power",
+      "title": "Samsung Heavy Industries et Sargent & Lundy signent un MoU pour une plateforme SMR flottante universelle",
+      "region": "Asie-Pacifique",
+      "date": "2026-07-21",
+      "summary": "Accord pour développer conjointement une plateforme de centrale nucléaire modulaire flottante compatible avec tout type de SMR, destinée notamment à l'alimentation de data centers.",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/321357/20260723/samsung-heavy-sargent-lundy-launch-floating-nuclear-power-plant-any-smr.htm"
+    },
+    {
+      "category": "power",
+      "title": "USA, Japon et Corée du Sud signent un accord pour accélérer le déploiement de SMR en Indo-Pacifique",
+      "region": "Asie-Pacifique",
+      "date": "2026-07-24",
+      "summary": "Le Département d'État américain engage plus de 10 M$ dans le programme FIRST pour accompagner le développement de petits réacteurs modulaires, dans un contexte de demande énergétique croissante des data centers IA de la région.",
+      "source": "NaturalNews",
+      "url": "https://www.naturalnews.com/2026-07-24-japan-south-korea-nuclear-reactors.html"
+    },
+    {
+      "category": "construction",
+      "title": "Brookfield relève son engagement France à 30 Md€",
+      "region": "Europe",
+      "date": "2026-06",
+      "summary": "Brookfield porte son engagement dans l'IA/data centers en France de 20 à 30 Md€ (annoncé au sommet Choose France), avec deux nouveaux campus Data4 dans les Hauts-de-France (E-Valley à Cambrai et le site d'Escaudain).",
+      "source": "Data Center Dynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/brookfield-ups-french-data-center-investment-by-10-billion/",
+      "inv": 32000,
+      "coords": [50.18, 3.24]
+    },
+    {
+      "category": "construction",
+      "title": "EdgeConneX et Kagoya lancent un projet AI-ready à Osaka",
+      "region": "Asie-Pacifique",
+      "date": "2026-07",
+      "summary": "Nouveau data center de 1,4 million de pieds carrés à Osaka, visé opérationnel en 2028 ; s'ajoute au campus OSK2 (100 MW) d'AirTrunk dans la même ville.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
+      "coords": [34.69, 135.5]
+    },
     {
       "category": "legislation",
       "title": "New York instaure le premier moratoire d'un État US sur les data centers hyperscale",
