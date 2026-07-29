@@ -1,13 +1,41 @@
 {
-  "lastUpdated": "2026-07-28",
+  "lastUpdated": "2026-07-29",
   "keyTakeaways": [
-    "Divergence réglementaire US État par État : le New Jersey crée une classe tarifaire dédiée aux data centers (Fair Share Act, 07/07) et la Pennsylvanie impose un reporting eau/énergie sous astreinte (HB 1924, 12/07), un mois après le moratoire new-yorkais.",
-    "Le « powered land » reste le cœur des deals concrets : Plug Power monétise pour 142 M$ son site raccordé STAMP (NY) juste avant le moratoire ; Nebius/Azur avancent sur les 240 MW de l'ex-friche Bridgestone à Béthune ; Brookfield porte son engagement France à 30 Md€.",
-    "Vacance mondiale à 6,7% (CBRE) malgré +25% d'offre en un an — la demande IA continue de devancer la construction, confirmant la rareté de la capacité et du foncier raccordé.",
-    "La course au nucléaire/SMR s'internationalise : MoU Samsung Heavy/Sargent & Lundy sur le SMR flottant et accord USA-Japon-Corée du Sud pour l'Indo-Pacifique.",
-    "Consolidation financière : Pure DC lève 1,3 Md€ de plus pour Dublin/Amsterdam, TECfusions entre au Nasdaq à 4 Md$ (reconversion industrielle), Damac Digital revendique 6 GW de foncier planifié dans 13 pays."
+    "Meta + BlackRock : coentreprise de 14 Md$ pour un campus data center de 1 GW à El Paso (Texas) — BlackRock détient 80%, Meta locataire initial, mise en service en 2028.",
+    "AMD sécurise 530 MW d'infra IA via Core Scientific (14 Md$, baux 15 ans, extensible à 2,5 GW) — reconversion d'anciens sites de minage crypto.",
+    "Le « powered land » reste le cœur des deals concrets : Plug Power monétise son site raccordé STAMP (NY) ; Nebius/Azur avancent sur les 240 MW de l'ex-friche Bridgestone à Béthune ; Brookfield porte son engagement France à 30 Md€.",
+    "Divergence réglementaire US État par État : New Jersey (Fair Share Act) et Pennsylvanie (reporting eau/énergie) durcissent le ton, un mois après le moratoire new-yorkais.",
+    "Vacance mondiale à 6,7% (CBRE) malgré +25% d'offre en un an — la demande IA continue de devancer la construction."
   ],
   "items": [
+    {
+      "category": "construction",
+      "title": "Meta et BlackRock montent une JV de 14 Md$ pour un campus de 1 GW à El Paso (Texas)",
+      "region": "Amérique du Nord",
+      "date": "2026-07-28",
+      "summary": "Meta et BlackRock lancent une coentreprise pour développer et exploiter un campus data center à El Paso (Texas) — ~14 Md$ pour 1 GW de capacité de calcul, en service en 2028 avec Meta comme locataire initial. Les fonds gérés par BlackRock prennent 80% de la JV, Meta 20%.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/07/28/meta-blackrock-partner-on-14-billion-el-paso-data-center.html",
+      "mw": 1000,
+      "inv": 14000,
+      "coords": [31.76, -106.49],
+      "owners": "Meta (20%) · BlackRock (80%)",
+      "investors": "BlackRock"
+    },
+    {
+      "category": "land",
+      "title": "AMD sécurise 530 MW d'infra IA via Core Scientific (14 Md$, extensible à 2,5 GW)",
+      "region": "Amérique du Nord",
+      "date": "2026-07-28",
+      "summary": "AMD signe avec Core Scientific pour 530 MW d'infrastructure IA sur cinq sites américains, via des baux de 15 ans totalisant plus de 14 Md$ de revenus contractés, avec des droits d'extension jusqu'à 2,5 GW — reconversion d'anciens sites de minage crypto vers l'IA.",
+      "source": "Tech Times",
+      "url": "https://www.techtimes.com/articles/321813/20260728/amds-14b-data-center-bet-core-scientific-targets-nvidias-ai-infrastructure-lead.htm",
+      "mw": 530,
+      "inv": 14000,
+      "poweredLand": true,
+      "owners": "Core Scientific (sites) · AMD (locataire)",
+      "investors": "n.c."
+    },
     {
       "category": "construction",
       "title": "NAVER, NVIDIA et Brookfield triplent l'AI factory souveraine coréenne à 200 MW (10 Md$)",
