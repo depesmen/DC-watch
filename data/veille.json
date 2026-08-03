@@ -1,13 +1,47 @@
 {
-  "lastUpdated": "2026-07-29",
+  "lastUpdated": "2026-08-03",
   "keyTakeaways": [
-    "Meta + BlackRock : coentreprise de 14 Md$ pour un campus data center de 1 GW à El Paso (Texas) — BlackRock détient 80%, Meta locataire initial, mise en service en 2028.",
-    "AMD sécurise 530 MW d'infra IA via Core Scientific (14 Md$, baux 15 ans, extensible à 2,5 GW) — reconversion d'anciens sites de minage crypto.",
-    "Le « powered land » reste le cœur des deals concrets : Plug Power monétise son site raccordé STAMP (NY) ; Nebius/Azur avancent sur les 240 MW de l'ex-friche Bridgestone à Béthune ; Brookfield porte son engagement France à 30 Md€.",
-    "Divergence réglementaire US État par État : New Jersey (Fair Share Act) et Pennsylvanie (reporting eau/énergie) durcissent le ton, un mois après le moratoire new-yorkais.",
-    "Vacance mondiale à 6,7% (CBRE) malgré +25% d'offre en un an — la demande IA continue de devancer la construction."
+    "Le « powered land » continue de structurer les plus gros deals US : Brookfield/NextEra transforment l'ancien site d'enrichissement d'uranium du DOE à Paducah (Kentucky) en campus IA de 100 Md$ avec jusqu'à 4,6 GW de génération dédiée.",
+    "La France confirme son statut de hub prioritaire land+power : SoftBank (75 Md€/5 GW visés, Hauts-de-France) et Data4 (5 Md€/700 MW sur la friche Usinor à Escaudain) illustrent la bascule vers les friches industrielles réénergisées.",
+    "Le régulatoire se durcit et se fragmente aux USA : moratoire exécutif d'un an signé par la gouverneure Hochul à New York, et bataille juridique Oracle vs. régulateur du Wisconsin sur les garanties financières exigées des data centers.",
+    "L'Europe structure activement son offre de powered land : PoweringAI (friches industrielles/portuaires, pipeline de 350 MW) et la JV Iberdrola-Echelon en Espagne (700 MW déjà sécurisés, cible 5 GW) ouvrent de nouvelles pistes de sourcing.",
+    "La demande continue de dépasser l'offre : Amazon relève son capex IA 2026 à 220 Md$ tout en anticipant une capacité contrainte jusqu'en 2027-2028 ; les mises en chantier US atteignent 22,3 Md$ en juin, 2e meilleur mois jamais enregistré."
   ],
   "items": [
+    {
+      "category": "market",
+      "title": "Construction data center US : 22,3 Md$ engagés en juin 2026, 2e meilleur mois jamais enregistré",
+      "region": "Amérique du Nord",
+      "date": "2026-08-01",
+      "summary": "Les mises en chantier de data centers ont totalisé 22,3 Md$ en juin 2026 (2e plus haut niveau mensuel après les 25,5 Md$ de janvier) ; le cumul 2026 atteint 81,5 Md$, déjà supérieur au total 2025 (72,5 Md$). Coûts de construction en hausse de 38 à 67% sur un an.",
+      "source": "ConstructConnect",
+      "url": "https://news.constructconnect.com/august-2026-data-center-report-construction-starts-total-22.3-billion-second-highest-on-record"
+    },
+    {
+      "category": "market",
+      "title": "Amazon relève son capex IA 2026 à 220 Md$, capacité toujours contrainte jusqu'en 2027-2028",
+      "region": "Amérique du Nord",
+      "date": "2026-07-31",
+      "summary": "AWS porte son enveloppe capex 2026 à ~220 Md$ (contre ~200 Md$), tirée par la hausse du coût des puces mémoire. Malgré 3,9 GW de capacité ajoutée en 2025 et l'objectif de doubler sa capacité totale d'ici fin 2027, Amazon anticipe une demande IA toujours supérieure à l'offre en 2026 et 2027.",
+      "source": "Fortune / Tech Times",
+      "url": "https://fortune.com/2026/07/30/andy-jassy-amazon-capex-demand-aws-pga-tour/",
+      "inv": 220000
+    },
+    {
+      "category": "construction",
+      "title": "Brookfield et NextEra lancent un campus IA de 100 Md$ sur l'ancien site nucléaire du DOE à Paducah (Kentucky)",
+      "region": "Amérique du Nord",
+      "date": "2026-07-29",
+      "summary": "Brookfield (campus data center) et NextEra Energy (génération) s'associent pour un projet privé de 100 Md$ sur le site historique d'enrichissement d'uranium du DOE à Paducah (Kentucky), avec jusqu'à 4,6 GW de génération dédiée (gaz + stockage batterie). Mise en service initiale 2028, plein déploiement 2032.",
+      "source": "Data Center Knowledge",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/brookfield-nextera-launch-100b-ai-campus-at-doe-s-paducah-site",
+      "mw": 4600,
+      "inv": 100000,
+      "coords": [37.083, -88.6],
+      "poweredLand": true,
+      "owners": "Brookfield (campus) · NextEra Energy (génération)",
+      "investors": "n.c."
+    },
     {
       "category": "construction",
       "title": "Meta et BlackRock montent une JV de 14 Md$ pour un campus de 1 GW à El Paso (Texas)",
@@ -46,19 +80,7 @@
       "url": "https://www.techtimes.com/articles/321630/20260726/naver-nvidia-triple-koreas-ai-factory-200-megawatts-10-billion-deal-brookfield.htm",
       "mw": 200,
       "inv": 10000,
-      "coords": [
-        36.5,
-        127.8
-      ]
-    },
-    {
-      "category": "power",
-      "title": "USA, Japon et Corée du Sud signent un accord pour accélérer le déploiement de SMR en Indo-Pacifique",
-      "region": "Asie-Pacifique",
-      "date": "2026-07-24",
-      "summary": "Le Département d'État américain engage plus de 10 M$ dans le programme FIRST pour accompagner le développement de petits réacteurs modulaires, dans un contexte de demande énergétique croissante des data centers IA de la région.",
-      "source": "NaturalNews",
-      "url": "https://www.naturalnews.com/2026-07-24-japan-south-korea-nuclear-reactors.html"
+      "coords": [36.5, 127.8]
     },
     {
       "category": "power",
@@ -69,10 +91,7 @@
       "source": "PTC",
       "url": "https://www.ptc.org/2026/07/liberty-energy-and-powerbridge-form-strategic-joint-venture-to-support-powered-data-center-campus-development/",
       "mw": 2000,
-      "coords": [
-        31.9,
-        -102.3
-      ],
+      "coords": [31.9, -102.3],
       "poweredLand": true,
       "owners": "Liberty Energy · PowerBridge (JV)",
       "investors": "n.c."
@@ -86,10 +105,7 @@
       "source": "Barchart",
       "url": "https://www.barchart.com/story/news/33756833/calpine-and-cyrusone-announce-thad-hill-energy-center-powered-land-to-support-hyperscale-data-center-development-in-texas",
       "poweredLand": true,
-      "coords": [
-        31.0,
-        -99.0
-      ],
+      "coords": [31.0, -99.0],
       "owners": "Calpine · CyrusOne",
       "investors": "KKR · Global Infrastructure Partners"
     },
@@ -121,10 +137,7 @@
       "source": "Kentucky Lantern",
       "url": "https://kentuckylantern.com/2026/07/22/developer-proposes-hyperscale-data-center-at-the-site-at-former-eastern-kentucky-steel-mill/",
       "mw": 2000,
-      "coords": [
-        38.4778,
-        -82.6382
-      ],
+      "coords": [38.4778, -82.6382],
       "poweredLand": true,
       "owners": "Rubix Data Centers (Submer Group)",
       "investors": "n.c."
@@ -139,10 +152,7 @@
       "url": "https://www.bloomberg.com/news/articles/2026-07-22/openai-plans-to-spend-over-30-billion-on-georgia-data-center",
       "mw": 3200,
       "inv": 30000,
-      "coords": [
-        32.37,
-        -81.28
-      ],
+      "coords": [32.37, -81.28],
       "poweredLand": true,
       "owners": "OpenAI",
       "investors": "n.c."
@@ -156,19 +166,27 @@
       "source": "GlobeNewswire",
       "url": "https://www.globenewswire.com/news-release/2026/07/21/3330594/0/en/pure-dc-secures-additional-1-3-billion-to-accelerate-growth-of-one-of-europe-s-largest-ai-campuses.html",
       "inv": 1400,
-      "coords": [
-        53.35,
-        -6.26
-      ]
+      "coords": [53.35, -6.26]
     },
     {
-      "category": "power",
-      "title": "Samsung Heavy Industries et Sargent & Lundy signent un MoU pour une plateforme SMR flottante universelle",
-      "region": "Asie-Pacifique",
-      "date": "2026-07-21",
-      "summary": "Accord pour développer conjointement une plateforme de centrale nucléaire modulaire flottante compatible avec tout type de SMR, destinée notamment à l'alimentation de data centers.",
-      "source": "Tech Times",
-      "url": "https://www.techtimes.com/articles/321357/20260723/samsung-heavy-sargent-lundy-launch-floating-nuclear-power-plant-any-smr.htm"
+      "category": "legislation",
+      "title": "New York : Hochul signe un moratoire exécutif d'un an sur les permis de data centers hyperscale",
+      "region": "Amérique du Nord",
+      "date": "2026-07-14",
+      "summary": "La gouverneure Kathy Hochul instaure par décret le premier moratoire étatique américain sur les nouveaux permis environnementaux de data centers hyperscale (20 MW+), pour une durée pouvant aller jusqu'à un an, le temps d'établir un nouveau cadre réglementaire (consommateurs, réseau, communautés). Une loi distincte votée en juin par la législature (Responsible Data Center Development Act) reste en attente de signature.",
+      "source": "Governor Kathy Hochul / Axios",
+      "url": "https://www.governor.ny.gov/news/first-statewide-moratorium-new-hyperscale-data-centers-launched-governor-kathy-hochul"
+    },
+    {
+      "category": "legislation",
+      "title": "Wisconsin : Oracle attaque en justice les nouvelles règles de garanties financières pour data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-07-10",
+      "summary": "Après le refus du régulateur (PSC) d'assouplir sa règle d'avril imposant des garanties financières (cash ou lignes de crédit) aux data centers notés sous A-, Oracle saisit la justice : la règle pourrait lui coûter plus de 100 M$/an sur son campus de Port Washington (15 Md$, avec We Energies) malgré sa notation investment grade (BBB).",
+      "source": "Wisconsin Watch",
+      "url": "https://wisconsinwatch.org/2026/07/wisconsin-regulators-refuse-to-loosen-data-center-credit-rules-setting-up-oracle-court-fight/",
+      "inv": 15000,
+      "coords": [43.3878, -87.8748]
     },
     {
       "category": "market",
@@ -178,19 +196,6 @@
       "summary": "L'offre mondiale sur les 16 plus grands marchés atteint 16 GW au T1 2026 (+25% sur un an), mais la vacance recule de 8,3% à 6,7%, signe d'une demande IA qui continue de dépasser l'offre malgré la vague de constructions.",
       "source": "CBRE",
       "url": "https://www.cbre.com/insights/reports/global-data-center-trends-2026"
-    },
-    {
-      "category": "construction",
-      "title": "EdgeConneX et Kagoya lancent un projet AI-ready à Osaka",
-      "region": "Asie-Pacifique",
-      "date": "2026-07",
-      "summary": "Nouveau data center de 1,4 million de pieds carrés à Osaka, visé opérationnel en 2028 ; s'ajoute au campus OSK2 (100 MW) d'AirTrunk dans la même ville.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "coords": [
-        34.69,
-        135.5
-      ]
     },
     {
       "category": "power",
@@ -203,15 +208,6 @@
     },
     {
       "category": "power",
-      "title": "Google franchit 1 GW de « demand response » sur ses data centers",
-      "region": "Monde",
-      "date": "2026-07",
-      "summary": "Google annonce avoir atteint 1 GW de capacité de demand response (flexibilité/effacement) sur son parc de data centers — un moyen de soulager le réseau aux heures de pointe et d'accélérer les nouveaux raccordements.",
-      "source": "Google",
-      "url": "https://blog.google/innovation-and-ai/infrastructure-and-cloud/global-network/demand-response-data-center-milestone/"
-    },
-    {
-      "category": "power",
       "title": "Microsoft boucle un data center de 2 GW avec centrale gaz co-localisée au Texas Ouest",
       "region": "Amérique du Nord",
       "date": "2026-07",
@@ -220,22 +216,9 @@
       "url": "https://www.orrick.com/en/News/2026/07/Microsoft-Expands-Global-Data-Center-Capacity-with-2-GW-Data-Center-and-Co-Located-Power-Facility",
       "poweredLand": true,
       "mw": 2000,
-      "coords": [
-        31.8,
-        -102.4
-      ],
+      "coords": [31.8, -102.4],
       "owners": "Microsoft",
       "investors": "Microsoft (autofinancé)"
-    },
-    {
-      "category": "power",
-      "title": "GridMarket et Deployable Energy scellent un pipeline nucléaire de 22,5 Md$ pour data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-07",
-      "summary": "Partenariat autour d'un pipeline nucléaire de 22,5 Md$ : plus de 3 GW de déploiements nucléaires cumulés d'ici 2035, pour une valeur de contrats sur 40 ans estimée à ~145 Md$, destinés à alimenter des data centers.",
-      "source": "FinancialContent",
-      "url": "https://www.financialcontent.com/article/gnwcq-2026-7-7-gridmarket-and-deployable-energy-partner-on-225b-nuclear-pipeline-to-power-data-center-customers-through-2035",
-      "inv": 22500
     },
     {
       "category": "construction",
@@ -247,41 +230,9 @@
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
       "poweredLand": true,
       "mw": 10000,
-      "coords": [
-        41.31,
-        -104.68
-      ],
+      "coords": [41.31, -104.68],
       "owners": "Crusoe (site) · Tallgrass Energy (énergie)",
       "investors": "Founders Fund · Fidelity · NVIDIA"
-    },
-    {
-      "category": "construction",
-      "title": "AirTrunk (Blackstone) investit 21 Md$ pour 3 GW au Maharashtra (Inde)",
-      "region": "Asie-Pacifique",
-      "date": "2026-07",
-      "summary": "AirTrunk, soutenu par Blackstone, prévoit 21 Md$ dans l'État indien du Maharashtra pour bâtir un data center de 3 GW de capacité.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "mw": 3000,
-      "inv": 21000,
-      "coords": [
-        19.75,
-        75.71
-      ]
-    },
-    {
-      "category": "construction",
-      "title": "Meta loue son 1er data center IA en Inde (Reliance) + ~1 GW de renouvelable",
-      "region": "Asie-Pacifique",
-      "date": "2026-07",
-      "summary": "Meta a signé avec Reliance Industries pour louer son premier data center IA en Inde, et s'associe à CleanMax et Fourth Partner Energy pour soutenir près de 1 GW d'énergie renouvelable.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "mw": 1000,
-      "coords": [
-        20.59,
-        78.96
-      ]
     },
     {
       "category": "land",
@@ -292,10 +243,7 @@
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
       "mw": 500,
-      "coords": [
-        62.18,
-        27.83
-      ]
+      "coords": [62.18, 27.83]
     },
     {
       "category": "construction",
@@ -307,33 +255,7 @@
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
       "mw": 250,
       "inv": 2000,
-      "coords": [
-        45.46,
-        9.19
-      ]
-    },
-    {
-      "category": "construction",
-      "title": "STT étend son campus de Jakarta de 360 MW (vers 2,7 GW d'ici 2030)",
-      "region": "Asie-Pacifique",
-      "date": "2026-07",
-      "summary": "STT Global Data Centers ajoute 360 MW de capacité AI-ready à son campus de Jakarta, qui vise une capacité combinée de 2,7 GW d'ici 2030.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "mw": 360,
-      "coords": [
-        -6.21,
-        106.85
-      ]
-    },
-    {
-      "category": "power",
-      "title": "13 projets totalisent plus de 9,8 GW de nucléaire dédié à l'IA",
-      "region": "Monde",
-      "date": "2026-07",
-      "summary": "Le décompte des accords nucléaires pour data centers (Google, Amazon, Meta, Microsoft, etc.) dépasse désormais 9,8 GW de capacité engagée sur 13 projets annoncés.",
-      "source": "SMR Intel",
-      "url": "https://smrintel.com/nuclear-data-center-deals/"
+      "coords": [45.46, 9.19]
     },
     {
       "category": "legislation",
@@ -372,10 +294,7 @@
       "source": "Tom's Hardware",
       "url": "https://www.tomshardware.com/tech-industry/kevin-o-learys-9-gw-utah-data-center-campus-approved",
       "mw": 9000,
-      "coords": [
-        39.32,
-        -111.7
-      ]
+      "coords": [39.32, -111.7]
     },
     {
       "category": "legislation",
@@ -396,29 +315,9 @@
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
       "poweredLand": true,
       "mw": 60,
-      "coords": [
-        37.32,
-        126.83
-      ],
+      "coords": [37.32, 126.83],
       "owners": "Digital Edge",
       "investors": "Stonepeak"
-    },
-    {
-      "category": "power",
-      "title": "Iren signe le raccordement d'un campus de 800 MW en Australie-Méridionale",
-      "region": "Asie-Pacifique",
-      "date": "2026-07",
-      "summary": "Iren a signé un accord de raccordement au réseau de transport pour un campus data center de 800 MW prévu à Bundey (Australie-Méridionale), avec mise sous tension visée en 2028.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "poweredLand": true,
-      "mw": 800,
-      "coords": [
-        -33.5,
-        139.4
-      ],
-      "owners": "IREN",
-      "investors": "coté NASDAQ (IREN)"
     },
     {
       "category": "power",
@@ -439,19 +338,7 @@
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
       "inv": 3300,
-      "coords": [
-        42.72,
-        -87.88
-      ]
-    },
-    {
-      "category": "land",
-      "title": "Samsung développe des data centers flottants pour contourner la pénurie de foncier",
-      "region": "Asie-Pacifique",
-      "date": "2026-07",
-      "summary": "Samsung annonce vouloir développer des data centers flottants, une réponse directe à la rareté du foncier disponible pour de nouveaux sites.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
+      "coords": [42.72, -87.88]
     },
     {
       "category": "market",
@@ -471,10 +358,7 @@
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
       "inv": 25000,
-      "coords": [
-        39.14,
-        -77.2
-      ]
+      "coords": [39.14, -77.2]
     },
     {
       "category": "construction",
@@ -485,10 +369,7 @@
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
       "inv": 5300,
-      "coords": [
-        51.66,
-        -0.3
-      ]
+      "coords": [51.66, -0.3]
     },
     {
       "category": "power",
@@ -501,10 +382,7 @@
       "poweredLand": true,
       "mw": 2670,
       "inv": 7000,
-      "coords": [
-        31.8,
-        -100.0
-      ],
+      "coords": [31.8, -100.0],
       "owners": "Chevron (énergie) · Microsoft (DC)",
       "investors": "n.c."
     },
@@ -517,10 +395,7 @@
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
       "poweredLand": true,
-      "coords": [
-        31.5,
-        34.9
-      ],
+      "coords": [31.5, 34.9],
       "owners": "Stark Power (rachat de Sagebrush)",
       "investors": "n.c."
     },
@@ -533,19 +408,65 @@
       "source": "Data Centre Magazine",
       "url": "https://datacentremagazine.com/news/why-is-polarise-expanding-its-european-ai-data-centres",
       "mw": 30,
-      "coords": [
-        49.44,
-        11.85
-      ]
+      "coords": [49.44, 11.85]
     },
     {
-      "category": "market",
-      "title": "Vacance à un plancher record : 1% aux USA, 0,3% en Northern Virginia",
-      "region": "Amérique du Nord",
+      "category": "land",
+      "title": "SoftBank engage jusqu'à 75 Md€ pour 5 GW de data centers IA dans les Hauts-de-France",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Annoncé à Choose France par Masayoshi Son, le plan SoftBank prévoit 45 Md€ fermes pour une 1ère phase de 3,1 GW (sites de Dunkerque/Loon-Plage, Bosquel et Bouchain), extensible à 75 Md€ / 5 GW selon l'exécution — l'un des plus gros engagements land+power jamais annoncés en France.",
+      "source": "SoftBank Group / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
+      "mw": 3100,
+      "inv": 52000,
+      "coords": [50.98, 2.13],
+      "poweredLand": true,
+      "owners": "SoftBank Group",
+      "investors": "SoftBank (autofinancé)"
+    },
+    {
+      "category": "land",
+      "title": "Data4 confirme un campus de 5 Md€ / 700 MW sur la friche Usinor à Escaudain (Nord)",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Data4 transforme 33 ha de friche sidérurgique Usinor (en jachère depuis 45 ans) à Escaudain en son plus grand campus IA : 700 MW, 4 data centers, ~2 400 emplois visés, mise en service à partir de 2030.",
+      "source": "DataCenterDynamics / Data4",
+      "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
+      "mw": 700,
+      "inv": 5800,
+      "coords": [50.33, 3.27],
+      "poweredLand": true,
+      "owners": "Data4",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "PoweringAI (spin-off Xynteo) lance un pipeline de 350 MW pour reconvertir des friches industrielles européennes en data centers",
+      "region": "Europe",
       "date": "2026-Q1",
-      "summary": "La vacance reste à 1% pour la 2e année consécutive malgré des niveaux de construction inédits ; Northern Virginia tombe à un record de 0,3%. 92% des capacités en construction déjà pré-louées.",
-      "source": "JLL",
-      "url": "https://www.jll.com/en-us/newsroom/data-center-availability-crisis-deepens-as-vacancy-hits-historic-low"
+      "summary": "Soutenue par Leon Capital, PoweringAI cible la transformation de sites industriels et portuaires européens déjà énergisés en pôles « energy park + data centre », avec un premier pipeline de 350 MW — un modèle « powered land » direct pour le sourcing foncier en Europe.",
+      "source": "Xynteo / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/leon-capital-backed-firm-launches-new-european-data-center-developer/",
+      "mw": 350,
+      "poweredLand": true,
+      "owners": "PoweringAI (Xynteo / Leon Capital)",
+      "investors": "Leon Capital"
+    },
+    {
+      "category": "power",
+      "title": "Iberdrola et Echelon lancent une JV de 2 Md€ pour des data centers « powered » en Espagne (jusqu'à 5 GW)",
+      "region": "Europe",
+      "date": "2026",
+      "summary": "Echelon Iberdrola Digital Infra (Echelon 80% / Iberdrola-CPD4Green 20%) sécurise déjà plus de 700 MW de raccordements pour un portefeuille visé jusqu'à 5 GW ; premier projet Madrid Sur : 144 MW IT sur 230 MW déjà raccordés.",
+      "source": "Iberdrola",
+      "url": "https://www.iberdrola.com/press-room/news/detail/iberdrola-echelon-create-joint-venture-to-develop-data-centres-spain",
+      "mw": 5000,
+      "inv": 2300,
+      "coords": [40.35, -3.68],
+      "poweredLand": true,
+      "owners": "Echelon (80%) · Iberdrola/CPD4Green (20%)",
+      "investors": "Iberdrola"
     }
   ]
 }
