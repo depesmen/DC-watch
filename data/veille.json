@@ -9,6 +9,20 @@
   ],
   "items": [
     {
+      "category": "land",
+      "title": "Le Kentucky, aimant du « powered land » : les friches industrielles se transforment en campus IA",
+      "region": "Amérique du Nord",
+      "date": "2026-08-03",
+      "summary": "Au-delà de Paducah, TeraWulf multiplie les acquisitions de sites industriels désaffectés dans le Kentucky pour leur accès immédiat au réseau : ex-aluminerie Century Aluminum à Hancock County (482 MW) et un parc industriel à cheval sur Boyd/Greenup County (plus de 1 GW, 1re tranche de 500 MW dès 2028). Une trentaine de projets de data centers seraient à l'étude dans l'État.",
+      "source": "Kentucky Lantern",
+      "url": "https://kentuckylantern.com/2026/08/03/data-centers-need-massive-power-theyre-eyeing-kentuckys-idle-industrial-sites-to-get-it/",
+      "mw": 1000,
+      "coords": [38.55, -82.75],
+      "poweredLand": true,
+      "owners": "TeraWulf (Justified DataPower)",
+      "investors": "n.c."
+    },
+    {
       "category": "market",
       "title": "Construction data center US : 22,3 Md$ engagés en juin 2026, 2e meilleur mois jamais enregistré",
       "region": "Amérique du Nord",
@@ -69,6 +83,15 @@
       "poweredLand": true,
       "owners": "Core Scientific (sites) · AMD (locataire)",
       "investors": "n.c."
+    },
+    {
+      "category": "competition",
+      "title": "S&P Global rachète datacenterHawk, plateforme de renseignement marché sur le foncier et l'énergie data center",
+      "region": "Amérique du Nord",
+      "date": "2026-07-28",
+      "summary": "S&P Global signe un accord définitif pour racheter datacenterHawk, spécialiste du renseignement au niveau des actifs (offre/demande, pricing, pipelines, sélection de site) pour les data centers, la fibre et les infrastructures associées, combiné avec 451 Research.",
+      "source": "PR Newswire",
+      "url": "https://www.prnewswire.com/news-releases/sp-global-to-acquire-datacenterhawk-connecting-global-data-center-power-and-infrastructure-markets-302836389.html"
     },
     {
       "category": "construction",
@@ -439,6 +462,15 @@
       "poweredLand": true,
       "owners": "Data4",
       "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "France : 28,6 GW de demandes cumulées de raccordement data center auprès de RTE, délais de 2 à 7 ans",
+      "region": "Europe",
+      "date": "2026-Q2",
+      "summary": "RTE recense près de 18 GW réservés sur environ 80 projets (contre ~5 GW fin 2024) et des demandes cumulées atteignant 28,6 GW, très supérieures à ce que le réseau peut absorber à court terme — huit data centers sont déjà raccordés directement au réseau RTE pour 800 MW combinés.",
+      "source": "RTE / France Épargne",
+      "url": "https://www.france-epargne.fr/news/data-centers-en-france-la-penurie-de-reseau-electrique-fait-flamber-une-nouvelle-classe-dactifs"
     },
     {
       "category": "land",
