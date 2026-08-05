@@ -1,13 +1,22 @@
 {
-  "lastUpdated": "2026-08-04",
+  "lastUpdated": "2026-08-05",
   "keyTakeaways": [
-    "Le foncier déjà énergisé reste sous tension politique : dans l'Oregon, la gouverneure Kotek fait annuler la vente de 32 acres du Mill Creek Corporate Center destinés au data center Verrus (5,1 Md$, financé par Google) après la mobilisation des riverains — un signal que le « powered land » ne suffit plus sans acceptabilité locale.",
-    "Le réseau électrique américain touche ses limites structurelles : PJM dépose à la FERC un plan d'enchère de secours pour combler un déficit de capacité de 6,8 GW, tandis que Dominion Energy (Virginie) ajoute plus de 5 GW de charge data center contractée en un seul semestre (53 GW au total en portefeuille).",
-    "La production co-localisée s'installe comme norme réglementaire : le Texas valide un premier cadre de co-implantation data center + éolien (260 MW) avec obligation d'écrêtement, pendant que SpaceX/xAI engage 2,8 Md$ pour remplacer ses turbines gaz non autorisées de Memphis par une centrale permanente de 1,2 GW dans le Mississippi.",
-    "Le marché des capitaux data center s'active : CyrusOne (KKR/GIP, ~15 Md$) prépare une IPO américaine et l'espagnol Substrate AI lance une foncière cotée dédiée aux actifs IA — signe que le financement du foncier+énergie devient une classe d'actifs à part entière.",
-    "La France et l'Europe restent des cibles prioritaires de sourcing land+power (SoftBank/Hauts-de-France, Data4/Escaudain, RTE 28,6 GW de demandes), mais aucune actualité fraîche et vérifiable sur Polarise, Aurora Infra ou La Française de l'Énergie n'a été trouvée sur les dernières 72h — à resurveiller."
+    "Le marché texan du « powered land », jusqu'ici le plus liquide au monde, se grippe : le gouverneur Abbott suspend l'approbation de tout nouveau data center le temps d'un audit ERCOT/PUCT de la file d'interconnexion (474 GW, ~1 800 projets, 90% data centers) — un risque réglementaire à intégrer dans tout sourcing au Texas à court terme.",
+    "Les friches fédérales et industrielles s'imposent comme le foncier premium de l'IA à très grande échelle : après Paducah (Kentucky, 100 Md$), OpenAI négocierait la location de 10 GW sur l'ancien site DOE d'enrichissement d'uranium de Portsmouth (Piketon, Ohio) pour 500 Md$, avec une garantie Nvidia allant jusqu'à 250 Md$.",
+    "L'escalade des méga-campus se poursuit : Meta porte son supercluster Hyperion (Louisiane) à 5 GW et plus de 50 Md$ (contre 27 Md$ en 2025), confirmant la course au foncier+énergie co-localisés à l'échelle du gigawatt.",
+    "L'Espagne confirme son attractivité pour le « powered land » IA : EdgeMode et la ville de Mora (Castille-La Manche) avancent sur un campus de 300 MW / 3 Md€ alimenté par gaz + piles à hydrogène Bloom Energy, en discussion avec la région pour un statut de projet prioritaire — à mettre en regard du pipeline Iberdrola/Echelon (5 GW visés en Espagne).",
+    "Toujours aucune actualité fraîche et vérifiable sur Polarise, Aurora Infra ou La Française de l'Énergie malgré une recherche ciblée (LinkedIn compris) ; Aurora Infra confirme opérer des data centers IA en Europe/Nordiques/GCC/APAC sans annonce foncière récente identifiée — à resurveiller."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Texas : le gouverneur Abbott suspend l'approbation de nouveaux data centers le temps d'un audit ERCOT/PUCT",
+      "region": "Amérique du Nord",
+      "date": "2026-08-03",
+      "summary": "Face à une file d'interconnexion ERCOT de 474 GW (dont ~90% de data centers, plus de 1 800 projets), le gouverneur Greg Abbott ordonne à la PUCT et à ERCOT d'auditer puissance demandée, usage de l'eau, aides publiques et propriété de chaque projet avant toute nouvelle approbation ; ERCOT suspend son nouveau processus d'étude par lots.",
+      "source": "Texas Tribune / Office of the Governor",
+      "url": "https://www.texastribune.org/2026/08/03/texas-data-center-project-audit-greg-abbott/"
+    },
     {
       "category": "land",
       "title": "Le Kentucky, aimant du « powered land » : les friches industrielles se transforment en campus IA",
@@ -179,6 +188,24 @@
       "url": "https://www.prnewswire.com/news-releases/sp-global-to-acquire-datacenterhawk-connecting-global-data-center-power-and-infrastructure-markets-302836389.html"
     },
     {
+      "category": "land",
+      "title": "OpenAI en négociations pour louer 10 GW sur l'ancien site DOE de Portsmouth (Piketon, Ohio) — 500 Md$, garantis en partie par Nvidia",
+      "region": "Amérique du Nord",
+      "date": "2026-07-27",
+      "summary": "OpenAI serait en discussions avancées pour louer l'intégralité d'un campus IA développé par SB Energy (SoftBank) sur l'ancien site fédéral d'enrichissement d'uranium de Portsmouth, dans le comté de Pike (Ohio) — jusqu'à 10 GW à terme, une 1ère tranche de 800 MW dès 2028, Nvidia garantissant jusqu'à 250 Md$ du financement et du bail.",
+      "source": "Bisnow / Forbes",
+      "url": "https://www.bisnow.com/national/news/data-center-development/openai-500b-dollar-data-center-campus-federal-land-nvidia-134983",
+      "mw": 10000,
+      "inv": 500000,
+      "coords": [
+        39.06,
+        -83.0
+      ],
+      "poweredLand": true,
+      "owners": "SB Energy (SoftBank) · OpenAI (locataire pressenti)",
+      "investors": "Nvidia (garantie de financement, jusqu'à 250 Md$)"
+    },
+    {
       "category": "construction",
       "title": "NAVER, NVIDIA et Brookfield triplent l'AI factory souveraine coréenne à 200 MW (10 Md$)",
       "region": "Asie-Pacifique",
@@ -227,15 +254,6 @@
       "investors": "KKR · Global Infrastructure Partners"
     },
     {
-      "category": "market",
-      "title": "BofA : la croissance des data centers IA force les utilities US à revoir leurs plans de production",
-      "region": "Amérique du Nord",
-      "date": "2026-07-23",
-      "summary": "Selon Bank of America, l'essor des data centers IA contraint les compagnies d'électricité américaines à repenser leurs plans de production et d'investissement réseau pour absorber la nouvelle demande.",
-      "source": "Utility Dive",
-      "url": "https://www.utilitydive.com/news/ai-data-center-growth-utilities-generation-plans/825541/"
-    },
-    {
       "category": "power",
       "title": "Texas : le régulateur approuve la co-implantation d'un data center IA de 260 MW avec le parc éolien Goodnight (Armstrong County)",
       "region": "Amérique du Nord",
@@ -251,16 +269,6 @@
       "poweredLand": true,
       "owners": "n.c.",
       "investors": "n.c."
-    },
-    {
-      "category": "competition",
-      "title": "TECfusions entre en bourse via un SPAC à 4 Md$ de valorisation",
-      "region": "Amérique du Nord",
-      "date": "2026-07-22",
-      "summary": "Fusion avec Apex Treasury Corp. (Nasdaq: TECF attendu), levée PIPE de 35 M$. TECfusions est spécialisé dans la reconversion de sites industriels existants en data centers (Clarksville VA, Tucson AZ, New Kensington PA), clôture visée au T4 2026.",
-      "source": "Bisnow",
-      "url": "https://www.bisnow.com/national/news/data-center-capital-markets/data-center-operator-to-go-public-in-merger-valuing-it-at-4b-135521",
-      "inv": 4000
     },
     {
       "category": "land",
@@ -298,18 +306,22 @@
       "investors": "n.c."
     },
     {
-      "category": "competition",
-      "title": "Pure DC lève 1,3 Md€ supplémentaires pour son campus IA européen",
+      "category": "land",
+      "title": "Espagne : le campus IA « DC Malpica » d'EdgeMode (300 MW, 3 Md€) avance à Mora (Castille-La Manche)",
       "region": "Europe",
-      "date": "2026-07-21",
-      "summary": "Financement senior additionnel pour accélérer la croissance de ses campus de Dublin et Amsterdam, portant le financement total à plus de 2,7 Md$. Le site de Dublin (Ballycoolin) vise 150 MW de capacité IT.",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/07/21/3330594/0/en/pure-dc-secures-additional-1-3-billion-to-accelerate-growth-of-one-of-europe-s-largest-ai-campuses.html",
-      "inv": 1400,
+      "date": "2026-07-20",
+      "summary": "EdgeMode, la mairie de Mora et les autres développeurs du projet DC Malpica AI (300 MW, deux halls de 150 000 m², gaz naturel + piles à hydrogène Bloom Energy) ont présenté leur investissement de 3 Md€ au gouvernement régional de Castille-La Manche et finalisent la demande de statut de « projet prioritaire ».",
+      "source": "Stocktitan / DataCenterDynamics",
+      "url": "https://www.stocktitan.net/news/EDGM/edge-mode-mora-town-council-and-other-developers-of-the-dc-malpica-0l7s578vv02x.html",
+      "mw": 300,
+      "inv": 3300,
       "coords": [
-        53.35,
-        -6.26
-      ]
+        39.68,
+        -3.77
+      ],
+      "poweredLand": true,
+      "owners": "EdgeMode (75%) · BlackBerry AIF (25%)",
+      "investors": "n.c."
     },
     {
       "category": "legislation",
@@ -319,6 +331,23 @@
       "summary": "La gouverneure Kathy Hochul instaure par décret le premier moratoire étatique américain sur les nouveaux permis environnementaux de data centers hyperscale (20 MW+), pour une durée pouvant aller jusqu'à un an, le temps d'établir un nouveau cadre réglementaire (consommateurs, réseau, communautés). Une loi distincte votée en juin par la législature (Responsible Data Center Development Act) reste en attente de signature.",
       "source": "Governor Kathy Hochul / Axios",
       "url": "https://www.governor.ny.gov/news/first-statewide-moratorium-new-hyperscale-data-centers-launched-governor-kathy-hochul"
+    },
+    {
+      "category": "construction",
+      "title": "Meta porte son campus Hyperion (Louisiane) à 5 GW et plus de 50 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-07-13",
+      "summary": "Meta relève l'ambition de son supercluster IA Hyperion (Richland Parish, Louisiane) à 5 GW pour plus de 50 Md$ d'investissement (contre 27 Md$ annoncés en 2025 avec Blue Owl Capital) ; 1ère tranche de ~2 GW visée en 2030, plus d'1 Md$ dédié aux infrastructures locales (routes, eau).",
+      "source": "CNBC / Tom's Hardware",
+      "url": "https://www.cnbc.com/2026/07/13/meta-louisiana-data-center-investment-reaches-50-billion-amid-ai-push.html",
+      "mw": 5000,
+      "inv": 50000,
+      "coords": [
+        32.45,
+        -91.75
+      ],
+      "owners": "Meta",
+      "investors": "Blue Owl Capital"
     },
     {
       "category": "legislation",
@@ -533,19 +562,6 @@
       "summary": "RTE recense près de 18 GW réservés sur environ 80 projets (contre ~5 GW fin 2024) et des demandes cumulées atteignant 28,6 GW, très supérieures à ce que le réseau peut absorber à court terme — huit data centers sont déjà raccordés directement au réseau RTE pour 800 MW combinés.",
       "source": "RTE / France Épargne",
       "url": "https://www.france-epargne.fr/news/data-centers-en-france-la-penurie-de-reseau-electrique-fait-flamber-une-nouvelle-classe-dactifs"
-    },
-    {
-      "category": "land",
-      "title": "PoweringAI (spin-off Xynteo) lance un pipeline de 350 MW pour reconvertir des friches industrielles européennes en data centers",
-      "region": "Europe",
-      "date": "2026-Q1",
-      "summary": "Soutenue par Leon Capital, PoweringAI cible la transformation de sites industriels et portuaires européens déjà énergisés en pôles « energy park + data centre », avec un premier pipeline de 350 MW — un modèle « powered land » direct pour le sourcing foncier en Europe.",
-      "source": "Xynteo / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/leon-capital-backed-firm-launches-new-european-data-center-developer/",
-      "mw": 350,
-      "poweredLand": true,
-      "owners": "PoweringAI (Xynteo / Leon Capital)",
-      "investors": "Leon Capital"
     },
     {
       "category": "power",
