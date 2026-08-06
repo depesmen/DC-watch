@@ -1,13 +1,32 @@
 {
-  "lastUpdated": "2026-08-05",
+  "lastUpdated": "2026-08-06",
   "keyTakeaways": [
-    "Le marché texan du « powered land », jusqu'ici le plus liquide au monde, se grippe : le gouverneur Abbott suspend l'approbation de tout nouveau data center le temps d'un audit ERCOT/PUCT de la file d'interconnexion (474 GW, ~1 800 projets, 90% data centers) — un risque réglementaire à intégrer dans tout sourcing au Texas à court terme.",
-    "Les friches fédérales et industrielles s'imposent comme le foncier premium de l'IA à très grande échelle : après Paducah (Kentucky, 100 Md$), OpenAI négocierait la location de 10 GW sur l'ancien site DOE d'enrichissement d'uranium de Portsmouth (Piketon, Ohio) pour 500 Md$, avec une garantie Nvidia allant jusqu'à 250 Md$.",
-    "L'escalade des méga-campus se poursuit : Meta porte son supercluster Hyperion (Louisiane) à 5 GW et plus de 50 Md$ (contre 27 Md$ en 2025), confirmant la course au foncier+énergie co-localisés à l'échelle du gigawatt.",
-    "L'Espagne confirme son attractivité pour le « powered land » IA : EdgeMode et la ville de Mora (Castille-La Manche) avancent sur un campus de 300 MW / 3 Md€ alimenté par gaz + piles à hydrogène Bloom Energy, en discussion avec la région pour un statut de projet prioritaire — à mettre en regard du pipeline Iberdrola/Echelon (5 GW visés en Espagne).",
-    "Toujours aucune actualité fraîche et vérifiable sur Polarise, Aurora Infra ou La Française de l'Énergie malgré une recherche ciblée (LinkedIn compris) ; Aurora Infra confirme opérer des data centers IA en Europe/Nordiques/GCC/APAC sans annonce foncière récente identifiée — à resurveiller."
+    "Le foncier public déjà énergisé continue de s'ouvrir en France : EDF lance un nouvel appel à manifestation d'intérêt sur son ancien site de Creys-Mépieu (Isère, 500 MW), pendant que la justice administrative (TA Grenoble, projet Sesterce à Alixan) rappelle que l'étude d'impact reste incontournable même sur du foncier déjà identifié — deux signaux à intégrer dans tout sourcing français.",
+    "Au Texas, le risque réglementaire s'aggrave : ERCOT suspend sine die ses notifications « Batch Zero » de grosses charges et renvoie la décision à la réunion PUCT du 20 août, sans date de reprise fixée pour l'audit — un facteur d'incertitude supplémentaire pour tout foncier texan en cours de raccordement.",
+    "Le « powered land » s'internationalise au-delà des USA : Mitsubishi Estate (9,3 Md$, 2,5 GW, foncier et raccordement déjà sécurisés sur 5 sites) au Japon et Pure DC (7,5 Md€, 550 MW, permis et 700+ MVA renouvelables déjà en poche) en Finlande illustrent la même logique de sécurisation amont, désormais centrale en Asie comme en Europe du Nord.",
+    "La consolidation du secteur s'accélère avec la clôture du rachat record de 40 Md$ d'Aligned Data Centers (AI Infrastructure Partnership/MGX/BlackRock GIP, 6,4 GW), confirmant l'appétit des méga-fonds pour les portefeuilles de foncier+capacité déjà constitués.",
+    "Toujours aucune actualité fraîche et vérifiable sur Polarise, Aurora Infra ou La Française de l'Énergie malgré une recherche ciblée (LinkedIn compris) ; Polarise reste actif sur LinkedIn autour de son expansion allemande (Amberg) sans nouvelle annonce foncière — à resurveiller."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Texas : ERCOT suspend les notifications « Batch Zero » de grosses charges, rendez-vous le 20 août à la PUCT",
+      "region": "Amérique du Nord",
+      "date": "2026-08-04",
+      "summary": "Dans la foulée de l'audit ordonné par le gouverneur Abbott, ERCOT suspend les notifications de classification « Batch Zero » des grosses charges prévues le 7 août et sollicitera une dérogation pour « cause valable » lors de la réunion publique de la PUCT du 20 août, sans date de reprise fixée pour l'étude — un facteur de risque supplémentaire pour tout foncier texan en cours de raccordement.",
+      "source": "KBTX / Texas Politics",
+      "url": "https://www.kbtx.com/2026/08/04/abbott-orders-audits-data-centers-seeking-texas-grid-connections/"
+    },
+    {
+      "category": "construction",
+      "title": "Samsung Heavy Industries et Mousterian lancent l'ingénierie de data centers flottants amarrés (50 MW/unité) pour les USA",
+      "region": "Amérique du Nord",
+      "date": "2026-08-04",
+      "summary": "Samsung Heavy Industries et le développeur texan Mousterian signent un contrat d'ingénierie pour leurs premières unités de data centers flottants amarrés, refroidis sans eau potable, 50 MW de capacité IT par unité, premiers déploiements visés au Texas — une alternative au foncier terrestre pour sécuriser rapidement puissance et refroidissement.",
+      "source": "Smart Maritime Network / PR Newswire",
+      "url": "https://smartmaritimenetwork.com/2026/08/04/samsung-heavy-and-mousterian-in-floating-data-centre-deal/",
+      "mw": 50
+    },
     {
       "category": "legislation",
       "title": "Texas : le gouverneur Abbott suspend l'approbation de nouveaux data centers le temps d'un audit ERCOT/PUCT",
@@ -55,35 +74,6 @@
       "summary": "Les mises en chantier de data centers ont totalisé 22,3 Md$ en juin 2026 (2e plus haut niveau mensuel après les 25,5 Md$ de janvier) ; le cumul 2026 atteint 81,5 Md$, déjà supérieur au total 2025 (72,5 Md$). Coûts de construction en hausse de 38 à 67% sur un an.",
       "source": "ConstructConnect",
       "url": "https://news.constructconnect.com/august-2026-data-center-report-construction-starts-total-22.3-billion-second-highest-on-record"
-    },
-    {
-      "category": "market",
-      "title": "Amazon relève son capex IA 2026 à 220 Md$, capacité toujours contrainte jusqu'en 2027-2028",
-      "region": "Amérique du Nord",
-      "date": "2026-07-31",
-      "summary": "AWS porte son enveloppe capex 2026 à ~220 Md$ (contre ~200 Md$), tirée par la hausse du coût des puces mémoire. Malgré 3,9 GW de capacité ajoutée en 2025 et l'objectif de doubler sa capacité totale d'ici fin 2027, Amazon anticipe une demande IA toujours supérieure à l'offre en 2026 et 2027.",
-      "source": "Fortune / Tech Times",
-      "url": "https://fortune.com/2026/07/30/andy-jassy-amazon-capex-demand-aws-pga-tour/",
-      "inv": 220000
-    },
-    {
-      "category": "competition",
-      "title": "CyrusOne (KKR/GIP) prépare une introduction en bourse aux États-Unis",
-      "region": "Amérique du Nord",
-      "date": "2026-07-31",
-      "summary": "KKR et Global Infrastructure Partners (BlackRock) engagent des banques pour une IPO de CyrusOne, quatre ans après leur rachat du groupe pour ~15 Md$ ; la valorisation atteignait déjà 14,6 Md$ après une levée Series C de 2 Md$ plus tôt en 2026.",
-      "source": "The Information / DataCenterDynamics",
-      "url": "https://www.theinformation.com/articles/data-center-operator-cyrusone-lays-ipo-groundwork",
-      "inv": 14600
-    },
-    {
-      "category": "legislation",
-      "title": "PJM dépose à la FERC un plan d'enchère de secours pour combler un déficit de capacité de 6,8 GW",
-      "region": "Amérique du Nord",
-      "date": "2026-07-31",
-      "summary": "Face à la demande des data centers (jusqu'à +70 GW d'ici 2038), PJM propose une enchère de capacité exceptionnelle (30 sept.-21 oct.) plafonnée à 555 $/MW-jour, assortie de nouvelles règles d'écrêtement pour les grosses charges sans production propre.",
-      "source": "Utility Dive",
-      "url": "https://www.utilitydive.com/news/pjm-backstop-capacity-auction-ferc-data-centers/826792/"
     },
     {
       "category": "power",
@@ -179,15 +169,6 @@
       "investors": "n.c."
     },
     {
-      "category": "competition",
-      "title": "S&P Global rachète datacenterHawk, plateforme de renseignement marché sur le foncier et l'énergie data center",
-      "region": "Amérique du Nord",
-      "date": "2026-07-28",
-      "summary": "S&P Global signe un accord définitif pour racheter datacenterHawk, spécialiste du renseignement au niveau des actifs (offre/demande, pricing, pipelines, sélection de site) pour les data centers, la fibre et les infrastructures associées, combiné avec 451 Research.",
-      "source": "PR Newswire",
-      "url": "https://www.prnewswire.com/news-releases/sp-global-to-acquire-datacenterhawk-connecting-global-data-center-power-and-infrastructure-markets-302836389.html"
-    },
-    {
       "category": "land",
       "title": "OpenAI en négociations pour louer 10 GW sur l'ancien site DOE de Portsmouth (Piketon, Ohio) — 500 Md$, garantis en partie par Nvidia",
       "region": "Amérique du Nord",
@@ -204,21 +185,6 @@
       "poweredLand": true,
       "owners": "SB Energy (SoftBank) · OpenAI (locataire pressenti)",
       "investors": "Nvidia (garantie de financement, jusqu'à 250 Md$)"
-    },
-    {
-      "category": "construction",
-      "title": "NAVER, NVIDIA et Brookfield triplent l'AI factory souveraine coréenne à 200 MW (10 Md$)",
-      "region": "Asie-Pacifique",
-      "date": "2026-07-25",
-      "summary": "NAVER, NVIDIA et Brookfield annoncent un accord de 10 Md$ pour porter la capacité de l'AI factory souveraine coréenne de 55 à 200 MW d'ici 2028. La Corée du Sud vise 8,4 GW de capacité IA d'ici 2029 (~377 Md$ d'investissement privé : SK, GS, NAVER).",
-      "source": "Tech Times",
-      "url": "https://www.techtimes.com/articles/321630/20260726/naver-nvidia-triple-koreas-ai-factory-200-megawatts-10-billion-deal-brookfield.htm",
-      "mw": 200,
-      "inv": 10000,
-      "coords": [
-        36.5,
-        127.8
-      ]
     },
     {
       "category": "power",
@@ -306,6 +272,17 @@
       "investors": "n.c."
     },
     {
+      "category": "competition",
+      "title": "AIP, MGX et BlackRock (GIP) bouclent le rachat record de 40 Md$ d'Aligned Data Centers",
+      "region": "Amérique du Nord",
+      "date": "2026-07-21",
+      "summary": "Le consortium AI Infrastructure Partnership (Nvidia, Microsoft, xAI), MGX et BlackRock GIP finalise le rachat d'Aligned Data Centers pour une valeur d'entreprise d'environ 40 Md$ — la plus grosse opération jamais annoncée dans le secteur — donnant accès à 51 campus et plus de 6,4 GW de capacité opérationnelle et planifiée.",
+      "source": "w.media / D CEO Magazine",
+      "url": "https://aligneddc.com/press-release/aip-mgx-and-blackrocks-gip-close-acquisition-of-aligned-data-centers/",
+      "inv": 40000,
+      "mw": 6400
+    },
+    {
       "category": "land",
       "title": "Espagne : le campus IA « DC Malpica » d'EdgeMode (300 MW, 3 Md€) avance à Mora (Castille-La Manche)",
       "region": "Europe",
@@ -334,6 +311,24 @@
     },
     {
       "category": "construction",
+      "title": "Pure Data Centres Group lance l'un des plus grands campus IA d'Europe à Seinäjoki (Finlande), jusqu'à 550 MW / 7,5 Md€",
+      "region": "Europe",
+      "date": "2026-07-14",
+      "summary": "Pure DC démarre la phase 1 (110 MW, entièrement louée dont Microsoft) d'un campus IA de 370 acres à Seinäjoki, avec permis et raccordement électrique (700+ MVA renouvelables) déjà sécurisés ; extension visée jusqu'à 550 MW pour plus de 7,5 Md€ d'investissement total — le plus gros investissement entrant jamais réalisé en Finlande par une société britannique.",
+      "source": "GlobeNewswire / Computer Weekly",
+      "url": "https://www.globenewswire.com/news-release/2026/07/14/3326722/0/en/pure-dc-launches-one-of-europe-s-largest-ever-ai-infrastructure-projects-phase-1-110mw-of-an-over-7-5-billion-550mw-ai-campus-in-sein%C3%A4joki-begins-fully-leased-with-planning-power-a.html",
+      "mw": 550,
+      "inv": 8600,
+      "coords": [
+        62.79,
+        22.84
+      ],
+      "poweredLand": true,
+      "owners": "Pure Data Centres Group",
+      "investors": "n.c."
+    },
+    {
+      "category": "construction",
       "title": "Meta porte son campus Hyperion (Louisiane) à 5 GW et plus de 50 Md$",
       "region": "Amérique du Nord",
       "date": "2026-07-13",
@@ -350,6 +345,20 @@
       "investors": "Blue Owl Capital"
     },
     {
+      "category": "construction",
+      "title": "Mitsubishi Estate investit 9,3 Md$ pour 2,5 GW de data centers au Japon",
+      "region": "Asie-Pacifique",
+      "date": "2026-07-11",
+      "summary": "Mitsubishi Estate prévoit environ 1 500 Md¥ (9,3 Md$) pour construire une dizaine de data centers totalisant 2,5 GW au Japon ; foncier et raccordement électrique déjà sécurisés pour cinq premiers sites (1 GW) dans le Kanto et le Kansai, en partenariat avec des opérateurs et investisseurs tiers.",
+      "source": "Nikkei Asia",
+      "url": "https://asia.nikkei.com/business/construction/mitsubishi-estate-embarks-on-9bn-data-center-building-spree-in-japan",
+      "mw": 2500,
+      "inv": 9300,
+      "poweredLand": true,
+      "owners": "Mitsubishi Estate",
+      "investors": "n.c."
+    },
+    {
       "category": "legislation",
       "title": "Wisconsin : Oracle attaque en justice les nouvelles règles de garanties financières pour data centers",
       "region": "Amérique du Nord",
@@ -362,6 +371,36 @@
         43.3878,
         -87.8748
       ]
+    },
+    {
+      "category": "legislation",
+      "title": "France : la justice suspend le permis de construire du supercalculateur IA de Sesterce à Alixan (Drôme), faute d'étude d'impact",
+      "region": "France",
+      "date": "2026-07-10",
+      "summary": "Le tribunal administratif de Grenoble suspend en référé le permis de construire du data center IA porté par Sesterce Group sur le parc de Rovaltain, à la demande du collectif Assez Datacenter ; le projet devra faire l'objet d'une étude d'impact environnemental avant toute reprise des travaux — un précédent qui pèsera sur les futurs permis data center en France.",
+      "source": "Place Gre'net",
+      "url": "https://www.placegrenet.fr/2026/07/11/le-tribunal-administratif-de-grenoble-suspend-le-permis-de-construire-du-datacenter-de-rovaltain-dedie-a-lia/685598",
+      "coords": [
+        44.93,
+        4.96
+      ]
+    },
+    {
+      "category": "land",
+      "title": "EDF ouvre un appel à manifestation d'intérêt pour un data center de 500 MW sur son ancien site de Creys-Mépieu (Isère)",
+      "region": "France",
+      "date": "2026-07-03",
+      "summary": "EDF propose en bail à construction un foncier industriel déjà raccordable à Creys-Mépieu (Isère), avec fort potentiel de raccordement électrique et accompagnement personnalisé jusqu'à la mise en service, pour accueillir un data center hyperscale ; candidatures à adresser à ami-datacenters-creys@edf.fr.",
+      "source": "EDF",
+      "url": "https://www.edf.fr/en/the-edf-group/dedicated-sections/journalists/all-press-releases/edf-launches-calls-for-expressions-of-interest-for-new-data-centers-in-france",
+      "mw": 500,
+      "coords": [
+        45.75,
+        5.49
+      ],
+      "poweredLand": true,
+      "owners": "EDF",
+      "investors": "n.c."
     },
     {
       "category": "power",
@@ -421,21 +460,6 @@
       ]
     },
     {
-      "category": "construction",
-      "title": "Hscale investit 2 Md€ pour un 2e campus data center à Milan",
-      "region": "Europe",
-      "date": "2026-07",
-      "summary": "Hscale étend son empreinte en Italie avec un investissement de 2 Md€ : acquisition d'un second campus à Milan (capacité combinée 250 MW), le nouveau site MXP2 livrant 120 MW d'ici fin 2028.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "mw": 250,
-      "inv": 2000,
-      "coords": [
-        45.46,
-        9.19
-      ]
-    },
-    {
       "category": "legislation",
       "title": "La FERC ordonne aux 6 grands réseaux US de cadrer les charges à l'échelle du gigawatt",
       "region": "Amérique du Nord",
@@ -452,23 +476,6 @@
       "summary": "La Virginie applique depuis le 1er juillet 2026 une taxe de consommation de 0,011 $/kWh sur toute l'électricité consommée par les data centers — premier signal fiscal fort dans le plus grand marché mondial.",
       "source": "Data Center Knowledge",
       "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
-    },
-    {
-      "category": "land",
-      "title": "Digital Edge sécurise 60 MW + 90 MVA à Ansan (Corée du Sud)",
-      "region": "Asie-Pacifique",
-      "date": "2026-07",
-      "summary": "Digital Edge a acquis un terrain à Ansan pour développer 60 MW de capacité AI-ready, adossé à un accord de puissance de 90 MVA et une architecture double alimentation via deux postes source indépendants de 154 kV.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "poweredLand": true,
-      "mw": 60,
-      "coords": [
-        37.32,
-        126.83
-      ],
-      "owners": "Digital Edge",
-      "investors": "Stonepeak"
     },
     {
       "category": "power",
@@ -490,27 +497,11 @@
     },
     {
       "category": "competition",
-      "title": "Stark Power rachète Sagebrush (data centers + centrales gaz co-localisées)",
-      "region": "Moyen-Orient",
-      "date": "2026-07",
-      "summary": "En Israël, Stark Power s'engage à acquérir 100% de Sagebrush Infrastructure Partners, développeur de data centers hyperscale avec centrales au gaz co-localisées.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "poweredLand": true,
-      "coords": [
-        31.5,
-        34.9
-      ],
-      "owners": "Stark Power (rachat de Sagebrush)",
-      "investors": "n.c."
-    },
-    {
-      "category": "competition",
       "title": "Polarise lance une AI Factory de 30 MW (extensible à 120 MW) à Amberg (Bavière)",
       "region": "Allemagne",
       "date": "2026-07",
-      "summary": "Après Munich, Polarise construit un data center IA à Amberg : 30 MW au départ, scalable à 120 MW, mise en service mi-2027, alimenté par 70 MWp de solaire + stockage.",
-      "source": "Data Centre Magazine",
+      "summary": "Après Munich, Polarise construit un data center IA à Amberg : 30 MW au départ, scalable à 120 MW, mise en service mi-2027, alimenté par 70 MWp de solaire + stockage. Financement de la coquille assuré par Macquarie (jusqu'à 117 M€ engagés sur les projets allemands de Polarise).",
+      "source": "Data Centre Magazine / Macquarie",
       "url": "https://datacentremagazine.com/news/why-is-polarise-expanding-its-european-ai-data-centres",
       "mw": 30,
       "coords": [
