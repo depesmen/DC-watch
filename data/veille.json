@@ -1,13 +1,78 @@
 {
-  "lastUpdated": "2026-08-06",
+  "lastUpdated": "2026-08-07",
   "keyTakeaways": [
-    "Le foncier public déjà énergisé continue de s'ouvrir en France : EDF lance un nouvel appel à manifestation d'intérêt sur son ancien site de Creys-Mépieu (Isère, 500 MW), pendant que la justice administrative (TA Grenoble, projet Sesterce à Alixan) rappelle que l'étude d'impact reste incontournable même sur du foncier déjà identifié — deux signaux à intégrer dans tout sourcing français.",
-    "Au Texas, le risque réglementaire s'aggrave : ERCOT suspend sine die ses notifications « Batch Zero » de grosses charges et renvoie la décision à la réunion PUCT du 20 août, sans date de reprise fixée pour l'audit — un facteur d'incertitude supplémentaire pour tout foncier texan en cours de raccordement.",
-    "Le « powered land » s'internationalise au-delà des USA : Mitsubishi Estate (9,3 Md$, 2,5 GW, foncier et raccordement déjà sécurisés sur 5 sites) au Japon et Pure DC (7,5 Md€, 550 MW, permis et 700+ MVA renouvelables déjà en poche) en Finlande illustrent la même logique de sécurisation amont, désormais centrale en Asie comme en Europe du Nord.",
-    "La consolidation du secteur s'accélère avec la clôture du rachat record de 40 Md$ d'Aligned Data Centers (AI Infrastructure Partnership/MGX/BlackRock GIP, 6,4 GW), confirmant l'appétit des méga-fonds pour les portefeuilles de foncier+capacité déjà constitués.",
-    "Toujours aucune actualité fraîche et vérifiable sur Polarise, Aurora Infra ou La Française de l'Énergie malgré une recherche ciblée (LinkedIn compris) ; Polarise reste actif sur LinkedIn autour de son expansion allemande (Amberg) sans nouvelle annonce foncière — à resurveiller."
+    "Le « powered land » international s'accélère hors USA : Bitdeer sécurise 4,7 Md$ sur 16 ans pour 121 MW 100% renouvelable en Norvège, tandis que Mubadala (Abu Dhabi) étudie 6,3 Md$ pour 500 MW à Akita (Japon) — deux signaux que la sécurisation de puissance dédiée devient la norme partout, pas seulement aux USA.",
+    "Le Texas continue de mixer opportunité et risque : NRG dévoile un projet inédit de centrale gaz dédiée de 1,2 GW (3,2 Md$, « bring your own power ») pour un hyperscaler non nommé, pendant que PowerHouse dépose un nouveau campus de 300 MW à Westlake — le tout sous la menace de l'audit ERCOT/PUCT dont l'issue reste fixée au 20 août.",
+    "Le sourcing land+power à l'échelle du GW s'étend au Canada : Meta pose la première pierre de son premier data center canadien à Sturgeon County (Alberta, 1 GW, ~9 Md$, centrale gaz dédiée) — un marché à suivre pour la diversification géographique.",
+    "Toujours aucune actualité fraîche et vérifiable sur Polarise, Aurora Infra ou La Française de l'Énergie malgré une recherche ciblée (LinkedIn compris) ; FDE reste concentrée sur ses activités gazières (17 moteurs en service, CA de 29,1 M€) — à resurveiller.",
+    "Aucun développement franc nouveau côté France cette semaine : l'appel à manifestation d'intérêt d'EDF sur Creys-Mépieu (Isère) sort de la fenêtre de veille à 30 jours faute de mise à jour — à relancer si une short-list ou un candidat retenu est annoncé."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "Le fonds émirati Mubadala envisage 6,3 Md$ pour un data center IA de 500 MW à Akita (Japon)",
+      "region": "Asie-Pacifique",
+      "date": "2026-08-06",
+      "summary": "Le fonds souverain d'Abu Dhabi Mubadala Investment étudierait un investissement pouvant atteindre 6,3 Md$ dans un projet de data center IA de 500 MW dans la préfecture d'Akita, développé par la start-up américaine BitGrid avec l'opérateur IT japonais S2 — potentiellement le plus grand data center du Japon, mise en service visée au début des années 2030.",
+      "source": "Bloomberg / The Japan Times",
+      "url": "https://www.japantimes.co.jp/business/2026/08/06/uae-fund-data-center/",
+      "mw": 500,
+      "inv": 6300,
+      "coords": [
+        39.72,
+        140.36
+      ],
+      "owners": "BitGrid (US) · S2 (Japon)",
+      "investors": "Mubadala Investment (Abu Dhabi, en discussion)"
+    },
+    {
+      "category": "land",
+      "title": "PowerHouse dépose un projet de campus data center de 300 MW à Westlake, près de Fort Worth (Texas)",
+      "region": "Amérique du Nord",
+      "date": "2026-08-06",
+      "summary": "PowerHouse (American Real Estate Partners) dépose une demande de permis pour le « Circle T Data Center » sur près de 90 acres à Westlake (Denton/Tarrant County), avec jusqu'à quatre bâtiments totalisant 300 MW — nouvelle extension de son portefeuille texan après Irving et Ellis County.",
+      "source": "DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/powerhouse-files-for-300mw-data-center-campus-outside-dallas-fort-worth/",
+      "mw": 300,
+      "coords": [
+        32.99,
+        -97.19
+      ],
+      "owners": "PowerHouse (American Real Estate Partners)",
+      "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "NRG dévoile un accord de 3,2 Md$ pour une centrale gaz dédiée de 1,2 GW à un hyperscaler au Texas",
+      "region": "Amérique du Nord",
+      "date": "2026-08-04",
+      "summary": "Lors de son point T2 2026, NRG Energy annonce être aligné sur les termes commerciaux avec un hyperscaler cloud/IA non nommé pour construire une centrale à cycle combiné gaz de 1,2 GW dédiée à un data center au Texas — son premier projet « bring your own power », extensible jusqu'à 2,4 GW, mise en service visée fin 2029.",
+      "source": "Utility Dive / NRG Energy",
+      "url": "https://www.utilitydive.com/news/nrg-nears-12-gw-hyperscaler-deal-amid-texas-data-center-pause/827212/",
+      "mw": 1200,
+      "inv": 3200,
+      "poweredLand": true,
+      "owners": "NRG Energy (production) · hyperscaler n.c. (locataire)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Bitdeer signe un bail IA/HPC de 4,7 Md$ sur 16 ans pour son campus de Tydal (Norvège), 100% renouvelable",
+      "region": "Europe",
+      "date": "2026-08-04",
+      "summary": "Bitdeer loue 121 MW IT (133 MW bruts) de son campus norvégien de Tydal (180 MW bruts au total) à Volta Tydal AS, filiale du NVIDIA Cloud Partner Volta, pour un contrat de 4,7 Md$ sur 16 ans (extensible à 8 Md$) ; site alimenté à 100% en énergie renouvelable, PUE ~1,1, mise en service par phases dès fin 2026.",
+      "source": "GlobeNewswire / Bitdeer",
+      "url": "https://www.globenewswire.com/news-release/2026/08/04/3338255/0/en/bitdeer-announces-4-7-billion-16-year-ai-hpc-data-center-lease-for-tydal-norway-campus.html",
+      "mw": 121,
+      "inv": 4700,
+      "coords": [
+        63.05,
+        11.55
+      ],
+      "poweredLand": true,
+      "owners": "Bitdeer Technologies (site) · Volta Tydal AS / Volta (locataire)",
+      "investors": "J.P. Morgan et un second bailleur (lettres de crédit, ~1,3 Md$)"
+    },
     {
       "category": "legislation",
       "title": "Texas : ERCOT suspend les notifications « Batch Zero » de grosses charges, rendez-vous le 20 août à la PUCT",
@@ -386,30 +451,22 @@
       ]
     },
     {
-      "category": "land",
-      "title": "EDF ouvre un appel à manifestation d'intérêt pour un data center de 500 MW sur son ancien site de Creys-Mépieu (Isère)",
-      "region": "France",
-      "date": "2026-07-03",
-      "summary": "EDF propose en bail à construction un foncier industriel déjà raccordable à Creys-Mépieu (Isère), avec fort potentiel de raccordement électrique et accompagnement personnalisé jusqu'à la mise en service, pour accueillir un data center hyperscale ; candidatures à adresser à ami-datacenters-creys@edf.fr.",
-      "source": "EDF",
-      "url": "https://www.edf.fr/en/the-edf-group/dedicated-sections/journalists/all-press-releases/edf-launches-calls-for-expressions-of-interest-for-new-data-centers-in-france",
-      "mw": 500,
+      "category": "construction",
+      "title": "Meta lance son premier data center canadien : 1 GW à Sturgeon County (Alberta), env. 9 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-07-08",
+      "summary": "Meta pose la première pierre de son premier data center canadien (33e site mondial du groupe) à Sturgeon County, au nord d'Edmonton : 1 GW de capacité, environ 9 Md$ (13 Md$ CAD) d'investissement, alimenté par une centrale gaz dédiée et un circuit de refroidissement en boucle fermée ; 60 M$ promis pour les infrastructures locales.",
+      "source": "CNBC / CBC News",
+      "url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html",
+      "mw": 1000,
+      "inv": 9000,
       "coords": [
-        45.75,
-        5.49
+        53.7,
+        -113.4
       ],
       "poweredLand": true,
-      "owners": "EDF",
+      "owners": "Meta",
       "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "La file d'interconnexion US atteint 2 600 GW, ERCOT reçoit 198 GW de demandes au T1 2026",
-      "region": "Amérique du Nord",
-      "date": "2026-07",
-      "summary": "Selon le rapport « Queued Up 2026 » du Lawrence Berkeley National Lab, la file d'attente nationale de projets d'interconnexion atteint 2 600 GW avec un délai médian de 4 ans et un taux d'aboutissement historique de ~13 %. En ERCOT, 198 GW de demandes de grosses charges ont été déposées au seul T1 2026 (86 GW à l'étude) ; les délais de fabrication des transformateurs de poste source dépassent désormais 160 semaines.",
-      "source": "LBNL / Landgate",
-      "url": "https://emp.lbl.gov/queues"
     },
     {
       "category": "power",
