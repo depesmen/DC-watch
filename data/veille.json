@@ -1,13 +1,22 @@
 {
-  "lastUpdated": "2026-08-07",
+  "lastUpdated": "2026-08-10",
   "keyTakeaways": [
-    "Le « powered land » international s'accélère hors USA : Bitdeer sécurise 4,7 Md$ sur 16 ans pour 121 MW 100% renouvelable en Norvège, tandis que Mubadala (Abu Dhabi) étudie 6,3 Md$ pour 500 MW à Akita (Japon) — deux signaux que la sécurisation de puissance dédiée devient la norme partout, pas seulement aux USA.",
-    "Le Texas continue de mixer opportunité et risque : NRG dévoile un projet inédit de centrale gaz dédiée de 1,2 GW (3,2 Md$, « bring your own power ») pour un hyperscaler non nommé, pendant que PowerHouse dépose un nouveau campus de 300 MW à Westlake — le tout sous la menace de l'audit ERCOT/PUCT dont l'issue reste fixée au 20 août.",
-    "Le sourcing land+power à l'échelle du GW s'étend au Canada : Meta pose la première pierre de son premier data center canadien à Sturgeon County (Alberta, 1 GW, ~9 Md$, centrale gaz dédiée) — un marché à suivre pour la diversification géographique.",
-    "Toujours aucune actualité fraîche et vérifiable sur Polarise, Aurora Infra ou La Française de l'Énergie malgré une recherche ciblée (LinkedIn compris) ; FDE reste concentrée sur ses activités gazières (17 moteurs en service, CA de 29,1 M€) — à resurveiller.",
-    "Aucun développement franc nouveau côté France cette semaine : l'appel à manifestation d'intérêt d'EDF sur Creys-Mépieu (Isère) sort de la fenêtre de veille à 30 jours faute de mise à jour — à relancer si une short-list ou un candidat retenu est annoncé."
+    "Polarise ressort enfin du silence : le 5 août, la société annonce vouloir candidater en consortium à l'appel européen « AI Gigafactories » (jusqu'à 10 Md€ de fonds publics UE/nationaux, dépôt le 12 novembre), en s'appuyant sur ses sites déjà préparés en Bavière et Rhénanie-du-Nord-Westphalie — premier signal nominatif concret depuis plusieurs jours de veille. Toujours rien de confirmé sur Aurora Infra ni sur La Française de l'Énergie côté data center ; attention à ne pas confondre avec « Aurora Energy Valley », plateforme finlandaise distincte qui vient d'assembler plus de 1 500 ha de foncier IA/énergie (Kent Data Centres nommé développeur préféré).",
+    "Le foncier énergisé se paie parfois cher socialement : le projet de ligne 500 kV « Wansley » de Georgia Power (16 Md$, ~10 GW dont 80% pour l'IA) avance par expropriation sur ~330 parcelles et jusqu'à 30 maisons démolies — un signal d'alerte sur le risque d'acceptabilité locale pour toute puissance dédiée adossée à un réseau de transport neuf.",
+    "La pipeline française de friches industrielles continue de s'étoffer : après Escaudain (Data4) et Rovaltain (Sesterce), Rantigny (Oise) émerge avec un projet de 300 MW / 4,5 Md€ pour deux hyperscalers sur l'ex-site Caterpillar/Avon — permis attendu cet été, à ajouter à la liste de sites à sourcer/surveiller.",
+    "Le Brésil s'installe dans la cour des grands du « land + power » hors des marchés matures : ByteDance engage ~38,4 Md$ à Pecém (Ceará) avec un PPA éolien dédié de 20 ans (2 Md$, Casa dos Ventos) — la co-localisation renouvelable devient un prérequis même en dehors des USA/Europe/Asie.",
+    "Le marché continue de valider la thèse : les REIT data centers US affichent le meilleur retour sectoriel de l'immobilier coté en 2026 (+33,2%), avec des levées de capital soutenues (dont l'IPO Blackstone Digital Infrastructure Trust à 1,75 Md$) — le funding en amont du foncier énergisé reste abondant."
   ],
   "items": [
+    {
+      "category": "market",
+      "title": "Les REIT data centers US signent le meilleur retour sectoriel du marché immobilier coté en 2026 (+33,2%)",
+      "region": "Amérique du Nord",
+      "date": "2026-08-07",
+      "summary": "Les REIT spécialisées data centers ressortent comme le secteur le plus performant du marché immobilier coté américain en 2026 (+33,2% à mi-année) ; Digital Realty affiche un CA T1 en hausse de 16% et son plus gros bail hyperscale jamais signé, Equinix relève sa guidance annuelle de 100 M$, et le secteur a levé 4,2 Md$ de dette non sécurisée et 5,3 Md$ de capital sur douze mois (dont l'IPO de 1,75 Md$ de Blackstone Digital Infrastructure Trust en mai) — un signal de l'appétit financier continu pour l'infrastructure data center, y compris le foncier énergisé sous-jacent.",
+      "source": "The Real Deal / Nareit",
+      "url": "https://therealdeal.com/national/2026/08/07/us-reits-outperform-world-led-by-data-center-firms/"
+    },
     {
       "category": "land",
       "title": "Le fonds émirati Mubadala envisage 6,3 Md$ pour un data center IA de 500 MW à Akita (Japon)",
@@ -40,6 +49,15 @@
       ],
       "owners": "PowerHouse (American Real Estate Partners)",
       "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "Polarise candidate à un consortium pour l'appel à projets européen « AI Gigafactories » (jusqu'à 10 Md€ de fonds publics)",
+      "region": "Europe",
+      "date": "2026-08-05",
+      "summary": "Polarise annonce vouloir rejoindre un consortium candidat à l'appel à projets de l'EuroHPC JU/Commission européenne pour construire jusqu'à sept « AI Gigafactories » (lancé le 30 juillet, dépôt des offres le 12 novembre) ; jusqu'à 10 Md€ de fonds UE/nationaux disponibles pour mobiliser au moins 20 Md€ de capitaux privés. Polarise met en avant ses sites déjà préparés en Bavière (2) et en Rhénanie-du-Nord-Westphalie (1), en plus de son AI Factory de Munich et d'un site à Oslo.",
+      "source": "Polarise Newsroom / EuroHPC JU",
+      "url": "https://polarise.eu/newsroom/polarise-plans-to-participate-in-eu-tender-for-ai-gigafactories/"
     },
     {
       "category": "power",
@@ -141,6 +159,24 @@
       "url": "https://news.constructconnect.com/august-2026-data-center-report-construction-starts-total-22.3-billion-second-highest-on-record"
     },
     {
+      "category": "land",
+      "title": "France : un projet de data center pour deux hyperscalers sur la friche ex-Caterpillar/Avon à Rantigny (Oise), 300 MW / 4,5 Md€",
+      "region": "France",
+      "date": "2026-08",
+      "summary": "Sur 35 hectares de l'ancienne friche industrielle Avon (ex-Caterpillar) à Rantigny, un projet de campus numérique pour deux hyperscalers cloud/IA vise une puissance de raccordement de 300 MW pour un investissement annoncé de 4,5 Md€ ; consultation publique environnementale ouverte jusqu'au 26 août, dépôt du permis de construire attendu cet été, chantier visé au second semestre 2027.",
+      "source": "DCmag / Vallée Dorée (Communauté de communes du Liancourtois)",
+      "url": "https://dcmag.fr/un-projet-de-datacenter-pour-2-hyperscalers-sur-la-friche-industrielle-caterpillar-a-rantigny-oise/",
+      "mw": 300,
+      "inv": 4900,
+      "coords": [
+        49.4,
+        2.36
+      ],
+      "poweredLand": true,
+      "owners": "n.c. (hyperscalers non nommés)",
+      "investors": "n.c."
+    },
+    {
       "category": "power",
       "title": "Dominion Energy (Virginie) ajoute plus de 5 GW de charge data center contractée en un semestre",
       "region": "Amérique du Nord",
@@ -167,6 +203,21 @@
       "poweredLand": true,
       "owners": "SpaceX / xAI",
       "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "Géorgie : Georgia Power recourt à l'expropriation pour une ligne 500 kV de 16 Md$ dont 80% de la capacité ira aux data centers IA",
+      "region": "Amérique du Nord",
+      "date": "2026-07-31",
+      "summary": "Pour la ligne à très haute tension « Project Wansley » (Ashley Park–Wansley, ~35 miles, comtés de Coweta et Fayette), Georgia Power engage des procédures d'expropriation sur environ 330 parcelles (20 à 30 maisons démolies) afin d'acheminer près de 10 000 MW de nouvelle capacité, dont environ 80% (~8 000 MW) réservés aux data centers IA — illustration du risque d'acceptabilité sociale associé aux grands projets de production dédiée.",
+      "source": "Fortune / Georgia PSC",
+      "url": "https://fortune.com/2026/07/26/georgia-power-utility-company-eminent-domain-grid-expansion-data-center/",
+      "mw": 10000,
+      "inv": 16000,
+      "coords": [
+        33.38,
+        -84.78
+      ]
     },
     {
       "category": "legislation",
@@ -424,51 +475,6 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "Wisconsin : Oracle attaque en justice les nouvelles règles de garanties financières pour data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-07-10",
-      "summary": "Après le refus du régulateur (PSC) d'assouplir sa règle d'avril imposant des garanties financières (cash ou lignes de crédit) aux data centers notés sous A-, Oracle saisit la justice : la règle pourrait lui coûter plus de 100 M$/an sur son campus de Port Washington (15 Md$, avec We Energies) malgré sa notation investment grade (BBB).",
-      "source": "Wisconsin Watch",
-      "url": "https://wisconsinwatch.org/2026/07/wisconsin-regulators-refuse-to-loosen-data-center-credit-rules-setting-up-oracle-court-fight/",
-      "inv": 15000,
-      "coords": [
-        43.3878,
-        -87.8748
-      ]
-    },
-    {
-      "category": "legislation",
-      "title": "France : la justice suspend le permis de construire du supercalculateur IA de Sesterce à Alixan (Drôme), faute d'étude d'impact",
-      "region": "France",
-      "date": "2026-07-10",
-      "summary": "Le tribunal administratif de Grenoble suspend en référé le permis de construire du data center IA porté par Sesterce Group sur le parc de Rovaltain, à la demande du collectif Assez Datacenter ; le projet devra faire l'objet d'une étude d'impact environnemental avant toute reprise des travaux — un précédent qui pèsera sur les futurs permis data center en France.",
-      "source": "Place Gre'net",
-      "url": "https://www.placegrenet.fr/2026/07/11/le-tribunal-administratif-de-grenoble-suspend-le-permis-de-construire-du-datacenter-de-rovaltain-dedie-a-lia/685598",
-      "coords": [
-        44.93,
-        4.96
-      ]
-    },
-    {
-      "category": "construction",
-      "title": "Meta lance son premier data center canadien : 1 GW à Sturgeon County (Alberta), env. 9 Md$",
-      "region": "Amérique du Nord",
-      "date": "2026-07-08",
-      "summary": "Meta pose la première pierre de son premier data center canadien (33e site mondial du groupe) à Sturgeon County, au nord d'Edmonton : 1 GW de capacité, environ 9 Md$ (13 Md$ CAD) d'investissement, alimenté par une centrale gaz dédiée et un circuit de refroidissement en boucle fermée ; 60 M$ promis pour les infrastructures locales.",
-      "source": "CNBC / CBC News",
-      "url": "https://www.cnbc.com/2026/07/08/meta-is-building-its-first-big-data-center-in-canada-amid-ai-push.html",
-      "mw": 1000,
-      "inv": 9000,
-      "coords": [
-        53.7,
-        -113.4
-      ],
-      "poweredLand": true,
-      "owners": "Meta",
-      "investors": "n.c."
-    },
-    {
       "category": "power",
       "title": "Microsoft boucle un data center de 2 GW avec centrale gaz co-localisée au Texas Ouest",
       "region": "Amérique du Nord",
@@ -551,20 +557,6 @@
       ],
       "owners": "Chevron (énergie) · Microsoft (DC)",
       "investors": "n.c."
-    },
-    {
-      "category": "competition",
-      "title": "Polarise lance une AI Factory de 30 MW (extensible à 120 MW) à Amberg (Bavière)",
-      "region": "Allemagne",
-      "date": "2026-07",
-      "summary": "Après Munich, Polarise construit un data center IA à Amberg : 30 MW au départ, scalable à 120 MW, mise en service mi-2027, alimenté par 70 MWp de solaire + stockage. Financement de la coquille assuré par Macquarie (jusqu'à 117 M€ engagés sur les projets allemands de Polarise).",
-      "source": "Data Centre Magazine / Macquarie",
-      "url": "https://datacentremagazine.com/news/why-is-polarise-expanding-its-european-ai-data-centres",
-      "mw": 30,
-      "coords": [
-        49.44,
-        11.85
-      ]
     },
     {
       "category": "land",
