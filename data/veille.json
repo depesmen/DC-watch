@@ -1,13 +1,62 @@
 {
-  "lastUpdated": "2026-08-10",
+  "lastUpdated": "2026-08-11",
   "keyTakeaways": [
-    "Polarise ressort enfin du silence : le 5 août, la société annonce vouloir candidater en consortium à l'appel européen « AI Gigafactories » (jusqu'à 10 Md€ de fonds publics UE/nationaux, dépôt le 12 novembre), en s'appuyant sur ses sites déjà préparés en Bavière et Rhénanie-du-Nord-Westphalie — premier signal nominatif concret depuis plusieurs jours de veille. Toujours rien de confirmé sur Aurora Infra ni sur La Française de l'Énergie côté data center ; attention à ne pas confondre avec « Aurora Energy Valley », plateforme finlandaise distincte qui vient d'assembler plus de 1 500 ha de foncier IA/énergie (Kent Data Centres nommé développeur préféré).",
-    "Le foncier énergisé se paie parfois cher socialement : le projet de ligne 500 kV « Wansley » de Georgia Power (16 Md$, ~10 GW dont 80% pour l'IA) avance par expropriation sur ~330 parcelles et jusqu'à 30 maisons démolies — un signal d'alerte sur le risque d'acceptabilité locale pour toute puissance dédiée adossée à un réseau de transport neuf.",
-    "La pipeline française de friches industrielles continue de s'étoffer : après Escaudain (Data4) et Rovaltain (Sesterce), Rantigny (Oise) émerge avec un projet de 300 MW / 4,5 Md€ pour deux hyperscalers sur l'ex-site Caterpillar/Avon — permis attendu cet été, à ajouter à la liste de sites à sourcer/surveiller.",
-    "Le Brésil s'installe dans la cour des grands du « land + power » hors des marchés matures : ByteDance engage ~38,4 Md$ à Pecém (Ceará) avec un PPA éolien dédié de 20 ans (2 Md$, Casa dos Ventos) — la co-localisation renouvelable devient un prérequis même en dehors des USA/Europe/Asie.",
-    "Le marché continue de valider la thèse : les REIT data centers US affichent le meilleur retour sectoriel de l'immobilier coté en 2026 (+33,2%), avec des levées de capital soutenues (dont l'IPO Blackstone Digital Infrastructure Trust à 1,75 Md$) — le funding en amont du foncier énergisé reste abondant."
+    "Amazon rejoint la vague du « powered land » totalement hors réseau : rachat du site GW Ranch (8 000 acres) à Pecos (Texas) pour une centrale gaz privée de 7,65 GW hors ERCOT, complétée par batteries et solaire — nouveau mega-exemple de contournement intégral de la file d'interconnexion, après SpaceX/xAI et NRG ces dernières semaines.",
+    "Le marché valide pour la première fois le modèle économique du foncier énergisé « packagé » par un acteur puce : Nvidia investit jusqu'à 3 Md$ (20%) dans Lancium, valorisant à ~10 Md$ ce développeur texan spécialisé en sites land+power prêts à l'emploi pour l'IA (campus Stargate d'Abilene) — signal fort que les fabricants de GPU eux-mêmes financent désormais l'amont foncier/énergie.",
+    "Nouveau format de financement à surveiller côté sourcing : Anthropic s'associe à Macquarie Asset Management et au fonds souverain GIC (plateforme « Theseus Infrastructure ») pour faire porter foncier et capex par des investisseurs infra plutôt que par le bilan de l'hyperscaler — un montage qui pourrait inspirer de futurs appels à partenaires fonciers en Europe.",
+    "Toujours aucun signal nominatif frais sur Aurora Infra (société US de data centers IA, aurorainfra.ai — à ne pas confondre avec Aurora DC en Finlande ni Aurora Energy Precinct en Australie) ni sur La Française de l'Énergie côté data center malgré recherches ciblées ; Polarise reste silencieuse depuis son annonce du 5 août sur les AI Gigafactories.",
+    "Les utilities américaines continuent de sécuriser des pipelines massifs : PPL (Pennsylvanie) grimpe à 31,8 GW à un stade avancé (+3,5 GW sur le trimestre, 10e trimestre consécutif de hausse) — un indicateur avancé utile pour repérer les zones de réseau où le foncier pourrait s'énergiser le plus vite."
   ],
   "items": [
+    {
+      "category": "market",
+      "title": "Anthropic, Macquarie Asset Management et GIC lancent « Theseus Infrastructure », plateforme dédiée de data centers IA",
+      "region": "Amérique du Nord",
+      "date": "2026-08-10",
+      "summary": "Anthropic s'associe à Macquarie Asset Management et au fonds souverain singapourien GIC pour créer Theseus Infrastructure, une plateforme qui développera, possédera et exploitera des campus data center dédiés loués à long terme à Anthropic (locataire ancre), d'abord aux États-Unis ; Macquarie et GIC financent la majorité des fonds propres de chaque projet, montants et tailles de sites non communiqués.",
+      "source": "Bloomberg / Macquarie Group",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-10/anthropic-macquarie-and-gic-form-venture-for-ai-data-centers"
+    },
+    {
+      "category": "power",
+      "title": "Nvidia investit jusqu'à 3 Md$ dans Lancium, développeur de « powered land » pour le projet Stargate au Texas",
+      "region": "Amérique du Nord",
+      "date": "2026-08-08",
+      "summary": "Nvidia prend une participation de 20% dans Lancium (2 Md$ initiaux, jusqu'à 1 Md$ supplémentaire sous conditions), développeur texan de foncier énergisé pour l'IA (dont le campus Stargate 1 d'Abilene, 8 000 acres, 1,2 GW d'interconnexion ERCOT déjà approuvée) ; l'opération valorise Lancium et son portefeuille foncier + puissance à environ 10 Md$, alors que la société envisage une IPO en 2027.",
+      "source": "Bloomberg / The Information",
+      "url": "https://finance.yahoo.com/technology/articles/nvidia-invest-3-billion-lancium-014211358.html",
+      "inv": 3000,
+      "poweredLand": true,
+      "owners": "Lancium (Blackstone)",
+      "investors": "Nvidia (jusqu'à 3 Md$, 20%) · Blackstone (~500 M$ antérieurs)"
+    },
+    {
+      "category": "land",
+      "title": "Amazon acquiert 8 000 acres à Pecos (Texas) pour une centrale gaz privée de 7,65 GW hors réseau ERCOT",
+      "region": "Amérique du Nord",
+      "date": "2026-08-07",
+      "summary": "Amazon a racheté le site « GW Ranch » (8 000 acres) à Pacifico Energy près de Pecos (Texas) pour y bâtir un campus data center alimenté en behind-the-meter par une centrale gaz privée de 35 turbines (jusqu'à 7,65 GW), complétée par 1,8 GW de stockage batterie et 750 MW de solaire — le tout hors du réseau ERCOT, contournant la file d'interconnexion ; défrichement du site engagé depuis le 24 juillet.",
+      "source": "DataCenterDynamics / Cleanview",
+      "url": "https://www.datacenterdynamics.com/en/news/amazon-acquires-8000-acre-site-in-pecos-texas-for-natural-gas-powered-behind-the-meter-data-center-report/",
+      "mw": 7650,
+      "coords": [
+        31.42,
+        -103.49
+      ],
+      "poweredLand": true,
+      "owners": "Amazon (ex-Pacifico Energy)",
+      "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "Pennsylvanie : le pipeline data center de l'électricien PPL atteint 31,8 GW à un stade avancé",
+      "region": "Amérique du Nord",
+      "date": "2026-08-07",
+      "summary": "PPL Electric Utilities annonce lors de ses résultats T2 2026 un pipeline data center de 31,8 GW à un stade de planification avancé (10e trimestre consécutif de hausse, +3,5 GW sur le trimestre), dont plus de 11 GW sous accords de service électrique signés et 6,5 GW en construction — nouveau signal de la profondeur du carnet de commandes des utilities américaines côté data centers.",
+      "source": "PR Newswire / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/pennsylvania-utility-ppl-sees-advanced-stage-data-center-pipeline-grow-to-318gw/",
+      "mw": 31800
+    },
     {
       "category": "market",
       "title": "Les REIT data centers US signent le meilleur retour sectoriel du marché immobilier coté en 2026 (+33,2%)",
@@ -461,20 +510,6 @@
       "investors": "Blue Owl Capital"
     },
     {
-      "category": "construction",
-      "title": "Mitsubishi Estate investit 9,3 Md$ pour 2,5 GW de data centers au Japon",
-      "region": "Asie-Pacifique",
-      "date": "2026-07-11",
-      "summary": "Mitsubishi Estate prévoit environ 1 500 Md¥ (9,3 Md$) pour construire une dizaine de data centers totalisant 2,5 GW au Japon ; foncier et raccordement électrique déjà sécurisés pour cinq premiers sites (1 GW) dans le Kanto et le Kansai, en partenariat avec des opérateurs et investisseurs tiers.",
-      "source": "Nikkei Asia",
-      "url": "https://asia.nikkei.com/business/construction/mitsubishi-estate-embarks-on-9bn-data-center-building-spree-in-japan",
-      "mw": 2500,
-      "inv": 9300,
-      "poweredLand": true,
-      "owners": "Mitsubishi Estate",
-      "investors": "n.c."
-    },
-    {
       "category": "power",
       "title": "Microsoft boucle un data center de 2 GW avec centrale gaz co-localisée au Texas Ouest",
       "region": "Amérique du Nord",
@@ -490,73 +525,6 @@
       ],
       "owners": "Microsoft",
       "investors": "Microsoft (autofinancé)"
-    },
-    {
-      "category": "construction",
-      "title": "Crusoe lance « Project Jade » dans le Wyoming — campus IA extensible à 10 GW",
-      "region": "Amérique du Nord",
-      "date": "2026-07",
-      "summary": "Crusoe lance le campus Project Jade, conçu pour monter jusqu'à 10 GW (le plus grand campus IA des USA). Le comté de Laramie a approuvé une première tranche de 1,8 GW ; l'électricité sera fournie par le BFC Power / Cheyenne Power Hub de Tallgrass Energy, construit à côté.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "poweredLand": true,
-      "mw": 10000,
-      "coords": [
-        41.31,
-        -104.68
-      ],
-      "owners": "Crusoe (site) · Tallgrass Energy (énergie)",
-      "investors": "Founders Fund · Fidelity · NVIDIA"
-    },
-    {
-      "category": "land",
-      "title": "Arcem sécurise un site de 80 ha en Finlande (jusqu'à 500 MW)",
-      "region": "Europe",
-      "date": "2026-07",
-      "summary": "Arcem a signé avec la municipalité de Joroinen (Finlande) pour un site de 800 000 m² accueillant jusqu'à 500 MW ; la première tranche de 60 MW doit démarrer début 2027.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026",
-      "mw": 500,
-      "coords": [
-        62.18,
-        27.83
-      ]
-    },
-    {
-      "category": "legislation",
-      "title": "La FERC ordonne aux 6 grands réseaux US de cadrer les charges à l'échelle du gigawatt",
-      "region": "Amérique du Nord",
-      "date": "2026-07",
-      "summary": "La FERC a émis des ordres « show-cause » aux six plus grands gestionnaires de réseau américains, leur fixant un délai pour définir le traitement des demandes de raccordement de charges à l'échelle du gigawatt et l'évaluation de la production co-localisée.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/energy-power-supply/national-grid-agrees-to-1-75b-investment-in-joulent-to-expand-ai-power-infrastructure"
-    },
-    {
-      "category": "legislation",
-      "title": "La Virginie taxe l'électricité des data centers : 0,011 $/kWh depuis le 1er juillet",
-      "region": "Amérique du Nord",
-      "date": "2026-07",
-      "summary": "La Virginie applique depuis le 1er juillet 2026 une taxe de consommation de 0,011 $/kWh sur toute l'électricité consommée par les data centers — premier signal fiscal fort dans le plus grand marché mondial.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/new-data-center-developments-july-2026"
-    },
-    {
-      "category": "power",
-      "title": "Chevron + Microsoft (Kilby, 2,67 GW) contournent la file d'attente réseau",
-      "region": "Amérique du Nord",
-      "date": "2026-07",
-      "summary": "Le projet Kilby de 2,67 GW sécurise une production d'électricité dédiée en direct, contournant la file d'interconnexion — illustration du basculement vers l'énergie behind-the-meter.",
-      "source": "Global Data Center Hub",
-      "url": "https://www.globaldatacenterhub.com/p/this-week-in-data-centers-the-deliverable",
-      "poweredLand": true,
-      "mw": 2670,
-      "inv": 7000,
-      "coords": [
-        31.8,
-        -100.0
-      ],
-      "owners": "Chevron (énergie) · Microsoft (DC)",
-      "investors": "n.c."
     },
     {
       "category": "land",
