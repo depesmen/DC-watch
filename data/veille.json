@@ -1,13 +1,24 @@
 {
-  "lastUpdated": "2026-08-11",
+  "lastUpdated": "2026-08-12",
   "keyTakeaways": [
-    "Amazon rejoint la vague du « powered land » totalement hors réseau : rachat du site GW Ranch (8 000 acres) à Pecos (Texas) pour une centrale gaz privée de 7,65 GW hors ERCOT, complétée par batteries et solaire — nouveau mega-exemple de contournement intégral de la file d'interconnexion, après SpaceX/xAI et NRG ces dernières semaines.",
-    "Le marché valide pour la première fois le modèle économique du foncier énergisé « packagé » par un acteur puce : Nvidia investit jusqu'à 3 Md$ (20%) dans Lancium, valorisant à ~10 Md$ ce développeur texan spécialisé en sites land+power prêts à l'emploi pour l'IA (campus Stargate d'Abilene) — signal fort que les fabricants de GPU eux-mêmes financent désormais l'amont foncier/énergie.",
-    "Nouveau format de financement à surveiller côté sourcing : Anthropic s'associe à Macquarie Asset Management et au fonds souverain GIC (plateforme « Theseus Infrastructure ») pour faire porter foncier et capex par des investisseurs infra plutôt que par le bilan de l'hyperscaler — un montage qui pourrait inspirer de futurs appels à partenaires fonciers en Europe.",
-    "Toujours aucun signal nominatif frais sur Aurora Infra (société US de data centers IA, aurorainfra.ai — à ne pas confondre avec Aurora DC en Finlande ni Aurora Energy Precinct en Australie) ni sur La Française de l'Énergie côté data center malgré recherches ciblées ; Polarise reste silencieuse depuis son annonce du 5 août sur les AI Gigafactories.",
-    "Les utilities américaines continuent de sécuriser des pipelines massifs : PPL (Pennsylvanie) grimpe à 31,8 GW à un stade avancé (+3,5 GW sur le trimestre, 10e trimestre consécutif de hausse) — un indicateur avancé utile pour repérer les zones de réseau où le foncier pourrait s'énergiser le plus vite."
+    "Nouvelle preuve de la bascule vers la production distribuée pour contourner les délais réseau : HD Hyundai Heavy Industries décroche un contrat record de 674 M$ pour équiper des data centers américains de 1 000 MW de groupes électrogènes dédiés (HiMSEN) — confirmation de la mécanisation rapide du marché du « bring your own power » déjà illustré par NRG, Amazon/Pecos et SpaceX/xAI.",
+    "Même les marchés matures trouvent encore du foncier énergisable : Cerberus Capital Management et Yondr sécurisent 40 acres à Manassas, en Virginie du Nord (marché historiquement saturé côté puissance), pour un campus de 72 MW mis en avant pour sa disponibilité de puissance à court terme.",
+    "Toujours aucun signal nominatif frais sur Aurora Infra (société US de data centers IA, aurorainfra.ai) ni sur La Française de l'Énergie côté data center malgré recherches ciblées répétées ; Polarise reste silencieuse depuis son annonce du 5 août sur les AI Gigafactories européennes.",
+    "Le pipeline français reste porté par les friches industrielles (Rantigny/Oise, Escaudain, Creys-Mépieu) mais aucune nouvelle transaction foncière française n'a été identifiée dans les dernières 72h — la dynamique reste concentrée sur les Hauts-de-France et la vallée du Rhône.",
+    "Le Texas continue de conjuguer accélération commerciale (commandes de production dédiée) et frein réglementaire : l'audit ERCOT/PUCT reste suspendu, rendez-vous public le 20 août — facteur de risque à surveiller pour tout foncier texan en cours de raccordement."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "HD Hyundai Heavy Industries décroche un contrat record de 674 M$ pour 1 000 MW de groupes électrogènes destinés à des data centers américains",
+      "region": "Amérique du Nord",
+      "date": "2026-08-10",
+      "summary": "HD Hyundai Heavy Industries signe avec le développeur d'infrastructures énergétiques américain Corban Energy Group un contrat de 673,8 M$ portant sur des groupes électrogènes HiMSEN (9,6 MW/unité) totalisant 1 000 MW, destinés à alimenter les data centers d'un grand groupe technologique américain non identifié — sa plus grosse commande de moteurs de production électrique à ce jour, illustrant l'essor de la production distribuée pour contourner les délais de raccordement réseau.",
+      "source": "PR Newswire / Korea Herald",
+      "url": "https://www.koreaherald.com/article/10836118",
+      "mw": 1000,
+      "inv": 674
+    },
     {
       "category": "market",
       "title": "Anthropic, Macquarie Asset Management et GIC lancent « Theseus Infrastructure », plateforme dédiée de data centers IA",
@@ -197,6 +208,23 @@
         39.96,
         -4.83
       ]
+    },
+    {
+      "category": "land",
+      "title": "Cerberus Capital Management et Yondr acquièrent 40 acres à Manassas (Virginie) pour un campus data center de 72 MW",
+      "region": "Amérique du Nord",
+      "date": "2026-08-03",
+      "summary": "Cerberus Capital Management et l'opérateur Yondr Group annoncent l'acquisition d'un site de 40 acres à Manassas, en Virginie du Nord, pour développer un campus data center de 72 MW mis en avant pour sa disponibilité de puissance à court terme dans un marché historiquement saturé côté réseau ; mise en service visée en 2029.",
+      "source": "PR Newswire / BeBeez",
+      "url": "https://www.prnewswire.com/news-releases/cerberus-and-yondr-acquire-40-acres-in-northern-virginia-to-build-72mw-data-center-302841166.html",
+      "mw": 72,
+      "coords": [
+        38.75,
+        -77.49
+      ],
+      "poweredLand": true,
+      "owners": "Yondr Group (opérateur) · Cerberus Capital Management (investisseur)",
+      "investors": "Cerberus Capital Management"
     },
     {
       "category": "market",
@@ -466,15 +494,6 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "New York : Hochul signe un moratoire exécutif d'un an sur les permis de data centers hyperscale",
-      "region": "Amérique du Nord",
-      "date": "2026-07-14",
-      "summary": "La gouverneure Kathy Hochul instaure par décret le premier moratoire étatique américain sur les nouveaux permis environnementaux de data centers hyperscale (20 MW+), pour une durée pouvant aller jusqu'à un an, le temps d'établir un nouveau cadre réglementaire (consommateurs, réseau, communautés). Une loi distincte votée en juin par la législature (Responsible Data Center Development Act) reste en attente de signature.",
-      "source": "Governor Kathy Hochul / Axios",
-      "url": "https://www.governor.ny.gov/news/first-statewide-moratorium-new-hyperscale-data-centers-launched-governor-kathy-hochul"
-    },
-    {
       "category": "construction",
       "title": "Pure Data Centres Group lance l'un des plus grands campus IA d'Europe à Seinäjoki (Finlande), jusqu'à 550 MW / 7,5 Md€",
       "region": "Europe",
@@ -491,23 +510,6 @@
       "poweredLand": true,
       "owners": "Pure Data Centres Group",
       "investors": "n.c."
-    },
-    {
-      "category": "construction",
-      "title": "Meta porte son campus Hyperion (Louisiane) à 5 GW et plus de 50 Md$",
-      "region": "Amérique du Nord",
-      "date": "2026-07-13",
-      "summary": "Meta relève l'ambition de son supercluster IA Hyperion (Richland Parish, Louisiane) à 5 GW pour plus de 50 Md$ d'investissement (contre 27 Md$ annoncés en 2025 avec Blue Owl Capital) ; 1ère tranche de ~2 GW visée en 2030, plus d'1 Md$ dédié aux infrastructures locales (routes, eau).",
-      "source": "CNBC / Tom's Hardware",
-      "url": "https://www.cnbc.com/2026/07/13/meta-louisiana-data-center-investment-reaches-50-billion-amid-ai-push.html",
-      "mw": 5000,
-      "inv": 50000,
-      "coords": [
-        32.45,
-        -91.75
-      ],
-      "owners": "Meta",
-      "investors": "Blue Owl Capital"
     },
     {
       "category": "power",
