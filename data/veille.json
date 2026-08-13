@@ -1,13 +1,42 @@
 {
-  "lastUpdated": "2026-08-12",
+  "lastUpdated": "2026-08-13",
   "keyTakeaways": [
-    "Nouvelle preuve de la bascule vers la production distribuée pour contourner les délais réseau : HD Hyundai Heavy Industries décroche un contrat record de 674 M$ pour équiper des data centers américains de 1 000 MW de groupes électrogènes dédiés (HiMSEN) — confirmation de la mécanisation rapide du marché du « bring your own power » déjà illustré par NRG, Amazon/Pecos et SpaceX/xAI.",
-    "Même les marchés matures trouvent encore du foncier énergisable : Cerberus Capital Management et Yondr sécurisent 40 acres à Manassas, en Virginie du Nord (marché historiquement saturé côté puissance), pour un campus de 72 MW mis en avant pour sa disponibilité de puissance à court terme.",
-    "Toujours aucun signal nominatif frais sur Aurora Infra (société US de data centers IA, aurorainfra.ai) ni sur La Française de l'Énergie côté data center malgré recherches ciblées répétées ; Polarise reste silencieuse depuis son annonce du 5 août sur les AI Gigafactories européennes.",
-    "Le pipeline français reste porté par les friches industrielles (Rantigny/Oise, Escaudain, Creys-Mépieu) mais aucune nouvelle transaction foncière française n'a été identifiée dans les dernières 72h — la dynamique reste concentrée sur les Hauts-de-France et la vallée du Rhône.",
-    "Le Texas continue de conjuguer accélération commerciale (commandes de production dédiée) et frein réglementaire : l'audit ERCOT/PUCT reste suspendu, rendez-vous public le 20 août — facteur de risque à surveiller pour tout foncier texan en cours de raccordement."
+    "Le front réglementaire américain s'élargit jusqu'au cœur du marché texan : Fort Worth lance la procédure d'un moratoire de 90 jours sur les data centers, juste à côté du foncier Circle T de PowerHouse à Westlake — après l'audit ERCOT/PUCT (Abbott) et le moratoire new-yorkais, un signal supplémentaire de durcissement local à surveiller pour tout foncier texan en cours de sourcing.",
+    "Le marché du financement dédié au foncier+power reste actif : 5C Group sécurise 605 M$ (Brookfield) pour ses campus de Memphis, Ohio et Phoenix, tandis que Koch explore une cession pouvant atteindre 15 Md$ de son portefeuille Edged (USA, Espagne, Portugal) — un marché secondaire qui continue de valoriser fortement les plateformes déjà constituées.",
+    "Le Texas continue d'absorber du foncier à grande échelle malgré la pression réglementaire : AWS démarre la construction de son campus « Project Eagle » (1,2 Md$, 2 700 acres) à Boling (Wharton County), tandis que Nebius détaille son second site gigawatt américain, cette fois en Pennsylvanie (1,2 GW, Schuylkill County).",
+    "Toujours aucun signal nominatif frais sur Aurora Infra ni sur La Française de l'Énergie côté data center malgré recherches ciblées répétées ; Polarise reste sur sa candidature au consortium AI Gigafactories annoncée le 5 août, sans actualisation depuis.",
+    "Aucune nouvelle transaction foncière française identifiée dans les dernières 72h — le pipeline reste porté par les dossiers déjà connus (Rantigny/Oise, Escaudain, Hauts-de-France), en attente d'avancées concrètes côté permis ou raccordement RTE."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Fort Worth (Texas) lance la procédure d'un moratoire de 90 jours sur les nouveaux data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-08-11",
+      "summary": "Le conseil municipal de Fort Worth vote à l'unanimité le lancement de la procédure d'un moratoire de 90 jours sur la construction de data centers (deux audiences publiques et deux votes requis avant entrée en vigueur, visée vers février 2027) et crée une commission dédiée pilotée par le TCU Institute for Environmental Studies pour évaluer l'impact sur l'eau, l'énergie et la qualité de vie — nouveau front réglementaire local dans le Dallas-Fort Worth/Tarrant County, à proximité du foncier Circle T de PowerHouse à Westlake.",
+      "source": "Fort Worth Report / KERA News",
+      "url": "https://www.keranews.org/news/2026-08-12/data-center-moratorium-takes-first-steps-after-fort-worth-city-councils-unanimous-vote",
+      "coords": [
+        32.7555,
+        -97.3308
+      ]
+    },
+    {
+      "category": "land",
+      "title": "5C Group lève 605 M$ (Brookfield) pour accélérer ses campus IA nord-américains, dont l'acquisition du site de Memphis",
+      "region": "Amérique du Nord",
+      "date": "2026-08-10",
+      "summary": "Le développeur montréalais 5C Group boucle un financement dette de 605 M$ mené par Brookfield Asset Management (plus de 1,4 Md$ levés en cumulé depuis 2025), destiné à l'acquisition et la construction de son campus de Memphis (ancien siège de Fred's, ~152 M$) ainsi qu'au développement de sites dans l'Ohio et à Phoenix.",
+      "source": "DataCenterDynamics / citybiz",
+      "url": "https://www.datacenterdynamics.com/en/news/ai-data-center-developer-5c-secures-half-a-billion-dollars-in-new-financing/",
+      "inv": 605,
+      "coords": [
+        35.05,
+        -90.02
+      ],
+      "owners": "5C Group",
+      "investors": "Brookfield Asset Management"
+    },
     {
       "category": "power",
       "title": "HD Hyundai Heavy Industries décroche un contrat record de 674 M$ pour 1 000 MW de groupes électrogènes destinés à des data centers américains",
@@ -76,6 +105,22 @@
       "summary": "Les REIT spécialisées data centers ressortent comme le secteur le plus performant du marché immobilier coté américain en 2026 (+33,2% à mi-année) ; Digital Realty affiche un CA T1 en hausse de 16% et son plus gros bail hyperscale jamais signé, Equinix relève sa guidance annuelle de 100 M$, et le secteur a levé 4,2 Md$ de dette non sécurisée et 5,3 Md$ de capital sur douze mois (dont l'IPO de 1,75 Md$ de Blackstone Digital Infrastructure Trust en mai) — un signal de l'appétit financier continu pour l'infrastructure data center, y compris le foncier énergisé sous-jacent.",
       "source": "The Real Deal / Nareit",
       "url": "https://therealdeal.com/national/2026/08/07/us-reits-outperform-world-led-by-data-center-firms/"
+    },
+    {
+      "category": "construction",
+      "title": "Nebius détaille son 2e campus IA nord-américain de 1,2 GW à Highridge Business Park (Schuylkill County, Pennsylvanie)",
+      "region": "Amérique du Nord",
+      "date": "2026-08-06",
+      "summary": "Nebius précise les plans de son second site gigawatt aux États-Unis : six bâtiments sur environ 600 acres entre les townships de Butler, Cass et Foster, pour 1,2 GW de capacité totale à terme (260 MW dès octobre 2027) ; réunion publique tenue le 6 août à Ashland pour présenter le projet aux riverains.",
+      "source": "DataCenterDynamics / w.media",
+      "url": "https://www.datacenterdynamics.com/en/news/nebius-details-plans-for-12gw-data-center-campus-in-pennsylvania/",
+      "mw": 1200,
+      "coords": [
+        40.775,
+        -76.339
+      ],
+      "owners": "Nebius Group",
+      "investors": "n.c."
     },
     {
       "category": "land",
@@ -227,6 +272,22 @@
       "investors": "Cerberus Capital Management"
     },
     {
+      "category": "construction",
+      "title": "Amazon (AWS) démarre la construction de « Project Eagle », campus de 1,2 Md$ sur 2 700 acres à Boling (Wharton County, Texas)",
+      "region": "Amérique du Nord",
+      "date": "2026-08-01",
+      "summary": "AWS engage la construction de quatre bâtiments identiques (300 M$/bâtiment) sur un site de 2 700 acres près de Boling, dans le comté de Wharton au sud-ouest de Houston — futur plus grand campus data center du Texas ; les trois premiers bâtiments sont visés pour début 2027 et le quatrième pour août 2027, dans le cadre de l'engagement d'AWS d'investir plus de 4 Md$ au Texas d'ici 2029.",
+      "source": "Baxtel / Wharton Post",
+      "url": "https://baxtel.com/news/aws-proposes-1-2-billion-data-center-campus-outside-housto",
+      "inv": 1200,
+      "coords": [
+        29.32,
+        -96.07
+      ],
+      "owners": "Amazon (AWS)",
+      "investors": "n.c."
+    },
+    {
       "category": "market",
       "title": "Construction data center US : 22,3 Md$ engagés en juin 2026, 2e meilleur mois jamais enregistré",
       "region": "Amérique du Nord",
@@ -331,6 +392,18 @@
       "investors": "n.c."
     },
     {
+      "category": "competition",
+      "title": "Koch Inc. explore une cession d'Edged (data centers waterless) pouvant atteindre 15 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-07-28",
+      "summary": "Koch Inc., cofondateur d'Edged aux côtés de Jakob Carnemark, mandate Goldman Sachs pour sonder l'intérêt d'acquéreurs sur une cession valorisée jusqu'à 15 Md$ ; Edged exploite sept data centers en refroidissement sans eau (dont 169 MW à Atlanta) et développe des sites aux USA ainsi qu'à Bilbao, Madrid, Barcelone et Lisbonne.",
+      "source": "Bloomberg / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/data-center-firm-edged-up-for-sale-for-15-billion-report/",
+      "inv": 15000,
+      "owners": "Koch Inc. / Jakob Carnemark (Edged)",
+      "investors": "n.c. (process piloté par Goldman Sachs)"
+    },
+    {
       "category": "construction",
       "title": "Meta et BlackRock montent une JV de 14 Md$ pour un campus de 1 GW à El Paso (Texas)",
       "region": "Amérique du Nord",
@@ -427,88 +500,6 @@
       ],
       "poweredLand": true,
       "owners": "n.c.",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Rubix Data Centers (Submer) propose un hyperscale de 8-12 Md$ sur l'ancienne aciérie AK Steel (Kentucky)",
-      "region": "Amérique du Nord",
-      "date": "2026-07-22",
-      "summary": "Rubix Data Centers, filiale du groupe barcelonais Submer, propose un campus hyperscale de 8 à 12 Md$ sur les 425 à 500 acres de l'ancien site sidérurgique AK Steel près d'Ashland (Kentucky) — jusqu'à 2 GW de puissance, 8 bâtiments, ~1 000 emplois de chantier et ~200 emplois permanents.",
-      "source": "Kentucky Lantern",
-      "url": "https://kentuckylantern.com/2026/07/22/developer-proposes-hyperscale-data-center-at-the-site-at-former-eastern-kentucky-steel-mill/",
-      "mw": 2000,
-      "coords": [
-        38.4778,
-        -82.6382
-      ],
-      "poweredLand": true,
-      "owners": "Rubix Data Centers (Submer Group)",
-      "investors": "n.c."
-    },
-    {
-      "category": "construction",
-      "title": "OpenAI investit 30+ Md$ dans un data center géant en Géorgie (3,2 GW sécurisés)",
-      "region": "Amérique du Nord",
-      "date": "2026-07-22",
-      "summary": "OpenAI prévoit plus de 30 Md$ pour un data center près de Savannah (comté d'Effingham, Géorgie), avec 3,2 GW d'énergie déjà contractés auprès de Georgia Power. Premières centaines de MW en 2028, développement jusqu'en 2032.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-22/openai-plans-to-spend-over-30-billion-on-georgia-data-center",
-      "mw": 3200,
-      "inv": 30000,
-      "coords": [
-        32.37,
-        -81.28
-      ],
-      "poweredLand": true,
-      "owners": "OpenAI",
-      "investors": "n.c."
-    },
-    {
-      "category": "competition",
-      "title": "AIP, MGX et BlackRock (GIP) bouclent le rachat record de 40 Md$ d'Aligned Data Centers",
-      "region": "Amérique du Nord",
-      "date": "2026-07-21",
-      "summary": "Le consortium AI Infrastructure Partnership (Nvidia, Microsoft, xAI), MGX et BlackRock GIP finalise le rachat d'Aligned Data Centers pour une valeur d'entreprise d'environ 40 Md$ — la plus grosse opération jamais annoncée dans le secteur — donnant accès à 51 campus et plus de 6,4 GW de capacité opérationnelle et planifiée.",
-      "source": "w.media / D CEO Magazine",
-      "url": "https://aligneddc.com/press-release/aip-mgx-and-blackrocks-gip-close-acquisition-of-aligned-data-centers/",
-      "inv": 40000,
-      "mw": 6400
-    },
-    {
-      "category": "land",
-      "title": "Espagne : le campus IA « DC Malpica » d'EdgeMode (300 MW, 3 Md€) avance à Mora (Castille-La Manche)",
-      "region": "Europe",
-      "date": "2026-07-20",
-      "summary": "EdgeMode, la mairie de Mora et les autres développeurs du projet DC Malpica AI (300 MW, deux halls de 150 000 m², gaz naturel + piles à hydrogène Bloom Energy) ont présenté leur investissement de 3 Md€ au gouvernement régional de Castille-La Manche et finalisent la demande de statut de « projet prioritaire ».",
-      "source": "Stocktitan / DataCenterDynamics",
-      "url": "https://www.stocktitan.net/news/EDGM/edge-mode-mora-town-council-and-other-developers-of-the-dc-malpica-0l7s578vv02x.html",
-      "mw": 300,
-      "inv": 3300,
-      "coords": [
-        39.68,
-        -3.77
-      ],
-      "poweredLand": true,
-      "owners": "EdgeMode (75%) · BlackBerry AIF (25%)",
-      "investors": "n.c."
-    },
-    {
-      "category": "construction",
-      "title": "Pure Data Centres Group lance l'un des plus grands campus IA d'Europe à Seinäjoki (Finlande), jusqu'à 550 MW / 7,5 Md€",
-      "region": "Europe",
-      "date": "2026-07-14",
-      "summary": "Pure DC démarre la phase 1 (110 MW, entièrement louée dont Microsoft) d'un campus IA de 370 acres à Seinäjoki, avec permis et raccordement électrique (700+ MVA renouvelables) déjà sécurisés ; extension visée jusqu'à 550 MW pour plus de 7,5 Md€ d'investissement total — le plus gros investissement entrant jamais réalisé en Finlande par une société britannique.",
-      "source": "GlobeNewswire / Computer Weekly",
-      "url": "https://www.globenewswire.com/news-release/2026/07/14/3326722/0/en/pure-dc-launches-one-of-europe-s-largest-ever-ai-infrastructure-projects-phase-1-110mw-of-an-over-7-5-billion-550mw-ai-campus-in-sein%C3%A4joki-begins-fully-leased-with-planning-power-a.html",
-      "mw": 550,
-      "inv": 8600,
-      "coords": [
-        62.79,
-        22.84
-      ],
-      "poweredLand": true,
-      "owners": "Pure Data Centres Group",
       "investors": "n.c."
     },
     {
