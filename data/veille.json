@@ -1,13 +1,36 @@
 {
-  "lastUpdated": "2026-08-13",
+  "lastUpdated": "2026-08-14",
   "keyTakeaways": [
-    "Le front réglementaire américain s'élargit jusqu'au cœur du marché texan : Fort Worth lance la procédure d'un moratoire de 90 jours sur les data centers, juste à côté du foncier Circle T de PowerHouse à Westlake — après l'audit ERCOT/PUCT (Abbott) et le moratoire new-yorkais, un signal supplémentaire de durcissement local à surveiller pour tout foncier texan en cours de sourcing.",
-    "Le marché du financement dédié au foncier+power reste actif : 5C Group sécurise 605 M$ (Brookfield) pour ses campus de Memphis, Ohio et Phoenix, tandis que Koch explore une cession pouvant atteindre 15 Md$ de son portefeuille Edged (USA, Espagne, Portugal) — un marché secondaire qui continue de valoriser fortement les plateformes déjà constituées.",
-    "Le Texas continue d'absorber du foncier à grande échelle malgré la pression réglementaire : AWS démarre la construction de son campus « Project Eagle » (1,2 Md$, 2 700 acres) à Boling (Wharton County), tandis que Nebius détaille son second site gigawatt américain, cette fois en Pennsylvanie (1,2 GW, Schuylkill County).",
-    "Toujours aucun signal nominatif frais sur Aurora Infra ni sur La Française de l'Énergie côté data center malgré recherches ciblées répétées ; Polarise reste sur sa candidature au consortium AI Gigafactories annoncée le 5 août, sans actualisation depuis.",
+    "Le front réglementaire américain continue de s'élargir : Louisville (Kentucky) adopte à 24 voix contre 1 un moratoire de six mois sur les nouveaux data centers, deux jours après Fort Worth, pendant que PJM dépose à la FERC un plan qui pousse structurellement les data centers post-2027 vers le modèle « bring your own power » — une validation réglementaire supplémentaire de la thèse du foncier déjà énergisé.",
+    "Le marché financier du secteur s'emballe : Vantage Data Centers explore une IPO/cession à 100 Md$ (potentiellement la plus grosse IPO data center jamais vue) tandis que le singapourien DayOne dépose confidentiellement pour 5 Md$ — un afflux de capitaux qui continuera d'alimenter la course au foncier énergisé dans les mois à venir.",
+    "Le Texas continue d'absorber du foncier malgré la pression réglementaire : Galaxy Digital sécurise un second site à McGregor (74 MW, 400 M$) juste à côté de SpaceX, pendant qu'OpenAI dévoile « Project Camellia » (3,2 GW, 20 Md$) sur un site déjà zoné industriel en Géorgie — deux illustrations du réflexe de sécurisation de sites pré-zonés/pré-permis pour accélérer la mise en service.",
+    "Toujours aucun signal nominatif frais sur Aurora Infra ni sur La Française de l'Énergie côté data center malgré recherches ciblées répétées ; Polarise reste sur sa candidature au consortium AI Gigafactories (annoncée le 5 août), sans actualisation depuis.",
     "Aucune nouvelle transaction foncière française identifiée dans les dernières 72h — le pipeline reste porté par les dossiers déjà connus (Rantigny/Oise, Escaudain, Hauts-de-France), en attente d'avancées concrètes côté permis ou raccordement RTE."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Louisville (Kentucky) : le Metro Council adopte un moratoire de 6 mois sur les nouveaux data centers (24 voix contre 1)",
+      "region": "Amérique du Nord",
+      "date": "2026-08-13",
+      "summary": "Le Metro Council de Louisville vote à 24 voix contre 1 un moratoire de six mois sur l'approbation de nouveaux projets de data centers, le temps d'élaborer des règles de zonage dédiées ; le vote intervient quelques jours après le dépôt d'un projet de conversion d'un entrepôt de 350 000 pieds carrés en data center dans le sud-ouest de la ville — nouveau front réglementaire local après Fort Worth (11 août).",
+      "source": "Louisville Public Media (LPM)",
+      "url": "https://www.lpm.org/news/2026-08-13/louisville-metro-council-approves-data-center-moratorium-as-new-proposal-sparks-controversy",
+      "coords": [
+        38.25,
+        -85.76
+      ]
+    },
+    {
+      "category": "market",
+      "title": "Vantage Data Centers explore une IPO ou une cession à une valorisation de 100 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-08-13",
+      "summary": "Vantage Data Centers (soutenu par DigitalBridge et Silver Lake) étudierait une introduction en bourse pouvant lever environ 10 Md$ pour une valorisation proche de 100 Md$, ou alternativement une cession — ce qui en ferait la plus importante IPO du secteur data center à ce jour, signe de l'appétit financier persistant porté par la demande IA.",
+      "source": "Reuters / Bloomberg",
+      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/08/13/vantage-data-centers-explores-ipo-at-us100-billion-valuation-or-sale-sources-say/",
+      "inv": 100000
+    },
     {
       "category": "legislation",
       "title": "Fort Worth (Texas) lance la procédure d'un moratoire de 90 jours sur les nouveaux data centers",
@@ -20,6 +43,16 @@
         32.7555,
         -97.3308
       ]
+    },
+    {
+      "category": "market",
+      "title": "DayOne Data Centers (Singapour) dépose confidentiellement une demande d'IPO américaine visant 5 Md$",
+      "region": "Asie-Pacifique",
+      "date": "2026-08-11",
+      "summary": "L'opérateur singapourien DayOne Data Centers aurait déposé confidentiellement une demande d'introduction en bourse aux États-Unis visant à lever environ 5 Md$, pour une valorisation autour de 20 Md$, avec une cotation envisagée dès le trimestre prochain — nouveau signe de la vague d'IPO du secteur data center portée par la demande IA en Asie-Pacifique.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-11/dayone-data-centers-said-to-confidentially-file-for-5-billion-ipo-us",
+      "inv": 5000
     },
     {
       "category": "land",
@@ -105,6 +138,16 @@
       "summary": "Les REIT spécialisées data centers ressortent comme le secteur le plus performant du marché immobilier coté américain en 2026 (+33,2% à mi-année) ; Digital Realty affiche un CA T1 en hausse de 16% et son plus gros bail hyperscale jamais signé, Equinix relève sa guidance annuelle de 100 M$, et le secteur a levé 4,2 Md$ de dette non sécurisée et 5,3 Md$ de capital sur douze mois (dont l'IPO de 1,75 Md$ de Blackstone Digital Infrastructure Trust en mai) — un signal de l'appétit financier continu pour l'infrastructure data center, y compris le foncier énergisé sous-jacent.",
       "source": "The Real Deal / Nareit",
       "url": "https://therealdeal.com/national/2026/08/07/us-reits-outperform-world-led-by-data-center-firms/"
+    },
+    {
+      "category": "power",
+      "title": "PJM dépose à la FERC un plan à deux volets : enchère de capacité de secours (jusqu'à 20 Md$) et délestage prioritaire des data centers sans énergie propre",
+      "region": "Amérique du Nord",
+      "date": "2026-08-07",
+      "summary": "L'opérateur de réseau PJM (13 États, ~67 millions d'habitants) soumet à la FERC un plan en deux volets : une enchère de capacité de secours pouvant mobiliser jusqu'à 20 Md$ pour de nouvelles centrales desservant les data centers construits avant 2027, et un mécanisme de délestage prioritaire pour les data centers post-2027 qui n'apportent pas leur propre source d'énergie — une pression réglementaire supplémentaire en faveur du modèle du foncier déjà énergisé (« bring your own power »).",
+      "source": "Utility Dive / Ohio Capital Journal",
+      "url": "https://www.utilitydive.com/news/pjm-backstop-capacity-auction-ferc-data-centers/826792/",
+      "inv": 20000
     },
     {
       "category": "construction",
@@ -316,16 +359,6 @@
     },
     {
       "category": "power",
-      "title": "Dominion Energy (Virginie) ajoute plus de 5 GW de charge data center contractée en un semestre",
-      "region": "Amérique du Nord",
-      "date": "2026-07-31",
-      "summary": "Lors de son point T2 2026, Dominion annonce plus de 53 GW de capacité data center à divers stades de contractualisation (dont 12 GW sous accords de service électrique fermes), en hausse de plus de 5 GW (+11%) depuis fin 2025.",
-      "source": "DataCenterDynamics / RTO Insider",
-      "url": "https://www.datacenterdynamics.com/en/news/dominion-energy-adds-more-than-5gw-of-contracted-data-center-load-to-its-pipeline/",
-      "mw": 5000
-    },
-    {
-      "category": "power",
       "title": "SpaceX/xAI : centrale gaz permanente de 1,2 GW dans le Mississippi pour remplacer les turbines non autorisées de Colossus",
       "region": "Amérique du Nord",
       "date": "2026-07-31",
@@ -341,37 +374,6 @@
       "poweredLand": true,
       "owners": "SpaceX / xAI",
       "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "Géorgie : Georgia Power recourt à l'expropriation pour une ligne 500 kV de 16 Md$ dont 80% de la capacité ira aux data centers IA",
-      "region": "Amérique du Nord",
-      "date": "2026-07-31",
-      "summary": "Pour la ligne à très haute tension « Project Wansley » (Ashley Park–Wansley, ~35 miles, comtés de Coweta et Fayette), Georgia Power engage des procédures d'expropriation sur environ 330 parcelles (20 à 30 maisons démolies) afin d'acheminer près de 10 000 MW de nouvelle capacité, dont environ 80% (~8 000 MW) réservés aux data centers IA — illustration du risque d'acceptabilité sociale associé aux grands projets de production dédiée.",
-      "source": "Fortune / Georgia PSC",
-      "url": "https://fortune.com/2026/07/26/georgia-power-utility-company-eminent-domain-grid-expansion-data-center/",
-      "mw": 10000,
-      "inv": 16000,
-      "coords": [
-        33.38,
-        -84.78
-      ]
-    },
-    {
-      "category": "legislation",
-      "title": "Oregon : la gouverneure Kotek fait annuler la vente de terrain public pour le data center Verrus de 5,1 Md$ à Salem",
-      "region": "Amérique du Nord",
-      "date": "2026-07-30",
-      "summary": "Face à la mobilisation des riverains (eau, énergie, réseau), Kotek ordonne l'annulation de la vente de 32 des 75 acres du Mill Creek Corporate Center prévus pour le projet « Oakline at Mill Creek » de Verrus (financé par Google) — l'un des rares reculs politiques sur un foncier déjà engagé pour un data center aux USA.",
-      "source": "Salem Reporter / OPB",
-      "url": "https://www.salemreporter.com/2026/07/30/kotek-blocks-sale-of-32-acres-of-mill-creek-corporate-center-land-for-verrus-data-center/",
-      "inv": 5100,
-      "coords": [
-        44.9,
-        -123.0
-      ],
-      "owners": "Verrus",
-      "investors": "Google · Sidewalk Infrastructure Partners"
     },
     {
       "category": "construction",
@@ -436,6 +438,24 @@
     },
     {
       "category": "land",
+      "title": "Galaxy Digital acquiert 500 acres à McGregor (Texas) pour un second campus IA, 74 MW en 1ère phase",
+      "region": "Amérique du Nord",
+      "date": "2026-07-28",
+      "summary": "Galaxy Digital rachète environ 500 acres dans le McGregor Industrial Park (Texas), à proximité de son site voisin de SpaceX, pour 7,5 M$, afin d'y développer « Project Merlin », son second campus data center texan représentant plus de 400 M$ d'investissement ; première phase de 74 MW visée pour une mise sous tension en 2028, extensible à plusieurs centaines de MW d'ici 2030.",
+      "source": "PR Newswire / DataCenterDynamics",
+      "url": "https://www.prnewswire.com/news-releases/galaxy-expands-data-center-footprint-with-acquisition-of-500-acre-campus-in-mcgregor-texas-302836014.html",
+      "mw": 74,
+      "inv": 400,
+      "coords": [
+        31.44,
+        -97.4
+      ],
+      "poweredLand": true,
+      "owners": "Galaxy Digital",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
       "title": "OpenAI en négociations pour louer 10 GW sur l'ancien site DOE de Portsmouth (Piketon, Ohio) — 500 Md$, garantis en partie par Nvidia",
       "region": "Amérique du Nord",
       "date": "2026-07-27",
@@ -453,54 +473,22 @@
       "investors": "Nvidia (garantie de financement, jusqu'à 250 Md$)"
     },
     {
-      "category": "power",
-      "title": "Liberty Energy et PowerBridge créent une JV pour un campus data center « powered » de 2 GW au Texas",
+      "category": "construction",
+      "title": "OpenAI dévoile « Project Camellia », campus de 3,2 GW et 20 Md$ dans le comté d'Effingham (Géorgie)",
       "region": "Amérique du Nord",
-      "date": "2026-07-24",
-      "summary": "Liberty Energy et PowerBridge forment une coentreprise pour développer un campus data center énergisé de 2 GW dans l'ouest du Texas, avec l'ambition d'en faire une plateforme pour de futurs campus « powered land » à l'échelle du gigawatt.",
-      "source": "PTC",
-      "url": "https://www.ptc.org/2026/07/liberty-energy-and-powerbridge-form-strategic-joint-venture-to-support-powered-data-center-campus-development/",
-      "mw": 2000,
+      "date": "2026-07-22",
+      "summary": "OpenAI annonce Project Camellia, un campus data center de long terme sur le Savannah Gateway Industrial Hub (2 600 acres déjà zonés industriels) dans le comté d'Effingham, en Géorgie : quatre bâtiments sur environ 101 acres, au moins 20 Md$ d'investissement privé, 3,2 GW livrés par phases entre 2028 et 2032 ; OpenAI s'engage à financer intégralement les infrastructures pour ne pas faire peser le coût sur les factures locales.",
+      "source": "OpenAI / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/openai-reveals-32gw-data-center-project-in-effingham-county-georgia/",
+      "mw": 3200,
+      "inv": 20000,
       "coords": [
-        31.9,
-        -102.3
+        32.3,
+        -81.24
       ],
       "poweredLand": true,
-      "owners": "Liberty Energy · PowerBridge (JV)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Calpine et CyrusOne lancent le « Thad Hill Energy Center » : powered land pour hyperscale au Texas",
-      "region": "Amérique du Nord",
-      "date": "2026-07-23",
-      "summary": "Calpine et CyrusOne annoncent le Thad Hill Energy Center, un site de « powered land » (foncier avec production électrique dédiée) destiné à accueillir du développement data center hyperscale au Texas.",
-      "source": "Barchart",
-      "url": "https://www.barchart.com/story/news/33756833/calpine-and-cyrusone-announce-thad-hill-energy-center-powered-land-to-support-hyperscale-data-center-development-in-texas",
-      "poweredLand": true,
-      "coords": [
-        31.0,
-        -99.0
-      ],
-      "owners": "Calpine · CyrusOne",
-      "investors": "KKR · Global Infrastructure Partners"
-    },
-    {
-      "category": "power",
-      "title": "Texas : le régulateur approuve la co-implantation d'un data center IA de 260 MW avec le parc éolien Goodnight (Armstrong County)",
-      "region": "Amérique du Nord",
-      "date": "2026-07-23",
-      "summary": "La PUC du Texas valide un montage de net metering entre un campus IA de 260 MW et le parc éolien Goodnight 1 (265,5 MW), avec obligation d'écrêtement total sous 30 minutes en cas d'urgence réseau ERCOT — un précédent qui pourrait cadrer les futurs projets de « powered land » co-localisés avec du renouvelable au Texas.",
-      "source": "Utility Dive",
-      "url": "https://www.utilitydive.com/news/texas-approves-ai-data-center-co-location-next-to-wind-farm-with-curtailme/826617/",
-      "mw": 260,
-      "coords": [
-        34.98,
-        -101.36
-      ],
-      "poweredLand": true,
-      "owners": "n.c.",
-      "investors": "n.c."
+      "owners": "OpenAI",
+      "investors": "OpenAI (autofinancé)"
     },
     {
       "category": "power",
