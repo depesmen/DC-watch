@@ -1,13 +1,31 @@
 {
-  "lastUpdated": "2026-08-14",
+  "lastUpdated": "2026-08-17",
   "keyTakeaways": [
-    "Le front réglementaire américain continue de s'élargir : Louisville (Kentucky) adopte à 24 voix contre 1 un moratoire de six mois sur les nouveaux data centers, deux jours après Fort Worth, pendant que PJM dépose à la FERC un plan qui pousse structurellement les data centers post-2027 vers le modèle « bring your own power » — une validation réglementaire supplémentaire de la thèse du foncier déjà énergisé.",
-    "Le marché financier du secteur s'emballe : Vantage Data Centers explore une IPO/cession à 100 Md$ (potentiellement la plus grosse IPO data center jamais vue) tandis que le singapourien DayOne dépose confidentiellement pour 5 Md$ — un afflux de capitaux qui continuera d'alimenter la course au foncier énergisé dans les mois à venir.",
-    "Le Texas continue d'absorber du foncier malgré la pression réglementaire : Galaxy Digital sécurise un second site à McGregor (74 MW, 400 M$) juste à côté de SpaceX, pendant qu'OpenAI dévoile « Project Camellia » (3,2 GW, 20 Md$) sur un site déjà zoné industriel en Géorgie — deux illustrations du réflexe de sécurisation de sites pré-zonés/pré-permis pour accélérer la mise en service.",
-    "Toujours aucun signal nominatif frais sur Aurora Infra ni sur La Française de l'Énergie côté data center malgré recherches ciblées répétées ; Polarise reste sur sa candidature au consortium AI Gigafactories (annoncée le 5 août), sans actualisation depuis.",
-    "Aucune nouvelle transaction foncière française identifiée dans les dernières 72h — le pipeline reste porté par les dossiers déjà connus (Rantigny/Oise, Escaudain, Hauts-de-France), en attente d'avancées concrètes côté permis ou raccordement RTE."
+    "Le front réglementaire texan s'enlise : ERCOT confirme le 15 août que l'audit ordonné par le gouverneur Abbott (250-300 projets, majoritairement des data centers) prendra « plusieurs mois », avec un rendez-vous PUCT le 20 août pour une dérogation de procédure — la fenêtre d'incertitude sur les nouveaux raccordements ERCOT/Batch Zero s'allonge, un risque à intégrer pour tout foncier texan en cours de sécurisation de puissance.",
+    "La vague d'IPO du secteur s'élargit encore : après Vantage (100 Md$) et DayOne (5 Md$), l'opérateur Switch (Las Vegas, DigitalBridge) dépose confidentiellement pour une valorisation proche de 50 Md$ — un afflux de capitaux qui continue d'alimenter la course au foncier énergisé.",
+    "La consolidation du secteur franchit un palier : le consortium BlackRock GIP / MGX / AI Infrastructure Partnership (Microsoft, Nvidia) a bouclé le 21 juillet le rachat à 40 Md$ d'Aligned Data Centers (51 campus, 6,4+ GW) — signe que les méga-fonds d'infrastructure privilégient désormais l'acquisition de plateformes foncier+puissance déjà constituées plutôt que le seul développement greenfield.",
+    "Côté fédéral américain, l'échéance des ordonnances FERC de juin (justification ou réforme tarifaire sous 60 jours pour les gestionnaires de réseau) tombe mi-août — pression réglementaire supplémentaire pour accélérer les raccordements data center, en écho au plan PJM déposé le 7 août.",
+    "En France, le pipeline foncier « powered land » d'EDF sur friches énergétiques continue de s'étoffer (Montereau/OpCore, Bouchain/SoftBank, Loire-sur-Rhône/Eclairion, AMI Creys-Mépieu de 500 MW lancé le 3 juillet) ; toujours aucun signal nominatif frais sur Polarise, Aurora Infra ou La Française de l'Énergie côté data center malgré recherches ciblées répétées, y compris sur LinkedIn."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Texas : ERCOT annonce que l'audit ordonné par le gouverneur Abbott prendra plusieurs mois, 250 à 300 projets visés",
+      "region": "Amérique du Nord",
+      "date": "2026-08-15",
+      "summary": "Dans un dépôt auprès de la PUCT, ERCOT indique que l'audit des data centers ordonné début août par le gouverneur Abbott pourrait prendre plusieurs mois ; l'opérateur enverra des demandes d'information à 250-300 gros consommateurs d'électricité pour vérifier leur éligibilité au processus « Batch Zero », dont le démarrage est conditionné à une dérogation demandée à la réunion de la PUCT du 20 août.",
+      "source": "Houston Public Media",
+      "url": "https://www.houstonpublicmedia.org/articles/news/energy-environment/2026/08/15/559572/ercot-says-governors-data-center-audit-could-take-months-to-complete/"
+    },
+    {
+      "category": "legislation",
+      "title": "FERC : échéance mi-août pour les gestionnaires de réseau sommés d'accélérer les raccordements data center",
+      "region": "Amérique du Nord",
+      "date": "2026-08-14",
+      "summary": "Les six ordonnances FERC de juin (émises à la demande du DOE) imposant aux gestionnaires de réseau régionaux de justifier sous 60 jours leurs règles tarifaires d'accueil des data centers, ou de les réformer, arrivent à échéance mi-août 2026 — pression réglementaire supplémentaire sur la vitesse de raccordement du foncier énergisé aux États-Unis.",
+      "source": "American Action Forum / Utility Dive",
+      "url": "https://www.americanactionforum.org/insight/ferc-data-center-orders-accelerate-grid-connection/"
+    },
     {
       "category": "legislation",
       "title": "Louisville (Kentucky) : le Metro Council adopte un moratoire de 6 mois sur les nouveaux data centers (24 voix contre 1)",
@@ -131,15 +149,6 @@
       "mw": 31800
     },
     {
-      "category": "market",
-      "title": "Les REIT data centers US signent le meilleur retour sectoriel du marché immobilier coté en 2026 (+33,2%)",
-      "region": "Amérique du Nord",
-      "date": "2026-08-07",
-      "summary": "Les REIT spécialisées data centers ressortent comme le secteur le plus performant du marché immobilier coté américain en 2026 (+33,2% à mi-année) ; Digital Realty affiche un CA T1 en hausse de 16% et son plus gros bail hyperscale jamais signé, Equinix relève sa guidance annuelle de 100 M$, et le secteur a levé 4,2 Md$ de dette non sécurisée et 5,3 Md$ de capital sur douze mois (dont l'IPO de 1,75 Md$ de Blackstone Digital Infrastructure Trust en mai) — un signal de l'appétit financier continu pour l'infrastructure data center, y compris le foncier énergisé sous-jacent.",
-      "source": "The Real Deal / Nareit",
-      "url": "https://therealdeal.com/national/2026/08/07/us-reits-outperform-world-led-by-data-center-firms/"
-    },
-    {
       "category": "power",
       "title": "PJM dépose à la FERC un plan à deux volets : enchère de capacité de secours (jusqu'à 20 Md$) et délestage prioritaire des data centers sans énergie propre",
       "region": "Amérique du Nord",
@@ -148,6 +157,16 @@
       "source": "Utility Dive / Ohio Capital Journal",
       "url": "https://www.utilitydive.com/news/pjm-backstop-capacity-auction-ferc-data-centers/826792/",
       "inv": 20000
+    },
+    {
+      "category": "market",
+      "title": "Switch (Las Vegas) dépose confidentiellement une demande d'IPO américaine visant environ 50 Md$ de valorisation",
+      "region": "Amérique du Nord",
+      "date": "2026-08-07",
+      "summary": "L'opérateur de data centers Switch (majoritairement détenu par DigitalBridge depuis un rachat 2022 à 11 Md$ avec IFM Investors) dépose confidentiellement une demande d'introduction en bourse aux États-Unis, visant une valorisation proche de 50 Md$ dette incluse et une cotation possible dès novembre ; Ben Horowitz (Andreessen Horowitz) rejoint son conseil d'administration.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/data-center-firm-switch-is-said-to-file-confidentially-for-ipo",
+      "inv": 50000
     },
     {
       "category": "construction",
@@ -249,16 +268,6 @@
       "url": "https://www.kbtx.com/2026/08/04/abbott-orders-audits-data-centers-seeking-texas-grid-connections/"
     },
     {
-      "category": "construction",
-      "title": "Samsung Heavy Industries et Mousterian lancent l'ingénierie de data centers flottants amarrés (50 MW/unité) pour les USA",
-      "region": "Amérique du Nord",
-      "date": "2026-08-04",
-      "summary": "Samsung Heavy Industries et le développeur texan Mousterian signent un contrat d'ingénierie pour leurs premières unités de data centers flottants amarrés, refroidis sans eau potable, 50 MW de capacité IT par unité, premiers déploiements visés au Texas — une alternative au foncier terrestre pour sécuriser rapidement puissance et refroidissement.",
-      "source": "Smart Maritime Network / PR Newswire",
-      "url": "https://smartmaritimenetwork.com/2026/08/04/samsung-heavy-and-mousterian-in-floating-data-centre-deal/",
-      "mw": 50
-    },
-    {
       "category": "legislation",
       "title": "Texas : le gouverneur Abbott suspend l'approbation de nouveaux data centers le temps d'un audit ERCOT/PUCT",
       "region": "Amérique du Nord",
@@ -283,19 +292,6 @@
       "poweredLand": true,
       "owners": "TeraWulf (Justified DataPower)",
       "investors": "n.c."
-    },
-    {
-      "category": "competition",
-      "title": "Substrate AI (Espagne) lance une foncière cotée (SOCIMI) pour financer ses data centers IA",
-      "region": "Europe",
-      "date": "2026-08-03",
-      "summary": "La société espagnole Substrate AI crée une REIT dédiée au financement d'actifs IA — data centers et campus HPC —, avec Talavera de la Reina (Castille) comme site pilote, dans une logique de vente de tokens générés par ses LLM Orion plutôt que d'heures de calcul.",
-      "source": "DataCenterDynamics / BeBeez",
-      "url": "https://www.datacenterdynamics.com/en/news/substrate-ai-establishes-data-center-reit-to-accelerate-investments-in-ai-infrastructure/",
-      "coords": [
-        39.96,
-        -4.83
-      ]
     },
     {
       "category": "land",
@@ -329,15 +325,6 @@
       ],
       "owners": "Amazon (AWS)",
       "investors": "n.c."
-    },
-    {
-      "category": "market",
-      "title": "Construction data center US : 22,3 Md$ engagés en juin 2026, 2e meilleur mois jamais enregistré",
-      "region": "Amérique du Nord",
-      "date": "2026-08-01",
-      "summary": "Les mises en chantier de data centers ont totalisé 22,3 Md$ en juin 2026 (2e plus haut niveau mensuel après les 25,5 Md$ de janvier) ; le cumul 2026 atteint 81,5 Md$, déjà supérieur au total 2025 (72,5 Md$). Coûts de construction en hausse de 38 à 67% sur un an.",
-      "source": "ConstructConnect",
-      "url": "https://news.constructconnect.com/august-2026-data-center-report-construction-starts-total-22.3-billion-second-highest-on-record"
     },
     {
       "category": "land",
@@ -491,6 +478,16 @@
       "investors": "OpenAI (autofinancé)"
     },
     {
+      "category": "competition",
+      "title": "Le consortium BlackRock GIP / MGX / AI Infrastructure Partnership boucle le rachat d'Aligned Data Centers pour 40 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-07-21",
+      "summary": "AI Infrastructure Partnership (dont Microsoft et Nvidia), MGX (Abu Dhabi) et Global Infrastructure Partners (BlackRock) finalisent l'acquisition à 100% d'Aligned Data Centers (51 campus, plus de 6,4 GW de capacité opérationnelle et planifiée) pour une valeur d'entreprise d'environ 40 Md$, avec un engagement complémentaire de 5 Md$ pour financer son expansion — l'une des plus grosses transactions d'infrastructure numérique jamais réalisées, illustrant l'appétit des méga-fonds pour les plateformes foncier+puissance déjà constituées.",
+      "source": "Global Infrastructure Partners / MGX",
+      "url": "https://www.mgx.ae/news-insights/aip-mgx-and-blackrocks-gip-close-acquisition-aligned-data-centers",
+      "inv": 40000
+    },
+    {
       "category": "power",
       "title": "Microsoft boucle un data center de 2 GW avec centrale gaz co-localisée au Texas Ouest",
       "region": "Amérique du Nord",
@@ -569,6 +566,18 @@
       "poweredLand": true,
       "owners": "Echelon (80%) · Iberdrola/CPD4Green (20%)",
       "investors": "Iberdrola"
+    },
+    {
+      "category": "land",
+      "title": "France : le programme foncier « powered land » d'EDF sur friches énergétiques s'étoffe (Montereau, Bouchain, Loire-sur-Rhône, Creys-Mépieu)",
+      "region": "France",
+      "date": "2026-Q3",
+      "summary": "EDF poursuit la valorisation de ses friches énergétiques (centrales thermiques et nucléaires à l'arrêt) en sites data center pré-raccordés : OpCore à Montereau-Vallée-de-la-Seine (jusqu'à 700 MW, 4 Md€), SoftBank à Bouchain (400 MW) et Eclairion à Loire-sur-Rhône (330-350 MW) déjà retenus, et un nouvel appel à manifestation d'intérêt lancé le 3 juillet pour 500 MW à Creys-Mépieu (Isère) — un pipeline de foncier déjà énergisé structurant pour le marché français, à surveiller de près pour le sourcing.",
+      "source": "EDF / DataCenterDynamics",
+      "url": "https://www.edf.fr/en/the-edf-group/supporting-our-clients/cei-data-centers",
+      "poweredLand": true,
+      "owners": "EDF (foncier) · OpCore / SoftBank / Eclairion (opérateurs sélectionnés selon site)",
+      "investors": "n.c."
     }
   ]
 }
