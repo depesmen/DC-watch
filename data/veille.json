@@ -1,13 +1,43 @@
 {
-  "lastUpdated": "2026-08-17",
+  "lastUpdated": "2026-08-18",
   "keyTakeaways": [
-    "Le front réglementaire texan s'enlise : ERCOT confirme le 15 août que l'audit ordonné par le gouverneur Abbott (250-300 projets, majoritairement des data centers) prendra « plusieurs mois », avec un rendez-vous PUCT le 20 août pour une dérogation de procédure — la fenêtre d'incertitude sur les nouveaux raccordements ERCOT/Batch Zero s'allonge, un risque à intégrer pour tout foncier texan en cours de sécurisation de puissance.",
-    "La vague d'IPO du secteur s'élargit encore : après Vantage (100 Md$) et DayOne (5 Md$), l'opérateur Switch (Las Vegas, DigitalBridge) dépose confidentiellement pour une valorisation proche de 50 Md$ — un afflux de capitaux qui continue d'alimenter la course au foncier énergisé.",
-    "La consolidation du secteur franchit un palier : le consortium BlackRock GIP / MGX / AI Infrastructure Partnership (Microsoft, Nvidia) a bouclé le 21 juillet le rachat à 40 Md$ d'Aligned Data Centers (51 campus, 6,4+ GW) — signe que les méga-fonds d'infrastructure privilégient désormais l'acquisition de plateformes foncier+puissance déjà constituées plutôt que le seul développement greenfield.",
-    "Côté fédéral américain, l'échéance des ordonnances FERC de juin (justification ou réforme tarifaire sous 60 jours pour les gestionnaires de réseau) tombe mi-août — pression réglementaire supplémentaire pour accélérer les raccordements data center, en écho au plan PJM déposé le 7 août.",
-    "En France, le pipeline foncier « powered land » d'EDF sur friches énergétiques continue de s'étoffer (Montereau/OpCore, Bouchain/SoftBank, Loire-sur-Rhône/Eclairion, AMI Creys-Mépieu de 500 MW lancé le 3 juillet) ; toujours aucun signal nominatif frais sur Polarise, Aurora Infra ou La Française de l'Énergie côté data center malgré recherches ciblées répétées, y compris sur LinkedIn."
+    "Confirmation officielle du méga-deal OpenAI/Nvidia/SB Energy à Portsmouth (Pike County, Ohio) : garantie Nvidia pouvant atteindre 105 Md$ pour un campus de 8 GW sur un site fédéral reconverti, avec bail OpenAI de 20 ans sur 4,25 GW — les garanties de financement tierces s'imposent comme le mécanisme clé pour débloquer des mégawatts sur du foncier déjà identifié.",
+    "Le « powered land » par production dédiée hors réseau se généralise sur plusieurs continents à la fois : micro-réseaux piles à combustible/géothermie à Sulphur Springs (Texas, MSB Global, 3 GW) et PPA éolien dédié à Pecém (Ceará, Brésil, ByteDance, ~1 GW) — le modèle « bring your own power » continue de s'imposer face aux délais de raccordement réseau, y compris hors des marchés matures.",
+    "Nouveau marché à surveiller pour le sourcing : premier data center canadien de Meta en Alberta (13 Md$ CAD, 1 GW extensible à 1,8 GW, énergie 100% renouvelable) confirme l'attractivité de juridictions à énergie propre abondante hors des hubs américains saturés.",
+    "La vague de cotations boursières du secteur s'étend désormais à l'infrastructure « powered » pure : VivoPower prépare la cotation indépendante à Londres de son portefeuille de 2,2 GW au Golfe/ASEAN — signe que les plateformes foncier+puissance deviennent des actifs cotables à part entière, au-delà des seuls opérateurs de data centers.",
+    "Toujours aucun signal nominatif frais sur Polarise (hors son projet déjà connu d'Amberg, Bavière), Aurora Infra ou La Française de l'Énergie côté data center malgré des recherches ciblées répétées, y compris via requêtes site:linkedin.com dédiées."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "OpenAI confirme un campus de 8 GW à Portsmouth (Pike County, Ohio) : Nvidia garantit jusqu'à 105 Md$ de financement",
+      "region": "Amérique du Nord",
+      "date": "2026-08-17",
+      "summary": "Dans un dépôt SEC du 17 août, Nvidia confirme une garantie pouvant atteindre 105 Md$ sur les obligations de bail du campus IA de 8 GW que SB Energy (SoftBank) développe sur l'ancien site fédéral d'enrichissement d'uranium de Portsmouth (Pike County, Ohio) ; OpenAI signe un bail de 20 ans sur la première tranche de 4,25 GW et Nvidia investit par ailleurs 1,5 Md$ en capital dans SB Energy, aux côtés de SoftBank et OpenAI.",
+      "source": "CNBC / Axios / Nikkei Asia",
+      "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
+      "mw": 8000,
+      "inv": 105000,
+      "coords": [
+        39.06,
+        -83.0
+      ],
+      "poweredLand": true,
+      "owners": "SB Energy (SoftBank) · OpenAI (locataire)",
+      "investors": "Nvidia (garantie jusqu'à 105 Md$ + 1,5 Md$ d'equity) · SoftBank Group"
+    },
+    {
+      "category": "market",
+      "title": "VivoPower prépare la cotation indépendante de sa plateforme IA « powered » de 2,2 GW (Golfe/ASEAN)",
+      "region": "Asie-Pacifique",
+      "date": "2026-08-17",
+      "summary": "VivoPower annonce la mise en cotation indépendante (Londres, cotation secondaire à Abu Dhabi) de sa plateforme d'infrastructure IA non-nordique — un portefeuille et pipeline de plus de 2,2 GW situé principalement aux Émirats arabes unis, Oman, Arabie saoudite, Malaisie et Philippines — via une levée pré-IPO auprès d'investisseurs institutionnels et souverains, tout en conservant le contrôle de facto de l'entité.",
+      "source": "GlobeNewswire / Manila Times",
+      "url": "https://www.manilatimes.net/2026/08/17/tmt-newswire/globenewswire/vivopower-approves-independent-listing-of-22gw-non-nordic-ai-infrastructure-platform-transferring-capital-expenditure-requirements-whilst-retaining-de-facto-control/2406791",
+      "mw": 2200,
+      "owners": "VivoPower (contrôle de facto)",
+      "investors": "n.c. (levée pré-IPO en cours, investisseurs institutionnels et souverains)"
+    },
     {
       "category": "legislation",
       "title": "Texas : ERCOT annonce que l'audit ordonné par le gouverneur Abbott prendra plusieurs mois, 250 à 300 projets visés",
@@ -89,17 +119,6 @@
       "investors": "Brookfield Asset Management"
     },
     {
-      "category": "power",
-      "title": "HD Hyundai Heavy Industries décroche un contrat record de 674 M$ pour 1 000 MW de groupes électrogènes destinés à des data centers américains",
-      "region": "Amérique du Nord",
-      "date": "2026-08-10",
-      "summary": "HD Hyundai Heavy Industries signe avec le développeur d'infrastructures énergétiques américain Corban Energy Group un contrat de 673,8 M$ portant sur des groupes électrogènes HiMSEN (9,6 MW/unité) totalisant 1 000 MW, destinés à alimenter les data centers d'un grand groupe technologique américain non identifié — sa plus grosse commande de moteurs de production électrique à ce jour, illustrant l'essor de la production distribuée pour contourner les délais de raccordement réseau.",
-      "source": "PR Newswire / Korea Herald",
-      "url": "https://www.koreaherald.com/article/10836118",
-      "mw": 1000,
-      "inv": 674
-    },
-    {
       "category": "market",
       "title": "Anthropic, Macquarie Asset Management et GIC lancent « Theseus Infrastructure », plateforme dédiée de data centers IA",
       "region": "Amérique du Nord",
@@ -157,16 +176,6 @@
       "source": "Utility Dive / Ohio Capital Journal",
       "url": "https://www.utilitydive.com/news/pjm-backstop-capacity-auction-ferc-data-centers/826792/",
       "inv": 20000
-    },
-    {
-      "category": "market",
-      "title": "Switch (Las Vegas) dépose confidentiellement une demande d'IPO américaine visant environ 50 Md$ de valorisation",
-      "region": "Amérique du Nord",
-      "date": "2026-08-07",
-      "summary": "L'opérateur de data centers Switch (majoritairement détenu par DigitalBridge depuis un rachat 2022 à 11 Md$ avec IFM Investors) dépose confidentiellement une demande d'introduction en bourse aux États-Unis, visant une valorisation proche de 50 Md$ dette incluse et une cotation possible dès novembre ; Ben Horowitz (Andreessen Horowitz) rejoint son conseil d'administration.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/data-center-firm-switch-is-said-to-file-confidentially-for-ipo",
-      "inv": 50000
     },
     {
       "category": "construction",
@@ -260,15 +269,6 @@
     },
     {
       "category": "legislation",
-      "title": "Texas : ERCOT suspend les notifications « Batch Zero » de grosses charges, rendez-vous le 20 août à la PUCT",
-      "region": "Amérique du Nord",
-      "date": "2026-08-04",
-      "summary": "Dans la foulée de l'audit ordonné par le gouverneur Abbott, ERCOT suspend les notifications de classification « Batch Zero » des grosses charges prévues le 7 août et sollicitera une dérogation pour « cause valable » lors de la réunion publique de la PUCT du 20 août, sans date de reprise fixée pour l'étude — un facteur de risque supplémentaire pour tout foncier texan en cours de raccordement.",
-      "source": "KBTX / Texas Politics",
-      "url": "https://www.kbtx.com/2026/08/04/abbott-orders-audits-data-centers-seeking-texas-grid-connections/"
-    },
-    {
-      "category": "legislation",
       "title": "Texas : le gouverneur Abbott suspend l'approbation de nouveaux data centers le temps d'un audit ERCOT/PUCT",
       "region": "Amérique du Nord",
       "date": "2026-08-03",
@@ -343,6 +343,42 @@
       "poweredLand": true,
       "owners": "n.c. (hyperscalers non nommés)",
       "investors": "n.c."
+    },
+    {
+      "category": "construction",
+      "title": "MSB Global fait avancer son campus « Matrix » de 18,7 Md$ / 3 GW à Sulphur Springs (Texas), micro-réseaux dédiés",
+      "region": "Amérique du Nord",
+      "date": "2026-08",
+      "summary": "Sur 1 677 acres à Sulphur Springs (nord-est de Dallas), MSB Global Services avance la construction de son campus « Matrix » : 30 bâtiments de 100 MW chacun (jusqu'à 3 GW à terme) alimentés par des micro-réseaux dédiés sur site (piles à combustible Bloom Energy en phase 1, géothermie en phase 2) plutôt que par le seul réseau ERCOT ; 1re tranche de 800 MW visée fin 2026, achèvement complet en 2029.",
+      "source": "Aterio / MSB Global Services",
+      "url": "https://www.aterio.io/blog/before-the-headlines-a-3gw-ai-data-center-campus-quietly-rises-in-sulphur-springs-tx",
+      "mw": 3000,
+      "inv": 18700,
+      "coords": [
+        33.14,
+        -95.6
+      ],
+      "poweredLand": true,
+      "owners": "MSB Global Services",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "ByteDance lance la construction d'un campus de ~39 Md$ à Pecém (Ceará, Brésil), adossé à un PPA éolien dédié",
+      "region": "Amérique du Sud",
+      "date": "2026-08",
+      "summary": "ByteDance engage la construction, via le développeur Omnia (soutenu par Patria Investments), de son plus grand data center hors Chine sur le complexe portuaire de Pecém (Ceará) : environ 200 MW IT en 1ère tranche visant près de 1 GW d'ici 2027-2029, alimenté par un PPA éolien de 20 ans (~2 Md$) avec Casa dos Ventos sur les parcs d'Ibiapaba (630 MW) et Dom Inocêncio dans le Piauí voisin.",
+      "source": "w.media / Dealroom",
+      "url": "https://w.media/bytedance-begins-construction-of-us-38-44-billion-data-center-in-brazil/",
+      "mw": 1000,
+      "inv": 39000,
+      "coords": [
+        -3.54,
+        -38.82
+      ],
+      "poweredLand": true,
+      "owners": "ByteDance · Omnia (développeur, Patria Investments)",
+      "investors": "Casa dos Ventos (PPA éolien dédié, ~2 Md$)"
     },
     {
       "category": "power",
@@ -442,24 +478,6 @@
       "investors": "n.c."
     },
     {
-      "category": "land",
-      "title": "OpenAI en négociations pour louer 10 GW sur l'ancien site DOE de Portsmouth (Piketon, Ohio) — 500 Md$, garantis en partie par Nvidia",
-      "region": "Amérique du Nord",
-      "date": "2026-07-27",
-      "summary": "OpenAI serait en discussions avancées pour louer l'intégralité d'un campus IA développé par SB Energy (SoftBank) sur l'ancien site fédéral d'enrichissement d'uranium de Portsmouth, dans le comté de Pike (Ohio) — jusqu'à 10 GW à terme, une 1ère tranche de 800 MW dès 2028, Nvidia garantissant jusqu'à 250 Md$ du financement et du bail.",
-      "source": "Bisnow / Forbes",
-      "url": "https://www.bisnow.com/national/news/data-center-development/openai-500b-dollar-data-center-campus-federal-land-nvidia-134983",
-      "mw": 10000,
-      "inv": 500000,
-      "coords": [
-        39.06,
-        -83.0
-      ],
-      "poweredLand": true,
-      "owners": "SB Energy (SoftBank) · OpenAI (locataire pressenti)",
-      "investors": "Nvidia (garantie de financement, jusqu'à 250 Md$)"
-    },
-    {
       "category": "construction",
       "title": "OpenAI dévoile « Project Camellia », campus de 3,2 GW et 20 Md$ dans le comté d'Effingham (Géorgie)",
       "region": "Amérique du Nord",
@@ -488,6 +506,23 @@
       "inv": 40000
     },
     {
+      "category": "construction",
+      "title": "Meta lance son premier data center canadien : 13 Md$ CAD à Sturgeon County (Alberta), 1 GW extensible à 1,8 GW",
+      "region": "Amérique du Nord",
+      "date": "2026-07-09",
+      "summary": "Meta annonce l'implantation de son tout premier data center au Canada, à Sturgeon County (nord-est d'Edmonton, Alberta) : plus de 13 Md$ CAD (~9,2 Md$) d'investissement pour 1 GW de capacité extensible à 1,8 GW, alimenté à 100% en énergie renouvelable ; ~3 000 emplois de chantier au pic, mise en chantier engagée.",
+      "source": "CBC News / CTV News / about.fb.com",
+      "url": "https://www.cbc.ca/news/canada/edmonton/meta-data-centre-sturgeon-county-alberta-9.7263271",
+      "mw": 1000,
+      "inv": 9200,
+      "coords": [
+        53.75,
+        -113.55
+      ],
+      "owners": "Meta",
+      "investors": "Meta (autofinancé)"
+    },
+    {
       "category": "power",
       "title": "Microsoft boucle un data center de 2 GW avec centrale gaz co-localisée au Texas Ouest",
       "region": "Amérique du Nord",
@@ -503,6 +538,18 @@
       ],
       "owners": "Microsoft",
       "investors": "Microsoft (autofinancé)"
+    },
+    {
+      "category": "land",
+      "title": "France : le programme foncier « powered land » d'EDF sur friches énergétiques s'étoffe (Montereau, Bouchain, Loire-sur-Rhône, Creys-Mépieu)",
+      "region": "France",
+      "date": "2026-Q3",
+      "summary": "EDF poursuit la valorisation de ses friches énergétiques (centrales thermiques et nucléaires à l'arrêt) en sites data center pré-raccordés : OpCore à Montereau-Vallée-de-la-Seine (jusqu'à 700 MW, 4 Md€), SoftBank à Bouchain (400 MW) et Eclairion à Loire-sur-Rhône (330-350 MW) déjà retenus, et un nouvel appel à manifestation d'intérêt lancé le 3 juillet pour 500 MW à Creys-Mépieu (Isère) — un pipeline de foncier déjà énergisé structurant pour le marché français, à surveiller de près pour le sourcing.",
+      "source": "EDF / DataCenterDynamics",
+      "url": "https://www.edf.fr/en/the-edf-group/supporting-our-clients/cei-data-centers",
+      "poweredLand": true,
+      "owners": "EDF (foncier) · OpCore / SoftBank / Eclairion (opérateurs sélectionnés selon site)",
+      "investors": "n.c."
     },
     {
       "category": "land",
@@ -566,18 +613,6 @@
       "poweredLand": true,
       "owners": "Echelon (80%) · Iberdrola/CPD4Green (20%)",
       "investors": "Iberdrola"
-    },
-    {
-      "category": "land",
-      "title": "France : le programme foncier « powered land » d'EDF sur friches énergétiques s'étoffe (Montereau, Bouchain, Loire-sur-Rhône, Creys-Mépieu)",
-      "region": "France",
-      "date": "2026-Q3",
-      "summary": "EDF poursuit la valorisation de ses friches énergétiques (centrales thermiques et nucléaires à l'arrêt) en sites data center pré-raccordés : OpCore à Montereau-Vallée-de-la-Seine (jusqu'à 700 MW, 4 Md€), SoftBank à Bouchain (400 MW) et Eclairion à Loire-sur-Rhône (330-350 MW) déjà retenus, et un nouvel appel à manifestation d'intérêt lancé le 3 juillet pour 500 MW à Creys-Mépieu (Isère) — un pipeline de foncier déjà énergisé structurant pour le marché français, à surveiller de près pour le sourcing.",
-      "source": "EDF / DataCenterDynamics",
-      "url": "https://www.edf.fr/en/the-edf-group/supporting-our-clients/cei-data-centers",
-      "poweredLand": true,
-      "owners": "EDF (foncier) · OpCore / SoftBank / Eclairion (opérateurs sélectionnés selon site)",
-      "investors": "n.c."
     }
   ]
 }
