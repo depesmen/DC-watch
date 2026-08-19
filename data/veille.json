@@ -1,13 +1,36 @@
 {
-  "lastUpdated": "2026-08-18",
+  "lastUpdated": "2026-08-19",
   "keyTakeaways": [
-    "Confirmation officielle du méga-deal OpenAI/Nvidia/SB Energy à Portsmouth (Pike County, Ohio) : garantie Nvidia pouvant atteindre 105 Md$ pour un campus de 8 GW sur un site fédéral reconverti, avec bail OpenAI de 20 ans sur 4,25 GW — les garanties de financement tierces s'imposent comme le mécanisme clé pour débloquer des mégawatts sur du foncier déjà identifié.",
-    "Le « powered land » par production dédiée hors réseau se généralise sur plusieurs continents à la fois : micro-réseaux piles à combustible/géothermie à Sulphur Springs (Texas, MSB Global, 3 GW) et PPA éolien dédié à Pecém (Ceará, Brésil, ByteDance, ~1 GW) — le modèle « bring your own power » continue de s'imposer face aux délais de raccordement réseau, y compris hors des marchés matures.",
-    "Nouveau marché à surveiller pour le sourcing : premier data center canadien de Meta en Alberta (13 Md$ CAD, 1 GW extensible à 1,8 GW, énergie 100% renouvelable) confirme l'attractivité de juridictions à énergie propre abondante hors des hubs américains saturés.",
-    "La vague de cotations boursières du secteur s'étend désormais à l'infrastructure « powered » pure : VivoPower prépare la cotation indépendante à Londres de son portefeuille de 2,2 GW au Golfe/ASEAN — signe que les plateformes foncier+puissance deviennent des actifs cotables à part entière, au-delà des seuls opérateurs de data centers.",
+    "Nouveau front réglementaire local aux États-Unis : Memphis vote en 1ère lecture un moratoire de 12 mois sur les nouveaux data centers, visant implicitement l'expansion de Colossus (xAI, >500 MW gaz) — s'ajoute à Louisville et Fort Worth dans la vague de pushback municipal qui pèse sur le foncier déjà en développement.",
+    "Risque foncier à intégrer pour tout sourcing proche de territoires amérindiens : la Cherokee Nation interdit les data centers hyperscale sur ses terres tribales/en fiducie en Oklahoma et exige une consultation robuste pour tout projet sur du foncier non-tribal inclus dans sa réserve.",
+    "Le marché européen des data centers croît de 20% pour atteindre 13 GW fin 2026 selon CBRE (autoconstruction hyperscaler +22%, 17e année consécutive de croissance à deux chiffres) ; taux de vacance à un plancher historique de 6,5% et signatures neocloud multipliées par 4,7 au S1 — confirmation de la tension structurelle sur le foncier énergisé européen.",
+    "France : Brookfield structure un investissement de 10 Md€ pour le méga-campus Data4 de Cambrai (jusqu'à 1 GW, ex-base aérienne de 320 ha) — nouvel exemple de foncier militaire/industriel pré-zoné mobilisé pour l'IA dans les Hauts-de-France, aux côtés d'Escaudain et du foncier portuaire de Dunkerque.",
     "Toujours aucun signal nominatif frais sur Polarise (hors son projet déjà connu d'Amberg, Bavière), Aurora Infra ou La Française de l'Énergie côté data center malgré des recherches ciblées répétées, y compris via requêtes site:linkedin.com dédiées."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Memphis (Tennessee) vote en 1ère lecture un moratoire de 12 mois sur les nouveaux data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-08-18",
+      "summary": "Le Memphis City Council adopte en première lecture un moratoire de 12 mois suspendant instructions de rezonage, permis de construire et validations de plan de site pour tout nouveau data center, le temps d'étudier les impacts sur l'eau, les réseaux et les quartiers ; la mesure ne s'applique pas rétroactivement aux campus existants comme Colossus (xAI, plus de 500 MW sur turbines gaz), mais la Greater Memphis Chamber s'y oppose fermement.",
+      "source": "Daily Memphian / Action News 5",
+      "url": "https://www.actionnews5.com/2026/08/18/memphis-city-council-committee-advances-data-center-moratorium-proposal/",
+      "coords": [
+        35.1495,
+        -90.049
+      ]
+    },
+    {
+      "category": "market",
+      "title": "CBRE : le marché européen des data centers croîtra de 20% pour atteindre 13 GW fin 2026",
+      "region": "Europe",
+      "date": "2026-08-18",
+      "summary": "Selon CBRE, la capacité totale des data centers en Europe progressera de 20% cette année pour atteindre 13 GW, portée par l'autoconstruction hyperscaler (+22%, 4,3 GW, 17e année consécutive de croissance à deux chiffres) ; le taux de vacance devrait tomber à un plancher historique de 6,5% fin 2026, et la capacité signée par les neoclouds a bondi à 420 MW au S1 (contre 89 MW un an plus tôt) — 70% de l'offre hyperscaler en service se concentre en Irlande, Pays-Bas, Suède et Belgique.",
+      "source": "CBRE / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/cbre-europe-data-center-market-to-grow-by-nearly-a-quarter-in-2026/",
+      "mw": 13000
+    },
     {
       "category": "land",
       "title": "OpenAI confirme un campus de 8 GW à Portsmouth (Pike County, Ohio) : Nvidia garantit jusqu'à 105 Md$ de financement",
@@ -236,6 +259,19 @@
       "url": "https://polarise.eu/newsroom/polarise-plans-to-participate-in-eu-tender-for-ai-gigafactories/"
     },
     {
+      "category": "legislation",
+      "title": "La Cherokee Nation interdit les data centers hyperscale sur ses terres tribales et en fiducie (Oklahoma)",
+      "region": "Amérique du Nord",
+      "date": "2026-08-05",
+      "summary": "Le chef Chuck Hoskin annonce l'interdiction des data centers hyperscale sur les terres tribales et en fiducie de la Cherokee Nation, à l'issue d'un rapport de son Data Center Task Force montrant que 64% des citoyens sondés s'opposent à ces projets ; la Nation refusera aussi de soutenir tout projet hyperscale sur du foncier non-tribal situé à l'intérieur de sa réserve (nord-est de l'Oklahoma) sans consultation « robuste » préalable — nouveau risque foncier pour le sourcing en territoire amérindien.",
+      "source": "DataCenterDynamics / Tribal Business News",
+      "url": "https://www.datacenterdynamics.com/en/news/cherokee-nation-in-the-us-bans-data-center-development/",
+      "coords": [
+        35.9151,
+        -94.9694
+      ]
+    },
+    {
       "category": "power",
       "title": "NRG dévoile un accord de 3,2 Md$ pour une centrale gaz dédiée de 1,2 GW à un hyperscaler au Texas",
       "region": "Amérique du Nord",
@@ -446,38 +482,6 @@
       "investors": "BlackRock"
     },
     {
-      "category": "land",
-      "title": "AMD sécurise 530 MW d'infra IA via Core Scientific (14 Md$, extensible à 2,5 GW)",
-      "region": "Amérique du Nord",
-      "date": "2026-07-28",
-      "summary": "AMD signe avec Core Scientific pour 530 MW d'infrastructure IA sur cinq sites américains, via des baux de 15 ans totalisant plus de 14 Md$ de revenus contractés, avec des droits d'extension jusqu'à 2,5 GW — reconversion d'anciens sites de minage crypto vers l'IA.",
-      "source": "Tech Times",
-      "url": "https://www.techtimes.com/articles/321813/20260728/amds-14b-data-center-bet-core-scientific-targets-nvidias-ai-infrastructure-lead.htm",
-      "mw": 530,
-      "inv": 14000,
-      "poweredLand": true,
-      "owners": "Core Scientific (sites) · AMD (locataire)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Galaxy Digital acquiert 500 acres à McGregor (Texas) pour un second campus IA, 74 MW en 1ère phase",
-      "region": "Amérique du Nord",
-      "date": "2026-07-28",
-      "summary": "Galaxy Digital rachète environ 500 acres dans le McGregor Industrial Park (Texas), à proximité de son site voisin de SpaceX, pour 7,5 M$, afin d'y développer « Project Merlin », son second campus data center texan représentant plus de 400 M$ d'investissement ; première phase de 74 MW visée pour une mise sous tension en 2028, extensible à plusieurs centaines de MW d'ici 2030.",
-      "source": "PR Newswire / DataCenterDynamics",
-      "url": "https://www.prnewswire.com/news-releases/galaxy-expands-data-center-footprint-with-acquisition-of-500-acre-campus-in-mcgregor-texas-302836014.html",
-      "mw": 74,
-      "inv": 400,
-      "coords": [
-        31.44,
-        -97.4
-      ],
-      "poweredLand": true,
-      "owners": "Galaxy Digital",
-      "investors": "n.c."
-    },
-    {
       "category": "construction",
       "title": "OpenAI dévoile « Project Camellia », campus de 3,2 GW et 20 Md$ dans le comté d'Effingham (Géorgie)",
       "region": "Amérique du Nord",
@@ -504,40 +508,6 @@
       "source": "Global Infrastructure Partners / MGX",
       "url": "https://www.mgx.ae/news-insights/aip-mgx-and-blackrocks-gip-close-acquisition-aligned-data-centers",
       "inv": 40000
-    },
-    {
-      "category": "construction",
-      "title": "Meta lance son premier data center canadien : 13 Md$ CAD à Sturgeon County (Alberta), 1 GW extensible à 1,8 GW",
-      "region": "Amérique du Nord",
-      "date": "2026-07-09",
-      "summary": "Meta annonce l'implantation de son tout premier data center au Canada, à Sturgeon County (nord-est d'Edmonton, Alberta) : plus de 13 Md$ CAD (~9,2 Md$) d'investissement pour 1 GW de capacité extensible à 1,8 GW, alimenté à 100% en énergie renouvelable ; ~3 000 emplois de chantier au pic, mise en chantier engagée.",
-      "source": "CBC News / CTV News / about.fb.com",
-      "url": "https://www.cbc.ca/news/canada/edmonton/meta-data-centre-sturgeon-county-alberta-9.7263271",
-      "mw": 1000,
-      "inv": 9200,
-      "coords": [
-        53.75,
-        -113.55
-      ],
-      "owners": "Meta",
-      "investors": "Meta (autofinancé)"
-    },
-    {
-      "category": "power",
-      "title": "Microsoft boucle un data center de 2 GW avec centrale gaz co-localisée au Texas Ouest",
-      "region": "Amérique du Nord",
-      "date": "2026-07",
-      "summary": "Microsoft finalise un projet de 2 GW associant data center et centrale au gaz co-localisée dans l'ouest du Texas, adossé à un PPA de 20 ans — l'un des plus gros montages gaz + data center co-localisés des USA (6 000+ emplois de chantier).",
-      "source": "Orrick",
-      "url": "https://www.orrick.com/en/News/2026/07/Microsoft-Expands-Global-Data-Center-Capacity-with-2-GW-Data-Center-and-Co-Located-Power-Facility",
-      "poweredLand": true,
-      "mw": 2000,
-      "coords": [
-        31.8,
-        -102.4
-      ],
-      "owners": "Microsoft",
-      "investors": "Microsoft (autofinancé)"
     },
     {
       "category": "land",
@@ -586,6 +556,24 @@
       "poweredLand": true,
       "owners": "Data4",
       "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Brookfield structure 10 Md€ pour le méga-campus Data4 de Cambrai (jusqu'à 1 GW, ex-base aérienne)",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Dans le cadre de son engagement de 20 Md€ pour l'IA en France annoncé à Choose France, Brookfield structure environ 10 Md€ pour le plus grand campus data center de Data4, sur 320 ha de l'ancienne base aérienne militaire de Cambrai-Épinoy (Nord) : jusqu'à 1 GW à terme (première étape 300 MW visée pour 2030), ~4 000 emplois directs et indirects, travaux visés au second semestre 2026.",
+      "source": "DataCenterDynamics / Brookfield",
+      "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
+      "mw": 1000,
+      "inv": 10900,
+      "coords": [
+        50.1758,
+        3.2354
+      ],
+      "poweredLand": true,
+      "owners": "Data4 (site) · Brookfield (investisseur)",
+      "investors": "Brookfield Asset Management"
     },
     {
       "category": "power",
