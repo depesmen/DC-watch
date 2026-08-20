@@ -1,13 +1,41 @@
 {
-  "lastUpdated": "2026-08-19",
+  "lastUpdated": "2026-08-20",
   "keyTakeaways": [
-    "Nouveau front réglementaire local aux États-Unis : Memphis vote en 1ère lecture un moratoire de 12 mois sur les nouveaux data centers, visant implicitement l'expansion de Colossus (xAI, >500 MW gaz) — s'ajoute à Louisville et Fort Worth dans la vague de pushback municipal qui pèse sur le foncier déjà en développement.",
-    "Risque foncier à intégrer pour tout sourcing proche de territoires amérindiens : la Cherokee Nation interdit les data centers hyperscale sur ses terres tribales/en fiducie en Oklahoma et exige une consultation robuste pour tout projet sur du foncier non-tribal inclus dans sa réserve.",
-    "Le marché européen des data centers croît de 20% pour atteindre 13 GW fin 2026 selon CBRE (autoconstruction hyperscaler +22%, 17e année consécutive de croissance à deux chiffres) ; taux de vacance à un plancher historique de 6,5% et signatures neocloud multipliées par 4,7 au S1 — confirmation de la tension structurelle sur le foncier énergisé européen.",
-    "France : Brookfield structure un investissement de 10 Md€ pour le méga-campus Data4 de Cambrai (jusqu'à 1 GW, ex-base aérienne de 320 ha) — nouvel exemple de foncier militaire/industriel pré-zoné mobilisé pour l'IA dans les Hauts-de-France, aux côtés d'Escaudain et du foncier portuaire de Dunkerque.",
+    "Texas : selon BloombergNEF, l'audit ERCOT/PUCT ordonné par le gouverneur Abbott met en risque de retard 49,8 GW de projets (20% du pipeline data center américain), avec un manque à gagner pouvant atteindre 8 Md$ de revenus d'ici le T1 2027 — le risque réglementaire texan doit désormais être chiffré dans tout dossier de sourcing local, y compris sur du foncier déjà engagé.",
+    "Vague de « charm offensive » des hyperscalers face au backlash : fonds communautaire de 1 Md$ de Meta pour ses villes d'accueil, lettre ouverte d'OpenAI au gouverneur du Texas, campagne de relations publiques d'Oracle autour de Project Jupiter (Nouveau-Mexique) — les accords de bénéfices communautaires (souvent sous NDA) deviennent un prérequis de facto pour sécuriser le foncier localement.",
+    "Europe : le foncier énergisé premium des marchés FLAP-D a vu son coût bondir de 82% depuis 2021 (1,24 M€ à 2,26 M€/MW) et les nouveaux sites s'éloignent désormais en moyenne de 175 km des hubs traditionnels (contre 46 km en 2022-2025) — confirmation que le sourcing doit s'étendre vers des marchés secondaires pour rester compétitif sur le coût du foncier et de l'énergie.",
+    "Nouvelle vague d'IPO du secteur data center : Switch dépose confidentiellement pour une IPO visant ~50 Md$ de valorisation, après Vantage (100 Md$) et DayOne (5 Md$) — appétit financier qui reste intact malgré les tensions foncier/réseau.",
     "Toujours aucun signal nominatif frais sur Polarise (hors son projet déjà connu d'Amberg, Bavière), Aurora Infra ou La Française de l'Énergie côté data center malgré des recherches ciblées répétées, y compris via requêtes site:linkedin.com dédiées."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Big Tech déploie une « charm offensive » face au backlash anti-data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-08-19",
+      "summary": "Face à la vague de moratoires locaux, Mark Zuckerberg (Meta) lance un fonds communautaire de 1 Md$ pour les villes d'accueil de ses data centers, OpenAI publie une lettre ouverte au gouverneur du Texas promettant un développement « responsable », et Oracle multiplie les opérations de relations publiques autour de son campus Project Jupiter (2,45 GW) au Nouveau-Mexique — signe que les accords de bénéfices communautaires deviennent un prérequis de facto pour sécuriser le foncier.",
+      "source": "Bloomberg / Semafor",
+      "url": "https://www.semafor.com/article/08/10/2026/us-tech-stages-data-center-charm-offensive"
+    },
+    {
+      "category": "power",
+      "title": "BloombergNEF : l'audit texan menace de retarder 49,8 GW, 20% du pipeline data center américain",
+      "region": "Amérique du Nord",
+      "date": "2026-08-19",
+      "summary": "Selon une analyse BloombergNEF, la pause sur les raccordements ERCOT ordonnée par le gouverneur Abbott met en risque de retard près de 49,8 GW de projets data center (20% du pipeline national), avec un manque à gagner pouvant atteindre 8 Md$ de revenus d'ici le premier trimestre 2027 si 60% de la capacité concernée est liée à l'IA.",
+      "source": "BloombergNEF / Utility Dive",
+      "url": "https://www.utilitydive.com/news/texas-data-center-pause-puts-us-pipeline-risk-of-delay-bnef/827185/",
+      "mw": 49800
+    },
+    {
+      "category": "land",
+      "title": "Europe : le foncier énergisé premium (FLAP-D) a bondi de 82% depuis 2021, les sites IA s'éloignent des hubs traditionnels",
+      "region": "Europe",
+      "date": "2026-08-19",
+      "summary": "Le coût du foncier énergisé premium dans les marchés FLAP-D (Francfort, Londres, Amsterdam, Paris, Dublin) a grimpé de 82% depuis 2021 (1,24 M€ à 2,26 M€ par MW) ; sur 2026-2028 les nouveaux sites data center se situent en moyenne à 175 km d'un hub majeur contre 46 km sur 2022-2025, et seuls 37% des quelque 700 MW ajoutés au T2 2026 sont allés aux cinq marchés établis — confirmation de la ruée vers des marchés secondaires pour l'accès au foncier et à l'énergie à coût maîtrisé.",
+      "source": "AP / TheNextWeb / JLL EMEA",
+      "url": "https://kelo.com/2026/08/19/europe-ai-data-centres-seek-cheaper-quicker-energy-and-land/"
+    },
     {
       "category": "legislation",
       "title": "Memphis (Tennessee) vote en 1ère lecture un moratoire de 12 mois sur les nouveaux data centers",
@@ -50,36 +78,6 @@
       "investors": "Nvidia (garantie jusqu'à 105 Md$ + 1,5 Md$ d'equity) · SoftBank Group"
     },
     {
-      "category": "market",
-      "title": "VivoPower prépare la cotation indépendante de sa plateforme IA « powered » de 2,2 GW (Golfe/ASEAN)",
-      "region": "Asie-Pacifique",
-      "date": "2026-08-17",
-      "summary": "VivoPower annonce la mise en cotation indépendante (Londres, cotation secondaire à Abu Dhabi) de sa plateforme d'infrastructure IA non-nordique — un portefeuille et pipeline de plus de 2,2 GW situé principalement aux Émirats arabes unis, Oman, Arabie saoudite, Malaisie et Philippines — via une levée pré-IPO auprès d'investisseurs institutionnels et souverains, tout en conservant le contrôle de facto de l'entité.",
-      "source": "GlobeNewswire / Manila Times",
-      "url": "https://www.manilatimes.net/2026/08/17/tmt-newswire/globenewswire/vivopower-approves-independent-listing-of-22gw-non-nordic-ai-infrastructure-platform-transferring-capital-expenditure-requirements-whilst-retaining-de-facto-control/2406791",
-      "mw": 2200,
-      "owners": "VivoPower (contrôle de facto)",
-      "investors": "n.c. (levée pré-IPO en cours, investisseurs institutionnels et souverains)"
-    },
-    {
-      "category": "legislation",
-      "title": "Texas : ERCOT annonce que l'audit ordonné par le gouverneur Abbott prendra plusieurs mois, 250 à 300 projets visés",
-      "region": "Amérique du Nord",
-      "date": "2026-08-15",
-      "summary": "Dans un dépôt auprès de la PUCT, ERCOT indique que l'audit des data centers ordonné début août par le gouverneur Abbott pourrait prendre plusieurs mois ; l'opérateur enverra des demandes d'information à 250-300 gros consommateurs d'électricité pour vérifier leur éligibilité au processus « Batch Zero », dont le démarrage est conditionné à une dérogation demandée à la réunion de la PUCT du 20 août.",
-      "source": "Houston Public Media",
-      "url": "https://www.houstonpublicmedia.org/articles/news/energy-environment/2026/08/15/559572/ercot-says-governors-data-center-audit-could-take-months-to-complete/"
-    },
-    {
-      "category": "legislation",
-      "title": "FERC : échéance mi-août pour les gestionnaires de réseau sommés d'accélérer les raccordements data center",
-      "region": "Amérique du Nord",
-      "date": "2026-08-14",
-      "summary": "Les six ordonnances FERC de juin (émises à la demande du DOE) imposant aux gestionnaires de réseau régionaux de justifier sous 60 jours leurs règles tarifaires d'accueil des data centers, ou de les réformer, arrivent à échéance mi-août 2026 — pression réglementaire supplémentaire sur la vitesse de raccordement du foncier énergisé aux États-Unis.",
-      "source": "American Action Forum / Utility Dive",
-      "url": "https://www.americanactionforum.org/insight/ferc-data-center-orders-accelerate-grid-connection/"
-    },
-    {
       "category": "legislation",
       "title": "Louisville (Kentucky) : le Metro Council adopte un moratoire de 6 mois sur les nouveaux data centers (24 voix contre 1)",
       "region": "Amérique du Nord",
@@ -114,16 +112,6 @@
         32.7555,
         -97.3308
       ]
-    },
-    {
-      "category": "market",
-      "title": "DayOne Data Centers (Singapour) dépose confidentiellement une demande d'IPO américaine visant 5 Md$",
-      "region": "Asie-Pacifique",
-      "date": "2026-08-11",
-      "summary": "L'opérateur singapourien DayOne Data Centers aurait déposé confidentiellement une demande d'introduction en bourse aux États-Unis visant à lever environ 5 Md$, pour une valorisation autour de 20 Md$, avec une cotation envisagée dès le trimestre prochain — nouveau signe de la vague d'IPO du secteur data center portée par la demande IA en Asie-Pacifique.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-11/dayone-data-centers-said-to-confidentially-file-for-5-billion-ipo-us",
-      "inv": 5000
     },
     {
       "category": "land",
@@ -199,6 +187,16 @@
       "source": "Utility Dive / Ohio Capital Journal",
       "url": "https://www.utilitydive.com/news/pjm-backstop-capacity-auction-ferc-data-centers/826792/",
       "inv": 20000
+    },
+    {
+      "category": "market",
+      "title": "Switch dépose confidentiellement une demande d'IPO américaine visant environ 50 Md$ de valorisation",
+      "region": "Amérique du Nord",
+      "date": "2026-08-07",
+      "summary": "L'opérateur de data centers Switch (Las Vegas, contrôlé par DigitalBridge et IFM Investors depuis un rachat à 11 Md$ en 2022) dépose confidentiellement une demande d'introduction en bourse aux États-Unis visant une valorisation proche de 50 Md$, avec une cotation envisagée dès novembre ; Bank of America, Citigroup, Goldman Sachs, JPMorgan et Morgan Stanley sont associées à l'opération.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/data-center-firm-switch-is-said-to-file-confidentially-for-ipo",
+      "inv": 50000
     },
     {
       "category": "construction",
@@ -417,6 +415,16 @@
       "investors": "Casa dos Ventos (PPA éolien dédié, ~2 Md$)"
     },
     {
+      "category": "construction",
+      "title": "États-Unis : les mises en chantier de data centers atteignent 22,3 Md$ en août 2026, 2e plus haut niveau jamais enregistré",
+      "region": "Amérique du Nord",
+      "date": "2026-08",
+      "summary": "Selon le rapport mensuel de ConstructConnect, la valeur des mises en chantier de data centers aux États-Unis atteint 22,3 Md$ en août 2026, le deuxième plus haut niveau jamais enregistré — nouvelle confirmation du rythme soutenu de la construction malgré les tensions locales sur le foncier et le réseau.",
+      "source": "ConstructConnect",
+      "url": "https://news.constructconnect.com/august-2026-data-center-report-construction-starts-total-22.3-billion-second-highest-on-record",
+      "inv": 22300
+    },
+    {
       "category": "power",
       "title": "SpaceX/xAI : centrale gaz permanente de 1,2 GW dans le Mississippi pour remplacer les turbines non autorisées de Colossus",
       "region": "Amérique du Nord",
@@ -453,18 +461,6 @@
       "investors": "n.c."
     },
     {
-      "category": "competition",
-      "title": "Koch Inc. explore une cession d'Edged (data centers waterless) pouvant atteindre 15 Md$",
-      "region": "Amérique du Nord",
-      "date": "2026-07-28",
-      "summary": "Koch Inc., cofondateur d'Edged aux côtés de Jakob Carnemark, mandate Goldman Sachs pour sonder l'intérêt d'acquéreurs sur une cession valorisée jusqu'à 15 Md$ ; Edged exploite sept data centers en refroidissement sans eau (dont 169 MW à Atlanta) et développe des sites aux USA ainsi qu'à Bilbao, Madrid, Barcelone et Lisbonne.",
-      "source": "Bloomberg / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/data-center-firm-edged-up-for-sale-for-15-billion-report/",
-      "inv": 15000,
-      "owners": "Koch Inc. / Jakob Carnemark (Edged)",
-      "investors": "n.c. (process piloté par Goldman Sachs)"
-    },
-    {
       "category": "construction",
       "title": "Meta et BlackRock montent une JV de 14 Md$ pour un campus de 1 GW à El Paso (Texas)",
       "region": "Amérique du Nord",
@@ -480,6 +476,24 @@
       ],
       "owners": "Meta (20%) · BlackRock (80%)",
       "investors": "BlackRock"
+    },
+    {
+      "category": "land",
+      "title": "Galaxy Digital achète 500 acres à McGregor (Texas) pour un second campus IA de 74 MW près de SpaceX",
+      "region": "Amérique du Nord",
+      "date": "2026-07-28",
+      "summary": "Galaxy Digital finalise l'acquisition d'environ 500 acres auprès de la ville de McGregor (Texas, au nord-est du site SpaceX) pour son « Project Merlin », un campus data center de plus de 400 M$ dont la première phase de 74 MW est visée pour 2028 ; Galaxy s'engage à financer intégralement un poste électrique dédié sur site.",
+      "source": "PR Newswire / The Block",
+      "url": "https://www.prnewswire.com/news-releases/galaxy-expands-data-center-footprint-with-acquisition-of-500-acre-campus-in-mcgregor-texas-302836014.html",
+      "mw": 74,
+      "inv": 400,
+      "coords": [
+        31.4638,
+        -97.4084
+      ],
+      "poweredLand": true,
+      "owners": "Galaxy Digital",
+      "investors": "n.c."
     },
     {
       "category": "construction",
@@ -498,16 +512,6 @@
       "poweredLand": true,
       "owners": "OpenAI",
       "investors": "OpenAI (autofinancé)"
-    },
-    {
-      "category": "competition",
-      "title": "Le consortium BlackRock GIP / MGX / AI Infrastructure Partnership boucle le rachat d'Aligned Data Centers pour 40 Md$",
-      "region": "Amérique du Nord",
-      "date": "2026-07-21",
-      "summary": "AI Infrastructure Partnership (dont Microsoft et Nvidia), MGX (Abu Dhabi) et Global Infrastructure Partners (BlackRock) finalisent l'acquisition à 100% d'Aligned Data Centers (51 campus, plus de 6,4 GW de capacité opérationnelle et planifiée) pour une valeur d'entreprise d'environ 40 Md$, avec un engagement complémentaire de 5 Md$ pour financer son expansion — l'une des plus grosses transactions d'infrastructure numérique jamais réalisées, illustrant l'appétit des méga-fonds pour les plateformes foncier+puissance déjà constituées.",
-      "source": "Global Infrastructure Partners / MGX",
-      "url": "https://www.mgx.ae/news-insights/aip-mgx-and-blackrocks-gip-close-acquisition-aligned-data-centers",
-      "inv": 40000
     },
     {
       "category": "land",
@@ -571,7 +575,6 @@
         50.1758,
         3.2354
       ],
-      "poweredLand": true,
       "owners": "Data4 (site) · Brookfield (investisseur)",
       "investors": "Brookfield Asset Management"
     },
