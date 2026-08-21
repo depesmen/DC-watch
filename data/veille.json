@@ -1,13 +1,22 @@
 {
-  "lastUpdated": "2026-08-20",
+  "lastUpdated": "2026-08-21",
   "keyTakeaways": [
-    "Texas : selon BloombergNEF, l'audit ERCOT/PUCT ordonné par le gouverneur Abbott met en risque de retard 49,8 GW de projets (20% du pipeline data center américain), avec un manque à gagner pouvant atteindre 8 Md$ de revenus d'ici le T1 2027 — le risque réglementaire texan doit désormais être chiffré dans tout dossier de sourcing local, y compris sur du foncier déjà engagé.",
-    "Vague de « charm offensive » des hyperscalers face au backlash : fonds communautaire de 1 Md$ de Meta pour ses villes d'accueil, lettre ouverte d'OpenAI au gouverneur du Texas, campagne de relations publiques d'Oracle autour de Project Jupiter (Nouveau-Mexique) — les accords de bénéfices communautaires (souvent sous NDA) deviennent un prérequis de facto pour sécuriser le foncier localement.",
-    "Europe : le foncier énergisé premium des marchés FLAP-D a vu son coût bondir de 82% depuis 2021 (1,24 M€ à 2,26 M€/MW) et les nouveaux sites s'éloignent désormais en moyenne de 175 km des hubs traditionnels (contre 46 km en 2022-2025) — confirmation que le sourcing doit s'étendre vers des marchés secondaires pour rester compétitif sur le coût du foncier et de l'énergie.",
-    "Nouvelle vague d'IPO du secteur data center : Switch dépose confidentiellement pour une IPO visant ~50 Md$ de valorisation, après Vantage (100 Md$) et DayOne (5 Md$) — appétit financier qui reste intact malgré les tensions foncier/réseau.",
-    "Toujours aucun signal nominatif frais sur Polarise (hors son projet déjà connu d'Amberg, Bavière), Aurora Infra ou La Française de l'Énergie côté data center malgré des recherches ciblées répétées, y compris via requêtes site:linkedin.com dédiées."
+    "France : la vague de reconversion de foncier énergisé s'accélère nettement — autorisation préfectorale du Campus IA de Fouju (1,4 GW sur 89 ha, Seine-et-Marne), rachat du siège d'HRS à Champagnier par Azur Datacenter (360 M€) pour un data center haute densité, et réservation RTE de 700 MW « fast track » sur l'ex-usine Ynsect à Poulainville (Somme) : trois dossiers de powered land français à suivre de près pour le sourcing.",
+    "Le backlash réglementaire américain se durcit et se diversifie : la Pennsylvanie impose désormais des normes contraignantes à l'échelle de l'État (décret « GRID » du gouverneur Shapiro, fin de la procédure accélérée, interdiction des NDA), tandis que la justice texane bloque temporairement l'accord municipal de Westlake sur le projet PowerHouse Circle T — un sondage Gallup cité par CNBC indique 71% d'opposition locale aux data centers.",
+    "Polarise : rebondissement capitalistique — SWI Stoneweg Icona Group renonce à la prise de participation majoritaire annoncée en février 2026 et bascule vers un simple financement par dette, signe de prudence des investisseurs financiers malgré la dynamique du secteur ; toujours aucun signal frais côté Aurora Infra ou La Française de l'Énergie malgré des recherches ciblées répétées, y compris via requêtes site:linkedin.com dédiées.",
+    "Le « powered land » se structure comme classe d'actifs à part entière hors des États-Unis : Harworth Group (Royaume-Uni) prépare une deuxième cession de foncier déjà raccordé après son deal Microsoft de 2024, confirmant l'appétit des foncières spécialisées européennes pour ce modèle.",
+    "Consolidation continue côté opérateurs malgré les tensions foncier/réseau : Koch Inc. envisagerait de céder Edged (>15 Md$), AWS étend son empreinte en Louisiane (+6 Md$, 18 Md$ cumulés à Shreveport) et l'audit ERCOT/PUCT texan avance (ERCOT demande une dérogation de mise en œuvre) — la course à la capacité reste soutenue."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Texas : ERCOT demande à la PUCT une dérogation pour mener l'audit des data centers ordonné par le gouverneur Abbott",
+      "region": "Amérique du Nord",
+      "date": "2026-08-20",
+      "summary": "Lors de la réunion de la Public Utility Commission of Texas du 20 août, ERCOT a demandé une « good cause exception » pour mettre en œuvre l'audit ordonné début août par le gouverneur Abbott, portant sur environ 250 à 300 projets (majoritairement des data centers) avant toute nouvelle approbation d'interconnexion.",
+      "source": "Holland & Knight / Texas Tribune",
+      "url": "https://www.hklaw.com/en/insights/publications/2026/08/texas-gov-abbott-directs-data-center-audit"
+    },
     {
       "category": "legislation",
       "title": "Big Tech déploie une « charm offensive » face au backlash anti-data centers",
@@ -37,6 +46,18 @@
       "url": "https://kelo.com/2026/08/19/europe-ai-data-centres-seek-cheaper-quicker-energy-and-land/"
     },
     {
+      "category": "land",
+      "title": "Royaume-Uni : Harworth Group entre en exclusivité pour la vente d'un second terrain « powered » à un opérateur de data centers",
+      "region": "Europe",
+      "date": "2026-08-19",
+      "summary": "Le foncier britannique Harworth Group a signé un accord d'exclusivité avec un opérateur de data centers non nommé pour la vente d'un second site de son portefeuille de terrains déjà raccordés, avec un accord de raccordement électrique déjà accepté ; sa première vente comparable (à Microsoft en 2024) s'était conclue à 106,6 M£.",
+      "source": "TheBusinessDesk.com / Property Week",
+      "url": "https://www.thebusinessdesk.com/yorkshire/news/2159023-harworth-signs-exclusivity-agreement-with-leading-data-centre-provider",
+      "poweredLand": true,
+      "owners": "Harworth Group plc",
+      "investors": "n.c. (acheteur non nommé)"
+    },
+    {
       "category": "legislation",
       "title": "Memphis (Tennessee) vote en 1ère lecture un moratoire de 12 mois sur les nouveaux data centers",
       "region": "Amérique du Nord",
@@ -60,6 +81,42 @@
       "mw": 13000
     },
     {
+      "category": "competition",
+      "title": "Polarise : SWI Group renonce à sa prise de participation majoritaire et bascule vers un financement par dette",
+      "region": "Europe",
+      "date": "2026-08-18",
+      "summary": "SWI Stoneweg Icona Group, qui avait annoncé en février 2026 vouloir prendre une participation majoritaire dans Polarise, se retire de cet accord et lui accorde à la place un financement par dette pour accélérer le déploiement de son cloud IA européen et de ses « AI Factories » ; SWI développe en parallèle sa propre plateforme cloud IA après le rachat du mineur crypto américain GDA (15 data centers, ~1,3 GW).",
+      "source": "DataCenterDynamics / Dealroom",
+      "url": "https://www.datacenterdynamics.com/en/news/swi-group-pulls-out-of-planned-investment-in-german-ai-cloud-firm-polarise/",
+      "owners": "Polarise Holding GmbH",
+      "investors": "SWI Stoneweg Icona Group (dette)"
+    },
+    {
+      "category": "legislation",
+      "title": "Pennsylvanie : le gouverneur Shapiro impose de nouvelles règles contraignantes aux data centers (normes « GRID »)",
+      "region": "Amérique du Nord",
+      "date": "2026-08-18",
+      "summary": "Le gouverneur Josh Shapiro a signé un décret rendant contraignantes ses normes « GRID » (énergie, transparence, approbation locale, protection environnementale) pour les data centers IA, retirant ces projets de la procédure accélérée et interdisant les clauses de confidentialité associées ; plus de 100 projets sont recensés dans l'État.",
+      "source": "The Philadelphia Inquirer / Washington Post",
+      "url": "https://www.inquirer.com/politics/pennsylvania/josh-shapiro-data-center-order-20260818.html"
+    },
+    {
+      "category": "construction",
+      "title": "AWS annonce un troisième campus à Shreveport (Louisiane), 6 Md$, portant l'investissement cumulé à 18 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-08-18",
+      "summary": "Amazon Web Services annonce un investissement de 6 Md$ pour un troisième campus au Resilient Technologies Park, à l'ouest de Shreveport, portant l'investissement cumulé sur les trois campus de la région à 18 Md$ et devant créer 750 emplois permanents ; construction assurée par STACK Infrastructure.",
+      "source": "KSLA (CBS)",
+      "url": "https://www.ksla.com/2026/08/18/amazon-web-services-announces-third-data-center-campus-is-coming-shreveport/?outputType=amp",
+      "inv": 6000,
+      "coords": [
+        32.53,
+        -93.75
+      ],
+      "owners": "Amazon (AWS) · STACK Infrastructure (construction)",
+      "investors": "Amazon"
+    },
+    {
       "category": "land",
       "title": "OpenAI confirme un campus de 8 GW à Portsmouth (Pike County, Ohio) : Nvidia garantit jusqu'à 105 Md$ de financement",
       "region": "Amérique du Nord",
@@ -79,16 +136,17 @@
     },
     {
       "category": "legislation",
-      "title": "Louisville (Kentucky) : le Metro Council adopte un moratoire de 6 mois sur les nouveaux data centers (24 voix contre 1)",
+      "title": "Texas : la justice bloque temporairement l'accord municipal sur le data center PowerHouse à Westlake",
       "region": "Amérique du Nord",
-      "date": "2026-08-13",
-      "summary": "Le Metro Council de Louisville vote à 24 voix contre 1 un moratoire de six mois sur l'approbation de nouveaux projets de data centers, le temps d'élaborer des règles de zonage dédiées ; le vote intervient quelques jours après le dépôt d'un projet de conversion d'un entrepôt de 350 000 pieds carrés en data center dans le sud-ouest de la ville — nouveau front réglementaire local après Fort Worth (11 août).",
-      "source": "Louisville Public Media (LPM)",
-      "url": "https://www.lpm.org/news/2026-08-13/louisville-metro-council-approves-data-center-moratorium-as-new-proposal-sparks-controversy",
+      "date": "2026-08-17",
+      "summary": "Une ordonnance restrictive temporaire obtenue par une association de riverains de Keller a stoppé un vote du conseil municipal de Westlake sur l'accord avec le développeur PowerHouse Data Centers pour le « Circle T Data Center » (situé à environ 150 m d'habitations), reportant le vote après le 26 août.",
+      "source": "Fort Worth Report / KERA News",
+      "url": "https://fortworthreport.org/2026/08/17/westlake-data-center-agreement-temporarily-blocked-by-tarrant-county-court/",
       "coords": [
-        38.25,
-        -85.76
-      ]
+        32.99,
+        -97.19
+      ],
+      "owners": "PowerHouse Data Centers"
     },
     {
       "category": "market",
@@ -99,19 +157,6 @@
       "source": "Reuters / Bloomberg",
       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/08/13/vantage-data-centers-explores-ipo-at-us100-billion-valuation-or-sale-sources-say/",
       "inv": 100000
-    },
-    {
-      "category": "legislation",
-      "title": "Fort Worth (Texas) lance la procédure d'un moratoire de 90 jours sur les nouveaux data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-08-11",
-      "summary": "Le conseil municipal de Fort Worth vote à l'unanimité le lancement de la procédure d'un moratoire de 90 jours sur la construction de data centers (deux audiences publiques et deux votes requis avant entrée en vigueur, visée vers février 2027) et crée une commission dédiée pilotée par le TCU Institute for Environmental Studies pour évaluer l'impact sur l'eau, l'énergie et la qualité de vie — nouveau front réglementaire local dans le Dallas-Fort Worth/Tarrant County, à proximité du foncier Circle T de PowerHouse à Westlake.",
-      "source": "Fort Worth Report / KERA News",
-      "url": "https://www.keranews.org/news/2026-08-12/data-center-moratorium-takes-first-steps-after-fort-worth-city-councils-unanimous-vote",
-      "coords": [
-        32.7555,
-        -97.3308
-      ]
     },
     {
       "category": "land",
@@ -130,13 +175,21 @@
       "investors": "Brookfield Asset Management"
     },
     {
-      "category": "market",
-      "title": "Anthropic, Macquarie Asset Management et GIC lancent « Theseus Infrastructure », plateforme dédiée de data centers IA",
-      "region": "Amérique du Nord",
+      "category": "land",
+      "title": "France : Azur Datacenter rachète le siège d'HRS à Champagnier (Isère) pour un data center de 360 M€",
+      "region": "France",
       "date": "2026-08-10",
-      "summary": "Anthropic s'associe à Macquarie Asset Management et au fonds souverain singapourien GIC pour créer Theseus Infrastructure, une plateforme qui développera, possédera et exploitera des campus data center dédiés loués à long terme à Anthropic (locataire ancre), d'abord aux États-Unis ; Macquarie et GIC financent la majorité des fonds propres de chaque projet, montants et tailles de sites non communiqués.",
-      "source": "Bloomberg / Macquarie Group",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-10/anthropic-macquarie-and-gic-form-venture-for-ai-data-centers"
+      "summary": "Azur Datacenter (filiale d'Arago Technologie) a signé une promesse de vente en cession-bail avec Hydrogen Refueling Solutions (HRS) pour transformer son siège industriel de Champagnier en data center haute densité IA, avec environ 360 M€ d'investissement annoncé et une centaine d'emplois visés.",
+      "source": "DCmag / Le Journal des Entreprises",
+      "url": "https://dcmag.fr/isere-azur-datacenter-rachete-le-siege-de-hrs-et-injecte-360-me-pour-un-projet-de-data-center/",
+      "inv": 390,
+      "coords": [
+        45.12,
+        5.73
+      ],
+      "poweredLand": true,
+      "owners": "Azur Datacenter (Arago Technologie)",
+      "investors": "Azur Datacenter / Arago Technologie"
     },
     {
       "category": "power",
@@ -170,16 +223,6 @@
     },
     {
       "category": "power",
-      "title": "Pennsylvanie : le pipeline data center de l'électricien PPL atteint 31,8 GW à un stade avancé",
-      "region": "Amérique du Nord",
-      "date": "2026-08-07",
-      "summary": "PPL Electric Utilities annonce lors de ses résultats T2 2026 un pipeline data center de 31,8 GW à un stade de planification avancé (10e trimestre consécutif de hausse, +3,5 GW sur le trimestre), dont plus de 11 GW sous accords de service électrique signés et 6,5 GW en construction — nouveau signal de la profondeur du carnet de commandes des utilities américaines côté data centers.",
-      "source": "PR Newswire / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/pennsylvania-utility-ppl-sees-advanced-stage-data-center-pipeline-grow-to-318gw/",
-      "mw": 31800
-    },
-    {
-      "category": "power",
       "title": "PJM dépose à la FERC un plan à deux volets : enchère de capacité de secours (jusqu'à 20 Md$) et délestage prioritaire des data centers sans énergie propre",
       "region": "Amérique du Nord",
       "date": "2026-08-07",
@@ -189,47 +232,17 @@
       "inv": 20000
     },
     {
-      "category": "market",
-      "title": "Switch dépose confidentiellement une demande d'IPO américaine visant environ 50 Md$ de valorisation",
-      "region": "Amérique du Nord",
-      "date": "2026-08-07",
-      "summary": "L'opérateur de data centers Switch (Las Vegas, contrôlé par DigitalBridge et IFM Investors depuis un rachat à 11 Md$ en 2022) dépose confidentiellement une demande d'introduction en bourse aux États-Unis visant une valorisation proche de 50 Md$, avec une cotation envisagée dès novembre ; Bank of America, Citigroup, Goldman Sachs, JPMorgan et Morgan Stanley sont associées à l'opération.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/data-center-firm-switch-is-said-to-file-confidentially-for-ipo",
-      "inv": 50000
-    },
-    {
-      "category": "construction",
-      "title": "Nebius détaille son 2e campus IA nord-américain de 1,2 GW à Highridge Business Park (Schuylkill County, Pennsylvanie)",
-      "region": "Amérique du Nord",
-      "date": "2026-08-06",
-      "summary": "Nebius précise les plans de son second site gigawatt aux États-Unis : six bâtiments sur environ 600 acres entre les townships de Butler, Cass et Foster, pour 1,2 GW de capacité totale à terme (260 MW dès octobre 2027) ; réunion publique tenue le 6 août à Ashland pour présenter le projet aux riverains.",
-      "source": "DataCenterDynamics / w.media",
-      "url": "https://www.datacenterdynamics.com/en/news/nebius-details-plans-for-12gw-data-center-campus-in-pennsylvania/",
-      "mw": 1200,
-      "coords": [
-        40.775,
-        -76.339
-      ],
-      "owners": "Nebius Group",
-      "investors": "n.c."
-    },
-    {
       "category": "land",
-      "title": "Le fonds émirati Mubadala envisage 6,3 Md$ pour un data center IA de 500 MW à Akita (Japon)",
-      "region": "Asie-Pacifique",
-      "date": "2026-08-06",
-      "summary": "Le fonds souverain d'Abu Dhabi Mubadala Investment étudierait un investissement pouvant atteindre 6,3 Md$ dans un projet de data center IA de 500 MW dans la préfecture d'Akita, développé par la start-up américaine BitGrid avec l'opérateur IT japonais S2 — potentiellement le plus grand data center du Japon, mise en service visée au début des années 2030.",
-      "source": "Bloomberg / The Japan Times",
-      "url": "https://www.japantimes.co.jp/business/2026/08/06/uae-fund-data-center/",
-      "mw": 500,
-      "inv": 6300,
-      "coords": [
-        39.72,
-        140.36
-      ],
-      "owners": "BitGrid (US) · S2 (Japon)",
-      "investors": "Mubadala Investment (Abu Dhabi, en discussion)"
+      "title": "France : RTE réserve 700 MW « fast track » pour l'ancienne usine Ynsect à Poulainville (Somme)",
+      "region": "France",
+      "date": "2026-08-07",
+      "summary": "La préfecture de la Somme confirme que le site de l'ex-usine Ynsect (liquidée en décembre 2025) à Poulainville, près d'Amiens, intègre les zones « Fast Track » de RTE, avec 700 MW de capacité électrique réservés pendant neuf mois dans l'attente d'un repreneur, potentiellement un opérateur de data center.",
+      "source": "ICI (France Bleu/France 3) / France Info",
+      "url": "https://www.ici.fr/hauts-de-france/somme-80/poulainville/raccordement-electrique-jusqu-a-700-mw-l-ancien-site-ynsect-a-amiens-accueillera-t-il-un-data-center-4421566",
+      "mw": 700,
+      "poweredLand": true,
+      "owners": "friche ex-Ynsect (repreneur non identifié)",
+      "investors": "n.c."
     },
     {
       "category": "land",
@@ -302,15 +315,6 @@
       "investors": "J.P. Morgan et un second bailleur (lettres de crédit, ~1,3 Md$)"
     },
     {
-      "category": "legislation",
-      "title": "Texas : le gouverneur Abbott suspend l'approbation de nouveaux data centers le temps d'un audit ERCOT/PUCT",
-      "region": "Amérique du Nord",
-      "date": "2026-08-03",
-      "summary": "Face à une file d'interconnexion ERCOT de 474 GW (dont ~90% de data centers, plus de 1 800 projets), le gouverneur Greg Abbott ordonne à la PUCT et à ERCOT d'auditer puissance demandée, usage de l'eau, aides publiques et propriété de chaque projet avant toute nouvelle approbation ; ERCOT suspend son nouveau processus d'étude par lots.",
-      "source": "Texas Tribune / Office of the Governor",
-      "url": "https://www.texastribune.org/2026/08/03/texas-data-center-project-audit-greg-abbott/"
-    },
-    {
       "category": "land",
       "title": "Le Kentucky, aimant du « powered land » : les friches industrielles se transforment en campus IA",
       "region": "Amérique du Nord",
@@ -343,22 +347,6 @@
       "poweredLand": true,
       "owners": "Yondr Group (opérateur) · Cerberus Capital Management (investisseur)",
       "investors": "Cerberus Capital Management"
-    },
-    {
-      "category": "construction",
-      "title": "Amazon (AWS) démarre la construction de « Project Eagle », campus de 1,2 Md$ sur 2 700 acres à Boling (Wharton County, Texas)",
-      "region": "Amérique du Nord",
-      "date": "2026-08-01",
-      "summary": "AWS engage la construction de quatre bâtiments identiques (300 M$/bâtiment) sur un site de 2 700 acres près de Boling, dans le comté de Wharton au sud-ouest de Houston — futur plus grand campus data center du Texas ; les trois premiers bâtiments sont visés pour début 2027 et le quatrième pour août 2027, dans le cadre de l'engagement d'AWS d'investir plus de 4 Md$ au Texas d'ici 2029.",
-      "source": "Baxtel / Wharton Post",
-      "url": "https://baxtel.com/news/aws-proposes-1-2-billion-data-center-campus-outside-housto",
-      "inv": 1200,
-      "coords": [
-        29.32,
-        -96.07
-      ],
-      "owners": "Amazon (AWS)",
-      "investors": "n.c."
     },
     {
       "category": "land",
@@ -413,16 +401,6 @@
       "poweredLand": true,
       "owners": "ByteDance · Omnia (développeur, Patria Investments)",
       "investors": "Casa dos Ventos (PPA éolien dédié, ~2 Md$)"
-    },
-    {
-      "category": "construction",
-      "title": "États-Unis : les mises en chantier de data centers atteignent 22,3 Md$ en août 2026, 2e plus haut niveau jamais enregistré",
-      "region": "Amérique du Nord",
-      "date": "2026-08",
-      "summary": "Selon le rapport mensuel de ConstructConnect, la valeur des mises en chantier de data centers aux États-Unis atteint 22,3 Md$ en août 2026, le deuxième plus haut niveau jamais enregistré — nouvelle confirmation du rythme soutenu de la construction malgré les tensions locales sur le foncier et le réseau.",
-      "source": "ConstructConnect",
-      "url": "https://news.constructconnect.com/august-2026-data-center-report-construction-starts-total-22.3-billion-second-highest-on-record",
-      "inv": 22300
     },
     {
       "category": "power",
@@ -493,6 +471,19 @@
       ],
       "poweredLand": true,
       "owners": "Galaxy Digital",
+      "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "Koch Inc. envisagerait de céder Edged, opérateur de data centers sans refroidissement à eau, pour plus de 15 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-07-28",
+      "summary": "Koch Inc. explorerait la vente d'Edged, opérateur de data centers à refroidissement sans eau qu'elle a cofondé, pour une valorisation dépassant 15 Md$ ; Goldman Sachs est mandaté et plusieurs offres auraient déjà été reçues. Edged exploite notamment un site de 169 MW à Atlanta.",
+      "source": "Bloomberg / DataCenterDynamics",
+      "url": "https://www.bloomberg.com/news/articles/2026-07-28/koch-said-to-weigh-15-billion-sale-of-data-center-player-edged",
+      "inv": 15000,
+      "mw": 169,
+      "owners": "Edged (cofondé par Koch Inc.)",
       "investors": "n.c."
     },
     {
