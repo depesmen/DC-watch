@@ -1,13 +1,25 @@
 {
-  "lastUpdated": "2026-08-21",
+  "lastUpdated": "2026-08-24",
   "keyTakeaways": [
-    "France : la vague de reconversion de foncier énergisé s'accélère nettement — autorisation préfectorale du Campus IA de Fouju (1,4 GW sur 89 ha, Seine-et-Marne), rachat du siège d'HRS à Champagnier par Azur Datacenter (360 M€) pour un data center haute densité, et réservation RTE de 700 MW « fast track » sur l'ex-usine Ynsect à Poulainville (Somme) : trois dossiers de powered land français à suivre de près pour le sourcing.",
-    "Le backlash réglementaire américain se durcit et se diversifie : la Pennsylvanie impose désormais des normes contraignantes à l'échelle de l'État (décret « GRID » du gouverneur Shapiro, fin de la procédure accélérée, interdiction des NDA), tandis que la justice texane bloque temporairement l'accord municipal de Westlake sur le projet PowerHouse Circle T — un sondage Gallup cité par CNBC indique 71% d'opposition locale aux data centers.",
-    "Polarise : rebondissement capitalistique — SWI Stoneweg Icona Group renonce à la prise de participation majoritaire annoncée en février 2026 et bascule vers un simple financement par dette, signe de prudence des investisseurs financiers malgré la dynamique du secteur ; toujours aucun signal frais côté Aurora Infra ou La Française de l'Énergie malgré des recherches ciblées répétées, y compris via requêtes site:linkedin.com dédiées.",
-    "Le « powered land » se structure comme classe d'actifs à part entière hors des États-Unis : Harworth Group (Royaume-Uni) prépare une deuxième cession de foncier déjà raccordé après son deal Microsoft de 2024, confirmant l'appétit des foncières spécialisées européennes pour ce modèle.",
-    "Consolidation continue côté opérateurs malgré les tensions foncier/réseau : Koch Inc. envisagerait de céder Edged (>15 Md$), AWS étend son empreinte en Louisiane (+6 Md$, 18 Md$ cumulés à Shreveport) et l'audit ERCOT/PUCT texan avance (ERCOT demande une dérogation de mise en œuvre) — la course à la capacité reste soutenue."
+    "France : le sourcing de foncier énergisé se structure au niveau étatique — un article de synthèse (Ciel Voilé, 22/08) confirme que le gouvernement met à disposition 63 sites « clé en main » pour data centers (26 localisations rendues publiques) et que RTE/EDF ont identifié un nombre restreint de sites « fast track » offrant 400 à 1 000 MW de capacité de raccordement accéléré chacun — un pipeline institutionnel de powered land à cartographier finement pour le sourcing.",
+    "Aux États-Unis, le risque politique et judiciaire sur les contrats d'énergie dédiés aux data centers s'intensifie : en sus de l'audit ERCOT au Texas, la procureure générale du Michigan et des associations environnementales ont déposé leurs premiers mémoires (10/08) devant la Cour d'appel contre l'approbation accélérée par le régulateur des contrats DTE Energy alimentant le campus Stargate de Saline Township (1,4 GW), invoquant jusqu'à 500 M$ de coûts reportés sur les usagers sans examen contradictoire — un précédent à surveiller pour tout deal d'énergie dédiée.",
+    "Le marché du foncier industriel reconverti continue de s'activer outre-Atlantique : WhiteFiber (via sa filiale Enovum) rachète pour 60 M$ deux anciens sites industriels Unifi Manufacturing dans le comté de Yadkin (Caroline du Nord), avec 60 MW de capacité utilitaire déjà disponible et un potentiel de 200 MW — nouvel exemple de conversion friche-vers-data-center à bas coût foncier.",
+    "La vague d'IPO des opérateurs de data centers s'élargit au-delà de Vantage (valorisation visée ~100 Md$) : CyrusOne (KKR / GIP-BlackRock) engage banques et conseillers pour une cotation dès 2027, et le singapourien DayOne aurait déposé confidentiellement un dossier d'IPO américaine visant environ 20 Md$ — signe que les investisseurs financiers cherchent à sécuriser de la liquidité sur les portefeuilles fonciers + puissance déjà constitués.",
+    "Aucun signal frais identifié cette semaine encore pour Polarise (au-delà du dossier SWI déjà connu), Aurora Infra ou La Française de l'Énergie sur le volet data center, malgré recherches ciblées répétées et requêtes site:linkedin.com dédiées — à recroiser avec d'éventuelles annonces directes de ces sociétés."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "France : le gouvernement met à disposition 63 sites « clé en main » pour data centers, RTE/EDF accélèrent le raccordement sur un nombre restreint de sites « fast track »",
+      "region": "France",
+      "date": "2026-08-22",
+      "summary": "Une cartographie actualisée des projets et contestations de data centers en France recense 63 sites « clé en main » proposés par l'État aux industriels (26 localisations rendues publiques à ce stade), tandis que RTE et EDF ont identifié un nombre restreint de sites bénéficiant d'une procédure de raccordement électrique accélérée « fast track », avec des capacités de l'ordre de 400 à 1 000 MW par site.",
+      "source": "Ciel Voilé",
+      "url": "https://www.cielvoile.fr/2026/08/carte-des-data-centers-des-projets-et-des-contestations-en-france.html",
+      "poweredLand": true,
+      "owners": "État français / RTE / EDF (foncier et raccordement)",
+      "investors": "n.c."
+    },
     {
       "category": "legislation",
       "title": "Texas : ERCOT demande à la PUCT une dérogation pour mener l'audit des data centers ordonné par le gouverneur Abbott",
@@ -56,19 +68,6 @@
       "poweredLand": true,
       "owners": "Harworth Group plc",
       "investors": "n.c. (acheteur non nommé)"
-    },
-    {
-      "category": "legislation",
-      "title": "Memphis (Tennessee) vote en 1ère lecture un moratoire de 12 mois sur les nouveaux data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-08-18",
-      "summary": "Le Memphis City Council adopte en première lecture un moratoire de 12 mois suspendant instructions de rezonage, permis de construire et validations de plan de site pour tout nouveau data center, le temps d'étudier les impacts sur l'eau, les réseaux et les quartiers ; la mesure ne s'applique pas rétroactivement aux campus existants comme Colossus (xAI, plus de 500 MW sur turbines gaz), mais la Greater Memphis Chamber s'y oppose fermement.",
-      "source": "Daily Memphian / Action News 5",
-      "url": "https://www.actionnews5.com/2026/08/18/memphis-city-council-committee-advances-data-center-moratorium-proposal/",
-      "coords": [
-        35.1495,
-        -90.049
-      ]
     },
     {
       "category": "market",
@@ -149,6 +148,30 @@
       "owners": "PowerHouse Data Centers"
     },
     {
+      "category": "land",
+      "title": "WhiteFiber (Enovum) rachète deux friches industrielles Unifi Manufacturing dans le comté de Yadkin (Caroline du Nord) pour 60 M$",
+      "region": "Amérique du Nord",
+      "date": "2026-08-16",
+      "summary": "Via sa filiale Enovum Data Centers, WhiteFiber signe l'acquisition pour 60 M$ de deux anciens sites industriels Unifi Manufacturing (NC-2 et NC-3), à environ 90 km de son campus NC-1 de Madison, offrant d'emblée 60 MW de capacité utilitaire brute avec un potentiel de montée à environ 200 MW ; mise en service initiale visée au T3 2027, clôture de l'acquisition attendue au T4 2026.",
+      "source": "PR Newswire / WFDD",
+      "url": "https://www.prnewswire.com/news-releases/whitefiber-expands-north-carolina-data-center-footprint-with-agreement-to-acquire-two-new-development-sites-302852438.html",
+      "mw": 200,
+      "inv": 60,
+      "poweredLand": true,
+      "owners": "WhiteFiber / Enovum Data Centers (ex-Unifi Manufacturing)",
+      "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "La vague d'IPO des opérateurs de data centers s'élargit : CyrusOne et DayOne rejoignent Vantage dans la course à la cotation",
+      "region": "Amérique du Nord",
+      "date": "2026-08-13",
+      "summary": "Après l'exploration d'une IPO par Vantage Data Centers (valorisation visée ~100 Md$), DataCenterDynamics rapporte que CyrusOne (soutenu par KKR et GIP/BlackRock) engage des banques en vue d'une cotation possible dès 2027, tandis que le singapourien DayOne aurait déposé confidentiellement un dossier d'introduction en bourse aux États-Unis visant environ 20 Md$ de valorisation.",
+      "source": "DataCenterDynamics / Reuters / Bloomberg",
+      "url": "https://www.datacenterdynamics.com/en/news/vantage-cyrusone-and-dayone-all-plan-ipos-with-potential-record-breaking-valuations/",
+      "inv": 20000
+    },
+    {
       "category": "market",
       "title": "Vantage Data Centers explore une IPO ou une cession à une valorisation de 100 Md$",
       "region": "Amérique du Nord",
@@ -157,6 +180,23 @@
       "source": "Reuters / Bloomberg",
       "url": "https://www.bnnbloomberg.ca/business/company-news/2026/08/13/vantage-data-centers-explores-ipo-at-us100-billion-valuation-or-sale-sources-say/",
       "inv": 100000
+    },
+    {
+      "category": "legislation",
+      "title": "Michigan : la procureure générale Nessel et des associations environnementales attaquent en appel les contrats DTE Energy du data center Stargate de Saline Township",
+      "region": "Amérique du Nord",
+      "date": "2026-08-10",
+      "summary": "La procureure générale du Michigan Dana Nessel et plusieurs associations environnementales ont déposé leurs premiers mémoires devant la Cour d'appel du Michigan contestant l'approbation accélérée par le régulateur (MPSC) des contrats DTE Energy alimentant en 1,4 GW le data center Stargate (OpenAI/Oracle/Related Digital) de Saline Township, dénonçant l'absence de procédure contradictoire et un risque de report de près de 500 M$ de coûts sur les usagers.",
+      "source": "Michigan Advance / Planet Detroit",
+      "url": "https://michiganadvance.com/2026/08/10/nessel-and-environmental-groups-file-initial-arguments-in-appeal-of-dte-saline-data-center-contract/",
+      "mw": 1400,
+      "coords": [
+        42.1595,
+        -83.7827
+      ],
+      "poweredLand": true,
+      "owners": "DTE Energy (production) · OpenAI/Oracle/Related Digital (Stargate, locataires)",
+      "investors": "n.c."
     },
     {
       "category": "land",
@@ -222,16 +262,6 @@
       "investors": "n.c."
     },
     {
-      "category": "power",
-      "title": "PJM dépose à la FERC un plan à deux volets : enchère de capacité de secours (jusqu'à 20 Md$) et délestage prioritaire des data centers sans énergie propre",
-      "region": "Amérique du Nord",
-      "date": "2026-08-07",
-      "summary": "L'opérateur de réseau PJM (13 États, ~67 millions d'habitants) soumet à la FERC un plan en deux volets : une enchère de capacité de secours pouvant mobiliser jusqu'à 20 Md$ pour de nouvelles centrales desservant les data centers construits avant 2027, et un mécanisme de délestage prioritaire pour les data centers post-2027 qui n'apportent pas leur propre source d'énergie — une pression réglementaire supplémentaire en faveur du modèle du foncier déjà énergisé (« bring your own power »).",
-      "source": "Utility Dive / Ohio Capital Journal",
-      "url": "https://www.utilitydive.com/news/pjm-backstop-capacity-auction-ferc-data-centers/826792/",
-      "inv": 20000
-    },
-    {
       "category": "land",
       "title": "France : RTE réserve 700 MW « fast track » pour l'ancienne usine Ynsect à Poulainville (Somme)",
       "region": "France",
@@ -245,42 +275,14 @@
       "investors": "n.c."
     },
     {
-      "category": "land",
-      "title": "PowerHouse dépose un projet de campus data center de 300 MW à Westlake, près de Fort Worth (Texas)",
+      "category": "power",
+      "title": "PJM dépose à la FERC un plan à deux volets : enchère de capacité de secours (jusqu'à 20 Md$) et délestage prioritaire des data centers sans énergie propre",
       "region": "Amérique du Nord",
-      "date": "2026-08-06",
-      "summary": "PowerHouse (American Real Estate Partners) dépose une demande de permis pour le « Circle T Data Center » sur près de 90 acres à Westlake (Denton/Tarrant County), avec jusqu'à quatre bâtiments totalisant 300 MW — nouvelle extension de son portefeuille texan après Irving et Ellis County.",
-      "source": "DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/powerhouse-files-for-300mw-data-center-campus-outside-dallas-fort-worth/",
-      "mw": 300,
-      "coords": [
-        32.99,
-        -97.19
-      ],
-      "owners": "PowerHouse (American Real Estate Partners)",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "Polarise candidate à un consortium pour l'appel à projets européen « AI Gigafactories » (jusqu'à 10 Md€ de fonds publics)",
-      "region": "Europe",
-      "date": "2026-08-05",
-      "summary": "Polarise annonce vouloir rejoindre un consortium candidat à l'appel à projets de l'EuroHPC JU/Commission européenne pour construire jusqu'à sept « AI Gigafactories » (lancé le 30 juillet, dépôt des offres le 12 novembre) ; jusqu'à 10 Md€ de fonds UE/nationaux disponibles pour mobiliser au moins 20 Md€ de capitaux privés. Polarise met en avant ses sites déjà préparés en Bavière (2) et en Rhénanie-du-Nord-Westphalie (1), en plus de son AI Factory de Munich et d'un site à Oslo.",
-      "source": "Polarise Newsroom / EuroHPC JU",
-      "url": "https://polarise.eu/newsroom/polarise-plans-to-participate-in-eu-tender-for-ai-gigafactories/"
-    },
-    {
-      "category": "legislation",
-      "title": "La Cherokee Nation interdit les data centers hyperscale sur ses terres tribales et en fiducie (Oklahoma)",
-      "region": "Amérique du Nord",
-      "date": "2026-08-05",
-      "summary": "Le chef Chuck Hoskin annonce l'interdiction des data centers hyperscale sur les terres tribales et en fiducie de la Cherokee Nation, à l'issue d'un rapport de son Data Center Task Force montrant que 64% des citoyens sondés s'opposent à ces projets ; la Nation refusera aussi de soutenir tout projet hyperscale sur du foncier non-tribal situé à l'intérieur de sa réserve (nord-est de l'Oklahoma) sans consultation « robuste » préalable — nouveau risque foncier pour le sourcing en territoire amérindien.",
-      "source": "DataCenterDynamics / Tribal Business News",
-      "url": "https://www.datacenterdynamics.com/en/news/cherokee-nation-in-the-us-bans-data-center-development/",
-      "coords": [
-        35.9151,
-        -94.9694
-      ]
+      "date": "2026-08-07",
+      "summary": "L'opérateur de réseau PJM (13 États, ~67 millions d'habitants) soumet à la FERC un plan en deux volets : une enchère de capacité de secours pouvant mobiliser jusqu'à 20 Md$ pour de nouvelles centrales desservant les data centers construits avant 2027, et un mécanisme de délestage prioritaire pour les data centers post-2027 qui n'apportent pas leur propre source d'énergie — une pression réglementaire supplémentaire en faveur du modèle du foncier déjà énergisé (« bring your own power »).",
+      "source": "Utility Dive / Ohio Capital Journal",
+      "url": "https://www.utilitydive.com/news/pjm-backstop-capacity-auction-ferc-data-centers/826792/",
+      "inv": 20000
     },
     {
       "category": "power",
@@ -403,77 +405,6 @@
       "investors": "Casa dos Ventos (PPA éolien dédié, ~2 Md$)"
     },
     {
-      "category": "power",
-      "title": "SpaceX/xAI : centrale gaz permanente de 1,2 GW dans le Mississippi pour remplacer les turbines non autorisées de Colossus",
-      "region": "Amérique du Nord",
-      "date": "2026-07-31",
-      "summary": "Selon un accord avec le régulateur environnemental du Mississippi, SpaceX/xAI retirera d'ici juillet 2027 les 69 turbines gaz non autorisées alimentant ses data centers Colossus (Memphis), remplacées par une centrale permanente de 1,2 GW (41 turbines) à Southaven — SpaceX prévoit 2,8 Md$ d'achats de turbines sur trois ans.",
-      "source": "TechCrunch / DataCenterDynamics",
-      "url": "https://techcrunch.com/2026/07/31/spacex-wont-remove-all-of-xais-unpermitted-turbines-for-another-year/",
-      "mw": 1200,
-      "inv": 2800,
-      "coords": [
-        34.989,
-        -90.013
-      ],
-      "poweredLand": true,
-      "owners": "SpaceX / xAI",
-      "investors": "n.c."
-    },
-    {
-      "category": "construction",
-      "title": "Brookfield et NextEra lancent un campus IA de 100 Md$ sur l'ancien site nucléaire du DOE à Paducah (Kentucky)",
-      "region": "Amérique du Nord",
-      "date": "2026-07-29",
-      "summary": "Brookfield (campus data center) et NextEra Energy (génération) s'associent pour un projet privé de 100 Md$ sur le site historique d'enrichissement d'uranium du DOE à Paducah (Kentucky), avec jusqu'à 4,6 GW de génération dédiée (gaz + stockage batterie). Mise en service initiale 2028, plein déploiement 2032.",
-      "source": "Data Center Knowledge",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/brookfield-nextera-launch-100b-ai-campus-at-doe-s-paducah-site",
-      "mw": 4600,
-      "inv": 100000,
-      "coords": [
-        37.083,
-        -88.6
-      ],
-      "poweredLand": true,
-      "owners": "Brookfield (campus) · NextEra Energy (génération)",
-      "investors": "n.c."
-    },
-    {
-      "category": "construction",
-      "title": "Meta et BlackRock montent une JV de 14 Md$ pour un campus de 1 GW à El Paso (Texas)",
-      "region": "Amérique du Nord",
-      "date": "2026-07-28",
-      "summary": "Meta et BlackRock lancent une coentreprise pour développer et exploiter un campus data center à El Paso (Texas) — ~14 Md$ pour 1 GW de capacité de calcul, en service en 2028 avec Meta comme locataire initial. Les fonds gérés par BlackRock prennent 80% de la JV, Meta 20%.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/07/28/meta-blackrock-partner-on-14-billion-el-paso-data-center.html",
-      "mw": 1000,
-      "inv": 14000,
-      "coords": [
-        31.76,
-        -106.49
-      ],
-      "owners": "Meta (20%) · BlackRock (80%)",
-      "investors": "BlackRock"
-    },
-    {
-      "category": "land",
-      "title": "Galaxy Digital achète 500 acres à McGregor (Texas) pour un second campus IA de 74 MW près de SpaceX",
-      "region": "Amérique du Nord",
-      "date": "2026-07-28",
-      "summary": "Galaxy Digital finalise l'acquisition d'environ 500 acres auprès de la ville de McGregor (Texas, au nord-est du site SpaceX) pour son « Project Merlin », un campus data center de plus de 400 M$ dont la première phase de 74 MW est visée pour 2028 ; Galaxy s'engage à financer intégralement un poste électrique dédié sur site.",
-      "source": "PR Newswire / The Block",
-      "url": "https://www.prnewswire.com/news-releases/galaxy-expands-data-center-footprint-with-acquisition-of-500-acre-campus-in-mcgregor-texas-302836014.html",
-      "mw": 74,
-      "inv": 400,
-      "coords": [
-        31.4638,
-        -97.4084
-      ],
-      "poweredLand": true,
-      "owners": "Galaxy Digital",
-      "investors": "n.c."
-    },
-    {
       "category": "market",
       "title": "Koch Inc. envisagerait de céder Edged, opérateur de data centers sans refroidissement à eau, pour plus de 15 Md$",
       "region": "Amérique du Nord",
@@ -485,24 +416,6 @@
       "mw": 169,
       "owners": "Edged (cofondé par Koch Inc.)",
       "investors": "n.c."
-    },
-    {
-      "category": "construction",
-      "title": "OpenAI dévoile « Project Camellia », campus de 3,2 GW et 20 Md$ dans le comté d'Effingham (Géorgie)",
-      "region": "Amérique du Nord",
-      "date": "2026-07-22",
-      "summary": "OpenAI annonce Project Camellia, un campus data center de long terme sur le Savannah Gateway Industrial Hub (2 600 acres déjà zonés industriels) dans le comté d'Effingham, en Géorgie : quatre bâtiments sur environ 101 acres, au moins 20 Md$ d'investissement privé, 3,2 GW livrés par phases entre 2028 et 2032 ; OpenAI s'engage à financer intégralement les infrastructures pour ne pas faire peser le coût sur les factures locales.",
-      "source": "OpenAI / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/openai-reveals-32gw-data-center-project-in-effingham-county-georgia/",
-      "mw": 3200,
-      "inv": 20000,
-      "coords": [
-        32.3,
-        -81.24
-      ],
-      "poweredLand": true,
-      "owners": "OpenAI",
-      "investors": "OpenAI (autofinancé)"
     },
     {
       "category": "land",
