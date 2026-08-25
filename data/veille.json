@@ -1,13 +1,52 @@
 {
-  "lastUpdated": "2026-08-24",
+  "lastUpdated": "2026-08-25",
   "keyTakeaways": [
-    "France : le sourcing de foncier énergisé se structure au niveau étatique — un article de synthèse (Ciel Voilé, 22/08) confirme que le gouvernement met à disposition 63 sites « clé en main » pour data centers (26 localisations rendues publiques) et que RTE/EDF ont identifié un nombre restreint de sites « fast track » offrant 400 à 1 000 MW de capacité de raccordement accéléré chacun — un pipeline institutionnel de powered land à cartographier finement pour le sourcing.",
-    "Aux États-Unis, le risque politique et judiciaire sur les contrats d'énergie dédiés aux data centers s'intensifie : en sus de l'audit ERCOT au Texas, la procureure générale du Michigan et des associations environnementales ont déposé leurs premiers mémoires (10/08) devant la Cour d'appel contre l'approbation accélérée par le régulateur des contrats DTE Energy alimentant le campus Stargate de Saline Township (1,4 GW), invoquant jusqu'à 500 M$ de coûts reportés sur les usagers sans examen contradictoire — un précédent à surveiller pour tout deal d'énergie dédiée.",
-    "Le marché du foncier industriel reconverti continue de s'activer outre-Atlantique : WhiteFiber (via sa filiale Enovum) rachète pour 60 M$ deux anciens sites industriels Unifi Manufacturing dans le comté de Yadkin (Caroline du Nord), avec 60 MW de capacité utilitaire déjà disponible et un potentiel de 200 MW — nouvel exemple de conversion friche-vers-data-center à bas coût foncier.",
-    "La vague d'IPO des opérateurs de data centers s'élargit au-delà de Vantage (valorisation visée ~100 Md$) : CyrusOne (KKR / GIP-BlackRock) engage banques et conseillers pour une cotation dès 2027, et le singapourien DayOne aurait déposé confidentiellement un dossier d'IPO américaine visant environ 20 Md$ — signe que les investisseurs financiers cherchent à sécuriser de la liquidité sur les portefeuilles fonciers + puissance déjà constitués.",
+    "France : le pipeline foncier institutionnel passe des annonces aux autorisations concrètes — le préfet de Seine-et-Marne a validé le 31 juillet le « Campus IA » de Fouju (11 data centers, 1,4 GW sur 89 ha, consortium MGX/Bpifrance/Mistral AI/Nvidia), le plus grand campus IA autorisé à ce jour en Île-de-France, à mettre en perspective avec les 63 sites « clé en main » et les zones RTE « fast track » déjà identifiés par l'État.",
+    "Aux États-Unis, la Pennsylvanie confirme le modèle du « powered land » nucléaire : à Salem Township (comté de Luzerne), un troisième mégacampus porté par 4-3 Glenbrook Group (1,2 Md$ de valeur foncière, jusqu'à 4 GW visés) s'ajoute aux campus déjà lancés par AWS et QTS/Blackstone, tous adossés à la centrale nucléaire de Susquehanna — la prime aux sites collés à une production pilotable existante se confirme.",
+    "La bascule friche industrielle/minière vers data center énergisé s'internationalise : Zerra DC dépose un projet de 1,44 GW (~22 Md$) au cœur du pôle gazier de Darling Downs (Queensland, Australie) et Magnora sécurise un raccordement ferme pour son site finlandais de Hämeenlinna — deux illustrations hors zone Amérique du Nord/France du sourcing de foncier déjà connecté au réseau ou à une production dédiée.",
+    "Le risque réglementaire sur le coût de l'énergie dédiée aux data centers se matérialise financièrement : la TVA a approuvé le 20 août une grille tarifaire spécifique (+10% sur 3 ans) pour les charges data center de plus de 5 MW, tandis que l'Irlande rouvre le débat sur le nucléaire (23% de la consommation électrique nationale déjà captée par les data centers) — deux signaux que l'accès à une puissance dédiée et prévisible devient un actif stratégique à part entière.",
     "Aucun signal frais identifié cette semaine encore pour Polarise (au-delà du dossier SWI déjà connu), Aurora Infra ou La Française de l'Énergie sur le volet data center, malgré recherches ciblées répétées et requêtes site:linkedin.com dédiées — à recroiser avec d'éventuelles annonces directes de ces sociétés."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "Australie : Zerra DC dépose un projet de campus « Western Downs Digital Park » de 1,44 GW (22 Md$) dans le pôle énergétique du Queensland",
+      "region": "Asie-Pacifique",
+      "date": "2026-08-24",
+      "summary": "Le développeur Zerra DC (AGP) a déposé le permis pour le Western Downs Digital Park, un campus de quatre data centers de 360 MW chacun (1,44 GW au total, environ 22,2 Md$ US) sur 725 hectares près de Dalby (Queensland), directement adossé aux centrales gaz et au parc solaire de Braemar/Darling Downs — l'un des plus gros projets « powered land » jamais déposés en Australie.",
+      "source": "ABC News / DataCenterDynamics",
+      "url": "https://www.abc.net.au/news/2026-08-24/plans-for-australia-largest-data-centre-in-regional-queensland/107071624",
+      "mw": 1440,
+      "inv": 22190,
+      "coords": [-26.9, 150.95],
+      "poweredLand": true,
+      "owners": "Zerra DC (AGP)",
+      "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "Finlande : Magnora sécurise le raccordement électrique ferme de son data center de Hämeenlinna",
+      "region": "Europe",
+      "date": "2026-08-24",
+      "summary": "Le développeur Magnora (avec Northern Europe Energy Group) a obtenu un raccordement électrique ferme pour son campus de 150 000 m² à Hämeenlinna, entre Helsinki et Tampere, avec une capacité revue à la hausse au-delà des 120 MW initialement annoncés ; mise en service visée en 2028-2029 selon la procédure retenue.",
+      "source": "DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/magnora-secures-grid-connection-for-h%C3%A4meenlinna-data-center-in-finland/",
+      "mw": 120,
+      "coords": [60.9959, 24.4643],
+      "poweredLand": true,
+      "owners": "Magnora ASA · Northern Europe Energy Group (NEEG)",
+      "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "nVent Electric rachète Maverick Power pour 1,75 Md$ afin d'étendre son offre de distribution électrique pour data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-08-24",
+      "summary": "nVent Electric annonce le rachat de Maverick Power (Texas, ~900 salariés), spécialiste des équipements de distribution électrique basse et moyenne tension, pour 1,75 Md$ (plus jusqu'à 550 M$ d'earnout) ; clôture visée au T4 2026, renforçant l'offre d'infrastructures électriques dédiées aux data centers.",
+      "source": "GlobeNewswire / BNN Bloomberg",
+      "url": "https://www.globenewswire.com/news-release/2026/08/24/3349571/0/en/nvent-to-acquire-maverick-power.html",
+      "inv": 1750
+    },
     {
       "category": "land",
       "title": "France : le gouvernement met à disposition 63 sites « clé en main » pour data centers, RTE/EDF accélèrent le raccordement sur un nombre restreint de sites « fast track »",
@@ -21,6 +60,20 @@
       "investors": "n.c."
     },
     {
+      "category": "land",
+      "title": "Pennsylvanie : Salem Township accueille un troisième mégacampus data center (4-3 Glenbrook Group, 1,2 Md$, jusqu'à 4 GW) près de la centrale nucléaire de Susquehanna",
+      "region": "Amérique du Nord",
+      "date": "2026-08-22",
+      "summary": "À Salem Township (comté de Luzerne, Pennsylvanie), un troisième campus data center porté par 4-3 Glenbrook Group (plus de 4 000 acres assemblés auprès de 200 propriétaires, 1,2 Md$ de valeur foncière, jusqu'à 3,5-4 GW visés) s'ajoute aux campus déjà lancés par AWS et QTS/Blackstone à proximité immédiate de la centrale nucléaire de Susquehanna ; vote du conseil municipal sur le zonage attendu le 26 août.",
+      "source": "Times Leader",
+      "url": "https://www.timesleader.com/news/1752841/developers-tout-impacts-of-3-data-center-campuses-zoning-meeting-set-for-wednesday-on-4-3-glenbrook-group-project",
+      "inv": 1200,
+      "coords": [41.05, -76.23],
+      "poweredLand": true,
+      "owners": "n.c. (opérateur non nommé, foncier assemblé par 4-3 Glenbrook Group / 4-3 Consulting)",
+      "investors": "n.c."
+    },
+    {
       "category": "legislation",
       "title": "Texas : ERCOT demande à la PUCT une dérogation pour mener l'audit des data centers ordonné par le gouverneur Abbott",
       "region": "Amérique du Nord",
@@ -30,13 +83,13 @@
       "url": "https://www.hklaw.com/en/insights/publications/2026/08/texas-gov-abbott-directs-data-center-audit"
     },
     {
-      "category": "legislation",
-      "title": "Big Tech déploie une « charm offensive » face au backlash anti-data centers",
+      "category": "power",
+      "title": "Tennessee Valley Authority : nouvelle grille tarifaire dédiée aux data centers, +10% sur trois ans",
       "region": "Amérique du Nord",
-      "date": "2026-08-19",
-      "summary": "Face à la vague de moratoires locaux, Mark Zuckerberg (Meta) lance un fonds communautaire de 1 Md$ pour les villes d'accueil de ses data centers, OpenAI publie une lettre ouverte au gouverneur du Texas promettant un développement « responsable », et Oracle multiplie les opérations de relations publiques autour de son campus Project Jupiter (2,45 GW) au Nouveau-Mexique — signe que les accords de bénéfices communautaires deviennent un prérequis de facto pour sécuriser le foncier.",
-      "source": "Bloomberg / Semafor",
-      "url": "https://www.semafor.com/article/08/10/2026/us-tech-stages-data-center-charm-offensive"
+      "date": "2026-08-20",
+      "summary": "Le conseil d'administration de la TVA a approuvé le 20 août une classe tarifaire spécifique aux data centers (charges de plus de 5 MW), avec une hausse d'environ 10% étalée sur trois ans à compter du 1er octobre 2026, afin de faire porter aux data centers le coût de capacité qu'ils imposent au réseau plutôt que de le répercuter sur les autres usagers.",
+      "source": "Chattanooga Times Free Press / Utility Dive",
+      "url": "https://www.timesfreepress.com/news/2026/aug/20/tva-to-charge-data-centers-more-for-power-under/"
     },
     {
       "category": "power",
@@ -160,6 +213,15 @@
       "poweredLand": true,
       "owners": "WhiteFiber / Enovum Data Centers (ex-Unifi Manufacturing)",
       "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "Irlande : le gouvernement rouvre le débat sur le nucléaire pour absorber la demande électrique des data centers",
+      "region": "Europe",
+      "date": "2026-08-15",
+      "summary": "Alors que les data centers ont consommé 23% de l'électricité mesurée du pays en 2025 (autant que l'ensemble des ménages), le gouvernement irlandais commande à la SEAI une étude sur le nucléaire (SMR et réacteurs conventionnels) devant être remise début 2027, malgré l'interdiction légale actuelle de la fission nucléaire pour la production d'électricité.",
+      "source": "The Irish Times / DataCenterDynamics",
+      "url": "https://www.irishtimes.com/environment/2026/08/15/ireland-considering-nuclear-option-as-fresh-energy-crisis-looms/"
     },
     {
       "category": "market",
@@ -352,6 +414,23 @@
     },
     {
       "category": "land",
+      "title": "France : le préfet de Seine-et-Marne autorise le « Campus IA » de Fouju, 11 data centers pour 1,4 GW sur 89 hectares",
+      "region": "France",
+      "date": "2026-07-31",
+      "summary": "Le préfet de Seine-et-Marne a délivré le 31 juillet l'autorisation d'implantation du « Campus IA » de Fouju, porté par le consortium MGX (Émirats)/Bpifrance/Mistral AI/Nvidia dévoilé à Choose France : 11 data centers sur 89 hectares pour une puissance visée de 1,4 GW, le plus grand campus IA autorisé à ce jour en Île-de-France.",
+      "source": "Usine Nouvelle",
+      "url": "https://www.usinenouvelle.com/electronique-informatique/cloud-computing/datacenters/projets-valides-ou-retoques-usines-reconverties-ce-qui-a-bouge-dans-les-datacenters-cet-ete-en-france.BGVBQHSV7JAITHE455QUW5X4AE.html",
+      "mw": 1400,
+      "coords": [
+        48.53,
+        2.93
+      ],
+      "poweredLand": true,
+      "owners": "Consortium Campus IA : MGX (Émirats) · Bpifrance · Mistral AI · Nvidia",
+      "investors": "MGX · Bpifrance · Nvidia"
+    },
+    {
+      "category": "land",
       "title": "France : un projet de data center pour deux hyperscalers sur la friche ex-Caterpillar/Avon à Rantigny (Oise), 300 MW / 4,5 Md€",
       "region": "France",
       "date": "2026-08",
@@ -403,19 +482,6 @@
       "poweredLand": true,
       "owners": "ByteDance · Omnia (développeur, Patria Investments)",
       "investors": "Casa dos Ventos (PPA éolien dédié, ~2 Md$)"
-    },
-    {
-      "category": "market",
-      "title": "Koch Inc. envisagerait de céder Edged, opérateur de data centers sans refroidissement à eau, pour plus de 15 Md$",
-      "region": "Amérique du Nord",
-      "date": "2026-07-28",
-      "summary": "Koch Inc. explorerait la vente d'Edged, opérateur de data centers à refroidissement sans eau qu'elle a cofondé, pour une valorisation dépassant 15 Md$ ; Goldman Sachs est mandaté et plusieurs offres auraient déjà été reçues. Edged exploite notamment un site de 169 MW à Atlanta.",
-      "source": "Bloomberg / DataCenterDynamics",
-      "url": "https://www.bloomberg.com/news/articles/2026-07-28/koch-said-to-weigh-15-billion-sale-of-data-center-player-edged",
-      "inv": 15000,
-      "mw": 169,
-      "owners": "Edged (cofondé par Koch Inc.)",
-      "investors": "n.c."
     },
     {
       "category": "land",
