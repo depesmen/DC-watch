@@ -1,13 +1,23 @@
 {
-  "lastUpdated": "2026-08-25",
+  "lastUpdated": "2026-08-26",
   "keyTakeaways": [
-    "France : le pipeline foncier institutionnel passe des annonces aux autorisations concrètes — le préfet de Seine-et-Marne a validé le 31 juillet le « Campus IA » de Fouju (11 data centers, 1,4 GW sur 89 ha, consortium MGX/Bpifrance/Mistral AI/Nvidia), le plus grand campus IA autorisé à ce jour en Île-de-France, à mettre en perspective avec les 63 sites « clé en main » et les zones RTE « fast track » déjà identifiés par l'État.",
-    "Aux États-Unis, la Pennsylvanie confirme le modèle du « powered land » nucléaire : à Salem Township (comté de Luzerne), un troisième mégacampus porté par 4-3 Glenbrook Group (1,2 Md$ de valeur foncière, jusqu'à 4 GW visés) s'ajoute aux campus déjà lancés par AWS et QTS/Blackstone, tous adossés à la centrale nucléaire de Susquehanna — la prime aux sites collés à une production pilotable existante se confirme.",
-    "La bascule friche industrielle/minière vers data center énergisé s'internationalise : Zerra DC dépose un projet de 1,44 GW (~22 Md$) au cœur du pôle gazier de Darling Downs (Queensland, Australie) et Magnora sécurise un raccordement ferme pour son site finlandais de Hämeenlinna — deux illustrations hors zone Amérique du Nord/France du sourcing de foncier déjà connecté au réseau ou à une production dédiée.",
-    "Le risque réglementaire sur le coût de l'énergie dédiée aux data centers se matérialise financièrement : la TVA a approuvé le 20 août une grille tarifaire spécifique (+10% sur 3 ans) pour les charges data center de plus de 5 MW, tandis que l'Irlande rouvre le débat sur le nucléaire (23% de la consommation électrique nationale déjà captée par les data centers) — deux signaux que l'accès à une puissance dédiée et prévisible devient un actif stratégique à part entière.",
+    "Le « behind-the-meter » îloté devient un standard de site plutôt qu'une exception au Texas : Prometheus Hyperscale avance à Pecos (Reeves County) un campus de 1,5 GW extensible à 2,5 GW totalement déconnecté d'ERCOT (gaz + éthane co-localisé), à quelques kilomètres du site GW Ranch d'Amazon déjà hors réseau — confirmant le Permian Basin comme nouveau hub du foncier auto-alimenté.",
+    "Une nouvelle classe d'actifs émerge à côté du foncier énergisé pur : Emerald AI lève 150 M$ (valorisation 1,05 Md$) pour vendre aux opérateurs la flexibilité de charge comme moyen de débloquer 100+ GW de capacité déjà présente sur le réseau américain — un signal que les investisseurs commencent à valoriser la gestion de la demande autant que l'accès brut à la puissance.",
+    "La course au foncier + énergie s'étend à des sources non conventionnelles : la FERC instruit un projet de data center sous-marin alimenté par les marées au large d'Eastport (Maine), malgré un moratoire municipal voté une semaine plus tôt face à l'opposition des riverains et de la nation Passamaquoddy.",
+    "Le risque réglementaire américain reste vif et fragmenté : après le Texas et la Pennsylvanie, New York est désormais suspendu à l'arbitrage de la gouverneure Hochul entre son moratoire exécutif de juillet sur les data centers de plus de 50 MW et le vote bipartisan du Responsible Data Center Development Act, que 60 élus la pressent de signer — un facteur d'incertitude supplémentaire à intégrer dans tout sourcing américain.",
     "Aucun signal frais identifié cette semaine encore pour Polarise (au-delà du dossier SWI déjà connu), Aurora Infra ou La Française de l'Énergie sur le volet data center, malgré recherches ciblées répétées et requêtes site:linkedin.com dédiées — à recroiser avec d'éventuelles annonces directes de ces sociétés."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "Emerald AI lève 150 M$ en série A (valorisation 1,05 Md$) pour déployer des data centers IA « power-flexible »",
+      "region": "Amérique du Nord",
+      "date": "2026-08-25",
+      "summary": "La start-up Emerald AI, dont la technologie permet aux data centers IA d'ajuster dynamiquement leur consommation électrique selon les contraintes du réseau afin de débloquer plus de 100 GW de capacité déjà existante sur le réseau américain, a levé 150 M$ en série A (co-menée par Energize Capital et DCVC) à une valorisation de 1,05 Md$ ; la solution est déjà déployée à échelle réelle avec Digital Realty et Nvidia sur le site de Manassas (Virginie).",
+      "source": "Business Wire / SiliconANGLE",
+      "url": "https://siliconangle.com/2026/08/25/data-center-power-startup-emerald-ai-raises-150m-at-1-05b-valuation/",
+      "inv": 150
+    },
     {
       "category": "land",
       "title": "Australie : Zerra DC dépose un projet de campus « Western Downs Digital Park » de 1,44 GW (22 Md$) dans le pôle énergétique du Queensland",
@@ -46,6 +56,32 @@
       "source": "GlobeNewswire / BNN Bloomberg",
       "url": "https://www.globenewswire.com/news-release/2026/08/24/3349571/0/en/nvent-to-acquire-maverick-power.html",
       "inv": 1750
+    },
+    {
+      "category": "land",
+      "title": "Texas : Prometheus Hyperscale avance son campus « behind-the-meter » de 1,5 GW (jusqu'à 2,5 GW) à Pecos, alimenté en îlot par gaz et éthane",
+      "region": "Amérique du Nord",
+      "date": "2026-08-24",
+      "summary": "Prometheus Hyperscale, associé à Istmo Midstream, développe à Reeves County (Pecos, Texas) un campus data center de 1,5 GW extensible à 2,5 GW totalement îloté du réseau ERCOT, alimenté par une architecture bi-combustible gaz naturel/éthane adossée à une installation de fractionnement co-localisée ; première puissance visée en 2027.",
+      "source": "Data Center Knowledge / DataCenterDynamics",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/prometheus-1-5-gw-pecos-plan-tests-private-power",
+      "mw": 1500,
+      "coords": [
+        31.42,
+        -103.49
+      ],
+      "poweredLand": true,
+      "owners": "Prometheus Hyperscale · Istmo Midstream (fractionnement/carburant)",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "New York : une soixantaine d'élus demandent à la gouverneure Hochul de signer le « Responsible Data Center Development Act »",
+      "region": "Amérique du Nord",
+      "date": "2026-08-24",
+      "summary": "Après avoir imposé par décret, le 14 juillet, un moratoire sur les permis de data centers hyperscale (plus de 50 MW), la gouverneure de New York Kathy Hochul est désormais pressée par une soixantaine d'élus de l'Assemblée et du Sénat de l'État de signer le Responsible Data Center Development Act (S10642/A11560), adopté par les deux chambres, qui encadrerait durablement la consommation énergétique et l'impact réseau des futurs data centers.",
+      "source": "Mid Hudson News",
+      "url": "https://midhudsonnews.com/2026/08/24/state-lawmakers-urge-hochul-to-sign-data-center-regulation-bill/"
     },
     {
       "category": "land",
@@ -121,6 +157,23 @@
       "poweredLand": true,
       "owners": "Harworth Group plc",
       "investors": "n.c. (acheteur non nommé)"
+    },
+    {
+      "category": "land",
+      "title": "Maine (États-Unis) : la FERC accepte le dossier de permis préliminaire pour un data center sous-marin alimenté par les marées à Eastport, malgré le moratoire municipal",
+      "region": "Amérique du Nord",
+      "date": "2026-08-19",
+      "summary": "La FERC a accepté le 19 août le dossier de permis préliminaire (48 mois) déposé par DeepGreen Western Passage SPV pour un data center sous-marin de 100 M$, refroidi par l'eau et alimenté par l'énergie marémotrice du Bay of Fundy, près d'Eastport (Maine) — une semaine après que la ville a voté un moratoire de 180 jours sur les data centers face à l'opposition des riverains et de la nation Passamaquoddy.",
+      "source": "Bangor Daily News / The Maine Monitor",
+      "url": "https://www.bangordailynews.com/2026/08/24/down-east/downeast-government/eastport-maine-ferc-underwater-data-center-preliminary-permit-approval/",
+      "inv": 100,
+      "coords": [
+        44.9047,
+        -66.9958
+      ],
+      "poweredLand": true,
+      "owners": "DeepGreen Western Passage SPV",
+      "investors": "n.c."
     },
     {
       "category": "market",
@@ -234,16 +287,6 @@
       "inv": 20000
     },
     {
-      "category": "market",
-      "title": "Vantage Data Centers explore une IPO ou une cession à une valorisation de 100 Md$",
-      "region": "Amérique du Nord",
-      "date": "2026-08-13",
-      "summary": "Vantage Data Centers (soutenu par DigitalBridge et Silver Lake) étudierait une introduction en bourse pouvant lever environ 10 Md$ pour une valorisation proche de 100 Md$, ou alternativement une cession — ce qui en ferait la plus importante IPO du secteur data center à ce jour, signe de l'appétit financier persistant porté par la demande IA.",
-      "source": "Reuters / Bloomberg",
-      "url": "https://www.bnnbloomberg.ca/business/company-news/2026/08/13/vantage-data-centers-explores-ipo-at-us100-billion-valuation-or-sale-sources-say/",
-      "inv": 100000
-    },
-    {
       "category": "legislation",
       "title": "Michigan : la procureure générale Nessel et des associations environnementales attaquent en appel les contrats DTE Energy du data center Stargate de Saline Township",
       "region": "Amérique du Nord",
@@ -347,20 +390,6 @@
       "inv": 20000
     },
     {
-      "category": "power",
-      "title": "NRG dévoile un accord de 3,2 Md$ pour une centrale gaz dédiée de 1,2 GW à un hyperscaler au Texas",
-      "region": "Amérique du Nord",
-      "date": "2026-08-04",
-      "summary": "Lors de son point T2 2026, NRG Energy annonce être aligné sur les termes commerciaux avec un hyperscaler cloud/IA non nommé pour construire une centrale à cycle combiné gaz de 1,2 GW dédiée à un data center au Texas — son premier projet « bring your own power », extensible jusqu'à 2,4 GW, mise en service visée fin 2029.",
-      "source": "Utility Dive / NRG Energy",
-      "url": "https://www.utilitydive.com/news/nrg-nears-12-gw-hyperscaler-deal-amid-texas-data-center-pause/827212/",
-      "mw": 1200,
-      "inv": 3200,
-      "poweredLand": true,
-      "owners": "NRG Energy (production) · hyperscaler n.c. (locataire)",
-      "investors": "n.c."
-    },
-    {
       "category": "land",
       "title": "Bitdeer signe un bail IA/HPC de 4,7 Md$ sur 16 ans pour son campus de Tydal (Norvège), 100% renouvelable",
       "region": "Europe",
@@ -377,40 +406,6 @@
       "poweredLand": true,
       "owners": "Bitdeer Technologies (site) · Volta Tydal AS / Volta (locataire)",
       "investors": "J.P. Morgan et un second bailleur (lettres de crédit, ~1,3 Md$)"
-    },
-    {
-      "category": "land",
-      "title": "Le Kentucky, aimant du « powered land » : les friches industrielles se transforment en campus IA",
-      "region": "Amérique du Nord",
-      "date": "2026-08-03",
-      "summary": "Au-delà de Paducah, TeraWulf multiplie les acquisitions de sites industriels désaffectés dans le Kentucky pour leur accès immédiat au réseau : ex-aluminerie Century Aluminum à Hancock County (482 MW) et un parc industriel à cheval sur Boyd/Greenup County (plus de 1 GW, 1re tranche de 500 MW dès 2028). Une trentaine de projets de data centers seraient à l'étude dans l'État.",
-      "source": "Kentucky Lantern",
-      "url": "https://kentuckylantern.com/2026/08/03/data-centers-need-massive-power-theyre-eyeing-kentuckys-idle-industrial-sites-to-get-it/",
-      "mw": 1000,
-      "coords": [
-        38.55,
-        -82.75
-      ],
-      "poweredLand": true,
-      "owners": "TeraWulf (Justified DataPower)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Cerberus Capital Management et Yondr acquièrent 40 acres à Manassas (Virginie) pour un campus data center de 72 MW",
-      "region": "Amérique du Nord",
-      "date": "2026-08-03",
-      "summary": "Cerberus Capital Management et l'opérateur Yondr Group annoncent l'acquisition d'un site de 40 acres à Manassas, en Virginie du Nord, pour développer un campus data center de 72 MW mis en avant pour sa disponibilité de puissance à court terme dans un marché historiquement saturé côté réseau ; mise en service visée en 2029.",
-      "source": "PR Newswire / BeBeez",
-      "url": "https://www.prnewswire.com/news-releases/cerberus-and-yondr-acquire-40-acres-in-northern-virginia-to-build-72mw-data-center-302841166.html",
-      "mw": 72,
-      "coords": [
-        38.75,
-        -77.49
-      ],
-      "poweredLand": true,
-      "owners": "Yondr Group (opérateur) · Cerberus Capital Management (investisseur)",
-      "investors": "Cerberus Capital Management"
     },
     {
       "category": "land",
