@@ -1,13 +1,54 @@
 {
-  "lastUpdated": "2026-08-26",
+  "lastUpdated": "2026-08-27",
   "keyTakeaways": [
-    "Le « behind-the-meter » îloté devient un standard de site plutôt qu'une exception au Texas : Prometheus Hyperscale avance à Pecos (Reeves County) un campus de 1,5 GW extensible à 2,5 GW totalement déconnecté d'ERCOT (gaz + éthane co-localisé), à quelques kilomètres du site GW Ranch d'Amazon déjà hors réseau — confirmant le Permian Basin comme nouveau hub du foncier auto-alimenté.",
-    "Une nouvelle classe d'actifs émerge à côté du foncier énergisé pur : Emerald AI lève 150 M$ (valorisation 1,05 Md$) pour vendre aux opérateurs la flexibilité de charge comme moyen de débloquer 100+ GW de capacité déjà présente sur le réseau américain — un signal que les investisseurs commencent à valoriser la gestion de la demande autant que l'accès brut à la puissance.",
-    "La course au foncier + énergie s'étend à des sources non conventionnelles : la FERC instruit un projet de data center sous-marin alimenté par les marées au large d'Eastport (Maine), malgré un moratoire municipal voté une semaine plus tôt face à l'opposition des riverains et de la nation Passamaquoddy.",
-    "Le risque réglementaire américain reste vif et fragmenté : après le Texas et la Pennsylvanie, New York est désormais suspendu à l'arbitrage de la gouverneure Hochul entre son moratoire exécutif de juillet sur les data centers de plus de 50 MW et le vote bipartisan du Responsible Data Center Development Act, que 60 élus la pressent de signer — un facteur d'incertitude supplémentaire à intégrer dans tout sourcing américain.",
-    "Aucun signal frais identifié cette semaine encore pour Polarise (au-delà du dossier SWI déjà connu), Aurora Infra ou La Française de l'Énergie sur le volet data center, malgré recherches ciblées répétées et requêtes site:linkedin.com dédiées — à recroiser avec d'éventuelles annonces directes de ces sociétés."
+    "Le modèle « site fédéral/industriel désaffecté + génération dédiée » se confirme comme martingale du powered land américain : après Portsmouth (Ohio, ex-usine d'enrichissement) et GW Ranch (Pecos), Brookfield/NextEra dévoilent un campus de 100 Md$ sur l'ex-site d'enrichissement nucléaire de Paducah (Kentucky), avec jusqu'à 4,6 GW de génération gaz+batterie construite sur site — trois précédents fédéraux en un mois pour le sourcing de friches énergétiques.",
+    "Les gros opérateurs commencent à sécuriser eux-mêmes le risque réglementaire du raccordement : Georgia Power obtient l'aval de son régulateur pour son contrat de 3,2 GW avec OpenAI (Effingham County, « Project Camellia »), OpenAI prenant en charge 100% du coût d'infrastructure dédiée et acceptant de rendre 1 GW de sa charge flexible — un modèle contractuel à suivre pour tout sourcing américain de foncier énergisé à grande échelle.",
+    "La monétisation secondaire de capacité déjà sécurisée s'accélère : Rum Group (ex-Northern Data) signe jusqu'à 13,7 Md$ de contrats GPU adossés à son site de Maysville (Géorgie) déjà raccordé à 120-180 MW, preuve que la valeur d'un site « powered » se réalise aussi par la relocation/sous-location de capacité plutôt que par la seule construction.",
+    "Le front réglementaire local continue de se densifier et de fragmenter le paysage américain : moratoire de six mois voté à Louisville (Kentucky) le 13 août, et suspension le 25 août par la Cour suprême du Nouveau-Mexique de l'audience sur le permis air du méga-projet Jupiter (Oracle/OpenAI, 2,5 GW) à Doña Ana County — autant de zones de friction à cartographier avant tout sourcing local.",
+    "Aucun signal frais identifié aujourd'hui encore pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center, malgré recherches ciblées répétées et requêtes site:linkedin.com dédiées."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "Géorgie (États-Unis) : la PSC approuve le contrat de 3,2 GW entre Georgia Power et OpenAI pour le campus « Project Camellia » d'Effingham County",
+      "region": "Amérique du Nord",
+      "date": "2026-08-26",
+      "summary": "La Georgia Public Service Commission a approuvé le contrat déposé en juillet par Georgia Power pour fournir jusqu'à 3 200 MW au campus « Project Camellia » d'OpenAI (Effingham County, ~20 Md$ d'investissement annoncé), qui couvrira l'intégralité du coût de raccordement dédié et rendra flexible jusqu'à 1 000 MW de sa charge ; l'accord s'inscrit dans un portefeuille de contrats « large-load » générant environ 950 M$ d'économies annuelles pour les clients résidentiels à partir de 2029.",
+      "source": "Georgia Power (PRNewswire) / The Current / WTOC",
+      "url": "https://www.prnewswire.com/news-releases/georgia-powers-contract-with-openai-approved-latest-approval-part-of-portfolio-of-large-load-contracts-delivering-approximately-950-million-in-annual-savings-beginning-in-2029-302861080.html",
+      "mw": 3200,
+      "inv": 20000,
+      "coords": [32.3, -81.3],
+      "poweredLand": true,
+      "owners": "OpenAI (locataire, Project Camellia) · Georgia Power (utility)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Géorgie (États-Unis) : Rum Group (ex-Northern Data) signe un contrat de capacité GPU pouvant atteindre 13,7 Md$ sur son site déjà énergisé de Maysville",
+      "region": "Amérique du Nord",
+      "date": "2026-08-26",
+      "summary": "Rum Group Inc. a signé avec un client cloud américain non nommé un accord d'accès GPU en trois tranches, d'une valeur totale pouvant atteindre 13,7 Md$ sur six ans, adossé à son site de Maysville (Jackson County, Géorgie) initialement développé par Northern Data avec 120 MW extensibles à 180 MW ; l'opération illustre la valorisation commerciale de capacité déjà sécurisée malgré l'opposition locale et un projet de moratoire municipal.",
+      "source": "DataCenterDynamics / StockTitan",
+      "url": "https://www.datacenterdynamics.com/en/news/rum-group-signs-up-to-137bn-lease-agreement-with-unnamed-us-cloud-customer/",
+      "mw": 180,
+      "inv": 13700,
+      "coords": [34.25, -83.4],
+      "poweredLand": true,
+      "owners": "Rum Group Inc. (ex-Northern Data)",
+      "investors": "n.c. (client cloud non nommé)"
+    },
+    {
+      "category": "power",
+      "title": "Pennsylvanie/PJM : le DOE maintient en service 760 MW à la centrale d'Eddystone jusqu'au 20 novembre face à la demande des data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-08-26",
+      "summary": "Le Département de l'Énergie américain a ordonné à PJM et Constellation Energy de maintenir disponibles les unités 3 et 4 de la centrale d'Eddystone (760 MW) jusqu'au 20 novembre 2026, une mesure d'urgence répétée face à une analyse de fiabilité anticipant environ 25 GW de croissance de charge sur PJM (dont 15 GW liés aux data centers) contre ~17 GW de fermetures de centrales fossiles annoncées.",
+      "source": "Data Center Knowledge / Department of Energy",
+      "url": "https://www.datacenterknowledge.com/energy-power-supply/doe-extends-eddystone-as-pjm-faces-data-center-power-surge",
+      "mw": 760,
+      "coords": [39.86, -75.33]
+    },
     {
       "category": "power",
       "title": "Emerald AI lève 150 M$ en série A (valorisation 1,05 Md$) pour déployer des data centers IA « power-flexible »",
@@ -17,6 +58,18 @@
       "source": "Business Wire / SiliconANGLE",
       "url": "https://siliconangle.com/2026/08/25/data-center-power-startup-emerald-ai-raises-150m-at-1-05b-valuation/",
       "inv": 150
+    },
+    {
+      "category": "legislation",
+      "title": "Nouveau-Mexique : la Cour suprême de l'État suspend temporairement l'audience sur le permis air du data center « Project Jupiter » (Oracle/OpenAI)",
+      "region": "Amérique du Nord",
+      "date": "2026-08-25",
+      "summary": "La Cour suprême du Nouveau-Mexique a accordé le 25 août une suspension temporaire de l'audience sur le permis air du méga data center « Project Jupiter » (2,5 GW, microgrid gaz naturel, porté par Oracle et OpenAI à Doña Ana County), alors que des élus démocrates locaux ont par ailleurs déposé une proposition de moratoire régional sur les data centers examinée en commission depuis le 11 août.",
+      "source": "Food & Water Watch / Source New Mexico",
+      "url": "https://www.foodandwaterwatch.org/2026/08/25/new-mexico-supreme-court-pauses-air-permit-hearing-for-project-jupiter-ai-hyperscale-data-center/",
+      "mw": 2500,
+      "coords": [32.32, -106.78],
+      "owners": "Oracle · OpenAI (Project Jupiter)"
     },
     {
       "category": "land",
@@ -48,16 +101,6 @@
       "investors": "n.c."
     },
     {
-      "category": "power",
-      "title": "nVent Electric rachète Maverick Power pour 1,75 Md$ afin d'étendre son offre de distribution électrique pour data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-08-24",
-      "summary": "nVent Electric annonce le rachat de Maverick Power (Texas, ~900 salariés), spécialiste des équipements de distribution électrique basse et moyenne tension, pour 1,75 Md$ (plus jusqu'à 550 M$ d'earnout) ; clôture visée au T4 2026, renforçant l'offre d'infrastructures électriques dédiées aux data centers.",
-      "source": "GlobeNewswire / BNN Bloomberg",
-      "url": "https://www.globenewswire.com/news-release/2026/08/24/3349571/0/en/nvent-to-acquire-maverick-power.html",
-      "inv": 1750
-    },
-    {
       "category": "land",
       "title": "Texas : Prometheus Hyperscale avance son campus « behind-the-meter » de 1,5 GW (jusqu'à 2,5 GW) à Pecos, alimenté en îlot par gaz et éthane",
       "region": "Amérique du Nord",
@@ -66,10 +109,7 @@
       "source": "Data Center Knowledge / DataCenterDynamics",
       "url": "https://www.datacenterknowledge.com/data-center-construction/prometheus-1-5-gw-pecos-plan-tests-private-power",
       "mw": 1500,
-      "coords": [
-        31.42,
-        -103.49
-      ],
+      "coords": [31.42, -103.49],
       "poweredLand": true,
       "owners": "Prometheus Hyperscale · Istmo Midstream (fractionnement/carburant)",
       "investors": "n.c."
@@ -120,15 +160,6 @@
     },
     {
       "category": "power",
-      "title": "Tennessee Valley Authority : nouvelle grille tarifaire dédiée aux data centers, +10% sur trois ans",
-      "region": "Amérique du Nord",
-      "date": "2026-08-20",
-      "summary": "Le conseil d'administration de la TVA a approuvé le 20 août une classe tarifaire spécifique aux data centers (charges de plus de 5 MW), avec une hausse d'environ 10% étalée sur trois ans à compter du 1er octobre 2026, afin de faire porter aux data centers le coût de capacité qu'ils imposent au réseau plutôt que de le répercuter sur les autres usagers.",
-      "source": "Chattanooga Times Free Press / Utility Dive",
-      "url": "https://www.timesfreepress.com/news/2026/aug/20/tva-to-charge-data-centers-more-for-power-under/"
-    },
-    {
-      "category": "power",
       "title": "BloombergNEF : l'audit texan menace de retarder 49,8 GW, 20% du pipeline data center américain",
       "region": "Amérique du Nord",
       "date": "2026-08-19",
@@ -157,23 +188,6 @@
       "poweredLand": true,
       "owners": "Harworth Group plc",
       "investors": "n.c. (acheteur non nommé)"
-    },
-    {
-      "category": "land",
-      "title": "Maine (États-Unis) : la FERC accepte le dossier de permis préliminaire pour un data center sous-marin alimenté par les marées à Eastport, malgré le moratoire municipal",
-      "region": "Amérique du Nord",
-      "date": "2026-08-19",
-      "summary": "La FERC a accepté le 19 août le dossier de permis préliminaire (48 mois) déposé par DeepGreen Western Passage SPV pour un data center sous-marin de 100 M$, refroidi par l'eau et alimenté par l'énergie marémotrice du Bay of Fundy, près d'Eastport (Maine) — une semaine après que la ville a voté un moratoire de 180 jours sur les data centers face à l'opposition des riverains et de la nation Passamaquoddy.",
-      "source": "Bangor Daily News / The Maine Monitor",
-      "url": "https://www.bangordailynews.com/2026/08/24/down-east/downeast-government/eastport-maine-ferc-underwater-data-center-preliminary-permit-approval/",
-      "inv": 100,
-      "coords": [
-        44.9047,
-        -66.9958
-      ],
-      "poweredLand": true,
-      "owners": "DeepGreen Western Passage SPV",
-      "investors": "n.c."
     },
     {
       "category": "market",
@@ -214,10 +228,7 @@
       "source": "KSLA (CBS)",
       "url": "https://www.ksla.com/2026/08/18/amazon-web-services-announces-third-data-center-campus-is-coming-shreveport/?outputType=amp",
       "inv": 6000,
-      "coords": [
-        32.53,
-        -93.75
-      ],
+      "coords": [32.53, -93.75],
       "owners": "Amazon (AWS) · STACK Infrastructure (construction)",
       "investors": "Amazon"
     },
@@ -231,27 +242,10 @@
       "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
       "mw": 8000,
       "inv": 105000,
-      "coords": [
-        39.06,
-        -83.0
-      ],
+      "coords": [39.06, -83.0],
       "poweredLand": true,
       "owners": "SB Energy (SoftBank) · OpenAI (locataire)",
       "investors": "Nvidia (garantie jusqu'à 105 Md$ + 1,5 Md$ d'equity) · SoftBank Group"
-    },
-    {
-      "category": "legislation",
-      "title": "Texas : la justice bloque temporairement l'accord municipal sur le data center PowerHouse à Westlake",
-      "region": "Amérique du Nord",
-      "date": "2026-08-17",
-      "summary": "Une ordonnance restrictive temporaire obtenue par une association de riverains de Keller a stoppé un vote du conseil municipal de Westlake sur l'accord avec le développeur PowerHouse Data Centers pour le « Circle T Data Center » (situé à environ 150 m d'habitations), reportant le vote après le 26 août.",
-      "source": "Fort Worth Report / KERA News",
-      "url": "https://fortworthreport.org/2026/08/17/westlake-data-center-agreement-temporarily-blocked-by-tarrant-county-court/",
-      "coords": [
-        32.99,
-        -97.19
-      ],
-      "owners": "PowerHouse Data Centers"
     },
     {
       "category": "land",
@@ -268,15 +262,6 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "Irlande : le gouvernement rouvre le débat sur le nucléaire pour absorber la demande électrique des data centers",
-      "region": "Europe",
-      "date": "2026-08-15",
-      "summary": "Alors que les data centers ont consommé 23% de l'électricité mesurée du pays en 2025 (autant que l'ensemble des ménages), le gouvernement irlandais commande à la SEAI une étude sur le nucléaire (SMR et réacteurs conventionnels) devant être remise début 2027, malgré l'interdiction légale actuelle de la fission nucléaire pour la production d'électricité.",
-      "source": "The Irish Times / DataCenterDynamics",
-      "url": "https://www.irishtimes.com/environment/2026/08/15/ireland-considering-nuclear-option-as-fresh-energy-crisis-looms/"
-    },
-    {
       "category": "market",
       "title": "La vague d'IPO des opérateurs de data centers s'élargit : CyrusOne et DayOne rejoignent Vantage dans la course à la cotation",
       "region": "Amérique du Nord",
@@ -288,20 +273,13 @@
     },
     {
       "category": "legislation",
-      "title": "Michigan : la procureure générale Nessel et des associations environnementales attaquent en appel les contrats DTE Energy du data center Stargate de Saline Township",
+      "title": "Kentucky : le Metro Council de Louisville adopte un moratoire de six mois sur les nouveaux data centers",
       "region": "Amérique du Nord",
-      "date": "2026-08-10",
-      "summary": "La procureure générale du Michigan Dana Nessel et plusieurs associations environnementales ont déposé leurs premiers mémoires devant la Cour d'appel du Michigan contestant l'approbation accélérée par le régulateur (MPSC) des contrats DTE Energy alimentant en 1,4 GW le data center Stargate (OpenAI/Oracle/Related Digital) de Saline Township, dénonçant l'absence de procédure contradictoire et un risque de report de près de 500 M$ de coûts sur les usagers.",
-      "source": "Michigan Advance / Planet Detroit",
-      "url": "https://michiganadvance.com/2026/08/10/nessel-and-environmental-groups-file-initial-arguments-in-appeal-of-dte-saline-data-center-contract/",
-      "mw": 1400,
-      "coords": [
-        42.1595,
-        -83.7827
-      ],
-      "poweredLand": true,
-      "owners": "DTE Energy (production) · OpenAI/Oracle/Related Digital (Stargate, locataires)",
-      "investors": "n.c."
+      "date": "2026-08-13",
+      "summary": "Le conseil métropolitain de Louisville a voté (24 voix pour, 1 contre) un moratoire de six mois sur le zonage, les permis d'usage conditionnel et les permis de développement liés aux data centers et « telecom hotels », le temps d'étudier leurs impacts énergétiques, hydriques et fonciers ; la mesure ferme aussi une brèche qui aurait permis de reconvertir un bâtiment existant en data center sans nouvelle procédure.",
+      "source": "WBKO / Louisville Public Media",
+      "url": "https://www.lpm.org/news/2026-08-13/louisville-metro-council-approves-data-center-moratorium-as-new-proposal-sparks-controversy",
+      "coords": [38.25, -85.76]
     },
     {
       "category": "land",
@@ -312,10 +290,7 @@
       "source": "DataCenterDynamics / citybiz",
       "url": "https://www.datacenterdynamics.com/en/news/ai-data-center-developer-5c-secures-half-a-billion-dollars-in-new-financing/",
       "inv": 605,
-      "coords": [
-        35.05,
-        -90.02
-      ],
+      "coords": [35.05, -90.02],
       "owners": "5C Group",
       "investors": "Brookfield Asset Management"
     },
@@ -328,10 +303,7 @@
       "source": "DCmag / Le Journal des Entreprises",
       "url": "https://dcmag.fr/isere-azur-datacenter-rachete-le-siege-de-hrs-et-injecte-360-me-pour-un-projet-de-data-center/",
       "inv": 390,
-      "coords": [
-        45.12,
-        5.73
-      ],
+      "coords": [45.12, 5.73],
       "poweredLand": true,
       "owners": "Azur Datacenter (Arago Technologie)",
       "investors": "Azur Datacenter / Arago Technologie"
@@ -358,10 +330,7 @@
       "source": "DataCenterDynamics / Cleanview",
       "url": "https://www.datacenterdynamics.com/en/news/amazon-acquires-8000-acre-site-in-pecos-texas-for-natural-gas-powered-behind-the-meter-data-center-report/",
       "mw": 7650,
-      "coords": [
-        31.42,
-        -103.49
-      ],
+      "coords": [31.42, -103.49],
       "poweredLand": true,
       "owners": "Amazon (ex-Pacifico Energy)",
       "investors": "n.c."
@@ -380,16 +349,6 @@
       "investors": "n.c."
     },
     {
-      "category": "power",
-      "title": "PJM dépose à la FERC un plan à deux volets : enchère de capacité de secours (jusqu'à 20 Md$) et délestage prioritaire des data centers sans énergie propre",
-      "region": "Amérique du Nord",
-      "date": "2026-08-07",
-      "summary": "L'opérateur de réseau PJM (13 États, ~67 millions d'habitants) soumet à la FERC un plan en deux volets : une enchère de capacité de secours pouvant mobiliser jusqu'à 20 Md$ pour de nouvelles centrales desservant les data centers construits avant 2027, et un mécanisme de délestage prioritaire pour les data centers post-2027 qui n'apportent pas leur propre source d'énergie — une pression réglementaire supplémentaire en faveur du modèle du foncier déjà énergisé (« bring your own power »).",
-      "source": "Utility Dive / Ohio Capital Journal",
-      "url": "https://www.utilitydive.com/news/pjm-backstop-capacity-auction-ferc-data-centers/826792/",
-      "inv": 20000
-    },
-    {
       "category": "land",
       "title": "Bitdeer signe un bail IA/HPC de 4,7 Md$ sur 16 ans pour son campus de Tydal (Norvège), 100% renouvelable",
       "region": "Europe",
@@ -399,10 +358,7 @@
       "url": "https://www.globenewswire.com/news-release/2026/08/04/3338255/0/en/bitdeer-announces-4-7-billion-16-year-ai-hpc-data-center-lease-for-tydal-norway-campus.html",
       "mw": 121,
       "inv": 4700,
-      "coords": [
-        63.05,
-        11.55
-      ],
+      "coords": [63.05, 11.55],
       "poweredLand": true,
       "owners": "Bitdeer Technologies (site) · Volta Tydal AS / Volta (locataire)",
       "investors": "J.P. Morgan et un second bailleur (lettres de crédit, ~1,3 Md$)"
@@ -416,13 +372,25 @@
       "source": "Usine Nouvelle",
       "url": "https://www.usinenouvelle.com/electronique-informatique/cloud-computing/datacenters/projets-valides-ou-retoques-usines-reconverties-ce-qui-a-bouge-dans-les-datacenters-cet-ete-en-france.BGVBQHSV7JAITHE455QUW5X4AE.html",
       "mw": 1400,
-      "coords": [
-        48.53,
-        2.93
-      ],
+      "coords": [48.53, 2.93],
       "poweredLand": true,
       "owners": "Consortium Campus IA : MGX (Émirats) · Bpifrance · Mistral AI · Nvidia",
       "investors": "MGX · Bpifrance · Nvidia"
+    },
+    {
+      "category": "land",
+      "title": "Kentucky (États-Unis) : Brookfield et NextEra dévoilent un campus IA de 100 Md$ sur l'ancien site d'enrichissement nucléaire de Paducah, avec jusqu'à 4,6 GW de génération dédiée",
+      "region": "Amérique du Nord",
+      "date": "2026-07-29",
+      "summary": "Brookfield et NextEra Energy annoncent la transformation d'une partie du site fédéral de 3 556 acres de l'ex-usine d'enrichissement par diffusion gazeuse de Paducah (comté de McCracken, Kentucky, à l'arrêt depuis 2013) en campus IA visant plus de 1,2 GW de charge de calcul (jusqu'à 1,8 GW de capacité utilitaire) ; NextEra y possédera et exploitera jusqu'à 2 GW de génération gaz naturel et 2,6 GW de stockage batterie dédiés, pour un investissement total pouvant atteindre 100 Md$ d'ici 2032 — un nouvel exemple emblématique de foncier fédéral énergisé reconverti pour l'IA.",
+      "source": "Data Center Knowledge / PowerMag / Kentucky Lantern",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/brookfield-nextera-launch-100b-ai-campus-at-doe-s-paducah-site",
+      "mw": 1200,
+      "inv": 100000,
+      "coords": [37.09, -88.77],
+      "poweredLand": true,
+      "owners": "Brookfield Asset Management · NextEra Energy (génération dédiée) · DOE (foncier fédéral, ex-PGDP)",
+      "investors": "Brookfield · NextEra Energy"
     },
     {
       "category": "land",
@@ -434,10 +402,7 @@
       "url": "https://dcmag.fr/un-projet-de-datacenter-pour-2-hyperscalers-sur-la-friche-industrielle-caterpillar-a-rantigny-oise/",
       "mw": 300,
       "inv": 4900,
-      "coords": [
-        49.4,
-        2.36
-      ],
+      "coords": [49.4, 2.36],
       "poweredLand": true,
       "owners": "n.c. (hyperscalers non nommés)",
       "investors": "n.c."
@@ -452,10 +417,7 @@
       "url": "https://www.aterio.io/blog/before-the-headlines-a-3gw-ai-data-center-campus-quietly-rises-in-sulphur-springs-tx",
       "mw": 3000,
       "inv": 18700,
-      "coords": [
-        33.14,
-        -95.6
-      ],
+      "coords": [33.14, -95.6],
       "poweredLand": true,
       "owners": "MSB Global Services",
       "investors": "n.c."
@@ -470,10 +432,7 @@
       "url": "https://w.media/bytedance-begins-construction-of-us-38-44-billion-data-center-in-brazil/",
       "mw": 1000,
       "inv": 39000,
-      "coords": [
-        -3.54,
-        -38.82
-      ],
+      "coords": [-3.54, -38.82],
       "poweredLand": true,
       "owners": "ByteDance · Omnia (développeur, Patria Investments)",
       "investors": "Casa dos Ventos (PPA éolien dédié, ~2 Md$)"
@@ -500,10 +459,7 @@
       "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
       "mw": 3100,
       "inv": 52000,
-      "coords": [
-        50.98,
-        2.13
-      ],
+      "coords": [50.98, 2.13],
       "poweredLand": true,
       "owners": "SoftBank Group",
       "investors": "SoftBank (autofinancé)"
@@ -518,10 +474,7 @@
       "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
       "mw": 700,
       "inv": 5800,
-      "coords": [
-        50.33,
-        3.27
-      ],
+      "coords": [50.33, 3.27],
       "poweredLand": true,
       "owners": "Data4",
       "investors": "n.c."
@@ -536,10 +489,7 @@
       "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
       "mw": 1000,
       "inv": 10900,
-      "coords": [
-        50.1758,
-        3.2354
-      ],
+      "coords": [50.1758, 3.2354],
       "owners": "Data4 (site) · Brookfield (investisseur)",
       "investors": "Brookfield Asset Management"
     },
@@ -562,10 +512,7 @@
       "url": "https://www.iberdrola.com/press-room/news/detail/iberdrola-echelon-create-joint-venture-to-develop-data-centres-spain",
       "mw": 5000,
       "inv": 2300,
-      "coords": [
-        40.35,
-        -3.68
-      ],
+      "coords": [40.35, -3.68],
       "poweredLand": true,
       "owners": "Echelon (80%) · Iberdrola/CPD4Green (20%)",
       "investors": "Iberdrola"
