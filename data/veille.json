@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-08-28",
+  "lastUpdated": "2026-08-31",
   "keyTakeaways": [
-    "Le modèle « friche/foncier + génération dédiée co-localisée » continue de s'imposer comme référence du powered land : Soluna sécurise 397 acres adossés à son propre parc éolien (Briscoe County, Texas) et Blue Energy avance un site gaz+SMR de 2,5 GW à Victoria (Texas) pour alimenter jusqu'à 1,5 GW de data centers — deux illustrations supplémentaires que la valeur du foncier se joue désormais autant sur la génération intégrée que sur le terrain lui-même.",
-    "Le risque juridique et social local devient un facteur de due diligence à part entière sur des sites pourtant déjà « powered » : à Westlake (Texas), un campus de 300 MW de PowerHouse Data Centers — substation Oncor de 350 MW déjà payée — reste bloqué par une injonction prolongée jusqu'au 8 septembre suite au recours d'une association de riverains, malgré l'approbation municipale du 4 août.",
-    "La transparence des négociations foncier+énergie devient elle-même un sujet réglementaire : une enquête NPR révèle l'usage systématique de NDA par des élus locaux de Louisiane pour dissimuler des projets de data centers (dont un site Applied Digital de 300 acres à Boyce) — un risque de réputation et de backlash à anticiper sur tout sourcing impliquant des collectivités locales.",
-    "En Europe, Ofgem propose une caution de raccordement pouvant atteindre 712 500 £/MW pour écarter les projets spéculatifs de la file d'attente britannique (au moins 80 GW de demandes de data centers) — une réforme à surveiller de près car elle pourrait revaloriser le foncier déjà en position dans la queue de connexion outre-Manche.",
+    "Le modèle « Bring Your Own Power » se confirme comme mécanisme standard de sécurisation rapide de puissance dédiée : NRG Energy annonce un accord-cadre de 1,2 GW (extensible à 2,4 GW, 3,2 Md$) avec un hyperscaler non identifié au Texas, où le client finance directement la génération en échange de paiements de capacité — un signal fort pour tout sourcing foncier+énergie misant sur la génération co-localisée.",
+    "Le risque réglementaire local se durcit jusque sur des sites déjà repérés ou en développement : Henry County (Virginie) crée un nouveau zonage « Data Center » très restrictif (recul de 300 m, permis d'usage spécial obligatoire) et la Wallonie refuse à Google un permis de pompage sur la Sambre pour son second data center de Farciennes — la due diligence environnementale et sociale pèse désormais autant que la disponibilité de puissance.",
+    "Le Royaume-Uni consolide sa zone AI Growth Zone du Northumberland : TBC Partners dépose un second projet de 300 MW à Cambois, juste à côté du campus QTS (Blackstone) de 1,1 GW déjà approuvé sur l'ex-centrale de Blyth — confirmation que le foncier déjà connecté ou proche d'infrastructures énergétiques attire plusieurs opérateurs en cascade.",
+    "La vague de cotations et de consolidation du secteur s'accélère et valorise directement les portefeuilles de foncier énergisé : Switch (Nevada/Michigan/Géorgie/Texas) vise une IPO à ~80 Md$ de valorisation, tandis qu'EdgeMode et BlackBerry AIF signent un protocole de fusion pour créer « BLACK AI » autour du projet DC Malpica en Espagne (300 MW, 3 Md€, autoproduction par piles à combustible).",
     "Aucun signal frais identifié aujourd'hui encore pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré recherches ciblées répétées et requêtes site:linkedin.com dédiées ; le dernier point Polarise en base reste le pivot SWI Group vers un financement par dette (18 août)."
   ],
   "items": [
@@ -67,29 +67,17 @@
       "investors": "n.c. (client cloud non nommé)"
     },
     {
-      "category": "power",
-      "title": "Emerald AI lève 150 M$ en série A (valorisation 1,05 Md$) pour déployer des data centers IA « power-flexible »",
-      "region": "Amérique du Nord",
-      "date": "2026-08-25",
-      "summary": "La start-up Emerald AI, dont la technologie permet aux data centers IA d'ajuster dynamiquement leur consommation électrique selon les contraintes du réseau afin de débloquer plus de 100 GW de capacité déjà existante sur le réseau américain, a levé 150 M$ en série A (co-menée par Energize Capital et DCVC) à une valorisation de 1,05 Md$ ; la solution est déjà déployée à échelle réelle avec Digital Realty et Nvidia sur le site de Manassas (Virginie).",
-      "source": "Business Wire / SiliconANGLE",
-      "url": "https://siliconangle.com/2026/08/25/data-center-power-startup-emerald-ai-raises-150m-at-1-05b-valuation/",
-      "inv": 150
-    },
-    {
       "category": "legislation",
-      "title": "Nouveau-Mexique : la Cour suprême de l'État suspend temporairement l'audience sur le permis air du data center « Project Jupiter » (Oracle/OpenAI)",
+      "title": "Virginie (Henry County) : le comté adopte un zonage « Data Center » très restrictif (recul de 300 m, permis d'usage spécial obligatoire)",
       "region": "Amérique du Nord",
       "date": "2026-08-25",
-      "summary": "La Cour suprême du Nouveau-Mexique a accordé le 25 août une suspension temporaire de l'audience sur le permis air du méga data center « Project Jupiter » (2,5 GW, microgrid gaz naturel, porté par Oracle et OpenAI à Doña Ana County), alors que des élus démocrates locaux ont par ailleurs déposé une proposition de moratoire régional sur les data centers examinée en commission depuis le 11 août.",
-      "source": "Food & Water Watch / Source New Mexico",
-      "url": "https://www.foodandwaterwatch.org/2026/08/25/new-mexico-supreme-court-pauses-air-permit-hearing-for-project-jupiter-ai-hyperscale-data-center/",
-      "mw": 2500,
+      "summary": "Le conseil des superviseurs de Henry County (Virginie) a adopté le 25 août un nouveau district de zonage « Data Center (D-C) » imposant un recul minimal de 1 000 pieds (300 m) vis-à-vis des parcelles non industrielles (500 pieds si voisin industriel), un plafond de bruit de 50 dBA et l'obtention obligatoire d'un permis d'usage spécial ; aucune parcelle n'est encore classée dans ce nouveau zonage, mais le cadre alourdit d'emblée le risque réglementaire sur tout foncier non encore sécurisé dans cet État déjà en première ligne du boom data center.",
+      "source": "WSLS / WDBJ7 / Henry County, VA",
+      "url": "https://www.henrycountyva.gov/m/newsflash/home/detail/148",
       "coords": [
-        32.32,
-        -106.78
-      ],
-      "owners": "Oracle · OpenAI (Project Jupiter)"
+        36.68,
+        -79.87
+      ]
     },
     {
       "category": "land",
@@ -195,15 +183,6 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "Texas : ERCOT demande à la PUCT une dérogation pour mener l'audit des data centers ordonné par le gouverneur Abbott",
-      "region": "Amérique du Nord",
-      "date": "2026-08-20",
-      "summary": "Lors de la réunion de la Public Utility Commission of Texas du 20 août, ERCOT a demandé une « good cause exception » pour mettre en œuvre l'audit ordonné début août par le gouverneur Abbott, portant sur environ 250 à 300 projets (majoritairement des data centers) avant toute nouvelle approbation d'interconnexion.",
-      "source": "Holland & Knight / Texas Tribune",
-      "url": "https://www.hklaw.com/en/insights/publications/2026/08/texas-gov-abbott-directs-data-center-audit"
-    },
-    {
       "category": "land",
       "title": "Europe : le foncier énergisé premium (FLAP-D) a bondi de 82% depuis 2021, les sites IA s'éloignent des hubs traditionnels",
       "region": "Europe",
@@ -223,16 +202,6 @@
       "poweredLand": true,
       "owners": "Harworth Group plc",
       "investors": "n.c. (acheteur non nommé)"
-    },
-    {
-      "category": "market",
-      "title": "CBRE : le marché européen des data centers croîtra de 20% pour atteindre 13 GW fin 2026",
-      "region": "Europe",
-      "date": "2026-08-18",
-      "summary": "Selon CBRE, la capacité totale des data centers en Europe progressera de 20% cette année pour atteindre 13 GW, portée par l'autoconstruction hyperscaler (+22%, 4,3 GW, 17e année consécutive de croissance à deux chiffres) ; le taux de vacance devrait tomber à un plancher historique de 6,5% fin 2026, et la capacité signée par les neoclouds a bondi à 420 MW au S1 (contre 89 MW un an plus tôt) — 70% de l'offre hyperscaler en service se concentre en Irlande, Pays-Bas, Suède et Belgique.",
-      "source": "CBRE / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/cbre-europe-data-center-market-to-grow-by-nearly-a-quarter-in-2026/",
-      "mw": 13000
     },
     {
       "category": "competition",
@@ -272,6 +241,23 @@
     },
     {
       "category": "land",
+      "title": "Royaume-Uni (Northumberland) : TBC Partners dépose une demande pour un second campus data center de 300 MW à Cambois, à côté du site QTS de 1,1 GW",
+      "region": "Europe",
+      "date": "2026-08-18",
+      "summary": "TBC Partners a déposé auprès du conseil du Northumberland une demande de permis pour un campus data center d'environ 300 MW sur 12 hectares à Cambois (Factory Road), immédiatement au sud de la rivière Wansbeck et à proximité du campus QTS (Blackstone) de 1,1 GW / 540 000 m² déjà approuvé sur l'ancien site de la centrale électrique de Blyth — confirmation de la zone « AI Growth Zone » du Northumberland comme nouveau pôle britannique de foncier énergisé attirant plusieurs opérateurs en cascade.",
+      "source": "DataCenterDynamics / BeBeez",
+      "url": "https://www.datacenterdynamics.com/en/news/application-filed-for-data-center-campus-near-qts-site-in-northumberland-uk/",
+      "mw": 300,
+      "coords": [
+        55.13,
+        -1.5
+      ],
+      "poweredLand": true,
+      "owners": "TBC Partners",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
       "title": "OpenAI confirme un campus de 8 GW à Portsmouth (Pike County, Ohio) : Nvidia garantit jusqu'à 105 Md$ de financement",
       "region": "Amérique du Nord",
       "date": "2026-08-17",
@@ -303,6 +289,22 @@
       "investors": "n.c."
     },
     {
+      "category": "legislation",
+      "title": "Belgique (Wallonie) : le gouvernement refuse à Google un permis de pompage sur la Sambre pour son second data center de Farciennes",
+      "region": "Europe",
+      "date": "2026-08-14",
+      "summary": "Le vice-président wallon François Desquesnes a refusé la demande de permis modifié de Google pour pomper jusqu'à 600 m³/h dans la Sambre afin de refroidir un second data center sur le site Ecopôle de Farciennes (Hainaut), invoquant le principe de précaution face à la sécheresse — un signal fort sur le risque hydrique qui pèse désormais sur le foncier déjà énergisé et en cours de développement en Belgique.",
+      "source": "Brussels Times / TechTimes / BDIA",
+      "url": "https://www.techtimes.com/articles/324765/20260817/wallonia-blocks-google-river-cooling-permit-ai-data-center-over-drought.htm",
+      "coords": [
+        50.41,
+        4.55
+      ],
+      "poweredLand": true,
+      "owners": "Google",
+      "investors": "n.c."
+    },
+    {
       "category": "power",
       "title": "Texas (Victoria) : Blue Energy, GE Vernova et Hitachi avancent un site gaz+nucléaire de 2,5 GW pour alimenter jusqu'à 1,5 GW de data centers",
       "region": "Amérique du Nord",
@@ -316,60 +318,22 @@
       "investors": "GE Vernova · Hitachi Nuclear Energy"
     },
     {
-      "category": "market",
-      "title": "La vague d'IPO des opérateurs de data centers s'élargit : CyrusOne et DayOne rejoignent Vantage dans la course à la cotation",
-      "region": "Amérique du Nord",
+      "category": "competition",
+      "title": "Espagne : EdgeMode et BlackBerry AIF signent un protocole d'accord pour fusionner et créer « BLACK AI », autour du projet DC Malpica (300 MW, Tolède)",
+      "region": "Europe",
       "date": "2026-08-13",
-      "summary": "Après l'exploration d'une IPO par Vantage Data Centers (valorisation visée ~100 Md$), DataCenterDynamics rapporte que CyrusOne (soutenu par KKR et GIP/BlackRock) engage des banques en vue d'une cotation possible dès 2027, tandis que le singapourien DayOne aurait déposé confidentiellement un dossier d'introduction en bourse aux États-Unis visant environ 20 Md$ de valorisation.",
-      "source": "DataCenterDynamics / Reuters / Bloomberg",
-      "url": "https://www.datacenterdynamics.com/en/news/vantage-cyrusone-and-dayone-all-plan-ipos-with-potential-record-breaking-valuations/",
-      "inv": 20000
-    },
-    {
-      "category": "legislation",
-      "title": "Kentucky : le Metro Council de Louisville adopte un moratoire de six mois sur les nouveaux data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-08-13",
-      "summary": "Le conseil métropolitain de Louisville a voté (24 voix pour, 1 contre) un moratoire de six mois sur le zonage, les permis d'usage conditionnel et les permis de développement liés aux data centers et « telecom hotels », le temps d'étudier leurs impacts énergétiques, hydriques et fonciers ; la mesure ferme aussi une brèche qui aurait permis de reconvertir un bâtiment existant en data center sans nouvelle procédure.",
-      "source": "WBKO / Louisville Public Media",
-      "url": "https://www.lpm.org/news/2026-08-13/louisville-metro-council-approves-data-center-moratorium-as-new-proposal-sparks-controversy",
+      "summary": "EdgeMode et BlackBerry AIF ont signé le 13 août un protocole d'accord en vue de fusionner leurs activités en une plateforme unique cotée en bourse, « BLACK AI », dédiée aux infrastructures data center IA ; l'opération s'appuie notamment sur le projet DC Malpica porté avec la mairie de Mora (Castille-La Manche), un campus de 300 MW / 3 Md€ conçu pour produire sa propre énergie via des piles à combustible à oxyde solide et ainsi minimiser sa dépendance au réseau.",
+      "source": "GlobeNewswire / DataCenterDynamics",
+      "url": "https://www.globenewswire.com/news-release/2026/08/13/3344488/0/en/edgemode-and-blackberry-aif-sign-memorandum-of-understanding-to-create-black-ai-a-publicly-listed-ai-infrastructure-development-platform.html",
+      "mw": 300,
+      "inv": 3240,
       "coords": [
-        38.25,
-        -85.76
-      ]
-    },
-    {
-      "category": "land",
-      "title": "5C Group lève 605 M$ (Brookfield) pour accélérer ses campus IA nord-américains, dont l'acquisition du site de Memphis",
-      "region": "Amérique du Nord",
-      "date": "2026-08-10",
-      "summary": "Le développeur montréalais 5C Group boucle un financement dette de 605 M$ mené par Brookfield Asset Management (plus de 1,4 Md$ levés en cumulé depuis 2025), destiné à l'acquisition et la construction de son campus de Memphis (ancien siège de Fred's, ~152 M$) ainsi qu'au développement de sites dans l'Ohio et à Phoenix.",
-      "source": "DataCenterDynamics / citybiz",
-      "url": "https://www.datacenterdynamics.com/en/news/ai-data-center-developer-5c-secures-half-a-billion-dollars-in-new-financing/",
-      "inv": 605,
-      "coords": [
-        35.05,
-        -90.02
-      ],
-      "owners": "5C Group",
-      "investors": "Brookfield Asset Management"
-    },
-    {
-      "category": "land",
-      "title": "France : Azur Datacenter rachète le siège d'HRS à Champagnier (Isère) pour un data center de 360 M€",
-      "region": "France",
-      "date": "2026-08-10",
-      "summary": "Azur Datacenter (filiale d'Arago Technologie) a signé une promesse de vente en cession-bail avec Hydrogen Refueling Solutions (HRS) pour transformer son siège industriel de Champagnier en data center haute densité IA, avec environ 360 M€ d'investissement annoncé et une centaine d'emplois visés.",
-      "source": "DCmag / Le Journal des Entreprises",
-      "url": "https://dcmag.fr/isere-azur-datacenter-rachete-le-siege-de-hrs-et-injecte-360-me-pour-un-projet-de-data-center/",
-      "inv": 390,
-      "coords": [
-        45.12,
-        5.73
+        39.68,
+        -3.77
       ],
       "poweredLand": true,
-      "owners": "Azur Datacenter (Arago Technologie)",
-      "investors": "Azur Datacenter / Arago Technologie"
+      "owners": "EdgeMode · BlackBerry AIF (futur « BLACK AI ») · Mairie de Mora",
+      "investors": "n.c."
     },
     {
       "category": "power",
@@ -415,6 +379,29 @@
       "investors": "n.c."
     },
     {
+      "category": "market",
+      "title": "Switch Inc dépose confidentiellement son dossier d'introduction en bourse aux États-Unis, valorisation visée jusqu'à 80 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-08-07",
+      "summary": "L'opérateur de data centers Switch (Nevada, Michigan, Géorgie, Texas), détenu majoritairement par DigitalBridge et IFM Investors depuis son rachat de 11 Md$ en 2022, a déposé confidentiellement son dossier d'IPO américaine visant une cotation dès novembre pour une levée pouvant atteindre 10 Md$ à une valorisation proche de 80 Md$ — nouveau signal de la vague de cotations des opérateurs de data centers IA.",
+      "source": "Bloomberg / Tekedia",
+      "url": "https://www.bloomberg.com/news/articles/2026-08-07/data-center-firm-switch-is-said-to-file-confidentially-for-ipo"
+    },
+    {
+      "category": "power",
+      "title": "Texas : NRG Energy avance un accord « Bring Your Own Power » de 1,2 GW (extensible à 2,4 GW, 3,2 Md$) avec un hyperscaler non identifié",
+      "region": "Amérique du Nord",
+      "date": "2026-08-06",
+      "summary": "NRG Energy a annoncé être aligné sur les termes commerciaux principaux d'un contrat de 15 ans avec un hyperscaler cloud/IA mondial non nommé pour construire une centrale gaz à cycle combiné de 1,2 GW (extensible à 2,4 GW) au Texas ; le modèle « Bring Your Own Power » fait porter au client le financement de la génération dédiée en échange de paiements de capacité couvrant environ 95% du free cash-flow attendu du projet.",
+      "source": "Utility Dive / NRG Energy (résultats T2 2026)",
+      "url": "https://www.utilitydive.com/news/nrg-nears-12-gw-hyperscaler-deal-amid-texas-data-center-pause/827212/",
+      "mw": 1200,
+      "inv": 3200,
+      "poweredLand": true,
+      "owners": "NRG Energy",
+      "investors": "n.c. (hyperscaler non nommé, garantie de la maison mère)"
+    },
+    {
       "category": "land",
       "title": "Bitdeer signe un bail IA/HPC de 4,7 Md$ sur 16 ans pour son campus de Tydal (Norvège), 100% renouvelable",
       "region": "Europe",
@@ -431,50 +418,6 @@
       "poweredLand": true,
       "owners": "Bitdeer Technologies (site) · Volta Tydal AS / Volta (locataire)",
       "investors": "J.P. Morgan et un second bailleur (lettres de crédit, ~1,3 Md$)"
-    },
-    {
-      "category": "land",
-      "title": "France : le préfet de Seine-et-Marne autorise le « Campus IA » de Fouju, 11 data centers pour 1,4 GW sur 89 hectares",
-      "region": "France",
-      "date": "2026-07-31",
-      "summary": "Le préfet de Seine-et-Marne a délivré le 31 juillet l'autorisation d'implantation du « Campus IA » de Fouju, porté par le consortium MGX (Émirats)/Bpifrance/Mistral AI/Nvidia dévoilé à Choose France : 11 data centers sur 89 hectares pour une puissance visée de 1,4 GW, le plus grand campus IA autorisé à ce jour en Île-de-France.",
-      "source": "Usine Nouvelle",
-      "url": "https://www.usinenouvelle.com/electronique-informatique/cloud-computing/datacenters/projets-valides-ou-retoques-usines-reconverties-ce-qui-a-bouge-dans-les-datacenters-cet-ete-en-france.BGVBQHSV7JAITHE455QUW5X4AE.html",
-      "mw": 1400,
-      "coords": [
-        48.53,
-        2.93
-      ],
-      "poweredLand": true,
-      "owners": "Consortium Campus IA : MGX (Émirats) · Bpifrance · Mistral AI · Nvidia",
-      "investors": "MGX · Bpifrance · Nvidia"
-    },
-    {
-      "category": "legislation",
-      "title": "Royaume-Uni : Ofgem propose une « commitment fee » pouvant atteindre 712 500 £/MW pour purger la file d'attente de raccordement des data centers spéculatifs",
-      "region": "Europe",
-      "date": "2026-07-29",
-      "summary": "Ofgem a ouvert une consultation (close le 16 septembre) proposant une caution de 237 500 à 712 500 £/MW à verser par les data centers à l'acceptation d'une offre de raccordement, remboursable à la mise en service et perdue en cas de sortie anticipée de la file — une réforme qui pourrait rebattre la valeur du foncier déjà en file d'attente de raccordement au Royaume-Uni, où les data centers représentent au moins 80 GW de demandes sur les 125 GW en attente.",
-      "source": "Ofgem / DataCenterDynamics",
-      "url": "https://www.ofgem.gov.uk/press-release/ofgem-acts-free-grid-capacity-tackling-speculative-data-centre-projects"
-    },
-    {
-      "category": "land",
-      "title": "Kentucky (États-Unis) : Brookfield et NextEra dévoilent un campus IA de 100 Md$ sur l'ancien site d'enrichissement nucléaire de Paducah, avec jusqu'à 4,6 GW de génération dédiée",
-      "region": "Amérique du Nord",
-      "date": "2026-07-29",
-      "summary": "Brookfield et NextEra Energy annoncent la transformation d'une partie du site fédéral de 3 556 acres de l'ex-usine d'enrichissement par diffusion gazeuse de Paducah (comté de McCracken, Kentucky, à l'arrêt depuis 2013) en campus IA visant plus de 1,2 GW de charge de calcul (jusqu'à 1,8 GW de capacité utilitaire) ; NextEra y possédera et exploitera jusqu'à 2 GW de génération gaz naturel et 2,6 GW de stockage batterie dédiés, pour un investissement total pouvant atteindre 100 Md$ d'ici 2032 — un nouvel exemple emblématique de foncier fédéral énergisé reconverti pour l'IA.",
-      "source": "Data Center Knowledge / PowerMag / Kentucky Lantern",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/brookfield-nextera-launch-100b-ai-campus-at-doe-s-paducah-site",
-      "mw": 1200,
-      "inv": 100000,
-      "coords": [
-        37.09,
-        -88.77
-      ],
-      "poweredLand": true,
-      "owners": "Brookfield Asset Management · NextEra Energy (génération dédiée) · DOE (foncier fédéral, ex-PGDP)",
-      "investors": "Brookfield · NextEra Energy"
     },
     {
       "category": "land",
@@ -529,6 +472,23 @@
       "poweredLand": true,
       "owners": "ByteDance · Omnia (développeur, Patria Investments)",
       "investors": "Casa dos Ventos (PPA éolien dédié, ~2 Md$)"
+    },
+    {
+      "category": "construction",
+      "title": "France (Dardilly, près de Lyon) : le data center IA de DC Max et Phoenix Group (18 MW) entre en construction en septembre",
+      "region": "France",
+      "date": "2026-08",
+      "summary": "Le projet de data center dédié à l'IA porté par DC Max et l'émirati Phoenix Group à Dardilly (agglomération lyonnaise) — 4 000 m², 18 MW dont 12 MW dédiés au calcul IA, plus de 100 M€ d'investissement — doit entrer en chantier en septembre 2026 pour environ dix-huit mois de travaux, malgré les inquiétudes exprimées par des riverains et des associations écologistes locales.",
+      "source": "DCmag / Rue89Lyon",
+      "url": "https://dcmag.fr/dardilly-le-projet-de-data-center-dia-de-dc-max-entrera-en-construction-en-septembre/",
+      "mw": 18,
+      "inv": 108,
+      "coords": [
+        45.82,
+        4.75
+      ],
+      "owners": "DC Max · Phoenix Group (Abu Dhabi)",
+      "investors": "Phoenix Group"
     },
     {
       "category": "land",
