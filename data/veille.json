@@ -1,11 +1,10 @@
 {
-  "lastUpdated": "2026-08-31",
+  "lastUpdated": "2026-09-01",
   "keyTakeaways": [
-    "Le modèle « Bring Your Own Power » se confirme comme mécanisme standard de sécurisation rapide de puissance dédiée : NRG Energy annonce un accord-cadre de 1,2 GW (extensible à 2,4 GW, 3,2 Md$) avec un hyperscaler non identifié au Texas, où le client finance directement la génération en échange de paiements de capacité — un signal fort pour tout sourcing foncier+énergie misant sur la génération co-localisée.",
-    "Le risque réglementaire local se durcit jusque sur des sites déjà repérés ou en développement : Henry County (Virginie) crée un nouveau zonage « Data Center » très restrictif (recul de 300 m, permis d'usage spécial obligatoire) et la Wallonie refuse à Google un permis de pompage sur la Sambre pour son second data center de Farciennes — la due diligence environnementale et sociale pèse désormais autant que la disponibilité de puissance.",
-    "Le Royaume-Uni consolide sa zone AI Growth Zone du Northumberland : TBC Partners dépose un second projet de 300 MW à Cambois, juste à côté du campus QTS (Blackstone) de 1,1 GW déjà approuvé sur l'ex-centrale de Blyth — confirmation que le foncier déjà connecté ou proche d'infrastructures énergétiques attire plusieurs opérateurs en cascade.",
-    "La vague de cotations et de consolidation du secteur s'accélère et valorise directement les portefeuilles de foncier énergisé : Switch (Nevada/Michigan/Géorgie/Texas) vise une IPO à ~80 Md$ de valorisation, tandis qu'EdgeMode et BlackBerry AIF signent un protocole de fusion pour créer « BLACK AI » autour du projet DC Malpica en Espagne (300 MW, 3 Md€, autoproduction par piles à combustible).",
-    "Aucun signal frais identifié aujourd'hui encore pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré recherches ciblées répétées et requêtes site:linkedin.com dédiées ; le dernier point Polarise en base reste le pivot SWI Group vers un financement par dette (18 août)."
+    "La régularisation réglementaire américaine s'accentue même en pleine accélération des deals : le New Jersey met fin à son crédit d'impôt de 500 M$ pour les data centers et impose un reporting semestriel énergie/eau au-delà de 100 MW, s'ajoutant à l'obligation de juillet d'apporter sa propre énergie propre — la due diligence de sourcing doit désormais intégrer ces obligations de transparence et d'autoproduction dès l'entrée.",
+    "Le modèle de financement de la capacité de calcul IA se recompose en temps réel : Nvidia suspend une partie de son programme de partage de revenus « AI Compute Partnership » (jusqu'à 36 Md$) par crainte antitrust, pendant qu'Anthropic verrouille 460 MW / 45 Md$ sur le campus de Nscale en Virginie-Occidentale et que Vantage Data Centers explore une IPO à 100 Md$ — le capital continue d'affluer vers le foncier déjà énergisé, mais les structures de financement sont renégociées à chaud.",
+    "Les campus déjà énergisés continuent d'attirer des phases incrémentales : Iron Mountain démarre la construction de RCH-1 (48 MW) sur son site de 66 acres du White Oak Technology Park près de Richmond (Virginie), premier bâtiment d'un campus visant plus de 200 MW à terme — confirmation que le foncier pré-raccordé reste le point d'entrée privilégié des opérateurs établis.",
+    "Aucun signal frais identifié aujourd'hui pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré de nouvelles recherches ciblées (dont site:linkedin.com) : le projet Polarise d'Amberg (Bavière, ex-site d'émetteur ondes courtes) date en réalité de mars 2026 et Aurora Infra se confirme être un développeur/constructeur d'infrastructures data center basé à Cracovie (Pologne), sans annonce datée nouvelle."
   ],
   "items": [
     {
@@ -16,6 +15,24 @@
       "summary": "Des demandes d'accès aux documents publics ont mis au jour au moins 54 NDA signés par des élus locaux de Louisiane depuis 2024 pour des projets industriels dont plusieurs data centers (dont un site de 300 acres d'Applied Digital à Boyce, Rapides Parish), alimentant la défiance des habitants et l'attention des législateurs sur la transparence des négociations foncier + énergie.",
       "source": "NPR / Gulf States Newsroom / Type Investigations",
       "url": "https://www.npr.org/2026/08/27/nx-s1-5879528/data-center-nda-disclosure-louisiana"
+    },
+    {
+      "category": "legislation",
+      "title": "New Jersey : la gouverneure Sherrill signe une loi de transparence énergie/eau pour les data centers et met fin au crédit d'impôt de 500 M$",
+      "region": "Amérique du Nord",
+      "date": "2026-08-27",
+      "summary": "La gouverneure Mikie Sherrill a signé une loi imposant aux data centers de plus de 100 MW un reporting semestriel obligatoire de leur consommation d'énergie et d'eau auprès du Board of Public Utilities, et a simultanément mis fin au programme de crédit d'impôt de 500 M$ qui encourageait leur implantation dans l'État — après avoir déjà imposé en juillet l'obligation d'apporter sa propre énergie propre.",
+      "source": "DataCenterDynamics / NJ Monitor / ROI-NJ",
+      "url": "https://www.datacenterdynamics.com/en/news/new-jersey-governor-signs-law-requiring-data-centers-to-report-energy-and-water-use/"
+    },
+    {
+      "category": "market",
+      "title": "Nvidia met en pause une partie de ses accords de partage de revenus avec les clouds IA, par crainte antitrust",
+      "region": "Amérique du Nord",
+      "date": "2026-08-27",
+      "summary": "Selon le Wall Street Journal, Nvidia a suspendu certains volets de son programme « AI Compute Partnership » (lancé en juillet, jusqu'à 36 Md$) qui garantissait aux clouds IA plus petits de la demande en échange d'un partage de revenus, après des alertes internes sur un risque d'exposition antitrust ; le programme n'est pas abandonné mais pourrait être remanié.",
+      "source": "Wall Street Journal / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/nvidia-pauses-some-cloud-revenue-sharing-deals-report/"
     },
     {
       "category": "legislation",
@@ -65,6 +82,20 @@
       "poweredLand": true,
       "owners": "Rum Group Inc. (ex-Northern Data)",
       "investors": "n.c. (client cloud non nommé)"
+    },
+    {
+      "category": "competition",
+      "title": "Virginie-Occidentale : Anthropic signe un accord de capacité de 45 Md$ sur 6 ans avec Nscale (460 MW), avant une IPO annoncée",
+      "region": "Amérique du Nord",
+      "date": "2026-08-26",
+      "summary": "Anthropic loue 460 MW de capacité de calcul sur six ans (jusqu'à 45 Md$) sur le futur campus de Nscale en Virginie-Occidentale, équipé de puces Nvidia Vera Rubin, avec une mise en service visée fin 2027 ; l'opération intervient alors que Nscale prépare une introduction en bourse.",
+      "source": "Bloomberg / CNBC / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-45bn-compute-capacity-agreement-with-nscale-report/",
+      "mw": 460,
+      "inv": 45000,
+      "poweredLand": true,
+      "owners": "Nscale (site) · Anthropic (locataire de capacité)",
+      "investors": "n.c."
     },
     {
       "category": "legislation",
@@ -145,13 +176,21 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "New York : une soixantaine d'élus demandent à la gouverneure Hochul de signer le « Responsible Data Center Development Act »",
+      "category": "construction",
+      "title": "Virginie (Richmond) : Iron Mountain lance la construction de son campus White Oak (RCH-1 à RCH-4), 48 MW en première phase",
       "region": "Amérique du Nord",
       "date": "2026-08-24",
-      "summary": "Après avoir imposé par décret, le 14 juillet, un moratoire sur les permis de data centers hyperscale (plus de 50 MW), la gouverneure de New York Kathy Hochul est désormais pressée par une soixantaine d'élus de l'Assemblée et du Sénat de l'État de signer le Responsible Data Center Development Act (S10642/A11560), adopté par les deux chambres, qui encadrerait durablement la consommation énergétique et l'impact réseau des futurs data centers.",
-      "source": "Mid Hudson News",
-      "url": "https://midhudsonnews.com/2026/08/24/state-lawmakers-urge-hochul-to-sign-data-center-regulation-bill/"
+      "summary": "Iron Mountain Data Centers a posé la première pierre de RCH-1 (48 MW) sur son site de 66 acres du White Oak Technology Park, près de Richmond (Virginie), premier des quatre bâtiments prévus (RCH-1 à RCH-4) qui porteront à terme le campus à plus de 200 MW.",
+      "source": "DataCenterDynamics / Clark Construction",
+      "url": "https://www.datacenterdynamics.com/en/news/iron-mountain-starts-work-on-data-center-campus-near-richmond-virginia/",
+      "mw": 48,
+      "coords": [
+        37.54,
+        -77.32
+      ],
+      "poweredLand": true,
+      "owners": "Iron Mountain Data Centers",
+      "investors": "n.c."
     },
     {
       "category": "land",
@@ -336,6 +375,15 @@
       "investors": "n.c."
     },
     {
+      "category": "market",
+      "title": "Vantage Data Centers explore une IPO à 100 Md$ de valorisation (ou une cession), la plus grosse jamais visée dans le secteur",
+      "region": "Amérique du Nord",
+      "date": "2026-08-13",
+      "summary": "Soutenu par Silver Lake et DigitalBridge (environ 11 Md$ levés depuis fin 2023, dont 9,2 Md$ en 2024), l'opérateur hyperscale Vantage Data Centers explore une introduction en bourse pouvant lever environ 10 Md$ à une valorisation proche de 100 Md$, ou une cession alternative ; le processus reste informel à ce stade.",
+      "source": "Bloomberg / SiliconANGLE",
+      "url": "https://siliconangle.com/2026/08/13/vantage-explores-100b-ipo-four-data-center-operators-line-listings/"
+    },
+    {
       "category": "power",
       "title": "Nvidia investit jusqu'à 3 Md$ dans Lancium, développeur de « powered land » pour le projet Stargate au Texas",
       "region": "Amérique du Nord",
@@ -379,15 +427,6 @@
       "investors": "n.c."
     },
     {
-      "category": "market",
-      "title": "Switch Inc dépose confidentiellement son dossier d'introduction en bourse aux États-Unis, valorisation visée jusqu'à 80 Md$",
-      "region": "Amérique du Nord",
-      "date": "2026-08-07",
-      "summary": "L'opérateur de data centers Switch (Nevada, Michigan, Géorgie, Texas), détenu majoritairement par DigitalBridge et IFM Investors depuis son rachat de 11 Md$ en 2022, a déposé confidentiellement son dossier d'IPO américaine visant une cotation dès novembre pour une levée pouvant atteindre 10 Md$ à une valorisation proche de 80 Md$ — nouveau signal de la vague de cotations des opérateurs de data centers IA.",
-      "source": "Bloomberg / Tekedia",
-      "url": "https://www.bloomberg.com/news/articles/2026-08-07/data-center-firm-switch-is-said-to-file-confidentially-for-ipo"
-    },
-    {
       "category": "power",
       "title": "Texas : NRG Energy avance un accord « Bring Your Own Power » de 1,2 GW (extensible à 2,4 GW, 3,2 Md$) avec un hyperscaler non identifié",
       "region": "Amérique du Nord",
@@ -403,21 +442,68 @@
     },
     {
       "category": "land",
-      "title": "Bitdeer signe un bail IA/HPC de 4,7 Md$ sur 16 ans pour son campus de Tydal (Norvège), 100% renouvelable",
-      "region": "Europe",
-      "date": "2026-08-04",
-      "summary": "Bitdeer loue 121 MW IT (133 MW bruts) de son campus norvégien de Tydal (180 MW bruts au total) à Volta Tydal AS, filiale du NVIDIA Cloud Partner Volta, pour un contrat de 4,7 Md$ sur 16 ans (extensible à 8 Md$) ; site alimenté à 100% en énergie renouvelable, PUE ~1,1, mise en service par phases dès fin 2026.",
-      "source": "GlobeNewswire / Bitdeer",
-      "url": "https://www.globenewswire.com/news-release/2026/08/04/3338255/0/en/bitdeer-announces-4-7-billion-16-year-ai-hpc-data-center-lease-for-tydal-norway-campus.html",
-      "mw": 121,
-      "inv": 4700,
+      "title": "France : le programme foncier « powered land » d'EDF sur friches énergétiques s'étoffe (Montereau, Bouchain, Loire-sur-Rhône, Creys-Mépieu)",
+      "region": "France",
+      "date": "2026-Q3",
+      "summary": "EDF poursuit la valorisation de ses friches énergétiques (centrales thermiques et nucléaires à l'arrêt) en sites data center pré-raccordés : OpCore à Montereau-Vallée-de-la-Seine (jusqu'à 700 MW, 4 Md€), SoftBank à Bouchain (400 MW) et Eclairion à Loire-sur-Rhône (330-350 MW) déjà retenus, et un nouvel appel à manifestation d'intérêt lancé le 3 juillet pour 500 MW à Creys-Mépieu (Isère) — un pipeline de foncier déjà énergisé structurant pour le marché français, à surveiller de près pour le sourcing.",
+      "source": "EDF / DataCenterDynamics",
+      "url": "https://www.edf.fr/en/the-edf-group/supporting-our-clients/cei-data-centers",
+      "poweredLand": true,
+      "owners": "EDF (foncier) · OpCore / SoftBank / Eclairion (opérateurs sélectionnés selon site)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "SoftBank engage jusqu'à 75 Md€ pour 5 GW de data centers IA dans les Hauts-de-France",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Annoncé à Choose France par Masayoshi Son, le plan SoftBank prévoit 45 Md€ fermes pour une 1ère phase de 3,1 GW (sites de Dunkerque/Loon-Plage, Bosquel et Bouchain), extensible à 75 Md€ / 5 GW selon l'exécution — l'un des plus gros engagements land+power jamais annoncés en France.",
+      "source": "SoftBank Group / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
+      "mw": 3100,
+      "inv": 52000,
       "coords": [
-        63.05,
-        11.55
+        50.98,
+        2.13
       ],
       "poweredLand": true,
-      "owners": "Bitdeer Technologies (site) · Volta Tydal AS / Volta (locataire)",
-      "investors": "J.P. Morgan et un second bailleur (lettres de crédit, ~1,3 Md$)"
+      "owners": "SoftBank Group",
+      "investors": "SoftBank (autofinancé)"
+    },
+    {
+      "category": "land",
+      "title": "Data4 confirme un campus de 5 Md€ / 700 MW sur la friche Usinor à Escaudain (Nord)",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Data4 transforme 33 ha de friche sidérurgique Usinor (en jachère depuis 45 ans) à Escaudain en son plus grand campus IA : 700 MW, 4 data centers, ~2 400 emplois visés, mise en service à partir de 2030.",
+      "source": "DataCenterDynamics / Data4",
+      "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
+      "mw": 700,
+      "inv": 5800,
+      "coords": [
+        50.33,
+        3.27
+      ],
+      "poweredLand": true,
+      "owners": "Data4",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Brookfield structure 10 Md€ pour le méga-campus Data4 de Cambrai (jusqu'à 1 GW, ex-base aérienne)",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Dans le cadre de son engagement de 20 Md€ pour l'IA en France annoncé à Choose France, Brookfield structure environ 10 Md€ pour le plus grand campus data center de Data4, sur 320 ha de l'ancienne base aérienne militaire de Cambrai-Épinoy (Nord) : jusqu'à 1 GW à terme (première étape 300 MW visée pour 2030), ~4 000 emplois directs et indirects, travaux visés au second semestre 2026.",
+      "source": "DataCenterDynamics / Brookfield",
+      "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
+      "mw": 1000,
+      "inv": 10900,
+      "coords": [
+        50.1758,
+        3.2354
+      ],
+      "owners": "Data4 (site) · Brookfield (investisseur)",
+      "investors": "Brookfield Asset Management"
     },
     {
       "category": "land",
@@ -501,86 +587,6 @@
       "poweredLand": true,
       "owners": "EDF (foncier) · OpCore / SoftBank / Eclairion (opérateurs sélectionnés selon site)",
       "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "SoftBank engage jusqu'à 75 Md€ pour 5 GW de data centers IA dans les Hauts-de-France",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Annoncé à Choose France par Masayoshi Son, le plan SoftBank prévoit 45 Md€ fermes pour une 1ère phase de 3,1 GW (sites de Dunkerque/Loon-Plage, Bosquel et Bouchain), extensible à 75 Md€ / 5 GW selon l'exécution — l'un des plus gros engagements land+power jamais annoncés en France.",
-      "source": "SoftBank Group / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
-      "mw": 3100,
-      "inv": 52000,
-      "coords": [
-        50.98,
-        2.13
-      ],
-      "poweredLand": true,
-      "owners": "SoftBank Group",
-      "investors": "SoftBank (autofinancé)"
-    },
-    {
-      "category": "land",
-      "title": "Data4 confirme un campus de 5 Md€ / 700 MW sur la friche Usinor à Escaudain (Nord)",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Data4 transforme 33 ha de friche sidérurgique Usinor (en jachère depuis 45 ans) à Escaudain en son plus grand campus IA : 700 MW, 4 data centers, ~2 400 emplois visés, mise en service à partir de 2030.",
-      "source": "DataCenterDynamics / Data4",
-      "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
-      "mw": 700,
-      "inv": 5800,
-      "coords": [
-        50.33,
-        3.27
-      ],
-      "poweredLand": true,
-      "owners": "Data4",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Brookfield structure 10 Md€ pour le méga-campus Data4 de Cambrai (jusqu'à 1 GW, ex-base aérienne)",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Dans le cadre de son engagement de 20 Md€ pour l'IA en France annoncé à Choose France, Brookfield structure environ 10 Md€ pour le plus grand campus data center de Data4, sur 320 ha de l'ancienne base aérienne militaire de Cambrai-Épinoy (Nord) : jusqu'à 1 GW à terme (première étape 300 MW visée pour 2030), ~4 000 emplois directs et indirects, travaux visés au second semestre 2026.",
-      "source": "DataCenterDynamics / Brookfield",
-      "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
-      "mw": 1000,
-      "inv": 10900,
-      "coords": [
-        50.1758,
-        3.2354
-      ],
-      "owners": "Data4 (site) · Brookfield (investisseur)",
-      "investors": "Brookfield Asset Management"
-    },
-    {
-      "category": "power",
-      "title": "France : 28,6 GW de demandes cumulées de raccordement data center auprès de RTE, délais de 2 à 7 ans",
-      "region": "Europe",
-      "date": "2026-Q2",
-      "summary": "RTE recense près de 18 GW réservés sur environ 80 projets (contre ~5 GW fin 2024) et des demandes cumulées atteignant 28,6 GW, très supérieures à ce que le réseau peut absorber à court terme — huit data centers sont déjà raccordés directement au réseau RTE pour 800 MW combinés.",
-      "source": "RTE / France Épargne",
-      "url": "https://www.france-epargne.fr/news/data-centers-en-france-la-penurie-de-reseau-electrique-fait-flamber-une-nouvelle-classe-dactifs"
-    },
-    {
-      "category": "power",
-      "title": "Iberdrola et Echelon lancent une JV de 2 Md€ pour des data centers « powered » en Espagne (jusqu'à 5 GW)",
-      "region": "Europe",
-      "date": "2026",
-      "summary": "Echelon Iberdrola Digital Infra (Echelon 80% / Iberdrola-CPD4Green 20%) sécurise déjà plus de 700 MW de raccordements pour un portefeuille visé jusqu'à 5 GW ; premier projet Madrid Sur : 144 MW IT sur 230 MW déjà raccordés.",
-      "source": "Iberdrola",
-      "url": "https://www.iberdrola.com/press-room/news/detail/iberdrola-echelon-create-joint-venture-to-develop-data-centres-spain",
-      "mw": 5000,
-      "inv": 2300,
-      "coords": [
-        40.35,
-        -3.68
-      ],
-      "poweredLand": true,
-      "owners": "Echelon (80%) · Iberdrola/CPD4Green (20%)",
-      "investors": "Iberdrola"
     }
   ]
 }
