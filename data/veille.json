@@ -1,13 +1,93 @@
 {
-  "lastUpdated": "2026-09-03",
+  "lastUpdated": "2026-09-04",
   "keyTakeaways": [
-    "Le sourcing « powered land » se diversifie vers de nouveaux archétypes de génération co-localisée : après le gaz/nucléaire et la géothermie, Exascale Labs et EnergyBank testent en Norvège un pilote de data center adossé à l'éolien offshore flottant (Zephyros-One), preuve que quasiment toute source d'énergie ferme peut désormais ancrer un site.",
-    "Le Moyen-Orient confirme son rôle de nouveau pôle de foncier énergisé à grande échelle : AWS et Humain s'engagent sur 50 MW dès 2028 pour la première « AI Zone » saoudienne, tandis que Google signe un accord de 920 M$/mois avec SpaceX-xAI pour sécuriser de la capacité de calcul — la course à la capacité reste indissociable de la course au foncier.",
-    "La contestation locale nord-américaine continue de s'intensifier (coalition Missouri/Kansas, moratoires à St Charles et Festus) malgré une accélération de la construction ailleurs (Cerebras 165 MW en Finlande, sixième bâtiment Telehouse à Francfort) : le risque d'opposition citoyenne doit désormais être évalué marché par marché, y compris sur des sites déjà jugés accueillants.",
-    "Aucun signal nouveau identifié pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré de nouvelles recherches ciblées (site:linkedin.com inclus) : Polarise reste sur son financement par dette SWI Stoneweg Icona (dernière annonce datée le 18 août), Aurora Infra demeure un opérateur d'infrastructures IA sans annonce récente, et FDE reste positionnée sur la production d'énergie renouvelable sans activité data center identifiée.",
-    "En France, le pipeline « fast track » RTE et les friches EDF restent les opportunités de foncier déjà énergisé les plus concrètes à court terme, alors que le « Campus IA » de Fouju continue de cristalliser la contestation malgré son autorisation préfectorale — un signal à surveiller pour tout site francilien de taille comparable."
+    "La reconversion de foncier industriel existant en site énergisé se généralise à l'échelle mondiale : après les friches françaises (Usinor à Escaudain, Caterpillar à Rantigny), Algoma Steel/Red Jar en Ontario (aciérie, 400 MW) et Firmus en Tasmanie (ancienne papeterie, 52 MW, raccordement direct au poste TasNetworks) confirment que l'infrastructure électrique industrielle héritée est devenue un critère de sourcing à part entière, bien au-delà des seules friches énergétiques.",
+    "Le risque juridique sur du foncier déjà avancé s'aggrave même dans les marchés les plus matures : à Loudoun County (Virginie du Nord, premier marché mondial), les élus envisagent désormais de retirer rétroactivement la clause de grand-père protégeant 17 dossiers déjà déposés — un signal que l'avancement administratif d'un site n'immunise plus contre un retournement politique local.",
+    "La Californie franchit une étape réglementaire structurante pour l'économie du foncier énergisé : les tarifs électriques dédiés aux data centers de plus de 75 MW (AB 2383 / SB 886) attendent la signature ou le veto du gouverneur Newsom d'ici le 30 septembre, une décision qui pourrait influencer le calcul de rentabilité du « bring your own power » dans d'autres États.",
+    "Aucun signal nouveau identifié pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré de nouvelles recherches ciblées (site:linkedin.com inclus) : les trois dossiers restent dans leur état précédemment documenté.",
+    "La géographie du powered land continue de s'élargir vers des marchés émergents (Durango au Mexique, Victoria et Tasmanie en Australie), confirmant que la compétition pour le foncier déjà raccordé ou aisément raccordable dépasse désormais largement les hubs traditionnels américains et européens."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Virginie (Loudoun County) : les élus votent à l'unanimité pour étudier la suppression rétroactive du droit acquis (« by-right ») sur 17 projets de data centers déjà déposés",
+      "region": "Amérique du Nord",
+      "date": "2026-09-03",
+      "summary": "Le conseil des superviseurs de Loudoun County (premier marché mondial de data centers, Virginie du Nord) a voté à l'unanimité le 3 septembre pour demander un avis juridique, à rendre avant le 6 octobre, sur la possibilité de retirer rétroactivement la clause de « grand-père » qui protège 17 dossiers de data centers déposés avant la suppression du droit de construire par autorisation administrative (« by-right ») en 2025 ; une issue défavorable exposerait ces projets déjà avancés à un nouveau passage en audience publique.",
+      "source": "DataCenterDynamics / Virginia Business",
+      "url": "https://www.datacenterdynamics.com/en/news/officials-in-loudoun-county-virginia-axe-by-right-data-centers/",
+      "coords": [
+        39.0896,
+        -77.6392
+      ]
+    },
+    {
+      "category": "land",
+      "title": "Canada (Ontario, Sault-Sainte-Marie) : Algoma Steel et Red Jar Energy Partners confirment un projet de data center IA de 400 MW sur le site de l'aciérie",
+      "region": "Amérique du Nord",
+      "date": "2026-09-03",
+      "summary": "Algoma Steel et le développeur Red Jar Energy Partners ont confirmé étudier un data center IA de 400 MW adossé au site industriel de l'aciérie d'Algoma à Sault-Sainte-Marie (Ontario), avec une demande déjà déposée auprès du gestionnaire de réseau IESO ; mise en service visée au T4 2029 sous réserve des approbations municipales et du nouveau « Data Centre Playbook » provincial — un nouvel exemple de foncier industriel existant reconverti en site énergisé pour l'IA.",
+      "source": "DataCenterDynamics / SooToday / Northern Ontario Business",
+      "url": "https://www.datacenterdynamics.com/en/news/new-400mw-ai-data-center-planned-for-algoma-in-ontario-canada/",
+      "mw": 400,
+      "coords": [
+        46.5136,
+        -84.3358
+      ],
+      "poweredLand": true,
+      "owners": "Algoma Steel · Red Jar Energy Partners",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Australie (Tasmanie, Wesley Vale) : Firmus Technologies dépose un troisième projet de data center (52 MW) sur une ancienne papeterie déjà raccordée",
+      "region": "Asie-Pacifique",
+      "date": "2026-09-03",
+      "summary": "Firmus Technologies a déposé une demande de permis pour un data center de 52 MW (46 MW IT) sur le site de l'ancienne papeterie de Mill Park à Wesley Vale (nord de la Tasmanie), directement voisin du poste électrique de TasNetworks qui permet un premier raccordement de 26 MW via l'infrastructure industrielle existante sans travaux sur le réseau de distribution local ; commentaires publics ouverts jusqu'au 9 septembre.",
+      "source": "DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/firmus-proposes-third-data-center-project-in-tasmania/",
+      "mw": 52,
+      "coords": [
+        -41.1799,
+        146.4425
+      ],
+      "poweredLand": true,
+      "owners": "Firmus Technologies",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Mexique (Durango) : Cuasar Capital (EOSOL) et KA URBE IT lancent un campus data center de 300 MW",
+      "region": "Amérique du Nord",
+      "date": "2026-09-03",
+      "summary": "Cuasar Capital (groupe espagnol EOSOL) et KA URBE IT commercialisent conjointement un campus de deux data centers à Durango : DC Norte Uno (300 MW dont 250 MW IT, sur 20 hectares, Tier III) et DC Norte Dos (7,74 MW, edge/industriel), positionnant l'État de Durango comme nouveau pôle mexicain pour l'IA, avec accès à trois opérateurs télécoms via le corridor de connectivité Phoenix-Querétaro ; un accord antérieur évoquait un investissement combiné pouvant atteindre 3,4 Md$.",
+      "source": "DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/quasar-launches-a-300-mw-data-center-campus-in-durango-mexico/",
+      "mw": 300,
+      "inv": 3400,
+      "coords": [
+        24.5,
+        -104.6532
+      ],
+      "owners": "Cuasar Capital (EOSOL) · KA URBE IT",
+      "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "Australie (Victoria) : Amazon signe son premier contrat de tolling sur batterie stationnaire en Asie-Pacifique avec Anza Power (50 MW/200 MWh)",
+      "region": "Asie-Pacifique",
+      "date": "2026-09-03",
+      "summary": "Amazon a signé avec Anza Power (I Squared Capital) un accord de tolling lui donnant accès à la capacité du système de stockage batterie autonome de Bairnsdale (50 MW/200 MWh, East Gippsland, Victoria), sans en assurer la construction ni l'exploitation ; c'est le premier accord de ce type pour Amazon en Asie-Pacifique et une première en Australie pour une entreprise non énergéticienne, illustrant l'intérêt croissant des hyperscalers pour le stockage batterie comme brique de sécurisation de puissance.",
+      "source": "Energy-Storage.News / PV Magazine Australia",
+      "url": "https://www.energy-storage.news/amazon-signs-first-asia-pacific-standalone-battery-storage-tolling-deal-for-50mw-bess-in-australia/",
+      "mw": 50,
+      "coords": [
+        -37.8272,
+        147.6317
+      ],
+      "owners": "Anza Power (I Squared Capital)",
+      "investors": "Amazon (off-take/tolling)"
+    },
     {
       "category": "power",
       "title": "Arabie saoudite (Riyad) : AWS et Humain s'engagent sur 50 MW dès 2028 pour la première « AI Zone » du Royaume",
@@ -251,19 +331,6 @@
       "investors": "MGX (fonds souverain EAU, majoritaire) · Bpifrance · Nvidia"
     },
     {
-      "category": "legislation",
-      "title": "Virginie (Henry County) : le comté adopte un zonage « Data Center » très restrictif (recul de 300 m, permis d'usage spécial obligatoire)",
-      "region": "Amérique du Nord",
-      "date": "2026-08-25",
-      "summary": "Le conseil des superviseurs de Henry County (Virginie) a adopté le 25 août un nouveau district de zonage « Data Center (D-C) » imposant un recul minimal de 1 000 pieds (300 m) vis-à-vis des parcelles non industrielles (500 pieds si voisin industriel), un plafond de bruit de 50 dBA et l'obtention obligatoire d'un permis d'usage spécial ; aucune parcelle n'est encore classée dans ce nouveau zonage, mais le cadre alourdit d'emblée le risque réglementaire sur tout foncier non encore sécurisé dans cet État déjà en première ligne du boom data center.",
-      "source": "WSLS / WDBJ7 / Henry County, VA",
-      "url": "https://www.henrycountyva.gov/m/newsflash/home/detail/148",
-      "coords": [
-        36.68,
-        -79.87
-      ]
-    },
-    {
       "category": "land",
       "title": "Texas : Soluna Holdings boucle l'achat de 397 acres à Briscoe County pour son campus « Dorothy 3 », adossé à son propre parc éolien",
       "region": "Amérique du Nord",
@@ -376,15 +443,6 @@
     },
     {
       "category": "land",
-      "title": "Europe : le foncier énergisé premium (FLAP-D) a bondi de 82% depuis 2021, les sites IA s'éloignent des hubs traditionnels",
-      "region": "Europe",
-      "date": "2026-08-19",
-      "summary": "Le coût du foncier énergisé premium dans les marchés FLAP-D (Francfort, Londres, Amsterdam, Paris, Dublin) a grimpé de 82% depuis 2021 (1,24 M€ à 2,26 M€ par MW) ; sur 2026-2028 les nouveaux sites data center se situent en moyenne à 175 km d'un hub majeur contre 46 km sur 2022-2025, et seuls 37% des quelque 700 MW ajoutés au T2 2026 sont allés aux cinq marchés établis — confirmation de la ruée vers des marchés secondaires pour l'accès au foncier et à l'énergie à coût maîtrisé.",
-      "source": "AP / TheNextWeb / JLL EMEA",
-      "url": "https://kelo.com/2026/08/19/europe-ai-data-centres-seek-cheaper-quicker-energy-and-land/"
-    },
-    {
-      "category": "land",
       "title": "Royaume-Uni : Harworth Group entre en exclusivité pour la vente d'un second terrain « powered » à un opérateur de data centers",
       "region": "Europe",
       "date": "2026-08-19",
@@ -414,22 +472,6 @@
       "summary": "Le gouverneur Josh Shapiro a signé un décret rendant contraignantes ses normes « GRID » (énergie, transparence, approbation locale, protection environnementale) pour les data centers IA, retirant ces projets de la procédure accélérée et interdisant les clauses de confidentialité associées ; plus de 100 projets sont recensés dans l'État.",
       "source": "The Philadelphia Inquirer / Washington Post",
       "url": "https://www.inquirer.com/politics/pennsylvania/josh-shapiro-data-center-order-20260818.html"
-    },
-    {
-      "category": "construction",
-      "title": "AWS annonce un troisième campus à Shreveport (Louisiane), 6 Md$, portant l'investissement cumulé à 18 Md$",
-      "region": "Amérique du Nord",
-      "date": "2026-08-18",
-      "summary": "Amazon Web Services annonce un investissement de 6 Md$ pour un troisième campus au Resilient Technologies Park, à l'ouest de Shreveport, portant l'investissement cumulé sur les trois campus de la région à 18 Md$ et devant créer 750 emplois permanents ; construction assurée par STACK Infrastructure.",
-      "source": "KSLA (CBS)",
-      "url": "https://www.ksla.com/2026/08/18/amazon-web-services-announces-third-data-center-campus-is-coming-shreveport/?outputType=amp",
-      "inv": 6000,
-      "coords": [
-        32.53,
-        -93.75
-      ],
-      "owners": "Amazon (AWS) · STACK Infrastructure (construction)",
-      "investors": "Amazon"
     },
     {
       "category": "land",
@@ -480,24 +522,6 @@
       ],
       "poweredLand": true,
       "owners": "Google",
-      "investors": "n.c."
-    },
-    {
-      "category": "competition",
-      "title": "Espagne : EdgeMode et BlackBerry AIF signent un protocole d'accord pour fusionner et créer « BLACK AI », autour du projet DC Malpica (300 MW, Tolède)",
-      "region": "Europe",
-      "date": "2026-08-13",
-      "summary": "EdgeMode et BlackBerry AIF ont signé le 13 août un protocole d'accord en vue de fusionner leurs activités en une plateforme unique cotée en bourse, « BLACK AI », dédiée aux infrastructures data center IA ; l'opération s'appuie notamment sur le projet DC Malpica porté avec la mairie de Mora (Castille-La Manche), un campus de 300 MW / 3 Md€ conçu pour produire sa propre énergie via des piles à combustible à oxyde solide et ainsi minimiser sa dépendance au réseau.",
-      "source": "GlobeNewswire / DataCenterDynamics",
-      "url": "https://www.globenewswire.com/news-release/2026/08/13/3344488/0/en/edgemode-and-blackberry-aif-sign-memorandum-of-understanding-to-create-black-ai-a-publicly-listed-ai-infrastructure-development-platform.html",
-      "mw": 300,
-      "inv": 3240,
-      "coords": [
-        39.68,
-        -3.77
-      ],
-      "poweredLand": true,
-      "owners": "EdgeMode · BlackBerry AIF (futur « BLACK AI ») · Mairie de Mora",
       "investors": "n.c."
     },
     {
