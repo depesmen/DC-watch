@@ -1,13 +1,26 @@
 {
-  "lastUpdated": "2026-09-04",
+  "lastUpdated": "2026-09-07",
   "keyTakeaways": [
-    "La reconversion de foncier industriel existant en site énergisé se généralise à l'échelle mondiale : après les friches françaises (Usinor à Escaudain, Caterpillar à Rantigny), Algoma Steel/Red Jar en Ontario (aciérie, 400 MW) et Firmus en Tasmanie (ancienne papeterie, 52 MW, raccordement direct au poste TasNetworks) confirment que l'infrastructure électrique industrielle héritée est devenue un critère de sourcing à part entière, bien au-delà des seules friches énergétiques.",
-    "Le risque juridique sur du foncier déjà avancé s'aggrave même dans les marchés les plus matures : à Loudoun County (Virginie du Nord, premier marché mondial), les élus envisagent désormais de retirer rétroactivement la clause de grand-père protégeant 17 dossiers déjà déposés — un signal que l'avancement administratif d'un site n'immunise plus contre un retournement politique local.",
-    "La Californie franchit une étape réglementaire structurante pour l'économie du foncier énergisé : les tarifs électriques dédiés aux data centers de plus de 75 MW (AB 2383 / SB 886) attendent la signature ou le veto du gouverneur Newsom d'ici le 30 septembre, une décision qui pourrait influencer le calcul de rentabilité du « bring your own power » dans d'autres États.",
+    "Le foncier déjà énergisé continue de s'étendre à de nouveaux hubs hors des marchés matures : HyperVault (TCS) sécurise 264 acres à Hyderabad pour un campus IA de 1 GW (7,4 Md$), confirmant que l'Inde du Sud rejoint les Etats-Unis, l'Australie et l'Europe du Nord dans la course mondiale au « land + power ».",
+    "Le risque réglementaire sur le foncier énergisé se durcit simultanément sur deux continents : en Californie, les textes AB 2383/SB 886 créant un tarif dédié aux data centers de plus de 75 MW attendent la décision de Newsom avant le 30 septembre, tandis qu'en Espagne le gouvernement engage en urgence un décret imposant 80% de renouvelables additionnels aux nouveaux sites — deux signaux qui pourraient renchérir ou ralentir la sécurisation de puissance dédiée ailleurs en Europe et aux Etats-Unis.",
+    "La consolidation du marché européen du foncier énergisé s'accélère : la finalisation du rachat d'atNorth par Equinix et CPP Investments (4 Md$) confirme la valorisation croissante des plateformes nordiques adossées à une énergie abondante, pendant qu'un nouveau terrain de 500 à 1 000 acres change de main aux Etats-Unis (Tri-Cities, Washington) pour un projet encore non déposé en permis.",
     "Aucun signal nouveau identifié pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré de nouvelles recherches ciblées (site:linkedin.com inclus) : les trois dossiers restent dans leur état précédemment documenté.",
-    "La géographie du powered land continue de s'élargir vers des marchés émergents (Durango au Mexique, Victoria et Tasmanie en Australie), confirmant que la compétition pour le foncier déjà raccordé ou aisément raccordable dépasse désormais largement les hubs traditionnels américains et européens."
+    "Le pipeline français de foncier énergisé (Fouju, Escaudain, Cambrai, sites RTE/EDF fast-track) reste la référence de sourcing la plus mature en Europe continentale, à surveiller en priorité face à la montée des contraintes réglementaires ibériques et nord-américaines."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "Inde (Hyderabad, Telangana) : HyperVault (filiale de TCS) sécurise 264 acres pour un campus IA de 1 GW (7,4 Md$)",
+      "region": "Asie-Pacifique",
+      "date": "2026-09-05",
+      "summary": "HyperVault, filiale infrastructure de Tata Consultancy Services, a sécurisé 264 acres (107 ha) à Hyderabad (Telangana) pour bâtir l'un des plus grands campus IA d'Inde, jusqu'à 1 GW de capacité, pour un investissement pouvant atteindre 700 milliards de roupies (~7,4 Md$) avec ses partenaires ; mise en service visée d'ici juin 2028, conception annoncée neutre en eau et alimentée en énergie verte.",
+      "source": "Bloomberg / TCS / Business Standard",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-05/tcs-plans-one-gigawatt-capacity-data-center-in-southern-india",
+      "mw": 1000,
+      "inv": 7400,
+      "owners": "HyperVault (TCS)",
+      "investors": "n.c."
+    },
     {
       "category": "legislation",
       "title": "Virginie (Loudoun County) : les élus votent à l'unanimité pour étudier la suppression rétroactive du droit acquis (« by-right ») sur 17 projets de data centers déjà déposés",
@@ -89,6 +102,18 @@
       "investors": "Amazon (off-take/tolling)"
     },
     {
+      "category": "competition",
+      "title": "Europe (Nordics) : Equinix et CPP Investments finalisent le rachat d'atNorth pour 4 Md$",
+      "region": "Europe",
+      "date": "2026-09-02",
+      "summary": "Equinix et CPP Investments ont finalisé le 2 septembre le rachat d'atNorth, opérateur de data centers nordique (huit sites en exploitation en Suède, Finlande, Norvège, Danemark et Islande, plusieurs projets en développement), pour environ 4 Md$ ; atNorth continuera d'opérer sous sa propre marque, une opération qui consolide encore le Nordique comme hub européen de data centers adossés à une énergie abondante et bon marché.",
+      "source": "Equinix / CPP Investments / HPCwire",
+      "url": "https://newsroom.equinix.com/2026-09-02-CPP-Investments-and-Equinix-Complete-atNorth-Acquisition-to-Support-Growth-of-Leading-Nordic-Data-Center-Platform",
+      "inv": 4000,
+      "owners": "atNorth (CPP Investments · Equinix)",
+      "investors": "CPP Investments · Equinix"
+    },
+    {
       "category": "power",
       "title": "Arabie saoudite (Riyad) : AWS et Humain s'engagent sur 50 MW dès 2028 pour la première « AI Zone » du Royaume",
       "region": "Moyen-Orient",
@@ -122,13 +147,28 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "Missouri / Kansas : la contestation locale contre les data centers unit des petites villes face aux élus et aux Big Tech",
+      "category": "land",
+      "title": "États-Unis (Washington, West Richland/Tri-Cities) : Trammell Crow achète un terrain de 500 à 1 000 acres du Lewis & Clark Ranch pour un futur data center",
       "region": "Amérique du Nord",
-      "date": "2026-09-02",
-      "summary": "Une enquête relève la multiplication des moratoires et de la contestation citoyenne dans le Midwest américain (moratoire d'un an voté à St Charles, conseil municipal renouvelé à Festus dans le Missouri, opposition à Tonganoxie dans le Kansas) contre de nouveaux projets de data centers, sur fond d'un sondage Gallup de mars 2026 montrant 71% des Américains opposés à un data center près de chez eux — un facteur de risque croissant à intégrer dans le sourcing foncier même sur des marchés secondaires jusqu'ici accueillants.",
-      "source": "KCUR / St. Louis Public Radio",
-      "url": "https://www.kcur.org/housing-development-section/2026-09-02/data-center-backlash-missouri-kansas"
+      "date": "2026-09-01",
+      "summary": "Le développeur immobilier Trammell Crow Company a acquis, le 1er septembre, une partie du Lewis & Clark Ranch (plus de 7 000 acres au total) à West Richland, dans la région des Tri-Cities (Washington), pour y étudier un data center sur 500 acres extensibles à 1 000 acres ; aucune demande de permis n'a encore été déposée auprès de la ville.",
+      "source": "Tri-Cities Area Journal of Business / NBC Right Now",
+      "url": "https://www.tricitiesbusinessnews.com/articles/west-richland-data-center",
+      "owners": "Trammell Crow Company",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "Californie : deux textes créant un tarif électrique dédié aux data centers de plus de 75 MW arrivent sur le bureau du gouverneur Newsom",
+      "region": "Amérique du Nord",
+      "date": "2026-09-01",
+      "summary": "L'Assemblée et le Sénat de Californie ont transmis au gouverneur Gavin Newsom, qui doit se prononcer avant le 30 septembre, les textes AB 2383 (« Fair Share in Energy Act ») et SB 886, qui imposeraient à la CPUC de créer un tarif de raccordement séparé (génération/transport/distribution) pour tout nouveau client de plus de 75 MW, afin d'éviter que le coût de la puissance dédiée aux data centers ne soit reporté sur les autres consommateurs.",
+      "source": "Hoodline / GV Wire / DataCenterDynamics",
+      "url": "https://gvwire.com/2026/09/01/newsom-vetoed-a-data-center-water-bill-last-year-will-he-sign-it-this-time/",
+      "coords": [
+        36.7783,
+        -119.4179
+      ]
     },
     {
       "category": "power",
@@ -233,24 +273,6 @@
     },
     {
       "category": "legislation",
-      "title": "Louisiane : une enquête NPR révèle l'usage systématique de clauses de confidentialité (NDA) pour dissimuler des projets de data centers aux riverains",
-      "region": "Amérique du Nord",
-      "date": "2026-08-27",
-      "summary": "Des demandes d'accès aux documents publics ont mis au jour au moins 54 NDA signés par des élus locaux de Louisiane depuis 2024 pour des projets industriels dont plusieurs data centers (dont un site de 300 acres d'Applied Digital à Boyce, Rapides Parish), alimentant la défiance des habitants et l'attention des législateurs sur la transparence des négociations foncier + énergie.",
-      "source": "NPR / Gulf States Newsroom / Type Investigations",
-      "url": "https://www.npr.org/2026/08/27/nx-s1-5879528/data-center-nda-disclosure-louisiana"
-    },
-    {
-      "category": "legislation",
-      "title": "New Jersey : la gouverneure Sherrill signe une loi de transparence énergie/eau pour les data centers et met fin au crédit d'impôt de 500 M$",
-      "region": "Amérique du Nord",
-      "date": "2026-08-27",
-      "summary": "La gouverneure Mikie Sherrill a signé une loi imposant aux data centers de plus de 100 MW un reporting semestriel obligatoire de leur consommation d'énergie et d'eau auprès du Board of Public Utilities, et a simultanément mis fin au programme de crédit d'impôt de 500 M$ qui encourageait leur implantation dans l'État — après avoir déjà imposé en juillet l'obligation d'apporter sa propre énergie propre.",
-      "source": "DataCenterDynamics / NJ Monitor / ROI-NJ",
-      "url": "https://www.datacenterdynamics.com/en/news/new-jersey-governor-signs-law-requiring-data-centers-to-report-energy-and-water-use/"
-    },
-    {
-      "category": "legislation",
       "title": "Texas (Westlake/Keller) : la justice bloque un campus de 300 MW déjà sécurisé en énergie (substation Oncor de 350 MW) après le recours d'une association de riverains",
       "region": "Amérique du Nord",
       "date": "2026-08-26",
@@ -311,6 +333,15 @@
       "poweredLand": true,
       "owners": "Nscale (site) · Anthropic (locataire de capacité)",
       "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "Espagne : le gouvernement engage la procédure d'urgence pour un décret royal imposant 80% de renouvelables additionnels aux nouveaux data centers",
+      "region": "Europe",
+      "date": "2026-08-25",
+      "summary": "Le Conseil des ministres espagnol a autorisé le 25 août la procédure d'urgence pour un projet de décret royal imposant aux data centers de plus de 1 MW de couvrir au moins 80% de leur consommation par de la production renouvelable additionnelle (mise en service dans les 18 mois précédant leur démarrage, sur site ou via PPA long terme, avec correspondance horaire), plus des exigences de souveraineté numérique (opérateur établi dans l'UE, données hébergées en UE) ; consultation publique ouverte du 27 août au 4 septembre, la filière ayant déjà critiqué le texte.",
+      "source": "pv magazine / DataCenterDynamics / Lexology",
+      "url": "https://www.pv-magazine.com/2026/08/26/espana-exigira-a-los-centros-de-datos-un-80-de-renovables-adicionales-y-datos-bajo-control-europeo/"
     },
     {
       "category": "land",
@@ -465,15 +496,6 @@
       "investors": "SWI Stoneweg Icona Group (dette)"
     },
     {
-      "category": "legislation",
-      "title": "Pennsylvanie : le gouverneur Shapiro impose de nouvelles règles contraignantes aux data centers (normes « GRID »)",
-      "region": "Amérique du Nord",
-      "date": "2026-08-18",
-      "summary": "Le gouverneur Josh Shapiro a signé un décret rendant contraignantes ses normes « GRID » (énergie, transparence, approbation locale, protection environnementale) pour les data centers IA, retirant ces projets de la procédure accélérée et interdisant les clauses de confidentialité associées ; plus de 100 projets sont recensés dans l'État.",
-      "source": "The Philadelphia Inquirer / Washington Post",
-      "url": "https://www.inquirer.com/politics/pennsylvania/josh-shapiro-data-center-order-20260818.html"
-    },
-    {
       "category": "land",
       "title": "Royaume-Uni (Northumberland) : TBC Partners dépose une demande pour un second campus data center de 300 MW à Cambois, à côté du site QTS de 1,1 GW",
       "region": "Europe",
@@ -536,54 +558,6 @@
       "poweredLand": true,
       "owners": "Lancium (Blackstone)",
       "investors": "Nvidia (jusqu'à 3 Md$, 20%) · Blackstone (~500 M$ antérieurs)"
-    },
-    {
-      "category": "land",
-      "title": "Amazon acquiert 8 000 acres à Pecos (Texas) pour une centrale gaz privée de 7,65 GW hors réseau ERCOT",
-      "region": "Amérique du Nord",
-      "date": "2026-08-07",
-      "summary": "Amazon a racheté le site « GW Ranch » (8 000 acres) à Pacifico Energy près de Pecos (Texas) pour y bâtir un campus data center alimenté en behind-the-meter par une centrale gaz privée de 35 turbines (jusqu'à 7,65 GW), complétée par 1,8 GW de stockage batterie et 750 MW de solaire — le tout hors du réseau ERCOT, contournant la file d'interconnexion ; défrichement du site engagé depuis le 24 juillet.",
-      "source": "DataCenterDynamics / Cleanview",
-      "url": "https://www.datacenterdynamics.com/en/news/amazon-acquires-8000-acre-site-in-pecos-texas-for-natural-gas-powered-behind-the-meter-data-center-report/",
-      "mw": 7650,
-      "coords": [
-        31.42,
-        -103.49
-      ],
-      "poweredLand": true,
-      "owners": "Amazon (ex-Pacifico Energy)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France : RTE réserve 700 MW « fast track » pour l'ancienne usine Ynsect à Poulainville (Somme)",
-      "region": "France",
-      "date": "2026-08-07",
-      "summary": "La préfecture de la Somme confirme que le site de l'ex-usine Ynsect (liquidée en décembre 2025) à Poulainville, près d'Amiens, intègre les zones « Fast Track » de RTE, avec 700 MW de capacité électrique réservés pendant neuf mois dans l'attente d'un repreneur, potentiellement un opérateur de data center.",
-      "source": "ICI (France Bleu/France 3) / France Info",
-      "url": "https://www.ici.fr/hauts-de-france/somme-80/poulainville/raccordement-electrique-jusqu-a-700-mw-l-ancien-site-ynsect-a-amiens-accueillera-t-il-un-data-center-4421566",
-      "mw": 700,
-      "poweredLand": true,
-      "owners": "friche ex-Ynsect (repreneur non identifié)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France : un projet de data center pour deux hyperscalers sur la friche ex-Caterpillar/Avon à Rantigny (Oise), 300 MW / 4,5 Md€",
-      "region": "France",
-      "date": "2026-08",
-      "summary": "Sur 35 hectares de l'ancienne friche industrielle Avon (ex-Caterpillar) à Rantigny, un projet de campus numérique pour deux hyperscalers cloud/IA vise une puissance de raccordement de 300 MW pour un investissement annoncé de 4,5 Md€ ; consultation publique environnementale ouverte jusqu'au 26 août, dépôt du permis de construire attendu cet été, chantier visé au second semestre 2027.",
-      "source": "DCmag / Vallée Dorée (Communauté de communes du Liancourtois)",
-      "url": "https://dcmag.fr/un-projet-de-datacenter-pour-2-hyperscalers-sur-la-friche-industrielle-caterpillar-a-rantigny-oise/",
-      "mw": 300,
-      "inv": 4900,
-      "coords": [
-        49.4,
-        2.36
-      ],
-      "poweredLand": true,
-      "owners": "n.c. (hyperscalers non nommés)",
-      "investors": "n.c."
     },
     {
       "category": "land",
