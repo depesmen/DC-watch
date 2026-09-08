@@ -1,13 +1,25 @@
 {
-  "lastUpdated": "2026-09-07",
+  "lastUpdated": "2026-09-08",
   "keyTakeaways": [
-    "Le foncier déjà énergisé continue de s'étendre à de nouveaux hubs hors des marchés matures : HyperVault (TCS) sécurise 264 acres à Hyderabad pour un campus IA de 1 GW (7,4 Md$), confirmant que l'Inde du Sud rejoint les Etats-Unis, l'Australie et l'Europe du Nord dans la course mondiale au « land + power ».",
-    "Le risque réglementaire sur le foncier énergisé se durcit simultanément sur deux continents : en Californie, les textes AB 2383/SB 886 créant un tarif dédié aux data centers de plus de 75 MW attendent la décision de Newsom avant le 30 septembre, tandis qu'en Espagne le gouvernement engage en urgence un décret imposant 80% de renouvelables additionnels aux nouveaux sites — deux signaux qui pourraient renchérir ou ralentir la sécurisation de puissance dédiée ailleurs en Europe et aux Etats-Unis.",
-    "La consolidation du marché européen du foncier énergisé s'accélère : la finalisation du rachat d'atNorth par Equinix et CPP Investments (4 Md$) confirme la valorisation croissante des plateformes nordiques adossées à une énergie abondante, pendant qu'un nouveau terrain de 500 à 1 000 acres change de main aux Etats-Unis (Tri-Cities, Washington) pour un projet encore non déposé en permis.",
-    "Aucun signal nouveau identifié pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré de nouvelles recherches ciblées (site:linkedin.com inclus) : les trois dossiers restent dans leur état précédemment documenté.",
-    "Le pipeline français de foncier énergisé (Fouju, Escaudain, Cambrai, sites RTE/EDF fast-track) reste la référence de sourcing la plus mature en Europe continentale, à surveiller en priorité face à la montée des contraintes réglementaires ibériques et nord-américaines."
+    "Le foncier déjà énergisé confirme sa prime de valorisation : la vente de 995 acres du Lewis & Clark Ranch (Tri-Cities, Washington) à Trammell Crow se conclut à 264 M$ (~265 000 $/acre), signe qu'un terrain bien positionné sur un corridor électrique capte une valorisation croissante avant même tout dépôt de permis.",
+    "La chaîne de valeur électrique des data centers se consolide en amont du foncier : le rachat d'EPC Power par Flex (4,4 Md$) illustre l'appétit des industriels pour les briques de conversion de puissance indispensables à une sécurisation rapide de capacité sur site.",
+    "Le foncier reconverti reste le mode d'entrée privilégié en France : après Fouju, Escaudain et Cambrai, l'enquête publique du projet Edged Energy (20 MW, 300 M€) sur l'ancienne sucrerie Saint-Louis à Marseille confirme la dynamique de reconversion de friches industrielles, malgré une opposition locale croissante (7e site marseillais contesté).",
+    "Aucun signal nouveau identifié pour Polarise (dossier SWI/dette du 18/08 inchangé), Aurora Infra ou La Française de l'Énergie sur le volet data center malgré des recherches ciblées incluant LinkedIn : les trois dossiers restent à surveiller sans évolution confirmée.",
+    "Le risque contentieux et réglementaire continue de peser sur le foncier déjà sécurisé aux États-Unis : l'injonction bloquant le campus Circle T de Westlake (300 MW déjà raccordés via Oncor) reste en vigueur au 8 septembre, et Loudoun County doit trancher le 6 octobre sur la suppression rétroactive des droits acquis de 17 projets déjà déposés."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "États-Unis (Washington, West Richland/Tri-Cities) : la vente à Trammell Crow de 995 acres du Lewis & Clark Ranch se confirme à 264 M$",
+      "region": "Amérique du Nord",
+      "date": "2026-09-07",
+      "summary": "La vente de sept parcelles totalisant un peu plus de 995 acres le long de Ruppert Road, à West Richland (Tri-Cities, Washington), à la filiale data center de Trammell Crow Company s'est conclue mi-juillet pour environ 264 M$, montant révélé le 7 septembre ; le site pourrait accueillir le premier complexe data center des Tri-Cities, mais aucune demande de permis n'a encore été déposée auprès de la ville.",
+      "source": "The Columbian / Tri-Cities Area Journal of Business",
+      "url": "https://www.columbian.com/news/2026/sep/07/264m-land-deal-could-set-stage-for-tri-cities-1st-data-center-complex/",
+      "owners": "Trammell Crow Company",
+      "investors": "n.c.",
+      "inv": 264
+    },
     {
       "category": "land",
       "title": "Inde (Hyderabad, Telangana) : HyperVault (filiale de TCS) sécurise 264 acres pour un campus IA de 1 GW (7,4 Md$)",
@@ -103,6 +115,18 @@
     },
     {
       "category": "competition",
+      "title": "États-Unis : Flex rachète EPC Power (conversion de puissance pour data centers) pour 4,4 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-09-03",
+      "summary": "Le groupe industriel Flex a annoncé le 3 septembre l'acquisition d'EPC Power, spécialiste californien des solutions de conversion de puissance (dont la technologie « grid-forming ») pour data centers et applications réseau, pour 4,4 Md$ ; la cible, intégrée à la division Cloud and Power Infrastructure de Flex, générerait environ 800 M$ de revenus en 2026, dans un contexte de consolidation rapide de la chaîne de valeur électrique des data centers IA.",
+      "source": "Flex / DataCenterDynamics / Investing.com",
+      "url": "https://www.datacenterdynamics.com/en/news/flex-acquires-data-center-power-conversion-manufacturer-epc-power-in-44bn-deal/",
+      "inv": 4400,
+      "owners": "EPC Power (racheté par Flex)",
+      "investors": "Flex Ltd."
+    },
+    {
+      "category": "competition",
       "title": "Europe (Nordics) : Equinix et CPP Investments finalisent le rachat d'atNorth pour 4 Md$",
       "region": "Europe",
       "date": "2026-09-02",
@@ -144,17 +168,6 @@
         8.6598
       ],
       "owners": "Telehouse (KDDI)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Washington, West Richland/Tri-Cities) : Trammell Crow achète un terrain de 500 à 1 000 acres du Lewis & Clark Ranch pour un futur data center",
-      "region": "Amérique du Nord",
-      "date": "2026-09-01",
-      "summary": "Le développeur immobilier Trammell Crow Company a acquis, le 1er septembre, une partie du Lewis & Clark Ranch (plus de 7 000 acres au total) à West Richland, dans la région des Tri-Cities (Washington), pour y étudier un data center sur 500 acres extensibles à 1 000 acres ; aucune demande de permis n'a encore été déposée auprès de la ville.",
-      "source": "Tri-Cities Area Journal of Business / NBC Right Now",
-      "url": "https://www.tricitiesbusinessnews.com/articles/west-richland-data-center",
-      "owners": "Trammell Crow Company",
       "investors": "n.c."
     },
     {
@@ -445,6 +458,23 @@
     },
     {
       "category": "land",
+      "title": "France (Marseille) : Edged Energy porte un data center de 20 MW sur la friche de l'ancienne sucrerie Saint-Louis, enquête publique ouverte",
+      "region": "France",
+      "date": "2026-08-24",
+      "summary": "L'enquête publique sur le projet de data center d'Edged Energy (groupe américano-suédois) dans le quartier Saint-Louis de Marseille — 20 MW, 21 900 m² dont 7 100 m² de salles IT, environ 300 M€ d'investissement, sur le site de l'ancienne sucrerie — s'est ouverte le 24 août et court jusqu'au 24 novembre ; mise en service visée fin 2028, le collectif local « Le nuage était sous nos pieds » réclamant un durcissement des mesures municipales face à ce septième data center marseillais.",
+      "source": "Marsactu / ICI Provence / Kardham",
+      "url": "https://marsactu.fr/bref/a-marseille-la-consultation-publique-sur-le-data-center-de-saint-louis-demarre/",
+      "mw": 20,
+      "inv": 324,
+      "coords": [
+        43.3378,
+        5.3729
+      ],
+      "owners": "Edged Energy",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
       "title": "France : le gouvernement met à disposition 63 sites « clé en main » pour data centers, RTE/EDF accélèrent le raccordement sur un nombre restreint de sites « fast track »",
       "region": "France",
       "date": "2026-08-22",
@@ -454,35 +484,6 @@
       "poweredLand": true,
       "owners": "État français / RTE / EDF (foncier et raccordement)",
       "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Pennsylvanie : Salem Township accueille un troisième mégacampus data center (4-3 Glenbrook Group, 1,2 Md$, jusqu'à 4 GW) près de la centrale nucléaire de Susquehanna",
-      "region": "Amérique du Nord",
-      "date": "2026-08-22",
-      "summary": "À Salem Township (comté de Luzerne, Pennsylvanie), un troisième campus data center porté par 4-3 Glenbrook Group (plus de 4 000 acres assemblés auprès de 200 propriétaires, 1,2 Md$ de valeur foncière, jusqu'à 3,5-4 GW visés) s'ajoute aux campus déjà lancés par AWS et QTS/Blackstone à proximité immédiate de la centrale nucléaire de Susquehanna ; vote du conseil municipal sur le zonage attendu le 26 août.",
-      "source": "Times Leader",
-      "url": "https://www.timesleader.com/news/1752841/developers-tout-impacts-of-3-data-center-campuses-zoning-meeting-set-for-wednesday-on-4-3-glenbrook-group-project",
-      "inv": 1200,
-      "coords": [
-        41.05,
-        -76.23
-      ],
-      "poweredLand": true,
-      "owners": "n.c. (opérateur non nommé, foncier assemblé par 4-3 Glenbrook Group / 4-3 Consulting)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Royaume-Uni : Harworth Group entre en exclusivité pour la vente d'un second terrain « powered » à un opérateur de data centers",
-      "region": "Europe",
-      "date": "2026-08-19",
-      "summary": "Le foncier britannique Harworth Group a signé un accord d'exclusivité avec un opérateur de data centers non nommé pour la vente d'un second site de son portefeuille de terrains déjà raccordés, avec un accord de raccordement électrique déjà accepté ; sa première vente comparable (à Microsoft en 2024) s'était conclue à 106,6 M£.",
-      "source": "TheBusinessDesk.com / Property Week",
-      "url": "https://www.thebusinessdesk.com/yorkshire/news/2159023-harworth-signs-exclusivity-agreement-with-leading-data-centre-provider",
-      "poweredLand": true,
-      "owners": "Harworth Group plc",
-      "investors": "n.c. (acheteur non nommé)"
     },
     {
       "category": "competition",
@@ -545,19 +546,6 @@
       "poweredLand": true,
       "owners": "Google",
       "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "Nvidia investit jusqu'à 3 Md$ dans Lancium, développeur de « powered land » pour le projet Stargate au Texas",
-      "region": "Amérique du Nord",
-      "date": "2026-08-08",
-      "summary": "Nvidia prend une participation de 20% dans Lancium (2 Md$ initiaux, jusqu'à 1 Md$ supplémentaire sous conditions), développeur texan de foncier énergisé pour l'IA (dont le campus Stargate 1 d'Abilene, 8 000 acres, 1,2 GW d'interconnexion ERCOT déjà approuvée) ; l'opération valorise Lancium et son portefeuille foncier + puissance à environ 10 Md$, alors que la société envisage une IPO en 2027.",
-      "source": "Bloomberg / The Information",
-      "url": "https://finance.yahoo.com/technology/articles/nvidia-invest-3-billion-lancium-014211358.html",
-      "inv": 3000,
-      "poweredLand": true,
-      "owners": "Lancium (Blackstone)",
-      "investors": "Nvidia (jusqu'à 3 Md$, 20%) · Blackstone (~500 M$ antérieurs)"
     },
     {
       "category": "land",
