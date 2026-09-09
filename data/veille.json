@@ -1,13 +1,35 @@
 {
-  "lastUpdated": "2026-09-08",
+  "lastUpdated": "2026-09-09",
   "keyTakeaways": [
-    "Le foncier déjà énergisé confirme sa prime de valorisation : la vente de 995 acres du Lewis & Clark Ranch (Tri-Cities, Washington) à Trammell Crow se conclut à 264 M$ (~265 000 $/acre), signe qu'un terrain bien positionné sur un corridor électrique capte une valorisation croissante avant même tout dépôt de permis.",
-    "La chaîne de valeur électrique des data centers se consolide en amont du foncier : le rachat d'EPC Power par Flex (4,4 Md$) illustre l'appétit des industriels pour les briques de conversion de puissance indispensables à une sécurisation rapide de capacité sur site.",
-    "Le foncier reconverti reste le mode d'entrée privilégié en France : après Fouju, Escaudain et Cambrai, l'enquête publique du projet Edged Energy (20 MW, 300 M€) sur l'ancienne sucrerie Saint-Louis à Marseille confirme la dynamique de reconversion de friches industrielles, malgré une opposition locale croissante (7e site marseillais contesté).",
-    "Aucun signal nouveau identifié pour Polarise (dossier SWI/dette du 18/08 inchangé), Aurora Infra ou La Française de l'Énergie sur le volet data center malgré des recherches ciblées incluant LinkedIn : les trois dossiers restent à surveiller sans évolution confirmée.",
-    "Le risque contentieux et réglementaire continue de peser sur le foncier déjà sécurisé aux États-Unis : l'injonction bloquant le campus Circle T de Westlake (300 MW déjà raccordés via Oncor) reste en vigueur au 8 septembre, et Loudoun County doit trancher le 6 octobre sur la suppression rétroactive des droits acquis de 17 projets déjà déposés."
+    "Le foncier énergisé britannique confirme son statut d'actif rare et monétisable : Harworth Group est entré en exclusivité pour la vente d'un deuxième site raccordé (pipeline de 0,9-1 GW sur jusqu'à six sites hyperscale potentiels), un modèle de land-banking pré-énergisé directement transposable au sourcing France/Europe.",
+    "Le risque réglementaire sur l'accès au réseau s'aggrave en Europe du Nord : la loi d'urgence danoise du 20 août relègue les data centers en priorité basse dans la file de raccordement, un précédent à surveiller de près alors que RTE prépare sa propre réforme « first-ready first-served » en France (application prévue 2027).",
+    "Les flux de talents confirment l'ambition française sur le calcul souverain adossé à l'énergie : le responsable de la stratégie énergie/PPA de Google en Europe (plus de 2 GW de contrats signés) rejoint Mistral Compute, qui vise 1 GW de capacité souveraine d'ici 2030 — un signal positif pour la structuration de la filière land+power hexagonale.",
+    "Le risque contentieux sur le foncier déjà énergisé est désormais mondial : la plainte fédérale du peuple Anacé contre le data center TikTok/ByteDance de Pecém (Brésil, 10 Md$, 26 août) reprend les mêmes griefs eau/consultation que Marseille, Farciennes ou Loudoun County — la due diligence sociale et hydrique devient un prérequis universel avant sécurisation d'un site.",
+    "Aucun signal nouveau identifié pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré des recherches ciblées incluant LinkedIn : les trois dossiers restent à surveiller sans évolution confirmée."
   ],
   "items": [
+    {
+      "category": "competition",
+      "title": "France : le responsable de la stratégie énergétique de Google en Europe rejoint Mistral Compute",
+      "region": "France",
+      "date": "2026-09-08",
+      "summary": "Marc Oman, qui a passé près de douze ans chez Google où il a piloté la conclusion de plus de 2 GW de PPA solaires et éoliens dans neuf pays européens (dont Belgique, Allemagne, Espagne, Pays-Bas), rejoint Mistral Compute, la nouvelle filiale infrastructure de Mistral AI qui vise plus de 1 GW de capacité de calcul souverain en Europe d'ici 2030 ; un signal de la montée en compétence de la filière française sur le sourcing énergétique dédié à l'IA.",
+      "source": "DataCenterDynamics / BeBeez",
+      "url": "https://www.datacenterdynamics.com/en/news/googles-european-energy-infrastructure-principle-joins-mistral-compute/",
+      "owners": "n.c.",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "Royaume-Uni : le gestionnaire de réseau Neso reconduit sans appel d'offres un contrat de 21 M£ avec Palantir pour la gestion des files d'attente de raccordement électrique",
+      "region": "Europe",
+      "date": "2026-09-08",
+      "summary": "Le National Energy System Operator (Neso) britannique a attribué à Palantir, sans mise en concurrence, un contrat de 17,7 M£ (21,2 M£ TTC) courant du 8 septembre 2026 au 31 juillet 2027 pour prolonger l'exploitation de sa plateforme Foundry, jugée désormais indispensable aux processus critiques « Connections » (traitement des demandes de raccordement au réseau, y compris les data centers) et « Skip Rates » ; un signal du verrouillage technologique croissant sur la gestion des files d'attente de raccordement électrique, point de friction majeur pour le foncier énergisé au Royaume-Uni.",
+      "source": "DataCenterDynamics / The Register",
+      "url": "https://www.datacenterdynamics.com/en/news/palantir-awarded-neso-grid-contract-in-uk-without-competitive-bidding-process-report/",
+      "owners": "n.c.",
+      "investors": "n.c."
+    },
     {
       "category": "land",
       "title": "États-Unis (Washington, West Richland/Tri-Cities) : la vente à Trammell Crow de 995 acres du Lewis & Clark Ranch se confirme à 264 M$",
@@ -19,6 +41,19 @@
       "owners": "Trammell Crow Company",
       "investors": "n.c.",
       "inv": 264
+    },
+    {
+      "category": "market",
+      "title": "Qatar : Meeza signe le plus gros contrat de son histoire, un bail de 8 MW (270 M$) avec un hyperscaler mondial non identifié",
+      "region": "Moyen-Orient",
+      "date": "2026-09-07",
+      "summary": "Le prestataire qatari de data centers et services IT Meeza a annoncé le 7 septembre la signature d'un bail long terme d'une valeur supérieure à 1 Md QAR (environ 270 M$) portant sur 8 MW de capacité, avec un hyperscaler mondial non nommé décrit comme l'un des fournisseurs cloud à la croissance la plus rapide ; il s'agit du plus important contrat de l'histoire de Meeza, dans une stratégie qatarie de positionnement comme hub régional pour l'IA.",
+      "source": "Meeza / DataCenterDynamics / Zawya",
+      "url": "https://www.datacenterdynamics.com/en/news/qatars-meeza-signs-8mw-lease-with-global-hyperscaler/",
+      "mw": 8,
+      "inv": 270,
+      "owners": "Meeza",
+      "investors": "n.c. (hyperscaler non identifié)"
     },
     {
       "category": "land",
@@ -136,39 +171,6 @@
       "inv": 4000,
       "owners": "atNorth (CPP Investments · Equinix)",
       "investors": "CPP Investments · Equinix"
-    },
-    {
-      "category": "power",
-      "title": "Arabie saoudite (Riyad) : AWS et Humain s'engagent sur 50 MW dès 2028 pour la première « AI Zone » du Royaume",
-      "region": "Moyen-Orient",
-      "date": "2026-09-02",
-      "summary": "AWS et Humain (détenue par le fonds souverain PIF) ont confirmé l'extension de leur partenariat avec un engagement à mettre en service jusqu'à 50 MW de capacité IA (puces Trainium et Nvidia GB300) dans la première « AI Zone » saoudienne d'ici 2028, en complément de la région cloud AWS attendue fin 2026 ; l'accord initial de mai 2025 portait sur environ 5 Md$ d'investissement.",
-      "source": "DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/aws-and-humain-commit-to-bringing-50mw-online-at-saudi-ai-zone-by-2028/",
-      "mw": 50,
-      "inv": 5000,
-      "coords": [
-        24.7136,
-        46.6753
-      ],
-      "owners": "Humain (PIF) · AWS",
-      "investors": "n.c."
-    },
-    {
-      "category": "construction",
-      "title": "Allemagne (Francfort) : Telehouse ouvre un sixième bâtiment (« Building N », 5,4 MW) sur son campus",
-      "region": "Europe",
-      "date": "2026-09-02",
-      "summary": "Telehouse a inauguré « Building N », sixième data center de son campus de Francfort (Kleyerstraße), ajoutant 5,4 MW et environ 9 300 m² sur un campus qui totalise désormais 25 000 m² d'espace data center pour 67 000 m² au sol ; un nouveau bâtiment est déjà planifié sur le même site à l'horizon 2030.",
-      "source": "DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/telehouse-adds-new-building-to-frankfurt-data-center-campus/",
-      "mw": 5,
-      "coords": [
-        50.1109,
-        8.6598
-      ],
-      "owners": "Telehouse (KDDI)",
-      "investors": "n.c."
     },
     {
       "category": "legislation",
@@ -349,6 +351,21 @@
     },
     {
       "category": "legislation",
+      "title": "Brésil (Ceará, Pecém) : le peuple autochtone Anacé dépose une plainte fédérale pour suspendre le permis environnemental du data center de TikTok/ByteDance (10 Md$)",
+      "region": "Amérique du Sud",
+      "date": "2026-08-26",
+      "summary": "La communauté autochtone Anacé (Caucaia/São Gonçalo do Amarante, Ceará) a déposé le 26 août une plainte officielle auprès des autorités fédérales brésiliennes demandant l'annulation du permis environnemental du data center de 10 Md$ que ByteDance (TikTok) développe avec Casa dos Ventos sur le complexe industro-portuaire de Pecém, invoquant un défaut de consultation préalable et une sous-estimation de l'impact sur la ressource en eau (30 000 litres/jour annoncés, jugés trop bas) ; un risque contentieux croissant sur un site par ailleurs présenté comme un modèle de foncier énergisé adossé à un PPA éolien dédié.",
+      "source": "Business & Human Rights Resource Centre / DataCenterDynamics / Mongabay",
+      "url": "https://www.datacenterdynamics.com/en/news/brazilian-indigenous-community-files-complaint-to-halt-tiktok-data-center/",
+      "coords": [
+        -3.54,
+        -38.82
+      ],
+      "owners": "ByteDance · Casa dos Ventos",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
       "title": "Espagne : le gouvernement engage la procédure d'urgence pour un décret royal imposant 80% de renouvelables additionnels aux nouveaux data centers",
       "region": "Europe",
       "date": "2026-08-25",
@@ -406,57 +423,6 @@
       "investors": "n.c."
     },
     {
-      "category": "power",
-      "title": "Finlande : Magnora sécurise le raccordement électrique ferme de son data center de Hämeenlinna",
-      "region": "Europe",
-      "date": "2026-08-24",
-      "summary": "Le développeur Magnora (avec Northern Europe Energy Group) a obtenu un raccordement électrique ferme pour son campus de 150 000 m² à Hämeenlinna, entre Helsinki et Tampere, avec une capacité revue à la hausse au-delà des 120 MW initialement annoncés ; mise en service visée en 2028-2029 selon la procédure retenue.",
-      "source": "DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/magnora-secures-grid-connection-for-h%C3%A4meenlinna-data-center-in-finland/",
-      "mw": 120,
-      "coords": [
-        60.9959,
-        24.4643
-      ],
-      "poweredLand": true,
-      "owners": "Magnora ASA · Northern Europe Energy Group (NEEG)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Texas : Prometheus Hyperscale avance son campus « behind-the-meter » de 1,5 GW (jusqu'à 2,5 GW) à Pecos, alimenté en îlot par gaz et éthane",
-      "region": "Amérique du Nord",
-      "date": "2026-08-24",
-      "summary": "Prometheus Hyperscale, associé à Istmo Midstream, développe à Reeves County (Pecos, Texas) un campus data center de 1,5 GW extensible à 2,5 GW totalement îloté du réseau ERCOT, alimenté par une architecture bi-combustible gaz naturel/éthane adossée à une installation de fractionnement co-localisée ; première puissance visée en 2027.",
-      "source": "Data Center Knowledge / DataCenterDynamics",
-      "url": "https://www.datacenterknowledge.com/data-center-construction/prometheus-1-5-gw-pecos-plan-tests-private-power",
-      "mw": 1500,
-      "coords": [
-        31.42,
-        -103.49
-      ],
-      "poweredLand": true,
-      "owners": "Prometheus Hyperscale · Istmo Midstream (fractionnement/carburant)",
-      "investors": "n.c."
-    },
-    {
-      "category": "construction",
-      "title": "Virginie (Richmond) : Iron Mountain lance la construction de son campus White Oak (RCH-1 à RCH-4), 48 MW en première phase",
-      "region": "Amérique du Nord",
-      "date": "2026-08-24",
-      "summary": "Iron Mountain Data Centers a posé la première pierre de RCH-1 (48 MW) sur son site de 66 acres du White Oak Technology Park, près de Richmond (Virginie), premier des quatre bâtiments prévus (RCH-1 à RCH-4) qui porteront à terme le campus à plus de 200 MW.",
-      "source": "DataCenterDynamics / Clark Construction",
-      "url": "https://www.datacenterdynamics.com/en/news/iron-mountain-starts-work-on-data-center-campus-near-richmond-virginia/",
-      "mw": 48,
-      "coords": [
-        37.54,
-        -77.32
-      ],
-      "poweredLand": true,
-      "owners": "Iron Mountain Data Centers",
-      "investors": "n.c."
-    },
-    {
       "category": "land",
       "title": "France (Marseille) : Edged Energy porte un data center de 20 MW sur la friche de l'ancienne sucrerie Saint-Louis, enquête publique ouverte",
       "region": "France",
@@ -483,6 +449,29 @@
       "url": "https://www.cielvoile.fr/2026/08/carte-des-data-centers-des-projets-et-des-contestations-en-france.html",
       "poweredLand": true,
       "owners": "État français / RTE / EDF (foncier et raccordement)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Royaume-Uni : Harworth Group entre en exclusivité pour la vente d'un deuxième site de foncier énergisé à un opérateur hyperscale non identifié",
+      "region": "Europe",
+      "date": "2026-08-21",
+      "summary": "Le foncier industriel britannique Harworth Group (plus de 15 000 acres, Nord de l'Angleterre et Midlands) a signé un accord d'exclusivité avec un « leading data center provider » non nommé pour la vente d'un deuxième site de foncier déjà raccordé, doté d'une offre de connexion électrique acceptée ; le pipeline « powered land » de Harworth totalise déjà 0,9 GW de capacité engagée ou prospective (plus 0,1 GW supplémentaire) sur jusqu'à six sites hyperscale potentiels, après une première vente à Microsoft (Skelton Grange, Leeds) en 2024.",
+      "source": "DataCenterDynamics / Estates Gazette / Property Week",
+      "url": "https://www.datacenterdynamics.com/en/news/harworth-enters-exclusivity-agreement-with-unnamed-data-center-provider-for-powered-land-site-in-uk/",
+      "poweredLand": true,
+      "owners": "Harworth Group",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "Danemark : la loi d'urgence sur l'accès au réseau électrique relègue les data centers en priorité basse",
+      "region": "Europe",
+      "date": "2026-08-20",
+      "summary": "Le gouvernement danois a publié le 20 août une loi d'urgence donnant au ministère de l'Énergie le pouvoir de fixer de nouvelles règles de priorité d'accès au réseau électrique, remplaçant le principe du « premier arrivé, premier servi » : les nouveaux clients domestiques et les projets de transition énergétique passeront devant les data centers et les batteries, classés en priorité basse selon leur « flexibilité réseau » ; application prévue par le gestionnaire Energinet dès l'automne pour l'instruction des nouvelles demandes de raccordement de grande puissance — un facteur de risque supplémentaire pour la valorisation du foncier énergisé danois.",
+      "source": "Bloomberg / Energy Connects / Enerdata",
+      "url": "https://www.energyconnects.com/news/utilities/2026/august/denmark-publishes-emergency-grid-law-that-puts-data-centers-last/",
+      "owners": "n.c.",
       "investors": "n.c."
     },
     {
@@ -530,22 +519,6 @@
       "poweredLand": true,
       "owners": "SB Energy (SoftBank) · OpenAI (locataire)",
       "investors": "Nvidia (garantie jusqu'à 105 Md$ + 1,5 Md$ d'equity) · SoftBank Group"
-    },
-    {
-      "category": "legislation",
-      "title": "Belgique (Wallonie) : le gouvernement refuse à Google un permis de pompage sur la Sambre pour son second data center de Farciennes",
-      "region": "Europe",
-      "date": "2026-08-14",
-      "summary": "Le vice-président wallon François Desquesnes a refusé la demande de permis modifié de Google pour pomper jusqu'à 600 m³/h dans la Sambre afin de refroidir un second data center sur le site Ecopôle de Farciennes (Hainaut), invoquant le principe de précaution face à la sécheresse — un signal fort sur le risque hydrique qui pèse désormais sur le foncier déjà énergisé et en cours de développement en Belgique.",
-      "source": "Brussels Times / TechTimes / BDIA",
-      "url": "https://www.techtimes.com/articles/324765/20260817/wallonia-blocks-google-river-cooling-permit-ai-data-center-over-drought.htm",
-      "coords": [
-        50.41,
-        4.55
-      ],
-      "poweredLand": true,
-      "owners": "Google",
-      "investors": "n.c."
     },
     {
       "category": "land",
