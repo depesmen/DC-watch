@@ -1,34 +1,38 @@
 {
-  "lastUpdated": "2026-09-09",
+  "lastUpdated": "2026-09-10",
   "keyTakeaways": [
-    "Le foncier énergisé britannique confirme son statut d'actif rare et monétisable : Harworth Group est entré en exclusivité pour la vente d'un deuxième site raccordé (pipeline de 0,9-1 GW sur jusqu'à six sites hyperscale potentiels), un modèle de land-banking pré-énergisé directement transposable au sourcing France/Europe.",
-    "Le risque réglementaire sur l'accès au réseau s'aggrave en Europe du Nord : la loi d'urgence danoise du 20 août relègue les data centers en priorité basse dans la file de raccordement, un précédent à surveiller de près alors que RTE prépare sa propre réforme « first-ready first-served » en France (application prévue 2027).",
-    "Les flux de talents confirment l'ambition française sur le calcul souverain adossé à l'énergie : le responsable de la stratégie énergie/PPA de Google en Europe (plus de 2 GW de contrats signés) rejoint Mistral Compute, qui vise 1 GW de capacité souveraine d'ici 2030 — un signal positif pour la structuration de la filière land+power hexagonale.",
-    "Le risque contentieux sur le foncier déjà énergisé est désormais mondial : la plainte fédérale du peuple Anacé contre le data center TikTok/ByteDance de Pecém (Brésil, 10 Md$, 26 août) reprend les mêmes griefs eau/consultation que Marseille, Farciennes ou Loudoun County — la due diligence sociale et hydrique devient un prérequis universel avant sécurisation d'un site.",
+    "Le risque de moratoire politique s'accélère aux États-Unis à l'approche des midterms : la gouverneure d'Arizona Katie Hobbs a refusé le 9 septembre le moratoire réclamé par la procureure générale Kris Mayes, tandis qu'une élue de Fort Wayne (Indiana) dépose le même jour un projet de gel municipal d'un an sur les nouveaux data centers — deux signaux qui renforcent la valeur relative du foncier déjà autorisé et raccordé face à des projets greenfield désormais exposés à un risque politique croissant.",
+    "L'inflation des coûts de construction accroît structurellement la prime au foncier pré-énergisé : selon ConstructConnect, le coût moyen au m² des data centers américains a bondi de 57% sur un an (environ 818 $/pied carré) et les mises en chantier cumulées 2026 atteignent 84,1 Md$, près du triple du niveau de 2025 — un contexte qui favorise les sites bénéficiant déjà d'une offre de raccordement ferme plutôt qu'un développement from scratch.",
+    "Le foncier britannique énergisé (pipeline Harworth de 0,9-1 GW) et le programme français EDF/RTE de friches énergétiques (Creys-Mépieu, Montereau, Bouchain, Loire-sur-Rhône) restent les gisements de « powered land » immédiatement activables les plus solides identifiés en Europe pour le sourcing direct.",
+    "La France cumule désormais opposition locale croissante (Marseille, Fouju, Rovaltain, Oise) et refonte en cours de la file d'attente de raccordement RTE vers une logique « first ready, first served » — un double mouvement qui accroît la valeur des sites déjà instruits ou raccordés par rapport aux nouveaux projets greenfield.",
     "Aucun signal nouveau identifié pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré des recherches ciblées incluant LinkedIn : les trois dossiers restent à surveiller sans évolution confirmée."
   ],
   "items": [
     {
-      "category": "competition",
-      "title": "France : le responsable de la stratégie énergétique de Google en Europe rejoint Mistral Compute",
-      "region": "France",
-      "date": "2026-09-08",
-      "summary": "Marc Oman, qui a passé près de douze ans chez Google où il a piloté la conclusion de plus de 2 GW de PPA solaires et éoliens dans neuf pays européens (dont Belgique, Allemagne, Espagne, Pays-Bas), rejoint Mistral Compute, la nouvelle filiale infrastructure de Mistral AI qui vise plus de 1 GW de capacité de calcul souverain en Europe d'ici 2030 ; un signal de la montée en compétence de la filière française sur le sourcing énergétique dédié à l'IA.",
-      "source": "DataCenterDynamics / BeBeez",
-      "url": "https://www.datacenterdynamics.com/en/news/googles-european-energy-infrastructure-principle-joins-mistral-compute/",
-      "owners": "n.c.",
-      "investors": "n.c."
+      "category": "legislation",
+      "title": "Arizona : la gouverneure Katie Hobbs refuse le moratoire sur les data centers réclamé par la procureure générale Kris Mayes",
+      "region": "Amérique du Nord",
+      "date": "2026-09-09",
+      "summary": "Après l'appel du 31 août de la procureure générale Kris Mayes à un moratoire statewide sur les nouveaux data centers (invoquant une baisse de près de 30% de l'allocation d'eau du Colorado River et une consommation d'eau des data centers pouvant passer de 2,9 à plus de 14,5 milliards de gallons selon une étude Ceres), la gouverneure démocrate Katie Hobbs a refusé le 9 septembre d'imposer une pause, misant sur un équilibre entre croissance économique et préoccupations locales ; l'Arizona devient un nouveau baromètre du risque politique data center à l'approche des midterms 2026.",
+      "source": "azfamily.com / The Center Square",
+      "url": "https://www.azfamily.com/2026/09/09/arizona-governor-rejects-data-center-moratorium-call-debate-escalates/",
+      "coords": [
+        33.4484,
+        -112.074
+      ]
     },
     {
       "category": "legislation",
-      "title": "Royaume-Uni : le gestionnaire de réseau Neso reconduit sans appel d'offres un contrat de 21 M£ avec Palantir pour la gestion des files d'attente de raccordement électrique",
-      "region": "Europe",
-      "date": "2026-09-08",
-      "summary": "Le National Energy System Operator (Neso) britannique a attribué à Palantir, sans mise en concurrence, un contrat de 17,7 M£ (21,2 M£ TTC) courant du 8 septembre 2026 au 31 juillet 2027 pour prolonger l'exploitation de sa plateforme Foundry, jugée désormais indispensable aux processus critiques « Connections » (traitement des demandes de raccordement au réseau, y compris les data centers) et « Skip Rates » ; un signal du verrouillage technologique croissant sur la gestion des files d'attente de raccordement électrique, point de friction majeur pour le foncier énergisé au Royaume-Uni.",
-      "source": "DataCenterDynamics / The Register",
-      "url": "https://www.datacenterdynamics.com/en/news/palantir-awarded-neso-grid-contract-in-uk-without-competitive-bidding-process-report/",
-      "owners": "n.c.",
-      "investors": "n.c."
+      "title": "Indiana (Fort Wayne) : une élue municipale dépose un projet de moratoire de 365 jours sur les nouveaux data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-09-09",
+      "summary": "La conseillère municipale de Fort Wayne Rohli Booker a déposé le 9 septembre deux ordonnances : un moratoire d'un an sur les actions municipales (annexions, achats fonciers, contrats, exonérations fiscales) liées à de nouveaux projets de data centers, et la création d'une commission consultative chargée d'évaluer les projets « à forte intensité de ressources » ; le data center Google déjà en chantier dans le sud-est de la ville est explicitement exclu du moratoire, vote prévu dans les prochaines semaines.",
+      "source": "WBOI / WANE 15",
+      "url": "https://www.wboi.org/government/2026-09-09/fort-wayne-city-councilwoman-introduces-ordinances-to-rein-in-future-data-center-development",
+      "coords": [
+        41.0793,
+        -85.1394
+      ]
     },
     {
       "category": "land",
@@ -150,18 +154,6 @@
     },
     {
       "category": "competition",
-      "title": "États-Unis : Flex rachète EPC Power (conversion de puissance pour data centers) pour 4,4 Md$",
-      "region": "Amérique du Nord",
-      "date": "2026-09-03",
-      "summary": "Le groupe industriel Flex a annoncé le 3 septembre l'acquisition d'EPC Power, spécialiste californien des solutions de conversion de puissance (dont la technologie « grid-forming ») pour data centers et applications réseau, pour 4,4 Md$ ; la cible, intégrée à la division Cloud and Power Infrastructure de Flex, générerait environ 800 M$ de revenus en 2026, dans un contexte de consolidation rapide de la chaîne de valeur électrique des data centers IA.",
-      "source": "Flex / DataCenterDynamics / Investing.com",
-      "url": "https://www.datacenterdynamics.com/en/news/flex-acquires-data-center-power-conversion-manufacturer-epc-power-in-44bn-deal/",
-      "inv": 4400,
-      "owners": "EPC Power (racheté par Flex)",
-      "investors": "Flex Ltd."
-    },
-    {
-      "category": "competition",
       "title": "Europe (Nordics) : Equinix et CPP Investments finalisent le rachat d'atNorth pour 4 Md$",
       "region": "Europe",
       "date": "2026-09-02",
@@ -234,6 +226,15 @@
       ],
       "owners": "Cerebras Systems · Compute Nordic Finland",
       "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "États-Unis : les mises en chantier de data centers atteignent 84,1 Md$ depuis janvier, près de trois fois le niveau de l'an dernier",
+      "region": "Amérique du Nord",
+      "date": "2026-09",
+      "summary": "Selon le rapport mensuel de ConstructConnect publié en septembre, les mises en chantier de data centers aux États-Unis totalisent 84,1 Md$ depuis le début de l'année (à fin juillet), soit près du triple du niveau de 2025 et environ un quart de la construction non résidentielle totale ; le coût moyen par projet atteint 1,06 Md$ pour environ 65 100 m² (contre 352,8 M$ et 42 200 m² en 2025), portant le coût au m² à environ 818 $/pied carré, en hausse de 57% sur un an — un signal de tension sur les coûts de construction qui renforce la prime accordée au foncier déjà énergisé et prêt à construire.",
+      "source": "ConstructConnect",
+      "url": "https://news.constructconnect.com/september-2026-data-center-report-year-to-date-spending-nearly-three-times-a-year-ago"
     },
     {
       "category": "power",
