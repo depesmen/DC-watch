@@ -1,10 +1,10 @@
 {
-  "lastUpdated": "2026-09-10",
+  "lastUpdated": "2026-09-11",
   "keyTakeaways": [
-    "Le risque de moratoire politique s'accélère aux États-Unis à l'approche des midterms : la gouverneure d'Arizona Katie Hobbs a refusé le 9 septembre le moratoire réclamé par la procureure générale Kris Mayes, tandis qu'une élue de Fort Wayne (Indiana) dépose le même jour un projet de gel municipal d'un an sur les nouveaux data centers — deux signaux qui renforcent la valeur relative du foncier déjà autorisé et raccordé face à des projets greenfield désormais exposés à un risque politique croissant.",
-    "L'inflation des coûts de construction accroît structurellement la prime au foncier pré-énergisé : selon ConstructConnect, le coût moyen au m² des data centers américains a bondi de 57% sur un an (environ 818 $/pied carré) et les mises en chantier cumulées 2026 atteignent 84,1 Md$, près du triple du niveau de 2025 — un contexte qui favorise les sites bénéficiant déjà d'une offre de raccordement ferme plutôt qu'un développement from scratch.",
+    "Une vague de moratoires inédite frappe les États-Unis début septembre (Lake County/Illinois, Eugene/Oregon, Clinton Township/Pennsylvanie, Nottingham/New Hampshire, annonce de la gouverneure Ayotte) : le risque politique s'étend désormais des États emblématiques (Arizona, Virginie) à de nombreuses collectivités locales, y compris sur d'anciens sites industriels pourtant énergisés (cas de l'usine Hynix à Eugene) — la sécurisation juridique et l'antériorité du foncier priment plus que jamais sur la seule disponibilité de puissance.",
+    "Les marchés financiers valident cette lecture : la rareté d'offre nouvelle induite par les moratoires soutient les valorisations boursières des REIT de data centers déjà construits et raccordés (Digital Realty, Equinix, Iron Mountain, +23% à +42% depuis janvier), renforçant la prime relative des actifs « brownfield » et powered land existants face aux projets greenfield.",
+    "La contestation s'internationalise au-delà des États-Unis : en Afrique du Sud, des organisations de défense des droits civiques réclament un moratoire faute de transparence sur la consommation d'eau, d'électricité et de foncier des opérateurs (Amazon, Microsoft, Equinix), tandis qu'en France l'opposition locale se maintient sans nouvelle avancée judiciaire cette semaine (Marseille, Fouju, Rovaltain, Oise).",
     "Le foncier britannique énergisé (pipeline Harworth de 0,9-1 GW) et le programme français EDF/RTE de friches énergétiques (Creys-Mépieu, Montereau, Bouchain, Loire-sur-Rhône) restent les gisements de « powered land » immédiatement activables les plus solides identifiés en Europe pour le sourcing direct.",
-    "La France cumule désormais opposition locale croissante (Marseille, Fouju, Rovaltain, Oise) et refonte en cours de la file d'attente de raccordement RTE vers une logique « first ready, first served » — un double mouvement qui accroît la valeur des sites déjà instruits ou raccordés par rapport aux nouveaux projets greenfield.",
     "Aucun signal nouveau identifié pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré des recherches ciblées incluant LinkedIn : les trois dossiers restent à surveiller sans évolution confirmée."
   ],
   "items": [
@@ -23,16 +23,70 @@
     },
     {
       "category": "legislation",
-      "title": "Indiana (Fort Wayne) : une élue municipale dépose un projet de moratoire de 365 jours sur les nouveaux data centers",
+      "title": "Illinois (Lake County) : le comté approuve un moratoire de huit mois sur les data centers dans les zones non incorporées",
       "region": "Amérique du Nord",
       "date": "2026-09-09",
-      "summary": "La conseillère municipale de Fort Wayne Rohli Booker a déposé le 9 septembre deux ordonnances : un moratoire d'un an sur les actions municipales (annexions, achats fonciers, contrats, exonérations fiscales) liées à de nouveaux projets de data centers, et la création d'une commission consultative chargée d'évaluer les projets « à forte intensité de ressources » ; le data center Google déjà en chantier dans le sud-est de la ville est explicitement exclu du moratoire, vote prévu dans les prochaines semaines.",
-      "source": "WBOI / WANE 15",
-      "url": "https://www.wboi.org/government/2026-09-09/fort-wayne-city-councilwoman-introduces-ordinances-to-rein-in-future-data-center-development",
+      "summary": "Après une audience publique ayant recueilli plus de 1 200 commentaires, le conseil du comté de Lake County (Illinois) a approuvé le 9 septembre un moratoire de huit mois (jusqu'au 11 mai 2027 au plus tard) sur l'instruction de projets de data centers dans les zones non incorporées du comté, le temps d'évaluer les impacts d'infrastructure et environnementaux et d'élaborer une réglementation dédiée ; aucun projet n'était à ce jour déposé sur le comté non incorporé.",
+      "source": "Daily Herald / Lake County, IL",
+      "url": "https://www.dailyherald.com/20260909/news/lake-county-approves-8-month-moratorium-on-data-center-applications-development/",
       "coords": [
-        41.0793,
-        -85.1394
+        42.35,
+        -87.9
       ]
+    },
+    {
+      "category": "legislation",
+      "title": "Pennsylvanie (Clinton Township, comté de Wayne) : les élus rejettent le campus data center de 6 Md$ de Linde Corporation (682 acres, génération sur site)",
+      "region": "Amérique du Nord",
+      "date": "2026-09-09",
+      "summary": "Après près de six mois d'instruction, les superviseurs de Clinton Township (comté de Wayne, Pennsylvanie) ont rejeté le 9 septembre le projet de campus data center de Linde Corporation — environ 682 acres, plus de 20 bâtiments, génération électrique sur site, 6 Md$ d'investissement annoncé — un ingénieur du canton ayant jugé le dossier incomplet (assainissement, étude paysagère, patrimoine historique) ; Linde dispose de 15 jours pour compléter son dossier avant un possible nouveau dépôt.",
+      "source": "WNEP / 28/22 News",
+      "url": "https://www.wnep.com/article/news/local/wayne-county/clinton-township-supervisors-vote-no-to-20-building-data-center-campus/523-109afa91-f493-4163-9a00-1f58633e9dbd",
+      "coords": [
+        41.6423,
+        -75.3057
+      ],
+      "poweredLand": true,
+      "owners": "Linde Corporation",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "New Hampshire : la gouverneure Ayotte annonce un moratoire pluriannuel pendant que Nottingham vote une pause de 12 mois par référendum local",
+      "region": "Amérique du Nord",
+      "date": "2026-09-09",
+      "summary": "Après avoir affiché le 2 septembre son opposition à un projet de data center hyperscale à Bow (le réseau électrique de l'État étant jugé insuffisant), la gouverneure républicaine Kelly Ayotte prévoit d'inscrire un moratoire pluriannuel dans son prochain budget (effectif au plus tôt mi-2027) ; en parallèle, les habitants de Nottingham (New Hampshire) ont approuvé le 9 septembre par référendum local, à une large majorité (1 335 voix contre 143), un moratoire de 12 mois sur tout projet de data center sur leur territoire.",
+      "source": "NHPR / Valley News",
+      "url": "https://www.nhpr.org/nh-news/2026-09-02/ayotte-opposes-potential-bow-data-center-plans-to-propose-moratorium-on-data-centers-in-state",
+      "coords": [
+        43.1339,
+        -71.1098
+      ]
+    },
+    {
+      "category": "legislation",
+      "title": "Oregon (Eugene) : la ville juge qu'un data center n'est pas autorisé par le zonage de l'ancienne usine Hynix, bloquant une reconversion de friche industrielle",
+      "region": "Amérique du Nord",
+      "date": "2026-09-08",
+      "summary": "La direction de l'urbanisme d'Eugene a notifié le 8 septembre qu'un data center ne serait pas un usage autorisé sous le zonage E-1 de l'ancienne usine de semi-conducteurs Hynix (1830 Willow Creek Circle, environ 111 000 m²), en réponse à une demande de vérification de zonage déposée en juillet pour le compte d'un client non identifié ; la décision bloque, au moins temporairement, l'une des reconversions de friche industrielle les plus emblématiques envisagées dans l'Oregon pour l'IA.",
+      "source": "Lookout Eugene-Springfield / KLCC",
+      "url": "https://lookouteugene-springfield.com/story/business-development/2026/09/08/data-center-not-permitted-under-zoning-of-former-hynix-factory-city-says/",
+      "coords": [
+        44.0793,
+        -123.1815
+      ],
+      "poweredLand": true,
+      "owners": "n.c. (client non identifié)",
+      "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "États-Unis : les REIT de data centers (Digital Realty, Equinix, Iron Mountain) profitent boursièrement de la vague de moratoires",
+      "region": "Amérique du Nord",
+      "date": "2026-09-08",
+      "summary": "Alors que les moratoires et oppositions locales se multiplient aux États-Unis, les analystes estiment que la rareté d'offre nouvelle qui en résulte soutient les valorisations des REIT de data centers déjà en exploitation : Digital Realty (71 Md$ de capitalisation, +23% depuis janvier), Equinix (~102 Md$, +37%) et Iron Mountain (34,7 Md$, +42%) affichent toutes de fortes progressions boursières en 2026 — un signal supplémentaire de la prime croissante accordée aux actifs déjà construits et raccordés face aux projets greenfield exposés au risque politique.",
+      "source": "CNBC",
+      "url": "https://www.cnbc.com/2026/09/08/these-dividend-stocks-could-catch-a-tailwind-from-data-center-pushback.html"
     },
     {
       "category": "land",
@@ -47,19 +101,6 @@
       "inv": 264
     },
     {
-      "category": "market",
-      "title": "Qatar : Meeza signe le plus gros contrat de son histoire, un bail de 8 MW (270 M$) avec un hyperscaler mondial non identifié",
-      "region": "Moyen-Orient",
-      "date": "2026-09-07",
-      "summary": "Le prestataire qatari de data centers et services IT Meeza a annoncé le 7 septembre la signature d'un bail long terme d'une valeur supérieure à 1 Md QAR (environ 270 M$) portant sur 8 MW de capacité, avec un hyperscaler mondial non nommé décrit comme l'un des fournisseurs cloud à la croissance la plus rapide ; il s'agit du plus important contrat de l'histoire de Meeza, dans une stratégie qatarie de positionnement comme hub régional pour l'IA.",
-      "source": "Meeza / DataCenterDynamics / Zawya",
-      "url": "https://www.datacenterdynamics.com/en/news/qatars-meeza-signs-8mw-lease-with-global-hyperscaler/",
-      "mw": 8,
-      "inv": 270,
-      "owners": "Meeza",
-      "investors": "n.c. (hyperscaler non identifié)"
-    },
-    {
       "category": "land",
       "title": "Inde (Hyderabad, Telangana) : HyperVault (filiale de TCS) sécurise 264 acres pour un campus IA de 1 GW (7,4 Md$)",
       "region": "Asie-Pacifique",
@@ -71,6 +112,15 @@
       "inv": 7400,
       "owners": "HyperVault (TCS)",
       "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "Afrique du Sud : des organisations de défense des droits civiques réclament un moratoire sur le boom des data centers face aux risques eau/électricité/foncier",
+      "region": "Afrique",
+      "date": "2026-09-04",
+      "summary": "Plusieurs organisations sud-africaines de défense des droits civiques ont demandé le 4 septembre un moratoire sur les nouveaux data centers tant que leur consommation d'eau, d'électricité et de foncier n'aura pas été étudiée, pointant l'absence d'obligation de divulgation chiffrée pour les opérateurs (dont Amazon, Microsoft et Equinix, actifs notamment au Cap) ; la Commission sud-africaine des droits de l'homme a déjà reçu plus de 250 contributions sur le sujet depuis mai.",
+      "source": "AP / Fortune / TimesLIVE",
+      "url": "https://www.timeslive.co.za/news/2026-09-05-civil-rights-groups-urge-a-halt-to-sas-data-centres-boom-amid-water-and-power-fears/"
     },
     {
       "category": "legislation",
@@ -118,39 +168,6 @@
       "poweredLand": true,
       "owners": "Firmus Technologies",
       "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Mexique (Durango) : Cuasar Capital (EOSOL) et KA URBE IT lancent un campus data center de 300 MW",
-      "region": "Amérique du Nord",
-      "date": "2026-09-03",
-      "summary": "Cuasar Capital (groupe espagnol EOSOL) et KA URBE IT commercialisent conjointement un campus de deux data centers à Durango : DC Norte Uno (300 MW dont 250 MW IT, sur 20 hectares, Tier III) et DC Norte Dos (7,74 MW, edge/industriel), positionnant l'État de Durango comme nouveau pôle mexicain pour l'IA, avec accès à trois opérateurs télécoms via le corridor de connectivité Phoenix-Querétaro ; un accord antérieur évoquait un investissement combiné pouvant atteindre 3,4 Md$.",
-      "source": "DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/quasar-launches-a-300-mw-data-center-campus-in-durango-mexico/",
-      "mw": 300,
-      "inv": 3400,
-      "coords": [
-        24.5,
-        -104.6532
-      ],
-      "owners": "Cuasar Capital (EOSOL) · KA URBE IT",
-      "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "Australie (Victoria) : Amazon signe son premier contrat de tolling sur batterie stationnaire en Asie-Pacifique avec Anza Power (50 MW/200 MWh)",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-03",
-      "summary": "Amazon a signé avec Anza Power (I Squared Capital) un accord de tolling lui donnant accès à la capacité du système de stockage batterie autonome de Bairnsdale (50 MW/200 MWh, East Gippsland, Victoria), sans en assurer la construction ni l'exploitation ; c'est le premier accord de ce type pour Amazon en Asie-Pacifique et une première en Australie pour une entreprise non énergéticienne, illustrant l'intérêt croissant des hyperscalers pour le stockage batterie comme brique de sécurisation de puissance.",
-      "source": "Energy-Storage.News / PV Magazine Australia",
-      "url": "https://www.energy-storage.news/amazon-signs-first-asia-pacific-standalone-battery-storage-tolling-deal-for-50mw-bess-in-australia/",
-      "mw": 50,
-      "coords": [
-        -37.8272,
-        147.6317
-      ],
-      "owners": "Anza Power (I Squared Capital)",
-      "investors": "Amazon (off-take/tolling)"
     },
     {
       "category": "competition",
@@ -352,21 +369,6 @@
     },
     {
       "category": "legislation",
-      "title": "Brésil (Ceará, Pecém) : le peuple autochtone Anacé dépose une plainte fédérale pour suspendre le permis environnemental du data center de TikTok/ByteDance (10 Md$)",
-      "region": "Amérique du Sud",
-      "date": "2026-08-26",
-      "summary": "La communauté autochtone Anacé (Caucaia/São Gonçalo do Amarante, Ceará) a déposé le 26 août une plainte officielle auprès des autorités fédérales brésiliennes demandant l'annulation du permis environnemental du data center de 10 Md$ que ByteDance (TikTok) développe avec Casa dos Ventos sur le complexe industro-portuaire de Pecém, invoquant un défaut de consultation préalable et une sous-estimation de l'impact sur la ressource en eau (30 000 litres/jour annoncés, jugés trop bas) ; un risque contentieux croissant sur un site par ailleurs présenté comme un modèle de foncier énergisé adossé à un PPA éolien dédié.",
-      "source": "Business & Human Rights Resource Centre / DataCenterDynamics / Mongabay",
-      "url": "https://www.datacenterdynamics.com/en/news/brazilian-indigenous-community-files-complaint-to-halt-tiktok-data-center/",
-      "coords": [
-        -3.54,
-        -38.82
-      ],
-      "owners": "ByteDance · Casa dos Ventos",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
       "title": "Espagne : le gouvernement engage la procédure d'urgence pour un décret royal imposant 80% de renouvelables additionnels aux nouveaux data centers",
       "region": "Europe",
       "date": "2026-08-25",
@@ -391,19 +393,6 @@
       "poweredLand": true,
       "owners": "MGX · Bpifrance · Nvidia · Mistral AI (Campus AI SAS)",
       "investors": "MGX (fonds souverain EAU, majoritaire) · Bpifrance · Nvidia"
-    },
-    {
-      "category": "land",
-      "title": "Texas : Soluna Holdings boucle l'achat de 397 acres à Briscoe County pour son campus « Dorothy 3 », adossé à son propre parc éolien",
-      "region": "Amérique du Nord",
-      "date": "2026-08-24",
-      "summary": "Soluna Holdings a finalisé l'acquisition de 397 acres jouxtant ses campus Dorothy 1 et 2 et le parc éolien Briscoe (150 MW) qu'elle possède déjà, permettant un accès direct « behind-the-meter » à une génération détenue en propre pour un campus IA visant jusqu'à 300 MW ; le pipeline de développement du groupe atteint désormais 6,3 GW.",
-      "source": "DataCenterDynamics / Business Wire",
-      "url": "https://www.datacenterdynamics.com/en/news/soluna-acquires-397-acre-plot-in-briscoe-county-texas-for-project-dorothy-3-data-center/",
-      "mw": 300,
-      "poweredLand": true,
-      "owners": "Soluna Holdings",
-      "investors": "n.c."
     },
     {
       "category": "land",
@@ -462,17 +451,6 @@
       "url": "https://www.datacenterdynamics.com/en/news/harworth-enters-exclusivity-agreement-with-unnamed-data-center-provider-for-powered-land-site-in-uk/",
       "poweredLand": true,
       "owners": "Harworth Group",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "Danemark : la loi d'urgence sur l'accès au réseau électrique relègue les data centers en priorité basse",
-      "region": "Europe",
-      "date": "2026-08-20",
-      "summary": "Le gouvernement danois a publié le 20 août une loi d'urgence donnant au ministère de l'Énergie le pouvoir de fixer de nouvelles règles de priorité d'accès au réseau électrique, remplaçant le principe du « premier arrivé, premier servi » : les nouveaux clients domestiques et les projets de transition énergétique passeront devant les data centers et les batteries, classés en priorité basse selon leur « flexibilité réseau » ; application prévue par le gestionnaire Energinet dès l'automne pour l'instruction des nouvelles demandes de raccordement de grande puissance — un facteur de risque supplémentaire pour la valorisation du foncier énergisé danois.",
-      "source": "Bloomberg / Energy Connects / Enerdata",
-      "url": "https://www.energyconnects.com/news/utilities/2026/august/denmark-publishes-emergency-grid-law-that-puts-data-centers-last/",
-      "owners": "n.c.",
       "investors": "n.c."
     },
     {
