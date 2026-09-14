@@ -1,13 +1,37 @@
 {
-  "lastUpdated": "2026-09-11",
+  "lastUpdated": "2026-09-14",
   "keyTakeaways": [
-    "Une vague de moratoires inédite frappe les États-Unis début septembre (Lake County/Illinois, Eugene/Oregon, Clinton Township/Pennsylvanie, Nottingham/New Hampshire, annonce de la gouverneure Ayotte) : le risque politique s'étend désormais des États emblématiques (Arizona, Virginie) à de nombreuses collectivités locales, y compris sur d'anciens sites industriels pourtant énergisés (cas de l'usine Hynix à Eugene) — la sécurisation juridique et l'antériorité du foncier priment plus que jamais sur la seule disponibilité de puissance.",
-    "Les marchés financiers valident cette lecture : la rareté d'offre nouvelle induite par les moratoires soutient les valorisations boursières des REIT de data centers déjà construits et raccordés (Digital Realty, Equinix, Iron Mountain, +23% à +42% depuis janvier), renforçant la prime relative des actifs « brownfield » et powered land existants face aux projets greenfield.",
-    "La contestation s'internationalise au-delà des États-Unis : en Afrique du Sud, des organisations de défense des droits civiques réclament un moratoire faute de transparence sur la consommation d'eau, d'électricité et de foncier des opérateurs (Amazon, Microsoft, Equinix), tandis qu'en France l'opposition locale se maintient sans nouvelle avancée judiciaire cette semaine (Marseille, Fouju, Rovaltain, Oise).",
-    "Le foncier britannique énergisé (pipeline Harworth de 0,9-1 GW) et le programme français EDF/RTE de friches énergétiques (Creys-Mépieu, Montereau, Bouchain, Loire-sur-Rhône) restent les gisements de « powered land » immédiatement activables les plus solides identifiés en Europe pour le sourcing direct.",
-    "Aucun signal nouveau identifié pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré des recherches ciblées incluant LinkedIn : les trois dossiers restent à surveiller sans évolution confirmée."
+    "Premier signal géopolitique majeur pour le sourcing Moyen-Orient : après les frappes iraniennes, Abu Dhabi abandonne le campus IA unique de 26 km² au profit de sites « Stargate UAE » dispersés (5 GW, ~30 Md$ via G42/OpenAI/Oracle/Nvidia), certains enterrés dans les montagnes — la résilience et la discrétion du site deviennent un critère de sourcing à part entière, au même titre que la puissance disponible.",
+    "La bataille politique américaine se poursuit sans tendance nette : nouveaux moratoires actés dans le Kansas (jusqu'en 2028) et en urgence en Californie (Mendocino), mais dans le Colorado le comté de Weld a au contraire approuvé à l'unanimité un projet Global AI sur l'ancienne friche Kodak/Carestream — confirmation que la reconversion de sites industriels existants passe mieux l'épreuve politique que les projets greenfield.",
+    "En France, la contestation locale s'étend à un nouveau front : Marseille voit émerger une opposition organisée au projet MRS5 de Digital Realty (friche portuaire des anciens silos à sucre), qui s'ajoute au dossier Edged Energy déjà en cours, pendant que le chantier du Campus IA de Fouju (1,4 GW) démarre malgré l'annonce d'un recours contentieux — la France reste un marché à fort pipeline mais à risque contentieux croissant sur le foncier déjà engagé.",
+    "Le marché valide la thèse de la rareté : le foncier européen déjà énergisé se négocie désormais ~2,26 M€/MW, +82% depuis 2021 selon les derniers relevés, tandis que Microsoft vise un triplement de sa capacité mondiale à 38 GW d'ici 2032 et que Flex rachète le fabricant d'équipements de conversion de puissance EPC Power pour 4,4 Md$ — la chaîne de valeur du « power » se consolide en amont du foncier.",
+    "Aucun signal nouveau confirmé pour Polarise (dernier fait connu : retrait de SWI Group de la prise de participation au profit d'une dette), Aurora Infra (homonymes sans lien apparent identifiés, à ne pas confondre avec Aurora Energy Valley en Finlande) ou La Française de l'Énergie sur le volet data center malgré des recherches ciblées incluant LinkedIn : les trois dossiers restent à surveiller sans évolution confirmée cette semaine."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "Émirats arabes unis : le méga-campus IA « Stargate UAE » (5 GW) dispersé sur plusieurs sites après les frappes iraniennes",
+      "region": "Moyen-Orient",
+      "date": "2026-09-11",
+      "summary": "Après les frappes iraniennes de juin 2026, Abu Dhabi révise le projet Stargate UAE porté par G42 (jusqu'à 5 GW, environ 30 Md$) : plutôt qu'un campus unique de 26 km², les autorités étudient un réseau de sites dispersés, dont certains enterrés dans les montagnes de Ras Al Khaimah et Fujairah, avec protections anti-souffle.",
+      "source": "US News / Reuters",
+      "url": "https://www.usnews.com/news/world/articles/2026-09-11/exclusive-uae-revises-ai-data-center-plan-after-iranian-attacks-sources-say",
+      "mw": 5000,
+      "inv": 30000,
+      "owners": "G42",
+      "investors": "Stargate (OpenAI · Oracle · Nvidia)"
+    },
+    {
+      "category": "construction",
+      "title": "Microsoft prévoit de tripler sa capacité mondiale de data centers à 38 GW d'ici 2032",
+      "region": "Monde",
+      "date": "2026-09-10",
+      "summary": "Selon Bloomberg, Microsoft prévoit de faire passer sa capacité mondiale de data centers d'environ 12 GW aujourd'hui à plus de 38 GW d'ici 2032, dont un tiers dédié à l'IA, dans un contexte de tension record sur la disponibilité de puissance qui a forcé le groupe à refuser des contrats.",
+      "source": "Bloomberg",
+      "url": "https://www.bloomberg.com/news/features/2026-09-10/microsoft-ai-focused-data-center-plan-to-add-26-gigawatts-of-compute",
+      "mw": 38000,
+      "owners": "Microsoft"
+    },
     {
       "category": "legislation",
       "title": "Arizona : la gouverneure Katie Hobbs refuse le moratoire sur les data centers réclamé par la procureure générale Kris Mayes",
@@ -19,19 +43,6 @@
       "coords": [
         33.4484,
         -112.074
-      ]
-    },
-    {
-      "category": "legislation",
-      "title": "Illinois (Lake County) : le comté approuve un moratoire de huit mois sur les data centers dans les zones non incorporées",
-      "region": "Amérique du Nord",
-      "date": "2026-09-09",
-      "summary": "Après une audience publique ayant recueilli plus de 1 200 commentaires, le conseil du comté de Lake County (Illinois) a approuvé le 9 septembre un moratoire de huit mois (jusqu'au 11 mai 2027 au plus tard) sur l'instruction de projets de data centers dans les zones non incorporées du comté, le temps d'évaluer les impacts d'infrastructure et environnementaux et d'élaborer une réglementation dédiée ; aucun projet n'était à ce jour déposé sur le comté non incorporé.",
-      "source": "Daily Herald / Lake County, IL",
-      "url": "https://www.dailyherald.com/20260909/news/lake-county-approves-8-month-moratorium-on-data-center-applications-development/",
-      "coords": [
-        42.35,
-        -87.9
       ]
     },
     {
@@ -51,17 +62,20 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "New Hampshire : la gouverneure Ayotte annonce un moratoire pluriannuel pendant que Nottingham vote une pause de 12 mois par référendum local",
+      "category": "land",
+      "title": "Colorado (comté de Weld) : un data center de Global AI approuvé sur l'ancienne friche industrielle Carestream/Kodak",
       "region": "Amérique du Nord",
       "date": "2026-09-09",
-      "summary": "Après avoir affiché le 2 septembre son opposition à un projet de data center hyperscale à Bow (le réseau électrique de l'État étant jugé insuffisant), la gouverneure républicaine Kelly Ayotte prévoit d'inscrire un moratoire pluriannuel dans son prochain budget (effectif au plus tôt mi-2027) ; en parallèle, les habitants de Nottingham (New Hampshire) ont approuvé le 9 septembre par référendum local, à une large majorité (1 335 voix contre 143), un moratoire de 12 mois sur tout projet de data center sur leur territoire.",
-      "source": "NHPR / Valley News",
-      "url": "https://www.nhpr.org/nh-news/2026-09-02/ayotte-opposes-potential-bow-data-center-plans-to-propose-moratorium-on-data-centers-in-state",
+      "summary": "Les commissaires du comté de Weld (Colorado) ont approuvé à l'unanimité (5-0) le permis de zonage d'un data center de Global AI sur 41 acres de l'ancien site industriel Carestream Health (ex-Kodak) près de Windsor, présenté comme pouvant devenir le plus grand data center de l'État (environ 1 500 emplois de construction, 200 emplois permanents attendus).",
+      "source": "Colorado Newsline / CPR / KUNC",
+      "url": "https://coloradonewsline.com/2026/09/10/weld-comissioners-global-ai-data-center/",
       "coords": [
-        43.1339,
-        -71.1098
-      ]
+        40.4776,
+        -104.9016
+      ],
+      "poweredLand": true,
+      "owners": "Global AI",
+      "investors": "n.c."
     },
     {
       "category": "legislation",
@@ -115,15 +129,6 @@
     },
     {
       "category": "legislation",
-      "title": "Afrique du Sud : des organisations de défense des droits civiques réclament un moratoire sur le boom des data centers face aux risques eau/électricité/foncier",
-      "region": "Afrique",
-      "date": "2026-09-04",
-      "summary": "Plusieurs organisations sud-africaines de défense des droits civiques ont demandé le 4 septembre un moratoire sur les nouveaux data centers tant que leur consommation d'eau, d'électricité et de foncier n'aura pas été étudiée, pointant l'absence d'obligation de divulgation chiffrée pour les opérateurs (dont Amazon, Microsoft et Equinix, actifs notamment au Cap) ; la Commission sud-africaine des droits de l'homme a déjà reçu plus de 250 contributions sur le sujet depuis mai.",
-      "source": "AP / Fortune / TimesLIVE",
-      "url": "https://www.timeslive.co.za/news/2026-09-05-civil-rights-groups-urge-a-halt-to-sas-data-centres-boom-amid-water-and-power-fears/"
-    },
-    {
-      "category": "legislation",
       "title": "Virginie (Loudoun County) : les élus votent à l'unanimité pour étudier la suppression rétroactive du droit acquis (« by-right ») sur 17 projets de data centers déjà déposés",
       "region": "Amérique du Nord",
       "date": "2026-09-03",
@@ -170,6 +175,16 @@
       "investors": "n.c."
     },
     {
+      "category": "market",
+      "title": "Flex rachète le fabricant américain d'équipements de conversion de puissance EPC Power pour 4,4 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-09-03",
+      "summary": "Flex a signé un accord définitif pour acquérir EPC Power, spécialiste californien des équipements de conversion de puissance pour data centers et réseaux électriques, dans une opération valorisée 4,4 Md$ devant se clôturer au T4 2026 — un nouveau signal de consolidation autour des équipements critiques pour la mise en énergie des sites.",
+      "source": "DataCenterDynamics / PR Newswire",
+      "url": "https://www.datacenterdynamics.com/en/news/flex-acquires-data-center-power-conversion-manufacturer-epc-power-in-44bn-deal/",
+      "inv": 4400
+    },
+    {
       "category": "competition",
       "title": "Europe (Nordics) : Equinix et CPP Investments finalisent le rachat d'atNorth pour 4 Md$",
       "region": "Europe",
@@ -180,6 +195,19 @@
       "inv": 4000,
       "owners": "atNorth (CPP Investments · Equinix)",
       "investors": "CPP Investments · Equinix"
+    },
+    {
+      "category": "legislation",
+      "title": "Kansas (comté de Franklin) : moratoire sur les data centers jusqu'en 2028",
+      "region": "Amérique du Nord",
+      "date": "2026-09-02",
+      "summary": "Les commissaires du comté de Franklin (Kansas) ont adopté un moratoire temporaire interdisant tout nouveau permis d'usage spécial pour data centers dans les zones non incorporées du comté jusqu'au 31 décembre 2028, le temps d'élaborer une politique dédiée.",
+      "source": "KOFO Radio",
+      "url": "https://kofo.com/2026/09/03/franklin-county-places-moratorium-on-data-centers/",
+      "coords": [
+        38.6086,
+        -95.253
+      ]
     },
     {
       "category": "legislation",
@@ -228,30 +256,42 @@
       "investors": "n.c."
     },
     {
-      "category": "construction",
-      "title": "Finlande (Mikkeli) : Cerebras et Compute Nordic Finland lancent la construction d'un campus IA de 165 MW",
-      "region": "Europe",
+      "category": "legislation",
+      "title": "Californie (comté de Mendocino) : moratoire d'urgence de 45 jours sur les data centers",
+      "region": "Amérique du Nord",
       "date": "2026-09-01",
-      "summary": "Cerebras Systems et Compute Nordic Finland ont annoncé la construction d'un data center IA à Mikkeli (Savoie du Sud), avec une première tranche de 50 MW déjà en chantier, extensible à 80 MW puis 165 MW sous contrats de sept ans ; l'investissement régional est estimé entre 1 et 1,7 Md€ par un cabinet Ramboll, pour 80 à 250 emplois permanents et récupération de chaleur fatale pour la collectivité locale.",
-      "source": "GlobeNewswire / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/cerebras-starts-construction-on-165mw-data-center-in-mikkeli-finland/",
-      "mw": 165,
-      "inv": 1450,
+      "summary": "Le conseil des superviseurs du comté de Mendocino a voté 5-0 une ordonnance d'urgence interdisant tout nouveau projet de data center pour 45 jours (jusqu'au 16 octobre), en attendant une audience publique sur une éventuelle extension à deux ans, faute de réglementation existante sur le sujet.",
+      "source": "The Press Democrat / The Mendocino Voice",
+      "url": "https://www.pressdemocrat.com/2026/09/03/mendocino-county-adopts-temporary-data-center-moratorium/",
       "coords": [
-        61.6886,
-        27.2723
-      ],
-      "owners": "Cerebras Systems · Compute Nordic Finland",
-      "investors": "n.c."
+        39.1502,
+        -123.2078
+      ]
     },
     {
-      "category": "market",
-      "title": "États-Unis : les mises en chantier de data centers atteignent 84,1 Md$ depuis janvier, près de trois fois le niveau de l'an dernier",
-      "region": "Amérique du Nord",
+      "category": "legislation",
+      "title": "Royaume-Uni : consultation gouvernementale sur les règles d'urbanisme des « AI Growth Zones »",
+      "region": "Europe",
       "date": "2026-09",
-      "summary": "Selon le rapport mensuel de ConstructConnect publié en septembre, les mises en chantier de data centers aux États-Unis totalisent 84,1 Md$ depuis le début de l'année (à fin juillet), soit près du triple du niveau de 2025 et environ un quart de la construction non résidentielle totale ; le coût moyen par projet atteint 1,06 Md$ pour environ 65 100 m² (contre 352,8 M$ et 42 200 m² en 2025), portant le coût au m² à environ 818 $/pied carré, en hausse de 57% sur un an — un signal de tension sur les coûts de construction qui renforce la prime accordée au foncier déjà énergisé et prêt à construire.",
-      "source": "ConstructConnect",
-      "url": "https://news.constructconnect.com/september-2026-data-center-report-year-to-date-spending-nearly-three-times-a-year-ago"
+      "summary": "Le gouvernement britannique mène jusqu'au 16 septembre 2026 une consultation sur de nouvelles règles de planification pour les data centers dans les cinq « AI Growth Zones » (Culham, nord-est de l'Angleterre, nord et sud du Pays de Galles, North Lanarkshire), avec une possible qualification en « Critical National Priority » et un critère d'accès à au moins 500 MW de puissance d'ici 2030.",
+      "source": "GIIA / Construction Magazine UK",
+      "url": "https://www.constructionmagazine.uk/2026/08/uk-data-centre-construction-2026-government-rejects-freeze.html"
+    },
+    {
+      "category": "land",
+      "title": "Marseille : opposition croissante au 5e data center de Digital Realty (MRS5) sur une friche portuaire",
+      "region": "France",
+      "date": "2026-09",
+      "summary": "Le collectif « Le nuage était sous nos pieds » (La Quadrature du Net, Technopolice, collectif des Gammares) a dénoncé le 16 septembre 2026 le projet MRS5 de Digital Realty sur le Grand Port Maritime de Marseille (reconversion d'une friche d'anciens silos à sucre), dans le cadre d'une enquête publique se terminant le 27 septembre ; une élue EELV réclame un moratoire sur les data centers marseillais.",
+      "source": "Marsactu",
+      "url": "https://marsactu.fr/bref/des-elus-et-associations-demandent-un-moratoire-sur-les-data-centers/",
+      "coords": [
+        43.3305,
+        5.355
+      ],
+      "poweredLand": true,
+      "owners": "Digital Realty",
+      "investors": "n.c."
     },
     {
       "category": "power",
@@ -305,6 +345,23 @@
       "investors": "n.c."
     },
     {
+      "category": "construction",
+      "title": "France (Fouju, Seine-et-Marne) : début des travaux du Campus IA (1,4 GW) malgré un recours contentieux annoncé",
+      "region": "France",
+      "date": "2026-08-28",
+      "summary": "Après la validation préfectorale du 29 juillet 2026, les premiers travaux (clôture du site, protection de la biodiversité, fouilles archéologiques) ont démarré le 28 août sur le Campus IA de Fouju porté par MGX, Bpifrance, Nvidia et Mistral AI (1,4 GW visés, raccordement RTE) ; le collectif « Stop IA à Fouju » a annoncé un recours contentieux.",
+      "source": "DCmag / JSS",
+      "url": "https://dcmag.fr/le-prefet-de-seine-et-marne-a-valide-le-projet-campus-ia-de-fouju-14-gw-et-50-milliards-e/",
+      "mw": 1400,
+      "coords": [
+        48.5333,
+        2.7333
+      ],
+      "poweredLand": true,
+      "owners": "Campus IA SAS (MGX · Bpifrance · Nvidia · Mistral AI), raccordement RTE",
+      "investors": "MGX (fonds souverain EAU) · Bpifrance · Nvidia"
+    },
+    {
       "category": "legislation",
       "title": "Texas (Westlake/Keller) : la justice bloque un campus de 300 MW déjà sécurisé en énergie (substation Oncor de 350 MW) après le recours d'une association de riverains",
       "region": "Amérique du Nord",
@@ -336,24 +393,6 @@
       "investors": "n.c."
     },
     {
-      "category": "land",
-      "title": "Géorgie (États-Unis) : Rum Group (ex-Northern Data) signe un contrat de capacité GPU pouvant atteindre 13,7 Md$ sur son site déjà énergisé de Maysville",
-      "region": "Amérique du Nord",
-      "date": "2026-08-26",
-      "summary": "Rum Group Inc. a signé avec un client cloud américain non nommé un accord d'accès GPU en trois tranches, d'une valeur totale pouvant atteindre 13,7 Md$ sur six ans, adossé à son site de Maysville (Jackson County, Géorgie) initialement développé par Northern Data avec 120 MW extensibles à 180 MW ; l'opération illustre la valorisation commerciale de capacité déjà sécurisée malgré l'opposition locale et un projet de moratoire municipal.",
-      "source": "DataCenterDynamics / StockTitan",
-      "url": "https://www.datacenterdynamics.com/en/news/rum-group-signs-up-to-137bn-lease-agreement-with-unnamed-us-cloud-customer/",
-      "mw": 180,
-      "inv": 13700,
-      "coords": [
-        34.25,
-        -83.4
-      ],
-      "poweredLand": true,
-      "owners": "Rum Group Inc. (ex-Northern Data)",
-      "investors": "n.c. (client cloud non nommé)"
-    },
-    {
       "category": "competition",
       "title": "Virginie-Occidentale : Anthropic signe un accord de capacité de 45 Md$ sur 6 ans avec Nscale (460 MW), avant une IPO annoncée",
       "region": "Amérique du Nord",
@@ -375,24 +414,6 @@
       "summary": "Le Conseil des ministres espagnol a autorisé le 25 août la procédure d'urgence pour un projet de décret royal imposant aux data centers de plus de 1 MW de couvrir au moins 80% de leur consommation par de la production renouvelable additionnelle (mise en service dans les 18 mois précédant leur démarrage, sur site ou via PPA long terme, avec correspondance horaire), plus des exigences de souveraineté numérique (opérateur établi dans l'UE, données hébergées en UE) ; consultation publique ouverte du 27 août au 4 septembre, la filière ayant déjà critiqué le texte.",
       "source": "pv magazine / DataCenterDynamics / Lexology",
       "url": "https://www.pv-magazine.com/2026/08/26/espana-exigira-a-los-centros-de-datos-un-80-de-renovables-adicionales-y-datos-bajo-control-europeo/"
-    },
-    {
-      "category": "land",
-      "title": "France (Fouju, Seine-et-Marne) : le « Campus IA » de MGX/Bpifrance/Nvidia/Mistral (1,4 GW, 50 Md€) validé malgré un avis défavorable de Terre de Liens",
-      "region": "France",
-      "date": "2026-08-25",
-      "summary": "Le préfet de Seine-et-Marne a autorisé fin juillet la construction du « Campus IA » de Fouju — 90 hectares dont 70 artificialisés, une puissance de raccordement visée de 1,4 GW pour environ 10 TWh/an de consommation, porté par une SAS réunissant le fonds souverain émirati MGX (majoritaire), Bpifrance, Nvidia et Mistral AI dans le cadre de l'accord France-EAU de 109 Md€ ; l'association Terre de Liens Île-de-France a publié le 25 août un avis défavorable détaillé (disproportion, incongruité, précipitation), sans effet suspensif à ce stade.",
-      "source": "Terre de Liens / DCmag / Assemblée nationale",
-      "url": "https://terredeliens.org/ile-de-france/actu/data-center-%C3%A0-fouju-seine-et-marne-avis-d%C3%A9favorable-25-08-2026/",
-      "mw": 1400,
-      "inv": 57500,
-      "coords": [
-        48.55,
-        2.97
-      ],
-      "poweredLand": true,
-      "owners": "MGX · Bpifrance · Nvidia · Mistral AI (Campus AI SAS)",
-      "investors": "MGX (fonds souverain EAU, majoritaire) · Bpifrance · Nvidia"
     },
     {
       "category": "land",
@@ -518,21 +539,13 @@
       "investors": "Casa dos Ventos (PPA éolien dédié, ~2 Md$)"
     },
     {
-      "category": "construction",
-      "title": "France (Dardilly, près de Lyon) : le data center IA de DC Max et Phoenix Group (18 MW) entre en construction en septembre",
-      "region": "France",
+      "category": "market",
+      "title": "Europe : le prix du foncier déjà énergisé bondit de 82% depuis 2021",
+      "region": "Europe",
       "date": "2026-08",
-      "summary": "Le projet de data center dédié à l'IA porté par DC Max et l'émirati Phoenix Group à Dardilly (agglomération lyonnaise) — 4 000 m², 18 MW dont 12 MW dédiés au calcul IA, plus de 100 M€ d'investissement — doit entrer en chantier en septembre 2026 pour environ dix-huit mois de travaux, malgré les inquiétudes exprimées par des riverains et des associations écologistes locales.",
-      "source": "DCmag / Rue89Lyon",
-      "url": "https://dcmag.fr/dardilly-le-projet-de-data-center-dia-de-dc-max-entrera-en-construction-en-septembre/",
-      "mw": 18,
-      "inv": 108,
-      "coords": [
-        45.82,
-        4.75
-      ],
-      "owners": "DC Max · Phoenix Group (Abu Dhabi)",
-      "investors": "Phoenix Group"
+      "summary": "Selon un état des lieux du marché de la construction de data centers en Europe, le foncier déjà raccordé au réseau (« powered land ») se négocie désormais autour de 2,26 M€ par MW, en hausse de 82% depuis 2021 ; la disponibilité de puissance devient la principale contrainte au développement, avant la demande ou le capital — une confirmation de la prime croissante accordée au foncier pré-énergisé.",
+      "source": "Construction Magazine UK",
+      "url": "https://www.constructionmagazine.uk/2026/08/europe-data-centre-construction-pipeline-2026.html"
     },
     {
       "category": "land",
