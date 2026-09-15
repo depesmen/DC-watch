@@ -1,13 +1,80 @@
 {
-  "lastUpdated": "2026-09-14",
+  "lastUpdated": "2026-09-15",
   "keyTakeaways": [
-    "Premier signal géopolitique majeur pour le sourcing Moyen-Orient : après les frappes iraniennes, Abu Dhabi abandonne le campus IA unique de 26 km² au profit de sites « Stargate UAE » dispersés (5 GW, ~30 Md$ via G42/OpenAI/Oracle/Nvidia), certains enterrés dans les montagnes — la résilience et la discrétion du site deviennent un critère de sourcing à part entière, au même titre que la puissance disponible.",
-    "La bataille politique américaine se poursuit sans tendance nette : nouveaux moratoires actés dans le Kansas (jusqu'en 2028) et en urgence en Californie (Mendocino), mais dans le Colorado le comté de Weld a au contraire approuvé à l'unanimité un projet Global AI sur l'ancienne friche Kodak/Carestream — confirmation que la reconversion de sites industriels existants passe mieux l'épreuve politique que les projets greenfield.",
-    "En France, la contestation locale s'étend à un nouveau front : Marseille voit émerger une opposition organisée au projet MRS5 de Digital Realty (friche portuaire des anciens silos à sucre), qui s'ajoute au dossier Edged Energy déjà en cours, pendant que le chantier du Campus IA de Fouju (1,4 GW) démarre malgré l'annonce d'un recours contentieux — la France reste un marché à fort pipeline mais à risque contentieux croissant sur le foncier déjà engagé.",
-    "Le marché valide la thèse de la rareté : le foncier européen déjà énergisé se négocie désormais ~2,26 M€/MW, +82% depuis 2021 selon les derniers relevés, tandis que Microsoft vise un triplement de sa capacité mondiale à 38 GW d'ici 2032 et que Flex rachète le fabricant d'équipements de conversion de puissance EPC Power pour 4,4 Md$ — la chaîne de valeur du « power » se consolide en amont du foncier.",
-    "Aucun signal nouveau confirmé pour Polarise (dernier fait connu : retrait de SWI Group de la prise de participation au profit d'une dette), Aurora Infra (homonymes sans lien apparent identifiés, à ne pas confondre avec Aurora Energy Valley en Finlande) ou La Française de l'Énergie sur le volet data center malgré des recherches ciblées incluant LinkedIn : les trois dossiers restent à surveiller sans évolution confirmée cette semaine."
+    "Le risque politique américain s'étend désormais au cœur même de l'écosystème IA : San Francisco, Hayward et Oakland engagent en parallèle le 15 septembre des moratoires sur les data centers dans la baie de San Francisco — même les métropoles les plus favorables à l'IA deviennent des terrains contestés, ce qui renforce la prime accordée aux sites déjà autorisés et énergisés.",
+    "Le capital se concentre sur des plateformes déjà énergisées plutôt que sur du foncier spéculatif : Brookfield prend une participation dans American Real Estate Partners (PowerHouse Data Centers, pipeline de 8+ GW) et Dataprana renforce son équipe foncier+énergie (Prana Energy) — confirmation que l'arbitrage « land+power » devient une classe d'actifs à part entière pour les investisseurs institutionnels.",
+    "Le goulot d'étranglement du raccordement touche même les deals les mieux soutenus : la CPUC reporte pour la troisième fois l'approbation de l'accord PG&E-Google pour énergiser le site de 250 MW de San Jose (nouveau vote attendu le 17 septembre) — un rappel que même Google doit patienter pour du foncier non encore énergisé, à l'inverse des sites pré-raccordés.",
+    "L'Europe continue de livrer des capacités concrètes hors de France/Royaume-Uni : le data center IA de Cerebras à Mikkeli (Finlande) passe en construction sur sa première tranche de 50 MW (165 MW visés) — les Nordiques restent la zone européenne la plus « exécutable » pour le foncier énergisé.",
+    "Aucun signal nouveau confirmé cette semaine pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré des recherches ciblées incluant LinkedIn ; à noter que le projet « AI factory » de Polarise à Amberg (Bavière, 30→120 MW, alimenté par du solaire et de l'éolien dédiés sur site) reste la meilleure illustration de son modèle « powered land », mais il s'agit d'une information datant de mars 2026, non d'un développement récent."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Californie (baie de San Francisco) : San Francisco, Hayward et Oakland engagent en parallèle des moratoires sur les data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-09-15",
+      "summary": "À San Francisco, le superviseur Shamann Walton a déposé le 15 septembre un moratoire d'urgence de 45 jours sur les nouveaux data centers (extensible jusqu'à 22 mois et demi), visant notamment l'extension du site NOVVA à Bayview ; le même jour, le conseil municipal de Hayward examine une proposition d'interdiction après l'approbation contestée d'un site de 76,6 MW doté de 28 générateurs diesel de secours, tandis qu'à Oakland la conseillère Carroll Fife a déposé le 11 septembre un moratoire similaire visant un projet IA de Behring Companies, avec audience prévue le 22 septembre.",
+      "source": "Hoodline / SFist / Mission Local / Oaklandside",
+      "url": "https://hoodline.com/2026/09/san-francisco-weighs-45-day-freeze-on-data-centers-as-bayview-feels-the-heat/",
+      "coords": [
+        37.7749,
+        -122.4194
+      ]
+    },
+    {
+      "category": "land",
+      "title": "Marseille : opposition croissante au 5e data center de Digital Realty (MRS5) sur une friche portuaire",
+      "region": "France",
+      "date": "2026-09",
+      "summary": "Le collectif « Le nuage était sous nos pieds » (La Quadrature du Net, Technopolice, collectif des Gammares) a dénoncé le 16 septembre 2026 le projet MRS5 de Digital Realty sur le Grand Port Maritime de Marseille (reconversion d'une friche d'anciens silos à sucre), dans le cadre d'une enquête publique se terminant le 27 septembre ; une élue EELV réclame un moratoire sur les data centers marseillais.",
+      "source": "Marsactu",
+      "url": "https://marsactu.fr/bref/des-elus-et-associations-demandent-un-moratoire-sur-les-data-centers/",
+      "coords": [
+        43.3305,
+        5.355
+      ],
+      "poweredLand": true,
+      "owners": "Digital Realty",
+      "investors": "n.c."
+    },
+    {
+      "category": "competition",
+      "title": "États-Unis : Brookfield prend une participation minoritaire dans American Real Estate Partners (AREP), maison mère de PowerHouse Data Centers",
+      "region": "Amérique du Nord",
+      "date": "2026-09-14",
+      "summary": "Brookfield a annoncé le 14 septembre l'acquisition d'une participation minoritaire (montant non divulgué) dans American Real Estate Partners (AREP), plateforme immobilière verticalement intégrée dont la filiale PowerHouse Data Centers développe un pipeline revendiqué de plus de 8 GW en Virginie, au Texas, en Caroline du Nord, dans le Kentucky, l'Indiana, l'Illinois, le Nevada et en Pennsylvanie ; l'opération doit se clôturer au T4 2026.",
+      "source": "DataCenterDynamics / IREI",
+      "url": "https://www.datacenterdynamics.com/en/news/brookfield-to-acquire-a-minority-interest-in-american-real-estate-partners/",
+      "owners": "American Real Estate Partners (AREP) · PowerHouse Data Centers",
+      "investors": "Brookfield Asset Management"
+    },
+    {
+      "category": "land",
+      "title": "États-Unis : Dataprana renforce sa division foncier et énergie (Prana Energy) pour accélérer son pipeline de sites déjà énergisés",
+      "region": "Amérique du Nord",
+      "date": "2026-09-14",
+      "summary": "Dataprana, développeur américain « power-first » qui acquiert et énergise des sites stratégiques pour les opérateurs IA, a annoncé le 14 septembre plusieurs recrutements dans sa division foncier et énergie Prana Energy (VP Power Origination, directeur acquisition foncière, ingénieur développement de site), afin d'accélérer son pipeline de sites énergisés et son modèle de conception de site reproductible sur de nouveaux marchés américains.",
+      "source": "GlobeNewswire",
+      "url": "https://www.globenewswire.com/news-release/2026/09/14/3360924/0/en/dataprana-welcomes-land-and-power-executives-amid-us-data-center-market-expansion.html",
+      "owners": "Dataprana (Prana Energy)",
+      "investors": "n.c."
+    },
+    {
+      "category": "construction",
+      "title": "Japon (Kodaira, Tokyo) : DayOne démarre la construction de son data center, 15 MW en première phase sur 42 MW visés",
+      "region": "Asie-Pacifique",
+      "date": "2026-09-14",
+      "summary": "DayOne a lancé la construction de la phase I de son data center Kodaira à Tokyo, avec une première tranche de 15 MW de capacité IT sur un campus dont la capacité totale visée est de 42 MW.",
+      "source": "DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/dayone-breaks-ground-on-data-center-in-tokyo-japan/",
+      "mw": 42,
+      "coords": [
+        35.7257,
+        139.4754
+      ],
+      "owners": "DayOne",
+      "investors": "n.c."
+    },
     {
       "category": "land",
       "title": "Émirats arabes unis : le méga-campus IA « Stargate UAE » (5 GW) dispersé sur plusieurs sites après les frappes iraniennes",
@@ -94,27 +161,6 @@
       "investors": "n.c."
     },
     {
-      "category": "market",
-      "title": "États-Unis : les REIT de data centers (Digital Realty, Equinix, Iron Mountain) profitent boursièrement de la vague de moratoires",
-      "region": "Amérique du Nord",
-      "date": "2026-09-08",
-      "summary": "Alors que les moratoires et oppositions locales se multiplient aux États-Unis, les analystes estiment que la rareté d'offre nouvelle qui en résulte soutient les valorisations des REIT de data centers déjà en exploitation : Digital Realty (71 Md$ de capitalisation, +23% depuis janvier), Equinix (~102 Md$, +37%) et Iron Mountain (34,7 Md$, +42%) affichent toutes de fortes progressions boursières en 2026 — un signal supplémentaire de la prime croissante accordée aux actifs déjà construits et raccordés face aux projets greenfield exposés au risque politique.",
-      "source": "CNBC",
-      "url": "https://www.cnbc.com/2026/09/08/these-dividend-stocks-could-catch-a-tailwind-from-data-center-pushback.html"
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Washington, West Richland/Tri-Cities) : la vente à Trammell Crow de 995 acres du Lewis & Clark Ranch se confirme à 264 M$",
-      "region": "Amérique du Nord",
-      "date": "2026-09-07",
-      "summary": "La vente de sept parcelles totalisant un peu plus de 995 acres le long de Ruppert Road, à West Richland (Tri-Cities, Washington), à la filiale data center de Trammell Crow Company s'est conclue mi-juillet pour environ 264 M$, montant révélé le 7 septembre ; le site pourrait accueillir le premier complexe data center des Tri-Cities, mais aucune demande de permis n'a encore été déposée auprès de la ville.",
-      "source": "The Columbian / Tri-Cities Area Journal of Business",
-      "url": "https://www.columbian.com/news/2026/sep/07/264m-land-deal-could-set-stage-for-tri-cities-1st-data-center-complex/",
-      "owners": "Trammell Crow Company",
-      "investors": "n.c.",
-      "inv": 264
-    },
-    {
       "category": "land",
       "title": "Inde (Hyderabad, Telangana) : HyperVault (filiale de TCS) sécurise 264 acres pour un campus IA de 1 GW (7,4 Md$)",
       "region": "Asie-Pacifique",
@@ -125,6 +171,23 @@
       "mw": 1000,
       "inv": 7400,
       "owners": "HyperVault (TCS)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Bartow County, Géorgie) : Thor Equities dépose un projet de data center de 150 MW (1 Md$) sur 560 acres près de Kingston",
+      "region": "Amérique du Nord",
+      "date": "2026-09-04",
+      "summary": "Thor Equities a déposé le 4 septembre une demande de rezonage de 559 acres à Kingston (Bartow County, Géorgie) pour un data center de 350 000 pieds carrés nécessitant environ 150 MW auprès de la Municipal Electric Authority of Georgia, pour un investissement annoncé d'1 Md$ et une mise en service visée en 2030 ; l'alimentation électrique dédiée n'est pas encore sécurisée.",
+      "source": "DataCenterDynamics / Bisnow / The Center Square",
+      "url": "https://www.datacenterdynamics.com/en/news/thor-equities-submits-plans-for-150mw-data-center-in-georgia-us/",
+      "mw": 150,
+      "inv": 1000,
+      "coords": [
+        34.35,
+        -84.95
+      ],
+      "owners": "Thor Equities",
       "investors": "n.c."
     },
     {
@@ -185,6 +248,22 @@
       "inv": 4400
     },
     {
+      "category": "power",
+      "title": "Californie : la CPUC reporte à nouveau l'approbation de l'accord PG&E-Google pour énergiser le data center de 250 MW de San Jose",
+      "region": "Amérique du Nord",
+      "date": "2026-09-03",
+      "summary": "La California Public Utilities Commission a de nouveau reporté, lors de sa séance du 3 septembre, la résolution E-5455 qui approuverait l'accord exceptionnel entre PG&E et Google pour l'énergisation d'une charge de 250 MW à 230 kV à San Jose (avance remboursable de 600 000 $/MW, jusqu'à 150 M$ facturés à Google) ; un nouveau vote est attendu le 17 septembre.",
+      "source": "CalRegulatory / Stoel Rives",
+      "url": "https://www.calregulatory.com/september-17-2026-cpuc-voting-meeting-preview-regional-markets-google-data-center-and-pcia/",
+      "mw": 250,
+      "coords": [
+        37.3382,
+        -121.8863
+      ],
+      "owners": "n.c. (Google, site potentiel San Jose)",
+      "investors": "n.c."
+    },
+    {
       "category": "competition",
       "title": "Europe (Nordics) : Equinix et CPP Investments finalisent le rachat d'atNorth pour 4 Md$",
       "region": "Europe",
@@ -195,32 +274,6 @@
       "inv": 4000,
       "owners": "atNorth (CPP Investments · Equinix)",
       "investors": "CPP Investments · Equinix"
-    },
-    {
-      "category": "legislation",
-      "title": "Kansas (comté de Franklin) : moratoire sur les data centers jusqu'en 2028",
-      "region": "Amérique du Nord",
-      "date": "2026-09-02",
-      "summary": "Les commissaires du comté de Franklin (Kansas) ont adopté un moratoire temporaire interdisant tout nouveau permis d'usage spécial pour data centers dans les zones non incorporées du comté jusqu'au 31 décembre 2028, le temps d'élaborer une politique dédiée.",
-      "source": "KOFO Radio",
-      "url": "https://kofo.com/2026/09/03/franklin-county-places-moratorium-on-data-centers/",
-      "coords": [
-        38.6086,
-        -95.253
-      ]
-    },
-    {
-      "category": "legislation",
-      "title": "Californie : deux textes créant un tarif électrique dédié aux data centers de plus de 75 MW arrivent sur le bureau du gouverneur Newsom",
-      "region": "Amérique du Nord",
-      "date": "2026-09-01",
-      "summary": "L'Assemblée et le Sénat de Californie ont transmis au gouverneur Gavin Newsom, qui doit se prononcer avant le 30 septembre, les textes AB 2383 (« Fair Share in Energy Act ») et SB 886, qui imposeraient à la CPUC de créer un tarif de raccordement séparé (génération/transport/distribution) pour tout nouveau client de plus de 75 MW, afin d'éviter que le coût de la puissance dédiée aux data centers ne soit reporté sur les autres consommateurs.",
-      "source": "Hoodline / GV Wire / DataCenterDynamics",
-      "url": "https://gvwire.com/2026/09/01/newsom-vetoed-a-data-center-water-bill-last-year-will-he-sign-it-this-time/",
-      "coords": [
-        36.7783,
-        -119.4179
-      ]
     },
     {
       "category": "power",
@@ -269,45 +322,19 @@
       ]
     },
     {
-      "category": "legislation",
-      "title": "Royaume-Uni : consultation gouvernementale sur les règles d'urbanisme des « AI Growth Zones »",
+      "category": "construction",
+      "title": "Finlande (Mikkeli) : Cerebras et Compute Nordic Finland lancent un data center IA de 165 MW",
       "region": "Europe",
-      "date": "2026-09",
-      "summary": "Le gouvernement britannique mène jusqu'au 16 septembre 2026 une consultation sur de nouvelles règles de planification pour les data centers dans les cinq « AI Growth Zones » (Culham, nord-est de l'Angleterre, nord et sud du Pays de Galles, North Lanarkshire), avec une possible qualification en « Critical National Priority » et un critère d'accès à au moins 500 MW de puissance d'ici 2030.",
-      "source": "GIIA / Construction Magazine UK",
-      "url": "https://www.constructionmagazine.uk/2026/08/uk-data-centre-construction-2026-government-rejects-freeze.html"
-    },
-    {
-      "category": "land",
-      "title": "Marseille : opposition croissante au 5e data center de Digital Realty (MRS5) sur une friche portuaire",
-      "region": "France",
-      "date": "2026-09",
-      "summary": "Le collectif « Le nuage était sous nos pieds » (La Quadrature du Net, Technopolice, collectif des Gammares) a dénoncé le 16 septembre 2026 le projet MRS5 de Digital Realty sur le Grand Port Maritime de Marseille (reconversion d'une friche d'anciens silos à sucre), dans le cadre d'une enquête publique se terminant le 27 septembre ; une élue EELV réclame un moratoire sur les data centers marseillais.",
-      "source": "Marsactu",
-      "url": "https://marsactu.fr/bref/des-elus-et-associations-demandent-un-moratoire-sur-les-data-centers/",
+      "date": "2026-09-01",
+      "summary": "Cerebras et Compute Nordic Finland ont annoncé le 1er septembre un data center IA à Mikkeli (Finlande), avec une première tranche de 50 MW déjà en construction et une montée en puissance visée à 165 MW, pour un investissement indicatif de 1,0 à 1,7 Md€ dans la région ; le site est conçu en circuit d'eau fermé avec valorisation de la chaleur fatale.",
+      "source": "GlobeNewswire / Cerebras",
+      "url": "https://www.globenewswire.com/news-release/2026/09/01/3353779/0/en/cerebras-and-compute-nordic-finland-announce-new-165-mw-ai-data-centre-in-mikkeli-finland.html",
+      "mw": 165,
       "coords": [
-        43.3305,
-        5.355
+        61.6885,
+        27.2723
       ],
-      "poweredLand": true,
-      "owners": "Digital Realty",
-      "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "Louisiane : ONE Nuclear signe une lettre d'intention contraignante pour « Project Cayman », 2,88 GW gaz + batterie co-localisés avec un data center",
-      "region": "Amérique du Nord",
-      "date": "2026-08-31",
-      "summary": "ONE Nuclear a signé une lettre d'intention contraignante avec un groupe de propriétaires fonciers de Louisiane pour développer « Project Cayman », une centrale gaz naturel de 2,88 GW associée à un système de stockage batterie de 700 MW / 2,88 GWh, près du RiverPlex MegaPark entre Baton Rouge et La Nouvelle-Orléans, avec un campus data center co-localisé dont la capacité et l'opérateur ne sont pas encore précisés ; des réunions publiques sont prévues de septembre à décembre 2026.",
-      "source": "DataCenterDynamics / BusinessWire",
-      "url": "https://www.datacenterdynamics.com/en/news/one-nuclear-inks-binding-loi-to-develop-288gw-gas-plant-and-bess-to-power-data-center-in-louisiana/",
-      "mw": 2880,
-      "coords": [
-        30.13,
-        -90.9
-      ],
-      "poweredLand": true,
-      "owners": "ONE Nuclear",
+      "owners": "Compute Nordic Finland",
       "investors": "n.c."
     },
     {
@@ -407,33 +434,6 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "Espagne : le gouvernement engage la procédure d'urgence pour un décret royal imposant 80% de renouvelables additionnels aux nouveaux data centers",
-      "region": "Europe",
-      "date": "2026-08-25",
-      "summary": "Le Conseil des ministres espagnol a autorisé le 25 août la procédure d'urgence pour un projet de décret royal imposant aux data centers de plus de 1 MW de couvrir au moins 80% de leur consommation par de la production renouvelable additionnelle (mise en service dans les 18 mois précédant leur démarrage, sur site ou via PPA long terme, avec correspondance horaire), plus des exigences de souveraineté numérique (opérateur établi dans l'UE, données hébergées en UE) ; consultation publique ouverte du 27 août au 4 septembre, la filière ayant déjà critiqué le texte.",
-      "source": "pv magazine / DataCenterDynamics / Lexology",
-      "url": "https://www.pv-magazine.com/2026/08/26/espana-exigira-a-los-centros-de-datos-un-80-de-renovables-adicionales-y-datos-bajo-control-europeo/"
-    },
-    {
-      "category": "land",
-      "title": "Australie : Zerra DC dépose un projet de campus « Western Downs Digital Park » de 1,44 GW (22 Md$) dans le pôle énergétique du Queensland",
-      "region": "Asie-Pacifique",
-      "date": "2026-08-24",
-      "summary": "Le développeur Zerra DC (AGP) a déposé le permis pour le Western Downs Digital Park, un campus de quatre data centers de 360 MW chacun (1,44 GW au total, environ 22,2 Md$ US) sur 725 hectares près de Dalby (Queensland), directement adossé aux centrales gaz et au parc solaire de Braemar/Darling Downs — l'un des plus gros projets « powered land » jamais déposés en Australie.",
-      "source": "ABC News / DataCenterDynamics",
-      "url": "https://www.abc.net.au/news/2026-08-24/plans-for-australia-largest-data-centre-in-regional-queensland/107071624",
-      "mw": 1440,
-      "inv": 22190,
-      "coords": [
-        -26.9,
-        150.95
-      ],
-      "poweredLand": true,
-      "owners": "Zerra DC (AGP)",
-      "investors": "n.c."
-    },
-    {
       "category": "land",
       "title": "France (Marseille) : Edged Energy porte un data center de 20 MW sur la friche de l'ancienne sucrerie Saint-Louis, enquête publique ouverte",
       "region": "France",
@@ -484,23 +484,6 @@
       "url": "https://www.datacenterdynamics.com/en/news/swi-group-pulls-out-of-planned-investment-in-german-ai-cloud-firm-polarise/",
       "owners": "Polarise Holding GmbH",
       "investors": "SWI Stoneweg Icona Group (dette)"
-    },
-    {
-      "category": "land",
-      "title": "Royaume-Uni (Northumberland) : TBC Partners dépose une demande pour un second campus data center de 300 MW à Cambois, à côté du site QTS de 1,1 GW",
-      "region": "Europe",
-      "date": "2026-08-18",
-      "summary": "TBC Partners a déposé auprès du conseil du Northumberland une demande de permis pour un campus data center d'environ 300 MW sur 12 hectares à Cambois (Factory Road), immédiatement au sud de la rivière Wansbeck et à proximité du campus QTS (Blackstone) de 1,1 GW / 540 000 m² déjà approuvé sur l'ancien site de la centrale électrique de Blyth — confirmation de la zone « AI Growth Zone » du Northumberland comme nouveau pôle britannique de foncier énergisé attirant plusieurs opérateurs en cascade.",
-      "source": "DataCenterDynamics / BeBeez",
-      "url": "https://www.datacenterdynamics.com/en/news/application-filed-for-data-center-campus-near-qts-site-in-northumberland-uk/",
-      "mw": 300,
-      "coords": [
-        55.13,
-        -1.5
-      ],
-      "poweredLand": true,
-      "owners": "TBC Partners",
-      "investors": "n.c."
     },
     {
       "category": "land",
