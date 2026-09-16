@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-15",
+  "lastUpdated": "2026-09-16",
   "keyTakeaways": [
-    "Le risque politique américain s'étend désormais au cœur même de l'écosystème IA : San Francisco, Hayward et Oakland engagent en parallèle le 15 septembre des moratoires sur les data centers dans la baie de San Francisco — même les métropoles les plus favorables à l'IA deviennent des terrains contestés, ce qui renforce la prime accordée aux sites déjà autorisés et énergisés.",
-    "Le capital se concentre sur des plateformes déjà énergisées plutôt que sur du foncier spéculatif : Brookfield prend une participation dans American Real Estate Partners (PowerHouse Data Centers, pipeline de 8+ GW) et Dataprana renforce son équipe foncier+énergie (Prana Energy) — confirmation que l'arbitrage « land+power » devient une classe d'actifs à part entière pour les investisseurs institutionnels.",
-    "Le goulot d'étranglement du raccordement touche même les deals les mieux soutenus : la CPUC reporte pour la troisième fois l'approbation de l'accord PG&E-Google pour énergiser le site de 250 MW de San Jose (nouveau vote attendu le 17 septembre) — un rappel que même Google doit patienter pour du foncier non encore énergisé, à l'inverse des sites pré-raccordés.",
-    "L'Europe continue de livrer des capacités concrètes hors de France/Royaume-Uni : le data center IA de Cerebras à Mikkeli (Finlande) passe en construction sur sa première tranche de 50 MW (165 MW visés) — les Nordiques restent la zone européenne la plus « exécutable » pour le foncier énergisé.",
-    "Aucun signal nouveau confirmé cette semaine pour Polarise, Aurora Infra ou La Française de l'Énergie sur le volet data center malgré des recherches ciblées incluant LinkedIn ; à noter que le projet « AI factory » de Polarise à Amberg (Bavière, 30→120 MW, alimenté par du solaire et de l'éolien dédiés sur site) reste la meilleure illustration de son modèle « powered land », mais il s'agit d'une information datant de mars 2026, non d'un développement récent."
+    "Le financement du « power-first » se structure comme une classe d'actifs à part entière : AVK lance AVK Capital (adossé à >1 Md$ de Partners Group) pour posséder et financer les infrastructures de production sur site des data centers, permettant aux développeurs d'accéder à du foncier énergisé sans porter le capex au bilan — un modèle à surveiller pour le sourcing.",
+    "Les friches industrielles à grande échelle continuent de devenir le foncier de référence pour les méga-campus : Aligned démarre la construction de son campus de 2 GW (10 Md$) sur l'ancienne centrale à charbon Bruce Mansfield en Pennsylvanie, avec génération sur site dédiée plutôt que raccordement réseau — un nouvel exemple de powered land post-industriel à très grande échelle.",
+    "Le risque politique franchit un nouveau palier aux États-Unis : le New Hampshire (gouverneure Ayotte) prépare un moratoire pluriannuel statewide, ce qui en ferait le deuxième État après New York à basculer d'une opposition locale à une pause à l'échelle de l'État — un signal à surveiller pour l'évaluation du risque réglementaire par État.",
+    "Premier développement concret pour Polarise depuis plusieurs semaines de veille ciblée : réservation de 15 MW dans le futur data center « Prague Gateway » de CRA près de Prague, marquant son entrée en Europe centrale ; toujours aucun signal nouveau pour Aurora Infra ou La Française de l'Énergie sur le data center malgré des recherches dédiées, y compris LinkedIn.",
+    "Les hyperscalers et opérateurs continuent de sécuriser capital et capacité en parallèle du foncier : Meta (Utah, +3 Md$), Bell (Saskatchewan, jusqu'à 1,2 GW) et Vantage (2 Md$ de crédit) illustrent une course au capital aussi intense que la course au foncier énergisé."
   ],
   "items": [
     {
@@ -22,20 +22,46 @@
       ]
     },
     {
-      "category": "land",
-      "title": "Marseille : opposition croissante au 5e data center de Digital Realty (MRS5) sur une friche portuaire",
-      "region": "France",
-      "date": "2026-09",
-      "summary": "Le collectif « Le nuage était sous nos pieds » (La Quadrature du Net, Technopolice, collectif des Gammares) a dénoncé le 16 septembre 2026 le projet MRS5 de Digital Realty sur le Grand Port Maritime de Marseille (reconversion d'une friche d'anciens silos à sucre), dans le cadre d'une enquête publique se terminant le 27 septembre ; une élue EELV réclame un moratoire sur les data centers marseillais.",
-      "source": "Marsactu",
-      "url": "https://marsactu.fr/bref/des-elus-et-associations-demandent-un-moratoire-sur-les-data-centers/",
+      "category": "construction",
+      "title": "États-Unis (Eagle Mountain, Utah) : Meta étend son campus data center, investissement porté à plus de 3 Md$ et ajout d'une centrale de stockage batterie de 150 MW",
+      "region": "Amérique du Nord",
+      "date": "2026-09-15",
+      "summary": "Meta a annoncé le 15 septembre une extension de son campus data center d'Eagle Mountain (Utah, en service depuis 2021), portant son investissement cumulé dans l'État à plus de 3 Md$ et plus de 1 200 emplois de construction au pic ; les nouveaux bâtiments utiliseront un refroidissement liquide en circuit fermé et seront couplés à une centrale de stockage batterie de 150 MW.",
+      "source": "KSL / DataCenterDynamics / Hoodline",
+      "url": "https://www.datacenterdynamics.com/en/news/meta-to-expand-eagle-mountain-data-center-campus-in-utah/",
+      "mw": 150,
       "coords": [
-        43.3305,
-        5.355
+        40.3147,
+        -112.0116
       ],
-      "poweredLand": true,
-      "owners": "Digital Realty",
-      "investors": "n.c."
+      "owners": "Meta"
+    },
+    {
+      "category": "power",
+      "title": "Royaume-Uni : AVK lance AVK Capital, une entité dédiée pour financer et détenir des infrastructures de production électrique sur site pour les data centers",
+      "region": "Europe",
+      "date": "2026-09-15",
+      "summary": "Un mois après l'entrée de Partners Group à son capital (plus d'1 Md$ d'equity engagés), le spécialiste de l'énergie sur site AVK a lancé AVK Capital, une structure dédiée qui financera et possèdera directement les infrastructures de production (microgrids, piles à combustible, solutions de secours) livrées aux data centers, ceux-ci achetant ensuite l'énergie via des PPA de long terme plutôt que de porter le capex à leur bilan — un nouveau modèle facilitant l'accès à du foncier déjà énergisé sans immobiliser le capital du développeur.",
+      "source": "DataCenterDynamics / Data Centre Magazine",
+      "url": "https://www.datacenterdynamics.com/en/news/avk-launches-dedicated-funding-arm-to-own-and-operate-onsite-power-solutions-for-data-center-customers/",
+      "inv": 1000,
+      "owners": "AVK",
+      "investors": "Partners Group"
+    },
+    {
+      "category": "construction",
+      "title": "Canada (Saskatchewan) : Bell quadruple les ambitions de son campus IA « AI Fabric », visant 1,2 GW",
+      "region": "Amérique du Nord",
+      "date": "2026-09-15",
+      "summary": "Bell et le gouvernement de la Saskatchewan ont signé un protocole d'accord pour porter le campus « Bell AI Fabric » (65 ha dans la municipalité rurale de Sherwood, près de Regina, déjà en construction pour 300 MW) jusqu'à 1,2 GW via une génération au gaz naturel développée par des partenaires et un refroidissement en circuit fermé sans eau municipale ; la première tranche reste visée pour le premier semestre 2027.",
+      "source": "The Logic / MobileSyrup / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/canadas-bell-to-triple-capacity-at-planned-saskatchewan-data-center-campus/",
+      "mw": 1200,
+      "coords": [
+        50.4,
+        -104.7
+      ],
+      "owners": "Bell (BCE)"
     },
     {
       "category": "competition",
@@ -76,6 +102,17 @@
       "investors": "n.c."
     },
     {
+      "category": "market",
+      "title": "Vantage Data Centers sécurise 2 Md$ de financement pour son portefeuille nord-américain en développement précoce",
+      "region": "Amérique du Nord",
+      "date": "2026-09-14",
+      "summary": "Vantage Data Centers a finalisé le 14 septembre une facilité de crédit renouvelable de 2 Md$ sur cinq ans (extensible) adossée à un premier pool de trois actifs en développement, portant à plus de 40 Md$ le capital sécurisé par le groupe depuis le début de l'année pour accélérer son pipeline nord-américain.",
+      "source": "DataCenterDynamics / Vantage Data Centers",
+      "url": "https://vantage-dc.com/news/vantage-secures-2b-credit-facility-expanding-financing-to-support-growing-demand/",
+      "inv": 2000,
+      "owners": "Vantage Data Centers"
+    },
+    {
       "category": "land",
       "title": "Émirats arabes unis : le méga-campus IA « Stargate UAE » (5 GW) dispersé sur plusieurs sites après les frappes iraniennes",
       "region": "Moyen-Orient",
@@ -98,6 +135,24 @@
       "url": "https://www.bloomberg.com/news/features/2026-09-10/microsoft-ai-focused-data-center-plan-to-add-26-gigawatts-of-compute",
       "mw": 38000,
       "owners": "Microsoft"
+    },
+    {
+      "category": "construction",
+      "title": "États-Unis (Shippingport, comté de Beaver, Pennsylvanie) : Aligned Data Centers démarre la construction d'un campus de 2 GW (10 Md$) sur l'ancienne centrale à charbon Bruce Mansfield",
+      "region": "Amérique du Nord",
+      "date": "2026-09-10",
+      "summary": "Aligned Data Centers a inauguré le 10 septembre la construction de « Project Phoenix », un campus de trois bâtiments totalisant 2 GW sur les 650 acres de l'ancienne centrale à charbon Bruce Mansfield (fermée en 2019) à Shippingport, rachetés 223 M$ à Frontier Group of Companies en juillet ; le site sera alimenté par une génération sur site au gaz naturel (piles à combustible à oxyde solide) plutôt que par le réseau local, pour un investissement régional annoncé de 10 Md$.",
+      "source": "Pittsburgh Post-Gazette / DataCenterDynamics / Beaver County Radio",
+      "url": "https://www.post-gazette.com/business/tech-news/2026/09/10/project-phoenix-shippingpoint-data-center-beaver-county-aligned/stories/202609100040",
+      "mw": 2000,
+      "inv": 10000,
+      "coords": [
+        40.6203,
+        -80.4165
+      ],
+      "poweredLand": true,
+      "owners": "Aligned Data Centers",
+      "investors": "n.c."
     },
     {
       "category": "legislation",
@@ -142,6 +197,22 @@
       ],
       "poweredLand": true,
       "owners": "Global AI",
+      "investors": "n.c."
+    },
+    {
+      "category": "competition",
+      "title": "Polarise entre en Europe centrale et réserve 15 MW dans le futur data center « Prague Gateway » de České Radiokomunikace (CRA)",
+      "region": "Europe",
+      "date": "2026-09-09",
+      "summary": "Polarise a signé un accord réservant 15 MW de capacité liquid-cooled dans le « Prague Gateway », le data center de plus de 2 000 baies (26 MW raccordés) que l'opérateur tchèque CRA construit à Jíloviště près de Prague (mise en service mi-2027) : première implantation de Polarise en Europe centrale pour étoffer son offre de cloud IA souverain.",
+      "source": "DataCenterDynamics / České Radiokomunikace",
+      "url": "https://www.datacenterdynamics.com/en/news/polarise-to-lease-capacity-from-cra-in-prague-czechia/",
+      "mw": 15,
+      "coords": [
+        49.9425,
+        14.3396
+      ],
+      "owners": "České Radiokomunikace (CRA, site) · Polarise (locataire de capacité)",
       "investors": "n.c."
     },
     {
@@ -274,6 +345,35 @@
       "inv": 4000,
       "owners": "atNorth (CPP Investments · Equinix)",
       "investors": "CPP Investments · Equinix"
+    },
+    {
+      "category": "legislation",
+      "title": "New Hampshire : la gouverneure Kelly Ayotte annonce vouloir proposer un moratoire pluriannuel sur les data centers, deuxième État américain après New York",
+      "region": "Amérique du Nord",
+      "date": "2026-09-02",
+      "summary": "Après s'être opposée le 2 septembre à un projet de data center hyperscale à Bow (le patron d'ISO New England ayant confirmé qu'il ferait monter les prix de l'électricité dans toute la Nouvelle-Angleterre), la gouverneure républicaine Kelly Ayotte a annoncé vouloir inscrire dans son prochain budget un moratoire pluriannuel sur les nouveaux data centers, ce qui ferait du New Hampshire le deuxième État américain (après New York en juillet) à adopter une pause statewide.",
+      "source": "New Hampshire Public Radio / Valley News",
+      "url": "https://www.nhpr.org/nh-news/2026-09-02/ayotte-opposes-potential-bow-data-center-plans-to-propose-moratorium-on-data-centers-in-state",
+      "coords": [
+        43.2081,
+        -71.5376
+      ]
+    },
+    {
+      "category": "land",
+      "title": "Marseille : opposition croissante au 5e data center de Digital Realty (MRS5) sur une friche portuaire",
+      "region": "France",
+      "date": "2026-09",
+      "summary": "Le collectif « Le nuage était sous nos pieds » (La Quadrature du Net, Technopolice, collectif des Gammares) a dénoncé le 16 septembre 2026 le projet MRS5 de Digital Realty sur le Grand Port Maritime de Marseille (reconversion d'une friche d'anciens silos à sucre), dans le cadre d'une enquête publique se terminant le 27 septembre ; une élue EELV réclame un moratoire sur les data centers marseillais.",
+      "source": "Marsactu",
+      "url": "https://marsactu.fr/bref/des-elus-et-associations-demandent-un-moratoire-sur-les-data-centers/",
+      "coords": [
+        43.3305,
+        5.355
+      ],
+      "poweredLand": true,
+      "owners": "Digital Realty",
+      "investors": "n.c."
     },
     {
       "category": "power",
@@ -473,62 +573,6 @@
       "poweredLand": true,
       "owners": "Harworth Group",
       "investors": "n.c."
-    },
-    {
-      "category": "competition",
-      "title": "Polarise : SWI Group renonce à sa prise de participation majoritaire et bascule vers un financement par dette",
-      "region": "Europe",
-      "date": "2026-08-18",
-      "summary": "SWI Stoneweg Icona Group, qui avait annoncé en février 2026 vouloir prendre une participation majoritaire dans Polarise, se retire de cet accord et lui accorde à la place un financement par dette pour accélérer le déploiement de son cloud IA européen et de ses « AI Factories » ; SWI développe en parallèle sa propre plateforme cloud IA après le rachat du mineur crypto américain GDA (15 data centers, ~1,3 GW).",
-      "source": "DataCenterDynamics / Dealroom",
-      "url": "https://www.datacenterdynamics.com/en/news/swi-group-pulls-out-of-planned-investment-in-german-ai-cloud-firm-polarise/",
-      "owners": "Polarise Holding GmbH",
-      "investors": "SWI Stoneweg Icona Group (dette)"
-    },
-    {
-      "category": "land",
-      "title": "OpenAI confirme un campus de 8 GW à Portsmouth (Pike County, Ohio) : Nvidia garantit jusqu'à 105 Md$ de financement",
-      "region": "Amérique du Nord",
-      "date": "2026-08-17",
-      "summary": "Dans un dépôt SEC du 17 août, Nvidia confirme une garantie pouvant atteindre 105 Md$ sur les obligations de bail du campus IA de 8 GW que SB Energy (SoftBank) développe sur l'ancien site fédéral d'enrichissement d'uranium de Portsmouth (Pike County, Ohio) ; OpenAI signe un bail de 20 ans sur la première tranche de 4,25 GW et Nvidia investit par ailleurs 1,5 Md$ en capital dans SB Energy, aux côtés de SoftBank et OpenAI.",
-      "source": "CNBC / Axios / Nikkei Asia",
-      "url": "https://www.cnbc.com/2026/08/17/nvidia-financing-open-ai-data-center-ohio.html",
-      "mw": 8000,
-      "inv": 105000,
-      "coords": [
-        39.06,
-        -83.0
-      ],
-      "poweredLand": true,
-      "owners": "SB Energy (SoftBank) · OpenAI (locataire)",
-      "investors": "Nvidia (garantie jusqu'à 105 Md$ + 1,5 Md$ d'equity) · SoftBank Group"
-    },
-    {
-      "category": "land",
-      "title": "ByteDance lance la construction d'un campus de ~39 Md$ à Pecém (Ceará, Brésil), adossé à un PPA éolien dédié",
-      "region": "Amérique du Sud",
-      "date": "2026-08",
-      "summary": "ByteDance engage la construction, via le développeur Omnia (soutenu par Patria Investments), de son plus grand data center hors Chine sur le complexe portuaire de Pecém (Ceará) : environ 200 MW IT en 1ère tranche visant près de 1 GW d'ici 2027-2029, alimenté par un PPA éolien de 20 ans (~2 Md$) avec Casa dos Ventos sur les parcs d'Ibiapaba (630 MW) et Dom Inocêncio dans le Piauí voisin.",
-      "source": "w.media / Dealroom",
-      "url": "https://w.media/bytedance-begins-construction-of-us-38-44-billion-data-center-in-brazil/",
-      "mw": 1000,
-      "inv": 39000,
-      "coords": [
-        -3.54,
-        -38.82
-      ],
-      "poweredLand": true,
-      "owners": "ByteDance · Omnia (développeur, Patria Investments)",
-      "investors": "Casa dos Ventos (PPA éolien dédié, ~2 Md$)"
-    },
-    {
-      "category": "market",
-      "title": "Europe : le prix du foncier déjà énergisé bondit de 82% depuis 2021",
-      "region": "Europe",
-      "date": "2026-08",
-      "summary": "Selon un état des lieux du marché de la construction de data centers en Europe, le foncier déjà raccordé au réseau (« powered land ») se négocie désormais autour de 2,26 M€ par MW, en hausse de 82% depuis 2021 ; la disponibilité de puissance devient la principale contrainte au développement, avant la demande ou le capital — une confirmation de la prime croissante accordée au foncier pré-énergisé.",
-      "source": "Construction Magazine UK",
-      "url": "https://www.constructionmagazine.uk/2026/08/europe-data-centre-construction-pipeline-2026.html"
     },
     {
       "category": "land",
