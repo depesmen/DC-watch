@@ -1,13 +1,105 @@
 {
-  "lastUpdated": "2026-09-17",
+  "lastUpdated": "2026-09-18",
   "keyTakeaways": [
-    "Le foncier deja energise s'institutionnalise encore un cran plus loin : selon Avison Young, AWS, Microsoft, Google et Oracle representent desormais plus de 60% des acquisitions foncieres mondiales pour data centers (land banking), pendant que Goodman Group leve 455 M$ pour convertir un entrepot deja raccorde a Hong Kong (HKG10) en data center - deux signaux convergents sur la financiarisation du powered land.",
-    "Nouveau signal francais concret : ouverture le 16 septembre de la participation du public sur le raccordement RTE 225 000 V du data center MRS6 de Digital Realty a Bouc-Bel-Air (80 MW), pendant que l'opposition locale au MRS5 marseillais (friche des silos a sucre) se durcit avant la fin de l'enquete publique le 27 septembre - le foncier portuaire marseillais reste le point chaud du sourcing francais.",
-    "Le risque reglementaire continue de s'etendre geographiquement au-dela des Etats-Unis : Mississauga (Ontario, Canada) vote un gel d'un an sur les projets de plus de 10 MW (mettant en suspens un projet Prologis de 40 MW) et le comte d'Orange (Floride) s'oriente vers un moratoire de 6 a 18 mois - la vague de pauses locales touche desormais aussi le Canada et le Sud-Est americain, en plus de la Californie, l'Arizona, le New Hampshire et la Virginie deja suivis.",
-    "Polarise poursuit son expansion europeenne (Prague, Munich, Amberg) et a converti le 18 aout un investissement en capital de SWI Stoneweg Icona Group en financement par dette pour accelerer ses 'AI Factories' ; en revanche, malgre des recherches dediees incluant LinkedIn, toujours aucun signal data center pour Aurora Infra ou La Française de l'Energie (FDE), qui reste positionnee energie pure (gaz de mine, hydrogene, biogaz) sans projet data center identifie a ce jour.",
-    "Google signe 13 Md€ d'investissement en Finlande adosse a des contrats d'energie nucleaire et eolienne (Hamina, Kajaani, Muhos, Vaala) - un nouvel exemple de co-localisation directe avec la production plutot qu'un simple raccordement reseau, a rapprocher du modele AVK Capital qui vise a financer ce type d'infrastructure sur site sans capex developpeur."
+    "Nouveau front réglementaire américain majeur : la Chambre des représentants adopte à 417 voix contre 3 le « Ratepayer Protection Act » qui ferait porter aux data centers le coût complet de leur raccordement électrique, pendant que Loudoun County (Virginie, premier marché mondial) avance vers une pause de 12 mois sur les nouvelles demandes de data centers et de sous-stations — le risque réglementaire et tarifaire continue de se durcir au cœur même des marchés historiques. En France, le débat trouve un écho direct : à défaut de taxe dédiée, c'est le TURPE fixé par la CRE qui structure la répartition du coût des raccordements et les recours possibles.",
+    "Le « powered land » sur friche industrielle reste le modèle dominant de sourcing rapide : Colorado Springs négocie encore l'ancienne usine Intel de Raeden (« Project Taurus », décision reportée à avril 2027), tandis qu'en Estonie, Magnora rejoint l'énergéticien Sunly pour un campus de 180 à 400 MW directement co-localisé avec un parc solaire/éolien/batterie existant à Risti — un cas d'école de foncier déjà énergisé en Europe du Nord, à rapprocher du pipeline EDF français et du modèle SRP en Arizona (1,675 GW solaire/batterie/gaz à Stanfield pour absorber la demande data center).",
+    "La financiarisation du powered land s'accélère et s'exporte vers des instruments plus risqués : CleanSpark lève 2,23 Md$ en obligations « junk » pour un site de 175 MW loué 20 ans à Meta (Sandersville, Géorgie) — première opération de ce type adossée à un bail Meta — signe que le marché de la dette structurée suit désormais les baux de capacité dédiée sur des sites énergisés.",
+    "Nouvelle coalition industrielle à surveiller pour le sourcing énergie : Google, Nvidia et Emerald AI lancent l'« AI Energy Management Alliance » (avec Anthropic, National Grid, AES, Constellation, NRG, RWE) pour standardiser des data centers capables de moduler leur charge et accélérer les raccordements — un levier qui pourrait réduire la dépendance au foncier déjà énergisé au profit d'une flexibilité de charge contractualisée avec les utilities.",
+    "Sur les sociétés suivies nominativement : toujours aucun signal data center confirmé pour Aurora Infra (deux entités homonymes distinctes identifiées, aucune ne développe de foncier énergisé dédié data center) ni pour La Française de l'Énergie, qui reste positionnée sur ses métiers énergie habituels (gaz de mine, hydrogène, biogaz/solaire thermique) ; à ne pas confondre avec Haffner Energy, PME française distincte qui a dévoilé fin août une offre de gazéification biomasse pour alimenter des data centers IA. Côté Polarise, aucune nouvelle actualité datée cette semaine, l'entreprise restant active sur ses sites confirmés (Munich, Amberg, Oslo) sans confirmation d'implantation à Prague au-delà de l'accord de capacité déjà signalé avec CRA."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "Colorado Springs (Colorado) : le conseil municipal reporte à avril 2027 sa décision sur « Project Taurus », premier data center IA de la ville, sur l'ancienne usine Intel",
+      "region": "Amérique du Nord",
+      "date": "2026-09-17",
+      "summary": "Le conseil municipal de Colorado Springs a voté 7-2 pour repousser à avril 2027 sa décision finale sur « Project Taurus », le data center (plafonné à 50 MW) porté par le développeur californien Raeden sur le site de l'ancienne usine de semi-conducteurs Intel (Garden of the Gods Road), le temps de négocier un contrat de « large load » avec l'utility locale.",
+      "source": "Colorado Springs Gazette / KKTV",
+      "url": "https://gazette.com/2026/09/17/colorado-springs-city-council-punts-decision-on-project-taurus-data-center-to-april-2027-after-raucous-meeting-2/",
+      "mw": 50,
+      "coords": [
+        38.88,
+        -104.82
+      ],
+      "poweredLand": true,
+      "owners": "Raeden",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Estonie (Risti, Läänemaa) : Magnora rejoint Sunly pour un campus IA de 180 MW (extensible à 400 MW) co-localisé avec un parc solaire/éolien/batterie",
+      "region": "Europe",
+      "date": "2026-09-17",
+      "summary": "Magnora Data Center a acquis 50% (option jusqu'à 75%) du projet de campus IA « Risti Kampus » en Estonie aux côtés de l'énergéticien balte Sunly : première phase de 180 MW extensible à 400 MW, directement raccordable au parc énergétique voisin de Sunly (244 MWp solaire, 144 MW de stockage batterie, 44 MW éolien en développement) ; zonage visé au T4 2026.",
+      "source": "BeBeez International / DataCenterDynamics",
+      "url": "https://bebeez.eu/2026/09/17/magnora-joins-venture-for-estonia-data-center-project/",
+      "mw": 180,
+      "coords": [
+        58.97,
+        23.55
+      ],
+      "poweredLand": true,
+      "owners": "Magnora Data Center · Sunly AS (JV)",
+      "investors": "Magnora · Sunly"
+    },
+    {
+      "category": "market",
+      "title": "Géorgie (Sandersville) : CleanSpark lève 2,23 Md$ en obligations « junk » pour un data center de 175 MW loué 20 ans à Meta",
+      "region": "Amérique du Nord",
+      "date": "2026-09-17",
+      "summary": "Le mineur de bitcoin CleanSpark, via sa filiale CSDC Finance I LLC, cherche à lever environ 2,23 Md$ en obligations senior sécurisées à échéance 2031 pour financer un campus IA de 175 MW à Sandersville (Géorgie), loué pour 20 ans (environ 6,6 Md$ de loyers cumulés) à Anviran LLC, filiale de Meta — première émission d'obligations « junk » américaines adossée à un data center lié à Meta.",
+      "source": "Bloomberg / CryptoBriefing",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-17/meta-tied-data-center-taps-us-junk-bonds-for-the-first-time",
+      "mw": 175,
+      "inv": 2230,
+      "coords": [
+        32.97,
+        -82.81
+      ],
+      "poweredLand": true,
+      "owners": "CleanSpark",
+      "investors": "Meta (locataire, via Anviran LLC)"
+    },
+    {
+      "category": "legislation",
+      "title": "France : qui paie le surcoût électrique des data centers ? le levier tarifaire TURPE plutôt qu'une taxe dédiée",
+      "region": "France",
+      "date": "2026-09-17",
+      "summary": "En écho au vote américain du « Ratepayer Protection Act », une analyse juridique française rappelle qu'en l'absence de taxe dédiée, le TURPE fixé par la CRE reste le principal levier de répartition du coût des raccordements électriques de data centers, ouvrant un recours tarifaire pour tout exploitant contestant une contribution ou un refus de raccordement.",
+      "source": "Kohen Avocats",
+      "url": "https://kohenavocats.fr/2026/09/17/centre-de-donnees-france-electricite-surcout-contester-projet-2026/"
+    },
+    {
+      "category": "legislation",
+      "title": "Virginie (Loudoun County, « Data Center Alley ») : le conseil des superviseurs avance vers une pause de 12 mois sur les nouvelles demandes de data centers et sous-stations",
+      "region": "Amérique du Nord",
+      "date": "2026-09-16",
+      "summary": "Le Board of Supervisors de Loudoun County a voté 7-1-1 pour faire rédiger une résolution instaurant une pause administrative de 12 mois sur les nouvelles demandes de rezonage/dérogation pour data centers et sous-stations électriques, avec effet rétroactif proposé au 15 septembre ; vote final attendu en octobre, dans l'attente des nouveaux standards « Phase 2 » du premier marché mondial de data centers.",
+      "source": "Washington Times / Energy News Beat",
+      "url": "https://www.washingtontimes.com/news/2026/sep/16/loudoun-county-board-supervisors-draft-resolution-pausing-data-center/",
+      "coords": [
+        39.1157,
+        -77.5636
+      ]
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis : la Chambre des représentants adopte le « Ratepayer Protection Act » pour faire porter aux data centers le coût de leur raccordement électrique",
+      "region": "Amérique du Nord",
+      "date": "2026-09-16",
+      "summary": "La Chambre des représentants a adopté à 417 voix contre 3 le « Ratepayer Protection Act », qui obligerait les régulateurs d'électricité des États à faire payer aux data centers le coût complet des nouvelles capacités de production et de transport nécessaires à leur raccordement, afin de protéger les factures des ménages ; le texte doit encore passer le Sénat.",
+      "source": "NBC News / US News",
+      "url": "https://www.nbcnews.com/politics/congress/house-passes-bill-shield-consumers-data-center-price-hikes-energy-rcna597683"
+    },
+    {
+      "category": "competition",
+      "title": "Google, Nvidia et Emerald AI lancent une alliance pour des data centers IA « flexibles » capables de moduler leur charge réseau",
+      "region": "Monde",
+      "date": "2026-09-16",
+      "summary": "Google, Nvidia et Emerald AI, rejoints par une vingtaine d'acteurs dont Anthropic, National Grid, AES, Constellation, NRG et RWE, lancent l'« AI Energy Management Alliance » pour standardiser des data centers capables de moduler leur charge afin d'accélérer leur raccordement au réseau ; Google s'engage sur 1 GW de flexibilité de demande activable via des accords avec des utilities.",
+      "source": "Axios / NVIDIA Blog",
+      "url": "https://www.axios.com/2026/09/16/tech-giants-launch-flexible-power-coalition-data-centers"
+    },
     {
       "category": "power",
       "title": "Bouc-Bel-Air (Bouches-du-Rhone) : ouverture de la participation du public pour le raccordement RTE 225 000 V du data center MRS6 de Digital Realty",
@@ -71,6 +163,22 @@
         43.589,
         -79.6441
       ]
+    },
+    {
+      "category": "power",
+      "title": "Arizona (Stanfield, comté de Pinal) : Salt River Project approuve le « Marigold Energy Center », 1,675 GW mixte solaire/batterie/gaz pour répondre à la demande dont les data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-09-15",
+      "summary": "Le conseil d'administration de Salt River Project a approuvé un projet de 1,675 GW à Stanfield (600 MW solaire, 400 MW de stockage batterie 8h, 675 MW de génération gaz naturel) avec un nouveau poste 230kV/500kV, pour répondre à la demande croissante des comtés de Maricopa et Pinal, data centers inclus ; audience de l'Arizona Corporation Commission prévue du 21 au 25 septembre.",
+      "source": "Utility Dive / In Business Phoenix",
+      "url": "https://www.utilitydive.com/news/srp-marigold-project-board-energy-storage/825813/",
+      "mw": 1675,
+      "coords": [
+        32.89,
+        -111.98
+      ],
+      "owners": "Salt River Project",
+      "investors": "n.c."
     },
     {
       "category": "legislation",
@@ -142,15 +250,6 @@
     },
     {
       "category": "competition",
-      "title": "Equinix et FuriosaAI s'associent pour cibler la demande d'IA souveraine en Europe",
-      "region": "Europe",
-      "date": "2026-09-15",
-      "summary": "Equinix et la start-up sud-coréenne de puces IA FuriosaAI annoncent un partenariat pour accélérer leur pénétration du marché européen, en misant sur la demande d'infrastructure IA souveraine liée au RGPD et aux réglementations IA.",
-      "source": "Seoul Economic Daily",
-      "url": "https://en.sedaily.com/technology/2026/09/15/equinix-furiosaai-team-up-to-target-europes-sovereign-ai"
-    },
-    {
-      "category": "competition",
       "title": "États-Unis : Brookfield prend une participation minoritaire dans American Real Estate Partners (AREP), maison mère de PowerHouse Data Centers",
       "region": "Amérique du Nord",
       "date": "2026-09-14",
@@ -159,17 +258,6 @@
       "url": "https://www.datacenterdynamics.com/en/news/brookfield-to-acquire-a-minority-interest-in-american-real-estate-partners/",
       "owners": "American Real Estate Partners (AREP) · PowerHouse Data Centers",
       "investors": "Brookfield Asset Management"
-    },
-    {
-      "category": "land",
-      "title": "États-Unis : Dataprana renforce sa division foncier et énergie (Prana Energy) pour accélérer son pipeline de sites déjà énergisés",
-      "region": "Amérique du Nord",
-      "date": "2026-09-14",
-      "summary": "Dataprana, développeur américain « power-first » qui acquiert et énergise des sites stratégiques pour les opérateurs IA, a annoncé le 14 septembre plusieurs recrutements dans sa division foncier et énergie Prana Energy (VP Power Origination, directeur acquisition foncière, ingénieur développement de site), afin d'accélérer son pipeline de sites énergisés et son modèle de conception de site reproductible sur de nouveaux marchés américains.",
-      "source": "GlobeNewswire",
-      "url": "https://www.globenewswire.com/news-release/2026/09/14/3360924/0/en/dataprana-welcomes-land-and-power-executives-amid-us-data-center-market-expansion.html",
-      "owners": "Dataprana (Prana Energy)",
-      "investors": "n.c."
     },
     {
       "category": "land",
@@ -229,22 +317,6 @@
       ],
       "poweredLand": true,
       "owners": "Linde Corporation",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Colorado (comté de Weld) : un data center de Global AI approuvé sur l'ancienne friche industrielle Carestream/Kodak",
-      "region": "Amérique du Nord",
-      "date": "2026-09-09",
-      "summary": "Les commissaires du comté de Weld (Colorado) ont approuvé à l'unanimité (5-0) le permis de zonage d'un data center de Global AI sur 41 acres de l'ancien site industriel Carestream Health (ex-Kodak) près de Windsor, présenté comme pouvant devenir le plus grand data center de l'État (environ 1 500 emplois de construction, 200 emplois permanents attendus).",
-      "source": "Colorado Newsline / CPR / KUNC",
-      "url": "https://coloradonewsline.com/2026/09/10/weld-comissioners-global-ai-data-center/",
-      "coords": [
-        40.4776,
-        -104.9016
-      ],
-      "poweredLand": true,
-      "owners": "Global AI",
       "investors": "n.c."
     },
     {
@@ -421,22 +493,6 @@
       "investors": "n.c."
     },
     {
-      "category": "construction",
-      "title": "Finlande (Mikkeli) : Cerebras et Compute Nordic Finland lancent un data center IA de 165 MW",
-      "region": "Europe",
-      "date": "2026-09-01",
-      "summary": "Cerebras et Compute Nordic Finland ont annoncé le 1er septembre un data center IA à Mikkeli (Finlande), avec une première tranche de 50 MW déjà en construction et une montée en puissance visée à 165 MW, pour un investissement indicatif de 1,0 à 1,7 Md€ dans la région ; le site est conçu en circuit d'eau fermé avec valorisation de la chaleur fatale.",
-      "source": "GlobeNewswire / Cerebras",
-      "url": "https://www.globenewswire.com/news-release/2026/09/01/3353779/0/en/cerebras-and-compute-nordic-finland-announce-new-165-mw-ai-data-centre-in-mikkeli-finland.html",
-      "mw": 165,
-      "coords": [
-        61.6885,
-        27.2723
-      ],
-      "owners": "Compute Nordic Finland",
-      "investors": "n.c."
-    },
-    {
       "category": "land",
       "title": "Texas (Nueces County) : le campus Beacon Point de Hut 8 devient le pivot d'un montage à 35 Md$ entre Nvidia, Lambda et Anthropic",
       "region": "Amérique du Nord",
@@ -563,26 +619,6 @@
       "investors": "n.c."
     },
     {
-      "category": "competition",
-      "title": "Allemagne : Polarise convertit son financement en capital de SWI Stoneweg Icona Group en dette pour accélérer ses « AI Factories » européennes",
-      "region": "Europe",
-      "date": "2026-08-18",
-      "summary": "Polarise (Düsseldorf) a annoncé le 18 août avoir converti son accord initial de prise de participation majoritaire au capital avec SWI Stoneweg Icona Group en un financement par dette (« élevé à deux chiffres en millions d'euros », montant précis non divulgué), afin d'accélérer le déploiement de ses data centers IA en Allemagne et en Europe (Munich, Amberg, Oslo, Prague).",
-      "source": "The Tech Capital / Startbase",
-      "url": "https://thetechcapital.com/german-neocloud-polarise-transfers-majority-equity-investment-into-debt-financing-package/",
-      "owners": "Polarise",
-      "investors": "SWI Stoneweg Icona Group"
-    },
-    {
-      "category": "competition",
-      "title": "Land banking mondial : AWS, Microsoft, Google et Oracle concentrent plus de 60% des acquisitions foncières pour data centers",
-      "region": "Monde",
-      "date": "2026-09",
-      "summary": "Selon une analyse d'Avison Young, ces quatre hyperscalers représentent désormais plus de 60% des acquisitions foncières mondiales pour data centers, pratiquant du « land banking » pour sécuriser des capacités des années avant construction — un rapport de force à surveiller pour tout intermédiaire de sourcing foncier.",
-      "source": "Avison Young (cité par DataCenterDynamics)",
-      "url": "https://completeaitraining.com/news/data-center-land-deals-jump-79-as-powered-sites-draw-6/"
-    },
-    {
       "category": "land",
       "title": "France : le programme foncier « powered land » d'EDF sur friches énergétiques s'étoffe (Montereau, Bouchain, Loire-sur-Rhône, Creys-Mépieu)",
       "region": "France",
@@ -646,6 +682,15 @@
       ],
       "owners": "Data4 (site) · Brookfield (investisseur)",
       "investors": "Brookfield Asset Management"
+    },
+    {
+      "category": "competition",
+      "title": "Land banking mondial : AWS, Microsoft, Google et Oracle concentrent plus de 60% des acquisitions foncières pour data centers",
+      "region": "Monde",
+      "date": "2026-09",
+      "summary": "Selon une analyse d'Avison Young, ces quatre hyperscalers représentent désormais plus de 60% des acquisitions foncières mondiales pour data centers, pratiquant du « land banking » pour sécuriser des capacités des années avant construction — un rapport de force à surveiller pour tout intermédiaire de sourcing foncier.",
+      "source": "Avison Young (cité par DataCenterDynamics)",
+      "url": "https://completeaitraining.com/news/data-center-land-deals-jump-79-as-powered-sites-draw-6/"
     }
   ]
 }
