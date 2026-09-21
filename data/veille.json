@@ -1,13 +1,40 @@
 {
-  "lastUpdated": "2026-09-18",
+  "lastUpdated": "2026-09-21",
   "keyTakeaways": [
-    "Nouveau front réglementaire américain majeur : la Chambre des représentants adopte à 417 voix contre 3 le « Ratepayer Protection Act » qui ferait porter aux data centers le coût complet de leur raccordement électrique, pendant que Loudoun County (Virginie, premier marché mondial) avance vers une pause de 12 mois sur les nouvelles demandes de data centers et de sous-stations — le risque réglementaire et tarifaire continue de se durcir au cœur même des marchés historiques. En France, le débat trouve un écho direct : à défaut de taxe dédiée, c'est le TURPE fixé par la CRE qui structure la répartition du coût des raccordements et les recours possibles.",
-    "Le « powered land » sur friche industrielle reste le modèle dominant de sourcing rapide : Colorado Springs négocie encore l'ancienne usine Intel de Raeden (« Project Taurus », décision reportée à avril 2027), tandis qu'en Estonie, Magnora rejoint l'énergéticien Sunly pour un campus de 180 à 400 MW directement co-localisé avec un parc solaire/éolien/batterie existant à Risti — un cas d'école de foncier déjà énergisé en Europe du Nord, à rapprocher du pipeline EDF français et du modèle SRP en Arizona (1,675 GW solaire/batterie/gaz à Stanfield pour absorber la demande data center).",
-    "La financiarisation du powered land s'accélère et s'exporte vers des instruments plus risqués : CleanSpark lève 2,23 Md$ en obligations « junk » pour un site de 175 MW loué 20 ans à Meta (Sandersville, Géorgie) — première opération de ce type adossée à un bail Meta — signe que le marché de la dette structurée suit désormais les baux de capacité dédiée sur des sites énergisés.",
-    "Nouvelle coalition industrielle à surveiller pour le sourcing énergie : Google, Nvidia et Emerald AI lancent l'« AI Energy Management Alliance » (avec Anthropic, National Grid, AES, Constellation, NRG, RWE) pour standardiser des data centers capables de moduler leur charge et accélérer les raccordements — un levier qui pourrait réduire la dépendance au foncier déjà énergisé au profit d'une flexibilité de charge contractualisée avec les utilities.",
-    "Sur les sociétés suivies nominativement : toujours aucun signal data center confirmé pour Aurora Infra (deux entités homonymes distinctes identifiées, aucune ne développe de foncier énergisé dédié data center) ni pour La Française de l'Énergie, qui reste positionnée sur ses métiers énergie habituels (gaz de mine, hydrogène, biogaz/solaire thermique) ; à ne pas confondre avec Haffner Energy, PME française distincte qui a dévoilé fin août une offre de gazéification biomasse pour alimenter des data centers IA. Côté Polarise, aucune nouvelle actualité datée cette semaine, l'entreprise restant active sur ses sites confirmés (Munich, Amberg, Oslo) sans confirmation d'implantation à Prague au-delà de l'accord de capacité déjà signalé avec CRA."
+    "La financiarisation du « powered land » loué aux hyperscalers franchit une nouvelle étape : CleanSpark a fixé le prix de son émission obligataire « junk » à 2,276 Md$ (7,875%, échéance 2031) pour le campus de 175 MW loué à Meta à Sandersville (Géorgie), clôture prévue le 25 septembre — confirmation que la dette structurée suit désormais les baux de capacité sur sites déjà énergisés.",
+    "Nouveau front réglementaire en Californie, premier marché tech mondial : les textes AB 2383 et SB 886, qui imposeraient des tarifs dédiés aux data centers de plus de 75 MW pour protéger les autres consommateurs, attendent la signature ou le veto du gouverneur Newsom avant le 30 septembre — un potentiel troisième grand marché américain, après la Géorgie et le Congrès, à faire porter aux opérateurs le coût plein de leur raccordement.",
+    "Le sourcing de foncier énergisé sur friche industrielle continue de s'étendre en France au-delà des sites déjà identifiés : à Cagny (Calvados), la friche de l'ancienne sucrerie Saint-Louis Sucre — l'un des 55 sites « clé en main » de l'État — fait l'objet de négociations entre le promoteur Brownfields et le propriétaire Südzucker pour un projet de campus IA, à rapprocher du pipeline EDF, de Fouju et des sites RTE fast-track.",
+    "La contestation locale continue de gagner de nouveaux territoires et de fragiliser la gouvernance municipale : à Indiantown (Floride), le conseil a repoussé un moratoire data center et limogé sa directrice générale des services le même soir, provoquant la démission de l'avocate municipale — rappel que le risque politique de sourcing se joue aussi au niveau très local, au-delà des moratoires étatiques déjà recensés (Arizona, New Hampshire, Californie, New York).",
+    "Sur les sociétés suivies nominativement : toujours aucun projet de foncier énergisé confirmé pour Aurora Infra (spécialiste identifié de la modernisation GPU/power de data centers existants, à ne pas confondre avec les sites homonymes d'Illinois, du Colorado ou de Virginie) ni pour La Française de l'Énergie (toujours positionnée sur gaz, hydrogène et biogaz, sans lien avec les data centers IA — à ne pas confondre avec la PME distincte Haffner Energy) ; Polarise reste actif sur ses sites confirmés (Munich, Amberg, Oslo, réservation de capacité à Prague) sans nouvelle annonce cette semaine."
   ],
   "items": [
+    {
+      "category": "market",
+      "title": "Géorgie (Sandersville) : CleanSpark fixe le prix de son émission obligataire à 2,276 Md$ pour son data center de 175 MW loué à Meta, clôture prévue le 25 septembre",
+      "region": "Amérique du Nord",
+      "date": "2026-09-19",
+      "summary": "CleanSpark, via sa filiale CSDC Finance I LLC, a fixé le prix de 2,276 Md$ d'obligations senior sécurisées à 7,875% échéance 2031 (contre 2,23 Md$ initialement visés) pour financer le campus IA de 175 MW à Sandersville (Géorgie), loué 20 ans à Anviran LLC, filiale de Meta ; clôture de l'émission attendue le 25 septembre 2026, première émission obligataire « junk » américaine adossée à un data center lié à Meta.",
+      "source": "Bloomberg / StockTitan",
+      "url": "https://www.stocktitan.net/news/CLSK/clean-spark-inc-announces-pricing-of-2-276-billion-of-senior-secured-yrkvsskoinzo.html",
+      "mw": 175,
+      "inv": 2276,
+      "coords": [
+        32.97,
+        -82.81
+      ],
+      "poweredLand": true,
+      "owners": "CleanSpark",
+      "investors": "Meta (locataire, via Anviran LLC)"
+    },
+    {
+      "category": "legislation",
+      "title": "Californie : les textes AB 2383 et SB 886 de protection tarifaire des consommateurs face aux data centers sur le bureau du gouverneur Newsom, décision attendue avant le 30 septembre",
+      "region": "Amérique du Nord",
+      "date": "2026-09-18",
+      "summary": "Après leur adoption par la législature californienne, les textes AB 2383 et SB 886 — qui obligeraient la California Public Utilities Commission à créer des tarifs et règles d'interconnexion dédiés aux data centers de plus de 75 MW afin que les coûts de raccordement ne soient pas répercutés sur les autres consommateurs — attendent la signature ou le veto du gouverneur Gavin Newsom, qui doit se prononcer avant le 30 septembre 2026 sous peine d'entrée en vigueur automatique.",
+      "source": "Hoodline / DataCenterDynamics",
+      "url": "https://hoodline.com/2026/09/california-sends-data-center-power-cost-bills-to-newsom-amid-1-8b-ratepayer-fight/"
+    },
     {
       "category": "land",
       "title": "Colorado Springs (Colorado) : le conseil municipal reporte à avril 2027 sa décision sur « Project Taurus », premier data center IA de la ville, sur l'ancienne usine Intel",
@@ -43,24 +70,6 @@
       "investors": "Magnora · Sunly"
     },
     {
-      "category": "market",
-      "title": "Géorgie (Sandersville) : CleanSpark lève 2,23 Md$ en obligations « junk » pour un data center de 175 MW loué 20 ans à Meta",
-      "region": "Amérique du Nord",
-      "date": "2026-09-17",
-      "summary": "Le mineur de bitcoin CleanSpark, via sa filiale CSDC Finance I LLC, cherche à lever environ 2,23 Md$ en obligations senior sécurisées à échéance 2031 pour financer un campus IA de 175 MW à Sandersville (Géorgie), loué pour 20 ans (environ 6,6 Md$ de loyers cumulés) à Anviran LLC, filiale de Meta — première émission d'obligations « junk » américaines adossée à un data center lié à Meta.",
-      "source": "Bloomberg / CryptoBriefing",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-17/meta-tied-data-center-taps-us-junk-bonds-for-the-first-time",
-      "mw": 175,
-      "inv": 2230,
-      "coords": [
-        32.97,
-        -82.81
-      ],
-      "poweredLand": true,
-      "owners": "CleanSpark",
-      "investors": "Meta (locataire, via Anviran LLC)"
-    },
-    {
       "category": "legislation",
       "title": "France : qui paie le surcoût électrique des data centers ? le levier tarifaire TURPE plutôt qu'une taxe dédiée",
       "region": "France",
@@ -74,7 +83,7 @@
       "title": "Virginie (Loudoun County, « Data Center Alley ») : le conseil des superviseurs avance vers une pause de 12 mois sur les nouvelles demandes de data centers et sous-stations",
       "region": "Amérique du Nord",
       "date": "2026-09-16",
-      "summary": "Le Board of Supervisors de Loudoun County a voté 7-1-1 pour faire rédiger une résolution instaurant une pause administrative de 12 mois sur les nouvelles demandes de rezonage/dérogation pour data centers et sous-stations électriques, avec effet rétroactif proposé au 15 septembre ; vote final attendu en octobre, dans l'attente des nouveaux standards « Phase 2 » du premier marché mondial de data centers.",
+      "summary": "Le Board of Supervisors de Loudoun County a voté 7-1-1 pour faire rédiger une résolution instaurant une pause administrative de 12 mois sur les nouvelles demandes de rezonage/dérogation pour data centers et sous-stations électriques, avec effet rétroactif proposé au 15 septembre ; vote final attendu le 20 octobre.",
       "source": "Washington Times / Energy News Beat",
       "url": "https://www.washingtontimes.com/news/2026/sep/16/loudoun-county-board-supervisors-draft-resolution-pausing-data-center/",
       "coords": [
@@ -134,23 +143,6 @@
       "investors": "n.c."
     },
     {
-      "category": "market",
-      "title": "Hong Kong (Tsuen Wan) : Goodman Group leve 455 M$ pour amenager le data center HKG10 dans un entrepot existant",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-16",
-      "summary": "Goodman Group a leve 455 M$ pour la Goodman HK Data Centre Partnership afin de financer l'amenagement mecanique/electrique de HKG10 a Tsuen Wan, un data center loge dans un entrepot Goodman deja existant ; premiere capacite prevue debut 2028.",
-      "source": "DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/goodman-raises-455m-for-its-hong-kong-data-center-partnership/",
-      "inv": 455,
-      "coords": [
-        22.3721,
-        114.1122
-      ],
-      "poweredLand": true,
-      "owners": "Goodman Group",
-      "investors": "n.c."
-    },
-    {
       "category": "legislation",
       "title": "Canada (Mississauga, Ontario) : le conseil municipal vote un gel d'un an sur les data centers de plus de 10 MW",
       "region": "Amérique du Nord",
@@ -163,6 +155,22 @@
         43.589,
         -79.6441
       ]
+    },
+    {
+      "category": "land",
+      "title": "France (Cagny, Calvados) : un projet de data center et de campus IA étudié sur la friche de l'ancienne sucrerie Saint-Louis Sucre",
+      "region": "France",
+      "date": "2026-09-15",
+      "summary": "Sur le site de l'ancienne sucrerie Saint-Louis Sucre à Cagny (fermée en 2020, environ 65 ha), l'un des 55 sites « clé en main » labellisés par l'État dans le cadre de France 2030, un consortium public-privé étudie un projet de campus industriel dédié à l'IA incluant un data center ; le promoteur Brownfields négocierait l'acquisition d'environ 33 ha auprès du propriétaire actuel, le groupe allemand Südzucker.",
+      "source": "France Bleu / ICI Normandie",
+      "url": "https://www.ici.fr/infos/economie-social/info-ici-a-cagny-un-datacenter-et-un-campus-autour-de-l-ia-pourraient-voir-le-jour-sur-le-site-de-l-ancienne-sucrerie-3649380",
+      "coords": [
+        49.15,
+        -0.25
+      ],
+      "poweredLand": true,
+      "owners": "Südzucker (propriétaire actuel) · Brownfields (promoteur pressenti)",
+      "investors": "n.c."
     },
     {
       "category": "power",
@@ -304,22 +312,6 @@
       ]
     },
     {
-      "category": "legislation",
-      "title": "Pennsylvanie (Clinton Township, comté de Wayne) : les élus rejettent le campus data center de 6 Md$ de Linde Corporation (682 acres, génération sur site)",
-      "region": "Amérique du Nord",
-      "date": "2026-09-09",
-      "summary": "Après près de six mois d'instruction, les superviseurs de Clinton Township (comté de Wayne, Pennsylvanie) ont rejeté le 9 septembre le projet de campus data center de Linde Corporation — environ 682 acres, plus de 20 bâtiments, génération électrique sur site, 6 Md$ d'investissement annoncé — un ingénieur du canton ayant jugé le dossier incomplet (assainissement, étude paysagère, patrimoine historique) ; Linde dispose de 15 jours pour compléter son dossier avant un possible nouveau dépôt.",
-      "source": "WNEP / 28/22 News",
-      "url": "https://www.wnep.com/article/news/local/wayne-county/clinton-township-supervisors-vote-no-to-20-building-data-center-campus/523-109afa91-f493-4163-9a00-1f58633e9dbd",
-      "coords": [
-        41.6423,
-        -75.3057
-      ],
-      "poweredLand": true,
-      "owners": "Linde Corporation",
-      "investors": "n.c."
-    },
-    {
       "category": "competition",
       "title": "Polarise entre en Europe centrale et réserve 15 MW dans le futur data center « Prague Gateway » de České Radiokomunikace (CRA)",
       "region": "Europe",
@@ -448,15 +440,15 @@
     },
     {
       "category": "legislation",
-      "title": "New Hampshire : la gouverneure Kelly Ayotte annonce vouloir proposer un moratoire pluriannuel sur les data centers, deuxième État américain après New York",
+      "title": "Floride (Indiantown, comté de Martin) : le conseil municipal repousse un moratoire sur les data centers et limoge sa directrice générale des services",
       "region": "Amérique du Nord",
       "date": "2026-09-02",
-      "summary": "Après s'être opposée le 2 septembre à un projet de data center hyperscale à Bow (le patron d'ISO New England ayant confirmé qu'il ferait monter les prix de l'électricité dans toute la Nouvelle-Angleterre), la gouverneure républicaine Kelly Ayotte a annoncé vouloir inscrire dans son prochain budget un moratoire pluriannuel sur les nouveaux data centers, ce qui ferait du New Hampshire le deuxième État américain (après New York en juillet) à adopter une pause statewide.",
-      "source": "New Hampshire Public Radio / Valley News",
-      "url": "https://www.nhpr.org/nh-news/2026-09-02/ayotte-opposes-potential-bow-data-center-plans-to-propose-moratorium-on-data-centers-in-state",
+      "summary": "Le conseil municipal d'Indiantown a voté 4 voix contre 1 le 2 septembre contre un moratoire immédiat sur les projets de data centers, préférant obtenir un nouvel avis juridique ; la même soirée, il a limogé la directrice générale des services Taryn Kryzda, entraînant dans la foulée la démission de l'avocate municipale qui avait déconseillé le moratoire — nouvel exemple de la tension politique locale autour des projets hyperscale en Floride.",
+      "source": "WQCS / CBS12 / WFLX",
+      "url": "https://www.wqcs.org/wqcs-news/2026-09-02/indiantown-council-delays-data-center-moratorium-fires-village-manager",
       "coords": [
-        43.2081,
-        -71.5376
+        27.0334,
+        -80.4778
       ]
     },
     {
@@ -474,22 +466,6 @@
       ],
       "poweredLand": true,
       "owners": "DayOne",
-      "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "États-Unis (Utah) : Google signe avec Fervo Energy un PPA géothermique record de 396 MW pour un futur data center",
-      "region": "Amérique du Nord",
-      "date": "2026-09-01",
-      "summary": "Google et Fervo Energy ont signé le plus important accord d'achat d'électricité géothermique (EGS) jamais conclu, portant sur 396 MW issus du projet Cape Station de Fervo dans l'Utah, avec une option d'extension d'environ 600 MW supplémentaires (près de 1 GW au total) pour un data center potentiel de Google visé d'ici juin 2030 ; le site reste toutefois soumis aux autorisations locales et à la faisabilité technique.",
-      "source": "ESG Today / ThinkGeoEnergy / Fervo Energy",
-      "url": "https://www.esgtoday.com/google-signs-record-geothermal-power-deal-with-fervo/",
-      "mw": 396,
-      "coords": [
-        38.43,
-        -113.14
-      ],
-      "owners": "n.c. (Google, site potentiel)",
       "investors": "n.c."
     },
     {
@@ -511,22 +487,6 @@
       "investors": "Anthropic (off-take) · Lambda (opérateur GPU)"
     },
     {
-      "category": "power",
-      "title": "Norvège : Exascale Labs et EnergyBank signent un protocole pour un pilote de data center adossé à l'éolienne flottante Zephyros-One",
-      "region": "Europe",
-      "date": "2026-08-31",
-      "summary": "Exascale Labs et EnergyBank ont signé un protocole d'accord non contraignant pour un data center modulaire pilote co-localisé avec Zephyros-One, la première éolienne offshore flottante au monde (au large de Karmøy, Norvège), visant dans un premier temps 800 kW de capacité de calcul ferme, avec un objectif de réplication pouvant atteindre 10 MW par éolienne ; le projet reste soumis à évaluation technique, financement et autorisations, illustrant un nouveau modèle de « powered land » adossé aux énergies marines.",
-      "source": "GlobeNewswire / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/exascale-labs-partners-with-energybank-on-floating-wind-data-center-pilot-in-norway/",
-      "coords": [
-        59.1403,
-        5.0296
-      ],
-      "poweredLand": true,
-      "owners": "Exascale Labs · EnergyBank",
-      "investors": "n.c."
-    },
-    {
       "category": "construction",
       "title": "France (Fouju, Seine-et-Marne) : début des travaux du Campus IA (1,4 GW) malgré un recours contentieux annoncé",
       "region": "France",
@@ -542,19 +502,6 @@
       "poweredLand": true,
       "owners": "Campus IA SAS (MGX · Bpifrance · Nvidia · Mistral AI), raccordement RTE",
       "investors": "MGX (fonds souverain EAU) · Bpifrance · Nvidia"
-    },
-    {
-      "category": "legislation",
-      "title": "Texas (Westlake/Keller) : la justice bloque un campus de 300 MW déjà sécurisé en énergie (substation Oncor de 350 MW) après le recours d'une association de riverains",
-      "region": "Amérique du Nord",
-      "date": "2026-08-26",
-      "summary": "Une juge du comté de Tarrant a prolongé jusqu'au 8 septembre l'injonction bloquant l'accord de développement entre Westlake et PowerHouse Data Centers pour le « Circle T Data Center » (300 MW, substation dédiée de 350 MW déjà payée à Oncor), suite au recours d'une association de propriétaires de Keller invoquant un défaut de notification publique lors du zonage ; le site avait pourtant obtenu l'approbation du plan par la commission d'urbanisme le 4 août.",
-      "source": "CBS Texas / Fort Worth Report / The Texan",
-      "url": "https://www.cbsnews.com/texas/news/westlake-data-center-lawsuit-homeowners-zoning-dispute-august-2026/",
-      "mw": 300,
-      "poweredLand": true,
-      "owners": "PowerHouse Data Centers",
-      "investors": "n.c."
     },
     {
       "category": "power",
@@ -586,24 +533,6 @@
       "inv": 45000,
       "poweredLand": true,
       "owners": "Nscale (site) · Anthropic (locataire de capacité)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France (Marseille) : Edged Energy porte un data center de 20 MW sur la friche de l'ancienne sucrerie Saint-Louis, enquête publique ouverte",
-      "region": "France",
-      "date": "2026-08-24",
-      "summary": "L'enquête publique sur le projet de data center d'Edged Energy (groupe américano-suédois) dans le quartier Saint-Louis de Marseille — 20 MW, 21 900 m² dont 7 100 m² de salles IT, environ 300 M€ d'investissement, sur le site de l'ancienne sucrerie — s'est ouverte le 24 août et court jusqu'au 24 novembre ; mise en service visée fin 2028, le collectif local « Le nuage était sous nos pieds » réclamant un durcissement des mesures municipales face à ce septième data center marseillais.",
-      "source": "Marsactu / ICI Provence / Kardham",
-      "url": "https://marsactu.fr/bref/a-marseille-la-consultation-publique-sur-le-data-center-de-saint-louis-demarre/",
-      "mw": 20,
-      "inv": 324,
-      "coords": [
-        43.3378,
-        5.3729
-      ],
-      "poweredLand": true,
-      "owners": "Edged Energy",
       "investors": "n.c."
     },
     {
