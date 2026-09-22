@@ -1,13 +1,55 @@
 {
-  "lastUpdated": "2026-09-21",
+  "lastUpdated": "2026-09-22",
   "keyTakeaways": [
-    "La financiarisation du « powered land » loué aux hyperscalers franchit une nouvelle étape : CleanSpark a fixé le prix de son émission obligataire « junk » à 2,276 Md$ (7,875%, échéance 2031) pour le campus de 175 MW loué à Meta à Sandersville (Géorgie), clôture prévue le 25 septembre — confirmation que la dette structurée suit désormais les baux de capacité sur sites déjà énergisés.",
-    "Nouveau front réglementaire en Californie, premier marché tech mondial : les textes AB 2383 et SB 886, qui imposeraient des tarifs dédiés aux data centers de plus de 75 MW pour protéger les autres consommateurs, attendent la signature ou le veto du gouverneur Newsom avant le 30 septembre — un potentiel troisième grand marché américain, après la Géorgie et le Congrès, à faire porter aux opérateurs le coût plein de leur raccordement.",
-    "Le sourcing de foncier énergisé sur friche industrielle continue de s'étendre en France au-delà des sites déjà identifiés : à Cagny (Calvados), la friche de l'ancienne sucrerie Saint-Louis Sucre — l'un des 55 sites « clé en main » de l'État — fait l'objet de négociations entre le promoteur Brownfields et le propriétaire Südzucker pour un projet de campus IA, à rapprocher du pipeline EDF, de Fouju et des sites RTE fast-track.",
-    "La contestation locale continue de gagner de nouveaux territoires et de fragiliser la gouvernance municipale : à Indiantown (Floride), le conseil a repoussé un moratoire data center et limogé sa directrice générale des services le même soir, provoquant la démission de l'avocate municipale — rappel que le risque politique de sourcing se joue aussi au niveau très local, au-delà des moratoires étatiques déjà recensés (Arizona, New Hampshire, Californie, New York).",
-    "Sur les sociétés suivies nominativement : toujours aucun projet de foncier énergisé confirmé pour Aurora Infra (spécialiste identifié de la modernisation GPU/power de data centers existants, à ne pas confondre avec les sites homonymes d'Illinois, du Colorado ou de Virginie) ni pour La Française de l'Énergie (toujours positionnée sur gaz, hydrogène et biogaz, sans lien avec les data centers IA — à ne pas confondre avec la PME distincte Haffner Energy) ; Polarise reste actif sur ses sites confirmés (Munich, Amberg, Oslo, réservation de capacité à Prague) sans nouvelle annonce cette semaine."
+    "Le foncier énergisé via PPA co-localisé continue de s'étoffer aux États-Unis : New Era Energy & Digital (TCDC PowerCo) a signé un contrat d'achat d'électricité de 20 ans avec Vistra/Luminant pour 207 MW livrés depuis une centrale gaz de 1,18 GW directement voisine de son site de 493 acres dans le bassin permien — confirmation du modèle « site adossé à une centrale existante plutôt que raccordement réseau » déjà observé à Shippingport et Stanfield.",
+    "Le risque de gouvernance locale ne se limite plus aux moratoires votés : à Aurora (Colorado), le projet « Trident » de Vantage Data Centers (334 MW, 143 acres) avance en zone industrielle sans audience publique obligatoire, l'État devant lui-même suggérer une réunion communautaire — un nouveau type de risque politique « silencieux » à surveiller au-delà des moratoires déjà recensés.",
+    "L'ampleur du risque d'opposition se quantifie désormais : Data Center Watch recense 45 projets représentant 68 Md$ bloqués ou retardés au T2 2026 (près de 200 Md$ sur le premier semestre) et 843 groupes d'opposition actifs dans 49 États — un signal macro qui confirme que le sourcing foncier doit désormais intégrer systématiquement le risque politique local, pas seulement la disponibilité de puissance.",
+    "En France, le pipeline de friches reconverties continue de s'étoffer au-delà des sites déjà suivis (Cagny/Saint-Louis Sucre, Fouju, EDF, RTE fast-track) : le projet Goodman sur les friches Stellantis/Iveco/Einstein à Trappes (300 MW, 15,5 ha, terrain acquis 42 M€ auprès du Département des Yvelines) confirme la bascule des friches industrielles urbanisées vers l'IA, sans nouvelle actualité datée cette semaine.",
+    "Sur les sociétés suivies nominativement : toujours aucun projet de foncier énergisé confirmé pour Aurora Infra (prestataire polonais de modernisation GPU/power de data centers existants, à distinguer d'« Aurora Infrastructure », plateforme nordique d'infrastructures électriques, et du projet « Trident » de Vantage à Aurora, Colorado) ni pour La Française de l'Énergie (toujours positionnée gaz/hydrogène/biogaz sur friches minières, sans lien confirmé avec les data centers) ; Polarise reste stable sur ses sites déjà identifiés (Munich, Amberg, Oslo, réservation de capacité à Prague), sans nouvelle annonce cette semaine."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "Texas (bassin permien, Odessa) : New Era Energy & Digital signe un PPA de 20 ans avec Vistra pour la Phase 1 (207 MW) de son data center IA « TCDC »",
+      "region": "Amérique du Nord",
+      "date": "2026-09-21",
+      "summary": "La filiale TCDC PowerCo de New Era Energy & Digital a signé un contrat d'achat d'électricité de 20 ans avec Luminant (filiale de Vistra), qui fournira 200 à 207 MW depuis sa centrale au gaz naturel de 1 180 MW d'Odessa, directement voisine du site de 493 acres du projet « Texas Critical Data Center » dans le bassin permien ; livraison de la puissance visée au T3 2027.",
+      "source": "GlobeNewswire / Benzinga",
+      "url": "https://www.globenewswire.com/news-release/2026/09/21/3365358/0/en/new-era-energy-digital-secures-20-year-207-mw-ppa-with-vistra.html",
+      "mw": 207,
+      "coords": [
+        31.8457,
+        -102.3676
+      ],
+      "poweredLand": true,
+      "owners": "New Era Energy & Digital (TCDC PowerCo)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Colorado (Aurora) : Vantage Data Centers dépose discrètement le projet « Trident », futur plus grand data center de l'État (334 MW), sans audience publique prévue",
+      "region": "Amérique du Nord",
+      "date": "2026-09-21",
+      "summary": "Des documents d'urbanisme déposés par Vantage Data Centers Management Company révèlent le projet « Trident » : deux bâtiments sur 143 acres près d'un quartier résidentiel, en zone industrielle où les data centers sont autorisés sans audience publique ; 334 MW de capacité IT visés (environ 500 MW de demande électrique totale), l'État ayant suggéré à Vantage d'organiser une réunion communautaire avant sa demande de permis environnemental.",
+      "source": "Colorado Newsline / Capital & Main",
+      "url": "https://capitalandmain.com/colorados-largest-data-center-could-rise-next-to-homes-without-a-public-hearing",
+      "mw": 334,
+      "coords": [
+        39.7294,
+        -104.7091
+      ],
+      "owners": "Vantage Data Centers",
+      "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "États-Unis : 45 projets de data centers représentant 68 Md$ bloqués ou retardés par l'opposition locale au 2e trimestre 2026 (Data Center Watch)",
+      "region": "Amérique du Nord",
+      "date": "2026-09-21",
+      "summary": "Selon le groupe de recherche Data Center Watch (cité par Bloomberg), 45 projets de data centers représentant 68 Md$ ont été bloqués ou retardés par l'opposition locale entre avril et juin 2026, portant à près de 200 Md$ le montant total de projets perturbés au premier semestre 2026 ; plus de 30 États ont introduit ou adopté des règles sur l'implantation, l'électricité ou l'eau des data centers, et 843 groupes d'opposition sont désormais recensés dans 49 États.",
+      "source": "Bloomberg / Data Center Watch",
+      "url": "https://www.bloomberg.com/news/articles/2026-09-21/new-data-centers-worth-68-billion-disrupted-in-us-data-show"
+    },
     {
       "category": "market",
       "title": "Géorgie (Sandersville) : CleanSpark fixe le prix de son émission obligataire à 2,276 Md$ pour son data center de 175 MW loué à Meta, clôture prévue le 25 septembre",
@@ -533,18 +575,6 @@
       "inv": 45000,
       "poweredLand": true,
       "owners": "Nscale (site) · Anthropic (locataire de capacité)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France : le gouvernement met à disposition 63 sites « clé en main » pour data centers, RTE/EDF accélèrent le raccordement sur un nombre restreint de sites « fast track »",
-      "region": "France",
-      "date": "2026-08-22",
-      "summary": "Une cartographie actualisée des projets et contestations de data centers en France recense 63 sites « clé en main » proposés par l'État aux industriels (26 localisations rendues publiques à ce stade), tandis que RTE et EDF ont identifié un nombre restreint de sites bénéficiant d'une procédure de raccordement électrique accélérée « fast track », avec des capacités de l'ordre de 400 à 1 000 MW par site.",
-      "source": "Ciel Voilé",
-      "url": "https://www.cielvoile.fr/2026/08/carte-des-data-centers-des-projets-et-des-contestations-en-france.html",
-      "poweredLand": true,
-      "owners": "État français / RTE / EDF (foncier et raccordement)",
       "investors": "n.c."
     },
     {
