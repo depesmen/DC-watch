@@ -1,13 +1,31 @@
 {
-  "lastUpdated": "2026-09-22",
+  "lastUpdated": "2026-09-23",
   "keyTakeaways": [
-    "Le foncier énergisé via PPA co-localisé continue de s'étoffer aux États-Unis : New Era Energy & Digital (TCDC PowerCo) a signé un contrat d'achat d'électricité de 20 ans avec Vistra/Luminant pour 207 MW livrés depuis une centrale gaz de 1,18 GW directement voisine de son site de 493 acres dans le bassin permien — confirmation du modèle « site adossé à une centrale existante plutôt que raccordement réseau » déjà observé à Shippingport et Stanfield.",
-    "Le risque de gouvernance locale ne se limite plus aux moratoires votés : à Aurora (Colorado), le projet « Trident » de Vantage Data Centers (334 MW, 143 acres) avance en zone industrielle sans audience publique obligatoire, l'État devant lui-même suggérer une réunion communautaire — un nouveau type de risque politique « silencieux » à surveiller au-delà des moratoires déjà recensés.",
-    "L'ampleur du risque d'opposition se quantifie désormais : Data Center Watch recense 45 projets représentant 68 Md$ bloqués ou retardés au T2 2026 (près de 200 Md$ sur le premier semestre) et 843 groupes d'opposition actifs dans 49 États — un signal macro qui confirme que le sourcing foncier doit désormais intégrer systématiquement le risque politique local, pas seulement la disponibilité de puissance.",
-    "En France, le pipeline de friches reconverties continue de s'étoffer au-delà des sites déjà suivis (Cagny/Saint-Louis Sucre, Fouju, EDF, RTE fast-track) : le projet Goodman sur les friches Stellantis/Iveco/Einstein à Trappes (300 MW, 15,5 ha, terrain acquis 42 M€ auprès du Département des Yvelines) confirme la bascule des friches industrielles urbanisées vers l'IA, sans nouvelle actualité datée cette semaine.",
-    "Sur les sociétés suivies nominativement : toujours aucun projet de foncier énergisé confirmé pour Aurora Infra (prestataire polonais de modernisation GPU/power de data centers existants, à distinguer d'« Aurora Infrastructure », plateforme nordique d'infrastructures électriques, et du projet « Trident » de Vantage à Aurora, Colorado) ni pour La Française de l'Énergie (toujours positionnée gaz/hydrogène/biogaz sur friches minières, sans lien confirmé avec les data centers) ; Polarise reste stable sur ses sites déjà identifiés (Munich, Amberg, Oslo, réservation de capacité à Prague), sans nouvelle annonce cette semaine."
+    "La Californie franchit une étape réglementaire majeure : les 7 lois signées par Newsom le 21 septembre (dont SB 886/AB 2383, tarifs dédiés CPUC pour les data centers de 75 MW et plus dès 2028, et SB 887 qui verrouille l'évaluation environnementale) confirment que le risque tarifaire et foncier devient structurel en Californie — à intégrer systématiquement dans tout sourcing sur cet État.",
+    "Le Texas, premier marché mondial de data centers, durcit encore le ton : après le gel des raccordements réseau d'août, le gouverneur Abbott ordonne le 21 septembre la suspension de tous les permis environnementaux (TCEQ) en attendant l'audit ERCOT/TWDB sur plus de 400 sites, sans date de reprise fixée — un gel qui touche potentiellement aussi les projets de génération sur site/îlotée, donc le cœur même du modèle « powered land ».",
+    "L'opposition locale continue de s'étendre en volume et en géographie : le comté de Fayette (Ohio) rejoint la liste des moratoires tandis qu'en France le projet Google d'Étrechet (Indre, 195 ha de terres agricoles, plus de 500 MW visés) provoque la démission collective de cinq élus locaux — un signal que le risque de gouvernance locale, jusqu'ici surtout nord-américain, se rapproche du modèle français, notamment pour les projets sur terrain vierge plutôt que sur friche déjà raccordée.",
+    "Sur les sociétés suivies nominativement, toujours aucune actualité foncier énergisé cette semaine pour Aurora Infra (prestataire de modernisation GPU/power de data centers existants, sans lien avec l'acquisition de terrain) ni pour La Française de l'Énergie (gaz/hydrogène/biogaz sur friches minières, toujours sans data center confirmé) ; Polarise reste stable sur son portefeuille déjà identifié (Munich, Amberg, Oslo, Prague).",
+    "Le pipeline français de friches déjà énergisées (Cagny, Fouju, EDF, Trappes, Bouc-Bel-Air) reste la source la plus sûre de foncier pour le sourcing, à distinguer nettement des projets neufs sur terres agricoles (cas Étrechet) qui cumulent désormais risque de raccordement, risque politique local et délais d'instruction plus longs."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Californie : le gouverneur Newsom promulgue un paquet de 7 lois, les plus complètes du pays sur l'eau, l'électricité et le foncier des data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-09-21",
+      "summary": "Gavin Newsom a promulgué le 21 septembre sept textes (AB 1577, AB 2383, AB 2469, AB 2619, SB 886, SB 887, SB 1168) formant le paquet législatif le plus complet des États-Unis sur les data centers : SB 886 et AB 2383 imposent à la CPUC de créer d'ici 2028 des tarifs électriques dédiés aux data centers de 75 MW et plus pour éviter que le coût du raccordement ne soit répercuté sur les autres consommateurs, AB 2469 et AB 2619 renforcent la transparence sur l'eau, et SB 887 empêche les data centers de contourner l'évaluation environnementale de droit commun.",
+      "source": "CalMatters / Bureau du gouverneur de Californie",
+      "url": "https://calmatters.org/economy/technology/2026/09/new-california-laws-data-centers/"
+    },
+    {
+      "category": "legislation",
+      "title": "Texas : le gouverneur Abbott ordonne à la TCEQ de suspendre tous les permis environnementaux pour data centers en attendant l'audit ERCOT/TWDB",
+      "region": "Amérique du Nord",
+      "date": "2026-09-21",
+      "summary": "Après le gel des nouveaux raccordements réseau décidé en août, le gouverneur Greg Abbott a ordonné le 21 septembre à la Texas Commission on Environmental Quality de suspendre l'ensemble des permis environnementaux sollicités par les data centers, y compris potentiellement pour la génération sur site/îlotée, en attendant que l'ERCOT et le Texas Water Development Board achèvent leur audit portant sur plus de 400 sites ; la TCEQ doit remettre un rapport d'avancement au gouverneur avant le 19 octobre, sans date de reprise fixée.",
+      "source": "Office of the Texas Governor / CNBC / Houston Public Media",
+      "url": "https://www.cnbc.com/2026/09/21/texas-governor-abbott-ai-data-center-permits.html"
+    },
     {
       "category": "power",
       "title": "Texas (bassin permien, Odessa) : New Era Energy & Digital signe un PPA de 20 ans avec Vistra pour la Phase 1 (207 MW) de son data center IA « TCDC »",
@@ -51,31 +69,17 @@
       "url": "https://www.bloomberg.com/news/articles/2026-09-21/new-data-centers-worth-68-billion-disrupted-in-us-data-show"
     },
     {
-      "category": "market",
-      "title": "Géorgie (Sandersville) : CleanSpark fixe le prix de son émission obligataire à 2,276 Md$ pour son data center de 175 MW loué à Meta, clôture prévue le 25 septembre",
-      "region": "Amérique du Nord",
-      "date": "2026-09-19",
-      "summary": "CleanSpark, via sa filiale CSDC Finance I LLC, a fixé le prix de 2,276 Md$ d'obligations senior sécurisées à 7,875% échéance 2031 (contre 2,23 Md$ initialement visés) pour financer le campus IA de 175 MW à Sandersville (Géorgie), loué 20 ans à Anviran LLC, filiale de Meta ; clôture de l'émission attendue le 25 septembre 2026, première émission obligataire « junk » américaine adossée à un data center lié à Meta.",
-      "source": "Bloomberg / StockTitan",
-      "url": "https://www.stocktitan.net/news/CLSK/clean-spark-inc-announces-pricing-of-2-276-billion-of-senior-secured-yrkvsskoinzo.html",
-      "mw": 175,
-      "inv": 2276,
-      "coords": [
-        32.97,
-        -82.81
-      ],
-      "poweredLand": true,
-      "owners": "CleanSpark",
-      "investors": "Meta (locataire, via Anviran LLC)"
-    },
-    {
       "category": "legislation",
-      "title": "Californie : les textes AB 2383 et SB 886 de protection tarifaire des consommateurs face aux data centers sur le bureau du gouverneur Newsom, décision attendue avant le 30 septembre",
+      "title": "Ohio (comté de Fayette) : les commissaires votent un moratoire de 8 mois sur les nouveaux data centers",
       "region": "Amérique du Nord",
-      "date": "2026-09-18",
-      "summary": "Après leur adoption par la législature californienne, les textes AB 2383 et SB 886 — qui obligeraient la California Public Utilities Commission à créer des tarifs et règles d'interconnexion dédiés aux data centers de plus de 75 MW afin que les coûts de raccordement ne soient pas répercutés sur les autres consommateurs — attendent la signature ou le veto du gouverneur Gavin Newsom, qui doit se prononcer avant le 30 septembre 2026 sous peine d'entrée en vigueur automatique.",
-      "source": "Hoodline / DataCenterDynamics",
-      "url": "https://hoodline.com/2026/09/california-sends-data-center-power-cost-bills-to-newsom-amid-1-8b-ratepayer-fight/"
+      "date": "2026-09-21",
+      "summary": "Les commissaires du comté de Fayette (Ohio) ont approuvé le 21 septembre un moratoire d'environ huit mois (jusqu'au 1er juin 2027) sur les nouvelles demandes de zonage, permis et autorisations liées aux data centers dans les zones non incorporées, le temps d'adopter un plan d'occupation des sols ; l'Ohio compte désormais plus de 125 moratoires locaux actifs sur les data centers, l'un des taux les plus élevés du pays.",
+      "source": "Record Herald / Ohio Capital Journal",
+      "url": "https://www.recordherald.com/2026/09/22/fayette-co-commissioners-approve-temporary-data-center-moratorium/",
+      "coords": [
+        39.5339,
+        -83.4327
+      ]
     },
     {
       "category": "land",
@@ -143,15 +147,6 @@
       "url": "https://www.nbcnews.com/politics/congress/house-passes-bill-shield-consumers-data-center-price-hikes-energy-rcna597683"
     },
     {
-      "category": "competition",
-      "title": "Google, Nvidia et Emerald AI lancent une alliance pour des data centers IA « flexibles » capables de moduler leur charge réseau",
-      "region": "Monde",
-      "date": "2026-09-16",
-      "summary": "Google, Nvidia et Emerald AI, rejoints par une vingtaine d'acteurs dont Anthropic, National Grid, AES, Constellation, NRG et RWE, lancent l'« AI Energy Management Alliance » pour standardiser des data centers capables de moduler leur charge afin d'accélérer leur raccordement au réseau ; Google s'engage sur 1 GW de flexibilité de demande activable via des accords avec des utilities.",
-      "source": "Axios / NVIDIA Blog",
-      "url": "https://www.axios.com/2026/09/16/tech-giants-launch-flexible-power-coalition-data-centers"
-    },
-    {
       "category": "power",
       "title": "Bouc-Bel-Air (Bouches-du-Rhone) : ouverture de la participation du public pour le raccordement RTE 225 000 V du data center MRS6 de Digital Realty",
       "region": "France",
@@ -185,17 +180,17 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "Canada (Mississauga, Ontario) : le conseil municipal vote un gel d'un an sur les data centers de plus de 10 MW",
-      "region": "Amérique du Nord",
-      "date": "2026-09-16",
-      "summary": "Le conseil municipal de Mississauga a vote a l'unanimite un « interim control bylaw » gelant pour 1 a 2 ans les projets de data centers de plus de 10 MW, mettant en suspens un projet de 40 MW porte par Prologis.",
-      "source": "CBC News",
-      "url": "https://www.cbc.ca/news/canada/toronto/mississauga-data-centres-coucil-vote-passes-9.7346133",
-      "mw": 40,
+      "category": "land",
+      "title": "France (Étrechet, Indre) : la maire et quatre élus démissionnent contre le projet de data center géant de Google (195 ha)",
+      "region": "France",
+      "date": "2026-09-15",
+      "summary": "Après la démission collective de trois adjoints et d'une conseillère municipale le 10 septembre, la maire d'Étrechet Florence Laurent a annoncé le 15 septembre sa propre démission pour protester contre le projet de data center de Google (via sa filiale Tricolore Computing) sur 195 hectares de terres agricoles de la zone d'activité d'Ozans, près de Châteauroux ; le projet, qui viserait plus de 500 MW, suscite des inquiétudes sur la consommation d'eau (departement en déficit hydrique) et les îlots de chaleur liés à la chaleur résiduelle des serveurs.",
+      "source": "France 3 Centre-Val de Loire / ICI / Kohen Avocats",
+      "url": "https://www.ici.fr/centre-val-de-loire/indre-36/etrechet/data-center-google-dans-l-indre-la-maire-d-etrechet-demissionne-apres-un-desaccord-2743780",
+      "mw": 500,
       "coords": [
-        43.589,
-        -79.6441
+        46.779,
+        1.786
       ]
     },
     {
@@ -286,19 +281,6 @@
       "owners": "Bell (BCE)"
     },
     {
-      "category": "legislation",
-      "title": "Floride (comté d'Orange) : les commissaires s'orientent vers un moratoire de 6 à 18 mois sur les data centers IA",
-      "region": "Amérique du Nord",
-      "date": "2026-09-15",
-      "summary": "Les commissaires du comté d'Orange (Floride) ont trouvé un consensus pour un moratoire de 6 à 18 mois sur les data centers IA afin d'étudier l'eau, l'électricité et le bruit ; un vote formel est attendu le 1er décembre.",
-      "source": "WUSF",
-      "url": "https://www.wusf.org/politics-issues/2026-09-16/orange-county-plans-a-moratorium-on-ai-data-centers",
-      "coords": [
-        28.5383,
-        -81.3792
-      ]
-    },
-    {
       "category": "competition",
       "title": "États-Unis : Brookfield prend une participation minoritaire dans American Real Estate Partners (AREP), maison mère de PowerHouse Data Centers",
       "region": "Amérique du Nord",
@@ -339,19 +321,6 @@
       "poweredLand": true,
       "owners": "Aligned Data Centers",
       "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "Arizona : la gouverneure Katie Hobbs refuse le moratoire sur les data centers réclamé par la procureure générale Kris Mayes",
-      "region": "Amérique du Nord",
-      "date": "2026-09-09",
-      "summary": "Après l'appel du 31 août de la procureure générale Kris Mayes à un moratoire statewide sur les nouveaux data centers (invoquant une baisse de près de 30% de l'allocation d'eau du Colorado River et une consommation d'eau des data centers pouvant passer de 2,9 à plus de 14,5 milliards de gallons selon une étude Ceres), la gouverneure démocrate Katie Hobbs a refusé le 9 septembre d'imposer une pause, misant sur un équilibre entre croissance économique et préoccupations locales ; l'Arizona devient un nouveau baromètre du risque politique data center à l'approche des midterms 2026.",
-      "source": "azfamily.com / The Center Square",
-      "url": "https://www.azfamily.com/2026/09/09/arizona-governor-rejects-data-center-moratorium-call-debate-escalates/",
-      "coords": [
-        33.4484,
-        -112.074
-      ]
     },
     {
       "category": "competition",
@@ -434,19 +403,6 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "Virginie (Loudoun County) : les élus votent à l'unanimité pour étudier la suppression rétroactive du droit acquis (« by-right ») sur 17 projets de data centers déjà déposés",
-      "region": "Amérique du Nord",
-      "date": "2026-09-03",
-      "summary": "Le conseil des superviseurs de Loudoun County (premier marché mondial de data centers, Virginie du Nord) a voté à l'unanimité le 3 septembre pour demander un avis juridique, à rendre avant le 6 octobre, sur la possibilité de retirer rétroactivement la clause de « grand-père » qui protège 17 dossiers de data centers déposés avant la suppression du droit de construire par autorisation administrative (« by-right ») en 2025 ; une issue défavorable exposerait ces projets déjà avancés à un nouveau passage en audience publique.",
-      "source": "DataCenterDynamics / Virginia Business",
-      "url": "https://www.datacenterdynamics.com/en/news/officials-in-loudoun-county-virginia-axe-by-right-data-centers/",
-      "coords": [
-        39.0896,
-        -77.6392
-      ]
-    },
-    {
       "category": "land",
       "title": "Canada (Ontario, Sault-Sainte-Marie) : Algoma Steel et Red Jar Energy Partners confirment un projet de data center IA de 400 MW sur le site de l'aciérie",
       "region": "Amérique du Nord",
@@ -479,19 +435,6 @@
       "poweredLand": true,
       "owners": "Firmus Technologies",
       "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "Floride (Indiantown, comté de Martin) : le conseil municipal repousse un moratoire sur les data centers et limoge sa directrice générale des services",
-      "region": "Amérique du Nord",
-      "date": "2026-09-02",
-      "summary": "Le conseil municipal d'Indiantown a voté 4 voix contre 1 le 2 septembre contre un moratoire immédiat sur les projets de data centers, préférant obtenir un nouvel avis juridique ; la même soirée, il a limogé la directrice générale des services Taryn Kryzda, entraînant dans la foulée la démission de l'avocate municipale qui avait déconseillé le moratoire — nouvel exemple de la tension politique locale autour des projets hyperscale en Floride.",
-      "source": "WQCS / CBS12 / WFLX",
-      "url": "https://www.wqcs.org/wqcs-news/2026-09-02/indiantown-council-delays-data-center-moratorium-fires-village-manager",
-      "coords": [
-        27.0334,
-        -80.4778
-      ]
     },
     {
       "category": "power",
