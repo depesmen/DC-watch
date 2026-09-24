@@ -1,13 +1,62 @@
 {
-  "lastUpdated": "2026-09-23",
+  "lastUpdated": "2026-09-24",
   "keyTakeaways": [
-    "La Californie franchit une étape réglementaire majeure : les 7 lois signées par Newsom le 21 septembre (dont SB 886/AB 2383, tarifs dédiés CPUC pour les data centers de 75 MW et plus dès 2028, et SB 887 qui verrouille l'évaluation environnementale) confirment que le risque tarifaire et foncier devient structurel en Californie — à intégrer systématiquement dans tout sourcing sur cet État.",
-    "Le Texas, premier marché mondial de data centers, durcit encore le ton : après le gel des raccordements réseau d'août, le gouverneur Abbott ordonne le 21 septembre la suspension de tous les permis environnementaux (TCEQ) en attendant l'audit ERCOT/TWDB sur plus de 400 sites, sans date de reprise fixée — un gel qui touche potentiellement aussi les projets de génération sur site/îlotée, donc le cœur même du modèle « powered land ».",
-    "L'opposition locale continue de s'étendre en volume et en géographie : le comté de Fayette (Ohio) rejoint la liste des moratoires tandis qu'en France le projet Google d'Étrechet (Indre, 195 ha de terres agricoles, plus de 500 MW visés) provoque la démission collective de cinq élus locaux — un signal que le risque de gouvernance locale, jusqu'ici surtout nord-américain, se rapproche du modèle français, notamment pour les projets sur terrain vierge plutôt que sur friche déjà raccordée.",
-    "Sur les sociétés suivies nominativement, toujours aucune actualité foncier énergisé cette semaine pour Aurora Infra (prestataire de modernisation GPU/power de data centers existants, sans lien avec l'acquisition de terrain) ni pour La Française de l'Énergie (gaz/hydrogène/biogaz sur friches minières, toujours sans data center confirmé) ; Polarise reste stable sur son portefeuille déjà identifié (Munich, Amberg, Oslo, Prague).",
-    "Le pipeline français de friches déjà énergisées (Cagny, Fouju, EDF, Trappes, Bouc-Bel-Air) reste la source la plus sûre de foncier pour le sourcing, à distinguer nettement des projets neufs sur terres agricoles (cas Étrechet) qui cumulent désormais risque de raccordement, risque politique local et délais d'instruction plus longs."
+    "La vague de moratoires locaux aux États-Unis continue de s'étendre et de se durcir : le Maryland prolonge celui du comté de Baltimore jusqu'à fin 2027, tandis que Wakulla (Floride), Salem (Oregon) et North Mankato (Minnesota) ont voté cette semaine de nouvelles interdictions ou pauses — la carte du risque de gouvernance locale se densifie semaine après semaine et doit désormais être vérifiée systématiquement avant tout sourcing sur juridiction non déjà sécurisée.",
+    "En France, le modèle de la friche industrielle déjà urbanisée continue de s'imposer comme voie privilégiée : à Trappes, Goodman prépare 300 MW sur l'ex-site Stellantis avec une cession foncière de 42 M€ explicitement indexée à l'obtention du raccordement électrique — une structuration de prix à surveiller et potentiellement à répliquer dans les négociations foncières.",
+    "Aux États-Unis, le gouvernement fédéral entre directement dans le jeu du foncier déjà énergisé : le DOE ouvre son ancien site d'enrichissement d'uranium de Paducah (Kentucky) à Brookfield et NextEra pour un campus IA de 100 Md$ couplé à 4,6 GW de génération dédiée sur site — un précédent de mise à disposition de foncier public pré-énergisé à grande échelle qui pourrait inspirer d'autres cessions gouvernementales.",
+    "La génération sur site continue de s'industrialiser en dehors des grands contrats hyperscalers : la commande de 275 MW de groupes de cogénération gaz par Energy Vault à 2G Energy illustre la montée en puissance d'un marché d'équipementiers dédiés à la puissance rapide et déconnectée du réseau pour data centers.",
+    "Sur les sociétés suivies nominativement : toujours aucune actualité foncier énergisé pour Aurora Infra (toujours positionné sur la modernisation GPU/power de data centers existants, sans acquisition de terrain) ni pour La Française de l'Énergie (poursuite du déploiement de son électricité verte à partir du gaz de mines sur friches minières du Nord, sans data center confirmé à ce stade) ; Polarise reste stable sur son portefeuille déjà identifié (Munich, Amberg, Oslo, Prague)."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "États-Unis : Energy Vault commande 275 MW de groupes de cogénération au gaz à l'allemand 2G Energy pour des data centers IA",
+      "region": "Amérique du Nord",
+      "date": "2026-09-23",
+      "summary": "Energy Vault Holdings a passé commande auprès de 2G Energy pour 275 MW de systèmes de production d'électricité destinés à des infrastructures énergétiques dédiées à l'IA aux États-Unis, avec livraison prévue entre fin 2027 et 2028 — un nouvel exemple de génération sur site mobilisée pour sécuriser rapidement de la puissance en l'absence de raccordement réseau disponible.",
+      "source": "energynews.pro",
+      "url": "https://energynews.pro/en/2g-energy-wins-275-mw-order-from-energy-vault-for-us-data-centers",
+      "mw": 275
+    },
+    {
+      "category": "legislation",
+      "title": "Maryland (comté de Baltimore) : le conseil prolonge à l'unanimité le moratoire sur les data centers jusqu'à fin décembre 2027",
+      "region": "Amérique du Nord",
+      "date": "2026-09-22",
+      "summary": "Le conseil du comté de Baltimore (Maryland) a voté à l'unanimité, tous les membres co-parrainant la mesure, la prolongation jusqu'au 31 décembre 2027 du moratoire sur les nouveaux permis, plans de développement et demandes de zonage pour data centers, initialement adopté pour un an en février et devant expirer en janvier 2027 ; les élus invoquent le besoin de temps pour examiner une étude de la commission d'urbanisme et une éventuelle action de l'État du Maryland.",
+      "source": "Baltimore Sun / WYPR / CBS Baltimore",
+      "url": "https://www.baltimoresun.com/2026/09/22/baltimore-county-extends-data-center-moratorium/",
+      "coords": [
+        39.4015,
+        -76.6019
+      ]
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis : nouvelle vague de moratoires locaux sur les data centers (Wakulla FL, Salem OR, North Mankato MN)",
+      "region": "Amérique du Nord",
+      "date": "2026-09-22",
+      "summary": "En une semaine, le comté de Wakulla (Floride) a voté à l'unanimité une interdiction des data centers sur son territoire non incorporé, la ville de Salem (Oregon) a approuvé en dernière lecture une pause de 120 jours le temps qu'un groupe de travail étudie une réglementation, et North Mankato (Minnesota) a adopté un moratoire d'un an avec étude à l'appui ; le nombre de collectivités américaines ayant instauré une forme de moratoire continue de croître chaque semaine.",
+      "source": "KPTV / Oregon Capital Chronicle / Rockefeller Institute of Government",
+      "url": "https://www.kptv.com/2026/09/22/salem-pauses-data-center-projects-4-months/"
+    },
+    {
+      "category": "land",
+      "title": "France (Trappes, Yvelines) : Goodman prépare 3 data centers IA (300 MW) sur la friche Stellantis-Iveco, cession foncière de 42 M€ indexée sur le raccordement",
+      "region": "France",
+      "date": "2026-09-21",
+      "summary": "La concertation préalable sur le projet de Goodman France s'est achevée le 1er septembre 2026, ouvrant la voie à l'enquête publique : trois data centers IA totalisant 300 MW sont prévus sur 15,5 hectares de friches industrielles déjà urbanisées (ex-Stellantis, Iveco, Einstein) dans la zone d'activité mature de Trappes-Élancourt ; le prix de cession du foncier à Goodman (42 M€) serait explicitement indexé à l'obtention des autorisations administratives et du raccordement électrique, dont le dimensionnement dépend encore d'Enedis et de RTE.",
+      "source": "DCmag",
+      "url": "https://dcmag.fr/la-friche-stellantis-a-trappes-transformee-en-data-center-ia-de-300-mw/",
+      "mw": 300,
+      "coords": [
+        48.7772,
+        1.9998
+      ],
+      "poweredLand": true,
+      "owners": "Goodman France",
+      "investors": "n.c."
+    },
     {
       "category": "legislation",
       "title": "Californie : le gouverneur Newsom promulgue un paquet de 7 lois, les plus complètes du pays sur l'eau, l'électricité et le foncier des data centers",
@@ -126,19 +175,6 @@
     },
     {
       "category": "legislation",
-      "title": "Virginie (Loudoun County, « Data Center Alley ») : le conseil des superviseurs avance vers une pause de 12 mois sur les nouvelles demandes de data centers et sous-stations",
-      "region": "Amérique du Nord",
-      "date": "2026-09-16",
-      "summary": "Le Board of Supervisors de Loudoun County a voté 7-1-1 pour faire rédiger une résolution instaurant une pause administrative de 12 mois sur les nouvelles demandes de rezonage/dérogation pour data centers et sous-stations électriques, avec effet rétroactif proposé au 15 septembre ; vote final attendu le 20 octobre.",
-      "source": "Washington Times / Energy News Beat",
-      "url": "https://www.washingtontimes.com/news/2026/sep/16/loudoun-county-board-supervisors-draft-resolution-pausing-data-center/",
-      "coords": [
-        39.1157,
-        -77.5636
-      ]
-    },
-    {
-      "category": "legislation",
       "title": "États-Unis : la Chambre des représentants adopte le « Ratepayer Protection Act » pour faire porter aux data centers le coût de leur raccordement électrique",
       "region": "Amérique du Nord",
       "date": "2026-09-16",
@@ -208,62 +244,6 @@
       "poweredLand": true,
       "owners": "Südzucker (propriétaire actuel) · Brownfields (promoteur pressenti)",
       "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "Arizona (Stanfield, comté de Pinal) : Salt River Project approuve le « Marigold Energy Center », 1,675 GW mixte solaire/batterie/gaz pour répondre à la demande dont les data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-09-15",
-      "summary": "Le conseil d'administration de Salt River Project a approuvé un projet de 1,675 GW à Stanfield (600 MW solaire, 400 MW de stockage batterie 8h, 675 MW de génération gaz naturel) avec un nouveau poste 230kV/500kV, pour répondre à la demande croissante des comtés de Maricopa et Pinal, data centers inclus ; audience de l'Arizona Corporation Commission prévue du 21 au 25 septembre.",
-      "source": "Utility Dive / In Business Phoenix",
-      "url": "https://www.utilitydive.com/news/srp-marigold-project-board-energy-storage/825813/",
-      "mw": 1675,
-      "coords": [
-        32.89,
-        -111.98
-      ],
-      "owners": "Salt River Project",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "Californie (baie de San Francisco) : San Francisco, Hayward et Oakland engagent en parallèle des moratoires sur les data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-09-15",
-      "summary": "À San Francisco, le superviseur Shamann Walton a déposé le 15 septembre un moratoire d'urgence de 45 jours sur les nouveaux data centers (extensible jusqu'à 22 mois et demi), visant notamment l'extension du site NOVVA à Bayview ; le même jour, le conseil municipal de Hayward examine une proposition d'interdiction après l'approbation contestée d'un site de 76,6 MW doté de 28 générateurs diesel de secours, tandis qu'à Oakland la conseillère Carroll Fife a déposé le 11 septembre un moratoire similaire visant un projet IA de Behring Companies, avec audience prévue le 22 septembre.",
-      "source": "Hoodline / SFist / Mission Local / Oaklandside",
-      "url": "https://hoodline.com/2026/09/san-francisco-weighs-45-day-freeze-on-data-centers-as-bayview-feels-the-heat/",
-      "coords": [
-        37.7749,
-        -122.4194
-      ]
-    },
-    {
-      "category": "construction",
-      "title": "États-Unis (Eagle Mountain, Utah) : Meta étend son campus data center, investissement porté à plus de 3 Md$ et ajout d'une centrale de stockage batterie de 150 MW",
-      "region": "Amérique du Nord",
-      "date": "2026-09-15",
-      "summary": "Meta a annoncé le 15 septembre une extension de son campus data center d'Eagle Mountain (Utah, en service depuis 2021), portant son investissement cumulé dans l'État à plus de 3 Md$ et plus de 1 200 emplois de construction au pic ; les nouveaux bâtiments utiliseront un refroidissement liquide en circuit fermé et seront couplés à une centrale de stockage batterie de 150 MW.",
-      "source": "KSL / DataCenterDynamics / Hoodline",
-      "url": "https://www.datacenterdynamics.com/en/news/meta-to-expand-eagle-mountain-data-center-campus-in-utah/",
-      "mw": 150,
-      "coords": [
-        40.3147,
-        -112.0116
-      ],
-      "owners": "Meta"
-    },
-    {
-      "category": "power",
-      "title": "Royaume-Uni : AVK lance AVK Capital, une entité dédiée pour financer et détenir des infrastructures de production électrique sur site pour les data centers",
-      "region": "Europe",
-      "date": "2026-09-15",
-      "summary": "Un mois après l'entrée de Partners Group à son capital (plus d'1 Md$ d'equity engagés), le spécialiste de l'énergie sur site AVK a lancé AVK Capital, une structure dédiée qui financera et possèdera directement les infrastructures de production (microgrids, piles à combustible, solutions de secours) livrées aux data centers, ceux-ci achetant ensuite l'énergie via des PPA de long terme plutôt que de porter le capex à leur bilan — un nouveau modèle facilitant l'accès à du foncier déjà énergisé sans immobiliser le capital du développeur.",
-      "source": "DataCenterDynamics / Data Centre Magazine",
-      "url": "https://www.datacenterdynamics.com/en/news/avk-launches-dedicated-funding-arm-to-own-and-operate-onsite-power-solutions-for-data-center-customers/",
-      "inv": 1000,
-      "owners": "AVK",
-      "investors": "Partners Group"
     },
     {
       "category": "construction",
@@ -437,6 +417,22 @@
       "investors": "n.c."
     },
     {
+      "category": "land",
+      "title": "États-Unis (West Richland, Washington) : Trammell Crow acquiert 1 000 acres du Lewis & Clark Ranch pour 264 M$, premier data center des Tri-Cities",
+      "region": "Amérique du Nord",
+      "date": "2026-09-01",
+      "summary": "La vente d'environ 1 000 acres du Lewis & Clark Ranch à West Richland (État de Washington) à la structure WKC31 Development LLC, filiale de développement data center de Trammell Crow, s'est conclue le 16 juillet pour 263,7 M$ ; la municipalité a confirmé l'identité de l'acquéreur le 1er septembre, ouvrant la voie à ce qui pourrait devenir le premier grand data center de la région des Tri-Cities.",
+      "source": "The Columbian / Tri-Cities Area Journal of Business",
+      "url": "https://www.columbian.com/news/2026/sep/07/264m-land-deal-could-set-stage-for-tri-cities-1st-data-center-complex/",
+      "inv": 264,
+      "coords": [
+        46.2999,
+        -119.3603
+      ],
+      "owners": "Trammell Crow Company (WKC31 Development LLC)",
+      "investors": "n.c."
+    },
+    {
       "category": "power",
       "title": "Malaisie (Selangor) : DayOne et TNB étudient jusqu'à 1,5 GW de génération sur site pour le futur campus IA de DayOne",
       "region": "Asie-Pacifique",
@@ -521,6 +517,20 @@
       "investors": "n.c."
     },
     {
+      "category": "power",
+      "title": "États-Unis : le DOE ouvre son site nucléaire de Paducah (Kentucky) à Brookfield et NextEra pour un campus IA de 100 Md$ avec 4,6 GW de génération dédiée",
+      "region": "Amérique du Nord",
+      "date": "2026-Q3",
+      "summary": "Le Department of Energy a annoncé un partenariat avec Brookfield (développement et exploitation du campus) et NextEra Energy (construction et détention de la génération dédiée : jusqu'à 2 GW de gaz naturel et 2,6 GW de stockage batterie) pour reconvertir une partie de l'ancien site d'enrichissement d'uranium de Paducah (Kentucky) en campus IA pouvant atteindre 1,8 GW de capacité utilité d'ici 2032, pour un investissement pouvant approcher 100 Md$ — l'un des plus gros programmes de foncier fédéral déjà énergisé mobilisé pour l'IA aux États-Unis.",
+      "source": "Department of Energy / DataCenterDynamics / PowerMag",
+      "url": "https://www.energy.gov/articles/energy-department-announces-partnership-expand-reliable-affordable-energy-access-and-power",
+      "mw": 1800,
+      "inv": 100000,
+      "poweredLand": true,
+      "owners": "Department of Energy (foncier fédéral) · Brookfield (développeur/exploitant)",
+      "investors": "NextEra Energy (génération dédiée)"
+    },
+    {
       "category": "land",
       "title": "France : le programme foncier « powered land » d'EDF sur friches énergétiques s'étoffe (Montereau, Bouchain, Loire-sur-Rhône, Creys-Mépieu)",
       "region": "France",
@@ -584,15 +594,6 @@
       ],
       "owners": "Data4 (site) · Brookfield (investisseur)",
       "investors": "Brookfield Asset Management"
-    },
-    {
-      "category": "competition",
-      "title": "Land banking mondial : AWS, Microsoft, Google et Oracle concentrent plus de 60% des acquisitions foncières pour data centers",
-      "region": "Monde",
-      "date": "2026-09",
-      "summary": "Selon une analyse d'Avison Young, ces quatre hyperscalers représentent désormais plus de 60% des acquisitions foncières mondiales pour data centers, pratiquant du « land banking » pour sécuriser des capacités des années avant construction — un rapport de force à surveiller pour tout intermédiaire de sourcing foncier.",
-      "source": "Avison Young (cité par DataCenterDynamics)",
-      "url": "https://completeaitraining.com/news/data-center-land-deals-jump-79-as-powered-sites-draw-6/"
     }
   ]
 }
