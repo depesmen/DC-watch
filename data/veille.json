@@ -1,13 +1,41 @@
 {
-  "lastUpdated": "2026-09-24",
+  "lastUpdated": "2026-09-25",
   "keyTakeaways": [
-    "La vague de moratoires locaux aux États-Unis continue de s'étendre et de se durcir : le Maryland prolonge celui du comté de Baltimore jusqu'à fin 2027, tandis que Wakulla (Floride), Salem (Oregon) et North Mankato (Minnesota) ont voté cette semaine de nouvelles interdictions ou pauses — la carte du risque de gouvernance locale se densifie semaine après semaine et doit désormais être vérifiée systématiquement avant tout sourcing sur juridiction non déjà sécurisée.",
-    "En France, le modèle de la friche industrielle déjà urbanisée continue de s'imposer comme voie privilégiée : à Trappes, Goodman prépare 300 MW sur l'ex-site Stellantis avec une cession foncière de 42 M€ explicitement indexée à l'obtention du raccordement électrique — une structuration de prix à surveiller et potentiellement à répliquer dans les négociations foncières.",
-    "Aux États-Unis, le gouvernement fédéral entre directement dans le jeu du foncier déjà énergisé : le DOE ouvre son ancien site d'enrichissement d'uranium de Paducah (Kentucky) à Brookfield et NextEra pour un campus IA de 100 Md$ couplé à 4,6 GW de génération dédiée sur site — un précédent de mise à disposition de foncier public pré-énergisé à grande échelle qui pourrait inspirer d'autres cessions gouvernementales.",
-    "La génération sur site continue de s'industrialiser en dehors des grands contrats hyperscalers : la commande de 275 MW de groupes de cogénération gaz par Energy Vault à 2G Energy illustre la montée en puissance d'un marché d'équipementiers dédiés à la puissance rapide et déconnectée du réseau pour data centers.",
-    "Sur les sociétés suivies nominativement : toujours aucune actualité foncier énergisé pour Aurora Infra (toujours positionné sur la modernisation GPU/power de data centers existants, sans acquisition de terrain) ni pour La Française de l'Énergie (poursuite du déploiement de son électricité verte à partir du gaz de mines sur friches minières du Nord, sans data center confirmé à ce stade) ; Polarise reste stable sur son portefeuille déjà identifié (Munich, Amberg, Oslo, Prague)."
+    "La vague de moratoires locaux continue de s'étendre sans ralentir : cette semaine encore, le comté de Marshall (Iowa), Woodbury (Minnesota) et St. Bernard (Ohio) ont voté de nouvelles pauses — mais à St. Bernard, le projet de data center sur l'ancienne usine Ivorydale de P&G continue d'avancer malgré le moratoire, son dossier ayant été déposé avant l'adoption du texte : un rappel que le foncier industriel déjà raccordé et un dépôt de dossier précoce restent le meilleur rempart contre le risque de gouvernance locale.",
+    "Aux États-Unis, le foncier « pad-ready » déjà raccordé continue de s'échanger vite et sous confidentialité : à Roanoke County (Virginie), les 94 acres du Wood Haven Technology Park — parc industriel doté de plus de 50 acres déjà viabilisés à la jonction I-81/I-581 — ont été cédés sous NDA à un développeur, illustrant la prime que le marché accorde désormais aux parcs déjà énergisés plutôt qu'au foncier brut.",
+    "Le goulot d'étranglement du raccordement réseau s'aggrave et commence à s'automatiser : la file d'attente ERCOT au Texas atteint 438 GW de demandes (dont ~90% de data centers, contre un pic réel de 85 GW), poussant AWS à lancer un programme d'agents IA pour accélérer les études d'interconnexion des utilities — un signal supplémentaire que la puissance déjà sécurisée vaudra une prime croissante tant que les délais d'étude resteront l'obstacle numéro un.",
+    "En France, le modèle de la friche industrielle déjà urbanisée continue de s'imposer comme voie privilégiée de sourcing (Trappes/Goodman, Fouju, Bouc-Bel-Air/Digital Realty), tandis que les pipelines fonciers structurants d'EDF, SoftBank et Data4 dans les Hauts-de-France restent les références du marché pour le foncier déjà énergisé.",
+    "Sur les sociétés suivies nominativement : Polarise a converti son accord de prise de participation majoritaire avec SWI Stoneweg Icona (annoncé en février, valorisation 0,5 Md€) en financement par dette pour accélérer son expansion européenne, sans nouvelle acquisition foncière ; toujours aucune actualité foncier énergisé pour Aurora Infra (modernisation GPU/power de data centers existants sans acquisition de terrain) ni pour La Française de l'Énergie (poursuite de l'activité gaz de mines dans les Hauts-de-France, sans data center confirmé à ce stade)."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "États-Unis (St. Bernard, Ohio) : le conseil vote un moratoire de 12 mois sur les data centers, mais le projet sur l'ancienne usine de savon Ivorydale (P&G) continue d'être instruit",
+      "region": "Amérique du Nord",
+      "date": "2026-09-24",
+      "summary": "Le conseil municipal de St. Bernard (Ohio, banlieue de Cincinnati) a voté à l'unanimité le 24 septembre un moratoire de 12 mois sur les nouveaux data centers ; la commission de zonage continuera néanmoins d'instruire la demande déposée par CAI Investments LLC pour un data center d'environ 14 000 m² sur l'ancien site de savonnerie Ivorydale de Procter & Gamble (fermé en 2024), car son dossier a été déposé avant l'adoption du moratoire.",
+      "source": "WVXU / Citizen Portal",
+      "url": "https://www.wvxu.org/local-news/2026-09-24/st-bernard-approves-data-center-moratorium-ivorydale-proposal-could-still-happen",
+      "poweredLand": true,
+      "owners": "CAI Investments LLC (candidat)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Roanoke County, Virginie) : de nouveaux documents confirment la vente sous NDA de 94 acres au Wood Haven Technology Park pour un data center",
+      "region": "Amérique du Nord",
+      "date": "2026-09-24",
+      "summary": "De nouveaux documents publiés le 24 septembre confirment que l'accord d'achat de 94 acres au Wood Haven Technology Park, conclu par la Western Virginia Industrial Facility Authority avec la société Clearview Dynamics sous accord de confidentialité, vise bien un data center ; le parc (111 acres), propriété de l'autorité régionale depuis 2016 à la jonction des autoroutes I-81/I-581, dispose déjà de plus de 50 acres de foncier « pad-ready » raccordé aux réseaux, avec clôture de la vente visée en octobre 2027 sous réserve d'études techniques et environnementales.",
+      "source": "Cardinal News / WDBJ7 / WSLS",
+      "url": "https://cardinalnews.org/2026/09/22/wood-haven-project-in-roanoke-county-confirmed-as-potential-data-center-will-use-spring-hollow-water/",
+      "coords": [
+        37.325,
+        -79.995
+      ],
+      "poweredLand": true,
+      "owners": "Western Virginia Industrial Facility Authority (vendeur) · Clearview Dynamics (acquéreur pressenti)",
+      "investors": "n.c."
+    },
     {
       "category": "power",
       "title": "États-Unis : Energy Vault commande 275 MW de groupes de cogénération au gaz à l'allemand 2G Energy pour des data centers IA",
@@ -17,6 +45,15 @@
       "source": "energynews.pro",
       "url": "https://energynews.pro/en/2g-energy-wins-275-mw-order-from-energy-vault-for-us-data-centers",
       "mw": 275
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis : nouveaux moratoires sur les data centers dans le comté de Marshall (Iowa) et à Woodbury (Minnesota)",
+      "region": "Amérique du Nord",
+      "date": "2026-09-23",
+      "summary": "Le 23 septembre, le comté de Marshall (Iowa) a approuvé un moratoire de six mois sur les demandes liées aux data centers, à l'informatique IA et au minage, tandis que la ville de Woodbury (Minnesota) adoptait une pause sur les nouveaux data centers et extensions au-delà des projets déjà approuvés, le temps d'étudier l'eau, l'électricité et le bruit ; la vague de moratoires locaux nord-américains continue de gagner de nouveaux États chaque semaine.",
+      "source": "Times Republican / Woodbury County",
+      "url": "https://www.timesrepublican.com/news/todays-news/2026/09/supervisors-discuss-six-month-data-center-moratorium-plan-to-vote-on-resolution-at-next-meeting/"
     },
     {
       "category": "legislation",
@@ -172,6 +209,15 @@
       "summary": "En écho au vote américain du « Ratepayer Protection Act », une analyse juridique française rappelle qu'en l'absence de taxe dédiée, le TURPE fixé par la CRE reste le principal levier de répartition du coût des raccordements électriques de data centers, ouvrant un recours tarifaire pour tout exploitant contestant une contribution ou un refus de raccordement.",
       "source": "Kohen Avocats",
       "url": "https://kohenavocats.fr/2026/09/17/centre-de-donnees-france-electricite-surcout-contester-projet-2026/"
+    },
+    {
+      "category": "power",
+      "title": "Texas : AWS lance un programme d'agents IA pour accélérer les études d'interconnexion réseau alors que la file d'attente ERCOT atteint 438 GW",
+      "region": "Amérique du Nord",
+      "date": "2026-09-17",
+      "summary": "Amazon Web Services a lancé le 17 septembre « Agentic Grid Planning », un programme d'agents IA fournis aux utilities pour automatiser et accélérer les études de raccordement, alors que la file d'attente ERCOT au Texas atteint 438 GW de demandes de raccordement de larges charges (data centers à environ 90%), contre un pic de demande réseau réel d'environ 85 GW ; Duke Energy, premier partenaire du programme, rapporte une préparation des données réduite de deux semaines à quelques heures — un signal que la sécurisation amont de la puissance restera l'avantage compétitif numéro un du sourcing foncier.",
+      "source": "AWS / DataCenterDynamics",
+      "url": "https://press.aboutamazon.com/aws/2026/9/aws-launches-agentic-grid-planning-program-to-accelerate-interconnection-studies"
     },
     {
       "category": "legislation",
@@ -354,6 +400,17 @@
       "investors": "Google"
     },
     {
+      "category": "competition",
+      "title": "Polarise convertit en financement par dette son accord d'investissement majoritaire avec SWI Stoneweg Icona Group",
+      "region": "Europe",
+      "date": "2026-09-09",
+      "summary": "Polarise et son actionnaire SWI Stoneweg Icona Group (coté Euronext Amsterdam) ont converti leur accord de prise de participation majoritaire annoncé en février 2026 (valorisation de Polarise à 0,5 Md€, engagement pouvant atteindre 1 Md€) en un financement par dette de plusieurs dizaines de millions d'euros, destiné à accélérer l'expansion du cloud IA souverain de Polarise en Europe, sans nouvelle acquisition foncière annoncée à ce stade.",
+      "source": "Dealroom / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/swi-invests-in-german-cloud-provider-polarise/",
+      "owners": "Polarise Holding GmbH",
+      "investors": "SWI Stoneweg Icona Group (dette)"
+    },
+    {
       "category": "legislation",
       "title": "Oregon (Eugene) : la ville juge qu'un data center n'est pas autorisé par le zonage de l'ancienne usine Hynix, bloquant une reconversion de friche industrielle",
       "region": "Amérique du Nord",
@@ -483,38 +540,6 @@
       "poweredLand": true,
       "owners": "Campus IA SAS (MGX · Bpifrance · Nvidia · Mistral AI), raccordement RTE",
       "investors": "MGX (fonds souverain EAU) · Bpifrance · Nvidia"
-    },
-    {
-      "category": "power",
-      "title": "Géorgie (États-Unis) : la PSC approuve le contrat de 3,2 GW entre Georgia Power et OpenAI pour le campus « Project Camellia » d'Effingham County",
-      "region": "Amérique du Nord",
-      "date": "2026-08-26",
-      "summary": "La Georgia Public Service Commission a approuvé le contrat déposé en juillet par Georgia Power pour fournir jusqu'à 3 200 MW au campus « Project Camellia » d'OpenAI (Effingham County, ~20 Md$ d'investissement annoncé), qui couvrira l'intégralité du coût de raccordement dédié et rendra flexible jusqu'à 1 000 MW de sa charge ; l'accord s'inscrit dans un portefeuille de contrats « large-load » générant environ 950 M$ d'économies annuelles pour les clients résidentiels à partir de 2029.",
-      "source": "Georgia Power (PRNewswire) / The Current / WTOC",
-      "url": "https://www.prnewswire.com/news-releases/georgia-powers-contract-with-openai-approved-latest-approval-part-of-portfolio-of-large-load-contracts-delivering-approximately-950-million-in-annual-savings-beginning-in-2029-302861080.html",
-      "mw": 3200,
-      "inv": 20000,
-      "coords": [
-        32.3,
-        -81.3
-      ],
-      "poweredLand": true,
-      "owners": "OpenAI (locataire, Project Camellia) · Georgia Power (utility)",
-      "investors": "n.c."
-    },
-    {
-      "category": "competition",
-      "title": "Virginie-Occidentale : Anthropic signe un accord de capacité de 45 Md$ sur 6 ans avec Nscale (460 MW), avant une IPO annoncée",
-      "region": "Amérique du Nord",
-      "date": "2026-08-26",
-      "summary": "Anthropic loue 460 MW de capacité de calcul sur six ans (jusqu'à 45 Md$) sur le futur campus de Nscale en Virginie-Occidentale, équipé de puces Nvidia Vera Rubin, avec une mise en service visée fin 2027 ; l'opération intervient alors que Nscale prépare une introduction en bourse.",
-      "source": "Bloomberg / CNBC / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-45bn-compute-capacity-agreement-with-nscale-report/",
-      "mw": 460,
-      "inv": 45000,
-      "poweredLand": true,
-      "owners": "Nscale (site) · Anthropic (locataire de capacité)",
-      "investors": "n.c."
     },
     {
       "category": "power",
