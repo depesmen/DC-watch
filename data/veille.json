@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-09-25",
+  "lastUpdated": "2026-09-28",
   "keyTakeaways": [
-    "La vague de moratoires locaux continue de s'étendre sans ralentir : cette semaine encore, le comté de Marshall (Iowa), Woodbury (Minnesota) et St. Bernard (Ohio) ont voté de nouvelles pauses — mais à St. Bernard, le projet de data center sur l'ancienne usine Ivorydale de P&G continue d'avancer malgré le moratoire, son dossier ayant été déposé avant l'adoption du texte : un rappel que le foncier industriel déjà raccordé et un dépôt de dossier précoce restent le meilleur rempart contre le risque de gouvernance locale.",
-    "Aux États-Unis, le foncier « pad-ready » déjà raccordé continue de s'échanger vite et sous confidentialité : à Roanoke County (Virginie), les 94 acres du Wood Haven Technology Park — parc industriel doté de plus de 50 acres déjà viabilisés à la jonction I-81/I-581 — ont été cédés sous NDA à un développeur, illustrant la prime que le marché accorde désormais aux parcs déjà énergisés plutôt qu'au foncier brut.",
-    "Le goulot d'étranglement du raccordement réseau s'aggrave et commence à s'automatiser : la file d'attente ERCOT au Texas atteint 438 GW de demandes (dont ~90% de data centers, contre un pic réel de 85 GW), poussant AWS à lancer un programme d'agents IA pour accélérer les études d'interconnexion des utilities — un signal supplémentaire que la puissance déjà sécurisée vaudra une prime croissante tant que les délais d'étude resteront l'obstacle numéro un.",
-    "En France, le modèle de la friche industrielle déjà urbanisée continue de s'imposer comme voie privilégiée de sourcing (Trappes/Goodman, Fouju, Bouc-Bel-Air/Digital Realty), tandis que les pipelines fonciers structurants d'EDF, SoftBank et Data4 dans les Hauts-de-France restent les références du marché pour le foncier déjà énergisé.",
-    "Sur les sociétés suivies nominativement : Polarise a converti son accord de prise de participation majoritaire avec SWI Stoneweg Icona (annoncé en février, valorisation 0,5 Md€) en financement par dette pour accélérer son expansion européenne, sans nouvelle acquisition foncière ; toujours aucune actualité foncier énergisé pour Aurora Infra (modernisation GPU/power de data centers existants sans acquisition de terrain) ni pour La Française de l'Énergie (poursuite de l'activité gaz de mines dans les Hauts-de-France, sans data center confirmé à ce stade)."
+    "Le schéma « friche déjà raccordée + dépôt de dossier précoce = rempart contre les moratoires » se confirme avec un nouveau cas : à Miamisburg (Ohio), le conseil a voté le 1er septembre un moratoire de 9 mois après qu'un projet de data center a émergé sur l'ancienne centrale Hutchings, rachetée en 2021 par Frontier Industrial Corp — le même profil de développeur de friches énergétiques qui a cédé la centrale à charbon Bruce Mansfield (Pennsylvanie) à Aligned Data Centers en juillet : un acteur à surveiller comme vendeur récurrent de foncier électrique déjà raccordé aux États-Unis.",
+    "En France, le sourcing sur friches industrielles continue de s'étendre à de nouvelles régions au-delà des corridors habituels (Hauts-de-France, Île-de-France, PACA) : cette semaine, un projet de 130 MW est instruit au Parc industriel de la Plaine de l'Ain (Blyes, réunion publique le 29 septembre) et un data center IA se profile sur la friche des Fonderies du Poitou (Ingrandes-sur-Vienne) après l'abandon d'un projet d'hydrogène vert porté par TSE et Lhyfe — deux dossiers encore au stade amont, à suivre pour un sourcing anticipé.",
+    "Nouveau pipeline à cartographier en Alsace : le consortium ÆTHER (2CRSi, SiPearl, Axelera AI, OUTSCALE et partenaires), candidat à l'appel européen « AI Gigafactories », est en négociations avancées pour deux sites industriels près de Strasbourg (plus de 400 MW visés à terme), avec des clôtures d'acquisition ciblées fin octobre et fin décembre 2026 — une zone géographique peu couverte jusqu'ici par la veille.",
+    "La génération dédiée sur site reste le principal levier pour contourner les files d'attente réseau : le conseil de Salt River Project a approuvé le 14 septembre le Marigold Energy Center (Stanfield, Arizona), 1,675 GW combinant solaire, stockage batterie et gaz naturel, explicitement dimensionné pour absorber la croissance de charge tirée par les data centers — un nouvel écho à la stratégie d'agents IA d'AWS pour accélérer les études d'interconnexion signalée la semaine dernière.",
+    "Sur les sociétés suivies nominativement, aucune nouvelle acquisition de foncier énergisé identifiée cette semaine pour Polarise (dernier mouvement : conversion en dette de l'accord SWI Stoneweg Icona du 9 septembre), Aurora Infra (toujours positionnée sur la modernisation GPU/power de data centers existants, sans acquisition foncière) ni La Française de l'Énergie (poursuite du déploiement gaz de mines dans les Hauts-de-France, sans data center confirmé)."
   ],
   "items": [
     {
@@ -130,22 +130,6 @@
       "investors": "n.c."
     },
     {
-      "category": "land",
-      "title": "Colorado (Aurora) : Vantage Data Centers dépose discrètement le projet « Trident », futur plus grand data center de l'État (334 MW), sans audience publique prévue",
-      "region": "Amérique du Nord",
-      "date": "2026-09-21",
-      "summary": "Des documents d'urbanisme déposés par Vantage Data Centers Management Company révèlent le projet « Trident » : deux bâtiments sur 143 acres près d'un quartier résidentiel, en zone industrielle où les data centers sont autorisés sans audience publique ; 334 MW de capacité IT visés (environ 500 MW de demande électrique totale), l'État ayant suggéré à Vantage d'organiser une réunion communautaire avant sa demande de permis environnemental.",
-      "source": "Colorado Newsline / Capital & Main",
-      "url": "https://capitalandmain.com/colorados-largest-data-center-could-rise-next-to-homes-without-a-public-hearing",
-      "mw": 334,
-      "coords": [
-        39.7294,
-        -104.7091
-      ],
-      "owners": "Vantage Data Centers",
-      "investors": "n.c."
-    },
-    {
       "category": "market",
       "title": "États-Unis : 45 projets de data centers représentant 68 Md$ bloqués ou retardés par l'opposition locale au 2e trimestre 2026 (Data Center Watch)",
       "region": "Amérique du Nord",
@@ -153,19 +137,6 @@
       "summary": "Selon le groupe de recherche Data Center Watch (cité par Bloomberg), 45 projets de data centers représentant 68 Md$ ont été bloqués ou retardés par l'opposition locale entre avril et juin 2026, portant à près de 200 Md$ le montant total de projets perturbés au premier semestre 2026 ; plus de 30 États ont introduit ou adopté des règles sur l'implantation, l'électricité ou l'eau des data centers, et 843 groupes d'opposition sont désormais recensés dans 49 États.",
       "source": "Bloomberg / Data Center Watch",
       "url": "https://www.bloomberg.com/news/articles/2026-09-21/new-data-centers-worth-68-billion-disrupted-in-us-data-show"
-    },
-    {
-      "category": "legislation",
-      "title": "Ohio (comté de Fayette) : les commissaires votent un moratoire de 8 mois sur les nouveaux data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-09-21",
-      "summary": "Les commissaires du comté de Fayette (Ohio) ont approuvé le 21 septembre un moratoire d'environ huit mois (jusqu'au 1er juin 2027) sur les nouvelles demandes de zonage, permis et autorisations liées aux data centers dans les zones non incorporées, le temps d'adopter un plan d'occupation des sols ; l'Ohio compte désormais plus de 125 moratoires locaux actifs sur les data centers, l'un des taux les plus élevés du pays.",
-      "source": "Record Herald / Ohio Capital Journal",
-      "url": "https://www.recordherald.com/2026/09/22/fayette-co-commissioners-approve-temporary-data-center-moratorium/",
-      "coords": [
-        39.5339,
-        -83.4327
-      ]
     },
     {
       "category": "land",
@@ -318,6 +289,22 @@
       "investors": "Brookfield Asset Management"
     },
     {
+      "category": "power",
+      "title": "États-Unis (Stanfield, Arizona) : le conseil d'administration de SRP approuve le « Marigold Energy Center », 1,675 GW de génération dédiée face à la demande des data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-09-14",
+      "summary": "Le conseil d'administration de Salt River Project a approuvé le 14 septembre la construction du Marigold Energy Center à Stanfield (comté de Pinal, Arizona) : 600 MW de solaire, 400 MW de stockage batterie (8h) et 675 MW de génération au gaz naturel, avec un nouveau poste 230/500 kV et environ 4 miles de lignes 230 kV, pour répondre à la croissance de la demande électrique tirée notamment par les data centers dans les comtés de Maricopa et Pinal ; audience de l'ACC prévue du 21 au 25 septembre, décision attendue en novembre 2026.",
+      "source": "Utility Dive / AZBEX / American Public Power Association",
+      "url": "https://www.utilitydive.com/news/srp-marigold-project-board-energy-storage/825813/",
+      "mw": 1675,
+      "coords": [
+        32.9012,
+        -111.9843
+      ],
+      "owners": "Salt River Project (SRP)",
+      "investors": "n.c."
+    },
+    {
       "category": "land",
       "title": "Émirats arabes unis : le méga-campus IA « Stargate UAE » (5 GW) dispersé sur plusieurs sites après les frappes iraniennes",
       "region": "Moyen-Orient",
@@ -411,35 +398,6 @@
       "investors": "SWI Stoneweg Icona Group (dette)"
     },
     {
-      "category": "legislation",
-      "title": "Oregon (Eugene) : la ville juge qu'un data center n'est pas autorisé par le zonage de l'ancienne usine Hynix, bloquant une reconversion de friche industrielle",
-      "region": "Amérique du Nord",
-      "date": "2026-09-08",
-      "summary": "La direction de l'urbanisme d'Eugene a notifié le 8 septembre qu'un data center ne serait pas un usage autorisé sous le zonage E-1 de l'ancienne usine de semi-conducteurs Hynix (1830 Willow Creek Circle, environ 111 000 m²), en réponse à une demande de vérification de zonage déposée en juillet pour le compte d'un client non identifié ; la décision bloque, au moins temporairement, l'une des reconversions de friche industrielle les plus emblématiques envisagées dans l'Oregon pour l'IA.",
-      "source": "Lookout Eugene-Springfield / KLCC",
-      "url": "https://lookouteugene-springfield.com/story/business-development/2026/09/08/data-center-not-permitted-under-zoning-of-former-hynix-factory-city-says/",
-      "coords": [
-        44.0793,
-        -123.1815
-      ],
-      "poweredLand": true,
-      "owners": "n.c. (client non identifié)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Inde (Hyderabad, Telangana) : HyperVault (filiale de TCS) sécurise 264 acres pour un campus IA de 1 GW (7,4 Md$)",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-05",
-      "summary": "HyperVault, filiale infrastructure de Tata Consultancy Services, a sécurisé 264 acres (107 ha) à Hyderabad (Telangana) pour bâtir l'un des plus grands campus IA d'Inde, jusqu'à 1 GW de capacité, pour un investissement pouvant atteindre 700 milliards de roupies (~7,4 Md$) avec ses partenaires ; mise en service visée d'ici juin 2028, conception annoncée neutre en eau et alimentée en énergie verte.",
-      "source": "Bloomberg / TCS / Business Standard",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-05/tcs-plans-one-gigawatt-capacity-data-center-in-southern-india",
-      "mw": 1000,
-      "inv": 7400,
-      "owners": "HyperVault (TCS)",
-      "investors": "n.c."
-    },
-    {
       "category": "land",
       "title": "Canada (Ontario, Sault-Sainte-Marie) : Algoma Steel et Red Jar Energy Partners confirment un projet de data center IA de 400 MW sur le site de l'aciérie",
       "region": "Amérique du Nord",
@@ -457,39 +415,6 @@
       "investors": "n.c."
     },
     {
-      "category": "land",
-      "title": "Australie (Tasmanie, Wesley Vale) : Firmus Technologies dépose un troisième projet de data center (52 MW) sur une ancienne papeterie déjà raccordée",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-03",
-      "summary": "Firmus Technologies a déposé une demande de permis pour un data center de 52 MW (46 MW IT) sur le site de l'ancienne papeterie de Mill Park à Wesley Vale (nord de la Tasmanie), directement voisin du poste électrique de TasNetworks qui permet un premier raccordement de 26 MW via l'infrastructure industrielle existante sans travaux sur le réseau de distribution local ; commentaires publics ouverts jusqu'au 9 septembre.",
-      "source": "DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/firmus-proposes-third-data-center-project-in-tasmania/",
-      "mw": 52,
-      "coords": [
-        -41.1799,
-        146.4425
-      ],
-      "poweredLand": true,
-      "owners": "Firmus Technologies",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (West Richland, Washington) : Trammell Crow acquiert 1 000 acres du Lewis & Clark Ranch pour 264 M$, premier data center des Tri-Cities",
-      "region": "Amérique du Nord",
-      "date": "2026-09-01",
-      "summary": "La vente d'environ 1 000 acres du Lewis & Clark Ranch à West Richland (État de Washington) à la structure WKC31 Development LLC, filiale de développement data center de Trammell Crow, s'est conclue le 16 juillet pour 263,7 M$ ; la municipalité a confirmé l'identité de l'acquéreur le 1er septembre, ouvrant la voie à ce qui pourrait devenir le premier grand data center de la région des Tri-Cities.",
-      "source": "The Columbian / Tri-Cities Area Journal of Business",
-      "url": "https://www.columbian.com/news/2026/sep/07/264m-land-deal-could-set-stage-for-tri-cities-1st-data-center-complex/",
-      "inv": 264,
-      "coords": [
-        46.2999,
-        -119.3603
-      ],
-      "owners": "Trammell Crow Company (WKC31 Development LLC)",
-      "investors": "n.c."
-    },
-    {
       "category": "power",
       "title": "Malaisie (Selangor) : DayOne et TNB étudient jusqu'à 1,5 GW de génération sur site pour le futur campus IA de DayOne",
       "region": "Asie-Pacifique",
@@ -504,6 +429,55 @@
       ],
       "poweredLand": true,
       "owners": "DayOne",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Miamisburg, Ohio) : moratoire de 9 mois sur les data centers après un projet visant l'ancienne centrale Hutchings",
+      "region": "Amérique du Nord",
+      "date": "2026-09-01",
+      "summary": "Le conseil municipal de Miamisburg (Ohio) a voté à l'unanimité (6-0) le 1er septembre un moratoire de neuf mois sur les nouveaux data centers, le temps d'élaborer des règles de zonage, en réaction aux inquiétudes suscitées par un projet de data center de grande envergure sur le site de l'ancienne centrale Hutchings (fermée en 2013, ex-Dayton Power & Light), rachetée en 2021 par le développeur de friches industrielles Frontier Industrial Corp — le même profil d'acteur qui a cédé la centrale à charbon Bruce Mansfield (Pennsylvanie) à Aligned Data Centers.",
+      "source": "WHIO / City of Miamisburg",
+      "url": "https://www.whio.com/news/local/miamisburg-joins-growing-list-ohio-towns-pausing-data-center-growth/7ILJWDRNZ5G5TJFYITY3C4HMLY/",
+      "coords": [
+        39.6434,
+        -84.2883
+      ],
+      "poweredLand": true,
+      "owners": "Frontier Industrial Corp (site, ancienne centrale Hutchings)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "France (Blyes, Ain) : projet de data center de 130 MW (46 000 m²) au Parc industriel de la Plaine de l'Ain, réunion publique le 29 septembre",
+      "region": "France",
+      "date": "2026-09",
+      "summary": "La société PIPA-DC1 a déposé une demande d'autorisation environnementale pour un data center de 46 000 m² et 130 MW au sein du Parc industriel de la Plaine de l'Ain (Zac de la Baccolanche, Blyes), avec mise en service visée en 2029 ; la consultation du public se déroule du 6 juillet au 6 octobre 2026 et une réunion publique est prévue le 29 septembre, sur fond de craintes locales concernant l'eau, le paysage et les émissions de CO2 (74 groupes électrogènes diesel prévus en secours).",
+      "source": "Lyon Capitale / GROUPE ECOMEDIA / registre-dematerialise.fr",
+      "url": "https://www.lyoncapitale.fr/actualite/un-data-center-pourrait-simplanter-au-parc-industriel-de-la-plaine-de-lain",
+      "mw": 130,
+      "coords": [
+        45.858,
+        5.258
+      ],
+      "poweredLand": true,
+      "owners": "PIPA-DC1",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "France (Ingrandes-sur-Vienne, Vienne) : après l'abandon d'un projet d'hydrogène vert, un data center IA se profile sur la friche des Fonderies du Poitou",
+      "region": "France",
+      "date": "2026-09",
+      "summary": "Sur le site des Fonderies du Poitou (environ 60 000 m² déconstruits en 2026), racheté en 2023 par les industriels TSE (électricité) et Lhyfe (hydrogène vert), le projet d'usine à hydrogène a été abandonné au profit d'un data center dédié à l'intelligence artificielle, dont le permis a été déposé à l'été 2026 pour une mise en service visée en 2028 ; un parc photovoltaïque de 28 MW doit également être installé sur le site.",
+      "source": "Titrespresse / France 3 Nouvelle-Aquitaine",
+      "url": "https://www.titrespresse.com/22086172603/poitou-ingrandes-data",
+      "coords": [
+        46.81,
+        0.6
+      ],
+      "poweredLand": true,
+      "owners": "TSE · Lhyfe (site, friche Fonderies du Poitou)",
       "investors": "n.c."
     },
     {
@@ -525,23 +499,6 @@
       "investors": "Anthropic (off-take) · Lambda (opérateur GPU)"
     },
     {
-      "category": "construction",
-      "title": "France (Fouju, Seine-et-Marne) : début des travaux du Campus IA (1,4 GW) malgré un recours contentieux annoncé",
-      "region": "France",
-      "date": "2026-08-28",
-      "summary": "Après la validation préfectorale du 29 juillet 2026, les premiers travaux (clôture du site, protection de la biodiversité, fouilles archéologiques) ont démarré le 28 août sur le Campus IA de Fouju porté par MGX, Bpifrance, Nvidia et Mistral AI (1,4 GW visés, raccordement RTE) ; le collectif « Stop IA à Fouju » a annoncé un recours contentieux.",
-      "source": "DCmag / JSS",
-      "url": "https://dcmag.fr/le-prefet-de-seine-et-marne-a-valide-le-projet-campus-ia-de-fouju-14-gw-et-50-milliards-e/",
-      "mw": 1400,
-      "coords": [
-        48.5333,
-        2.7333
-      ],
-      "poweredLand": true,
-      "owners": "Campus IA SAS (MGX · Bpifrance · Nvidia · Mistral AI), raccordement RTE",
-      "investors": "MGX (fonds souverain EAU) · Bpifrance · Nvidia"
-    },
-    {
       "category": "power",
       "title": "États-Unis : le DOE ouvre son site nucléaire de Paducah (Kentucky) à Brookfield et NextEra pour un campus IA de 100 Md$ avec 4,6 GW de génération dédiée",
       "region": "Amérique du Nord",
@@ -554,6 +511,23 @@
       "poweredLand": true,
       "owners": "Department of Energy (foncier fédéral) · Brookfield (développeur/exploitant)",
       "investors": "NextEra Energy (génération dédiée)"
+    },
+    {
+      "category": "land",
+      "title": "France (région de Strasbourg) : le consortium ÆTHER (2CRSi, SiPearl, Axelera AI, OUTSCALE...) en négociations avancées pour deux sites industriels dédiés à une « AI Gigafactory » (400+ MW)",
+      "region": "France",
+      "date": "2026-Q3",
+      "summary": "Candidat à l'appel à projets européen « AI Gigafactories », le consortium ÆTHER (2CRSi, SiPearl, Axelera AI, Viridien, ÉS, Socomec, Haffner Energy, Equans, Demathieu Bard, Nhood, Projex Ingénierie, OUTSCALE) est en négociations avancées pour l'acquisition de deux sites industriels près de Strasbourg (FR-SXB1, FR-SXB2) : clôture visée fin octobre 2026 pour FR-SXB1 (mise en service 2027, 42 MW en première phase) et fin décembre 2026 pour FR-SXB2, avec une ambition de long terme dépassant 400 MW selon les propositions de raccordement de RTE — un nouveau pipeline de foncier industriel à suivre en Alsace, hors des zones habituelles (Hauts-de-France, IDF, PACA).",
+      "source": "HPCwire / DataCenterDynamics / 2CRSi",
+      "url": "https://www.bebeez.eu/2026/07/09/europes-aether-consortium-targets-two-ai-gigafactories-in-strasbourg-france/",
+      "mw": 400,
+      "coords": [
+        48.573,
+        7.752
+      ],
+      "poweredLand": true,
+      "owners": "n.c. (sites en négociation)",
+      "investors": "2CRSi · SiPearl · consortium ÆTHER"
     },
     {
       "category": "land",
