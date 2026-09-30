@@ -1,13 +1,32 @@
 {
-  "lastUpdated": "2026-09-29",
+  "lastUpdated": "2026-09-30",
   "keyTakeaways": [
-    "Le schéma « friche énergo-industrielle déjà raccordée = terrain prêt pour data center » se confirme à l'international au-delà des États-Unis : ancienne fonderie d'aluminium Hydro Aluminium reconvertie par AirTrunk à Kurri Kurri (540 MW, Australie), ancienne papeterie Visy rachetée par Sharon AI à Ettamogah, et campus BDx de 640 MW en Indonésie adossé à 845 MVA de puissance réseau déjà sécurisée auprès de l'électricien public PLN — trois précédents à valeur de référence pour le sourcing de foncier énergisé hors Europe/USA.",
-    "L'opposition locale continue de faire échouer des projets même chez des acteurs de premier plan : Goodman Group a retiré son projet de data center de 842 M$ à Lane Cove (Sydney) après avoir échoué à obtenir un « permis social » local, rappelant que la disponibilité de puissance ne suffit pas — l'acceptabilité sociale du site reste un critère de sourcing à part entière, y compris en Australie.",
-    "Resserrement réglementaire dans deux marchés américains jusqu'ici moteurs : Prince William County (Virginie, 1er marché data center des États-Unis) met fin au développement « by-right » et réduit sa zone dédiée de 9 700 à 3 641 acres, tandis que Chicago devient la plus grande ville américaine à examiner un moratoire de 12 mois — un signal que même les juridictions historiquement favorables durcissent l'accès au foncier, renforçant l'avantage relatif des friches déjà énergisées et pré-autorisées.",
-    "Le capital institutionnel se concentre sur des actifs déjà énergisés plutôt que sur du foncier brut : BlackRock (AI Infrastructure Partnership) et IFM Investors négocient en exclusivité le rachat à Blue Owl Capital du portefeuille Stack Infrastructure en Asie-Pacifique (Australie, Japon, Malaisie — plus de 1,1 GW déjà raccordés et opérationnels) pour 20 à 25 Md$, confirmant la prime de valorisation du « powered land » déjà en production.",
-    "En France, le front juridique s'élargit avec deux nouveaux recours contre le méga-projet Campus IA de Fouju (11 data centers, 1,4 GW, financement d'un fonds émirati), en écho aux dossiers d'Étrechet et de Marseille ; aucune nouvelle acquisition de foncier énergisé identifiée cette semaine pour Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches ciblées (y compris LinkedIn)."
+    "Face à la vague de moratoires municipaux (Prince William County, Chicago, désormais Milwaukee), l'industrie riposte : lancement le 28 septembre de l'« American Infrastructure Alliance », coalition inédite associant OpenAI, SoftBank, Blackstone, QTS, CoreWeave et des syndicats du bâtiment/de l'électricité (IBEW, SMART, UA), dotée d'un budget de campagne à huit chiffres et ciblant sept États (Texas, Géorgie, Ohio, Iowa, Pennsylvanie, Indiana, Caroline du Sud) pour négocier des standards d'implantation avec les élus locaux plutôt que subir des gels de permis — un nouvel acteur politique à surveiller avant tout sourcing de foncier dans ces États.",
+    "Milwaukee (Wisconsin) rejoint Madison et Superior dans la vague de moratoires municipaux du Midwest américain (dossier examiné le 28 septembre par la City Plan Commission), confirmant que le Wisconsin devient, avec l'Ohio, l'un des États où l'incertitude réglementaire locale se dégrade le plus vite pour les data centers.",
+    "En Allemagne, la saturation du réseau autour de Francfort (le gestionnaire Amprion évoque des délais de raccordement repoussés à 2029-2030 pour toute demande de plus de 50 MW dans le Hesse) pousse les développeurs vers des marchés secondaires (Berlin, Munich, Düsseldorf, Hambourg) et vers des friches énergo-industrielles comme l'ancienne centrale à charbon Staudinger d'Uniper à Großkrotzenburg — une dynamique de report de la demande à suivre pour repérer de nouvelles opportunités de foncier déjà énergisé en Europe continentale, hors de la seule France.",
+    "Le sourcing de foncier énergisé continue de s'internationaliser au-delà des points chauds habituels (Virginie, Texas, France, Australie), avec des files d'attente de raccordement désormais de 3 à 4 ans sur PJM et ERCOT qui renforcent structurellement la prime de valeur du « powered land » déjà raccordé partout où il existe.",
+    "Malgré des recherches ciblées répétées (y compris des requêtes LinkedIn dédiées), aucune nouvelle acquisition de foncier énergisé n'a été identifiée cette semaine pour Polarise, Aurora Infra ou La Française de l'Énergie ; ces trois sociétés restent à surveiller en priorité dans les prochains cycles de veille."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "États-Unis : lancement de l'« American Infrastructure Alliance », coalition inédite d'industriels IA, de fonds et de syndicats pour contrer les moratoires sur les data centers dans 7 États",
+      "region": "Amérique du Nord",
+      "date": "2026-09-28",
+      "summary": "OpenAI, SoftBank, Blackstone, QTS, CoreWeave, Prologis et d'autres se sont associés à des syndicats du bâtiment et de l'électricité (IBEW, SMART, UA) pour former l'American Infrastructure Alliance, une coalition dotée d'un budget de campagne à huit chiffres visant à négocier des standards d'implantation avec les élus locaux et à endiguer la vague de moratoires, avec de premières campagnes ciblées au Texas, en Géorgie, dans l'Ohio, l'Iowa, la Pennsylvanie, l'Indiana et la Caroline du Sud.",
+      "source": "Axios / Inc. / The Daily Caller",
+      "url": "https://www.axios.com/2026/09/28/ai-industry-unions-data-centers"
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Milwaukee, Wisconsin) : la commission d'urbanisme examine un moratoire d'un an sur les data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-09-28",
+      "summary": "La City Plan Commission de Milwaukee a examiné le 28 septembre le dossier n°251924 porté par l'élue Marina Dimitrijevic, qui instaurerait une pause d'un an sur l'implantation et l'extension de data centers le temps que le code de zonage soit adapté pour réguler cet usage ; Milwaukee rejoint Madison et Superior parmi les villes du Wisconsin ayant engagé une démarche de moratoire en 2026.",
+      "source": "Urban Milwaukee",
+      "url": "https://urbanmilwaukee.com/?p=1001714",
+      "coords": [43.0389, -87.9065]
+    },
     {
       "category": "land",
       "title": "Australie (Sydney) : Goodman abandonne son projet de data center de 842 M$ à Lane Cove après la contestation locale",
@@ -411,19 +430,6 @@
       "coords": [3.07, 101.52],
       "poweredLand": true,
       "owners": "DayOne",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Miamisburg, Ohio) : moratoire de 9 mois sur les data centers après un projet visant l'ancienne centrale Hutchings",
-      "region": "Amérique du Nord",
-      "date": "2026-09-01",
-      "summary": "Le conseil municipal de Miamisburg (Ohio) a voté à l'unanimité (6-0) le 1er septembre un moratoire de neuf mois sur les nouveaux data centers, le temps d'élaborer des règles de zonage, en réaction aux inquiétudes suscitées par un projet de data center de grande envergure sur le site de l'ancienne centrale Hutchings (fermée en 2013, ex-Dayton Power & Light), rachetée en 2021 par le développeur de friches industrielles Frontier Industrial Corp — le même profil d'acteur qui a cédé la centrale à charbon Bruce Mansfield (Pennsylvanie) à Aligned Data Centers.",
-      "source": "WHIO / City of Miamisburg",
-      "url": "https://www.whio.com/news/local/miamisburg-joins-growing-list-ohio-towns-pausing-data-center-growth/7ILJWDRNZ5G5TJFYITY3C4HMLY/",
-      "coords": [39.6434, -84.2883],
-      "poweredLand": true,
-      "owners": "Frontier Industrial Corp (site, ancienne centrale Hutchings)",
       "investors": "n.c."
     },
     {
