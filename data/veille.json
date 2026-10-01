@@ -1,13 +1,30 @@
 {
-  "lastUpdated": "2026-09-30",
+  "lastUpdated": "2026-10-01",
   "keyTakeaways": [
-    "Face à la vague de moratoires municipaux (Prince William County, Chicago, désormais Milwaukee), l'industrie riposte : lancement le 28 septembre de l'« American Infrastructure Alliance », coalition inédite associant OpenAI, SoftBank, Blackstone, QTS, CoreWeave et des syndicats du bâtiment/de l'électricité (IBEW, SMART, UA), dotée d'un budget de campagne à huit chiffres et ciblant sept États (Texas, Géorgie, Ohio, Iowa, Pennsylvanie, Indiana, Caroline du Sud) pour négocier des standards d'implantation avec les élus locaux plutôt que subir des gels de permis — un nouvel acteur politique à surveiller avant tout sourcing de foncier dans ces États.",
-    "Milwaukee (Wisconsin) rejoint Madison et Superior dans la vague de moratoires municipaux du Midwest américain (dossier examiné le 28 septembre par la City Plan Commission), confirmant que le Wisconsin devient, avec l'Ohio, l'un des États où l'incertitude réglementaire locale se dégrade le plus vite pour les data centers.",
-    "En Allemagne, la saturation du réseau autour de Francfort (le gestionnaire Amprion évoque des délais de raccordement repoussés à 2029-2030 pour toute demande de plus de 50 MW dans le Hesse) pousse les développeurs vers des marchés secondaires (Berlin, Munich, Düsseldorf, Hambourg) et vers des friches énergo-industrielles comme l'ancienne centrale à charbon Staudinger d'Uniper à Großkrotzenburg — une dynamique de report de la demande à suivre pour repérer de nouvelles opportunités de foncier déjà énergisé en Europe continentale, hors de la seule France.",
-    "Le sourcing de foncier énergisé continue de s'internationaliser au-delà des points chauds habituels (Virginie, Texas, France, Australie), avec des files d'attente de raccordement désormais de 3 à 4 ans sur PJM et ERCOT qui renforcent structurellement la prime de valeur du « powered land » déjà raccordé partout où il existe.",
-    "Malgré des recherches ciblées répétées (y compris des requêtes LinkedIn dédiées), aucune nouvelle acquisition de foncier énergisé n'a été identifiée cette semaine pour Polarise, Aurora Infra ou La Française de l'Énergie ; ces trois sociétés restent à surveiller en priorité dans les prochains cycles de veille."
+    "Nouveau front dans la vague de moratoires américains : à Piedmont (Oklahoma), le conseil municipal a renvoyé en commission le volet urbanisme du « Project Open Sky » de Cloverleaf Infrastructure (1,4 GW), rappelant qu'un développeur se présentant explicitement comme « powered land company » et finançant lui-même ses renforcements réseau n'est pas à l'abri de l'opposition locale ; Cloverleaf a déjà sécurisé un site de repli dans le comté voisin de Kingfisher, logique de double foncier à surveiller.",
+    "Marseille confirme son statut de pôle de foncier industriel reconverti pour les data centers en France : au-delà du dossier MRS5 de Digital Realty (friche de silos à sucre), Edged Energy avance via sa filiale ESL Properties sur la friche de l'ex-sucrerie Saint-Louis (11 ha, propriété de Brownfields depuis 2022), avec une concertation publique ouverte jusqu'au 24 novembre 2026 — deux dossiers parallèles sur le même port à suivre pour le sourcing.",
+    "Le calendrier du moratoire de Milwaukee se précise (commission d'urbanisme le 28 septembre, examen en commission le 6 octobre, vote du Common Council le 13 octobre), ce qui resserre la fenêtre pour évaluer le risque réglementaire sur le Wisconsin avant la fin d'année.",
+    "La dynamique mondiale de consolidation du foncier déjà énergisé se poursuit au-delà des points chauds habituels : en Australie-Méridionale, 1414 Degrees vient de prendre le contrôle intégral de son Aurora Energy Precinct (1 580 ha, jusqu'à 1 GW visé), une logique de consolidation similaire à celle du landbank britannique de Harworth Group ou du portefeuille Asie-Pacifique de Stack Infrastructure déjà suivis.",
+    "Malgré des recherches ciblées répétées (y compris des requêtes de type LinkedIn), aucune nouvelle acquisition de foncier énergisé n'a été identifiée cette semaine pour Polarise, Aurora Infra ou La Française de l'Énergie ; ces trois sociétés restent prioritaires pour les prochains cycles de veille."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "États-Unis (Piedmont, Canadian County, Oklahoma) : le conseil municipal ajourne le volet urbanisme du méga-projet « Project Open Sky » de Cloverleaf (1,4 GW, 633 acres)",
+      "region": "Amérique du Nord",
+      "date": "2026-09-29",
+      "summary": "Face à l'opposition des riverains, le conseil municipal de Piedmont a renvoyé en commission de planification l'amendement du plan d'usage futur des sols nécessaire au projet « Project Open Sky » du développeur foncier énergisé Cloverleaf Infrastructure (633 acres, jusqu'à 1,4 GW), qui s'est engagé à financer lui-même ses renforcements réseau ; Cloverleaf a déjà sécurisé une option sur plus de 330 acres dans le comté voisin de Kingfisher en cas de refus définitif.",
+      "source": "KFOR / okcfox / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/powered-land-company-cloverleaf-proposing-633-acre-data-center-in-canadian-county-oklahoma/",
+      "mw": 1400,
+      "coords": [
+        35.6534,
+        -97.7762
+      ],
+      "poweredLand": true,
+      "owners": "Cloverleaf Infrastructure",
+      "investors": "n.c."
+    },
     {
       "category": "legislation",
       "title": "États-Unis : lancement de l'« American Infrastructure Alliance », coalition inédite d'industriels IA, de fonds et de syndicats pour contrer les moratoires sur les data centers dans 7 États",
@@ -25,7 +42,10 @@
       "summary": "La City Plan Commission de Milwaukee a examiné le 28 septembre le dossier n°251924 porté par l'élue Marina Dimitrijevic, qui instaurerait une pause d'un an sur l'implantation et l'extension de data centers le temps que le code de zonage soit adapté pour réguler cet usage ; Milwaukee rejoint Madison et Superior parmi les villes du Wisconsin ayant engagé une démarche de moratoire en 2026.",
       "source": "Urban Milwaukee",
       "url": "https://urbanmilwaukee.com/?p=1001714",
-      "coords": [43.0389, -87.9065]
+      "coords": [
+        43.0389,
+        -87.9065
+      ]
     },
     {
       "category": "land",
@@ -76,7 +96,10 @@
       "summary": "De nouveaux documents publiés le 24 septembre confirment que l'accord d'achat de 94 acres au Wood Haven Technology Park, conclu par la Western Virginia Industrial Facility Authority avec la société Clearview Dynamics sous accord de confidentialité, vise bien un data center ; le parc (111 acres), propriété de l'autorité régionale depuis 2016 à la jonction des autoroutes I-81/I-581, dispose déjà de plus de 50 acres de foncier « pad-ready » raccordé aux réseaux, avec clôture de la vente visée en octobre 2027 sous réserve d'études techniques et environnementales.",
       "source": "Cardinal News / WDBJ7 / WSLS",
       "url": "https://cardinalnews.org/2026/09/22/wood-haven-project-in-roanoke-county-confirmed-as-potential-data-center-will-use-spring-hollow-water/",
-      "coords": [37.325, -79.995],
+      "coords": [
+        37.325,
+        -79.995
+      ],
       "poweredLand": true,
       "owners": "Western Virginia Industrial Facility Authority (vendeur) · Clearview Dynamics (acquéreur pressenti)",
       "investors": "n.c."
@@ -90,7 +113,10 @@
       "source": "Reporterre",
       "url": "https://reporterre.net/11-data-centers-deux-recours-seront-deposes-contre-le-megaprojet-en-Seine-et-Marne",
       "mw": 1400,
-      "coords": [48.556, 2.787]
+      "coords": [
+        48.556,
+        2.787
+      ]
     },
     {
       "category": "competition",
@@ -115,7 +141,10 @@
       "source": "Bloomberg / Fervo Energy / GlobeNewswire",
       "url": "https://www.globenewswire.com/news-release/2026/09/24/3368115/0/en/fervo-energy-achieves-first-power-at-cape-station-a-landmark-moment-for-the-future-of-enhanced-geothermal-systems.html",
       "mw": 100,
-      "coords": [38.4055, -113.0111],
+      "coords": [
+        38.4055,
+        -113.0111
+      ],
       "poweredLand": true,
       "owners": "Fervo Energy",
       "investors": "Google (acheteur PPA)"
@@ -130,17 +159,6 @@
       "url": "https://mgrid.org/2026/09/24/doe-picks-31-reconductoring-projects-in-26-states-and-puts-1-9-billion-against-23-gw-of-capacity/",
       "mw": 23000,
       "inv": 1900
-    },
-    {
-      "category": "market",
-      "title": "Royaume-Uni : VIRTUS Data Centres boucle un financement de 2,45 Md£ pour son expansion IA au Royaume-Uni et en Europe",
-      "region": "Europe",
-      "date": "2026-09-24",
-      "summary": "L'opérateur britannique VIRTUS Data Centres a finalisé un package de financement de 2,45 milliards de livres pour accélérer le développement de ses data centers IA au Royaume-Uni et en Europe.",
-      "source": "Intelligent Data Centres",
-      "url": "https://www.intelligentdatacentres.com/2026/09/24/virtus-secures-2-45-billion-financing-package-to-support-continued-growth/",
-      "inv": 3112,
-      "owners": "VIRTUS Data Centres"
     },
     {
       "category": "land",
@@ -173,17 +191,10 @@
       "summary": "Le maire de Chicago Brandon Johnson et plusieurs conseillers municipaux ont introduit une ordonnance suspendant pour 12 mois tout nouveau data center et toute extension majeure des sites existants, le temps qu'un groupe de travail municipal élabore un cadre réglementaire permanent sur l'électricité, l'eau, l'air et le bruit (rapport attendu au 15 mars 2027) ; Chicago devient la plus grande ville américaine à ce jour à envisager un tel moratoire.",
       "source": "City of Chicago / Axios Chicago / Block Club Chicago",
       "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/september/data-center-moratorium.html",
-      "coords": [41.8781, -87.6298]
-    },
-    {
-      "category": "power",
-      "title": "États-Unis : Energy Vault commande 275 MW de groupes de cogénération au gaz à l'allemand 2G Energy pour des data centers IA",
-      "region": "Amérique du Nord",
-      "date": "2026-09-23",
-      "summary": "Energy Vault Holdings a passé commande auprès de 2G Energy pour 275 MW de systèmes de production d'électricité destinés à des infrastructures énergétiques dédiées à l'IA aux États-Unis, avec livraison prévue entre fin 2027 et 2028 — un nouvel exemple de génération sur site mobilisée pour sécuriser rapidement de la puissance en l'absence de raccordement réseau disponible.",
-      "source": "energynews.pro",
-      "url": "https://energynews.pro/en/2g-energy-wins-275-mw-order-from-energy-vault-for-us-data-centers",
-      "mw": 275
+      "coords": [
+        41.8781,
+        -87.6298
+      ]
     },
     {
       "category": "legislation",
@@ -193,7 +204,10 @@
       "summary": "Les élus du comté de Prince William (Virginie du Nord, premier marché de data centers aux États-Unis) ont voté 8-0 pour supprimer le développement automatique (« by-right ») de data centers ; la zone d'implantation dédiée (Data Center Opportunity Zone Overlay District) passe d'environ 9 700 à 3 641 acres, avec une période de grâce de 90 jours pour les propriétaires déjà engagés — un resserrement notable sur le marché de foncier data center le plus mature des États-Unis.",
       "source": "WTOP News",
       "url": "https://wtop.com/virginia/2026/09/prince-william-co-supervisors-vote-to-end-by-right-data-center-development-countywide/",
-      "coords": [38.7509, -77.4753]
+      "coords": [
+        38.7509,
+        -77.4753
+      ]
     },
     {
       "category": "construction",
@@ -217,7 +231,10 @@
       "source": "DCmag",
       "url": "https://dcmag.fr/la-friche-stellantis-a-trappes-transformee-en-data-center-ia-de-300-mw/",
       "mw": 300,
-      "coords": [48.7772, 1.9998],
+      "coords": [
+        48.7772,
+        1.9998
+      ],
       "poweredLand": true,
       "owners": "Goodman France",
       "investors": "n.c."
@@ -249,7 +266,10 @@
       "source": "GlobeNewswire / Benzinga",
       "url": "https://www.globenewswire.com/news-release/2026/09/21/3365358/0/en/new-era-energy-digital-secures-20-year-207-mw-ppa-with-vistra.html",
       "mw": 207,
-      "coords": [31.8457, -102.3676],
+      "coords": [
+        31.8457,
+        -102.3676
+      ],
       "poweredLand": true,
       "owners": "New Era Energy & Digital (TCDC PowerCo)",
       "investors": "n.c."
@@ -273,19 +293,13 @@
       "url": "https://www.smartcompany.com.au/economy/airtrunk-37-million-date-centre-package-regional-nsw-locals-question-benefits/",
       "mw": 540,
       "inv": 2440,
-      "coords": [-32.8167, 151.4833],
+      "coords": [
+        -32.8167,
+        151.4833
+      ],
       "poweredLand": true,
       "owners": "AirTrunk",
       "investors": "Blackstone · PSP Investments"
-    },
-    {
-      "category": "legislation",
-      "title": "Union européenne : la Commission adopte un système de notation de durabilité des data centers et lance une consultation sur des normes de performance minimales",
-      "region": "Europe",
-      "date": "2026-09-21",
-      "summary": "Le 21 septembre 2026, la Commission européenne a adopté un système de notation de durabilité pour les data centers de plus de 500 kW et a ouvert une consultation publique de 12 semaines (jusqu'au 14 décembre 2026) sur de futures normes de performance minimales en matière d'énergie et d'eau ; une proposition législative est attendue au 2e trimestre 2027.",
-      "source": "Commission européenne (DG Energy)",
-      "url": "https://energy.ec.europa.eu/news/minimum-performance-standards-data-centres-europe-public-consultation-launched-2026-09-21_en"
     },
     {
       "category": "land",
@@ -296,7 +310,10 @@
       "source": "BeBeez International / DataCenterDynamics",
       "url": "https://bebeez.eu/2026/09/17/magnora-joins-venture-for-estonia-data-center-project/",
       "mw": 180,
-      "coords": [58.97, 23.55],
+      "coords": [
+        58.97,
+        23.55
+      ],
       "poweredLand": true,
       "owners": "Magnora Data Center · Sunly AS (JV)",
       "investors": "Magnora · Sunly"
@@ -310,7 +327,10 @@
       "source": "Mairie de Bouc-Bel-Air",
       "url": "https://www.boucbelair.fr/actualites/raccordement-du-datacenter-mrs6-une-participation-du-public-du-16-septembre-au-20-octobre/",
       "mw": 80,
-      "coords": [43.445, 5.396],
+      "coords": [
+        43.445,
+        5.396
+      ],
       "poweredLand": true,
       "owners": "Digital Realty",
       "investors": "n.c."
@@ -323,7 +343,10 @@
       "summary": "Le collectif « Le nuage etait sous nos pieds » (La Quadrature du Net, Technopolice, collectif des Gammares) a denonce le 16 septembre 2026 le projet MRS5 de Digital Realty sur le Grand Port Maritime de Marseille (reconversion d'une friche d'anciens silos a sucre), dans le cadre d'une enquete publique se terminant le 27 septembre ; une elue EELV reclame un moratoire sur les data centers marseillais.",
       "source": "Marsactu",
       "url": "https://marsactu.fr/bref/des-elus-et-associations-demandent-un-moratoire-sur-les-data-centers/",
-      "coords": [43.3305, 5.355],
+      "coords": [
+        43.3305,
+        5.355
+      ],
       "poweredLand": true,
       "owners": "Digital Realty",
       "investors": "n.c."
@@ -336,7 +359,10 @@
       "summary": "Sharon AI a acquis le site industriel de l'ancienne usine de papier journal (Australian Newsprint Mills, puis Norske Skog, puis Visy) à Ettamogah, près d'Albury (Nouvelle-Galles du Sud), pour y développer une capacité de calcul IA ; Visy reste locataire d'une partie du site pour ses activités de logistique et d'entreposage.",
       "source": "ABC News Australia",
       "url": "https://www.abc.net.au/news/2026-09-16/visy-paper-mill-ettamogah-sharon-ai-computing/107150434",
-      "coords": [-36.05, 146.95],
+      "coords": [
+        -36.05,
+        146.95
+      ],
       "poweredLand": true,
       "owners": "Sharon AI",
       "investors": "n.c."
@@ -350,7 +376,10 @@
       "source": "France 3 Centre-Val de Loire / ICI / Kohen Avocats",
       "url": "https://www.ici.fr/centre-val-de-loire/indre-36/etrechet/data-center-google-dans-l-indre-la-maire-d-etrechet-demissionne-apres-un-desaccord-2743780",
       "mw": 500,
-      "coords": [46.779, 1.786]
+      "coords": [
+        46.779,
+        1.786
+      ]
     },
     {
       "category": "land",
@@ -360,7 +389,10 @@
       "summary": "Sur le site de l'ancienne sucrerie Saint-Louis Sucre à Cagny (fermée en 2020, environ 65 ha), l'un des 55 sites « clé en main » labellisés par l'État dans le cadre de France 2030, un consortium public-privé étudie un projet de campus industriel dédié à l'IA incluant un data center ; le promoteur Brownfields négocierait l'acquisition d'environ 33 ha auprès du propriétaire actuel, le groupe allemand Südzucker.",
       "source": "France Bleu / ICI Normandie",
       "url": "https://www.ici.fr/infos/economie-social/info-ici-a-cagny-un-datacenter-et-un-campus-autour-de-l-ia-pourraient-voir-le-jour-sur-le-site-de-l-ancienne-sucrerie-3649380",
-      "coords": [49.15, -0.25],
+      "coords": [
+        49.15,
+        -0.25
+      ],
       "poweredLand": true,
       "owners": "Südzucker (propriétaire actuel) · Brownfields (promoteur pressenti)",
       "investors": "n.c."
@@ -375,7 +407,10 @@
       "url": "https://www.post-gazette.com/business/tech-news/2026/09/10/project-phoenix-shippingpoint-data-center-beaver-county-aligned/stories/202609100040",
       "mw": 2000,
       "inv": 10000,
-      "coords": [40.6203, -80.4165],
+      "coords": [
+        40.6203,
+        -80.4165
+      ],
       "poweredLand": true,
       "owners": "Aligned Data Centers",
       "investors": "n.c."
@@ -389,7 +424,10 @@
       "source": "DataCenterDynamics / České Radiokomunikace",
       "url": "https://www.datacenterdynamics.com/en/news/polarise-to-lease-capacity-from-cra-in-prague-czechia/",
       "mw": 15,
-      "coords": [49.9425, 14.3396],
+      "coords": [
+        49.9425,
+        14.3396
+      ],
       "owners": "České Radiokomunikace (CRA, site) · Polarise (locataire de capacité)",
       "investors": "n.c."
     },
@@ -413,9 +451,29 @@
       "source": "DataCenterDynamics / SooToday / Northern Ontario Business",
       "url": "https://www.datacenterdynamics.com/en/news/new-400mw-ai-data-center-planned-for-algoma-in-ontario-canada/",
       "mw": 400,
-      "coords": [46.5136, -84.3358],
+      "coords": [
+        46.5136,
+        -84.3358
+      ],
       "poweredLand": true,
       "owners": "Algoma Steel · Red Jar Energy Partners",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Australie (Aurora Energy Precinct, près de Port Augusta, Australie-Méridionale) : 1414 Degrees prend le contrôle intégral du site en vue d'un data center IA de 1 GW",
+      "region": "Asie-Pacifique",
+      "date": "2026-09-01",
+      "summary": "1414 Degrees a racheté 100% de Vast Solar Aurora (placé en administration judiciaire), consolidant sous un seul propriétaire l'ensemble du foncier (1 580 hectares, jusqu'à 900 MW de potentiel solaire), des accords de raccordement et des autorisations de l'Aurora Energy Precinct, où un accord-cadre avec un opérateur de data centers vise un site IA pouvant atteindre 1 GW à terme, avec un premier parc de batteries de 140 MW/280 MWh déjà approuvé par le gestionnaire de réseau AEMO.",
+      "source": "Stockwirex / Grafa / 1414 Degrees",
+      "url": "https://stockwirex.com/?p=42126",
+      "mw": 1000,
+      "coords": [
+        -32.49,
+        137.76
+      ],
+      "poweredLand": true,
+      "owners": "1414 Degrees (SiliconAurora Pty Ltd)",
       "investors": "n.c."
     },
     {
@@ -427,9 +485,28 @@
       "source": "DataCenterDynamics / PR Newswire",
       "url": "https://www.datacenterdynamics.com/en/news/dayone-partners-with-tnb-to-develop-up-to-15gw-of-onsite-generation-for-planned-data-center-in-selangor-malaysia/",
       "mw": 1500,
-      "coords": [3.07, 101.52],
+      "coords": [
+        3.07,
+        101.52
+      ],
       "poweredLand": true,
       "owners": "DayOne",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "France (Marseille, 15e arrondissement) : Edged Energy (ESL Properties) avance sur la friche de l'ex-sucrerie Saint-Louis, enquête publique jusqu'au 24 novembre",
+      "region": "France",
+      "date": "2026-09",
+      "summary": "Sur les 11 hectares de l'ancienne sucrerie Saint-Louis (fermée en 2015, rachetée en 2022 par Brownfields) près du port de Marseille-Fos, le projet de data center d'Edged Energy (via sa filiale ESL Properties) est soumis à la concertation publique jusqu'au 24 novembre 2026, aux côtés des futurs studios Mediterranean Studios et du parc d'activités Massilia Business Park déjà en travaux — un nouveau site de foncier industriel reconverti à Marseille, en complément du dossier MRS5 de Digital Realty sur une friche portuaire voisine.",
+      "source": "Made in Marseille",
+      "url": "https://madeinmarseille.net/?p=211327",
+      "coords": [
+        43.37,
+        5.37
+      ],
+      "poweredLand": true,
+      "owners": "Brownfields (foncier) · ESL Properties / Edged Energy (projet data center)",
       "investors": "n.c."
     },
     {
@@ -441,7 +518,10 @@
       "source": "Lyon Capitale / GROUPE ECOMEDIA / registre-dematerialise.fr",
       "url": "https://www.lyoncapitale.fr/actualite/un-data-center-pourrait-simplanter-au-parc-industriel-de-la-plaine-de-lain",
       "mw": 130,
-      "coords": [45.858, 5.258],
+      "coords": [
+        45.858,
+        5.258
+      ],
       "poweredLand": true,
       "owners": "PIPA-DC1",
       "investors": "n.c."
@@ -454,25 +534,13 @@
       "summary": "Sur le site des Fonderies du Poitou (environ 60 000 m² déconstruits en 2026), racheté en 2023 par les industriels TSE (électricité) et Lhyfe (hydrogène vert), le projet d'usine à hydrogène a été abandonné au profit d'un data center dédié à l'intelligence artificielle, dont le permis a été déposé à l'été 2026 pour une mise en service visée en 2028 ; un parc photovoltaïque de 28 MW doit également être installé sur le site.",
       "source": "Titrespresse / France 3 Nouvelle-Aquitaine",
       "url": "https://www.titrespresse.com/22086172603/poitou-ingrandes-data",
-      "coords": [46.81, 0.6],
+      "coords": [
+        46.81,
+        0.6
+      ],
       "poweredLand": true,
       "owners": "TSE · Lhyfe (site, friche Fonderies du Poitou)",
       "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Texas (Nueces County) : le campus Beacon Point de Hut 8 devient le pivot d'un montage à 35 Md$ entre Nvidia, Lambda et Anthropic",
-      "region": "Amérique du Nord",
-      "date": "2026-08-31",
-      "summary": "Anthropic a signé un accord cloud de 35 Md$ avec Lambda (soutenu par Nvidia), adossé au campus Beacon Point de Hut 8 à Nueces County (Texas, 525 acres, 1 GW de capacité utilitaire sous interconnexion AEP Texas) : Nvidia détient le bail du site et fournit les puces, Lambda opère l'infrastructure GPU, et Anthropic achète la capacité de calcul résultante ; la première tranche de 352 MW est financée par 4,25 Md$ d'obligations sécurisées, énergisation visée au T1 2027.",
-      "source": "Wall Street Journal / CoinDesk / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-35bn-cloud-agreement-with-lambda-report/",
-      "mw": 352,
-      "inv": 35000,
-      "coords": [27.85, -97.55],
-      "poweredLand": true,
-      "owners": "Hut 8 (site, Beacon Point) · Nvidia (preneur du bail)",
-      "investors": "Anthropic (off-take) · Lambda (opérateur GPU)"
     },
     {
       "category": "power",
@@ -497,7 +565,10 @@
       "source": "HPCwire / DataCenterDynamics / 2CRSi",
       "url": "https://www.bebeez.eu/2026/07/09/europes-aether-consortium-targets-two-ai-gigafactories-in-strasbourg-france/",
       "mw": 400,
-      "coords": [48.573, 7.752],
+      "coords": [
+        48.573,
+        7.752
+      ],
       "poweredLand": true,
       "owners": "n.c. (sites en négociation)",
       "investors": "2CRSi · SiPearl · consortium ÆTHER"
@@ -524,7 +595,10 @@
       "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
       "mw": 3100,
       "inv": 52000,
-      "coords": [50.98, 2.13],
+      "coords": [
+        50.98,
+        2.13
+      ],
       "poweredLand": true,
       "owners": "SoftBank Group",
       "investors": "SoftBank (autofinancé)"
@@ -539,7 +613,10 @@
       "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
       "mw": 700,
       "inv": 5800,
-      "coords": [50.33, 3.27],
+      "coords": [
+        50.33,
+        3.27
+      ],
       "poweredLand": true,
       "owners": "Data4",
       "investors": "n.c."
@@ -554,7 +631,10 @@
       "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
       "mw": 1000,
       "inv": 10900,
-      "coords": [50.1758, 3.2354],
+      "coords": [
+        50.1758,
+        3.2354
+      ],
       "owners": "Data4 (site) · Brookfield (investisseur)",
       "investors": "Brookfield Asset Management"
     }
