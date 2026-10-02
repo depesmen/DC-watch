@@ -1,13 +1,30 @@
 {
-  "lastUpdated": "2026-10-01",
+  "lastUpdated": "2026-10-02",
   "keyTakeaways": [
-    "Nouveau front dans la vague de moratoires américains : à Piedmont (Oklahoma), le conseil municipal a renvoyé en commission le volet urbanisme du « Project Open Sky » de Cloverleaf Infrastructure (1,4 GW), rappelant qu'un développeur se présentant explicitement comme « powered land company » et finançant lui-même ses renforcements réseau n'est pas à l'abri de l'opposition locale ; Cloverleaf a déjà sécurisé un site de repli dans le comté voisin de Kingfisher, logique de double foncier à surveiller.",
-    "Marseille confirme son statut de pôle de foncier industriel reconverti pour les data centers en France : au-delà du dossier MRS5 de Digital Realty (friche de silos à sucre), Edged Energy avance via sa filiale ESL Properties sur la friche de l'ex-sucrerie Saint-Louis (11 ha, propriété de Brownfields depuis 2022), avec une concertation publique ouverte jusqu'au 24 novembre 2026 — deux dossiers parallèles sur le même port à suivre pour le sourcing.",
-    "Le calendrier du moratoire de Milwaukee se précise (commission d'urbanisme le 28 septembre, examen en commission le 6 octobre, vote du Common Council le 13 octobre), ce qui resserre la fenêtre pour évaluer le risque réglementaire sur le Wisconsin avant la fin d'année.",
-    "La dynamique mondiale de consolidation du foncier déjà énergisé se poursuit au-delà des points chauds habituels : en Australie-Méridionale, 1414 Degrees vient de prendre le contrôle intégral de son Aurora Energy Precinct (1 580 ha, jusqu'à 1 GW visé), une logique de consolidation similaire à celle du landbank britannique de Harworth Group ou du portefeuille Asie-Pacifique de Stack Infrastructure déjà suivis.",
-    "Malgré des recherches ciblées répétées (y compris des requêtes de type LinkedIn), aucune nouvelle acquisition de foncier énergisé n'a été identifiée cette semaine pour Polarise, Aurora Infra ou La Française de l'Énergie ; ces trois sociétés restent prioritaires pour les prochains cycles de veille."
+    "Nouveau type de foncier énergisé à surveiller aux États-Unis : Valar Atomics dépose auprès du BLM une demande sur ~9 000 acres de terres fédérales dans les comtés de Carbon et Emery (Utah) pour un campus combinant microréacteurs nucléaires (jusqu'à 9,6 GW à terme) et data center IA avec Nvidia — un modèle de « powered land » auto-généré (hors réseau) qui s'ajoute aux friches gaz/charbon/solaire déjà suivies dans l'Ouest américain, mais qui suscite déjà une opposition locale sur les risques nucléaires et le gaz naturel.",
+    "Rappel utile pour le sourcing : toutes les transactions foncières ne sont pas du « powered land » — la cession de 45,5 acres de Sunsuria à Amazon à Dengkil (Sepang, Selangor, ~75 M$) porte sur un terrain nu sans puissance mentionnée comme déjà sécurisée, à distinguer des dossiers où le raccordement ou la génération sur site sont déjà actés (Valar Atomics, Fervo/Cape Station, Algoma Steel, etc.).",
+    "En France, le cluster de friches industrielles reconverties continue de s'étoffer (Marseille avec les dossiers parallèles MRS5/Digital Realty et Edged Energy/ESL Properties, Trappes, Cagny, Blyes, Ingrandes-sur-Vienne, pipeline EDF à Montereau/Bouchain/Loire-sur-Rhône/Creys-Mépieu) : aucune actualité nouvelle identifiée aujourd'hui sur ces dossiers, mais le calendrier Marseille (enquête publique Edged Energy jusqu'au 24 novembre) reste la échéance la plus proche à surveiller.",
+    "Le calendrier du moratoire de Milwaukee (commission d'urbanisme passée le 28 septembre, vote du Common Council annoncé pour le 13 octobre) et l'audit TCEQ/ERCOT texan (rapport attendu avant le 19 octobre) restent les deux échéances réglementaires américaines les plus proches à surveiller pour évaluer le risque sur des dossiers de foncier déjà engagés.",
+    "Malgré des recherches ciblées répétées (y compris des requêtes de type LinkedIn), aucune nouvelle acquisition de foncier énergisé n'a été identifiée aujourd'hui pour Polarise, Aurora Infra ou La Française de l'Énergie ; ces trois sociétés restent prioritaires pour les prochains cycles de veille."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "États-Unis (comtés de Carbon et Emery, Utah) : Valar Atomics dépose une demande sur environ 9 000 acres de terres fédérales (BLM) pour son « Project Beehive », campus nucléaire-data center avec Nvidia",
+      "region": "Amérique du Nord",
+      "date": "2026-09-30",
+      "summary": "Valar Atomics a déposé auprès du Bureau of Land Management une première demande pour un campus industriel près de Price (Utah) sur environ 9 000 acres de terres fédérales, combinant à terme jusqu'à 456 microréacteurs nucléaires à gaz (9,6 GW visés) et un data center IA (30 MW en première phase) en partenariat avec Nvidia ; l'Utah Trust Lands Administration a par ailleurs approuvé un bail de 50 ans sur 640 acres supplémentaires à cheval sur les comtés de Carbon et Emery, dans un contexte d'opposition locale croissante face au recours au gaz naturel et à des technologies nucléaires expérimentales non éprouvées.",
+      "source": "KUER / KSL / East Idaho News",
+      "url": "https://www.kuer.org/business-economy/2026-09-30/valar-atomic-nuclear-data-center-project-beehive-utah",
+      "mw": 30,
+      "coords": [
+        39.5994,
+        -110.8107
+      ],
+      "poweredLand": true,
+      "owners": "Valar Atomics",
+      "investors": "Nvidia (partenaire technologique) · Sequoia Capital (Série B)"
+    },
     {
       "category": "land",
       "title": "États-Unis (Piedmont, Canadian County, Oklahoma) : le conseil municipal ajourne le volet urbanisme du méga-projet « Project Open Sky » de Cloverleaf (1,4 GW, 633 acres)",
@@ -23,6 +40,22 @@
       ],
       "poweredLand": true,
       "owners": "Cloverleaf Infrastructure",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Malaisie (Dengkil, Sepang, Selangor) : Amazon Data Services rachète 45,5 acres à Sunsuria pour environ 75 M$ en vue d'un data center",
+      "region": "Asie-Pacifique",
+      "date": "2026-09-28",
+      "summary": "Sunsuria Bhd a signé le 28 septembre un accord conditionnel de cession à Amazon Data Services Malaysia d'une parcelle nue de 45,46 acres (183 973 m²) à Mukim Dengkil (Sepang, Selangor), pour 316,84 M RM (environ 75 M$), un prix supérieur à l'expertise CBRE WTW ; la cession, qui ne mentionne pas de puissance déjà sécurisée, doit être finalisée au 2e trimestre 2027 sous réserve de l'accord des actionnaires de Sunsuria.",
+      "source": "The Star / The Edge Malaysia / Business Today",
+      "url": "https://www.thestar.com.my/business/business-news/2026/09/28/sunsuria-to-dispose-of-selangor-land-for-rm317mil",
+      "inv": 75,
+      "coords": [
+        2.8333,
+        101.7333
+      ],
+      "owners": "Sunsuria Bhd (vendeur) · Amazon Data Services Malaysia (acquéreur)",
       "investors": "n.c."
     },
     {
@@ -352,22 +385,6 @@
       "investors": "n.c."
     },
     {
-      "category": "construction",
-      "title": "Australie (Ettamogah, près d'Albury) : Sharon AI rachète l'ancienne papeterie Visy pour y installer un data center",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-16",
-      "summary": "Sharon AI a acquis le site industriel de l'ancienne usine de papier journal (Australian Newsprint Mills, puis Norske Skog, puis Visy) à Ettamogah, près d'Albury (Nouvelle-Galles du Sud), pour y développer une capacité de calcul IA ; Visy reste locataire d'une partie du site pour ses activités de logistique et d'entreposage.",
-      "source": "ABC News Australia",
-      "url": "https://www.abc.net.au/news/2026-09-16/visy-paper-mill-ettamogah-sharon-ai-computing/107150434",
-      "coords": [
-        -36.05,
-        146.95
-      ],
-      "poweredLand": true,
-      "owners": "Sharon AI",
-      "investors": "n.c."
-    },
-    {
       "category": "land",
       "title": "France (Étrechet, Indre) : la maire et quatre élus démissionnent contre le projet de data center géant de Google (195 ha)",
       "region": "France",
@@ -441,57 +458,6 @@
       "url": "https://www.datacenterdynamics.com/en/news/swi-invests-in-german-cloud-provider-polarise/",
       "owners": "Polarise Holding GmbH",
       "investors": "SWI Stoneweg Icona Group (dette)"
-    },
-    {
-      "category": "land",
-      "title": "Canada (Ontario, Sault-Sainte-Marie) : Algoma Steel et Red Jar Energy Partners confirment un projet de data center IA de 400 MW sur le site de l'aciérie",
-      "region": "Amérique du Nord",
-      "date": "2026-09-03",
-      "summary": "Algoma Steel et le développeur Red Jar Energy Partners ont confirmé étudier un data center IA de 400 MW adossé au site industriel de l'aciérie d'Algoma à Sault-Sainte-Marie (Ontario), avec une demande déjà déposée auprès du gestionnaire de réseau IESO ; mise en service visée au T4 2029 sous réserve des approbations municipales et du nouveau « Data Centre Playbook » provincial — un nouvel exemple de foncier industriel existant reconverti en site énergisé pour l'IA.",
-      "source": "DataCenterDynamics / SooToday / Northern Ontario Business",
-      "url": "https://www.datacenterdynamics.com/en/news/new-400mw-ai-data-center-planned-for-algoma-in-ontario-canada/",
-      "mw": 400,
-      "coords": [
-        46.5136,
-        -84.3358
-      ],
-      "poweredLand": true,
-      "owners": "Algoma Steel · Red Jar Energy Partners",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Australie (Aurora Energy Precinct, près de Port Augusta, Australie-Méridionale) : 1414 Degrees prend le contrôle intégral du site en vue d'un data center IA de 1 GW",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-01",
-      "summary": "1414 Degrees a racheté 100% de Vast Solar Aurora (placé en administration judiciaire), consolidant sous un seul propriétaire l'ensemble du foncier (1 580 hectares, jusqu'à 900 MW de potentiel solaire), des accords de raccordement et des autorisations de l'Aurora Energy Precinct, où un accord-cadre avec un opérateur de data centers vise un site IA pouvant atteindre 1 GW à terme, avec un premier parc de batteries de 140 MW/280 MWh déjà approuvé par le gestionnaire de réseau AEMO.",
-      "source": "Stockwirex / Grafa / 1414 Degrees",
-      "url": "https://stockwirex.com/?p=42126",
-      "mw": 1000,
-      "coords": [
-        -32.49,
-        137.76
-      ],
-      "poweredLand": true,
-      "owners": "1414 Degrees (SiliconAurora Pty Ltd)",
-      "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "Malaisie (Selangor) : DayOne et TNB étudient jusqu'à 1,5 GW de génération sur site pour le futur campus IA de DayOne",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-01",
-      "summary": "DayOne et TNB Power Generation (filiale de l'électricien malaisien TNB) ont signé un protocole d'accord pour étudier jusqu'à 1,5 GW de génération sur site et de stockage batterie destinés au campus IA que DayOne développe à Selangor, sur un terrain de 78,8 acres acquis le mois dernier auprès du promoteur Mah Sing ; ce partenariat s'ajoute à un accord antérieur de 1,5 GW solaire / 2,2 GWh de stockage déjà signé avec TNB en juin.",
-      "source": "DataCenterDynamics / PR Newswire",
-      "url": "https://www.datacenterdynamics.com/en/news/dayone-partners-with-tnb-to-develop-up-to-15gw-of-onsite-generation-for-planned-data-center-in-selangor-malaysia/",
-      "mw": 1500,
-      "coords": [
-        3.07,
-        101.52
-      ],
-      "poweredLand": true,
-      "owners": "DayOne",
-      "investors": "n.c."
     },
     {
       "category": "land",
