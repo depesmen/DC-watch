@@ -1,13 +1,81 @@
 {
-  "lastUpdated": "2026-10-02",
+  "lastUpdated": "2026-10-05",
   "keyTakeaways": [
-    "Nouveau type de foncier énergisé à surveiller aux États-Unis : Valar Atomics dépose auprès du BLM une demande sur ~9 000 acres de terres fédérales dans les comtés de Carbon et Emery (Utah) pour un campus combinant microréacteurs nucléaires (jusqu'à 9,6 GW à terme) et data center IA avec Nvidia — un modèle de « powered land » auto-généré (hors réseau) qui s'ajoute aux friches gaz/charbon/solaire déjà suivies dans l'Ouest américain, mais qui suscite déjà une opposition locale sur les risques nucléaires et le gaz naturel.",
-    "Rappel utile pour le sourcing : toutes les transactions foncières ne sont pas du « powered land » — la cession de 45,5 acres de Sunsuria à Amazon à Dengkil (Sepang, Selangor, ~75 M$) porte sur un terrain nu sans puissance mentionnée comme déjà sécurisée, à distinguer des dossiers où le raccordement ou la génération sur site sont déjà actés (Valar Atomics, Fervo/Cape Station, Algoma Steel, etc.).",
-    "En France, le cluster de friches industrielles reconverties continue de s'étoffer (Marseille avec les dossiers parallèles MRS5/Digital Realty et Edged Energy/ESL Properties, Trappes, Cagny, Blyes, Ingrandes-sur-Vienne, pipeline EDF à Montereau/Bouchain/Loire-sur-Rhône/Creys-Mépieu) : aucune actualité nouvelle identifiée aujourd'hui sur ces dossiers, mais le calendrier Marseille (enquête publique Edged Energy jusqu'au 24 novembre) reste la échéance la plus proche à surveiller.",
-    "Le calendrier du moratoire de Milwaukee (commission d'urbanisme passée le 28 septembre, vote du Common Council annoncé pour le 13 octobre) et l'audit TCEQ/ERCOT texan (rapport attendu avant le 19 octobre) restent les deux échéances réglementaires américaines les plus proches à surveiller pour évaluer le risque sur des dossiers de foncier déjà engagés.",
-    "Malgré des recherches ciblées répétées (y compris des requêtes de type LinkedIn), aucune nouvelle acquisition de foncier énergisé n'a été identifiée aujourd'hui pour Polarise, Aurora Infra ou La Française de l'Énergie ; ces trois sociétés restent prioritaires pour les prochains cycles de veille."
+    "Nouveau signal « powered land » majeur : Amazon a signé le 30 septembre un PPA nucléaire de 20 ans avec Constellation (690 MW, dont 190 MW de puissance nouvelle) sur le site existant de Calvert Cliffs (Maryland), plus de 3 Md$ d'investissement — illustration de la stratégie consistant à sécuriser de la capacité électrique dédiée sur un site de génération déjà en exploitation plutôt que d'attendre un raccordement réseau classique.",
+    "En France, après plusieurs semaines sans actualité nouvelle sur les friches industrielles suivies, Altarea/Nation Data Center a obtenu le 2 octobre le permis de construire définitif de son data center urbain de Vélizy-Villacoublay (7 MW) — un format plus modeste mais révélateur de la densification data center en zone déjà urbanisée d'Île-de-France, en complément des gros dossiers de friches (Trappes, Cagny, Marseille, EDF).",
+    "Aux États-Unis, Crusoe a déposé le 2 octobre un projet de 4,8 Md$ à Jayton (Kent County, Texas), présenté comme un site satellite du campus de 1,4 GW de Childress déjà raccordé via Lancium — un nouvel exemple de stratégie de « hub and spoke » foncier autour d'un site énergisé pivot, à surveiller pour la structuration de futurs dossiers similaires.",
+    "Amazon muscle sa communication locale (1 Md$ sur 5 ans pour les communautés hôtes, programme « Built Together ») en réponse directe à la centaine de moratoires actuellement envisagés aux États-Unis ; le calendrier du moratoire de Milwaukee (commission passée le 28 septembre, vote en commission attendu le 6 octobre, vote du Common Council le 13 octobre) et l'audit TCEQ/ERCOT texan (rapport attendu avant le 19 octobre) restent les deux échéances réglementaires les plus proches à surveiller pour le risque sur des dossiers de foncier déjà engagés.",
+    "Malgré des recherches ciblées répétées (y compris des requêtes de type LinkedIn), aucune nouvelle acquisition de foncier énergisé n'a été identifiée aujourd'hui pour Polarise, Aurora Infra ou La Française de l'Énergie (FDE) ; ces trois sociétés restent prioritaires pour les prochains cycles de veille."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "États-Unis (Jayton, Kent County, Texas) : Crusoe dépose un projet de campus de 4,8 Md$ (« Project Hyper », bâtiments satellites de Childress)",
+      "region": "Amérique du Nord",
+      "date": "2026-10-02",
+      "summary": "Crusoe a déposé une demande auprès du comté de Kent (Texas) pour deux bâtiments de data center de 759 260 pieds carrés chacun à Jayton, le long des Country Road 233 et P2390, pour un investissement total annoncé de 4,8 Md$ ; ces bâtiments sont présentés comme des « spur buildings » du Project Hyper, satellites du campus de 1,4 GW que Crusoe développe avec Lancium à Childress (270 acres déjà raccordés, Lancium gérant l'infrastructure énergétique du site) ; démarrage des travaux visé fin janvier 2027, mise en service en 2029.",
+      "source": "DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/crusoe-files-for-48bn-data-center-campus-in-jayton-texas/",
+      "inv": 4800,
+      "coords": [
+        33.2576,
+        -100.5668
+      ],
+      "owners": "Crusoe (promoteur) · Lancium (infrastructure énergétique, site voisin Childress)",
+      "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "États-Unis : face à la vague de moratoires, Amazon annonce 1 Md$ sur 5 ans pour les communautés hébergeant ses data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-10-02",
+      "summary": "AWS a annoncé le 2 octobre un engagement de plus de 1 Md$ sur cinq ans via son programme « Built Together » (formation professionnelle, préservation de l'eau, aide à la facture énergétique) autour de ses sites américains, alors que l'entreprise recense elle-même plus de 100 moratoires sur les data centers actuellement envisagés aux États-Unis ; un signal de la pression croissante de l'opposition locale sur l'ensemble des projets de foncier, y compris déjà engagés.",
+      "source": "24/7 Wall St. / Honolulu Star-Advertiser",
+      "url": "https://247wallst.com/investing/2026/10/04/amazon-is-spending-another-1-billion-on-ai-data-centers-but-this-time-its-not-buying-a-single-gpu/"
+    },
+    {
+      "category": "construction",
+      "title": "France (Vélizy-Villacoublay, Yvelines) : Altarea/Nation Data Center obtient le permis de construire définitif pour son premier data center urbain (7 MW)",
+      "region": "France",
+      "date": "2026-10-02",
+      "summary": "Nation Data Center (marque d'Altarea) a obtenu le permis de construire définitif de son premier data center urbain à Vélizy-Villacoublay (2 268 m², 7 MW IT, jusqu'à 1 152 baies), intégré à un projet de quartier mixte incluant une résidence étudiante développée par Cogedim ; livraison visée au second semestre 2027, avec récupération de chaleur vers le réseau de chauffage urbain de Vélizy.",
+      "source": "Bourse Direct / Altarea / bebeez",
+      "url": "https://bebeez.eu/2026/10/02/nation-data-center-breaks-ground-on-new-french-data-center-development/",
+      "mw": 7,
+      "coords": [
+        48.7833,
+        2.1833
+      ],
+      "owners": "Altarea (Nation Data Center)",
+      "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "États-Unis : les dépenses de construction de data centers atteignent 98,5 Md$ depuis janvier 2026, hausse des coûts de construction",
+      "region": "Amérique du Nord",
+      "date": "2026-10-01",
+      "summary": "Selon le rapport mensuel ConstructConnect d'octobre 2026, les dépenses cumulées de construction de data centers aux États-Unis depuis le début de l'année atteignent 98,5 Md$, dans un contexte de hausse continue des coûts de construction (matériaux, main-d'œuvre qualifiée, équipements électriques) qui pèse sur les budgets des projets de foncier déjà engagés.",
+      "source": "ConstructConnect",
+      "url": "https://news.constructconnect.com/october-2026-data-center-report-spending-reaches-98.5-billion-ytd-construction-costs-rise"
+    },
+    {
+      "category": "power",
+      "title": "États-Unis (Lusby, Maryland) : Amazon signe avec Constellation un PPA nucléaire de 20 ans sur 690 MW à Calvert Cliffs, plus de 3 Md$ d'investissement",
+      "region": "Amérique du Nord",
+      "date": "2026-09-30",
+      "summary": "Constellation Energy et Amazon ont annoncé le 30 septembre un accord d'achat d'électricité de 20 ans portant sur 690 MW à la centrale nucléaire de Calvert Cliffs (Lusby, Maryland), incluant une augmentation de puissance de 190 MW (relicensing de la centrale) permettant plus de 3 Md$ d'investissement dans l'infrastructure du Maryland d'ici 2030-2032 ; l'accord sécurise la capacité électrique nécessaire aux data centers d'Amazon dans la zone PJM (13 États) et donne à Constellation la visibilité financière pour prolonger l'exploitation du site de 20 ans supplémentaires.",
+      "source": "Constellation Energy / World Nuclear News / ESG Today",
+      "url": "https://www.constellationenergy.com/news/2026/09/constellation-and-amazon-announce-20-year-power-purchase-agreement-at-calvert-cliffs.html",
+      "mw": 690,
+      "inv": 3000,
+      "coords": [
+        38.4319,
+        -76.4422
+      ],
+      "poweredLand": true,
+      "owners": "Constellation Energy (site, Calvert Cliffs)",
+      "investors": "Amazon (acheteur PPA, 20 ans)"
+    },
     {
       "category": "land",
       "title": "États-Unis (comtés de Carbon et Emery, Utah) : Valar Atomics dépose une demande sur environ 9 000 acres de terres fédérales (BLM) pour son « Project Beehive », campus nucléaire-data center avec Nvidia",
@@ -60,15 +128,6 @@
     },
     {
       "category": "legislation",
-      "title": "États-Unis : lancement de l'« American Infrastructure Alliance », coalition inédite d'industriels IA, de fonds et de syndicats pour contrer les moratoires sur les data centers dans 7 États",
-      "region": "Amérique du Nord",
-      "date": "2026-09-28",
-      "summary": "OpenAI, SoftBank, Blackstone, QTS, CoreWeave, Prologis et d'autres se sont associés à des syndicats du bâtiment et de l'électricité (IBEW, SMART, UA) pour former l'American Infrastructure Alliance, une coalition dotée d'un budget de campagne à huit chiffres visant à négocier des standards d'implantation avec les élus locaux et à endiguer la vague de moratoires, avec de premières campagnes ciblées au Texas, en Géorgie, dans l'Ohio, l'Iowa, la Pennsylvanie, l'Indiana et la Caroline du Sud.",
-      "source": "Axios / Inc. / The Daily Caller",
-      "url": "https://www.axios.com/2026/09/28/ai-industry-unions-data-centers"
-    },
-    {
-      "category": "legislation",
       "title": "États-Unis (Milwaukee, Wisconsin) : la commission d'urbanisme examine un moratoire d'un an sur les data centers",
       "region": "Amérique du Nord",
       "date": "2026-09-28",
@@ -81,35 +140,6 @@
       ]
     },
     {
-      "category": "land",
-      "title": "Australie (Sydney) : Goodman abandonne son projet de data center de 842 M$ à Lane Cove après la contestation locale",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-28",
-      "summary": "Goodman Group a retiré sa demande de permis pour « Project Mars », un data center de 1,2 Md AUD (842 M$) à Lane Cove, dans la banlieue de Sydney, après l'opposition des riverains (bâtiment prévu à 20 mètres des habitations) ; lors d'une audition sénatoriale, Goodman a reconnu ne pas avoir obtenu de « permis social » pour le projet.",
-      "source": "Bloomberg / South China Morning Post / Reuters",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-28/goodman-pulls-sydney-data-center-plan-after-community-outcry",
-      "inv": 842
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Hermiston, Oregon) : un promoteur californien dépose un projet de data center sur des terres fédérales (BLM)",
-      "region": "Amérique du Nord",
-      "date": "2026-09-28",
-      "summary": "Le promoteur Copia a déposé une demande pour implanter le « Charlestown Data Center » (avec stockage batterie) sur 106 acres de terrain fédéral géré par le Bureau of Land Management près de Hermiston (Oregon) — l'un des 12 projets recensés sur plus de 17 500 acres de terres fédérales dans l'Ouest américain depuis le décret de juillet 2025 facilitant l'implantation de data centers sur foncier public.",
-      "source": "Oregon Capital Chronicle / East Oregonian / Portland Tribune",
-      "url": "https://oregoncapitalchronicle.com/2026/09/28/data-centers-proposed-on-federal-land-in-eastern-oregon-western-states/"
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Taylor, Texas) : une clause d'usage public contournée pour céder un terrain à la maison mère de Blueprint Data Centers, enquête du procureur général",
-      "region": "Amérique du Nord",
-      "date": "2026-09-26",
-      "summary": "À Taylor (Texas), une parcelle cédée en 1999 sous obligation d'usage en parc public a été revendue en 2025 pour 10 M$ à la maison mère de Blueprint Data Centers après modification de l'acte de propriété ; le procureur général du Texas Ken Paxton a ouvert une enquête sur la légalité de cette modification, contestée par des habitants.",
-      "source": "CNN",
-      "url": "https://www.cnn.com/2026/09/26/us/texas-data-center-park-deed",
-      "inv": 10
-    },
-    {
       "category": "legislation",
       "title": "États-Unis (St. Bernard, Ohio) : le conseil vote un moratoire de 12 mois sur les data centers, mais le projet sur l'ancienne usine de savon Ivorydale (P&G) continue d'être instruit",
       "region": "Amérique du Nord",
@@ -119,22 +149,6 @@
       "url": "https://www.wvxu.org/local-news/2026-09-24/st-bernard-approves-data-center-moratorium-ivorydale-proposal-could-still-happen",
       "poweredLand": true,
       "owners": "CAI Investments LLC (candidat)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Roanoke County, Virginie) : de nouveaux documents confirment la vente sous NDA de 94 acres au Wood Haven Technology Park pour un data center",
-      "region": "Amérique du Nord",
-      "date": "2026-09-24",
-      "summary": "De nouveaux documents publiés le 24 septembre confirment que l'accord d'achat de 94 acres au Wood Haven Technology Park, conclu par la Western Virginia Industrial Facility Authority avec la société Clearview Dynamics sous accord de confidentialité, vise bien un data center ; le parc (111 acres), propriété de l'autorité régionale depuis 2016 à la jonction des autoroutes I-81/I-581, dispose déjà de plus de 50 acres de foncier « pad-ready » raccordé aux réseaux, avec clôture de la vente visée en octobre 2027 sous réserve d'études techniques et environnementales.",
-      "source": "Cardinal News / WDBJ7 / WSLS",
-      "url": "https://cardinalnews.org/2026/09/22/wood-haven-project-in-roanoke-county-confirmed-as-potential-data-center-will-use-spring-hollow-water/",
-      "coords": [
-        37.325,
-        -79.995
-      ],
-      "poweredLand": true,
-      "owners": "Western Virginia Industrial Facility Authority (vendeur) · Clearview Dynamics (acquéreur pressenti)",
       "investors": "n.c."
     },
     {
@@ -308,15 +322,6 @@
       "investors": "n.c."
     },
     {
-      "category": "market",
-      "title": "États-Unis : 45 projets de data centers représentant 68 Md$ bloqués ou retardés par l'opposition locale au 2e trimestre 2026 (Data Center Watch)",
-      "region": "Amérique du Nord",
-      "date": "2026-09-21",
-      "summary": "Selon le groupe de recherche Data Center Watch (cité par Bloomberg), 45 projets de data centers représentant 68 Md$ ont été bloqués ou retardés par l'opposition locale entre avril et juin 2026, portant à près de 200 Md$ le montant total de projets perturbés au premier semestre 2026 ; plus de 30 États ont introduit ou adopté des règles sur l'implantation, l'électricité ou l'eau des data centers, et 843 groupes d'opposition sont désormais recensés dans 49 États.",
-      "source": "Bloomberg / Data Center Watch",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-21/new-data-centers-worth-68-billion-disrupted-in-us-data-show"
-    },
-    {
       "category": "construction",
       "title": "Australie (Loxford, Nouvelle-Galles du Sud) : AirTrunk dévoile un data center de 540 MW sur l'ancien site de la fonderie d'aluminium Hydro Aluminium à Kurri Kurri",
       "region": "Asie-Pacifique",
@@ -447,17 +452,6 @@
       ],
       "owners": "České Radiokomunikace (CRA, site) · Polarise (locataire de capacité)",
       "investors": "n.c."
-    },
-    {
-      "category": "competition",
-      "title": "Polarise convertit en financement par dette son accord d'investissement majoritaire avec SWI Stoneweg Icona Group",
-      "region": "Europe",
-      "date": "2026-09-09",
-      "summary": "Polarise et son actionnaire SWI Stoneweg Icona Group (coté Euronext Amsterdam) ont converti leur accord de prise de participation majoritaire annoncé en février 2026 (valorisation de Polarise à 0,5 Md€, engagement pouvant atteindre 1 Md€) en un financement par dette de plusieurs dizaines de millions d'euros, destiné à accélérer l'expansion du cloud IA souverain de Polarise en Europe, sans nouvelle acquisition foncière annoncée à ce stade.",
-      "source": "Dealroom / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/swi-invests-in-german-cloud-provider-polarise/",
-      "owners": "Polarise Holding GmbH",
-      "investors": "SWI Stoneweg Icona Group (dette)"
     },
     {
       "category": "land",
