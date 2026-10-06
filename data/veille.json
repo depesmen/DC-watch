@@ -1,13 +1,39 @@
 {
-  "lastUpdated": "2026-10-05",
+  "lastUpdated": "2026-10-06",
   "keyTakeaways": [
-    "Nouveau signal « powered land » majeur : Amazon a signé le 30 septembre un PPA nucléaire de 20 ans avec Constellation (690 MW, dont 190 MW de puissance nouvelle) sur le site existant de Calvert Cliffs (Maryland), plus de 3 Md$ d'investissement — illustration de la stratégie consistant à sécuriser de la capacité électrique dédiée sur un site de génération déjà en exploitation plutôt que d'attendre un raccordement réseau classique.",
-    "En France, après plusieurs semaines sans actualité nouvelle sur les friches industrielles suivies, Altarea/Nation Data Center a obtenu le 2 octobre le permis de construire définitif de son data center urbain de Vélizy-Villacoublay (7 MW) — un format plus modeste mais révélateur de la densification data center en zone déjà urbanisée d'Île-de-France, en complément des gros dossiers de friches (Trappes, Cagny, Marseille, EDF).",
-    "Aux États-Unis, Crusoe a déposé le 2 octobre un projet de 4,8 Md$ à Jayton (Kent County, Texas), présenté comme un site satellite du campus de 1,4 GW de Childress déjà raccordé via Lancium — un nouvel exemple de stratégie de « hub and spoke » foncier autour d'un site énergisé pivot, à surveiller pour la structuration de futurs dossiers similaires.",
-    "Amazon muscle sa communication locale (1 Md$ sur 5 ans pour les communautés hôtes, programme « Built Together ») en réponse directe à la centaine de moratoires actuellement envisagés aux États-Unis ; le calendrier du moratoire de Milwaukee (commission passée le 28 septembre, vote en commission attendu le 6 octobre, vote du Common Council le 13 octobre) et l'audit TCEQ/ERCOT texan (rapport attendu avant le 19 octobre) restent les deux échéances réglementaires les plus proches à surveiller pour le risque sur des dossiers de foncier déjà engagés.",
+    "Nouveau signal « powered land » côté expansion : Skybox Datacenters et Prologis ont déposé le permis d'un 4e bâtiment (550 M$) sur leur PowerCampus de Hutto (Texas), un site de 220 acres sécurisé depuis 2022 avec deux postes dédiés de 300 MW chacun sur un corridor 345 kV — rappel que l'essentiel de la valeur du foncier déjà énergisé se capture aussi par la densification de campus existants, pas seulement par de nouvelles acquisitions.",
+    "Signal de marché à surveiller pour le financement du foncier+power : SB Energy (filiale data center de SoftBank, backlog de 439 Md$ très concentré sur OpenAI) a repoussé son IPO de plus de 50 Md$ face à la méfiance des investisseurs, tandis que le singapourien DayOne Data Centers maintient son calendrier d'introduction au Nasdaq (DODC, jusqu'à 5 Md$ levés) — un écart qui traduit une sélectivité croissante des marchés financiers sur les opérateurs sans actifs encore en exploitation.",
+    "Aujourd'hui 6 octobre : échéance clé du calendrier Milwaukee, avec l'examen/vote attendu en commission Zoning, Neighborhoods and Development sur le moratorium data center (après l'aval unanime de la City Plan Commission le 28 septembre) ; l'audit TCEQ/ERCOT texan reste lui attendu avant le 19 octobre — deux échéances réglementaires à surveiller pour le risque sur des dossiers de foncier déjà engagés.",
+    "En France, aucune actualité foncière nouvelle identifiée aujourd'hui au-delà des dossiers déjà suivis (Vélizy, Trappes, Cagny, Marseille, Blyes, Ingrandes, EDF, ÆTHER Strasbourg) ; à noter que la centrale de Cordemais (EDF), parfois citée comme friche potentielle, est confirmée orientée vers une usine de préfabrication de tuyauterie nucléaire Framatome et non vers un data center.",
     "Malgré des recherches ciblées répétées (y compris des requêtes de type LinkedIn), aucune nouvelle acquisition de foncier énergisé n'a été identifiée aujourd'hui pour Polarise, Aurora Infra ou La Française de l'Énergie (FDE) ; ces trois sociétés restent prioritaires pour les prochains cycles de veille."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "États-Unis (Hutto, Williamson County, Texas) : Skybox/Prologis déposent le permis d'un 4e bâtiment (550 M$) sur leur PowerCampus de 600 MW",
+      "region": "Amérique du Nord",
+      "date": "2026-10",
+      "summary": "Skybox Datacenters et Prologis ont déposé auprès du Texas Department of Licensing and Regulation le dossier de « Hutto 4 », un bâtiment de 846 300 pieds carrés (550 M$ d'investissement, travaux janvier 2027 – octobre 2028) sur leur PowerCampus de Hutto, site de 220 acres sécurisé depuis 2022 le long d'un corridor de transport 345 kV et doté de deux postes électriques dédiés de 300 MW chacun ; le campus complet vise 600 MW IT sur environ 3,88 millions de pieds carrés, et ce 4e bâtiment sera le plus grand des quatre déjà déposés.",
+      "source": "DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/skybox-prologis-file-for-fourth-data-center-in-hutto-texas",
+      "inv": 550,
+      "coords": [
+        30.5427,
+        -97.5547
+      ],
+      "poweredLand": true,
+      "owners": "Skybox Datacenters · Prologis",
+      "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "États-Unis/Asie : les introductions en bourse de data centers testent la méfiance des investisseurs (IPO de SB Energy/SoftBank retardée, DayOne Data Centers maintient son calendrier)",
+      "region": "Amérique du Nord",
+      "date": "2026-10",
+      "summary": "SB Energy, filiale data center de SoftBank valorisée à plus de 50 Md$ et dont le carnet de commandes de 439 Md$ dépend fortement d'un seul client (OpenAI, 17 baux représentant environ 8 GW dans l'Ohio), a repoussé son introduction en bourse de septembre à la mi/fin octobre face aux doutes des investisseurs sur sa valorisation alors qu'aucun de ses data centers n'est encore en exploitation ; dans le même temps, le singapourien DayOne Data Centers (soutenu par Coatue et Hillhouse) prévoit de rendre public mi-octobre son dossier d'introduction au Nasdaq (ticker DODC) pour lever jusqu'à 5 Md$ — un signal de sélectivité croissante des marchés de capitaux sur les opérateurs sans actifs déjà en exploitation, à surveiller pour l'arbitrage financement propre vs. partenariats sur le foncier déjà énergisé.",
+      "source": "Cryptobriefing / BGOV / The Star",
+      "url": "https://cryptobriefing.com/softbank-sb-energy-ipo-delay/"
+    },
     {
       "category": "land",
       "title": "États-Unis (Jayton, Kent County, Texas) : Crusoe dépose un projet de campus de 4,8 Md$ (« Project Hyper », bâtiments satellites de Childress)",
@@ -25,15 +51,6 @@
       "investors": "n.c."
     },
     {
-      "category": "market",
-      "title": "États-Unis : face à la vague de moratoires, Amazon annonce 1 Md$ sur 5 ans pour les communautés hébergeant ses data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-10-02",
-      "summary": "AWS a annoncé le 2 octobre un engagement de plus de 1 Md$ sur cinq ans via son programme « Built Together » (formation professionnelle, préservation de l'eau, aide à la facture énergétique) autour de ses sites américains, alors que l'entreprise recense elle-même plus de 100 moratoires sur les data centers actuellement envisagés aux États-Unis ; un signal de la pression croissante de l'opposition locale sur l'ensemble des projets de foncier, y compris déjà engagés.",
-      "source": "24/7 Wall St. / Honolulu Star-Advertiser",
-      "url": "https://247wallst.com/investing/2026/10/04/amazon-is-spending-another-1-billion-on-ai-data-centers-but-this-time-its-not-buying-a-single-gpu/"
-    },
-    {
       "category": "construction",
       "title": "France (Vélizy-Villacoublay, Yvelines) : Altarea/Nation Data Center obtient le permis de construire définitif pour son premier data center urbain (7 MW)",
       "region": "France",
@@ -48,15 +65,6 @@
       ],
       "owners": "Altarea (Nation Data Center)",
       "investors": "n.c."
-    },
-    {
-      "category": "market",
-      "title": "États-Unis : les dépenses de construction de data centers atteignent 98,5 Md$ depuis janvier 2026, hausse des coûts de construction",
-      "region": "Amérique du Nord",
-      "date": "2026-10-01",
-      "summary": "Selon le rapport mensuel ConstructConnect d'octobre 2026, les dépenses cumulées de construction de data centers aux États-Unis depuis le début de l'année atteignent 98,5 Md$, dans un contexte de hausse continue des coûts de construction (matériaux, main-d'œuvre qualifiée, équipements électriques) qui pèse sur les budgets des projets de foncier déjà engagés.",
-      "source": "ConstructConnect",
-      "url": "https://news.constructconnect.com/october-2026-data-center-report-spending-reaches-98.5-billion-ytd-construction-costs-rise"
     },
     {
       "category": "power",
