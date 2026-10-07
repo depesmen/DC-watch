@@ -1,38 +1,65 @@
 {
-  "lastUpdated": "2026-10-06",
+  "lastUpdated": "2026-10-07",
   "keyTakeaways": [
-    "Nouveau signal « powered land » côté expansion : Skybox Datacenters et Prologis ont déposé le permis d'un 4e bâtiment (550 M$) sur leur PowerCampus de Hutto (Texas), un site de 220 acres sécurisé depuis 2022 avec deux postes dédiés de 300 MW chacun sur un corridor 345 kV — rappel que l'essentiel de la valeur du foncier déjà énergisé se capture aussi par la densification de campus existants, pas seulement par de nouvelles acquisitions.",
-    "Signal de marché à surveiller pour le financement du foncier+power : SB Energy (filiale data center de SoftBank, backlog de 439 Md$ très concentré sur OpenAI) a repoussé son IPO de plus de 50 Md$ face à la méfiance des investisseurs, tandis que le singapourien DayOne Data Centers maintient son calendrier d'introduction au Nasdaq (DODC, jusqu'à 5 Md$ levés) — un écart qui traduit une sélectivité croissante des marchés financiers sur les opérateurs sans actifs encore en exploitation.",
-    "Aujourd'hui 6 octobre : échéance clé du calendrier Milwaukee, avec l'examen/vote attendu en commission Zoning, Neighborhoods and Development sur le moratorium data center (après l'aval unanime de la City Plan Commission le 28 septembre) ; l'audit TCEQ/ERCOT texan reste lui attendu avant le 19 octobre — deux échéances réglementaires à surveiller pour le risque sur des dossiers de foncier déjà engagés.",
-    "En France, aucune actualité foncière nouvelle identifiée aujourd'hui au-delà des dossiers déjà suivis (Vélizy, Trappes, Cagny, Marseille, Blyes, Ingrandes, EDF, ÆTHER Strasbourg) ; à noter que la centrale de Cordemais (EDF), parfois citée comme friche potentielle, est confirmée orientée vers une usine de préfabrication de tuyauterie nucléaire Framatome et non vers un data center.",
+    "Nouveau signal « powered land » majeur côté power : Google et Constellation Energy ont signé le 6 octobre un accord de 3,6 GW dans la zone PJM (890 MW de nouvelle capacité nucléaire via uprates sur 11 réacteurs, 4,3 Md$ d'investissement, plus 2,7 GW complémentaires), une réponse directe à la proposition « bring your own power » de PJM — confirmation que la capacité déjà raccordée (nucléaire/gaz existants) devient l'actif le plus recherché, bien avant le foncier brut.",
+    "Autre illustration que la valeur du foncier déjà énergisé peut croître sans nouvelle acquisition : TeraWulf a doublé le 5 octobre la puissance contractée de son campus Muskie (Grayson, Kentucky) à 1 GW auprès de Kentucky Power et avancé d'un an sa 2e tranche — un renforcement de contrat sur un site déjà sécurisé plutôt qu'une expansion foncière.",
+    "La bataille d'acceptabilité sociale continue de peser sur le sourcing : Amazon a annoncé le 2 octobre plus de 1 Md$ sur 5 ans pour les communautés hôtes de ses data centers (programme « Built Together »), tandis qu'à Milwaukee la commission d'urbanisme a dû reporter au 6 octobre son vote sur le moratoire, une audience publique étant désormais exigée avant un vote du Common Council attendu le 13 octobre ; l'audit TCEQ/ERCOT texan reste lui attendu avant le 19 octobre.",
+    "En Europe, l'Espagne referme sa consultation publique sur un projet de décret imposant certains des seuils PUE/WUE les plus stricts du continent ainsi que des exigences de souveraineté, avec une entrée en vigueur visée avant fin 2026 — un facteur de différenciation à suivre pour l'attractivité du foncier énergisé ibérique face à la France et aux Hauts-de-France.",
     "Malgré des recherches ciblées répétées (y compris des requêtes de type LinkedIn), aucune nouvelle acquisition de foncier énergisé n'a été identifiée aujourd'hui pour Polarise, Aurora Infra ou La Française de l'Énergie (FDE) ; ces trois sociétés restent prioritaires pour les prochains cycles de veille."
   ],
   "items": [
     {
-      "category": "land",
-      "title": "États-Unis (Hutto, Williamson County, Texas) : Skybox/Prologis déposent le permis d'un 4e bâtiment (550 M$) sur leur PowerCampus de 600 MW",
+      "category": "power",
+      "title": "États-Unis (zone PJM, Illinois/New Jersey/Pennsylvanie) : Google signe avec Constellation un accord de 3,6 GW incluant 890 MW de nouvelle capacité nucléaire et 4,3 Md$ d'investissement",
       "region": "Amérique du Nord",
-      "date": "2026-10",
-      "summary": "Skybox Datacenters et Prologis ont déposé auprès du Texas Department of Licensing and Regulation le dossier de « Hutto 4 », un bâtiment de 846 300 pieds carrés (550 M$ d'investissement, travaux janvier 2027 – octobre 2028) sur leur PowerCampus de Hutto, site de 220 acres sécurisé depuis 2022 le long d'un corridor de transport 345 kV et doté de deux postes électriques dédiés de 300 MW chacun ; le campus complet vise 600 MW IT sur environ 3,88 millions de pieds carrés, et ce 4e bâtiment sera le plus grand des quatre déjà déposés.",
-      "source": "DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/skybox-prologis-file-for-fourth-data-center-in-hutto-texas",
-      "inv": 550,
+      "date": "2026-10-06",
+      "summary": "Google et Constellation Energy ont annoncé le 6 octobre un accord d'approvisionnement électrique de 3,6 GW dans la zone PJM : un PPA nucléaire de 20 ans sur 890 MW de capacité additionnelle (uprates sur 11 réacteurs en Illinois, au New Jersey et en Pennsylvanie, 4,3 Md$ d'investissement, 4 400 emplois sécurisés et 7 200 créés) complété par un contrat de 15 ans sur 2,7 GW supplémentaires issus du parc nucléaire et gaz de Constellation ; l'accord répond à la proposition « bring your own power » de PJM qui impose aux data centers d'apporter leur propre puissance sous peine de délestage en période de pointe.",
+      "source": "CNBC / Constellation Energy / DataCenterDynamics",
+      "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
+      "mw": 3600,
+      "inv": 4300,
+      "poweredLand": true,
+      "owners": "Constellation Energy (parc nucléaire/gaz PJM)",
+      "investors": "Google (acheteur PPA)"
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Milwaukee, Wisconsin) : la commission d'urbanisme ajourne son vote sur le moratoire data center, audience publique désormais requise avant un vote du Common Council le 13 octobre",
+      "region": "Amérique du Nord",
+      "date": "2026-10-06",
+      "summary": "La commission Zoning, Neighborhoods and Development du Common Council de Milwaukee a reporté le 6 octobre son vote sur le moratoire d'un an sur les data centers (dossier n°251924), le city attorney ayant signalé qu'une audience publique formelle est requise par la loi de l'État avant toute adoption ; le vote en séance plénière du Common Council, initialement anticipé, est désormais attendu le 13 octobre, avec une audience publique possible dès le mois prochain.",
+      "source": "CBS58 / Urban Milwaukee",
+      "url": "https://www.cbs58.com/news/milwaukee-common-council-postpones-vote-on-proposed-data-center-moratorium",
       "coords": [
-        30.5427,
-        -97.5547
+        43.0389,
+        -87.9065
+      ]
+    },
+    {
+      "category": "construction",
+      "title": "États-Unis (Grayson, Kentucky) : TeraWulf double la puissance contractée de son campus Muskie à 1 GW et avance la 2e phase à 2029",
+      "region": "Amérique du Nord",
+      "date": "2026-10-05",
+      "summary": "TeraWulf a finalisé avec Kentucky Power (filiale d'AEP) un avenant portant la puissance électrique contractée de son campus IA/HPC Muskie Data Campus à Grayson (environ 285 acres déjà sécurisés) de 500 MW à 1 GW, avec avancement de la 2e tranche de 500 MW à 2029 (1re tranche maintenue en 2028) et une option d'extension jusqu'à 2 GW ; l'accord prévoit 100 M$ de crédits sur facture hivernale pour les clients résidentiels de Kentucky Power sur 10 ans — illustration que la valeur d'un foncier déjà énergisé peut aussi croître par renégociation de contrat, sans nouvelle acquisition.",
+      "source": "AEP / TipRanks / Cryptobriefing",
+      "url": "https://www.aep.com/news/stories/view/12292/",
+      "mw": 1000,
+      "coords": [
+        38.3326,
+        -82.9476
       ],
       "poweredLand": true,
-      "owners": "Skybox Datacenters · Prologis",
+      "owners": "TeraWulf",
       "investors": "n.c."
     },
     {
       "category": "market",
-      "title": "États-Unis/Asie : les introductions en bourse de data centers testent la méfiance des investisseurs (IPO de SB Energy/SoftBank retardée, DayOne Data Centers maintient son calendrier)",
+      "title": "États-Unis : Amazon annonce un programme « Built Together » de plus de 1 Md$ sur 5 ans pour les communautés hébergeant ses data centers",
       "region": "Amérique du Nord",
-      "date": "2026-10",
-      "summary": "SB Energy, filiale data center de SoftBank valorisée à plus de 50 Md$ et dont le carnet de commandes de 439 Md$ dépend fortement d'un seul client (OpenAI, 17 baux représentant environ 8 GW dans l'Ohio), a repoussé son introduction en bourse de septembre à la mi/fin octobre face aux doutes des investisseurs sur sa valorisation alors qu'aucun de ses data centers n'est encore en exploitation ; dans le même temps, le singapourien DayOne Data Centers (soutenu par Coatue et Hillhouse) prévoit de rendre public mi-octobre son dossier d'introduction au Nasdaq (ticker DODC) pour lever jusqu'à 5 Md$ — un signal de sélectivité croissante des marchés de capitaux sur les opérateurs sans actifs déjà en exploitation, à surveiller pour l'arbitrage financement propre vs. partenariats sur le foncier déjà énergisé.",
-      "source": "Cryptobriefing / BGOV / The Star",
-      "url": "https://cryptobriefing.com/softbank-sb-energy-ipo-delay/"
+      "date": "2026-10-02",
+      "summary": "Face à la contestation politique croissante autour des data centers IA, Amazon Web Services a annoncé le 2 octobre un programme de plus de 1 Md$ sur cinq ans ciblant l'éducation/formation (accès gratuit à la community college pour environ 300 000 étudiants), l'accessibilité énergétique (économies estimées à 700 $/an par foyer via des travaux d'efficacité) et l'eau (plus de 8 milliards de gallons restitués par an, objectif water-positive dès 2030) ; un signal de l'intensification de la bataille d'acceptabilité sociale qui pèse aussi sur le sourcing de foncier et de puissance.",
+      "source": "ABC News / AWS / Cryptobriefing",
+      "url": "https://abcnews.com/Business/wireStory/amazon-invest-1b-data-center-communities-amid-backlash-136948782"
     },
     {
       "category": "land",
@@ -64,6 +91,23 @@
         2.1833
       ],
       "owners": "Altarea (Nation Data Center)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Hutto, Williamson County, Texas) : Skybox/Prologis déposent le permis d'un 4e bâtiment (550 M$) sur leur PowerCampus de 600 MW",
+      "region": "Amérique du Nord",
+      "date": "2026-10",
+      "summary": "Skybox Datacenters et Prologis ont déposé auprès du Texas Department of Licensing and Regulation le dossier de « Hutto 4 », un bâtiment de 846 300 pieds carrés (550 M$ d'investissement, travaux janvier 2027 – octobre 2028) sur leur PowerCampus de Hutto, site de 220 acres sécurisé depuis 2022 le long d'un corridor de transport 345 kV et doté de deux postes électriques dédiés de 300 MW chacun ; le campus complet vise 600 MW IT sur environ 3,88 millions de pieds carrés, et ce 4e bâtiment sera le plus grand des quatre déjà déposés.",
+      "source": "DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/skybox-prologis-file-for-fourth-data-center-in-hutto-texas",
+      "inv": 550,
+      "coords": [
+        30.5427,
+        -97.5547
+      ],
+      "poweredLand": true,
+      "owners": "Skybox Datacenters · Prologis",
       "investors": "n.c."
     },
     {
@@ -136,31 +180,6 @@
     },
     {
       "category": "legislation",
-      "title": "États-Unis (Milwaukee, Wisconsin) : la commission d'urbanisme examine un moratoire d'un an sur les data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-09-28",
-      "summary": "La City Plan Commission de Milwaukee a examiné le 28 septembre le dossier n°251924 porté par l'élue Marina Dimitrijevic, qui instaurerait une pause d'un an sur l'implantation et l'extension de data centers le temps que le code de zonage soit adapté pour réguler cet usage ; Milwaukee rejoint Madison et Superior parmi les villes du Wisconsin ayant engagé une démarche de moratoire en 2026.",
-      "source": "Urban Milwaukee",
-      "url": "https://urbanmilwaukee.com/?p=1001714",
-      "coords": [
-        43.0389,
-        -87.9065
-      ]
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (St. Bernard, Ohio) : le conseil vote un moratoire de 12 mois sur les data centers, mais le projet sur l'ancienne usine de savon Ivorydale (P&G) continue d'être instruit",
-      "region": "Amérique du Nord",
-      "date": "2026-09-24",
-      "summary": "Le conseil municipal de St. Bernard (Ohio, banlieue de Cincinnati) a voté à l'unanimité le 24 septembre un moratoire de 12 mois sur les nouveaux data centers ; la commission de zonage continuera néanmoins d'instruire la demande déposée par CAI Investments LLC pour un data center d'environ 14 000 m² sur l'ancien site de savonnerie Ivorydale de Procter & Gamble (fermé en 2024), car son dossier a été déposé avant l'adoption du moratoire.",
-      "source": "WVXU / Citizen Portal",
-      "url": "https://www.wvxu.org/local-news/2026-09-24/st-bernard-approves-data-center-moratorium-ivorydale-proposal-could-still-happen",
-      "poweredLand": true,
-      "owners": "CAI Investments LLC (candidat)",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
       "title": "France (Fouju, Seine-et-Marne) : deux recours déposés contre le méga-projet de 11 data centers « Campus IA » (1,4 GW)",
       "region": "France",
       "date": "2026-09-24",
@@ -205,17 +224,6 @@
       "investors": "Google (acheteur PPA)"
     },
     {
-      "category": "power",
-      "title": "États-Unis : le DOE débloque 1,9 Md$ pour 31 projets de modernisation du réseau électrique (programme SPARK), 23 GW de capacité additionnelle visée",
-      "region": "Amérique du Nord",
-      "date": "2026-09-24",
-      "summary": "Le Department of Energy a annoncé le financement de 31 projets de « reconducting » (remplacement de câbles) dans 26 États pour un total de 5,25 Md$ avec cofinancement, devant libérer plus de 23 GW de capacité réseau supplémentaire alors que la demande électrique liée aux data centers IA explose ; les accords définitifs sont attendus entre octobre 2026 et janvier 2027.",
-      "source": "Data Center Dynamics / DOE / mgrid.org",
-      "url": "https://mgrid.org/2026/09/24/doe-picks-31-reconductoring-projects-in-26-states-and-puts-1-9-billion-against-23-gw-of-capacity/",
-      "mw": 23000,
-      "inv": 1900
-    },
-    {
       "category": "land",
       "title": "États-Unis (Brookwood, Alabama) : Applied Digital confirme un campus IA de 3,2 Md$ sur un site de 1 300 acres, travaux dès le 1er octobre",
       "region": "Amérique du Nord",
@@ -225,18 +233,6 @@
       "url": "https://www.wbrc.com/2026/09/24/applied-digital-confirms-32-billion-data-center-campus-brookwood/",
       "inv": 3200,
       "owners": "Applied Digital"
-    },
-    {
-      "category": "land",
-      "title": "Australie (Wagga Wagga, Nouvelle-Galles du Sud) : CDC Data Centres dépose un projet de campus de 1,4 GW (15 Md AUD) raccordé à un poste Transgrid 330 kV",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-24",
-      "summary": "CDC Data Centres a déposé les documents de cadrage pour un campus de quatre bâtiments (environ 189 000 m² au sol) sur 103,8 hectares à Gregadoo, au sud de Wagga Wagga, coût de développement estimé à 15 Md AUD (environ 9,9 Md$) ; le site serait raccordé à un poste électrique Transgrid 330 kV situé à 1,3 km, projet entrant dans le processus « State Significant Development » de la Nouvelle-Galles du Sud.",
-      "source": "w.media / Capital Brief",
-      "url": "https://w.media/cdc-plans-aud-15bn-1-4gw-data-centre-campus-near-wagga-wagga/",
-      "mw": 1400,
-      "inv": 9900,
-      "owners": "CDC Data Centres"
     },
     {
       "category": "legislation",
@@ -460,6 +456,15 @@
       ],
       "owners": "České Radiokomunikace (CRA, site) · Polarise (locataire de capacité)",
       "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "Espagne : consultation publique close sur le projet de décret royal imposant PUE 1,15 et WUE 0,1 aux data centers, entrée en vigueur visée avant fin 2026",
+      "region": "Europe",
+      "date": "2026-09",
+      "summary": "La consultation publique sur le projet de décret royal espagnol encadrant la durabilité énergétique, la résilience et la souveraineté numérique des data centers s'est achevée le 10 septembre ; le texte imposerait parmi les seuils les plus exigeants d'Europe (PUE 1,15, WUE 0,1, au moins 80% d'énergie renouvelable à chaque heure) ainsi que des exigences de souveraineté (opérateurs établis dans l'UE, données hébergées dans l'UE), via une procédure d'urgence visant une entrée en vigueur avant la fin de l'année — un facteur à surveiller pour l'attractivité du foncier énergisé espagnol, marché jusqu'ici porté par les renouvelables et le foncier disponible.",
+      "source": "Clifford Chance / A&O Shearman / Carbon Pulse",
+      "url": "https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2026/09/Spain-proposes-new-data-centre-regulation.pdf"
     },
     {
       "category": "land",
