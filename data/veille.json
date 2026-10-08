@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-07",
+  "lastUpdated": "2026-10-08",
   "keyTakeaways": [
-    "Nouveau signal « powered land » majeur côté power : Google et Constellation Energy ont signé le 6 octobre un accord de 3,6 GW dans la zone PJM (890 MW de nouvelle capacité nucléaire via uprates sur 11 réacteurs, 4,3 Md$ d'investissement, plus 2,7 GW complémentaires), une réponse directe à la proposition « bring your own power » de PJM — confirmation que la capacité déjà raccordée (nucléaire/gaz existants) devient l'actif le plus recherché, bien avant le foncier brut.",
-    "Autre illustration que la valeur du foncier déjà énergisé peut croître sans nouvelle acquisition : TeraWulf a doublé le 5 octobre la puissance contractée de son campus Muskie (Grayson, Kentucky) à 1 GW auprès de Kentucky Power et avancé d'un an sa 2e tranche — un renforcement de contrat sur un site déjà sécurisé plutôt qu'une expansion foncière.",
-    "La bataille d'acceptabilité sociale continue de peser sur le sourcing : Amazon a annoncé le 2 octobre plus de 1 Md$ sur 5 ans pour les communautés hôtes de ses data centers (programme « Built Together »), tandis qu'à Milwaukee la commission d'urbanisme a dû reporter au 6 octobre son vote sur le moratoire, une audience publique étant désormais exigée avant un vote du Common Council attendu le 13 octobre ; l'audit TCEQ/ERCOT texan reste lui attendu avant le 19 octobre.",
-    "En Europe, l'Espagne referme sa consultation publique sur un projet de décret imposant certains des seuils PUE/WUE les plus stricts du continent ainsi que des exigences de souveraineté, avec une entrée en vigueur visée avant fin 2026 — un facteur de différenciation à suivre pour l'attractivité du foncier énergisé ibérique face à la France et aux Hauts-de-France.",
-    "Malgré des recherches ciblées répétées (y compris des requêtes de type LinkedIn), aucune nouvelle acquisition de foncier énergisé n'a été identifiée aujourd'hui pour Polarise, Aurora Infra ou La Française de l'Énergie (FDE) ; ces trois sociétés restent prioritaires pour les prochains cycles de veille."
+    "Nouveau signal « powered land » côté auto-génération : en Pennsylvanie, un promoteur indépendant (Hendricks Group Developers) négocie un campus IA de 1 GW adossé à sa propre centrale à gaz à cycle combiné sur une friche de 549 acres à Elizabeth Township — confirmation que même des acteurs non historiques du secteur cherchent désormais à sécuriser foncier ET production d'électricité en un seul montage, sans attendre de capacité réseau.",
+    "En Virginie, le montage du site Wood Haven (94 acres, échangeur I-81/581) via une société écran (Clearview Dynamics, créée en janvier 2026, sous NDA) dont l'adresse d'enregistrement coïncide avec celle du projet Google voisin de Botetourt illustre une pratique de sourcing à surveiller : les grands acheteurs de foncier énergisé masquent de plus en plus leur identité derrière des véhicules dédiés, ce qui complique l'identification précoce des opportunités ou de la concurrence.",
+    "Le gel des permis environnementaux au Texas (TCEQ) reste la principale zone d'incertitude réglementaire pour tout sourcing foncier dans l'État : le rapport d'étape au gouverneur Abbott est attendu avant le 19 octobre, sans date de reprise fixée, ce qui gèle de facto une partie du pipeline texan y compris pour la génération sur site/îlotée.",
+    "Malgré des recherches ciblées répétées (y compris des requêtes de type LinkedIn) sur Polarise, Aurora Infra et La Française de l'Énergie (FDE), aucune nouvelle acquisition ou annonce de foncier énergisé n'a pu être identifiée ni confirmée aujourd'hui pour ces trois sociétés ; elles restent prioritaires pour les prochains cycles de veille.",
+    "Peu d'actualité france/europe foncier confirmée sur les dernières 24-48h au-delà du dossier Fouju (recours juridiques en cours) et du pipeline EDF/Hauts-de-France déjà identifiés les jours précédents — aucun nouvel élément daté et vérifiable n'a pu être ajouté sans risque d'invention, signe que le marché français est actuellement plus dans une phase d'instruction administrative que d'annonces nouvelles."
   ],
   "items": [
     {
@@ -108,6 +108,23 @@
       ],
       "poweredLand": true,
       "owners": "Skybox Datacenters · Prologis",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Elizabeth Township, comté d'Allegheny, Pennsylvanie) : un promoteur négocie un campus IA de 1 GW avec centrale au gaz sur une friche de 549 acres",
+      "region": "Amérique du Nord",
+      "date": "2026-10",
+      "summary": "Des documents obtenus par PublicSource (demande Right-to-Know) révèlent que le promoteur Tim Hendricks (Hendricks Group Developers, Bucks County) négocie avec Elizabeth Township un campus data center de 3,7 millions de pieds carrés (11 à 28 bâtiments) sur un site de 549 acres le long de Henderson Road, près de la rivière Youghiogheny, alimenté par une centrale au gaz à cycle combiné construite sur site et un circuit d'eau en boucle fermée ; le canton en a pris connaissance lors d'une réunion le 15 septembre, le projet promettrait jusqu'à 125 M$ de recettes fiscales, et une réunion publique est prévue le 13 octobre.",
+      "source": "PublicSource / CBS News Pittsburgh",
+      "url": "https://www.publicsource.org/elizabeth-township-data-center-gas-plant/",
+      "mw": 1000,
+      "coords": [
+        40.2667,
+        -79.8886
+      ],
+      "poweredLand": true,
+      "owners": "Hendricks Group Developers, LLC (Tim Hendricks)",
       "investors": "n.c."
     },
     {
@@ -271,6 +288,17 @@
       "mw": 640,
       "poweredLand": true,
       "owners": "BDx Data Centers",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Roanoke County, Virginie) : la collectivité signe un accord de vente de 94 acres à Wood Haven Technology Park à la société écran Clearview Dynamics, lien possible avec Google",
+      "region": "Amérique du Nord",
+      "date": "2026-09-22",
+      "summary": "La Western Virginia Regional Industrial Facility Authority (copropriété des villes de Roanoke, Salem et du comté de Roanoke) a confirmé le 22 septembre un accord de vente portant sur 94 des 111 acres du Wood Haven Technology Park (échangeur I-81/581), en vue d'un data center ; l'acquéreur Clearview Dynamics, société créée en janvier 2026, utiliserait l'eau du réservoir de Spring Hollow et financerait lui-même les besoins en eau et en électricité du site, sans puissance encore sécurisée. Le mandataire de Clearview Dynamics a refusé de confirmer ou de démentir un lien avec Google, dont le projet voisin du comté de Botetourt partage la même adresse d'enregistrement.",
+      "source": "WDBJ7 / Cardinal News",
+      "url": "https://www.wdbj7.com/2026/09/22/data-center-being-considered-roanoke-wood-haven-technology-park-authority-says/",
+      "owners": "Western Virginia Regional Industrial Facility Authority (vendeur) · Clearview Dynamics (acquéreur pressenti)",
       "investors": "n.c."
     },
     {
@@ -455,64 +483,6 @@
         14.3396
       ],
       "owners": "České Radiokomunikace (CRA, site) · Polarise (locataire de capacité)",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "Espagne : consultation publique close sur le projet de décret royal imposant PUE 1,15 et WUE 0,1 aux data centers, entrée en vigueur visée avant fin 2026",
-      "region": "Europe",
-      "date": "2026-09",
-      "summary": "La consultation publique sur le projet de décret royal espagnol encadrant la durabilité énergétique, la résilience et la souveraineté numérique des data centers s'est achevée le 10 septembre ; le texte imposerait parmi les seuils les plus exigeants d'Europe (PUE 1,15, WUE 0,1, au moins 80% d'énergie renouvelable à chaque heure) ainsi que des exigences de souveraineté (opérateurs établis dans l'UE, données hébergées dans l'UE), via une procédure d'urgence visant une entrée en vigueur avant la fin de l'année — un facteur à surveiller pour l'attractivité du foncier énergisé espagnol, marché jusqu'ici porté par les renouvelables et le foncier disponible.",
-      "source": "Clifford Chance / A&O Shearman / Carbon Pulse",
-      "url": "https://www.cliffordchance.com/content/dam/cliffordchance/briefings/2026/09/Spain-proposes-new-data-centre-regulation.pdf"
-    },
-    {
-      "category": "land",
-      "title": "France (Marseille, 15e arrondissement) : Edged Energy (ESL Properties) avance sur la friche de l'ex-sucrerie Saint-Louis, enquête publique jusqu'au 24 novembre",
-      "region": "France",
-      "date": "2026-09",
-      "summary": "Sur les 11 hectares de l'ancienne sucrerie Saint-Louis (fermée en 2015, rachetée en 2022 par Brownfields) près du port de Marseille-Fos, le projet de data center d'Edged Energy (via sa filiale ESL Properties) est soumis à la concertation publique jusqu'au 24 novembre 2026, aux côtés des futurs studios Mediterranean Studios et du parc d'activités Massilia Business Park déjà en travaux — un nouveau site de foncier industriel reconverti à Marseille, en complément du dossier MRS5 de Digital Realty sur une friche portuaire voisine.",
-      "source": "Made in Marseille",
-      "url": "https://madeinmarseille.net/?p=211327",
-      "coords": [
-        43.37,
-        5.37
-      ],
-      "poweredLand": true,
-      "owners": "Brownfields (foncier) · ESL Properties / Edged Energy (projet data center)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France (Blyes, Ain) : projet de data center de 130 MW (46 000 m²) au Parc industriel de la Plaine de l'Ain, réunion publique le 29 septembre",
-      "region": "France",
-      "date": "2026-09",
-      "summary": "La société PIPA-DC1 a déposé une demande d'autorisation environnementale pour un data center de 46 000 m² et 130 MW au sein du Parc industriel de la Plaine de l'Ain (Zac de la Baccolanche, Blyes), avec mise en service visée en 2029 ; la consultation du public se déroule du 6 juillet au 6 octobre 2026 et une réunion publique est prévue le 29 septembre, sur fond de craintes locales concernant l'eau, le paysage et les émissions de CO2 (74 groupes électrogènes diesel prévus en secours).",
-      "source": "Lyon Capitale / GROUPE ECOMEDIA / registre-dematerialise.fr",
-      "url": "https://www.lyoncapitale.fr/actualite/un-data-center-pourrait-simplanter-au-parc-industriel-de-la-plaine-de-lain",
-      "mw": 130,
-      "coords": [
-        45.858,
-        5.258
-      ],
-      "poweredLand": true,
-      "owners": "PIPA-DC1",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France (Ingrandes-sur-Vienne, Vienne) : après l'abandon d'un projet d'hydrogène vert, un data center IA se profile sur la friche des Fonderies du Poitou",
-      "region": "France",
-      "date": "2026-09",
-      "summary": "Sur le site des Fonderies du Poitou (environ 60 000 m² déconstruits en 2026), racheté en 2023 par les industriels TSE (électricité) et Lhyfe (hydrogène vert), le projet d'usine à hydrogène a été abandonné au profit d'un data center dédié à l'intelligence artificielle, dont le permis a été déposé à l'été 2026 pour une mise en service visée en 2028 ; un parc photovoltaïque de 28 MW doit également être installé sur le site.",
-      "source": "Titrespresse / France 3 Nouvelle-Aquitaine",
-      "url": "https://www.titrespresse.com/22086172603/poitou-ingrandes-data",
-      "coords": [
-        46.81,
-        0.6
-      ],
-      "poweredLand": true,
-      "owners": "TSE · Lhyfe (site, friche Fonderies du Poitou)",
       "investors": "n.c."
     },
     {
