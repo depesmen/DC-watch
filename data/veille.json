@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-08",
+  "lastUpdated": "2026-10-09",
   "keyTakeaways": [
-    "Nouveau signal « powered land » côté auto-génération : en Pennsylvanie, un promoteur indépendant (Hendricks Group Developers) négocie un campus IA de 1 GW adossé à sa propre centrale à gaz à cycle combiné sur une friche de 549 acres à Elizabeth Township — confirmation que même des acteurs non historiques du secteur cherchent désormais à sécuriser foncier ET production d'électricité en un seul montage, sans attendre de capacité réseau.",
-    "En Virginie, le montage du site Wood Haven (94 acres, échangeur I-81/581) via une société écran (Clearview Dynamics, créée en janvier 2026, sous NDA) dont l'adresse d'enregistrement coïncide avec celle du projet Google voisin de Botetourt illustre une pratique de sourcing à surveiller : les grands acheteurs de foncier énergisé masquent de plus en plus leur identité derrière des véhicules dédiés, ce qui complique l'identification précoce des opportunités ou de la concurrence.",
-    "Le gel des permis environnementaux au Texas (TCEQ) reste la principale zone d'incertitude réglementaire pour tout sourcing foncier dans l'État : le rapport d'étape au gouverneur Abbott est attendu avant le 19 octobre, sans date de reprise fixée, ce qui gèle de facto une partie du pipeline texan y compris pour la génération sur site/îlotée.",
-    "Malgré des recherches ciblées répétées (y compris des requêtes de type LinkedIn) sur Polarise, Aurora Infra et La Française de l'Énergie (FDE), aucune nouvelle acquisition ou annonce de foncier énergisé n'a pu être identifiée ni confirmée aujourd'hui pour ces trois sociétés ; elles restent prioritaires pour les prochains cycles de veille.",
-    "Peu d'actualité france/europe foncier confirmée sur les dernières 24-48h au-delà du dossier Fouju (recours juridiques en cours) et du pipeline EDF/Hauts-de-France déjà identifiés les jours précédents — aucun nouvel élément daté et vérifiable n'a pu être ajouté sans risque d'invention, signe que le marché français est actuellement plus dans une phase d'instruction administrative que d'annonces nouvelles."
+    "Malgré des recherches ciblées sur les dernières 24-72h, très peu d'actualités neuves et datées sont sorties depuis le 6 octobre : le cycle d'information ralentit nettement (creux habituel de week-end/début de semaine) plutôt qu'un signe de ralentissement réel du marché — les items les plus récents confirmés datent du 1er au 6 octobre.",
+    "Le programme fédéral américain SPARK du DOE (1,9 Md$ pour 31 projets de réseau dans 26 États, objectif +23 GW de capacité de transport) confirme que le desserrement des files d'attente de raccordement devient un axe d'action publique explicite aux États-Unis — un signal favorable à moyen terme pour la liquidité du foncier déjà énergisé, mais les accords définitifs ne sont attendus qu'entre octobre 2026 et janvier 2027.",
+    "La vague de moratoires et pauses municipales s'étoffe encore (Loudoun County en Virginie du Nord, 1er marché mondial, rejoint Chicago, Milwaukee, Prince William et New York) : le risque réglementaire local redevient un critère de sourcing aussi important que la disponibilité physique du foncier et de la puissance.",
+    "En Europe, le financement bancaire de 2,45 Md£ de Virtus (Royaume-Uni, expansion vers l'Allemagne, l'Italie et l'Espagne) illustre une consolidation capitalistique rapide du marché europén, en parallèle du pipeline français déjà identifié (SoftBank, Data4, Brookfield, AETHER) — la compétition pour le foncier énergisé s'intensifie à l'échelle du continent, pas seulement en France.",
+    "Toujours aucune nouvelle acquisition ou annonce de foncier énergisé identifiée aujourd'hui pour Polarise, Aurora Infra ou La Française de l'Énergie malgré des requêtes ciblées répétées (y compris LinkedIn) ; elles restent prioritaires pour les prochains cycles de veille."
   ],
   "items": [
     {
@@ -92,6 +92,19 @@
       ],
       "owners": "Altarea (Nation Data Center)",
       "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Aurora, Colorado) : un second projet de data center (« Aerotropolis Logistics Center », ~500 acres) identifié à côté du campus contesté « Trident » de Vantage",
+      "region": "Amérique du Nord",
+      "date": "2026-10-01",
+      "summary": "Alors que le maire d'Aurora qualifie le projet voisin « Trident » de Vantage Data Centers (campus près de Green Valley Ranch) de projet « à arrêter » face à la mobilisation des riverains, les autorités municipales ont identifié un second site d'environ 500 acres juste à côté du quartier The Aurora Highlands (Aerotropolis Logistics Center, à environ 5 km de l'aéroport de Denver) destiné à un futur data center ; aucune information sur les besoins en eau ou en électricité du site n'a encore été rendue publique, et le promoteur n'a pas répondu aux sollicitations de la presse locale.",
+      "source": "Colorado Politics / Denver Gazette",
+      "url": "https://www.coloradopolitics.com/2026/10/01/second-large-data-center-proposed-for-aurora-highlands-area/",
+      "coords": [
+        39.7294,
+        -104.8319
+      ]
     },
     {
       "category": "land",
@@ -196,6 +209,30 @@
       "investors": "n.c."
     },
     {
+      "category": "market",
+      "title": "Royaume-Uni : Virtus Data Centres sécurise un financement bancaire de 2,45 Md£ (3,25 Md$) pour son expansion au Royaume-Uni et en Europe",
+      "region": "Europe",
+      "date": "2026-09-25",
+      "summary": "Virtus Data Centres a conclu un financement bancaire de 2,45 Md£ (environ 3,25 Md$) auprès d'un consortium de 13 banques coordonné par BNP Paribas, Crédit Agricole CIB, Société Générale et Standard Chartered — l'un des plus gros financements bancaires de data centers jamais réalisés au Royaume-Uni ; les fonds cibleront le campus de Saunderton (78 MW, Buckinghamshire), l'extension de LONDON19 à Slough, ainsi que l'expansion du groupe en Allemagne (data center de 3 Md€), en Italie (première implantation) et en Espagne.",
+      "source": "DataCenterDynamics / Standard Chartered / Bisnow",
+      "url": "https://www.datacenterdynamics.com/en/news/virtus-secures-245bn-in-financing-for-data-center-build-out/",
+      "inv": 3250,
+      "owners": "Virtus Data Centres (STT GDC · Macquarie Asset Management)",
+      "investors": "Consortium de 13 banques (BNP Paribas, Crédit Agricole CIB, Société Générale, Standard Chartered...)"
+    },
+    {
+      "category": "land",
+      "title": "Malaisie (Negeri Sembilan) : Tera Data Centers acquiert 221,7 acres pour environ 250 M$",
+      "region": "Asie-Pacifique",
+      "date": "2026-09-25",
+      "summary": "Tera Data Centers a finalisé l'acquisition de 221,7 acres de terrain à Negeri Sembilan (Malaisie) pour environ 250 M$, un nouveau mouvement de sécurisation foncière dans le corridor malaisien qui concentre déjà plusieurs grands projets hyperscale (Amazon à Sepang, Johor Bahru) ; aucune puissance électrique déjà sécurisée n'est mentionnée à ce stade.",
+      "source": "Baxtel (weekly roundup)",
+      "url": "https://baxtel.com/news/category/roundups",
+      "inv": 250,
+      "owners": "Tera Data Centers",
+      "investors": "n.c."
+    },
+    {
       "category": "legislation",
       "title": "France (Fouju, Seine-et-Marne) : deux recours déposés contre le méga-projet de 11 data centers « Campus IA » (1,4 GW)",
       "region": "France",
@@ -250,6 +287,16 @@
       "url": "https://www.wbrc.com/2026/09/24/applied-digital-confirms-32-billion-data-center-campus-brookwood/",
       "inv": 3200,
       "owners": "Applied Digital"
+    },
+    {
+      "category": "power",
+      "title": "États-Unis : le DOE dévoile 1,9 Md$ (programme SPARK) pour 31 projets de réseau électrique dans 26 États afin d'accélérer les raccordements de data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-09-24",
+      "summary": "Le Department of Energy a sélectionné 31 projets de modernisation du réseau électrique (reconducteurs, technologies de renforcement de capacité, lignes de transport) dans 26 États pour 1,9 Md$ de financement fédéral (5,25 Md$ au total avec la contribution des bénéficiaires), avec un objectif de débloquer plus de 23 GW de capacité réseau supplémentaire ; les accords de financement définitifs sont attendus entre octobre 2026 et janvier 2027 — un signal direct pour le desserrement des files d'attente de raccordement qui freinent aujourd'hui le sourcing de foncier énergisé aux États-Unis.",
+      "source": "Department of Energy / DataCenterDynamics / Baxtel",
+      "url": "https://www.datacenterdynamics.com/en/news/doe-unveils-19bn-in-funding-for-31-grid-upgrade-projects-to-speed-data-center-connections/",
+      "inv": 1900
     },
     {
       "category": "legislation",
@@ -422,6 +469,19 @@
       "investors": "n.c."
     },
     {
+      "category": "legislation",
+      "title": "États-Unis (Loudoun County, Virginie) : le conseil des superviseurs vote l'avancement d'une pause de 12 mois sur les nouvelles demandes de data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-09-15",
+      "summary": "Le conseil des superviseurs du comté de Loudoun (premier marché mondial de data centers, Virginie du Nord) a voté 7 voix contre 1 (1 abstention) pour engager une pause pouvant aller jusqu'à 12 mois sur les nouvelles demandes de data centers, le temps d'élaborer un cadre réglementaire pérenne sur l'eau, l'électricité et le bruit ; la pause ne s'appliquerait qu'aux nouvelles demandes (les projets déjà engagés ne seraient pas affectés) et une résolution formelle doit être présentée lors d'une prochaine séance du conseil (20 octobre selon DataCenterDynamics).",
+      "source": "DataCenterDynamics / WJLA / Fox5DC",
+      "url": "https://datacenterdynamics.com/en/news/virginias-loudoun-county-board-votes-to-pause-new-data-center-applications",
+      "coords": [
+        39.1157,
+        -77.5636
+      ]
+    },
+    {
       "category": "land",
       "title": "France (Étrechet, Indre) : la maire et quatre élus démissionnent contre le projet de data center géant de Google (195 ha)",
       "region": "France",
@@ -467,22 +527,6 @@
       ],
       "poweredLand": true,
       "owners": "Aligned Data Centers",
-      "investors": "n.c."
-    },
-    {
-      "category": "competition",
-      "title": "Polarise entre en Europe centrale et réserve 15 MW dans le futur data center « Prague Gateway » de České Radiokomunikace (CRA)",
-      "region": "Europe",
-      "date": "2026-09-09",
-      "summary": "Polarise a signé un accord réservant 15 MW de capacité liquid-cooled dans le « Prague Gateway », le data center de plus de 2 000 baies (26 MW raccordés) que l'opérateur tchèque CRA construit à Jíloviště près de Prague (mise en service mi-2027) : première implantation de Polarise en Europe centrale pour étoffer son offre de cloud IA souverain.",
-      "source": "DataCenterDynamics / České Radiokomunikace",
-      "url": "https://www.datacenterdynamics.com/en/news/polarise-to-lease-capacity-from-cra-in-prague-czechia/",
-      "mw": 15,
-      "coords": [
-        49.9425,
-        14.3396
-      ],
-      "owners": "České Radiokomunikace (CRA, site) · Polarise (locataire de capacité)",
       "investors": "n.c."
     },
     {
