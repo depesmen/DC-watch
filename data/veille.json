@@ -1,13 +1,39 @@
 {
-  "lastUpdated": "2026-10-09",
+  "lastUpdated": "2026-10-12",
   "keyTakeaways": [
-    "Malgré des recherches ciblées sur les dernières 24-72h, très peu d'actualités neuves et datées sont sorties depuis le 6 octobre : le cycle d'information ralentit nettement (creux habituel de week-end/début de semaine) plutôt qu'un signe de ralentissement réel du marché — les items les plus récents confirmés datent du 1er au 6 octobre.",
-    "Le programme fédéral américain SPARK du DOE (1,9 Md$ pour 31 projets de réseau dans 26 États, objectif +23 GW de capacité de transport) confirme que le desserrement des files d'attente de raccordement devient un axe d'action publique explicite aux États-Unis — un signal favorable à moyen terme pour la liquidité du foncier déjà énergisé, mais les accords définitifs ne sont attendus qu'entre octobre 2026 et janvier 2027.",
-    "La vague de moratoires et pauses municipales s'étoffe encore (Loudoun County en Virginie du Nord, 1er marché mondial, rejoint Chicago, Milwaukee, Prince William et New York) : le risque réglementaire local redevient un critère de sourcing aussi important que la disponibilité physique du foncier et de la puissance.",
-    "En Europe, le financement bancaire de 2,45 Md£ de Virtus (Royaume-Uni, expansion vers l'Allemagne, l'Italie et l'Espagne) illustre une consolidation capitalistique rapide du marché europén, en parallèle du pipeline français déjà identifié (SoftBank, Data4, Brookfield, AETHER) — la compétition pour le foncier énergisé s'intensifie à l'échelle du continent, pas seulement en France.",
+    "La vague de moratoires municipaux atteint pour la première fois les propres villes-sièges de la tech américaine : San Francisco et Oakland ont voté le 6 octobre, chacune à l'unanimité ou quasi (7-0), des pauses de 45 jours sur les nouveaux data centers — un signal politique fort qui confirme que le risque réglementaire local n'est plus circonscrit aux marchés historiques (Virginie, Illinois, Wisconsin) mais se généralise à l'ensemble du territoire américain, y compris en zone urbaine dense.",
+    "Le cycle d'information reste ralenti sur les transactions foncières nouvelles et datées (peu de deals « powered land » confirmés et documentés sur les 24-72 dernières heures) ; plusieurs pistes identifiées (New Era Energy 54 acres à Ector County, Thor Equities/Google à LaGrange) se révèlent en fait antérieures à la fenêtre de veille (février et date inconnue respectivement) et ne sont donc pas ajoutées pour éviter tout doublon ou information périmée présentée comme neuve.",
+    "Aux États-Unis, l'échéance du 19 octobre approche pour la mise à jour de conformité que la TCEQ doit remettre au gouverneur Abbott sur l'audit ERCOT des data centers texans (gel des permis environnementaux depuis le 21 septembre) — un point de bascule à surveiller de près pour la liquidité du foncier énergisé au Texas, marché clé pour le sourcing.",
+    "En Europe, aucune actualité neuve et datée identifiée aujourd'hui malgré des recherches ciblées (Allemagne, Espagne, Italie, Irlande, Nordics, Royaume-Uni) ; le dossier reste dominé par le financement Virtus (25/09) et le pipeline français déjà suivi (SoftBank, Data4, Brookfield, Goodman, ÆTHER, EDF).",
     "Toujours aucune nouvelle acquisition ou annonce de foncier énergisé identifiée aujourd'hui pour Polarise, Aurora Infra ou La Française de l'Énergie malgré des requêtes ciblées répétées (y compris LinkedIn) ; elles restent prioritaires pour les prochains cycles de veille."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "États-Unis (San Francisco, Californie) : le conseil des superviseurs adopte à l'unanimité une pause de 45 jours sur les nouveaux data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-10-06",
+      "summary": "Le Board of Supervisors de San Francisco a voté à l'unanimité le 6 octobre un moratoire d'urgence de 45 jours suspendant l'approbation de nouveaux data centers et l'extension de sites existants, le temps que le service de l'urbanisme étudie leurs impacts (eau, électricité, bruit) et élabore un cadre réglementaire pérenne ; la mesure, portée par le superviseur Shamann Walton, est entrée en vigueur immédiatement et pourrait être prolongée jusqu'à 22 mois.",
+      "source": "SF Standard / Mission Local / KQED",
+      "url": "https://sfstandard.com/2026/10/06/data-center-moratorium-san-francisco/",
+      "coords": [
+        37.7749,
+        -122.4194
+      ]
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Oakland, Californie) : le conseil municipal vote 7-0 une pause de 45 jours sur les nouveaux data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-10-06",
+      "summary": "Le même jour que San Francisco, le conseil municipal d'Oakland a voté 7 voix contre 0 une ordonnance d'urgence suspendant pour 45 jours toute nouvelle approbation de data center sur le territoire de la ville, à l'initiative de la conseillère Carroll Fife, afin d'étudier les impacts sur le réseau électrique, l'eau et la qualité de l'air avant d'adopter un cadre pérenne ; San Francisco et Oakland deviennent ainsi les premières villes de la Bay Area à adopter un tel moratoire.",
+      "source": "KTVU / Local News Matters / SFist",
+      "url": "https://www.ktvu.com/news/oakland-city-council-approves-45-day-moratorium-new-data-centers",
+      "coords": [
+        37.8044,
+        -122.2712
+      ]
+    },
     {
       "category": "power",
       "title": "États-Unis (zone PJM, Illinois/New Jersey/Pennsylvanie) : Google signe avec Constellation un accord de 3,6 GW incluant 890 MW de nouvelle capacité nucléaire et 4,3 Md$ d'investissement",
@@ -92,19 +118,6 @@
       ],
       "owners": "Altarea (Nation Data Center)",
       "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Aurora, Colorado) : un second projet de data center (« Aerotropolis Logistics Center », ~500 acres) identifié à côté du campus contesté « Trident » de Vantage",
-      "region": "Amérique du Nord",
-      "date": "2026-10-01",
-      "summary": "Alors que le maire d'Aurora qualifie le projet voisin « Trident » de Vantage Data Centers (campus près de Green Valley Ranch) de projet « à arrêter » face à la mobilisation des riverains, les autorités municipales ont identifié un second site d'environ 500 acres juste à côté du quartier The Aurora Highlands (Aerotropolis Logistics Center, à environ 5 km de l'aéroport de Denver) destiné à un futur data center ; aucune information sur les besoins en eau ou en électricité du site n'a encore été rendue publique, et le promoteur n'a pas répondu aux sollicitations de la presse locale.",
-      "source": "Colorado Politics / Denver Gazette",
-      "url": "https://www.coloradopolitics.com/2026/10/01/second-large-data-center-proposed-for-aurora-highlands-area/",
-      "coords": [
-        39.7294,
-        -104.8319
-      ]
     },
     {
       "category": "land",
@@ -453,22 +466,6 @@
       "investors": "n.c."
     },
     {
-      "category": "land",
-      "title": "Marseille : opposition croissante au 5e data center de Digital Realty (MRS5) sur une friche portuaire",
-      "region": "France",
-      "date": "2026-09-16",
-      "summary": "Le collectif « Le nuage etait sous nos pieds » (La Quadrature du Net, Technopolice, collectif des Gammares) a denonce le 16 septembre 2026 le projet MRS5 de Digital Realty sur le Grand Port Maritime de Marseille (reconversion d'une friche d'anciens silos a sucre), dans le cadre d'une enquete publique se terminant le 27 septembre ; une elue EELV reclame un moratoire sur les data centers marseillais.",
-      "source": "Marsactu",
-      "url": "https://marsactu.fr/bref/des-elus-et-associations-demandent-un-moratoire-sur-les-data-centers/",
-      "coords": [
-        43.3305,
-        5.355
-      ],
-      "poweredLand": true,
-      "owners": "Digital Realty",
-      "investors": "n.c."
-    },
-    {
       "category": "legislation",
       "title": "États-Unis (Loudoun County, Virginie) : le conseil des superviseurs vote l'avancement d'une pause de 12 mois sur les nouvelles demandes de data centers",
       "region": "Amérique du Nord",
@@ -494,40 +491,6 @@
         46.779,
         1.786
       ]
-    },
-    {
-      "category": "land",
-      "title": "France (Cagny, Calvados) : un projet de data center et de campus IA étudié sur la friche de l'ancienne sucrerie Saint-Louis Sucre",
-      "region": "France",
-      "date": "2026-09-15",
-      "summary": "Sur le site de l'ancienne sucrerie Saint-Louis Sucre à Cagny (fermée en 2020, environ 65 ha), l'un des 55 sites « clé en main » labellisés par l'État dans le cadre de France 2030, un consortium public-privé étudie un projet de campus industriel dédié à l'IA incluant un data center ; le promoteur Brownfields négocierait l'acquisition d'environ 33 ha auprès du propriétaire actuel, le groupe allemand Südzucker.",
-      "source": "France Bleu / ICI Normandie",
-      "url": "https://www.ici.fr/infos/economie-social/info-ici-a-cagny-un-datacenter-et-un-campus-autour-de-l-ia-pourraient-voir-le-jour-sur-le-site-de-l-ancienne-sucrerie-3649380",
-      "coords": [
-        49.15,
-        -0.25
-      ],
-      "poweredLand": true,
-      "owners": "Südzucker (propriétaire actuel) · Brownfields (promoteur pressenti)",
-      "investors": "n.c."
-    },
-    {
-      "category": "construction",
-      "title": "États-Unis (Shippingport, comté de Beaver, Pennsylvanie) : Aligned Data Centers démarre la construction d'un campus de 2 GW (10 Md$) sur l'ancienne centrale à charbon Bruce Mansfield",
-      "region": "Amérique du Nord",
-      "date": "2026-09-10",
-      "summary": "Aligned Data Centers a inauguré le 10 septembre la construction de « Project Phoenix », un campus de trois bâtiments totalisant 2 GW sur les 650 acres de l'ancienne centrale à charbon Bruce Mansfield (fermée en 2019) à Shippingport, rachetés 223 M$ à Frontier Group of Companies en juillet ; le site sera alimenté par une génération sur site au gaz naturel (piles à combustible à oxyde solide) plutôt que par le réseau local, pour un investissement régional annoncé de 10 Md$.",
-      "source": "Pittsburgh Post-Gazette / DataCenterDynamics / Beaver County Radio",
-      "url": "https://www.post-gazette.com/business/tech-news/2026/09/10/project-phoenix-shippingpoint-data-center-beaver-county-aligned/stories/202609100040",
-      "mw": 2000,
-      "inv": 10000,
-      "coords": [
-        40.6203,
-        -80.4165
-      ],
-      "poweredLand": true,
-      "owners": "Aligned Data Centers",
-      "investors": "n.c."
     },
     {
       "category": "power",
