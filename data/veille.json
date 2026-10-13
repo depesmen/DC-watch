@@ -1,13 +1,30 @@
 {
-  "lastUpdated": "2026-10-12",
+  "lastUpdated": "2026-10-13",
   "keyTakeaways": [
-    "La vague de moratoires municipaux atteint pour la première fois les propres villes-sièges de la tech américaine : San Francisco et Oakland ont voté le 6 octobre, chacune à l'unanimité ou quasi (7-0), des pauses de 45 jours sur les nouveaux data centers — un signal politique fort qui confirme que le risque réglementaire local n'est plus circonscrit aux marchés historiques (Virginie, Illinois, Wisconsin) mais se généralise à l'ensemble du territoire américain, y compris en zone urbaine dense.",
-    "Le cycle d'information reste ralenti sur les transactions foncières nouvelles et datées (peu de deals « powered land » confirmés et documentés sur les 24-72 dernières heures) ; plusieurs pistes identifiées (New Era Energy 54 acres à Ector County, Thor Equities/Google à LaGrange) se révèlent en fait antérieures à la fenêtre de veille (février et date inconnue respectivement) et ne sont donc pas ajoutées pour éviter tout doublon ou information périmée présentée comme neuve.",
-    "Aux États-Unis, l'échéance du 19 octobre approche pour la mise à jour de conformité que la TCEQ doit remettre au gouverneur Abbott sur l'audit ERCOT des data centers texans (gel des permis environnementaux depuis le 21 septembre) — un point de bascule à surveiller de près pour la liquidité du foncier énergisé au Texas, marché clé pour le sourcing.",
-    "En Europe, aucune actualité neuve et datée identifiée aujourd'hui malgré des recherches ciblées (Allemagne, Espagne, Italie, Irlande, Nordics, Royaume-Uni) ; le dossier reste dominé par le financement Virtus (25/09) et le pipeline français déjà suivi (SoftBank, Data4, Brookfield, Goodman, ÆTHER, EDF).",
-    "Toujours aucune nouvelle acquisition ou annonce de foncier énergisé identifiée aujourd'hui pour Polarise, Aurora Infra ou La Française de l'Énergie malgré des requêtes ciblées répétées (y compris LinkedIn) ; elles restent prioritaires pour les prochains cycles de veille."
+    "Nouvel exemple structurant de « powered land » autonome aux États-Unis : AWS a déposé le 28 août (révélé le 7 octobre) un plan pour un campus de 36 à 39 data centers sur environ 2 200 acres à Homer City (Indiana County, Pennsylvanie), directement adossé à une centrale au gaz de 4,5 GW construite sur l'ancien site charbon voisin — confirmation que les hyperscalers sécurisent désormais leur propre génération plutôt que d'attendre les files d'attente réseau, un modèle de sourcing à surveiller de près.",
+    "Même logique à Casa Grande (Arizona) : la commission d'urbanisme a approuvé le 1er octobre, malgré une opposition locale quasi unanime en séance, un campus de 954 acres (« Grande Valley Industrial ») conçu sans dépendance au réseau électrique classique (gaz + batteries sur site) — le propriétaire LKY Development chercherait déjà un acquéreur, ce qui en fait une cible de sourcing foncier déjà préparée pour un repreneur.",
+    "La vague de moratoires municipaux américains continue de s'étendre et de se tendre : à Memphis, le vote sur une pause de 12 mois a tourné au chaos le 6 octobre (altercations, intervention policière) et a été reporté au 20 octobre, dans un contexte où le supercalculateur Colossus de xAI/SpaceX est directement visé par les riverains ; Milwaukee doit voter en séance plénière ce 13 octobre.",
+    "Toujours aucune nouvelle acquisition ou annonce de foncier énergisé identifiée pour Polarise, Aurora Infra ou La Française de l'Énergie malgré des requêtes ciblées répétées (y compris LinkedIn) ; elles restent prioritaires pour les prochains cycles de veille.",
+    "En Europe/France, aucune actualité nouvelle et datée distincte du pipeline déjà suivi (ÆTHER à Strasbourg, friches EDF, SoftBank, Data4, Goodman Trappes) n'a pu être confirmée aujourd'hui malgré des recherches ciblées sur l'Allemagne, l'Espagne et l'Italie ; le marché français reste dominé par les mêmes dossiers structurants."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "États-Unis (Center/Blacklick Townships, Indiana County, Pennsylvanie) : AWS dépose un plan pour un campus de 36 à 39 data centers sur environ 2 200 acres adossé à une centrale gaz de 4,5 GW",
+      "region": "Amérique du Nord",
+      "date": "2026-10-07",
+      "summary": "Amazon Data Services a déposé le 28 août auprès de la commission d'urbanisme du comté d'Indiana (Pennsylvanie) un plan préliminaire d'aménagement pour l'« Homer City Energy Campus » : jusqu'à 39 bâtiments de data centers sur environ 2 200 acres répartis sur 6 sites (Bruner, Helen, Green, West, Harvey/Gaston, Rura), directement adossés à la centrale au gaz naturel de 4,5 GW qu'Homer City Redevelopment construit sur l'ancien site charbon voisin — plus de 1 GW de cette capacité sera aussi injecté sur le réseau ; travaux prévus de décembre 2026 à juin 2036, 1 500 à 2 000 emplois visés, après une réunion publique houleuse le 9 septembre.",
+      "source": "DataCenterDynamics / Baxtel / TechRadar Pro",
+      "url": "https://datacenterdynamics.com/en/news/aws-plans-36-building-data-center-campus-in-indiana-county-pennsylvania",
+      "mw": 4500,
+      "coords": [
+        40.5423,
+        -79.1534
+      ],
+      "poweredLand": true,
+      "owners": "Amazon Data Services (AWS) · Homer City Redevelopment (centrale gaz dédiée)",
+      "investors": "n.c."
+    },
     {
       "category": "legislation",
       "title": "États-Unis (San Francisco, Californie) : le conseil des superviseurs adopte à l'unanimité une pause de 45 jours sur les nouveaux data centers",
@@ -59,6 +76,19 @@
       "coords": [
         43.0389,
         -87.9065
+      ]
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Memphis, Tennessee) : le vote sur un moratoire de 12 mois sur les data centers tourne au chaos, reporté au 20 octobre",
+      "region": "Amérique du Nord",
+      "date": "2026-10-06",
+      "summary": "Le conseil municipal de Memphis a voté 7 contre 5 le 6 octobre pour reporter au 20 octobre l'adoption d'un moratoire de 12 mois sur les nouveaux data centers porté par le conseiller J.B. Smiley Jr., après que la séance a tourné au chaos (altercation, intervention policière) devant plus de 100 riverains venus manifester leur inquiétude sur l'eau, l'électricité et le bruit, dans un contexte marqué par la présence du supercalculateur Colossus de xAI/SpaceX dans la région.",
+      "source": "Fox News / Atlanta Black Star / affiliés Gray Television",
+      "url": "https://www.foxnews.com/politics/memphis-city-council-devolves-chaos-data-center-moratorium-vote-postponed",
+      "coords": [
+        35.1495,
+        -90.049
       ]
     },
     {
@@ -117,6 +147,22 @@
         2.1833
       ],
       "owners": "Altarea (Nation Data Center)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Casa Grande, Arizona) : la commission d'urbanisme approuve le campus « Grande Valley Industrial » de 954 acres, génération gaz et batteries sur site, sans raccordement réseau prévu",
+      "region": "Amérique du Nord",
+      "date": "2026-10-01",
+      "summary": "La Planning and Zoning Commission de Casa Grande a approuvé 6 voix contre 1 le 1er octobre le projet de data center « Grande Valley Industrial Data Center Campus » (954 acres, le long de la Maricopa-Casa Grande Highway), déposé par Colliers Energy pour le compte du propriétaire LKY Development Company ; le dossier prévoit une centrale au gaz naturel et des batteries de stockage sur site, les documents du développeur indiquant que le site ne devrait pas dépendre d'un raccordement classique au réseau électrique pour son alimentation principale — LKY chercherait déjà un acquéreur pour le site.",
+      "source": "KJZZ / AZBEX / ConnectCRE",
+      "url": "https://www.kjzz.org/business/2026-10-02/as-casa-grande-commission-approves-massive-data-center-residents-ask-why-are-we-here",
+      "coords": [
+        32.8795,
+        -111.7574
+      ],
+      "poweredLand": true,
+      "owners": "LKY Development Company (vendeur potentiel) · Colliers Energy (mandataire)",
       "investors": "n.c."
     },
     {
@@ -464,33 +510,6 @@
       "poweredLand": true,
       "owners": "Digital Realty",
       "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Loudoun County, Virginie) : le conseil des superviseurs vote l'avancement d'une pause de 12 mois sur les nouvelles demandes de data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-09-15",
-      "summary": "Le conseil des superviseurs du comté de Loudoun (premier marché mondial de data centers, Virginie du Nord) a voté 7 voix contre 1 (1 abstention) pour engager une pause pouvant aller jusqu'à 12 mois sur les nouvelles demandes de data centers, le temps d'élaborer un cadre réglementaire pérenne sur l'eau, l'électricité et le bruit ; la pause ne s'appliquerait qu'aux nouvelles demandes (les projets déjà engagés ne seraient pas affectés) et une résolution formelle doit être présentée lors d'une prochaine séance du conseil (20 octobre selon DataCenterDynamics).",
-      "source": "DataCenterDynamics / WJLA / Fox5DC",
-      "url": "https://datacenterdynamics.com/en/news/virginias-loudoun-county-board-votes-to-pause-new-data-center-applications",
-      "coords": [
-        39.1157,
-        -77.5636
-      ]
-    },
-    {
-      "category": "land",
-      "title": "France (Étrechet, Indre) : la maire et quatre élus démissionnent contre le projet de data center géant de Google (195 ha)",
-      "region": "France",
-      "date": "2026-09-15",
-      "summary": "Après la démission collective de trois adjoints et d'une conseillère municipale le 10 septembre, la maire d'Étrechet Florence Laurent a annoncé le 15 septembre sa propre démission pour protester contre le projet de data center de Google (via sa filiale Tricolore Computing) sur 195 hectares de terres agricoles de la zone d'activité d'Ozans, près de Châteauroux ; le projet, qui viserait plus de 500 MW, suscite des inquiétudes sur la consommation d'eau (departement en déficit hydrique) et les îlots de chaleur liés à la chaleur résiduelle des serveurs.",
-      "source": "France 3 Centre-Val de Loire / ICI / Kohen Avocats",
-      "url": "https://www.ici.fr/centre-val-de-loire/indre-36/etrechet/data-center-google-dans-l-indre-la-maire-d-etrechet-demissionne-apres-un-desaccord-2743780",
-      "mw": 500,
-      "coords": [
-        46.779,
-        1.786
-      ]
     },
     {
       "category": "power",
