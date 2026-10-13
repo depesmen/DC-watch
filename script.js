@@ -497,8 +497,8 @@ function initMap(items) {
   if (typeof L === 'undefined') { document.getElementById('map').innerHTML = '<p class="empty-state">Carte indisponible (Leaflet non chargé).</p>'; return; }
   const pts = items.filter((it) => Array.isArray(it.coords) && it.coords.length === 2);
   dcMap = L.map('map', { scrollWheelZoom: false, worldCopyJump: true, minZoom: 1 }).setView([20, 20], 2);
-  L.tileLayer('https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png', {
-    attribution: '© OpenStreetMap · © CARTO', subdomains: 'abcd', maxZoom: 12,
+  L.tileLayer('https://server.arcgisonline.com/ArcGIS/rest/services/Canvas/World_Dark_Gray_Base/MapServer/tile/{z}/{y}/{x}', {
+    attribution: 'Tiles © Esri', maxZoom: 12,
   }).addTo(dcMap);
   pts.forEach((it) => {
     const col = it.poweredLand ? '#f5a623' : (CAT_COLOR[it.category] || '#22d3ee');
