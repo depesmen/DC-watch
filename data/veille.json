@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-13",
+  "lastUpdated": "2026-10-14",
   "keyTakeaways": [
-    "Nouvel exemple structurant de « powered land » autonome aux États-Unis : AWS a déposé le 28 août (révélé le 7 octobre) un plan pour un campus de 36 à 39 data centers sur environ 2 200 acres à Homer City (Indiana County, Pennsylvanie), directement adossé à une centrale au gaz de 4,5 GW construite sur l'ancien site charbon voisin — confirmation que les hyperscalers sécurisent désormais leur propre génération plutôt que d'attendre les files d'attente réseau, un modèle de sourcing à surveiller de près.",
-    "Même logique à Casa Grande (Arizona) : la commission d'urbanisme a approuvé le 1er octobre, malgré une opposition locale quasi unanime en séance, un campus de 954 acres (« Grande Valley Industrial ») conçu sans dépendance au réseau électrique classique (gaz + batteries sur site) — le propriétaire LKY Development chercherait déjà un acquéreur, ce qui en fait une cible de sourcing foncier déjà préparée pour un repreneur.",
-    "La vague de moratoires municipaux américains continue de s'étendre et de se tendre : à Memphis, le vote sur une pause de 12 mois a tourné au chaos le 6 octobre (altercations, intervention policière) et a été reporté au 20 octobre, dans un contexte où le supercalculateur Colossus de xAI/SpaceX est directement visé par les riverains ; Milwaukee doit voter en séance plénière ce 13 octobre.",
-    "Toujours aucune nouvelle acquisition ou annonce de foncier énergisé identifiée pour Polarise, Aurora Infra ou La Française de l'Énergie malgré des requêtes ciblées répétées (y compris LinkedIn) ; elles restent prioritaires pour les prochains cycles de veille.",
-    "En Europe/France, aucune actualité nouvelle et datée distincte du pipeline déjà suivi (ÆTHER à Strasbourg, friches EDF, SoftBank, Data4, Goodman Trappes) n'a pu être confirmée aujourd'hui malgré des recherches ciblées sur l'Allemagne, l'Espagne et l'Italie ; le marché français reste dominé par les mêmes dossiers structurants."
+    "La vague de moratoires municipaux américains s'étend encore : Raleigh (Caroline du Nord) a voté le 6 octobre un moratoire de 6 mois (7 contre 1), devenant la 6e collectivité de la région Raleigh-Durham à légiférer en quelques semaines ; le vote décisif à surveiller reste celui de Memphis, reporté au 20 octobre après l'incident du 6 octobre, dans un contexte où le supercalculateur Colossus de xAI reste la cible principale des riverains.",
+    "Signal européen notable (hors France) : le Parlement écossais a imposé mi-septembre un gel de facto des permis pour tout data center hyperscale de plus de 50 MW en attendant un cadre national de planification, sur fond de 24 projets hyperscale en file d'attente qui dépasseraient 1,5 fois la pointe de consommation électrique du pays — un précédent à surveiller pour d'autres marchés européens tendus sur le foncier et le réseau.",
+    "Nouvel exemple structurant de « powered land » par reconversion de friche énergétique en Europe continentale : Blackstone/QTS ont sécurisé 27 hectares sur l'ancien site de la centrale à charbon RWE Westfalen (Lippetal, Rhénanie-du-Nord-Westphalie) pour un campus d'environ 4 Md€, le choix du site étant motivé par une ligne très haute tension Amprion (interconnexion éolien offshore mer du Nord) qui se termine directement sur le terrain — un profil de sourcing quasiment identique à celui des friches EDF ou Usinor suivies en France.",
+    "Toujours aucune nouvelle acquisition ou annonce de foncier énergisé identifiée pour Polarise, Aurora Infra ou La Française de l'Énergie malgré des requêtes ciblées répétées (y compris LinkedIn) ; Polarise reste actif en Europe (Amberg/Bavière, Prague) mais sans actualité datée des 72 dernières heures. Ces trois cibles restent prioritaires pour les prochains cycles de veille.",
+    "Sur le plan réglementaire américain, PJM avait demandé à la FERC de rendre sa règle « bring your own power » effective au plus tard le 12 octobre ; aucune décision confirmée n'a pu être établie à ce jour (14 octobre) — un dossier à rouvrir dans les prochains jours car il conditionne directement la valeur du foncier déjà énergisé dans la zone PJM (treize États, dont la Virginie)."
   ],
   "items": [
     {
@@ -92,6 +92,19 @@
       ]
     },
     {
+      "category": "legislation",
+      "title": "États-Unis (Raleigh, Caroline du Nord) : le conseil municipal adopte un moratoire de 6 mois sur les data centers de plus de 10 000 pieds carrés",
+      "region": "Amérique du Nord",
+      "date": "2026-10-06",
+      "summary": "Le conseil municipal de Raleigh a voté 7 voix contre 1 le 6 octobre un moratoire de six mois suspendant l'approbation de nouveaux data centers de plus de 10 000 pieds carrés, le temps de réécrire les règles d'urbanisme sur le bruit, l'eau et la pollution lumineuse/atmosphérique ; des riverains réclamaient une pause bien plus longue (jusqu'à 32 mois), portant à six le nombre de collectivités de la région Raleigh-Durham (Cary, Apex, Orange County, Durham ville et comté) ayant adopté un moratoire ces dernières semaines.",
+      "source": "Axios Raleigh / Spectrum News / WUNC",
+      "url": "https://www.axios.com/local/raleigh/2026/10/07/raleigh-data-centers-six-month-moratorium-ai-zoning",
+      "coords": [
+        35.7796,
+        -78.6382
+      ]
+    },
+    {
       "category": "construction",
       "title": "États-Unis (Grayson, Kentucky) : TeraWulf double la puissance contractée de son campus Muskie à 1 GW et avance la 2e phase à 2029",
       "region": "Amérique du Nord",
@@ -107,15 +120,6 @@
       "poweredLand": true,
       "owners": "TeraWulf",
       "investors": "n.c."
-    },
-    {
-      "category": "market",
-      "title": "États-Unis : Amazon annonce un programme « Built Together » de plus de 1 Md$ sur 5 ans pour les communautés hébergeant ses data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-10-02",
-      "summary": "Face à la contestation politique croissante autour des data centers IA, Amazon Web Services a annoncé le 2 octobre un programme de plus de 1 Md$ sur cinq ans ciblant l'éducation/formation (accès gratuit à la community college pour environ 300 000 étudiants), l'accessibilité énergétique (économies estimées à 700 $/an par foyer via des travaux d'efficacité) et l'eau (plus de 8 milliards de gallons restitués par an, objectif water-positive dès 2030) ; un signal de l'intensification de la bataille d'acceptabilité sociale qui pèse aussi sur le sourcing de foncier et de puissance.",
-      "source": "ABC News / AWS / Cryptobriefing",
-      "url": "https://abcnews.com/Business/wireStory/amazon-invest-1b-data-center-communities-amid-backlash-136948782"
     },
     {
       "category": "land",
@@ -280,18 +284,6 @@
       "investors": "Consortium de 13 banques (BNP Paribas, Crédit Agricole CIB, Société Générale, Standard Chartered...)"
     },
     {
-      "category": "land",
-      "title": "Malaisie (Negeri Sembilan) : Tera Data Centers acquiert 221,7 acres pour environ 250 M$",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-25",
-      "summary": "Tera Data Centers a finalisé l'acquisition de 221,7 acres de terrain à Negeri Sembilan (Malaisie) pour environ 250 M$, un nouveau mouvement de sécurisation foncière dans le corridor malaisien qui concentre déjà plusieurs grands projets hyperscale (Amazon à Sepang, Johor Bahru) ; aucune puissance électrique déjà sécurisée n'est mentionnée à ce stade.",
-      "source": "Baxtel (weekly roundup)",
-      "url": "https://baxtel.com/news/category/roundups",
-      "inv": 250,
-      "owners": "Tera Data Centers",
-      "investors": "n.c."
-    },
-    {
       "category": "legislation",
       "title": "France (Fouju, Seine-et-Marne) : deux recours déposés contre le méga-projet de 11 data centers « Campus IA » (1,4 GW)",
       "region": "France",
@@ -398,17 +390,6 @@
     },
     {
       "category": "land",
-      "title": "États-Unis (Roanoke County, Virginie) : la collectivité signe un accord de vente de 94 acres à Wood Haven Technology Park à la société écran Clearview Dynamics, lien possible avec Google",
-      "region": "Amérique du Nord",
-      "date": "2026-09-22",
-      "summary": "La Western Virginia Regional Industrial Facility Authority (copropriété des villes de Roanoke, Salem et du comté de Roanoke) a confirmé le 22 septembre un accord de vente portant sur 94 des 111 acres du Wood Haven Technology Park (échangeur I-81/581), en vue d'un data center ; l'acquéreur Clearview Dynamics, société créée en janvier 2026, utiliserait l'eau du réservoir de Spring Hollow et financerait lui-même les besoins en eau et en électricité du site, sans puissance encore sécurisée. Le mandataire de Clearview Dynamics a refusé de confirmer ou de démentir un lien avec Google, dont le projet voisin du comté de Botetourt partage la même adresse d'enregistrement.",
-      "source": "WDBJ7 / Cardinal News",
-      "url": "https://www.wdbj7.com/2026/09/22/data-center-being-considered-roanoke-wood-haven-technology-park-authority-says/",
-      "owners": "Western Virginia Regional Industrial Facility Authority (vendeur) · Clearview Dynamics (acquéreur pressenti)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
       "title": "France (Trappes, Yvelines) : Goodman prépare 3 data centers IA (300 MW) sur la friche Stellantis-Iveco, cession foncière de 42 M€ indexée sur le raccordement",
       "region": "France",
       "date": "2026-09-21",
@@ -493,6 +474,15 @@
       "poweredLand": true,
       "owners": "Magnora Data Center · Sunly AS (JV)",
       "investors": "Magnora · Sunly"
+    },
+    {
+      "category": "legislation",
+      "title": "Royaume-Uni (Écosse) : le Parlement impose un gel de facto sur les permis de data centers hyperscale (>50 MW) en attendant un cadre national",
+      "region": "Europe",
+      "date": "2026-09-17",
+      "summary": "Le Parlement écossais a adopté des amendements excluant toute décision de permis ou de raccordement sur les data centers hyperscale (>50 MW) avant la publication d'un cadre national de planification et d'aménagement du territoire, et a rendu obligatoire une étude d'impact environnemental pour tout nouveau data center de plus de 50 MW ; le gouvernement écossais a refusé de qualifier la mesure de moratoire formel, mais 24 projets hyperscale sont à l'étude en Écosse, dont le cumul dépasserait une fois et demie la pointe de consommation électrique du pays.",
+      "source": "Euronews / Holyrood / ITPro",
+      "url": "https://www.euronews.com/2026/09/17/scotland-halts-new-hyperscale-ai-data-centre-approvals-amid-environmental-concerns"
     },
     {
       "category": "power",
@@ -606,6 +596,23 @@
       ],
       "owners": "Data4 (site) · Brookfield (investisseur)",
       "investors": "Brookfield Asset Management"
+    },
+    {
+      "category": "land",
+      "title": "Allemagne (Lippetal, Rhénanie-du-Nord-Westphalie) : Blackstone/QTS sécurisent 27 ha sur l'ancien site de la centrale RWE Westfalen pour un campus IA d'environ 4 Md€",
+      "region": "Europe",
+      "date": "2026-Q1",
+      "summary": "Des fonds Blackstone, via leur filiale QTS, ont signé un contrat d'acquisition conditionnel portant sur 27 hectares auprès d'Industriegebiet Westfalen GmbH (coentreprise des communes de Lippetal et Hamm), sur l'ancien site de la centrale au charbon RWE Westfalen ; le choix du site est motivé par la disponibilité électrique immédiate, une ligne très haute tension Amprion reliant l'éolien offshore de la mer du Nord se terminant sur le site, pour un investissement évalué à environ 4 Md€ et une mise en service visée au début des années 2030.",
+      "source": "Latham & Watkins / IT-Daily / CIO.de",
+      "url": "https://www.lw.com/en/news/2026/01/latham-advises-blackstone-on-potential-development-of-major-data-center-campus-in-germany",
+      "inv": 4300,
+      "coords": [
+        51.65,
+        8.05
+      ],
+      "poweredLand": true,
+      "owners": "Industriegebiet Westfalen GmbH (vendeur, JV Lippetal/Hamm) · QTS (Blackstone, développeur)",
+      "investors": "Blackstone"
     }
   ]
 }
