@@ -1,13 +1,84 @@
 {
-  "lastUpdated": "2026-10-14",
+  "lastUpdated": "2026-10-15",
   "keyTakeaways": [
-    "La vague de moratoires municipaux américains s'étend encore : Raleigh (Caroline du Nord) a voté le 6 octobre un moratoire de 6 mois (7 contre 1), devenant la 6e collectivité de la région Raleigh-Durham à légiférer en quelques semaines ; le vote décisif à surveiller reste celui de Memphis, reporté au 20 octobre après l'incident du 6 octobre, dans un contexte où le supercalculateur Colossus de xAI reste la cible principale des riverains.",
-    "Signal européen notable (hors France) : le Parlement écossais a imposé mi-septembre un gel de facto des permis pour tout data center hyperscale de plus de 50 MW en attendant un cadre national de planification, sur fond de 24 projets hyperscale en file d'attente qui dépasseraient 1,5 fois la pointe de consommation électrique du pays — un précédent à surveiller pour d'autres marchés européens tendus sur le foncier et le réseau.",
-    "Nouvel exemple structurant de « powered land » par reconversion de friche énergétique en Europe continentale : Blackstone/QTS ont sécurisé 27 hectares sur l'ancien site de la centrale à charbon RWE Westfalen (Lippetal, Rhénanie-du-Nord-Westphalie) pour un campus d'environ 4 Md€, le choix du site étant motivé par une ligne très haute tension Amprion (interconnexion éolien offshore mer du Nord) qui se termine directement sur le terrain — un profil de sourcing quasiment identique à celui des friches EDF ou Usinor suivies en France.",
-    "Toujours aucune nouvelle acquisition ou annonce de foncier énergisé identifiée pour Polarise, Aurora Infra ou La Française de l'Énergie malgré des requêtes ciblées répétées (y compris LinkedIn) ; Polarise reste actif en Europe (Amberg/Bavière, Prague) mais sans actualité datée des 72 dernières heures. Ces trois cibles restent prioritaires pour les prochains cycles de veille.",
-    "Sur le plan réglementaire américain, PJM avait demandé à la FERC de rendre sa règle « bring your own power » effective au plus tard le 12 octobre ; aucune décision confirmée n'a pu être établie à ce jour (14 octobre) — un dossier à rouvrir dans les prochains jours car il conditionne directement la valeur du foncier déjà énergisé dans la zone PJM (treize États, dont la Virginie)."
+    "La FERC a rejeté le 9 octobre l'essentiel du plan « bring your own power » / délestage de PJM pour les gros consommateurs, ne validant que la définition de « Large Load » et le registre associé (effectif depuis le 12 octobre) : la question du partage de la capacité et du coût pour les data centers dans la zone PJM (13 États) est renvoyée vers les États eux-mêmes (Pennsylvanie, Ohio en tête à surveiller), ce qui lève une partie de l'incertitude réglementaire sur la valeur du foncier déjà énergisé dans cette zone sans la clore complètement.",
+    "Toujours aucune actualité datée et fiable identifiée pour Polarise, Aurora Infra ou La Française de l'Énergie malgré des requêtes ciblées répétées (y compris site:linkedin.com) ; ces trois cibles restent prioritaires pour les prochains cycles de veille.",
+    "Nouveau signal sur le segment « powered land » de taille intermédiaire aux États-Unis : la lettre d'intention de Gorilla Technology pour racheter un site existant de 6 MW avec un accord écrit du fournisseur local pour monter à 36 MW (puis 100+ MW visés) illustre l'attractivité persistante des sites déjà raccordés et extensibles, même hors échelle hyperscale.",
+    "Microsoft confirme son appétit pour le foncier pré-certifié « prêt à l'emploi » avec l'achat de 600 acres dans l'Eco Business Park de Woodward (Iowa, site certifié depuis 2018), sans puissance électrique divulguée à ce stade — et toujours la même friction locale (réunion publique houleuse, expulsion d'un riverain).",
+    "La vague de moratoires municipaux américains se poursuit sans se résorber : le vote de Memphis reste reporté au 20 octobre après l'incident du 6 octobre, et le risque réglementaire/communautaire local s'impose de plus en plus comme un filtre de sourcing aussi déterminant que la disponibilité réseau elle-même."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "États-Unis (Hutto, Williamson County, Texas) : Skybox/Prologis déposent le permis d'un 4e bâtiment (550 M$) sur leur PowerCampus de 600 MW",
+      "region": "Amérique du Nord",
+      "date": "2026-10",
+      "summary": "Skybox Datacenters et Prologis ont déposé auprès du Texas Department of Licensing and Regulation le dossier de « Hutto 4 », un bâtiment de 846 300 pieds carrés (550 M$ d'investissement, travaux janvier 2027 – octobre 2028) sur leur PowerCampus de Hutto, site de 220 acres sécurisé depuis 2022 le long d'un corridor de transport 345 kV et doté de deux postes électriques dédiés de 300 MW chacun ; le campus complet vise 600 MW IT sur environ 3,88 millions de pieds carrés, et ce 4e bâtiment sera le plus grand des quatre déjà déposés.",
+      "source": "DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/skybox-prologis-file-for-fourth-data-center-in-hutto-texas",
+      "inv": 550,
+      "coords": [
+        30.5427,
+        -97.5547
+      ],
+      "poweredLand": true,
+      "owners": "Skybox Datacenters · Prologis",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Elizabeth Township, comté d'Allegheny, Pennsylvanie) : un promoteur négocie un campus IA de 1 GW avec centrale au gaz sur une friche de 549 acres",
+      "region": "Amérique du Nord",
+      "date": "2026-10",
+      "summary": "Des documents obtenus par PublicSource (demande Right-to-Know) révèlent que le promoteur Tim Hendricks (Hendricks Group Developers, Bucks County) négocie avec Elizabeth Township un campus data center de 3,7 millions de pieds carrés (11 à 28 bâtiments) sur un site de 549 acres le long de Henderson Road, près de la rivière Youghiogheny, alimenté par une centrale au gaz à cycle combiné construite sur site et un circuit d'eau en boucle fermée ; le canton en a pris connaissance lors d'une réunion le 15 septembre, le projet promettrait jusqu'à 125 M$ de recettes fiscales, et une réunion publique est prévue le 13 octobre.",
+      "source": "PublicSource / CBS News Pittsburgh",
+      "url": "https://www.publicsource.org/elizabeth-township-data-center-gas-plant/",
+      "mw": 1000,
+      "coords": [
+        40.2667,
+        -79.8886
+      ],
+      "poweredLand": true,
+      "owners": "Hendricks Group Developers, LLC (Tim Hendricks)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Woodward, comté de Dallas, Iowa) : Microsoft achète environ 600 acres dans l'Eco Business Park pour un futur data center",
+      "region": "Amérique du Nord",
+      "date": "2026-10-14",
+      "summary": "Microsoft a acquis environ 600 acres de terrain à vocation industrielle dans le Woodward Eco Business Park (site certifié « prêt à l'emploi » depuis 2018), au nord-ouest de Des Moines ; le projet reste au stade le plus précoce de planification, sans conception de bâtiment arrêtée selon l'entreprise, après une réunion publique houleuse marquée par l'expulsion d'un riverain opposé au projet.",
+      "source": "Newsweek / DataCenterDynamics",
+      "url": "https://www.newsweek.com/man-dragged-from-iowa-meeting-protesting-microsoft-data-center-12560823",
+      "coords": [
+        41.8486,
+        -93.8728
+      ],
+      "owners": "Microsoft",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (zone PJM) : la FERC rejette l'essentiel du plan « bring your own power » de PJM pour les gros consommateurs (data centers)",
+      "region": "Amérique du Nord",
+      "date": "2026-10-09",
+      "summary": "La Federal Energy Regulatory Commission a rejeté le 9 octobre l'essentiel du dispositif IRAS/BYONC proposé par PJM pour les data centers de plus de 50 MW, jugeant le volet délestage et l'option « apporter sa propre capacité » hors de sa compétence ou insuffisamment justifiés ; elle n'a validé que la définition de « Large Load » et le registre associé, effectif depuis le 12 octobre. PJM doit redéposer son dispositif de secours (attendu vers le 29 octobre) et réunit son comité des membres le 22 octobre — une clarification cruciale pour la valorisation du foncier déjà énergisé dans les 13 États de la zone PJM, qui renvoie désormais la question aux États (Pennsylvanie, Ohio en tête).",
+      "source": "Utility Dive / TechTarget / Energy News Beat",
+      "url": "https://www.utilitydive.com/news/ferc-pjm-large-load-interconnection-iras-byonc/832716/"
+    },
+    {
+      "category": "land",
+      "title": "États-Unis : Gorilla Technology signe une lettre d'intention pour son premier data center américain (6 MW extensibles à 36 MW, puis 100+ MW visés)",
+      "region": "Amérique du Nord",
+      "date": "2026-10-09",
+      "summary": "Gorilla Technology (Nasdaq : GRRR) a signé le 9 octobre une lettre d'intention non engageante pour racheter son premier data center aux États-Unis, actuellement doté de 6 MW de capacité électrique auprès du fournisseur local, qui a donné un accord écrit pour environ 30 MW supplémentaires (soit 36 MW au total, livrables sous environ 18 mois) ; l'entreprise vise au-delà 100 MW d'infrastructure IA sur zone, avec une clôture de l'acquisition annoncée pour fin novembre 2026.",
+      "source": "Malay Mail / Stocktwits",
+      "url": "https://www.malaymail.com/news/money/mediaoutreach/2026/10/09/gorilla-advances-us-market-entry-with-proposed-36-mw-data-centre-acquisition-and-100-mw-ai-infrastructure-expansion-plan/493145",
+      "mw": 36,
+      "poweredLand": true,
+      "owners": "n.c. (cible non identifiée publiquement)",
+      "investors": "Gorilla Technology (acquéreur)"
+    },
     {
       "category": "land",
       "title": "États-Unis (Center/Blacklick Townships, Indiana County, Pennsylvanie) : AWS dépose un plan pour un campus de 36 à 39 data centers sur environ 2 200 acres adossé à une centrale gaz de 4,5 GW",
@@ -39,19 +110,6 @@
       ]
     },
     {
-      "category": "legislation",
-      "title": "États-Unis (Oakland, Californie) : le conseil municipal vote 7-0 une pause de 45 jours sur les nouveaux data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-10-06",
-      "summary": "Le même jour que San Francisco, le conseil municipal d'Oakland a voté 7 voix contre 0 une ordonnance d'urgence suspendant pour 45 jours toute nouvelle approbation de data center sur le territoire de la ville, à l'initiative de la conseillère Carroll Fife, afin d'étudier les impacts sur le réseau électrique, l'eau et la qualité de l'air avant d'adopter un cadre pérenne ; San Francisco et Oakland deviennent ainsi les premières villes de la Bay Area à adopter un tel moratoire.",
-      "source": "KTVU / Local News Matters / SFist",
-      "url": "https://www.ktvu.com/news/oakland-city-council-approves-45-day-moratorium-new-data-centers",
-      "coords": [
-        37.8044,
-        -122.2712
-      ]
-    },
-    {
       "category": "power",
       "title": "États-Unis (zone PJM, Illinois/New Jersey/Pennsylvanie) : Google signe avec Constellation un accord de 3,6 GW incluant 890 MW de nouvelle capacité nucléaire et 4,3 Md$ d'investissement",
       "region": "Amérique du Nord",
@@ -64,19 +122,6 @@
       "poweredLand": true,
       "owners": "Constellation Energy (parc nucléaire/gaz PJM)",
       "investors": "Google (acheteur PPA)"
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Milwaukee, Wisconsin) : la commission d'urbanisme ajourne son vote sur le moratoire data center, audience publique désormais requise avant un vote du Common Council le 13 octobre",
-      "region": "Amérique du Nord",
-      "date": "2026-10-06",
-      "summary": "La commission Zoning, Neighborhoods and Development du Common Council de Milwaukee a reporté le 6 octobre son vote sur le moratoire d'un an sur les data centers (dossier n°251924), le city attorney ayant signalé qu'une audience publique formelle est requise par la loi de l'État avant toute adoption ; le vote en séance plénière du Common Council, initialement anticipé, est désormais attendu le 13 octobre, avec une audience publique possible dès le mois prochain.",
-      "source": "CBS58 / Urban Milwaukee",
-      "url": "https://www.cbs58.com/news/milwaukee-common-council-postpones-vote-on-proposed-data-center-moratorium",
-      "coords": [
-        43.0389,
-        -87.9065
-      ]
     },
     {
       "category": "legislation",
@@ -167,40 +212,6 @@
       ],
       "poweredLand": true,
       "owners": "LKY Development Company (vendeur potentiel) · Colliers Energy (mandataire)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Hutto, Williamson County, Texas) : Skybox/Prologis déposent le permis d'un 4e bâtiment (550 M$) sur leur PowerCampus de 600 MW",
-      "region": "Amérique du Nord",
-      "date": "2026-10",
-      "summary": "Skybox Datacenters et Prologis ont déposé auprès du Texas Department of Licensing and Regulation le dossier de « Hutto 4 », un bâtiment de 846 300 pieds carrés (550 M$ d'investissement, travaux janvier 2027 – octobre 2028) sur leur PowerCampus de Hutto, site de 220 acres sécurisé depuis 2022 le long d'un corridor de transport 345 kV et doté de deux postes électriques dédiés de 300 MW chacun ; le campus complet vise 600 MW IT sur environ 3,88 millions de pieds carrés, et ce 4e bâtiment sera le plus grand des quatre déjà déposés.",
-      "source": "DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/skybox-prologis-file-for-fourth-data-center-in-hutto-texas",
-      "inv": 550,
-      "coords": [
-        30.5427,
-        -97.5547
-      ],
-      "poweredLand": true,
-      "owners": "Skybox Datacenters · Prologis",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Elizabeth Township, comté d'Allegheny, Pennsylvanie) : un promoteur négocie un campus IA de 1 GW avec centrale au gaz sur une friche de 549 acres",
-      "region": "Amérique du Nord",
-      "date": "2026-10",
-      "summary": "Des documents obtenus par PublicSource (demande Right-to-Know) révèlent que le promoteur Tim Hendricks (Hendricks Group Developers, Bucks County) négocie avec Elizabeth Township un campus data center de 3,7 millions de pieds carrés (11 à 28 bâtiments) sur un site de 549 acres le long de Henderson Road, près de la rivière Youghiogheny, alimenté par une centrale au gaz à cycle combiné construite sur site et un circuit d'eau en boucle fermée ; le canton en a pris connaissance lors d'une réunion le 15 septembre, le projet promettrait jusqu'à 125 M$ de recettes fiscales, et une réunion publique est prévue le 13 octobre.",
-      "source": "PublicSource / CBS News Pittsburgh",
-      "url": "https://www.publicsource.org/elizabeth-township-data-center-gas-plant/",
-      "mw": 1000,
-      "coords": [
-        40.2667,
-        -79.8886
-      ],
-      "poweredLand": true,
-      "owners": "Hendricks Group Developers, LLC (Tim Hendricks)",
       "investors": "n.c."
     },
     {
@@ -338,29 +349,6 @@
       "url": "https://www.wbrc.com/2026/09/24/applied-digital-confirms-32-billion-data-center-campus-brookwood/",
       "inv": 3200,
       "owners": "Applied Digital"
-    },
-    {
-      "category": "power",
-      "title": "États-Unis : le DOE dévoile 1,9 Md$ (programme SPARK) pour 31 projets de réseau électrique dans 26 États afin d'accélérer les raccordements de data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-09-24",
-      "summary": "Le Department of Energy a sélectionné 31 projets de modernisation du réseau électrique (reconducteurs, technologies de renforcement de capacité, lignes de transport) dans 26 États pour 1,9 Md$ de financement fédéral (5,25 Md$ au total avec la contribution des bénéficiaires), avec un objectif de débloquer plus de 23 GW de capacité réseau supplémentaire ; les accords de financement définitifs sont attendus entre octobre 2026 et janvier 2027 — un signal direct pour le desserrement des files d'attente de raccordement qui freinent aujourd'hui le sourcing de foncier énergisé aux États-Unis.",
-      "source": "Department of Energy / DataCenterDynamics / Baxtel",
-      "url": "https://www.datacenterdynamics.com/en/news/doe-unveils-19bn-in-funding-for-31-grid-upgrade-projects-to-speed-data-center-connections/",
-      "inv": 1900
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Chicago, Illinois) : le maire et des élus municipaux déposent une ordonnance de moratoire de 12 mois sur les nouveaux data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-09-23",
-      "summary": "Le maire de Chicago Brandon Johnson et plusieurs conseillers municipaux ont introduit une ordonnance suspendant pour 12 mois tout nouveau data center et toute extension majeure des sites existants, le temps qu'un groupe de travail municipal élabore un cadre réglementaire permanent sur l'électricité, l'eau, l'air et le bruit (rapport attendu au 15 mars 2027) ; Chicago devient la plus grande ville américaine à ce jour à envisager un tel moratoire.",
-      "source": "City of Chicago / Axios Chicago / Block Club Chicago",
-      "url": "https://www.chicago.gov/city/en/depts/mayor/press_room/press_releases/2026/september/data-center-moratorium.html",
-      "coords": [
-        41.8781,
-        -87.6298
-      ]
     },
     {
       "category": "legislation",
