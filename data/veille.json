@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-15",
+  "lastUpdated": "2026-10-16",
   "keyTakeaways": [
-    "La FERC a rejeté le 9 octobre l'essentiel du plan « bring your own power » / délestage de PJM pour les gros consommateurs, ne validant que la définition de « Large Load » et le registre associé (effectif depuis le 12 octobre) : la question du partage de la capacité et du coût pour les data centers dans la zone PJM (13 États) est renvoyée vers les États eux-mêmes (Pennsylvanie, Ohio en tête à surveiller), ce qui lève une partie de l'incertitude réglementaire sur la valeur du foncier déjà énergisé dans cette zone sans la clore complètement.",
-    "Toujours aucune actualité datée et fiable identifiée pour Polarise, Aurora Infra ou La Française de l'Énergie malgré des requêtes ciblées répétées (y compris site:linkedin.com) ; ces trois cibles restent prioritaires pour les prochains cycles de veille.",
-    "Nouveau signal sur le segment « powered land » de taille intermédiaire aux États-Unis : la lettre d'intention de Gorilla Technology pour racheter un site existant de 6 MW avec un accord écrit du fournisseur local pour monter à 36 MW (puis 100+ MW visés) illustre l'attractivité persistante des sites déjà raccordés et extensibles, même hors échelle hyperscale.",
-    "Microsoft confirme son appétit pour le foncier pré-certifié « prêt à l'emploi » avec l'achat de 600 acres dans l'Eco Business Park de Woodward (Iowa, site certifié depuis 2018), sans puissance électrique divulguée à ce stade — et toujours la même friction locale (réunion publique houleuse, expulsion d'un riverain).",
-    "La vague de moratoires municipaux américains se poursuit sans se résorber : le vote de Memphis reste reporté au 20 octobre après l'incident du 6 octobre, et le risque réglementaire/communautaire local s'impose de plus en plus comme un filtre de sourcing aussi déterminant que la disponibilité réseau elle-même."
+    "Deux décisions majeures sur le sourcing foncier américain tombent le même jour, le 20 octobre : le vote définitif du moratoire de Memphis et la résolution de pause de 12 mois sur les nouvelles demandes de data centers à Loudoun County (Virginie), cœur de la « Data Center Alley » et premier marché mondial — un jour à surveiller de très près pour la valorisation du foncier déjà engagé dans ces deux zones.",
+    "La vague de moratoires s'étend à la Bay Area : Oakland a voté le 6 octobre, le même jour que San Francisco, un moratoire de 45 jours sur les nouveaux data centers (7 voix contre 0) — la Californie urbaine devient un terrain de sourcing de plus en plus fermé, ce qui renforce par contraste l'attractivité du foncier déjà énergisé dans les zones moins contraintes.",
+    "Deux nouveaux exemples concrets de « powered land » packagé comme un produit clé-en-main : le bail de 30 ans de Zone Frontier sur 4 077 acres au Texas, construit autour d'un poste 345 kV existant avec option d'achat et eau incluse, et l'accord de 1,8 Md$ de Black Hills Corp pour sécuriser jusqu'à 2,7 GW (dont 590 MW réseau) pour le futur site Google de Cheyenne (Wyoming).",
+    "En Europe, le schéma « sécuriser une première tranche de puissance, viser plus grand ensuite » se confirme avec le campus FIN05 d'atNorth à Salo (Finlande, 2 Md€, 75 MW sécurisés sur une trajectoire à 230 MW) — un nouveau marché nordique à suivre en complément de l'Estonie et de l'Allemagne déjà en portefeuille.",
+    "Toujours aucune actualité datée et fiable sur Polarise, Aurora Infra ou La Française de l'Énergie malgré de nouvelles recherches ciblées (y compris site:linkedin.com) : ces trois cibles restent prioritaires, de même que le suivi du redépôt FERC/PJM attendu vers le 29 octobre et le comité des membres PJM du 22 octobre, toujours le principal facteur d'incertitude sur la valeur du foncier énergisé dans les 13 États de la zone PJM."
   ],
   "items": [
     {
@@ -98,6 +98,37 @@
     },
     {
       "category": "legislation",
+      "title": "États-Unis (Oakland, Californie) : le conseil municipal adopte à l'unanimité un moratoire de 45 jours sur les nouveaux data centers, la même semaine que San Francisco",
+      "region": "Amérique du Nord",
+      "date": "2026-10-06",
+      "summary": "Le conseil municipal d'Oakland a voté 7 voix contre 0 le 6 octobre un moratoire temporaire de 45 jours sur tout nouveau développement de data center sur le territoire de la ville, porté par la conseillère Carroll Fife, afin de laisser le temps d'étudier les impacts potentiels sur l'eau, le réseau électrique et la qualité de l'air ; Oakland et San Francisco deviennent ainsi les deux premières villes de la Bay Area à adopter un tel moratoire la même semaine.",
+      "source": "KTVU / SFist / Local News Matters",
+      "url": "https://sfist.com/2026/10/07/san-francisco-oakland-pass-45-day-moratoriums-on-new-data-centers/",
+      "coords": [
+        37.8044,
+        -122.2712
+      ]
+    },
+    {
+      "category": "power",
+      "title": "États-Unis (Cheyenne, Wyoming) : Black Hills Corp signe avec Google un accord de 1,8 Md$ pour alimenter son futur data center jusqu'en 2048",
+      "region": "Amérique du Nord",
+      "date": "2026-10-06",
+      "summary": "Black Hills Corporation a conclu avec Google un Large Power Contract Services Agreement et un Generation Facilities Agreement (entrés en vigueur le 30 septembre) prévoyant la livraison de jusqu'à 590 MW depuis le réseau et la gestion d'environ 2,1 GW de ressources tierces via un micro-réseau privé (2,7 GW au total avec marges de réserve) pour le data center prévu par Google à Cheyenne ; Black Hills investira 1,8 Md$ entre 2027 et 2029 pour construire 564 MW de nouvelle capacité gaz à sa centrale Cheyenne Prairie, mise en service visée fin 2027 et montée en puissance jusqu'en 2030.",
+      "source": "Power Engineering / Black Hills Corp / The Motley Fool",
+      "url": "https://www.power-eng.com/?p=137020",
+      "mw": 590,
+      "inv": 1800,
+      "coords": [
+        41.14,
+        -104.82
+      ],
+      "poweredLand": true,
+      "owners": "Google (data center prévu) · Black Hills Corp (production/réseau dédié)",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
       "title": "États-Unis (San Francisco, Californie) : le conseil des superviseurs adopte à l'unanimité une pause de 45 jours sur les nouveaux data centers",
       "region": "Amérique du Nord",
       "date": "2026-10-06",
@@ -148,6 +179,24 @@
         35.7796,
         -78.6382
       ]
+    },
+    {
+      "category": "land",
+      "title": "Finlande (Salo) : atNorth dévoile le campus FIN05, 2 Md€ et une trajectoire de 230 MW, avec une première tranche de 75 MW déjà sécurisée",
+      "region": "Europe",
+      "date": "2026-10-05",
+      "summary": "atNorth a annoncé le développement de son data center FIN05 sur un site de 28,6 hectares à Salo, pour un investissement d'environ 2 Md€ (hors équipements des clients) ; seule la première phase (75 MW) est déjà sécurisée, avec une trajectoire visée jusqu'à 230 MW, un raccordement via un poste source de Fingrid, et des PPA de long terme à l'étude avec des fournisseurs d'énergie locaux ainsi qu'une valorisation de la chaleur résiduelle.",
+      "source": "W.Media / BeBeez / Datacentre Magazine",
+      "url": "https://bebeez.eu/2026/10/05/atnorth-to-develop-new-data-center-in-salo-finland/",
+      "mw": 230,
+      "inv": 2240,
+      "coords": [
+        60.3833,
+        23.1333
+      ],
+      "poweredLand": true,
+      "owners": "atNorth",
+      "investors": "n.c."
     },
     {
       "category": "construction",
@@ -251,6 +300,23 @@
     },
     {
       "category": "land",
+      "title": "États-Unis (Potter County, Texas) : Zone Frontier signe un bail de 30 ans avec option d'achat sur 4 077 acres pour un campus IA jusqu'à 500 MW",
+      "region": "Amérique du Nord",
+      "date": "2026-09-29",
+      "summary": "Une filiale de Zone Frontier Inc. a signé avec HST Technologies un bail à long terme (30 ans, deux extensions de 10 ans) avec option d'achat sur environ 4 077 acres près d'Amarillo, entourant un poste électrique existant 345 kV de Southwestern Public Service (Xcel Energy) ; 200 à 800 acres sont réservés aux bâtiments data center et au moins 1 800 acres au solaire/stockage, pour une capacité initiale visée de 200 MW extensible à plus de 500 MW, avec un accord d'approvisionnement en eau à long terme adossé au bail.",
+      "source": "W.Media / PR Newswire / Black Ridge Research",
+      "url": "https://w.media/?p=43828",
+      "mw": 500,
+      "coords": [
+        35.25,
+        -101.65
+      ],
+      "poweredLand": true,
+      "owners": "Zone Frontier Inc. · HST Technologies",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
       "title": "États-Unis (Piedmont, Canadian County, Oklahoma) : le conseil municipal ajourne le volet urbanisme du méga-projet « Project Open Sky » de Cloverleaf (1,4 GW, 633 acres)",
       "region": "Amérique du Nord",
       "date": "2026-09-29",
@@ -264,22 +330,6 @@
       ],
       "poweredLand": true,
       "owners": "Cloverleaf Infrastructure",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Malaisie (Dengkil, Sepang, Selangor) : Amazon Data Services rachète 45,5 acres à Sunsuria pour environ 75 M$ en vue d'un data center",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-28",
-      "summary": "Sunsuria Bhd a signé le 28 septembre un accord conditionnel de cession à Amazon Data Services Malaysia d'une parcelle nue de 45,46 acres (183 973 m²) à Mukim Dengkil (Sepang, Selangor), pour 316,84 M RM (environ 75 M$), un prix supérieur à l'expertise CBRE WTW ; la cession, qui ne mentionne pas de puissance déjà sécurisée, doit être finalisée au 2e trimestre 2027 sous réserve de l'accord des actionnaires de Sunsuria.",
-      "source": "The Star / The Edge Malaysia / Business Today",
-      "url": "https://www.thestar.com.my/business/business-news/2026/09/28/sunsuria-to-dispose-of-selangor-land-for-rm317mil",
-      "inv": 75,
-      "coords": [
-        2.8333,
-        101.7333
-      ],
-      "owners": "Sunsuria Bhd (vendeur) · Amazon Data Services Malaysia (acquéreur)",
       "investors": "n.c."
     },
     {
@@ -465,29 +515,16 @@
     },
     {
       "category": "legislation",
-      "title": "Royaume-Uni (Écosse) : le Parlement impose un gel de facto sur les permis de data centers hyperscale (>50 MW) en attendant un cadre national",
-      "region": "Europe",
-      "date": "2026-09-17",
-      "summary": "Le Parlement écossais a adopté des amendements excluant toute décision de permis ou de raccordement sur les data centers hyperscale (>50 MW) avant la publication d'un cadre national de planification et d'aménagement du territoire, et a rendu obligatoire une étude d'impact environnemental pour tout nouveau data center de plus de 50 MW ; le gouvernement écossais a refusé de qualifier la mesure de moratoire formel, mais 24 projets hyperscale sont à l'étude en Écosse, dont le cumul dépasserait une fois et demie la pointe de consommation électrique du pays.",
-      "source": "Euronews / Holyrood / ITPro",
-      "url": "https://www.euronews.com/2026/09/17/scotland-halts-new-hyperscale-ai-data-centre-approvals-amid-environmental-concerns"
-    },
-    {
-      "category": "power",
-      "title": "Bouc-Bel-Air (Bouches-du-Rhone) : ouverture de la participation du public pour le raccordement RTE 225 000 V du data center MRS6 de Digital Realty",
-      "region": "France",
-      "date": "2026-09-16",
-      "summary": "Du 16 septembre au 20 octobre 2026, la mairie de Bouc-Bel-Air ouvre une participation du public sur l'utilite publique du raccordement RTE (nouvelle liaison souterraine 225 000 V depuis le poste de Cabries) du data center MRS6 de Digital Realty, qui demande 80 MW.",
-      "source": "Mairie de Bouc-Bel-Air",
-      "url": "https://www.boucbelair.fr/actualites/raccordement-du-datacenter-mrs6-une-participation-du-public-du-16-septembre-au-20-octobre/",
-      "mw": 80,
+      "title": "États-Unis (Loudoun County, Virginie) : le conseil des superviseurs vote une pause de 12 mois sur les nouvelles demandes de data centers, résolution finale attendue le 20 octobre",
+      "region": "Amérique du Nord",
+      "date": "2026-09-15",
+      "summary": "Le Board of Supervisors de Loudoun County, cœur de la « Data Center Alley » et premier marché mondial de data centers, a voté 7 voix contre 1 (une abstention) le 15 septembre pour engager une pause pouvant durer jusqu'à 12 mois (maximum autorisé par le droit de Virginie) sur les nouvelles demandes de data centers et de postes électriques nécessitant une approbation législative, rétroactive à cette date ; la résolution définitive doit être votée le 20 octobre — le même jour que le nouveau vote du moratoire de Memphis — et une mesure distincte envisage de fixer une date d'expiration pour 23 projets déjà accordés avant la pause.",
+      "source": "Virginia Mercury / WJLA / Loudoun County",
+      "url": "https://virginiamercury.com/2026/09/14/loudoun-to-consider-data-center-pause-removing-by-right-grandfather-clause/",
       "coords": [
-        43.445,
-        5.396
-      ],
-      "poweredLand": true,
-      "owners": "Digital Realty",
-      "investors": "n.c."
+        39.0937,
+        -77.5636
+      ]
     },
     {
       "category": "power",
@@ -584,23 +621,6 @@
       ],
       "owners": "Data4 (site) · Brookfield (investisseur)",
       "investors": "Brookfield Asset Management"
-    },
-    {
-      "category": "land",
-      "title": "Allemagne (Lippetal, Rhénanie-du-Nord-Westphalie) : Blackstone/QTS sécurisent 27 ha sur l'ancien site de la centrale RWE Westfalen pour un campus IA d'environ 4 Md€",
-      "region": "Europe",
-      "date": "2026-Q1",
-      "summary": "Des fonds Blackstone, via leur filiale QTS, ont signé un contrat d'acquisition conditionnel portant sur 27 hectares auprès d'Industriegebiet Westfalen GmbH (coentreprise des communes de Lippetal et Hamm), sur l'ancien site de la centrale au charbon RWE Westfalen ; le choix du site est motivé par la disponibilité électrique immédiate, une ligne très haute tension Amprion reliant l'éolien offshore de la mer du Nord se terminant sur le site, pour un investissement évalué à environ 4 Md€ et une mise en service visée au début des années 2030.",
-      "source": "Latham & Watkins / IT-Daily / CIO.de",
-      "url": "https://www.lw.com/en/news/2026/01/latham-advises-blackstone-on-potential-development-of-major-data-center-campus-in-germany",
-      "inv": 4300,
-      "coords": [
-        51.65,
-        8.05
-      ],
-      "poweredLand": true,
-      "owners": "Industriegebiet Westfalen GmbH (vendeur, JV Lippetal/Hamm) · QTS (Blackstone, développeur)",
-      "investors": "Blackstone"
     }
   ]
 }
