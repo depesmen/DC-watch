@@ -1,13 +1,41 @@
 {
-  "lastUpdated": "2026-10-21",
+  "lastUpdated": "2026-10-22",
   "keyTakeaways": [
-    "La vague de contestation réglementaire américaine se poursuit mais le schéma évolue vers des compromis plus courts : à Memphis, le moratorium de 18 mois a échoué de peu (6 voix contre 6) mais le conseil a basculé sur une interdiction temporaire de 135 jours couplée à une étude de 90 jours déjà ordonnée par le maire ; à Little Rock (Arkansas), un moratorium de 6 mois a échoué au même score qu'en août (4-4) ; à Florence County (Wisconsin) en revanche, un moratorium a été adopté à l'unanimité (18 mois pour réviser le zonage) — le résultat du vote définitif de Loudoun County, calendé lui aussi le 20 octobre, reste introuvable dans la presse à l'heure de cette veille et doit être vérifié en priorité demain.",
-    "Première actualité concrète identifiée sur Polarise (cible prioritaire de veille) : une lettre d'intention avec České Radiokomunikace pour réserver 15 MW au campus Prague Gateway (Zbraslav, Tchéquie), confirmant une stratégie d'expansion centre-européenne après l'Allemagne (Munich, Amberg) et la Norvège (Oslo) — toujours aucune actualité fiable sur Aurora Infra (plusieurs entités homonymes repérées en Finlande, aucune confirmée comme étant la cible) ni sur La Française de l'Énergie malgré des recherches ciblées répétées, y compris site:linkedin.com.",
-    "La consolidation des prestataires de services d'infrastructure data center s'accélère : CBRE annonce le rachat d'Onnec (jusqu'à 1,01 Md$ au total, Europe/Asie-Pacifique), qui venait elle-même d'acquérir le danois GI Networks en juin — un mouvement de plateformisation à surveiller en écho aux négociations BlackRock/IFM sur le portefeuille Stack Infrastructure Asie-Pacifique (20-25 Md$), toujours non finalisées à ce jour.",
-    "Signal d'alerte sur le risque locataire-ancre dans le sourcing de foncier énergisé : Microsoft se retire de l'accord avec Nscale sur le site de Loughton (Essex, Royaume-Uni, ~23 000 GPU Azure prévus), juste avant l'introduction en bourse américaine visée par Nscale fin octobre — un rappel que la valeur d'un site dépend fortement de la solidité de l'offtaker, facteur à vérifier systématiquement en due diligence.",
-    "Google est confirmé sur le site de 94 acres de Wood Haven Technology Park (Roanoke County, Virginie), hors des marchés traditionnels de Virginie du Nord, mais avec une période de due diligence tendue jusqu'à mars 2027 — illustrant l'allongement des délais de décision des hyperscalers face à la contestation locale, même sur du foncier déjà identifié par les autorités économiques locales."
+    "Sur le foncier déjà énergisé nord-américain, Nscale et Anthropic négocieraient (Reuters, 19 octobre) un second contrat de 45 Md$ portant sur un second bâtiment de 460 MW au sein du campus Monarch (Mason County, Virginie-Occidentale, micro-réseau dédié visant jusqu'à 8 GW à terme) — rappel que la valeur de ce type de site tient à sa capacité électrique déjà sécurisée, mais aussi un contre-exemple immédiat au risque de retrait d'offtaker souligné hier avec Microsoft/Nscale au Royaume-Uni (attribué cette fois à un retard de raccordement réseau, confirmant que la robustesse de l'accès réseau prime sur la solidité du client).",
+    "Nouvel entrant à surveiller sur le « sovereign AI » européen : VivoPower et Open Innovation AI ont signé le 21 octobre un accord définitif visant au moins 1 GW de data centers IA souverains sur trois ans dans les pays nordiques, en Europe continentale et dans le Golfe, sur un marché qu'ils chiffrent à plus de 40 GW d'opportunités — aucun site n'est encore identifié, mais ce type de développeur de puissance/sites est un acheteur potentiel de foncier énergisé à qualifier.",
+    "La priorisation réglementaire du réseau électrique au détriment des data centers se généralise en Europe du Nord : la loi d'urgence danoise (entrée en vigueur le 12 octobre) relègue par défaut les data centers en fin de file d'attente de raccordement, en écho au projet finlandais de réforme de la loi sur le marché de l'électricité (consultation close le 9 octobre) — une tendance qui renforce structurellement la prime de valeur du foncier déjà raccordé par rapport aux nouveaux projets en attente de capacité.",
+    "Nouveau site à ajouter au radar foncier français hors zones habituelles : Sepia Infrastructure a sécurisé par promesse de vente (début septembre) l'ancienne sucrerie Saint-Louis de Cagny (Calvados), un des 55 sites « clés en main France 2030 », pour un campus IA/data center dont la puissance n'est pas encore communiquée et le permis pas encore déposé — à suivre pour mesurer la vitesse d'instruction administrative en Normandie.",
+    "Suivi réglementaire américain : le vote final sur la pause de 12 mois des permis data centers à Loudoun County (Virginie du Nord, marché historique n°1) est reporté au 17 novembre. Toujours aucune actualité fiable nouvelle sur Aurora Infra ou La Française de l'Énergie malgré des recherches répétées (y compris site:linkedin.com) ; l'unique item identifié sur Polarise (Prague, 9 septembre) sort aujourd'hui de la fenêtre de rétention de 30 jours, sans actualité de relais pour le maintenir."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "France (Cagny, Calvados) : Sepia Infrastructure signe une promesse de vente pour un campus IA avec data center sur l'ancienne sucrerie Saint-Louis, un des 55 sites « clés en main » France 2030",
+      "region": "France",
+      "date": "2026-10-22",
+      "summary": "Sepia Infrastructure a signé début septembre une promesse de vente avec les propriétaires allemands de l'ancienne sucrerie Saint-Louis à Cagny (Calvados) pour y développer un campus technologique hybride incluant un data center et des activités liées à l'IA (200 emplois directs et indirects visés), avec valorisation de la chaleur fatale vers des serres et du chauffage de proximité ; le site fait partie des 55 sites industriels « clés en main France 2030 », mais le permis de construire n'est pas encore déposé, la puissance électrique visée n'est pas communiquée et les riverains s'inquiètent déjà de la consommation d'eau prévue.",
+      "source": "ICI Normandie (France Bleu/France Info)",
+      "url": "https://www.ici.fr/normandie/calvados-14/cagny/a-cagny-un-campus-technologique-dedie-a-l-ia-et-un-data-center-verront-bien-le-jour-3954785",
+      "coords": [
+        49.1333,
+        -0.25
+      ],
+      "poweredLand": true,
+      "owners": "Sepia Infrastructure",
+      "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "VivoPower et Open Innovation AI signent un accord définitif pour développer au moins 1 GW de data centers IA souverains dans les pays nordiques, en Europe continentale et dans le Golfe",
+      "region": "Europe",
+      "date": "2026-10-21",
+      "summary": "VivoPower (Nasdaq : VIVO) a annoncé le 21 octobre un accord définitif (« heads of agreement ») avec Open Innovation AI pour développer des data centers IA souverains sécurisés dans les pays nordiques, en Europe continentale, dans le Golfe et dans certains pays d'Asie, visant au moins 1 GW de capacité sur trois ans sur un marché européen qu'ils chiffrent à plus de 40 GW d'opportunités IA souveraine ; VivoPower pilotera le développement des sites et l'approvisionnement en électricité, Open Innovation AI fournissant la couche d'orchestration et de sécurité. Aucun site précis n'est encore identifié.",
+      "source": "GlobeNewswire (VivoPower)",
+      "url": "https://www.globenewswire.com/news-release/2026/10/21/3385505/0/en/vivopower-signs-definitive-heads-of-agreement-with-open-innovation-ai-to-develop-secure-sovereign-ai-data-centers-across-the-nordics-mainland-europe-the-gcc-and-selective-countries.html",
+      "mw": 1000,
+      "owners": "VivoPower",
+      "investors": "n.c."
+    },
     {
       "category": "legislation",
       "title": "États-Unis (Memphis, Tennessee) : le moratorium de 18 mois sur les data centers échoue (6 voix contre 6), le conseil adopte en remplacement une interdiction temporaire de 135 jours",
@@ -16,7 +44,10 @@
       "summary": "Le conseil municipal de Memphis a rejeté le 20 octobre, à 6 voix contre 6, le moratorium de 18 mois (porté à l'origine à 12 mois par le conseiller J.B. Smiley Jr. après l'installation de turbines à gaz par xAI/Colossus) sur les nouveaux data centers, mais a adopté en remplacement une interdiction temporaire de 135 jours, en complément d'une étude de 90 jours déjà ordonnée par le maire Paul Young.",
       "source": "CNN / Yahoo News / Action News 5",
       "url": "https://www.cnn.com/2026/10/20/us/memphis-council-data-center-vote",
-      "coords": [35.1495, -90.049]
+      "coords": [
+        35.1495,
+        -90.049
+      ]
     },
     {
       "category": "legislation",
@@ -26,7 +57,10 @@
       "summary": "Le conseil du comté de Florence (Wisconsin) a voté à l'unanimité un moratorium sur les usages fonciers liés aux data centers et au stockage par batteries, le plan d'urbanisme du comté (20 ans) ne prenant pas en compte ces usages ; la commission d'urbanisme dispose désormais de jusqu'à 18 mois (extensible) pour réviser le plan et le règlement de zonage, Florence rejoignant ainsi la liste d'une vingtaine de comtés du Wisconsin ayant déjà adopté un tel moratorium.",
       "source": "Upper Michigan's Source (WLUC)",
       "url": "https://www.uppermichiganssource.com/2026/10/21/florence-county-board-approves-data-center-moratorium-ends-flock-camera-use/",
-      "coords": [45.9458, -88.2536]
+      "coords": [
+        45.9458,
+        -88.2536
+      ]
     },
     {
       "category": "legislation",
@@ -36,7 +70,10 @@
       "summary": "Le Board of Directors de Little Rock a rejeté le 20 octobre, par un vote à égalité de 4 voix contre 4, une proposition de moratorium de 6 mois sur les grands projets de data centers — le même résultat qu'un précédent projet de moratorium de 18 mois rejeté en août.",
       "source": "Arkansas Democrat-Gazette (Arkansas Online)",
       "url": "https://arkansasonline.com/news/2026/oct/20/little-rock-board-rejects-6-month-data-center",
-      "coords": [34.7465, -92.2896]
+      "coords": [
+        34.7465,
+        -92.2896
+      ]
     },
     {
       "category": "competition",
@@ -51,6 +88,37 @@
       "investors": "CBRE Group"
     },
     {
+      "category": "legislation",
+      "title": "États-Unis (Loudoun County, Virginie) : le vote final sur la pause de 12 mois des permis data centers est reporté au 17 novembre",
+      "region": "Amérique du Nord",
+      "date": "2026-10-20",
+      "summary": "Le conseil des superviseurs du comté de Loudoun (premier marché mondial de data centers, Virginie du Nord) a reporté au 17 novembre le vote final sur la résolution de pause d'un an des demandes « legislative » de data centers et de postes électriques, après l'avoir votée en principe 7-1-1 le 15 septembre ; une discussion séparée sur la suppression des clauses de « grandfathering » a aussi été ajournée début octobre, le conseil ayant été averti d'un risque de contentieux pouvant atteindre 60 M$.",
+      "source": "Loudoun Times-Mirror / Fox 5 DC",
+      "url": "https://www.loudountimes.com/news/business_and_economy/real_estate_and_development/county-board-defers-vote-on-data-center-pause/article_95602019-bdda-474f-819a-16d3d64645bf.html",
+      "coords": [
+        39.1157,
+        -77.5636
+      ]
+    },
+    {
+      "category": "power",
+      "title": "États-Unis (Mason County, Virginie-Occidentale) : Nscale et Anthropic négocieraient un second contrat de 45 Md$ pour un second bâtiment de 460 MW au campus foncier énergisé Monarch",
+      "region": "Amérique du Nord",
+      "date": "2026-10-19",
+      "summary": "Selon Reuters (19 octobre, sources proches du dossier), Nscale négocierait avec Anthropic un second accord d'environ 45 Md$ portant sur un second bâtiment de 460 MW (puces Nvidia Vera Rubin) au sein de son campus Monarch (2 250 à 2 380 acres, Mason County, près de Point Pleasant, micro-réseau dédié visant jusqu'à 8 GW à terme) ; Anthropic dispose par ailleurs d'un droit de négociation prioritaire sur un 3e bâtiment. Ces discussions interviennent juste après le retrait de Microsoft d'un autre projet Nscale au Royaume-Uni (Loughton), attribué à un retard de raccordement réseau.",
+      "source": "Reuters / VKTR / DataCenterDynamics",
+      "url": "https://www.vktr.com/ai-market/anthropic-signs-45-billion-compute-deal-with-nscale-for-460-megawatts-in-west-virginia/",
+      "mw": 460,
+      "inv": 45000,
+      "coords": [
+        38.8445,
+        -82.1356
+      ],
+      "poweredLand": true,
+      "owners": "Nscale",
+      "investors": "Anthropic (discussions en cours, non finalisé)"
+    },
+    {
       "category": "market",
       "title": "Royaume-Uni (Loughton, Essex) : Microsoft se retire d'un accord de data center avec Nscale, fragilisant le projet d'IPO du cloud britannique",
       "region": "Europe",
@@ -58,7 +126,10 @@
       "summary": "Microsoft a mis fin à son accord portant sur le site Nscale AI Campus de Loughton (Essex), qui devait accueillir environ 23 000 GPU Azure à partir de 2027, selon le Telegraph ; le retrait intervient alors que Nscale, l'un des deux plus gros clients de Microsoft, a déposé une demande d'introduction en bourse aux États-Unis le mois dernier et prévoyait une cotation dès la fin octobre — aucune des deux sociétés n'a commenté les raisons du retrait, dont la portée sur les autres sites Nscale (Texas, Portugal, Norvège) n'est pas confirmée.",
       "source": "The Telegraph / Reuters / The Star",
       "url": "https://www.thestar.com.my/tech/tech-news/2026/10/18/microsoft-pulls-out-of-uk-data-center-deal-with-nscale-telegraph-reports",
-      "coords": [51.6417, 0.0556]
+      "coords": [
+        51.6417,
+        0.0556
+      ]
     },
     {
       "category": "land",
@@ -68,7 +139,10 @@
       "summary": "Les autorités du comté de Mason (Kentucky) ont confirmé que Meta est le partenaire du campus technologique hyperscale au nord de Germantown Road, sur un terrain déjà rezoné en mai pour usage industriel rural (plus de 2 000 acres selon le comté, jusqu'à près de 3 000 acres selon d'autres sources) ; les montants d'investissement annoncés varient fortement selon les sources (de 15 M$ pour les seules infrastructures eau/assainissement à plusieurs milliards de dollars selon la montée en puissance du projet), et le projet fait déjà face à deux recours judiciaires de riverains ainsi qu'à une pétition de plus de 1 200 signatures.",
       "source": "Fox19 / WCPO / DataCenterDynamics",
       "url": "https://www.fox19.com/2026/10/16/meta-revealed-partner-2000-acre-nky-data-center-residents-pushback/",
-      "coords": [38.6412, -83.7941],
+      "coords": [
+        38.6412,
+        -83.7941
+      ],
       "owners": "Meta",
       "investors": "n.c."
     },
@@ -80,7 +154,10 @@
       "summary": "La Western Virginia Regional Industrial Facility Authority (détenue par Roanoke, le comté de Roanoke et Salem) a confirmé le 16 octobre que Google, via sa filiale Clearview Dynamics, est l'entreprise évaluant le site de 94 acres de Wood Haven Technology Park (jonction I-81/I-581) pour un éventuel data center ; une convention d'achat a été engagée après un vote du 11 septembre (prix non communiqué), et Google dispose d'une période de due diligence (études géotechniques, capacité réseau, environnement) devant durer jusqu'en mars 2027 avant toute décision finale — projet déjà contesté par des riverains du quartier voisin de Whitney Estates.",
       "source": "Cardinal News / WDBJ7 / Virginia Business",
       "url": "https://cardinalnews.org/2026/10/16/google-confirmed-as-parent-company-for-a-data-center-project-in-roanoke-county/",
-      "coords": [37.32, -80.01],
+      "coords": [
+        37.32,
+        -80.01
+      ],
       "owners": "Google (Clearview Dynamics)",
       "investors": "n.c."
     },
@@ -117,7 +194,10 @@
       "source": "DataCenterDynamics / Newswire / TIKR",
       "url": "https://datacenterdynamics.com/en/news/fermi-and-amd-sign-credit-support-deal-for-build-out-of-project-matador-campus-in-amarillo-texas",
       "mw": 222,
-      "coords": [35.199, -101.8313],
+      "coords": [
+        35.199,
+        -101.8313
+      ],
       "poweredLand": true,
       "owners": "Fermi America",
       "investors": "AMD (garant/soutien de crédit) · TensorWave (locataire)"
@@ -132,7 +212,10 @@
       "url": "https://datacenterdynamics.com/en/news/nebius-signs-loi-with-volt-for-data-center-capacity-in-rotterdam-the-netherlands",
       "mw": 600,
       "inv": 7570,
-      "coords": [51.9667, 3.9833],
+      "coords": [
+        51.9667,
+        3.9833
+      ],
       "owners": "Volt",
       "investors": "Nebius (premier client/offtaker)"
     },
@@ -151,6 +234,15 @@
     },
     {
       "category": "legislation",
+      "title": "Danemark : la loi d'urgence reléguant par défaut les data centers en fin de file d'attente pour le raccordement réseau entre en vigueur",
+      "region": "Europe",
+      "date": "2026-10-12",
+      "summary": "Votée le 1er octobre par le Parlement danois et entrée en vigueur le 12 octobre, la loi d'urgence du ministère du Climat, de l'Énergie et des Services publics remplace l'allocation « premier arrivé, premier servi » du réseau électrique par un classement en 4 catégories de priorité, reléguant par défaut les data centers (catégorie 4, grands consommateurs) derrière transports, industrie et chauffage, sauf exception pour fonctions critiques ou sites jugés « favorables au réseau » (flexibilité de consommation) ; la fédération patronale Dansk Industri accepte une priorisation temporaire mais met en garde contre une relégation systématique — un facteur clé pour la valorisation du foncier déjà énergisé au Danemark.",
+      "source": "DataCenterDynamics / Enerdata / Energy Connects",
+      "url": "https://datacenterdynamics.com/en/news/danish-parliament-adopts-emergency-plan-for-electricity-grid-puts-data-centers-at-the-back-of-queue"
+    },
+    {
+      "category": "legislation",
       "title": "Italie (Cologno Monzese, Lombardie) : le conseil municipal rejette à l'unanimité un data center de 80 MW sur l'ancienne friche industrielle Torriani",
       "region": "Europe",
       "date": "2026-10-11",
@@ -158,7 +250,10 @@
       "source": "DataCenterDynamics / Baxtel / Il Giorno",
       "url": "https://datacenterdynamics.com/en/news/council-rejects-80mw-data-center-in-northern-italy",
       "mw": 80,
-      "coords": [45.5392, 9.2878],
+      "coords": [
+        45.5392,
+        9.2878
+      ],
       "poweredLand": true,
       "owners": "Officine Mak · 2C Sviluppo Immobiliare Spa",
       "investors": "n.c."
@@ -173,7 +268,10 @@
       "url": "https://www.kut.org/energy-environment/2026-10-09/taylor-tx-annex-data-center-power-plant",
       "mw": 1000,
       "inv": 4800,
-      "coords": [30.5707, -97.4091],
+      "coords": [
+        30.5707,
+        -97.4091
+      ],
       "poweredLand": true,
       "owners": "Big Watt Digital · PowerHouse Data Centers",
       "investors": "n.c."
@@ -196,7 +294,10 @@
       "source": "Open / DataCenterMap",
       "url": "https://www.open.online/2026/10/08/data-center-moncalieri-stop-sindaco/",
       "mw": 576,
-      "coords": [45.0038, 7.6805],
+      "coords": [
+        45.0038,
+        7.6805
+      ],
       "poweredLand": true,
       "owners": "Logistics Capital Partners (Moncalieri Logistics)",
       "investors": "n.c."
@@ -221,7 +322,10 @@
       "source": "DataCenterDynamics / Baxtel / TechRadar Pro",
       "url": "https://datacenterdynamics.com/en/news/aws-plans-36-building-data-center-campus-in-indiana-county-pennsylvania",
       "mw": 4500,
-      "coords": [40.5423, -79.1534],
+      "coords": [
+        40.5423,
+        -79.1534
+      ],
       "poweredLand": true,
       "owners": "Amazon Data Services (AWS) · Homer City Redevelopment (centrale gaz dédiée)",
       "investors": "n.c."
@@ -235,7 +339,10 @@
       "source": "DataCenterDynamics / Planning Geek / Yorkshire Post",
       "url": "https://www.datacenterdynamics.com/en/news/uk-govt-rejects-ai-growth-zone-bid-to-power-data-center-with-drax-biomass-plant-in-selby-north-yorkshire",
       "mw": 1200,
-      "coords": [53.7367, -1.0033],
+      "coords": [
+        53.7367,
+        -1.0033
+      ],
       "poweredLand": true,
       "owners": "Drax Group · North Yorkshire Council · University of York (consortium)",
       "investors": "n.c."
@@ -289,7 +396,10 @@
       "url": "https://www.power-eng.com/?p=137020",
       "mw": 590,
       "inv": 1800,
-      "coords": [41.14, -104.82],
+      "coords": [
+        41.14,
+        -104.82
+      ],
       "poweredLand": true,
       "owners": "Google (data center prévu) · Black Hills Corp (production/réseau dédié)",
       "investors": "n.c."
@@ -302,7 +412,10 @@
       "summary": "Fawley Waterside Limited a présenté un projet de campus industriel et commercial incluant des data centers sur l'ancien site de la centrale au fioul de 2 GW de Fawley (déclassée par RWE en 2013, près de Southampton), avec une surface réduite à 143 000 m² après consultation locale (contre 190 000 m² initialement) et trois grands bâtiments de data centers envisagés ; National Grid prépare une demande auprès d'Ofgem pour renforcer le poste électrique existant du site, le début des travaux étant visé pour l'hiver 2028.",
       "source": "DataCenterDynamics / Baxtel / bebeez",
       "url": "https://datacenterdynamics.com/en/news/former-uk-power-station-site-could-become-data-center-campus",
-      "coords": [50.8167, -1.3333],
+      "coords": [
+        50.8167,
+        -1.3333
+      ],
       "poweredLand": true,
       "owners": "Fawley Waterside Limited",
       "investors": "n.c."
@@ -317,7 +430,10 @@
       "url": "https://bebeez.eu/2026/10/05/atnorth-to-develop-new-data-center-in-salo-finland/",
       "mw": 230,
       "inv": 2240,
-      "coords": [60.3833, 23.1333],
+      "coords": [
+        60.3833,
+        23.1333
+      ],
       "poweredLand": true,
       "owners": "atNorth",
       "investors": "n.c."
@@ -331,7 +447,10 @@
       "source": "AEP / TipRanks / Cryptobriefing",
       "url": "https://www.aep.com/news/stories/view/12292/",
       "mw": 1000,
-      "coords": [38.3326, -82.9476],
+      "coords": [
+        38.3326,
+        -82.9476
+      ],
       "poweredLand": true,
       "owners": "TeraWulf",
       "investors": "n.c."
@@ -345,7 +464,10 @@
       "source": "Bourse Direct / Altarea / bebeez",
       "url": "https://bebeez.eu/2026/10/02/nation-data-center-breaks-ground-on-new-french-data-center-development/",
       "mw": 7,
-      "coords": [48.7833, 2.1833],
+      "coords": [
+        48.7833,
+        2.1833
+      ],
       "owners": "Altarea (Nation Data Center)",
       "investors": "n.c."
     },
@@ -357,7 +479,10 @@
       "summary": "La préfecture de l'Indre a confirmé à l'AFP qu'une concertation préalable sous l'égide de la Commission nationale du débat public se tiendra en novembre et décembre, avec Google et RTE comme maîtres d'ouvrage, sur le projet de 8 à 10 bâtiments de data centers (environ 195 hectares, ZAC d'Ozans) dont la vente du terrain à la filiale Tricolore Computing avait été votée en 2025 ; la puissance électrique reste non chiffrée officiellement (estimations divergentes de 500 MW à 1,1 GW selon les sources), le raccordement RTE prévoyant des liaisons souterraines à 225 kV puis deux lignes aériennes à 400 kV, et le projet a déjà provoqué en septembre la démission de la maire d'Étrechet et de plusieurs élus face à la contestation locale (pétition à plus de 18 000 signatures).",
       "source": "Préfecture de l'Indre (AFP) / Blog du Modérateur / Next.ink",
       "url": "https://www.blogdumoderateur.com/data-centers-projet-google-chateauroux-methode-francaise/",
-      "coords": [46.76, 1.72],
+      "coords": [
+        46.76,
+        1.72
+      ],
       "poweredLand": true,
       "owners": "Google (Tricolore Computing) · RTE",
       "investors": "n.c."
@@ -372,7 +497,10 @@
       "url": "https://www.constellationenergy.com/news/2026/09/constellation-and-amazon-announce-20-year-power-purchase-agreement-at-calvert-cliffs.html",
       "mw": 690,
       "inv": 3000,
-      "coords": [38.4319, -76.4422],
+      "coords": [
+        38.4319,
+        -76.4422
+      ],
       "poweredLand": true,
       "owners": "Constellation Energy (site, Calvert Cliffs)",
       "investors": "Amazon (acheteur PPA, 20 ans)"
@@ -386,7 +514,10 @@
       "source": "W.Media / PR Newswire / Black Ridge Research",
       "url": "https://w.media/?p=43828",
       "mw": 500,
-      "coords": [35.25, -101.65],
+      "coords": [
+        35.25,
+        -101.65
+      ],
       "poweredLand": true,
       "owners": "Zone Frontier Inc. · HST Technologies",
       "investors": "n.c."
@@ -400,7 +531,10 @@
       "source": "BlackRidge Research / W.Media / Finviz",
       "url": "https://www.blackridgeresearch.com/news-releases/foresight-signs-term-sheet-take-50-01-percentage-stake-in-polish-data-center-developer-with-up-to-270-mw-of-planned-capacity",
       "mw": 270,
-      "coords": [52.2167, 20.8167],
+      "coords": [
+        52.2167,
+        20.8167
+      ],
       "owners": "« The Data Centers Company » (non nommée) · partenaires polonais",
       "investors": "Foresight Autonomous Holdings"
     },
@@ -413,7 +547,10 @@
       "source": "Reporterre",
       "url": "https://reporterre.net/11-data-centers-deux-recours-seront-deposes-contre-le-megaprojet-en-Seine-et-Marne",
       "mw": 1400,
-      "coords": [48.556, 2.787]
+      "coords": [
+        48.556,
+        2.787
+      ]
     },
     {
       "category": "competition",
@@ -437,52 +574,10 @@
       "summary": "Les élus du comté de Prince William (Virginie du Nord, premier marché de data centers aux États-Unis) ont voté 8-0 pour supprimer le développement automatique (« by-right ») de data centers ; la zone d'implantation dédiée (Data Center Opportunity Zone Overlay District) passe d'environ 9 700 à 3 641 acres, avec une période de grâce de 90 jours pour les propriétaires déjà engagés — un resserrement notable sur le marché de foncier data center le plus mature des États-Unis.",
       "source": "WTOP News",
       "url": "https://wtop.com/virginia/2026/09/prince-william-co-supervisors-vote-to-end-by-right-data-center-development-countywide/",
-      "coords": [38.7509, -77.4753]
-    },
-    {
-      "category": "land",
-      "title": "France (Trappes, Yvelines) : Goodman prépare 3 data centers IA (300 MW) sur la friche Stellantis-Iveco, cession foncière de 42 M€ indexée sur le raccordement",
-      "region": "France",
-      "date": "2026-09-21",
-      "summary": "La concertation préalable sur le projet de Goodman France s'est achevée le 1er septembre 2026, ouvrant la voie à l'enquête publique : trois data centers IA totalisant 300 MW sont prévus sur 15,5 hectares de friches industrielles déjà urbanisées (ex-Stellantis, Iveco, Einstein) dans la zone d'activité mature de Trappes-Élancourt ; le prix de cession du foncier à Goodman (42 M€) serait explicitement indexé à l'obtention des autorisations administratives et du raccordement électrique, dont le dimensionnement dépend encore d'Enedis et de RTE.",
-      "source": "DCmag",
-      "url": "https://dcmag.fr/la-friche-stellantis-a-trappes-transformee-en-data-center-ia-de-300-mw/",
-      "mw": 300,
-      "coords": [48.7772, 1.9998],
-      "poweredLand": true,
-      "owners": "Goodman France",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "Californie : le gouverneur Newsom promulgue un paquet de 7 lois, les plus complètes du pays sur l'eau, l'électricité et le foncier des data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-09-21",
-      "summary": "Gavin Newsom a promulgué le 21 septembre sept textes (AB 1577, AB 2383, AB 2469, AB 2619, SB 886, SB 887, SB 1168) formant le paquet législatif le plus complet des États-Unis sur les data centers : SB 886 et AB 2383 imposent à la CPUC de créer d'ici 2028 des tarifs électriques dédiés aux data centers de 75 MW et plus pour éviter que le coût du raccordement ne soit répercuté sur les autres consommateurs, AB 2469 et AB 2619 renforcent la transparence sur l'eau, et SB 887 empêche les data centers de contourner l'évaluation environnementale de droit commun.",
-      "source": "CalMatters / Bureau du gouverneur de Californie",
-      "url": "https://calmatters.org/economy/technology/2026/09/new-california-laws-data-centers/"
-    },
-    {
-      "category": "legislation",
-      "title": "Texas : le gouverneur Abbott ordonne à la TCEQ de suspendre tous les permis environnementaux pour data centers en attendant l'audit ERCOT/TWDB",
-      "region": "Amérique du Nord",
-      "date": "2026-09-21",
-      "summary": "Après le gel des nouveaux raccordements réseau décidé en août, le gouverneur Greg Abbott a ordonné le 21 septembre à la Texas Commission on Environmental Quality de suspendre l'ensemble des permis environnementaux sollicités par les data centers, y compris potentiellement pour la génération sur site/îlotée, en attendant que l'ERCOT et le Texas Water Development Board achèvent leur audit portant sur plus de 400 sites ; la TCEQ doit remettre un rapport d'avancement au gouverneur avant le 19 octobre, sans date de reprise fixée.",
-      "source": "Office of the Texas Governor / CNBC / Houston Public Media",
-      "url": "https://www.cnbc.com/2026/09/21/texas-governor-abbott-ai-data-center-permits.html"
-    },
-    {
-      "category": "land",
-      "title": "République tchèque (Prague Gateway, Zbraslav) : Polarise signe une lettre d'intention avec České Radiokomunikace (CRA) pour réserver 15 MW, premier site tchèque",
-      "region": "Europe",
-      "date": "2026-09-09",
-      "summary": "Première actualité concrète identifiée sur Polarise (cible prioritaire de veille) : l'opérateur allemand d'IA souveraine a signé le 9 septembre une lettre d'intention (non engageante) avec České Radiokomunikace pour réserver 15 MW au sein du campus Prague Gateway DC (26 MW visés au total, 2 000 baies, refroidissement liquide), dont la première phase de 700 baies doit entrer en service fin 2027 ; les deux groupes évoquent aussi des discussions conjointes sur d'éventuels projets de type « gigafactory » européenne. Polarise exploite par ailleurs des sites en Allemagne (Munich, Amberg) et en Norvège (Oslo).",
-      "source": "České Radiokomunikace (communiqué) / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/polarise-to-lease-capacity-from-cra-in-prague-czechia/",
-      "mw": 15,
-      "coords": [49.98, 14.40],
-      "owners": "České Radiokomunikace (CRA, site) · Polarise (locataire pressenti)",
-      "investors": "n.c."
+      "coords": [
+        38.7509,
+        -77.4753
+      ]
     },
     {
       "category": "power",
@@ -507,7 +602,10 @@
       "source": "HPCwire / DataCenterDynamics / 2CRSi",
       "url": "https://www.bebeez.eu/2026/07/09/europes-aether-consortium-targets-two-ai-gigafactories-in-strasbourg-france/",
       "mw": 400,
-      "coords": [48.573, 7.752],
+      "coords": [
+        48.573,
+        7.752
+      ],
       "poweredLand": true,
       "owners": "n.c. (sites en négociation)",
       "investors": "2CRSi · SiPearl · consortium ÆTHER"
@@ -548,7 +646,10 @@
       "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
       "mw": 3100,
       "inv": 52000,
-      "coords": [50.98, 2.13],
+      "coords": [
+        50.98,
+        2.13
+      ],
       "poweredLand": true,
       "owners": "SoftBank Group",
       "investors": "SoftBank (autofinancé)"
@@ -563,7 +664,10 @@
       "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
       "mw": 700,
       "inv": 5800,
-      "coords": [50.33, 3.27],
+      "coords": [
+        50.33,
+        3.27
+      ],
       "poweredLand": true,
       "owners": "Data4",
       "investors": "n.c."
@@ -578,7 +682,10 @@
       "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
       "mw": 1000,
       "inv": 10900,
-      "coords": [50.1758, 3.2354],
+      "coords": [
+        50.1758,
+        3.2354
+      ],
       "owners": "Data4 (site) · Brookfield (investisseur)",
       "investors": "Brookfield Asset Management"
     }
