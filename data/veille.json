@@ -1,13 +1,23 @@
 {
-  "lastUpdated": "2026-10-22",
+  "lastUpdated": "2026-10-23",
   "keyTakeaways": [
-    "Sur le foncier déjà énergisé nord-américain, Nscale et Anthropic négocieraient (Reuters, 19 octobre) un second contrat de 45 Md$ portant sur un second bâtiment de 460 MW au sein du campus Monarch (Mason County, Virginie-Occidentale, micro-réseau dédié visant jusqu'à 8 GW à terme) — rappel que la valeur de ce type de site tient à sa capacité électrique déjà sécurisée, mais aussi un contre-exemple immédiat au risque de retrait d'offtaker souligné hier avec Microsoft/Nscale au Royaume-Uni (attribué cette fois à un retard de raccordement réseau, confirmant que la robustesse de l'accès réseau prime sur la solidité du client).",
-    "Nouvel entrant à surveiller sur le « sovereign AI » européen : VivoPower et Open Innovation AI ont signé le 21 octobre un accord définitif visant au moins 1 GW de data centers IA souverains sur trois ans dans les pays nordiques, en Europe continentale et dans le Golfe, sur un marché qu'ils chiffrent à plus de 40 GW d'opportunités — aucun site n'est encore identifié, mais ce type de développeur de puissance/sites est un acheteur potentiel de foncier énergisé à qualifier.",
-    "La priorisation réglementaire du réseau électrique au détriment des data centers se généralise en Europe du Nord : la loi d'urgence danoise (entrée en vigueur le 12 octobre) relègue par défaut les data centers en fin de file d'attente de raccordement, en écho au projet finlandais de réforme de la loi sur le marché de l'électricité (consultation close le 9 octobre) — une tendance qui renforce structurellement la prime de valeur du foncier déjà raccordé par rapport aux nouveaux projets en attente de capacité.",
-    "Nouveau site à ajouter au radar foncier français hors zones habituelles : Sepia Infrastructure a sécurisé par promesse de vente (début septembre) l'ancienne sucrerie Saint-Louis de Cagny (Calvados), un des 55 sites « clés en main France 2030 », pour un campus IA/data center dont la puissance n'est pas encore communiquée et le permis pas encore déposé — à suivre pour mesurer la vitesse d'instruction administrative en Normandie.",
-    "Suivi réglementaire américain : le vote final sur la pause de 12 mois des permis data centers à Loudoun County (Virginie du Nord, marché historique n°1) est reporté au 17 novembre. Toujours aucune actualité fiable nouvelle sur Aurora Infra ou La Française de l'Énergie malgré des recherches répétées (y compris site:linkedin.com) ; l'unique item identifié sur Polarise (Prague, 9 septembre) sort aujourd'hui de la fenêtre de rétention de 30 jours, sans actualité de relais pour le maintenir."
+    "Nouveau mécanisme de marché à surveiller dans la zone PJM : Google et Voltus ont étendu le 22 octobre leur partenariat à 1 GW de capacité virtuelle (« Bring Your Own Capacity », agrégation de batteries et thermostats résidentiels/commerciaux), un outil qui ne crée pas de foncier mais pourrait à terme alléger la pression sur les files d'attente de raccordement — un facteur qui pourrait, à la marge, atténuer la prime de rareté du foncier déjà énergisé dans PJM si ce type de solution se généralise.",
+    "En France, seule nouveauté significative des dernières 72h : la Métropole de Lille a approuvé le raccordement du campus OVHcloud de Roubaix à un réseau de chaleur urbain (R-Énergies) après 10 ans d'études — un exemple de valorisation d'un site déjà en exploitation plutôt qu'une nouvelle transaction foncière ; aucune nouvelle actualité fiable sur le foncier français hors ce dossier.",
+    "Deux nouvelles acquisitions foncières américaines à bas niveau de maturité énergétique à noter en contre-exemple au cœur de métier de Noémie : Microsoft a sécurisé 600 acres à Woodward (Iowa, 8 octobre) et Digital Realty 476 acres à Kokomo (Indiana), toutes deux visant potentiellement le gigawatt, mais dans les DEUX cas la puissance électrique n'est pas encore sécurisée (Duke Energy toujours en négociation côté Kokomo) — un rappel que l'essentiel des transactions foncières récentes restent du foncier nu, renforçant la prime de valeur des sites déjà raccordés ou co-localisés avec une production dédiée.",
+    "Toujours aucune actualité fiable nouvelle sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches répétées et ciblées (y compris site:linkedin.com) ; le dernier élément connu sur Polarise (financement par dette SWI Stoneweg Icona Group, 18 août) reste hors de la fenêtre de rétention de 30 jours et mériterait d'être vérifié directement auprès de la société si le sujet reste prioritaire pour Noémie.",
+    "Le marché nord-américain reste dominé par les tensions réglementaires locales (moratoires et votes serrés à Memphis, Little Rock, comtés du Wisconsin la semaine dernière) plutôt que par de nouvelles transactions de foncier déjà énergisé cette fois-ci — fenêtre de recherche plus calme que les jours précédents sur l'axe « powered land » proprement dit, avec un focus relatif sur les mécanismes de marché (virtual power plants) et le foncier nu en amont de la sécurisation électrique."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "États-Unis (zone PJM) : Google et Voltus annoncent un accord étendu de 1 GW de capacité virtuelle « Bring Your Own Capacity »",
+      "region": "Amérique du Nord",
+      "date": "2026-10-22",
+      "summary": "Google et Voltus ont annoncé le 22 octobre un accord étendu portant sur 1 GW de capacité flexible de type « virtual power plant » dans la zone PJM, élargissant un premier partenariat de 100 MW signé en juin 2026 ; Voltus agrège des ressources énergétiques distribuées (batteries, thermostats connectés) chez des particuliers et entreprises, financées par Google, pour fournir de la capacité de pointe au gestionnaire de réseau, mise en service visée en 2027 — un mécanisme de marché qui ne crée pas de foncier mais pourrait alléger la pression sur les files d'attente de raccordement des data centers dans PJM.",
+      "source": "GlobeNewswire / Latitude Media",
+      "url": "https://globenewswire.com/news-release/2026/10/22/3386223/0/en/google-and-voltus-announce-one-gigawatt-bring-your-own-capacity-agreement-in-pjm.html",
+      "mw": 1000
+    },
     {
       "category": "land",
       "title": "France (Cagny, Calvados) : Sepia Infrastructure signe une promesse de vente pour un campus IA avec data center sur l'ancienne sucrerie Saint-Louis, un des 55 sites « clés en main » France 2030",
@@ -22,6 +32,21 @@
       ],
       "poweredLand": true,
       "owners": "Sepia Infrastructure",
+      "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "France (Roubaix, Nord) : la Métropole de Lille approuve le raccordement du campus data center d'OVHcloud au réseau de chaleur urbain",
+      "region": "France",
+      "date": "2026-10-21",
+      "summary": "La Métropole Européenne de Lille a approuvé à l'unanimité le raccordement du campus de 8 data centers d'OVHcloud à Roubaix (8-12 MW chacun) au réseau de chaleur urbain exploité par R-Énergies (environ 31 km de canalisations, 105 MW de capacité thermique, ~117 GWh de chaleur livrée par an sur 205 points de livraison), après 10 ans d'études ; le refroidissement liquide des serveurs OVHcloud facilite la récupération de chaleur vers le réseau urbain.",
+      "source": "DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/ovhcloud-wins-approval-to-connect-data-centers-in-roubaix-france-to-local-district-heating-network/",
+      "coords": [
+        50.6942,
+        3.1746
+      ],
+      "owners": "OVHcloud",
       "investors": "n.c."
     },
     {
@@ -47,32 +72,6 @@
       "coords": [
         35.1495,
         -90.049
-      ]
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Florence County, Wisconsin) : le conseil du comté adopte à l'unanimité un moratorium sur les data centers et met fin à l'usage des caméras Flock",
-      "region": "Amérique du Nord",
-      "date": "2026-10-20",
-      "summary": "Le conseil du comté de Florence (Wisconsin) a voté à l'unanimité un moratorium sur les usages fonciers liés aux data centers et au stockage par batteries, le plan d'urbanisme du comté (20 ans) ne prenant pas en compte ces usages ; la commission d'urbanisme dispose désormais de jusqu'à 18 mois (extensible) pour réviser le plan et le règlement de zonage, Florence rejoignant ainsi la liste d'une vingtaine de comtés du Wisconsin ayant déjà adopté un tel moratorium.",
-      "source": "Upper Michigan's Source (WLUC)",
-      "url": "https://www.uppermichiganssource.com/2026/10/21/florence-county-board-approves-data-center-moratorium-ends-flock-camera-use/",
-      "coords": [
-        45.9458,
-        -88.2536
-      ]
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Little Rock, Arkansas) : le conseil municipal rejette à 4 voix contre 4 un moratorium de 6 mois sur les grands projets de data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-10-20",
-      "summary": "Le Board of Directors de Little Rock a rejeté le 20 octobre, par un vote à égalité de 4 voix contre 4, une proposition de moratorium de 6 mois sur les grands projets de data centers — le même résultat qu'un précédent projet de moratorium de 18 mois rejeté en août.",
-      "source": "Arkansas Democrat-Gazette (Arkansas Online)",
-      "url": "https://arkansasonline.com/news/2026/oct/20/little-rock-board-rejects-6-month-data-center",
-      "coords": [
-        34.7465,
-        -92.2896
       ]
     },
     {
@@ -201,6 +200,21 @@
       "poweredLand": true,
       "owners": "Fermi America",
       "investors": "AMD (garant/soutien de crédit) · TensorWave (locataire)"
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Woodward, Iowa) : Microsoft acquiert 600 acres pour un futur data center, fort rejet des riverains",
+      "region": "Amérique du Nord",
+      "date": "2026-10-12",
+      "summary": "Microsoft a acquis 600 acres entre Highway 141 et Seminole Avenue à Woodward (à 30 miles au nord-ouest de Des Moines, Iowa), vente conclue le 8 octobre et révélée aux riverains le 12 octobre ; le terrain, rezoné d'agricole à « Eco Business Park » en juin 2026, offrirait un potentiel de l'ordre du gigawatt selon Baxtel, pour des usages cloud/stockage plutôt que l'entraînement IA — aucune sécurisation de puissance sur site n'est encore confirmée. Plus de 300 résidents ont manifesté leur opposition lors de la réunion publique.",
+      "source": "DataCenterDynamics / Baxtel / Newsweek",
+      "url": "https://datacenterdynamics.com/en/news/microsoft-acquires-600-acres-of-land-for-data-center-in-woodward-iowa",
+      "coords": [
+        41.8536,
+        -93.9254
+      ],
+      "owners": "Microsoft",
+      "investors": "n.c."
     },
     {
       "category": "land",
@@ -456,19 +470,18 @@
       "investors": "n.c."
     },
     {
-      "category": "construction",
-      "title": "France (Vélizy-Villacoublay, Yvelines) : Altarea/Nation Data Center obtient le permis de construire définitif pour son premier data center urbain (7 MW)",
-      "region": "France",
-      "date": "2026-10-02",
-      "summary": "Nation Data Center (marque d'Altarea) a obtenu le permis de construire définitif de son premier data center urbain à Vélizy-Villacoublay (2 268 m², 7 MW IT, jusqu'à 1 152 baies), intégré à un projet de quartier mixte incluant une résidence étudiante développée par Cogedim ; livraison visée au second semestre 2027, avec récupération de chaleur vers le réseau de chauffage urbain de Vélizy.",
-      "source": "Bourse Direct / Altarea / bebeez",
-      "url": "https://bebeez.eu/2026/10/02/nation-data-center-breaks-ground-on-new-french-data-center-development/",
-      "mw": 7,
+      "category": "land",
+      "title": "États-Unis (Kokomo, Indiana) : Digital Realty choisit un site de 476 acres pour son premier campus dans l'État, jusqu'à 1 GW visé",
+      "region": "Amérique du Nord",
+      "date": "2026-10",
+      "summary": "Digital Realty a sélectionné un site de 476 acres à Industrial Park North (jonction US-31/CR 400N), à environ 50 miles au nord d'Indianapolis, pour son premier data center dans l'Indiana ; le projet viserait environ 1 GW de capacité IT (3 millions de pieds carrés), mais Duke Energy est encore en négociation sur les accords de raccordement réseau nécessaires — la puissance n'est donc pas encore sécurisée. Coût estimé entre 1 et 3 Md$ selon les sources, sans abattement fiscal accordé, développement visé jusqu'en 2033.",
+      "source": "DataCenterDynamics / Baxtel / WISH-TV",
+      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana/",
       "coords": [
-        48.7833,
-        2.1833
+        40.4864,
+        -86.1336
       ],
-      "owners": "Altarea (Nation Data Center)",
+      "owners": "Digital Realty",
       "investors": "n.c."
     },
     {
@@ -565,19 +578,6 @@
       "poweredLand": true,
       "owners": "Stack Infrastructure (Blue Owl Capital)",
       "investors": "BlackRock (AI Infrastructure Partnership) · IFM Investors"
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Prince William County, Virginie) : le comté met fin au développement de data centers « by-right » sur l'ensemble de son territoire",
-      "region": "Amérique du Nord",
-      "date": "2026-09-22",
-      "summary": "Les élus du comté de Prince William (Virginie du Nord, premier marché de data centers aux États-Unis) ont voté 8-0 pour supprimer le développement automatique (« by-right ») de data centers ; la zone d'implantation dédiée (Data Center Opportunity Zone Overlay District) passe d'environ 9 700 à 3 641 acres, avec une période de grâce de 90 jours pour les propriétaires déjà engagés — un resserrement notable sur le marché de foncier data center le plus mature des États-Unis.",
-      "source": "WTOP News",
-      "url": "https://wtop.com/virginia/2026/09/prince-william-co-supervisors-vote-to-end-by-right-data-center-development-countywide/",
-      "coords": [
-        38.7509,
-        -77.4753
-      ]
     },
     {
       "category": "power",
