@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-23",
+  "lastUpdated": "2026-10-26",
   "keyTakeaways": [
-    "Nouveau mécanisme de marché à surveiller dans la zone PJM : Google et Voltus ont étendu le 22 octobre leur partenariat à 1 GW de capacité virtuelle (« Bring Your Own Capacity », agrégation de batteries et thermostats résidentiels/commerciaux), un outil qui ne crée pas de foncier mais pourrait à terme alléger la pression sur les files d'attente de raccordement — un facteur qui pourrait, à la marge, atténuer la prime de rareté du foncier déjà énergisé dans PJM si ce type de solution se généralise.",
-    "En France, seule nouveauté significative des dernières 72h : la Métropole de Lille a approuvé le raccordement du campus OVHcloud de Roubaix à un réseau de chaleur urbain (R-Énergies) après 10 ans d'études — un exemple de valorisation d'un site déjà en exploitation plutôt qu'une nouvelle transaction foncière ; aucune nouvelle actualité fiable sur le foncier français hors ce dossier.",
-    "Deux nouvelles acquisitions foncières américaines à bas niveau de maturité énergétique à noter en contre-exemple au cœur de métier de Noémie : Microsoft a sécurisé 600 acres à Woodward (Iowa, 8 octobre) et Digital Realty 476 acres à Kokomo (Indiana), toutes deux visant potentiellement le gigawatt, mais dans les DEUX cas la puissance électrique n'est pas encore sécurisée (Duke Energy toujours en négociation côté Kokomo) — un rappel que l'essentiel des transactions foncières récentes restent du foncier nu, renforçant la prime de valeur des sites déjà raccordés ou co-localisés avec une production dédiée.",
-    "Toujours aucune actualité fiable nouvelle sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches répétées et ciblées (y compris site:linkedin.com) ; le dernier élément connu sur Polarise (financement par dette SWI Stoneweg Icona Group, 18 août) reste hors de la fenêtre de rétention de 30 jours et mériterait d'être vérifié directement auprès de la société si le sujet reste prioritaire pour Noémie.",
-    "Le marché nord-américain reste dominé par les tensions réglementaires locales (moratoires et votes serrés à Memphis, Little Rock, comtés du Wisconsin la semaine dernière) plutôt que par de nouvelles transactions de foncier déjà énergisé cette fois-ci — fenêtre de recherche plus calme que les jours précédents sur l'axe « powered land » proprement dit, avec un focus relatif sur les mécanismes de marché (virtual power plants) et le foncier nu en amont de la sécurisation électrique."
+    "Nouveau signal politique américain à surveiller : Donald Trump a déclaré le 21 octobre « mandater » les nouveaux grands data centers à produire leur propre électricité et à verser un « dividende » aux communautés d'accueil — une déclaration sans portée juridique contraignante selon les juristes de l'énergie, mais qui confirme la tendance de fond déjà à l'œuvre sur le terrain (autoproduction, micro-réseaux dédiés) et renforce la thèse de la prime de valeur du foncier déjà énergisé ou co-localisé avec une production dédiée.",
+    "Le campus Stargate « Project Jupiter » d'Oracle/OpenAI au Nouveau-Mexique illustre bien la friction persistante entre ambition land+power et réalité du raccordement : même un projet de cette envergure (impact révisé à plus de 13 Md$, centrale à piles à combustible dédiée) se heurte à des élus locaux qui contestent les termes de l'accord de raccordement proposé par l'utility El Paso Electric.",
+    "Les besoins de financement des « neoclouds » restent considérables et soutiennent indirectement la demande de foncier énergisé : Nebius a sécurisé une facilité de crédit garantie de 3,5 Md$ auprès de Citi le 22 octobre pour poursuivre son expansion de data centers et ses achats de GPU.",
+    "Toujours aucune actualité fiable nouvelle sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches répétées et ciblées (y compris site:linkedin.com) ; comme les jours précédents, une vérification directe auprès de ces sociétés serait nécessaire si le sujet reste prioritaire pour Noémie.",
+    "Fenêtre de recherche plus calme que les jours précédents sur de nouvelles transactions concrètes de foncier déjà énergisé dans les dernières 24-72h (rien de neuf de fiable identifié en France hors du dossier Cagny déjà suivi) ; plusieurs items de plus de 30 jours ou redondants (Fouju, cession Stack Infrastructure APAC, retrait Microsoft/Nscale UK, Aragon, Kokomo, pause Moncalieri) ont été retirés pour conserver une liste resserrée sur l'actualité la plus pertinente et récente."
   ],
   "items": [
     {
@@ -35,6 +35,18 @@
       "investors": "n.c."
     },
     {
+      "category": "market",
+      "title": "Nebius sécurise une facilité de crédit senior garantie de 3,5 Md$ auprès de Citi pour financer son expansion de data centers IA",
+      "region": "International",
+      "date": "2026-10-22",
+      "summary": "Nebius Group a annoncé le 22 octobre avoir conclu avec Citi une facilité de crédit senior garantie de 3,5 Md$ (durée 364 jours, taux Term SOFR + 2,75 % pouvant monter à 3,50 %), dont le produit sera affecté au développement de ses data centers et à l'achat de GPU, en complément des préfinancements clients et des flux de trésorerie d'exploitation ; l'opération intervient quelques semaines après une levée de 3,75 Md$ en obligations convertibles liée à son contrat avec Meta.",
+      "source": "Nebius Group (SEC Form 6-K) / Bloomberg Law",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926117978/tm2628078d1_ex99-1.htm",
+      "inv": 3500,
+      "owners": "Nebius Group",
+      "investors": "Citi (prêteur, arrangeur mandaté)"
+    },
+    {
       "category": "power",
       "title": "France (Roubaix, Nord) : la Métropole de Lille approuve le raccordement du campus data center d'OVHcloud au réseau de chaleur urbain",
       "region": "France",
@@ -59,6 +71,17 @@
       "url": "https://www.globenewswire.com/news-release/2026/10/21/3385505/0/en/vivopower-signs-definitive-heads-of-agreement-with-open-innovation-ai-to-develop-secure-sovereign-ai-data-centers-across-the-nordics-mainland-europe-the-gcc-and-selective-countries.html",
       "mw": 1000,
       "owners": "VivoPower",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis : Donald Trump déclare mandater les data centers à produire leur propre électricité et à verser un « dividende » aux communautés d'accueil",
+      "region": "Amérique du Nord",
+      "date": "2026-10-21",
+      "summary": "Dans un message sur Truth Social le 21 octobre, Donald Trump a affirmé que les nouveaux et grands data centers sont désormais « mandatés » par lui pour produire leur propre électricité et reverser le surplus aux communautés locales ou au réseau, et a appelé les opérateurs à verser un « dividende » financier aux riverains pour rendre les projets plus acceptables ; des juristes de l'énergie soulignent qu'il s'agit d'une déclaration sans portée contraignante, le président ne pouvant modifier unilatéralement des contrats d'approvisionnement électrique régis par les États et les utilities.",
+      "source": "Truth Social (D. Trump) / Free Press Journal / The Next Web",
+      "url": "https://www.freepressjournal.in/tech/large-data-centers-should-pay-communities-a-dividend-donald-trump-says",
+      "owners": "n.c.",
       "investors": "n.c."
     },
     {
@@ -116,19 +139,6 @@
       "poweredLand": true,
       "owners": "Nscale",
       "investors": "Anthropic (discussions en cours, non finalisé)"
-    },
-    {
-      "category": "market",
-      "title": "Royaume-Uni (Loughton, Essex) : Microsoft se retire d'un accord de data center avec Nscale, fragilisant le projet d'IPO du cloud britannique",
-      "region": "Europe",
-      "date": "2026-10-18",
-      "summary": "Microsoft a mis fin à son accord portant sur le site Nscale AI Campus de Loughton (Essex), qui devait accueillir environ 23 000 GPU Azure à partir de 2027, selon le Telegraph ; le retrait intervient alors que Nscale, l'un des deux plus gros clients de Microsoft, a déposé une demande d'introduction en bourse aux États-Unis le mois dernier et prévoyait une cotation dès la fin octobre — aucune des deux sociétés n'a commenté les raisons du retrait, dont la portée sur les autres sites Nscale (Texas, Portugal, Norvège) n'est pas confirmée.",
-      "source": "The Telegraph / Reuters / The Star",
-      "url": "https://www.thestar.com.my/tech/tech-news/2026/10/18/microsoft-pulls-out-of-uk-data-center-deal-with-nscale-telegraph-reports",
-      "coords": [
-        51.6417,
-        0.0556
-      ]
     },
     {
       "category": "land",
@@ -200,6 +210,23 @@
       "poweredLand": true,
       "owners": "Fermi America",
       "investors": "AMD (garant/soutien de crédit) · TensorWave (locataire)"
+    },
+    {
+      "category": "power",
+      "title": "États-Unis (Santa Teresa, Doña Ana County, Nouveau-Mexique) : Oracle révise à plus de 13 Md$ l'impact économique de son campus Stargate « Project Jupiter », raccordement électrique contesté avec El Paso Electric",
+      "region": "Amérique du Nord",
+      "date": "2026-10-13",
+      "summary": "Oracle a annoncé le 13 octobre revoir à plus de 13 Md$ l'impact économique attendu de son campus de 4 data centers et 2 unités de microréseau de production électrique à Santa Teresa (Doña Ana County, Nouveau-Mexique), site du projet Stargate avec OpenAI ; la révision intègre l'investissement dans une centrale à piles à combustible annoncée en avril 2026 et porte l'impact direct annuel pour le comté à environ 560 M$ une fois le site pleinement opérationnel, dans un contexte où des élus locaux contestent l'accord de raccordement proposé avec El Paso Electric (10 M$/an sur 10 ans, même en cas de sous-consommation).",
+      "source": "Oracle (communiqué) / Albuquerque Journal / Construction Review Online",
+      "url": "https://constructionreviewonline.com/oracles-project-jupiter-forecasts-13b-economic-impact-proposes-up-to-165m-in-power-bill-credits",
+      "inv": 13000,
+      "coords": [
+        31.8167,
+        -106.5833
+      ],
+      "poweredLand": true,
+      "owners": "Oracle (locataire pour OpenAI / Stargate)",
+      "investors": "OpenAI (Stargate)"
     },
     {
       "category": "land",
@@ -301,23 +328,6 @@
     },
     {
       "category": "legislation",
-      "title": "Italie (Moncalieri, Turin) : le maire met en pause le projet de méga data center de 576 MW sur l'ancienne friche industrielle ILTE",
-      "region": "Europe",
-      "date": "2026-10-08",
-      "summary": "Le maire de Moncalieri, Lorenzo Mauro, a annoncé le 8 octobre vouloir rejeter en l'état le projet « Moncalieri Logistics » (lié à Logistics Capital Partners), un data center de 576 MW sur l'ancienne friche industrielle ILTE qui serait le plus grand d'Italie, tant que des garanties sur l'environnement, la consommation d'eau/électricité et l'emploi ne sont pas apportées ; des opposants réclament un moratoire. La commune recevrait en contrepartie environ 5 M€ (numéraire et travaux).",
-      "source": "Open / DataCenterMap",
-      "url": "https://www.open.online/2026/10/08/data-center-moncalieri-stop-sindaco/",
-      "mw": 576,
-      "coords": [
-        45.0038,
-        7.6805
-      ],
-      "poweredLand": true,
-      "owners": "Logistics Capital Partners (Moncalieri Logistics)",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
       "title": "Finlande (Muhos, Kajaani) : l'autorité environnementale ordonne l'arrêt des travaux sur deux sites de data centers de Google pour défaut d'étude d'impact",
       "region": "Europe",
       "date": "2026-10-07",
@@ -360,18 +370,6 @@
       "poweredLand": true,
       "owners": "Drax Group · North Yorkshire Council · University of York (consortium)",
       "investors": "n.c."
-    },
-    {
-      "category": "market",
-      "title": "Espagne (Aragon) : la procédure de permis accélérée attire plus de 60 Md€ d'investissements data centers sur dix ans, Amazon en tête avec 33,7 Md€",
-      "region": "Europe",
-      "date": "2026-10-06",
-      "summary": "La région d'Aragon, au carrefour de câbles internationaux et dotée d'énergies renouvelables et de foncier abondants, devrait capter plus de 60 Md€ (environ 67,6 Md$) d'investissements en data centers et infrastructures numériques sur la décennie grâce à un régime de permis accéléré ; Amazon y investit à lui seul 33,7 Md€ (son plus gros investissement de ce type hors des États-Unis), ayant bouclé l'essentiel de ses autorisations en environ un an. Des chercheurs critiquent une consultation publique réduite et alertent sur un besoin de renouvelables pouvant couvrir jusqu'à 39% du territoire et un doublement de la consommation d'eau dans une région déjà en stress hydrique.",
-      "source": "Reuters / Khaleej Times / Ara",
-      "url": "https://www.khaleejtimes.com/fast-track-permits-turn-spains-aragon-into-a-70-billion-data-centre-magnet-at-what-cost",
-      "inv": 67550,
-      "owners": "n.c.",
-      "investors": "Amazon (33,7 Md€) · autres investisseurs non précisés"
     },
     {
       "category": "power",
@@ -471,21 +469,6 @@
     },
     {
       "category": "land",
-      "title": "États-Unis (Kokomo, Indiana) : Digital Realty choisit un site de 476 acres pour son premier campus dans l'État, jusqu'à 1 GW visé",
-      "region": "Amérique du Nord",
-      "date": "2026-10",
-      "summary": "Digital Realty a sélectionné un site de 476 acres à Industrial Park North (jonction US-31/CR 400N), à environ 50 miles au nord d'Indianapolis, pour son premier data center dans l'Indiana ; le projet viserait environ 1 GW de capacité IT (3 millions de pieds carrés), mais Duke Energy est encore en négociation sur les accords de raccordement réseau nécessaires — la puissance n'est donc pas encore sécurisée. Coût estimé entre 1 et 3 Md$ selon les sources, sans abattement fiscal accordé, développement visé jusqu'en 2033.",
-      "source": "DataCenterDynamics / Baxtel / WISH-TV",
-      "url": "https://www.datacenterdynamics.com/en/news/digital-realty-eyes-gigawatt-scale-data-center-site-outside-indianapolis-indiana/",
-      "coords": [
-        40.4864,
-        -86.1336
-      ],
-      "owners": "Digital Realty",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
       "title": "France (Étrechet, Châteauroux Métropole, Indre) : la concertation publique sur le projet de data centers de Google/RTE annoncée pour novembre-décembre, forte contestation locale",
       "region": "France",
       "date": "2026-10",
@@ -550,34 +533,6 @@
       ],
       "owners": "« The Data Centers Company » (non nommée) · partenaires polonais",
       "investors": "Foresight Autonomous Holdings"
-    },
-    {
-      "category": "legislation",
-      "title": "France (Fouju, Seine-et-Marne) : deux recours déposés contre le méga-projet de 11 data centers « Campus IA » (1,4 GW)",
-      "region": "France",
-      "date": "2026-09-24",
-      "summary": "Après la validation préfectorale du 29 juillet 2026 du projet Campus IA à Fouju (11 data centers sur 90 hectares, puissance visée 1,4 GW, financement porté par un fonds émirati de 30 à 50 Md€), un collectif regroupant France Nature Environnement et Les Soulèvements de la Terre a déposé un recours devant le tribunal administratif de Melun et un autre devant la cour administrative d'appel de Paris, contestant le document d'urbanisme local et l'étude environnementale.",
-      "source": "Reporterre",
-      "url": "https://reporterre.net/11-data-centers-deux-recours-seront-deposes-contre-le-megaprojet-en-Seine-et-Marne",
-      "mw": 1400,
-      "coords": [
-        48.556,
-        2.787
-      ]
-    },
-    {
-      "category": "competition",
-      "title": "Asie-Pacifique : BlackRock (AI Infrastructure Partnership) et IFM Investors en négociations exclusives pour racheter le portefeuille déjà énergisé de Stack Infrastructure (20-25 Md$)",
-      "region": "Asie-Pacifique",
-      "date": "2026-09-24",
-      "summary": "Un consortium mené par BlackRock (via l'AI Infrastructure Partnership) et IFM Investors est entré en négociations exclusives avec Blue Owl Capital pour racheter les data centers déjà raccordés et opérationnels de Stack Infrastructure en Australie (Melbourne 432 MW, Sydney 360 MW), au Japon (Osaka 78 MW, Tokyo 36 MW) et en Malaisie (Johor Bahru 216 MW), pour une valorisation estimée entre 20 et 25 Md$.",
-      "source": "Bloomberg",
-      "url": "https://www.bloomberg.com/news/articles/2026-09-24/blackrock-ifm-close-in-on-25-billion-stack-data-center-deal",
-      "mw": 1122,
-      "inv": 25000,
-      "poweredLand": true,
-      "owners": "Stack Infrastructure (Blue Owl Capital)",
-      "investors": "BlackRock (AI Infrastructure Partnership) · IFM Investors"
     },
     {
       "category": "power",
