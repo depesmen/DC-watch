@@ -1,22 +1,40 @@
 {
-  "lastUpdated": "2026-10-26",
+  "lastUpdated": "2026-10-27",
   "keyTakeaways": [
-    "Nouveau signal politique américain à surveiller : Donald Trump a déclaré le 21 octobre « mandater » les nouveaux grands data centers à produire leur propre électricité et à verser un « dividende » aux communautés d'accueil — une déclaration sans portée juridique contraignante selon les juristes de l'énergie, mais qui confirme la tendance de fond déjà à l'œuvre sur le terrain (autoproduction, micro-réseaux dédiés) et renforce la thèse de la prime de valeur du foncier déjà énergisé ou co-localisé avec une production dédiée.",
-    "Le campus Stargate « Project Jupiter » d'Oracle/OpenAI au Nouveau-Mexique illustre bien la friction persistante entre ambition land+power et réalité du raccordement : même un projet de cette envergure (impact révisé à plus de 13 Md$, centrale à piles à combustible dédiée) se heurte à des élus locaux qui contestent les termes de l'accord de raccordement proposé par l'utility El Paso Electric.",
-    "Les besoins de financement des « neoclouds » restent considérables et soutiennent indirectement la demande de foncier énergisé : Nebius a sécurisé une facilité de crédit garantie de 3,5 Md$ auprès de Citi le 22 octobre pour poursuivre son expansion de data centers et ses achats de GPU.",
-    "Toujours aucune actualité fiable nouvelle sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches répétées et ciblées (y compris site:linkedin.com) ; comme les jours précédents, une vérification directe auprès de ces sociétés serait nécessaire si le sujet reste prioritaire pour Noémie.",
-    "Fenêtre de recherche plus calme que les jours précédents sur de nouvelles transactions concrètes de foncier déjà énergisé dans les dernières 24-72h (rien de neuf de fiable identifié en France hors du dossier Cagny déjà suivi) ; plusieurs items de plus de 30 jours ou redondants (Fouju, cession Stack Infrastructure APAC, retrait Microsoft/Nscale UK, Aragon, Kokomo, pause Moncalieri) ont été retirés pour conserver une liste resserrée sur l'actualité la plus pertinente et récente."
+    "Nouveau pipeline « powered land » à surveiller aux États-Unis : TerraWatt propose de racheter l'ancienne aciérie Alton Steel (Illinois, 381 acres) pour un campus data center raccordé au réseau jusqu'à 1 GW par blocs de 200 MW — un nouvel exemple de reconversion industrielle en foncier pré-énergisé, même si seul le premier bloc (200 MW) est jugé réalisable à court terme par le gestionnaire de réseau Ameren Illinois.",
+    "Les signaux macro confirment l'accélération structurelle de la demande : Bank of America Global Research projette un doublement des dépenses mondiales en data centers à plus de 2 100 Md$ d'ici 2028, tandis que Broadcom sécurise 63 Md$ de financement bancaire pour ses livraisons de puces IA (dont Anthropic) — une dynamique qui continue de soutenir la prime de valeur du foncier déjà énergisé.",
+    "Le dépôt S-1 d'Anthropic en vue de son IPO révèle des baux de capacité data center déjà signés en Australie et au Canada, et l'ambition de sécuriser du foncier dans d'autres juridictions hors des États-Unis — confirmation de la diversification géographique mondiale des grands laboratoires IA dans leur sourcing de land+power, un facteur de concurrence pour le marché européen.",
+    "Les discussions Nscale/Anthropic sur un second contrat d'environ 45 Md$ (460 MW) au campus foncier énergisé Monarch (Mason County, Virginie-Occidentale) restent non finalisées selon les dernières informations disponibles (Reuters, Bloomberg) — à surveiller dans les prochains jours pour confirmation.",
+    "Toujours aucune actualité fiable et nouvelle sur Polarise (dernier fait marquant confirmé : lancement du « Polarise AI Cloud » le 22 octobre au NVIDIA GTC Berlin, sans lien direct avec du foncier), sur Aurora Infra (aucune société portant exactement ce nom identifiée malgré des recherches ciblées — les homonymes les plus proches, Aurora Infrastructure Oy en Finlande et Aurora Energy Precinct en Australie, ne semblent pas correspondre) ni sur La Française de l'Énergie (uniquement des communiqués financiers courants sur sa sur-couverture gaz, sans lien avec les data centers) ; une vérification directe auprès de ces trois sociétés reste recommandée si le sujet demeure prioritaire pour Noémie."
   ],
   "items": [
     {
-      "category": "power",
-      "title": "États-Unis (zone PJM) : Google et Voltus annoncent un accord étendu de 1 GW de capacité virtuelle « Bring Your Own Capacity »",
-      "region": "Amérique du Nord",
-      "date": "2026-10-22",
-      "summary": "Google et Voltus ont annoncé le 22 octobre un accord étendu portant sur 1 GW de capacité flexible de type « virtual power plant » dans la zone PJM, élargissant un premier partenariat de 100 MW signé en juin 2026 ; Voltus agrège des ressources énergétiques distribuées (batteries, thermostats connectés) chez des particuliers et entreprises, financées par Google, pour fournir de la capacité de pointe au gestionnaire de réseau, mise en service visée en 2027 — un mécanisme de marché qui ne crée pas de foncier mais pourrait alléger la pression sur les files d'attente de raccordement des data centers dans PJM.",
-      "source": "GlobeNewswire / Latitude Media",
-      "url": "https://globenewswire.com/news-release/2026/10/22/3386223/0/en/google-and-voltus-announce-one-gigawatt-bring-your-own-capacity-agreement-in-pjm.html",
-      "mw": 1000
+      "category": "market",
+      "title": "Broadcom sécurise un financement bancaire de 63 Md$ pour ses livraisons de puces IA, dont celles destinées à Anthropic",
+      "region": "International",
+      "date": "2026-10-26",
+      "summary": "Broadcom a annoncé le 26 octobre avoir conclu avec un groupe de grandes institutions financières (dont Bank of America, Blackstone, Citigroup et Morgan Stanley) un financement de 63 Md$ destiné à soutenir la fabrication et la livraison de ses puces IA, Anthropic figurant parmi les bénéficiaires de cette capacité de calcul ; ce type de financement en amont de la chaîne de valeur alimente indirectement la demande de nouveaux data centers, et donc de foncier déjà énergisé pour les héberger.",
+      "source": "Bloomingbit / Bloomberg",
+      "url": "https://en.bloomingbit.io/feed/news/123006",
+      "inv": 63000
+    },
+    {
+      "category": "competition",
+      "title": "Dépôt S-1 d'Anthropic (IPO) : l'entreprise révèle des baux de capacité data center en Australie et au Canada et vise d'autres juridictions",
+      "region": "International",
+      "date": "2026-10-26",
+      "summary": "Le dossier S-1 déposé par Anthropic en vue de son introduction en bourse révèle que l'entreprise a déjà signé des baux de capacité data center en Australie et au Canada et qu'elle « poursuit » l'obtention de capacité dans d'autres juridictions hors des États-Unis, confirmant la stratégie de diversification géographique des grands laboratoires IA dans leur sourcing mondial de foncier et de puissance — un facteur de concurrence à surveiller pour le sourcing européen.",
+      "source": "CNBC (dossier S-1 Anthropic)",
+      "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
+    },
+    {
+      "category": "market",
+      "title": "Bank of America Global Research : les dépenses mondiales en data centers devraient doubler à plus de 2 100 Md$ d'ici 2028",
+      "region": "International",
+      "date": "2026-10-23",
+      "summary": "Dans une note publiée le 23 octobre et largement reprise le 26, Bank of America Global Research estime que les dépenses mondiales en data centers passeront d'environ 1 000 Md$ en 2026 à plus de 2 100 Md$ en 2028, portées par la demande IA, avec un capex combiné des hyperscalers attendu à plus de 700 Md$ sur la seule année 2026 — un signal macro qui continue de soutenir la prime de valeur du foncier déjà énergisé.",
+      "source": "Bank of America Global Research / Reuters / Tech Times",
+      "url": "https://www.techtimes.com/articles/329486/20261026/bank-america-data-center-market-will-top-2-trillion-2028-ai-driven-build.htm"
     },
     {
       "category": "land",
@@ -62,18 +80,6 @@
       "investors": "n.c."
     },
     {
-      "category": "market",
-      "title": "VivoPower et Open Innovation AI signent un accord définitif pour développer au moins 1 GW de data centers IA souverains dans les pays nordiques, en Europe continentale et dans le Golfe",
-      "region": "Europe",
-      "date": "2026-10-21",
-      "summary": "VivoPower (Nasdaq : VIVO) a annoncé le 21 octobre un accord définitif (« heads of agreement ») avec Open Innovation AI pour développer des data centers IA souverains sécurisés dans les pays nordiques, en Europe continentale, dans le Golfe et dans certains pays d'Asie, visant au moins 1 GW de capacité sur trois ans sur un marché européen qu'ils chiffrent à plus de 40 GW d'opportunités IA souveraine ; VivoPower pilotera le développement des sites et l'approvisionnement en électricité, Open Innovation AI fournissant la couche d'orchestration et de sécurité. Aucun site précis n'est encore identifié.",
-      "source": "GlobeNewswire (VivoPower)",
-      "url": "https://www.globenewswire.com/news-release/2026/10/21/3385505/0/en/vivopower-signs-definitive-heads-of-agreement-with-open-innovation-ai-to-develop-secure-sovereign-ai-data-centers-across-the-nordics-mainland-europe-the-gcc-and-selective-countries.html",
-      "mw": 1000,
-      "owners": "VivoPower",
-      "investors": "n.c."
-    },
-    {
       "category": "legislation",
       "title": "États-Unis : Donald Trump déclare mandater les data centers à produire leur propre électricité et à verser un « dividende » aux communautés d'accueil",
       "region": "Amérique du Nord",
@@ -82,6 +88,24 @@
       "source": "Truth Social (D. Trump) / Free Press Journal / The Next Web",
       "url": "https://www.freepressjournal.in/tech/large-data-centers-should-pay-communities-a-dividend-donald-trump-says",
       "owners": "n.c.",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Alton, Illinois) : TerraWatt propose un campus data center raccordé au réseau jusqu'à 1 GW sur le site de l'ancienne aciérie Alton Steel",
+      "region": "Amérique du Nord",
+      "date": "2026-10-21",
+      "summary": "TerraWatt a proposé le rachat du site de 381 acres de l'ancienne aciérie Alton Steel (5 Cut Street) pour y développer le « Riverbend Technology Center », un campus data center raccordé au réseau d'Ameren Illinois, construit par blocs de 200 MW jusqu'à 1 GW au total ; seul le premier bloc (200 MW, soit l'ordre de grandeur de ce que consommait l'aciérie) est jugé réalisable à court terme par le consultant réseau de TerraWatt, l'opération restant conditionnée à un changement de zonage, une étude d'Ameren Illinois et la due diligence de l'acheteur, avec une clôture visée en 2027 et une mise en service complète à l'horizon 2031.",
+      "source": "St. Louis Public Radio / DataCenterDynamics / Baxtel",
+      "url": "https://www.stlpr.org/economy-business/2026-10-21/alton-data-center-proposal",
+      "mw": 1000,
+      "inv": 2640,
+      "coords": [
+        38.8906,
+        -90.1843
+      ],
+      "poweredLand": true,
+      "owners": "TerraWatt (acheteur proposé) · Alton Steel (vendeur)",
       "investors": "n.c."
     },
     {
@@ -108,19 +132,6 @@
       "inv": 1010,
       "owners": "Onnec Group Limited",
       "investors": "CBRE Group"
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Loudoun County, Virginie) : le vote final sur la pause de 12 mois des permis data centers est reporté au 17 novembre",
-      "region": "Amérique du Nord",
-      "date": "2026-10-20",
-      "summary": "Le conseil des superviseurs du comté de Loudoun (premier marché mondial de data centers, Virginie du Nord) a reporté au 17 novembre le vote final sur la résolution de pause d'un an des demandes « legislative » de data centers et de postes électriques, après l'avoir votée en principe 7-1-1 le 15 septembre ; une discussion séparée sur la suppression des clauses de « grandfathering » a aussi été ajournée début octobre, le conseil ayant été averti d'un risque de contentieux pouvant atteindre 60 M$.",
-      "source": "Loudoun Times-Mirror / Fox 5 DC",
-      "url": "https://www.loudountimes.com/news/business_and_economy/real_estate_and_development/county-board-defers-vote-on-data-center-pause/article_95602019-bdda-474f-819a-16d3d64645bf.html",
-      "coords": [
-        39.1157,
-        -77.5636
-      ]
     },
     {
       "category": "power",
@@ -153,21 +164,6 @@
         -83.7941
       ],
       "owners": "Meta",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Roanoke County, Virginie) : Google confirmé comme candidat sur le site de 94 acres de Wood Haven Technology Park",
-      "region": "Amérique du Nord",
-      "date": "2026-10-16",
-      "summary": "La Western Virginia Regional Industrial Facility Authority (détenue par Roanoke, le comté de Roanoke et Salem) a confirmé le 16 octobre que Google, via sa filiale Clearview Dynamics, est l'entreprise évaluant le site de 94 acres de Wood Haven Technology Park (jonction I-81/I-581) pour un éventuel data center ; une convention d'achat a été engagée après un vote du 11 septembre (prix non communiqué), et Google dispose d'une période de due diligence (études géotechniques, capacité réseau, environnement) devant durer jusqu'en mars 2027 avant toute décision finale — projet déjà contesté par des riverains du quartier voisin de Whitney Estates.",
-      "source": "Cardinal News / WDBJ7 / Virginia Business",
-      "url": "https://cardinalnews.org/2026/10/16/google-confirmed-as-parent-company-for-a-data-center-project-in-roanoke-county/",
-      "coords": [
-        37.32,
-        -80.01
-      ],
-      "owners": "Google (Clearview Dynamics)",
       "investors": "n.c."
     },
     {
@@ -399,24 +395,6 @@
       "investors": "Google (acheteur PPA)"
     },
     {
-      "category": "power",
-      "title": "États-Unis (Cheyenne, Wyoming) : Black Hills Corp signe avec Google un accord de 1,8 Md$ pour alimenter son futur data center jusqu'en 2048",
-      "region": "Amérique du Nord",
-      "date": "2026-10-06",
-      "summary": "Black Hills Corporation a conclu avec Google un Large Power Contract Services Agreement et un Generation Facilities Agreement (entrés en vigueur le 30 septembre) prévoyant la livraison de jusqu'à 590 MW depuis le réseau et la gestion d'environ 2,1 GW de ressources tierces via un micro-réseau privé (2,7 GW au total avec marges de réserve) pour le data center prévu par Google à Cheyenne ; Black Hills investira 1,8 Md$ entre 2027 et 2029 pour construire 564 MW de nouvelle capacité gaz à sa centrale Cheyenne Prairie, mise en service visée fin 2027 et montée en puissance jusqu'en 2030.",
-      "source": "Power Engineering / Black Hills Corp / The Motley Fool",
-      "url": "https://www.power-eng.com/?p=137020",
-      "mw": 590,
-      "inv": 1800,
-      "coords": [
-        41.14,
-        -104.82
-      ],
-      "poweredLand": true,
-      "owners": "Google (data center prévu) · Black Hills Corp (production/réseau dédié)",
-      "investors": "n.c."
-    },
-    {
       "category": "land",
       "title": "Royaume-Uni (Fawley, Hampshire) : un promoteur propose un campus industriel avec data centers sur l'ancien site de la centrale électrique de Fawley",
       "region": "Europe",
@@ -500,39 +478,6 @@
       "poweredLand": true,
       "owners": "Constellation Energy (site, Calvert Cliffs)",
       "investors": "Amazon (acheteur PPA, 20 ans)"
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Potter County, Texas) : Zone Frontier signe un bail de 30 ans avec option d'achat sur 4 077 acres pour un campus IA jusqu'à 500 MW",
-      "region": "Amérique du Nord",
-      "date": "2026-09-29",
-      "summary": "Une filiale de Zone Frontier Inc. a signé avec HST Technologies un bail à long terme (30 ans, deux extensions de 10 ans) avec option d'achat sur environ 4 077 acres près d'Amarillo, entourant un poste électrique existant 345 kV de Southwestern Public Service (Xcel Energy) ; 200 à 800 acres sont réservés aux bâtiments data center et au moins 1 800 acres au solaire/stockage, pour une capacité initiale visée de 200 MW extensible à plus de 500 MW, avec un accord d'approvisionnement en eau à long terme adossé au bail.",
-      "source": "W.Media / PR Newswire / Black Ridge Research",
-      "url": "https://w.media/?p=43828",
-      "mw": 500,
-      "coords": [
-        35.25,
-        -101.65
-      ],
-      "poweredLand": true,
-      "owners": "Zone Frontier Inc. · HST Technologies",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Pologne (Ożarów près de Varsovie, Wrocław) : Foresight Autonomous signe un term sheet pour prendre 50,01% d'un développeur polonais de data centers (270 MW combinés)",
-      "region": "Europe",
-      "date": "2026-09-28",
-      "summary": "Foresight Autonomous Holdings a signé le 28 septembre un term sheet non engageant pour prendre une participation de contrôle de 50,01% dans une société polonaise développant deux projets de data centers : Ożarów près de Varsovie (130 MW, environ 3,2 hectares de terrain déjà sécurisés plus une option de 2,2 hectares, demande de raccordement réseau déposée, permis final espéré fin 2027) et Wrocław (jusqu'à 140 MW) ; l'opération reste soumise à due diligence, accords définitifs et autorisations.",
-      "source": "BlackRidge Research / W.Media / Finviz",
-      "url": "https://www.blackridgeresearch.com/news-releases/foresight-signs-term-sheet-take-50-01-percentage-stake-in-polish-data-center-developer-with-up-to-270-mw-of-planned-capacity",
-      "mw": 270,
-      "coords": [
-        52.2167,
-        20.8167
-      ],
-      "owners": "« The Data Centers Company » (non nommée) · partenaires polonais",
-      "investors": "Foresight Autonomous Holdings"
     },
     {
       "category": "power",
