@@ -1,13 +1,33 @@
 {
-  "lastUpdated": "2026-10-27",
+  "lastUpdated": "2026-10-28",
   "keyTakeaways": [
-    "Nouveau pipeline « powered land » à surveiller aux États-Unis : TerraWatt propose de racheter l'ancienne aciérie Alton Steel (Illinois, 381 acres) pour un campus data center raccordé au réseau jusqu'à 1 GW par blocs de 200 MW — un nouvel exemple de reconversion industrielle en foncier pré-énergisé, même si seul le premier bloc (200 MW) est jugé réalisable à court terme par le gestionnaire de réseau Ameren Illinois.",
-    "Les signaux macro confirment l'accélération structurelle de la demande : Bank of America Global Research projette un doublement des dépenses mondiales en data centers à plus de 2 100 Md$ d'ici 2028, tandis que Broadcom sécurise 63 Md$ de financement bancaire pour ses livraisons de puces IA (dont Anthropic) — une dynamique qui continue de soutenir la prime de valeur du foncier déjà énergisé.",
-    "Le dépôt S-1 d'Anthropic en vue de son IPO révèle des baux de capacité data center déjà signés en Australie et au Canada, et l'ambition de sécuriser du foncier dans d'autres juridictions hors des États-Unis — confirmation de la diversification géographique mondiale des grands laboratoires IA dans leur sourcing de land+power, un facteur de concurrence pour le marché européen.",
-    "Les discussions Nscale/Anthropic sur un second contrat d'environ 45 Md$ (460 MW) au campus foncier énergisé Monarch (Mason County, Virginie-Occidentale) restent non finalisées selon les dernières informations disponibles (Reuters, Bloomberg) — à surveiller dans les prochains jours pour confirmation.",
-    "Toujours aucune actualité fiable et nouvelle sur Polarise (dernier fait marquant confirmé : lancement du « Polarise AI Cloud » le 22 octobre au NVIDIA GTC Berlin, sans lien direct avec du foncier), sur Aurora Infra (aucune société portant exactement ce nom identifiée malgré des recherches ciblées — les homonymes les plus proches, Aurora Infrastructure Oy en Finlande et Aurora Energy Precinct en Australie, ne semblent pas correspondre) ni sur La Française de l'Énergie (uniquement des communiqués financiers courants sur sa sur-couverture gaz, sans lien avec les data centers) ; une vérification directe auprès de ces trois sociétés reste recommandée si le sujet demeure prioritaire pour Noémie."
+    "Meta lance une levée de capitaux combinée d'environ 35 Md$ (actions + préférentielles), avec jusqu'à 60 Md$ supplémentaires visés via un programme at-the-market, pour financer son capex IA/data centers (guidance 2026 relevée à 125-145 Md$) — un nouveau signal macro qui continue de soutenir la prime de valeur du foncier déjà énergisé.",
+    "Nouveau signal de diversification géographique de la demande IA à surveiller : le Premier ministre malaisien affirme que SoftBank/Masayoshi Son aurait choisi des sites pour environ 50 Md$ de projets data centers en Malaisie (Sarawak, Kuching, Péninsule) — non confirmé par SoftBank à ce stade, mais à rapprocher de l'engagement SoftBank de 75 Md€ dans les Hauts-de-France, qui reste un point de comparaison pour la compétitivité du foncier français.",
+    "Google décuple son accord de centrale électrique virtuelle avec Voltus dans la zone PJM à 1 070 MW (contrat jusqu'en 2040), confirmant la montée en puissance du « bring your own capacity » comme stratégie alternative ou complémentaire au foncier déjà énergisé classique pour sécuriser de la flexibilité réseau.",
+    "Toujours pas de confirmation sur le second contrat Nscale/Anthropic (~45 Md$, 460 MW, campus Monarch en Virginie-Occidentale) ni sur le résultat du vote d'extension du moratorium de Charlotte (Caroline du Nord), prévu le 26 octobre — deux dossiers à rapprocher dans les prochains jours.",
+    "Toujours aucune actualité fiable et nouvelle sur Polarise (dernier fait marquant confirmé : lancement du « Polarise AI Cloud » le 22 octobre au NVIDIA GTC Berlin, sans lien direct avec du foncier), sur Aurora Infra (aucune société portant exactement ce nom identifiée malgré de nouvelles recherches ciblées, y compris sur LinkedIn — l'homonyme le plus proche reste Aurora Infrastructure Oy, opérateur de réseau électrique finlandais) ni sur La Française de l'Énergie (uniquement des communiqués financiers courants sur sa sur-couverture gaz) ; une vérification directe auprès de ces trois sociétés reste recommandée si le sujet demeure prioritaire pour Noémie."
   ],
   "items": [
+    {
+      "category": "market",
+      "title": "Meta lance une levée de capitaux de 35 Md$ (actions + préférentielles) et prévoit jusqu'à 60 Md$ supplémentaires via un programme ATM, pour financer son capex IA/data centers",
+      "region": "International",
+      "date": "2026-10-26",
+      "summary": "Selon le prospectus déposé auprès de la SEC le 26 octobre, Meta lance une offre publique combinée d'environ 35 Md$ (22,5 Md$ d'actions ordinaires de catégorie A et 12,5 Md$ d'actions préférentielles sous forme de depositary shares), complétée par un programme « at-the-market » pouvant aller jusqu'à environ 60 Md$ supplémentaires, pour financer son infrastructure IA et ses data centers ; Meta avait généré 97 Md$ de flux de trésorerie opérationnel sur les trois premiers trimestres 2026 et avait relevé sa guidance de capex 2026 à une fourchette de 125-145 Md$ — un signal macro supplémentaire de la demande de foncier déjà énergisé pour héberger cette capacité.",
+      "source": "Meta (SEC Form FWP) / CXO Digital Pulse",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526431036/d116268dfwp.htm",
+      "inv": 35000
+    },
+    {
+      "category": "land",
+      "title": "Malaisie : le Premier ministre Anwar Ibrahim annonce que SoftBank (Masayoshi Son) aurait choisi des sites pour environ 50 Md$ de projets IA/data centers, non confirmé par SoftBank",
+      "region": "International",
+      "date": "2026-10-26",
+      "summary": "Le Premier ministre malaisien Anwar Ibrahim a déclaré le 26 octobre, à l'issue d'une visioconférence avec Masayoshi Son, que SoftBank aurait sélectionné des sites à Sarawak, Kuching et en Péninsule malaisienne pour environ 50 Md$ de projets technologiques et de data centers ; aucune confirmation officielle de SoftBank n'est disponible à ce stade, ni de calendrier ou de répartition précise des montants — à surveiller comme nouveau signal de diversification géographique de la demande IA, potentiellement concurrent du sourcing européen (SoftBank est aussi engagé à hauteur de 75 Md€ dans les Hauts-de-France).",
+      "source": "Déclaration du Premier ministre malaisien Anwar Ibrahim / Briefs / AIChatDaily",
+      "url": "https://www.aichatdaily.com/ai-business/softbank-s-masayoshi-son-plans-50b-ai-data",
+      "inv": 50000
+    },
     {
       "category": "market",
       "title": "Broadcom sécurise un financement bancaire de 63 Md$ pour ses livraisons de puces IA, dont celles destinées à Anthropic",
@@ -35,6 +55,16 @@
       "summary": "Dans une note publiée le 23 octobre et largement reprise le 26, Bank of America Global Research estime que les dépenses mondiales en data centers passeront d'environ 1 000 Md$ en 2026 à plus de 2 100 Md$ en 2028, portées par la demande IA, avec un capex combiné des hyperscalers attendu à plus de 700 Md$ sur la seule année 2026 — un signal macro qui continue de soutenir la prime de valeur du foncier déjà énergisé.",
       "source": "Bank of America Global Research / Reuters / Tech Times",
       "url": "https://www.techtimes.com/articles/329486/20261026/bank-america-data-center-market-will-top-2-trillion-2028-ai-driven-build.htm"
+    },
+    {
+      "category": "power",
+      "title": "États-Unis (zone PJM) : Google décuple son accord de « virtual power plant » avec Voltus à 1 070 MW (« bring your own capacity »), contrat jusqu'en 2040",
+      "region": "Amérique du Nord",
+      "date": "2026-10-22",
+      "summary": "Google et Voltus ont annoncé le 22 octobre l'extension de leur accord de centrale électrique virtuelle dans la zone PJM à environ 1 070 MW (contre 100 MW initialement en juin), agrégeant batteries, thermostats connectés et autres ressources énergétiques distribuées chez des clients résidentiels et commerciaux, dans le cadre d'un contrat courant jusqu'en 2040 ; Google devient ainsi le premier client « bring your own capacity » de Voltus, une approche alternative ou complémentaire au foncier déjà énergisé classique pour sécuriser de la flexibilité réseau face à la croissance de la demande data center dans PJM (30 à 34 GW de nouvelle charge attendue par le gestionnaire de réseau d'ici le début des années 2030).",
+      "source": "Utility Dive / Latitude Media / Baxtel",
+      "url": "https://www.utilitydive.com/news/google-voltus-vpp-virtual-power-pjm/833717/",
+      "mw": 1070
     },
     {
       "category": "land",
@@ -77,17 +107,6 @@
         3.1746
       ],
       "owners": "OVHcloud",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis : Donald Trump déclare mandater les data centers à produire leur propre électricité et à verser un « dividende » aux communautés d'accueil",
-      "region": "Amérique du Nord",
-      "date": "2026-10-21",
-      "summary": "Dans un message sur Truth Social le 21 octobre, Donald Trump a affirmé que les nouveaux et grands data centers sont désormais « mandatés » par lui pour produire leur propre électricité et reverser le surplus aux communautés locales ou au réseau, et a appelé les opérateurs à verser un « dividende » financier aux riverains pour rendre les projets plus acceptables ; des juristes de l'énergie soulignent qu'il s'agit d'une déclaration sans portée contraignante, le président ne pouvant modifier unilatéralement des contrats d'approvisionnement électrique régis par les États et les utilities.",
-      "source": "Truth Social (D. Trump) / Free Press Journal / The Next Web",
-      "url": "https://www.freepressjournal.in/tech/large-data-centers-should-pay-communities-a-dividend-donald-trump-says",
-      "owners": "n.c.",
       "investors": "n.c."
     },
     {
