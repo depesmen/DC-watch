@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-10-28",
+  "lastUpdated": "2026-10-29",
   "keyTakeaways": [
-    "Meta lance une levée de capitaux combinée d'environ 35 Md$ (actions + préférentielles), avec jusqu'à 60 Md$ supplémentaires visés via un programme at-the-market, pour financer son capex IA/data centers (guidance 2026 relevée à 125-145 Md$) — un nouveau signal macro qui continue de soutenir la prime de valeur du foncier déjà énergisé.",
-    "Nouveau signal de diversification géographique de la demande IA à surveiller : le Premier ministre malaisien affirme que SoftBank/Masayoshi Son aurait choisi des sites pour environ 50 Md$ de projets data centers en Malaisie (Sarawak, Kuching, Péninsule) — non confirmé par SoftBank à ce stade, mais à rapprocher de l'engagement SoftBank de 75 Md€ dans les Hauts-de-France, qui reste un point de comparaison pour la compétitivité du foncier français.",
-    "Google décuple son accord de centrale électrique virtuelle avec Voltus dans la zone PJM à 1 070 MW (contrat jusqu'en 2040), confirmant la montée en puissance du « bring your own capacity » comme stratégie alternative ou complémentaire au foncier déjà énergisé classique pour sécuriser de la flexibilité réseau.",
-    "Toujours pas de confirmation sur le second contrat Nscale/Anthropic (~45 Md$, 460 MW, campus Monarch en Virginie-Occidentale) ni sur le résultat du vote d'extension du moratorium de Charlotte (Caroline du Nord), prévu le 26 octobre — deux dossiers à rapprocher dans les prochains jours.",
-    "Toujours aucune actualité fiable et nouvelle sur Polarise (dernier fait marquant confirmé : lancement du « Polarise AI Cloud » le 22 octobre au NVIDIA GTC Berlin, sans lien direct avec du foncier), sur Aurora Infra (aucune société portant exactement ce nom identifiée malgré de nouvelles recherches ciblées, y compris sur LinkedIn — l'homonyme le plus proche reste Aurora Infrastructure Oy, opérateur de réseau électrique finlandais) ni sur La Française de l'Énergie (uniquement des communiqués financiers courants sur sa sur-couverture gaz) ; une vérification directe auprès de ces trois sociétés reste recommandée si le sujet demeure prioritaire pour Noémie."
+    "Espagne : le gouvernement assouplit (26 octobre) certains paramètres de son projet de décret imposant 80% de renouvelables horaires aux data centers (seuils, délais, période de transition), sans toucher à l'exigence centrale — un signal à surveiller pour la valorisation du foncier déjà énergisé en Espagne et, par comparaison, dans le reste de l'Europe du Sud.",
+    "Nouveau pipeline France identifié : Goodman France retenu pour un campus de 300 MW sur la friche industrielle Stellantis/Iveco à Trappes-Élancourt (Yvelines), foncier cédé par le Département des Yvelines/Epfif à 42 M€, prix explicitement indexé à l'obtention du raccordement électrique — un cas d'école de foncier déjà industrialisé en cours d'énergisation, malgré une opposition locale encore active (concertation close au 1er septembre).",
+    "Canada : premier bail data center d'Anthropic hors États-Unis, signé avec EverWind à Point Tupper (Nouvelle-Écosse) — campus adossé au propre portefeuille éolien d'EverWind (plus de 10 Md CAD au total), illustrant la stratégie de colocalisation production/data center plutôt que de simple raccordement réseau.",
+    "États-Unis : Microsoft poursuit son offensive foncière malgré la vague de moratoriums, avec un nouveau dépôt pour un campus de 422 MW à Rome (Géorgie) ; en parallèle, Amazon annonce plus de 16 Md€ d'investissement en Allemagne pour 2027 dont 4,8 Md€ pour AWS Francfort, confirmant la poursuite de la demande malgré le resserrement réglementaire européen.",
+    "Toujours aucune confirmation sur le second contrat Nscale/Anthropic (~45 Md$, 460 MW, campus Monarch en Virginie-Occidentale) ni sur le résultat du vote de prolongation du moratorium de Charlotte (Caroline du Nord) prévu le 26 octobre ; toujours aucune actualité fiable et nouvelle sur Polarise, Aurora Infra ou La Française de l'Énergie malgré de nouvelles recherches ciblées incluant des requêtes LinkedIn dédiées — une vérification directe auprès de ces trois sociétés reste recommandée si le sujet demeure prioritaire pour Noémie."
   ],
   "items": [
     {
@@ -29,16 +29,6 @@
       "inv": 50000
     },
     {
-      "category": "market",
-      "title": "Broadcom sécurise un financement bancaire de 63 Md$ pour ses livraisons de puces IA, dont celles destinées à Anthropic",
-      "region": "International",
-      "date": "2026-10-26",
-      "summary": "Broadcom a annoncé le 26 octobre avoir conclu avec un groupe de grandes institutions financières (dont Bank of America, Blackstone, Citigroup et Morgan Stanley) un financement de 63 Md$ destiné à soutenir la fabrication et la livraison de ses puces IA, Anthropic figurant parmi les bénéficiaires de cette capacité de calcul ; ce type de financement en amont de la chaîne de valeur alimente indirectement la demande de nouveaux data centers, et donc de foncier déjà énergisé pour les héberger.",
-      "source": "Bloomingbit / Bloomberg",
-      "url": "https://en.bloomingbit.io/feed/news/123006",
-      "inv": 63000
-    },
-    {
       "category": "competition",
       "title": "Dépôt S-1 d'Anthropic (IPO) : l'entreprise révèle des baux de capacité data center en Australie et au Canada et vise d'autres juridictions",
       "region": "International",
@@ -48,13 +38,13 @@
       "url": "https://www.cnbc.com/2026/10/26/anthropic-ipo-live-updates-ai-s-1-filing.html"
     },
     {
-      "category": "market",
-      "title": "Bank of America Global Research : les dépenses mondiales en data centers devraient doubler à plus de 2 100 Md$ d'ici 2028",
-      "region": "International",
-      "date": "2026-10-23",
-      "summary": "Dans une note publiée le 23 octobre et largement reprise le 26, Bank of America Global Research estime que les dépenses mondiales en data centers passeront d'environ 1 000 Md$ en 2026 à plus de 2 100 Md$ en 2028, portées par la demande IA, avec un capex combiné des hyperscalers attendu à plus de 700 Md$ sur la seule année 2026 — un signal macro qui continue de soutenir la prime de valeur du foncier déjà énergisé.",
-      "source": "Bank of America Global Research / Reuters / Tech Times",
-      "url": "https://www.techtimes.com/articles/329486/20261026/bank-america-data-center-market-will-top-2-trillion-2028-ai-driven-build.htm"
+      "category": "legislation",
+      "title": "Espagne : le gouvernement assouplit son projet de décret imposant 80% de renouvelables horaires aux data centers",
+      "region": "Europe",
+      "date": "2026-10-26",
+      "summary": "Selon Reuters (26 octobre), le gouvernement espagnol a revu à la baisse certains paramètres de son projet de décret (seuils d'application, délais laissés aux développeurs pour démontrer leurs engagements renouvelables, période de transition), tout en maintenant l'exigence centrale d'une couverture d'au moins 80% de la consommation des data centers par des renouvelables additionnelles, heure par heure ; la version initiale d'août imposait 1 MW de nouvelle capacité renouvelable commissionnée dans les 18 mois précédant la mise en service pour chaque MW de charge, jusqu'à ce que le mix électrique national dépasse 90% de renouvelables. Le texte ne s'appliquera qu'aux nouveaux projets, les développeurs non conformes risquant de perdre leurs droits de raccordement.",
+      "source": "Reuters (via KFGO/WHTC)",
+      "url": "https://kfgo.com/2026/10/26/spain-relaxes-initial-proposal-for-data-center-rules/"
     },
     {
       "category": "power",
@@ -81,18 +71,6 @@
       "poweredLand": true,
       "owners": "Sepia Infrastructure",
       "investors": "n.c."
-    },
-    {
-      "category": "market",
-      "title": "Nebius sécurise une facilité de crédit senior garantie de 3,5 Md$ auprès de Citi pour financer son expansion de data centers IA",
-      "region": "International",
-      "date": "2026-10-22",
-      "summary": "Nebius Group a annoncé le 22 octobre avoir conclu avec Citi une facilité de crédit senior garantie de 3,5 Md$ (durée 364 jours, taux Term SOFR + 2,75 % pouvant monter à 3,50 %), dont le produit sera affecté au développement de ses data centers et à l'achat de GPU, en complément des préfinancements clients et des flux de trésorerie d'exploitation ; l'opération intervient quelques semaines après une levée de 3,75 Md$ en obligations convertibles liée à son contrat avec Meta.",
-      "source": "Nebius Group (SEC Form 6-K) / Bloomberg Law",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001513845/000110465926117978/tm2628078d1_ex99-1.htm",
-      "inv": 3500,
-      "owners": "Nebius Group",
-      "investors": "Citi (prêteur, arrangeur mandaté)"
     },
     {
       "category": "power",
@@ -141,16 +119,31 @@
       ]
     },
     {
-      "category": "competition",
-      "title": "CBRE annonce le rachat d'Onnec, fournisseur de services d'infrastructure data center en Europe et Asie-Pacifique, jusqu'à 1,01 Md$",
-      "region": "International",
+      "category": "land",
+      "title": "États-Unis (Rome, comté de Floyd, Géorgie) : Microsoft dépose une demande pour un campus de 422 MW sur 349 acres",
+      "region": "Amérique du Nord",
       "date": "2026-10-20",
-      "summary": "CBRE a annoncé le 20 octobre un accord définitif pour racheter Onnec Group Limited (Londres), spécialiste des services d'infrastructure data center en Europe et Asie-Pacifique : 460 M£ (environ 610 M$) en numéraire plus un complément de prix (earnout) pouvant atteindre 300 M£ (environ 400 M$) sur plusieurs années selon les objectifs de croissance ; Onnec, qui avait elle-même racheté le danois GI Networks en juin pour se renforcer dans les pays nordiques, devrait générer environ 370 M£ de revenus en 2027 et rejoindra la division Critical Infrastructure Services de CBRE.",
-      "source": "CBRE (SEC 8-K) / Pulse2 / EGi",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001138118/000119312526426827/cbre-ex99_1.htm",
-      "inv": 1010,
-      "owners": "Onnec Group Limited",
-      "investors": "CBRE Group"
+      "summary": "Microsoft a déposé le 20 octobre une « Development of Regional Impact » auprès du comté de Floyd pour un campus de trois bâtiments au 0 Huffaker Road à Rome (Géorgie), sur environ 349 acres, pour une puissance totale de 422 MW fournie par Georgia Power ; le projet, valorisé à environ 360 M$ selon DataCenterDynamics, intervient après l'adoption en août d'une ordonnance locale limitant les data centers au zonage industriel lourd et imposant une étude d'impact puissance/eau/réseau, le comté ayant déjà voté un moratorium de 80 jours en juin.",
+      "source": "DataCenterDynamics / Baxtel",
+      "url": "https://datacenterdynamics.com/en/news/microsoft-files-for-data-center-campus-in-floyd-county-georgia",
+      "mw": 422,
+      "inv": 360,
+      "coords": [
+        34.257,
+        -85.1647
+      ],
+      "owners": "Microsoft",
+      "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "Allemagne : Amazon annonce un plan d'investissement de plus de 16 Md€ pour 2027, dont 4,8 Md€ pour étendre AWS Frankfurt",
+      "region": "Europe",
+      "date": "2026-10-20",
+      "summary": "Amazon a annoncé le 20 octobre, lors de l'Invest in Germany Summit à Berlin, un plan d'investissement de plus de 16 Md€ en Allemagne pour 2027 (environ 17,3 Md$), dont 4,8 Md€ fléchés vers l'extension de l'infrastructure cloud/IA d'AWS dans la région de Francfort ; le reste du plan couvre les satellites Amazon Leo, la logistique et la production Prime Video, sans répartition détaillée communiquée. Ce plan fait suite à un engagement antérieur de 10 Md€ annoncé en 2024, majoritairement destiné au cloud.",
+      "source": "Amazon (communiqué) / DataCenterDynamics / The Next Web",
+      "url": "https://datacenterdynamics.com/en/news/amazon-pledges-16bn-investment-in-germany",
+      "inv": 17300
     },
     {
       "category": "power",
@@ -184,6 +177,24 @@
       ],
       "owners": "Meta",
       "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Canada (Point Tupper, Nouvelle-Écosse) : Anthropic signe son premier bail data center canadien avec EverWind, campus adossé à un portefeuille éolien",
+      "region": "Amérique du Nord",
+      "date": "2026-10-16",
+      "summary": "EverWind Fuels et Anthropic ont annoncé le 16 octobre un bail d'au moins 20 ans pour une première tranche de 95 MW au campus de Point Tupper (Nouvelle-Écosse), dans le cadre d'un plan d'investissement EverWind dépassant 10 Md CAD (environ 7,1 Md$), dont plus de 8 Md CAD pour le campus data center et 2 Md CAD pour son portefeuille éolien terrestre colocalisé ; il s'agit du premier accord data center d'Anthropic au Canada, la mise en service étant visée pour fin 2027. EverWind qualifie l'opération de plus gros investissement privé de l'histoire de la Nouvelle-Écosse.",
+      "source": "EverWind Fuels / DataCenterDynamics / BetaKit",
+      "url": "https://betakit.com/anthropic-signs-lease-for-10-billion-nova-scotia-data-centre/",
+      "mw": 95,
+      "inv": 7100,
+      "coords": [
+        45.606,
+        -61.342
+      ],
+      "poweredLand": true,
+      "owners": "EverWind Fuels",
+      "investors": "Anthropic (locataire, bail ≥20 ans)"
     },
     {
       "category": "power",
@@ -370,23 +381,6 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "Royaume-Uni (Selby, North Yorkshire) : le gouvernement rejette la candidature AI Growth Zone de Drax pour un data center biomasse de 1,2 GW",
-      "region": "Europe",
-      "date": "2026-10-07",
-      "summary": "La candidature déposée par North Yorkshire Council, l'Université de York et Drax au programme AI Growth Zone, pour un campus adossé à la centrale biomasse de Drax (1,2 GW visé), a été rejetée pour non-conformité aux critères de sélection (approvisionnement énergétique, impact environnemental, retombées économiques locales) ; il ne s'agit pas d'un refus de permis d'urbanisme, seulement d'une perte du soutien gouvernemental. Drax prépare désormais une demande de permis pour un site plus modeste (~100 MW, raccordé au réseau), annoncée dans sa publication trimestrielle du 17 septembre.",
-      "source": "DataCenterDynamics / Planning Geek / Yorkshire Post",
-      "url": "https://www.datacenterdynamics.com/en/news/uk-govt-rejects-ai-growth-zone-bid-to-power-data-center-with-drax-biomass-plant-in-selby-north-yorkshire",
-      "mw": 1200,
-      "coords": [
-        53.7367,
-        -1.0033
-      ],
-      "poweredLand": true,
-      "owners": "Drax Group · North Yorkshire Council · University of York (consortium)",
-      "investors": "n.c."
-    },
-    {
       "category": "power",
       "title": "Finlande : Applied Digital sécurise jusqu'à 1 GW de capacité électrique potentielle pour son premier développement hors États-Unis",
       "region": "Europe",
@@ -497,6 +491,24 @@
       "poweredLand": true,
       "owners": "Constellation Energy (site, Calvert Cliffs)",
       "investors": "Amazon (acheteur PPA, 20 ans)"
+    },
+    {
+      "category": "land",
+      "title": "France (Trappes-Élancourt, Yvelines) : Goodman retenu pour un campus de 300 MW sur la friche Stellantis/Iveco, foncier cédé 42 M€ indexé au raccordement",
+      "region": "France",
+      "date": "2026-09",
+      "summary": "Le Département des Yvelines et l'Epfif, propriétaires du foncier depuis la fermeture du site automobile Stellantis/Iveco/Einstein en 2021, ont retenu Goodman France à l'issue d'une consultation pour y développer trois data centers IA/cloud sur 15,5 hectares, pour une puissance électrique visée de 300 MW ; le prix de cession (42 M€, environ 45 M$) serait explicitement indexé à l'obtention des autorisations administratives et du raccordement électrique. Une concertation publique s'est tenue du 1er juillet au 1er septembre 2026 ; le projet reste au stade de l'étude et fait l'objet d'une opposition locale (collectif SQY en Transition).",
+      "source": "dcmag.fr / La Gazette Eco / Trappes-en-Yvelines.com",
+      "url": "https://dcmag.fr/la-friche-stellantis-a-trappes-transformee-en-data-center-ia-de-300-mw/",
+      "mw": 300,
+      "inv": 45,
+      "coords": [
+        48.7772,
+        2.0117
+      ],
+      "poweredLand": true,
+      "owners": "Goodman France",
+      "investors": "Département des Yvelines / Epfif (vendeurs fonciers)"
     },
     {
       "category": "power",
