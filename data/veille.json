@@ -1,157 +1,13 @@
 {
-  "lastUpdated": "2026-10-29",
+  "lastUpdated": "2026-10-30",
   "keyTakeaways": [
-    "France : deux nouveaux dossiers de foncier déjà industrialisé identifiés dans le Nord/Pas-de-Calais et les Yvelines — Goodman propose un campus de 264 MW sur l'ancienne papeterie Stora Enso à Brebières/Corbehem (Pas-de-Calais) tandis que Goodman France a été retenu pour 300 MW sur la friche Stellantis/Iveco à Trappes-Élancourt (prix de cession indexé au raccordement électrique) — deux cas d'école de « powered land » à suivre pour le sourcing.",
-    "Espagne : le gouvernement assouplit (26 octobre) certains paramètres de son projet de décret imposant 80% de renouvelables horaires aux data centers (seuils, délais), sans toucher à l'exigence centrale — un signal à comparer avec le marché français et le reste de l'Europe du Sud.",
-    "États-Unis : la contestation locale continue de freiner des projets majeurs — rejet définitif à Westfield (Massachusetts) du permis spécial de Servistar Realties (projet de 2,5-4 Md$ de fait abandonné) — tandis que Google et Entergy Arkansas renforcent au contraire l'approvisionnement propre du campus de West Memphis avec 440 MW de solaire et 1 400 MWh de stockage batterie (~600 M$).",
-    "Une analyse Bloomberg alerte sur l'empreinte carbone des centrales gaz « behind-the-meter » dédiées aux data centers IA (99 projets identifiés, jusqu'à +20% des émissions du secteur électrique américain) — un facteur qui pourrait accélérer un report vers le nucléaire/renouvelable colocalisé, et donc renforcer la valeur du foncier déjà énergisé par des sources propres.",
-    "Toujours aucune actualité fiable et nouvelle sur Polarise, Aurora Infra ou La Française de l'Énergie malgré de nouvelles recherches ciblées incluant des requêtes LinkedIn dédiées sur chacune des trois sociétés — une vérification directe reste recommandée si le sujet demeure prioritaire pour Noémie."
+    "États-Unis : la vague d'interdictions municipales de data centers s'accélère et se banalise (Hackettstown, New Jersey, interdiction votée 4-0 le 8 octobre ; Taunton, Massachusetts, interdiction totale votée à l'unanimité le 20 octobre ; Aurora, Colorado, moratorium indéfini de nouveau rejeté le 26 octobre) — le New Jersey compte désormais une quarantaine de communes ayant banni les data centers en 2026, un facteur qui renforce structurellement la valeur des sites déjà industriels/déjà énergisés (friches), moins exposés à ce risque de zonage que le foncier vierge.",
+    "Cas d'école à Aurora (Colorado) : faute de majorité qualifiée pour reconduire son moratorium, le conseil municipal n'a pas pu bloquer le projet déjà déposé « Trident » de Vantage Data Centers, mais l'opérateur a lui-même demandé une pause de 90 jours sur toute nouvelle règle et étudie désormais des sites alternatifs plus éloignés des zones résidentielles — signe que même les grands opérateurs réorientent leur sourcing vers des terrains moins contestés, donc davantage vers du foncier déjà industrialisé ou pré-autorisé.",
+    "France : le pipeline de foncier « powered land » (Brebières/Corbehem, Trappes-Élancourt, Cagny, friches EDF, Strasbourg ÆTHER) reste le plus actif d'Europe mais n'a pas produit de nouvelle annonce concrète cette semaine ; aucune actualité fiable nouvelle non plus sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches dédiées (y compris des requêtes LinkedIn ciblées) — une vérification directe auprès de ces trois sociétés reste recommandée si le sujet demeure prioritaire.",
+    "Rappel de marché : le compromis « bring your own power »/PPA nucléaire et gaz continue de structurer les plus gros deals américains (Nscale/Anthropic, Google/Constellation, Entergy/Google, Venture Global), tandis que l'accord de 45 Md$ Nscale-Anthropic reste à ce stade non confirmé officiellement par les deux parties malgré une large couverture presse — à surveiller pour une confirmation ou un démenti.",
+    "La contestation locale sur le foncier neuf (Memphis, Westfield, Oregon, Aurora CO, vague New Jersey) continue de contraster avec la fluidité des projets sur friches déjà industrialisées ou déjà raccordées (OVHcloud/Roubaix, Sepia/Cagny, Goodman/Brebières) — un argument de sourcing à valoriser auprès des exploitants pour accélérer leurs mises en service."
   ],
   "items": [
-    {
-      "category": "power",
-      "title": "États-Unis : le DOE ouvre son site nucléaire de Paducah (Kentucky) à Brookfield et NextEra pour un campus IA de 100 Md$ avec 4,6 GW de génération dédiée",
-      "region": "Amérique du Nord",
-      "date": "2026-Q3",
-      "summary": "Le Department of Energy a annoncé un partenariat avec Brookfield (développement et exploitation du campus) et NextEra Energy (construction et détention de la génération dédiée : jusqu'à 2 GW de gaz naturel et 2,6 GW de stockage batterie) pour reconvertir une partie de l'ancien site d'enrichissement d'uranium de Paducah (Kentucky) en campus IA pouvant atteindre 1,8 GW de capacité utilité d'ici 2032, pour un investissement pouvant approcher 100 Md$ — l'un des plus gros programmes de foncier fédéral déjà énergisé mobilisé pour l'IA aux États-Unis.",
-      "source": "Department of Energy / DataCenterDynamics / PowerMag",
-      "url": "https://www.energy.gov/articles/energy-department-announces-partnership-expand-reliable-affordable-energy-access-and-power",
-      "mw": 1800,
-      "inv": 100000,
-      "poweredLand": true,
-      "owners": "Department of Energy (foncier fédéral) · Brookfield (développeur/exploitant)",
-      "investors": "NextEra Energy (génération dédiée)"
-    },
-    {
-      "category": "land",
-      "title": "France (région de Strasbourg) : le consortium ÆTHER (2CRSi, SiPearl, Axelera AI, OUTSCALE...) en négociations avancées pour deux sites industriels dédiés à une « AI Gigafactory » (400+ MW)",
-      "region": "France",
-      "date": "2026-Q3",
-      "summary": "Candidat à l'appel à projets européen « AI Gigafactories », le consortium ÆTHER (2CRSi, SiPearl, Axelera AI, Viridien, ÉS, Socomec, Haffner Energy, Equans, Demathieu Bard, Nhood, Projex Ingénierie, OUTSCALE) est en négociations avancées pour l'acquisition de deux sites industriels près de Strasbourg (FR-SXB1, FR-SXB2) : clôture visée fin octobre 2026 pour FR-SXB1 (mise en service 2027, 42 MW en première phase) et fin décembre 2026 pour FR-SXB2, avec une ambition de long terme dépassant 400 MW selon les propositions de raccordement de RTE — un nouveau pipeline de foncier industriel à suivre en Alsace, hors des zones habituelles (Hauts-de-France, IDF, PACA).",
-      "source": "HPCwire / DataCenterDynamics / 2CRSi",
-      "url": "https://www.bebeez.eu/2026/07/09/europes-aether-consortium-targets-two-ai-gigafactories-in-strasbourg-france/",
-      "mw": 400,
-      "coords": [
-        48.573,
-        7.752
-      ],
-      "poweredLand": true,
-      "owners": "n.c. (sites en négociation)",
-      "investors": "2CRSi · SiPearl · consortium ÆTHER"
-    },
-    {
-      "category": "land",
-      "title": "France : le programme foncier « powered land » d'EDF sur friches énergétiques s'étoffe (Montereau, Bouchain, Loire-sur-Rhône, Creys-Mépieu)",
-      "region": "France",
-      "date": "2026-Q3",
-      "summary": "EDF poursuit la valorisation de ses friches énergétiques (centrales thermiques et nucléaires à l'arrêt) en sites data center pré-raccordés : OpCore à Montereau-Vallée-de-la-Seine (jusqu'à 700 MW, 4 Md€), SoftBank à Bouchain (400 MW) et Eclairion à Loire-sur-Rhône (330-350 MW) déjà retenus, et un nouvel appel à manifestation d'intérêt lancé le 3 juillet pour 500 MW à Creys-Mépieu (Isère) — un pipeline de foncier déjà énergisé structurant pour le marché français, à surveiller de près pour le sourcing.",
-      "source": "EDF / DataCenterDynamics",
-      "url": "https://www.edf.fr/en/the-edf-group/supporting-our-clients/cei-data-centers",
-      "poweredLand": true,
-      "owners": "EDF (foncier) · OpCore / SoftBank / Eclairion (opérateurs sélectionnés selon site)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France : Orange et le fonds Morrison signent un accord d'exclusivité pour une coentreprise de data centers (3 Md€, 400 MW), signature définitive attendue fin 2026",
-      "region": "France",
-      "date": "2026-Q3",
-      "summary": "Orange et l'investisseur en infrastructures Morrison ont annoncé le 27 juillet un accord d'exclusivité pour créer une coentreprise à parité, adossée à cinq data centers déjà exploités par Orange sur quatre campus (Chevilly-Larue, Aubervilliers, Chartres, Val-de-Reuil) ; la plateforme vise 3 Md€ d'investissement et 400 MW de capacité totale, avec signature définitive attendue d'ici fin 2026 — un exemple de valorisation de foncier et de puissance déjà en exploitation plutôt qu'une acquisition nouvelle.",
-      "source": "Acteurs Publics / Solutions Numériques",
-      "url": "https://acteurspublics.fr/articles/orange-et-morrison-projettent-une-plateforme-francaise-de-data-centers-souverains/",
-      "mw": 400,
-      "inv": 3240,
-      "poweredLand": true,
-      "owners": "Orange",
-      "investors": "Morrison (fonds d'infrastructure)"
-    },
-    {
-      "category": "land",
-      "title": "SoftBank engage jusqu'à 75 Md€ pour 5 GW de data centers IA dans les Hauts-de-France",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Annoncé à Choose France par Masayoshi Son, le plan SoftBank prévoit 45 Md€ fermes pour une 1ère phase de 3,1 GW (sites de Dunkerque/Loon-Plage, Bosquel et Bouchain), extensible à 75 Md€ / 5 GW selon l'exécution — l'un des plus gros engagements land+power jamais annoncés en France.",
-      "source": "SoftBank Group / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
-      "mw": 3100,
-      "inv": 52000,
-      "coords": [
-        50.98,
-        2.13
-      ],
-      "poweredLand": true,
-      "owners": "SoftBank Group",
-      "investors": "SoftBank (autofinancé)"
-    },
-    {
-      "category": "land",
-      "title": "Data4 confirme un campus de 5 Md€ / 700 MW sur la friche Usinor à Escaudain (Nord)",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Data4 transforme 33 ha de friche sidérurgique Usinor (en jachère depuis 45 ans) à Escaudain en son plus grand campus IA : 700 MW, 4 data centers, ~2 400 emplois visés, mise en service à partir de 2030.",
-      "source": "DataCenterDynamics / Data4",
-      "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
-      "mw": 700,
-      "inv": 5800,
-      "coords": [
-        50.33,
-        3.27
-      ],
-      "poweredLand": true,
-      "owners": "Data4",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Brookfield structure 10 Md€ pour le méga-campus Data4 de Cambrai (jusqu'à 1 GW, ex-base aérienne)",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Dans le cadre de son engagement de 20 Md€ pour l'IA en France annoncé à Choose France, Brookfield structure environ 10 Md€ pour le plus grand campus data center de Data4, sur 320 ha de l'ancienne base aérienne militaire de Cambrai-Épinoy (Nord) : jusqu'à 1 GW à terme (première étape 300 MW visée pour 2030), ~4 000 emplois directs et indirects, travaux visés au second semestre 2026.",
-      "source": "DataCenterDynamics / Brookfield",
-      "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
-      "mw": 1000,
-      "inv": 10900,
-      "coords": [
-        50.1758,
-        3.2354
-      ],
-      "owners": "Data4 (site) · Brookfield (investisseur)",
-      "investors": "Brookfield Asset Management"
-    },
-    {
-      "category": "land",
-      "title": "France (Étrechet, Châteauroux Métropole, Indre) : la concertation publique sur le projet de data centers de Google/RTE annoncée pour novembre-décembre, forte contestation locale",
-      "region": "France",
-      "date": "2026-10",
-      "summary": "La préfecture de l'Indre a confirmé à l'AFP qu'une concertation préalable sous l'égide de la Commission nationale du débat public se tiendra en novembre et décembre, avec Google et RTE comme maîtres d'ouvrage, sur le projet de 8 à 10 bâtiments de data centers (environ 195 hectares, ZAC d'Ozans) dont la vente du terrain à la filiale Tricolore Computing avait été votée en 2025 ; la puissance électrique reste non chiffrée officiellement (estimations divergentes de 500 MW à 1,1 GW selon les sources), le raccordement RTE prévoyant des liaisons souterraines à 225 kV puis deux lignes aériennes à 400 kV, et le projet a déjà provoqué en septembre la démission de la maire d'Étrechet et de plusieurs élus face à la contestation locale (pétition à plus de 18 000 signatures).",
-      "source": "Préfecture de l'Indre (AFP) / Blog du Modérateur / Next.ink",
-      "url": "https://www.blogdumoderateur.com/data-centers-projet-google-chateauroux-methode-francaise/",
-      "coords": [
-        46.76,
-        1.72
-      ],
-      "poweredLand": true,
-      "owners": "Google (Tricolore Computing) · RTE",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France (Trappes-Élancourt, Yvelines) : Goodman retenu pour un campus de 300 MW sur la friche Stellantis/Iveco, foncier cédé 42 M€ indexé au raccordement",
-      "region": "France",
-      "date": "2026-09",
-      "summary": "Le Département des Yvelines et l'Epfif, propriétaires du foncier depuis la fermeture du site automobile Stellantis/Iveco/Einstein en 2021, ont retenu Goodman France à l'issue d'une consultation pour y développer trois data centers IA/cloud sur 15,5 hectares, pour une puissance électrique visée de 300 MW ; le prix de cession (42 M€, environ 45 M$) serait explicitement indexé à l'obtention des autorisations administratives et du raccordement électrique. Une concertation publique s'est tenue du 1er juillet au 1er septembre 2026 ; le projet reste au stade de l'étude et fait l'objet d'une opposition locale (collectif SQY en Transition).",
-      "source": "dcmag.fr / La Gazette Eco / Trappes-en-Yvelines.com",
-      "url": "https://dcmag.fr/la-friche-stellantis-a-trappes-transformee-en-data-center-ia-de-300-mw/",
-      "mw": 300,
-      "inv": 45,
-      "coords": [
-        48.7772,
-        2.0117
-      ],
-      "poweredLand": true,
-      "owners": "Goodman France",
-      "investors": "Département des Yvelines / Epfif (vendeurs fonciers)"
-    },
     {
       "category": "market",
       "title": "Analyse Bloomberg : les centrales à gaz « behind-the-meter » dédiées aux data centers IA pourraient accroître les émissions du secteur électrique américain de ~20%",
@@ -179,6 +35,19 @@
       "summary": "Selon Reuters (26 octobre), le gouvernement espagnol a revu à la baisse certains paramètres de son projet de décret (seuils d'application, délais laissés aux développeurs pour démontrer leurs engagements renouvelables, période de transition), tout en maintenant l'exigence centrale d'une couverture d'au moins 80% de la consommation des data centers par des renouvelables additionnelles, heure par heure ; la version initiale d'août imposait 1 MW de nouvelle capacité renouvelable commissionnée dans les 18 mois précédant la mise en service pour chaque MW de charge, jusqu'à ce que le mix électrique national dépasse 90% de renouvelables. Le texte ne s'appliquera qu'aux nouveaux projets, les développeurs non conformes risquant de perdre leurs droits de raccordement.",
       "source": "Reuters (via KFGO/WHTC)",
       "url": "https://kfgo.com/2026/10/26/spain-relaxes-initial-proposal-for-data-center-rules/"
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Aurora, Colorado) : le conseil municipal échoue à nouveau à relancer un moratorium indéfini sur les data centers, le projet « Trident » de Vantage non concerné cherche d'autres sites",
+      "region": "Amérique du Nord",
+      "date": "2026-10-26",
+      "summary": "Le conseil municipal d'Aurora n'a pas réuni, le 26 octobre, la majorité qualifiée nécessaire pour remettre au vote un moratorium indéfini sur les nouveaux data centers (6 voix pour, dont le maire Mike Coffman qui avait changé de position, en-deçà du seuil requis) ; le moratorium ne se serait de toute façon pas appliqué au projet déjà déposé Trident de Vantage Data Centers, contesté par les riverains, Vantage ayant demandé une pause de 90 jours sur toute nouvelle réglementation et indiqué étudier des sites alternatifs plus éloignés des zones résidentielles.",
+      "source": "Colorado Politics / Denver7",
+      "url": "https://www.coloradopolitics.com/2026/10/26/aurora-city-council-votes-down-indefinite-data-center-moratorium/",
+      "coords": [
+        39.7294,
+        -104.8319
+      ]
     },
     {
       "category": "land",
@@ -287,21 +156,20 @@
       "investors": "n.c."
     },
     {
-      "category": "market",
-      "title": "Allemagne : Amazon annonce un plan d'investissement de plus de 16 Md€ pour 2027, dont 4,8 Md€ pour étendre AWS Frankfurt",
-      "region": "Europe",
+      "category": "legislation",
+      "title": "États-Unis (Taunton, Massachusetts) : le conseil municipal vote à l'unanimité l'interdiction des data centers sur tout le territoire, assortie d'un moratorium de sauvegarde",
+      "region": "Amérique du Nord",
       "date": "2026-10-20",
-      "summary": "Amazon a annoncé le 20 octobre, lors de l'Invest in Germany Summit à Berlin, un plan d'investissement de plus de 16 Md€ en Allemagne pour 2027 (environ 17,3 Md$), dont 4,8 Md€ fléchés vers l'extension de l'infrastructure cloud/IA d'AWS dans la région de Francfort ; le reste du plan couvre les satellites Amazon Leo, la logistique et la production Prime Video, sans répartition détaillée communiquée. Ce plan fait suite à un engagement antérieur de 10 Md€ annoncé en 2024, majoritairement destiné au cloud.",
-      "source": "Amazon (communiqué) / DataCenterDynamics / The Next Web",
-      "url": "https://datacenterdynamics.com/en/news/amazon-pledges-16bn-investment-in-germany",
-      "inv": 17300
+      "summary": "Le conseil municipal de Taunton a voté le 20 octobre, à l'unanimité, l'interdiction des data centers sur l'ensemble de la commune ainsi qu'un moratorium complémentaire censé renforcer la protection juridique du texte en cas de contestation ; le vote intervient alors qu'un projet était à l'étude dans une zone industrielle, le propriétaire du site (VMD Industrial) ayant demandé en vain une dérogation pour ne pas perdre un locataire technologique potentiel, dans un contexte de forte mobilisation des riverains sur les craintes environnementales et de réseau électrique.",
+      "source": "Turn to 10 (WJAR) / WPRI",
+      "url": "https://turnto10.com/news/local/taunton-city-council-unanimously-approves-data-center-ban-october-20-2026"
     },
     {
       "category": "power",
       "title": "États-Unis (Mason County, Virginie-Occidentale) : Nscale et Anthropic négocieraient un second contrat de 45 Md$ pour un second bâtiment de 460 MW au campus foncier énergisé Monarch",
       "region": "Amérique du Nord",
       "date": "2026-10-19",
-      "summary": "Selon Reuters (19 octobre, sources proches du dossier), Nscale négocierait avec Anthropic un second accord d'environ 45 Md$ portant sur un second bâtiment de 460 MW (puces Nvidia Vera Rubin) au sein de son campus Monarch (2 250 à 2 380 acres, Mason County, près de Point Pleasant, micro-réseau dédié visant jusqu'à 8 GW à terme) ; Anthropic dispose par ailleurs d'un droit de négociation prioritaire sur un 3e bâtiment. Ces discussions interviennent juste après le retrait de Microsoft d'un autre projet Nscale au Royaume-Uni (Loughton), attribué à un retard de raccordement réseau.",
+      "summary": "Selon Reuters (19 octobre, sources proches du dossier), Nscale négocierait avec Anthropic un second accord d'environ 45 Md$ portant sur un second bâtiment de 460 MW (puces Nvidia Vera Rubin) au sein de son campus Monarch (2 250 à 2 380 acres, Mason County, près de Point Pleasant, micro-réseau dédié visant jusqu'à 8 GW à terme) ; Anthropic dispose par ailleurs d'un droit de négociation prioritaire sur un 3e bâtiment. Ces discussions interviennent juste après le retrait de Microsoft d'un autre projet Nscale au Royaume-Uni (Loughton), attribué à un retard de raccordement réseau. Le 30 octobre, ni Nscale ni Anthropic n'avaient confirmé officiellement l'accord, qui reste fondé sur des sources de presse non nommées.",
       "source": "Reuters / VKTR / DataCenterDynamics",
       "url": "https://www.vktr.com/ai-market/anthropic-signs-45-billion-compute-deal-with-nscale-for-460-megawatts-in-west-virginia/",
       "mw": 460,
@@ -502,6 +370,15 @@
     },
     {
       "category": "legislation",
+      "title": "États-Unis (Hackettstown, New Jersey) : le conseil municipal interdit les data centers sur tout le territoire (vote 4-0), nouvelle commune dans la vague des bans du New Jersey",
+      "region": "Amérique du Nord",
+      "date": "2026-10-08",
+      "summary": "Le conseil municipal de Hackettstown a adopté le 8 octobre, par 4 voix contre 0 (deux absences, sans débat ni commentaire public), l'ordonnance 2026-11 classant les data centers comme usage non autorisé sur l'ensemble du territoire communal (entrée en vigueur le 9 octobre) ; un développeur devrait désormais obtenir une dérogation d'usage et l'aval de la commission d'urbanisme locale pour implanter un projet. Hackettstown s'ajoute à une vague d'une quarantaine de municipalités du New Jersey ayant voté des interdictions similaires en 2026 (dont Jackson Township, 38e commune du genre, la même semaine, par 4 voix contre 1).",
+      "source": "Hoodline (TAPinto Hackettstown) / NJ 101.5 / InsiderNJ",
+      "url": "https://hoodline.com/2026/10/hackettstown-council-bans-data-centers-townwide-in-4-0-vote/"
+    },
+    {
+      "category": "legislation",
       "title": "Finlande (Muhos, Kajaani) : l'autorité environnementale ordonne l'arrêt des travaux sur deux sites de data centers de Google pour défaut d'étude d'impact",
       "region": "Europe",
       "date": "2026-10-07",
@@ -577,22 +454,148 @@
       "investors": "n.c."
     },
     {
-      "category": "power",
-      "title": "États-Unis (Lusby, Maryland) : Amazon signe avec Constellation un PPA nucléaire de 20 ans sur 690 MW à Calvert Cliffs, plus de 3 Md$ d'investissement",
-      "region": "Amérique du Nord",
-      "date": "2026-09-30",
-      "summary": "Constellation Energy et Amazon ont annoncé le 30 septembre un accord d'achat d'électricité de 20 ans portant sur 690 MW à la centrale nucléaire de Calvert Cliffs (Lusby, Maryland), incluant une augmentation de puissance de 190 MW (relicensing de la centrale) permettant plus de 3 Md$ d'investissement dans l'infrastructure du Maryland d'ici 2030-2032 ; l'accord sécurise la capacité électrique nécessaire aux data centers d'Amazon dans la zone PJM (13 États) et donne à Constellation la visibilité financière pour prolonger l'exploitation du site de 20 ans supplémentaires.",
-      "source": "Constellation Energy / World Nuclear News / ESG Today",
-      "url": "https://www.constellationenergy.com/news/2026/09/constellation-and-amazon-announce-20-year-power-purchase-agreement-at-calvert-cliffs.html",
-      "mw": 690,
-      "inv": 3000,
+      "category": "land",
+      "title": "France (Étrechet, Châteauroux Métropole, Indre) : la concertation publique sur le projet de data centers de Google/RTE annoncée pour novembre-décembre, forte contestation locale",
+      "region": "France",
+      "date": "2026-10",
+      "summary": "La préfecture de l'Indre a confirmé à l'AFP qu'une concertation préalable sous l'égide de la Commission nationale du débat public se tiendra en novembre et décembre, avec Google et RTE comme maîtres d'ouvrage, sur le projet de 8 à 10 bâtiments de data centers (environ 195 hectares, ZAC d'Ozans) dont la vente du terrain à la filiale Tricolore Computing avait été votée en 2025 ; la puissance électrique reste non chiffrée officiellement (estimations divergentes de 500 MW à 1,1 GW selon les sources), le raccordement RTE prévoyant des liaisons souterraines à 225 kV puis deux lignes aériennes à 400 kV, et le projet a déjà provoqué en septembre la démission de la maire d'Étrechet et de plusieurs élus face à la contestation locale (pétition à plus de 18 000 signatures).",
+      "source": "Préfecture de l'Indre (AFP) / Blog du Modérateur / Next.ink",
+      "url": "https://www.blogdumoderateur.com/data-centers-projet-google-chateauroux-methode-francaise/",
       "coords": [
-        38.4319,
-        -76.4422
+        46.76,
+        1.72
       ],
       "poweredLand": true,
-      "owners": "Constellation Energy (site, Calvert Cliffs)",
-      "investors": "Amazon (acheteur PPA, 20 ans)"
+      "owners": "Google (Tricolore Computing) · RTE",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "France (Trappes-Élancourt, Yvelines) : Goodman retenu pour un campus de 300 MW sur la friche Stellantis/Iveco, foncier cédé 42 M€ indexé au raccordement",
+      "region": "France",
+      "date": "2026-09",
+      "summary": "Le Département des Yvelines et l'Epfif, propriétaires du foncier depuis la fermeture du site automobile Stellantis/Iveco/Einstein en 2021, ont retenu Goodman France à l'issue d'une consultation pour y développer trois data centers IA/cloud sur 15,5 hectares, pour une puissance électrique visée de 300 MW ; le prix de cession (42 M€, environ 45 M$) serait explicitement indexé à l'obtention des autorisations administratives et du raccordement électrique. Une concertation publique s'est tenue du 1er juillet au 1er septembre 2026 ; le projet reste au stade de l'étude et fait l'objet d'une opposition locale (collectif SQY en Transition).",
+      "source": "dcmag.fr / La Gazette Eco / Trappes-en-Yvelines.com",
+      "url": "https://dcmag.fr/la-friche-stellantis-a-trappes-transformee-en-data-center-ia-de-300-mw/",
+      "mw": 300,
+      "inv": 45,
+      "coords": [
+        48.7772,
+        2.0117
+      ],
+      "poweredLand": true,
+      "owners": "Goodman France",
+      "investors": "Département des Yvelines / Epfif (vendeurs fonciers)"
+    },
+    {
+      "category": "power",
+      "title": "États-Unis : le DOE ouvre son site nucléaire de Paducah (Kentucky) à Brookfield et NextEra pour un campus IA de 100 Md$ avec 4,6 GW de génération dédiée",
+      "region": "Amérique du Nord",
+      "date": "2026-Q3",
+      "summary": "Le Department of Energy a annoncé un partenariat avec Brookfield (développement et exploitation du campus) et NextEra Energy (construction et détention de la génération dédiée : jusqu'à 2 GW de gaz naturel et 2,6 GW de stockage batterie) pour reconvertir une partie de l'ancien site d'enrichissement d'uranium de Paducah (Kentucky) en campus IA pouvant atteindre 1,8 GW de capacité utilité d'ici 2032, pour un investissement pouvant approcher 100 Md$ — l'un des plus gros programmes de foncier fédéral déjà énergisé mobilisé pour l'IA aux États-Unis.",
+      "source": "Department of Energy / DataCenterDynamics / PowerMag",
+      "url": "https://www.energy.gov/articles/energy-department-announces-partnership-expand-reliable-affordable-energy-access-and-power",
+      "mw": 1800,
+      "inv": 100000,
+      "poweredLand": true,
+      "owners": "Department of Energy (foncier fédéral) · Brookfield (développeur/exploitant)",
+      "investors": "NextEra Energy (génération dédiée)"
+    },
+    {
+      "category": "land",
+      "title": "France (région de Strasbourg) : le consortium ÆTHER (2CRSi, SiPearl, Axelera AI, OUTSCALE...) en négociations avancées pour deux sites industriels dédiés à une « AI Gigafactory » (400+ MW)",
+      "region": "France",
+      "date": "2026-Q3",
+      "summary": "Candidat à l'appel à projets européen « AI Gigafactories », le consortium ÆTHER (2CRSi, SiPearl, Axelera AI, Viridien, ÉS, Socomec, Haffner Energy, Equans, Demathieu Bard, Nhood, Projex Ingénierie, OUTSCALE) est en négociations avancées pour l'acquisition de deux sites industriels près de Strasbourg (FR-SXB1, FR-SXB2) : clôture visée fin octobre 2026 pour FR-SXB1 (mise en service 2027, 42 MW en première phase) et fin décembre 2026 pour FR-SXB2, avec une ambition de long terme dépassant 400 MW selon les propositions de raccordement de RTE — un nouveau pipeline de foncier industriel à suivre en Alsace, hors des zones habituelles (Hauts-de-France, IDF, PACA).",
+      "source": "HPCwire / DataCenterDynamics / 2CRSi",
+      "url": "https://www.bebeez.eu/2026/07/09/europes-aether-consortium-targets-two-ai-gigafactories-in-strasbourg-france/",
+      "mw": 400,
+      "coords": [
+        48.573,
+        7.752
+      ],
+      "poweredLand": true,
+      "owners": "n.c. (sites en négociation)",
+      "investors": "2CRSi · SiPearl · consortium ÆTHER"
+    },
+    {
+      "category": "land",
+      "title": "France : le programme foncier « powered land » d'EDF sur friches énergétiques s'étoffe (Montereau, Bouchain, Loire-sur-Rhône, Creys-Mépieu)",
+      "region": "France",
+      "date": "2026-Q3",
+      "summary": "EDF poursuit la valorisation de ses friches énergétiques (centrales thermiques et nucléaires à l'arrêt) en sites data center pré-raccordés : OpCore à Montereau-Vallée-de-la-Seine (jusqu'à 700 MW, 4 Md€), SoftBank à Bouchain (400 MW) et Eclairion à Loire-sur-Rhône (330-350 MW) déjà retenus, et un nouvel appel à manifestation d'intérêt lancé le 3 juillet pour 500 MW à Creys-Mépieu (Isère) — un pipeline de foncier déjà énergisé structurant pour le marché français, à surveiller de près pour le sourcing.",
+      "source": "EDF / DataCenterDynamics",
+      "url": "https://www.edf.fr/en/the-edf-group/supporting-our-clients/cei-data-centers",
+      "poweredLand": true,
+      "owners": "EDF (foncier) · OpCore / SoftBank / Eclairion (opérateurs sélectionnés selon site)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "France : Orange et le fonds Morrison signent un accord d'exclusivité pour une coentreprise de data centers (3 Md€, 400 MW), signature définitive attendue fin 2026",
+      "region": "France",
+      "date": "2026-Q3",
+      "summary": "Orange et l'investisseur en infrastructures Morrison ont annoncé le 27 juillet un accord d'exclusivité pour créer une coentreprise à parité, adossée à cinq data centers déjà exploités par Orange sur quatre campus (Chevilly-Larue, Aubervilliers, Chartres, Val-de-Reuil) ; la plateforme vise 3 Md€ d'investissement et 400 MW de capacité totale, avec signature définitive attendue d'ici fin 2026 — un exemple de valorisation de foncier et de puissance déjà en exploitation plutôt qu'une acquisition nouvelle.",
+      "source": "Acteurs Publics / Solutions Numériques",
+      "url": "https://acteurspublics.fr/articles/orange-et-morrison-projettent-une-plateforme-francaise-de-data-centers-souverains/",
+      "mw": 400,
+      "inv": 3240,
+      "poweredLand": true,
+      "owners": "Orange",
+      "investors": "Morrison (fonds d'infrastructure)"
+    },
+    {
+      "category": "land",
+      "title": "SoftBank engage jusqu'à 75 Md€ pour 5 GW de data centers IA dans les Hauts-de-France",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Annoncé à Choose France par Masayoshi Son, le plan SoftBank prévoit 45 Md€ fermes pour une 1ère phase de 3,1 GW (sites de Dunkerque/Loon-Plage, Bosquel et Bouchain), extensible à 75 Md€ / 5 GW selon l'exécution — l'un des plus gros engagements land+power jamais annoncés en France.",
+      "source": "SoftBank Group / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
+      "mw": 3100,
+      "inv": 52000,
+      "coords": [
+        50.98,
+        2.13
+      ],
+      "poweredLand": true,
+      "owners": "SoftBank Group",
+      "investors": "SoftBank (autofinancé)"
+    },
+    {
+      "category": "land",
+      "title": "Data4 confirme un campus de 5 Md€ / 700 MW sur la friche Usinor à Escaudain (Nord)",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Data4 transforme 33 ha de friche sidérurgique Usinor (en jachère depuis 45 ans) à Escaudain en son plus grand campus IA : 700 MW, 4 data centers, ~2 400 emplois visés, mise en service à partir de 2030.",
+      "source": "DataCenterDynamics / Data4",
+      "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
+      "mw": 700,
+      "inv": 5800,
+      "coords": [
+        50.33,
+        3.27
+      ],
+      "poweredLand": true,
+      "owners": "Data4",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Brookfield structure 10 Md€ pour le méga-campus Data4 de Cambrai (jusqu'à 1 GW, ex-base aérienne)",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Dans le cadre de son engagement de 20 Md€ pour l'IA en France annoncé à Choose France, Brookfield structure environ 10 Md€ pour le plus grand campus data center de Data4, sur 320 ha de l'ancienne base aérienne militaire de Cambrai-Épinoy (Nord) : jusqu'à 1 GW à terme (première étape 300 MW visée pour 2030), ~4 000 emplois directs et indirects, travaux visés au second semestre 2026.",
+      "source": "DataCenterDynamics / Brookfield",
+      "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
+      "mw": 1000,
+      "inv": 10900,
+      "coords": [
+        50.1758,
+        3.2354
+      ],
+      "owners": "Data4 (site) · Brookfield (investisseur)",
+      "investors": "Brookfield Asset Management"
     }
   ]
 }
