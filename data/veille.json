@@ -1,13 +1,25 @@
 {
-  "lastUpdated": "2026-10-30",
+  "lastUpdated": "2026-11-02",
   "keyTakeaways": [
-    "États-Unis : la vague d'interdictions municipales de data centers s'accélère et se banalise (Hackettstown, New Jersey, interdiction votée 4-0 le 8 octobre ; Taunton, Massachusetts, interdiction totale votée à l'unanimité le 20 octobre ; Aurora, Colorado, moratorium indéfini de nouveau rejeté le 26 octobre) — le New Jersey compte désormais une quarantaine de communes ayant banni les data centers en 2026, un facteur qui renforce structurellement la valeur des sites déjà industriels/déjà énergisés (friches), moins exposés à ce risque de zonage que le foncier vierge.",
-    "Cas d'école à Aurora (Colorado) : faute de majorité qualifiée pour reconduire son moratorium, le conseil municipal n'a pas pu bloquer le projet déjà déposé « Trident » de Vantage Data Centers, mais l'opérateur a lui-même demandé une pause de 90 jours sur toute nouvelle règle et étudie désormais des sites alternatifs plus éloignés des zones résidentielles — signe que même les grands opérateurs réorientent leur sourcing vers des terrains moins contestés, donc davantage vers du foncier déjà industrialisé ou pré-autorisé.",
-    "France : le pipeline de foncier « powered land » (Brebières/Corbehem, Trappes-Élancourt, Cagny, friches EDF, Strasbourg ÆTHER) reste le plus actif d'Europe mais n'a pas produit de nouvelle annonce concrète cette semaine ; aucune actualité fiable nouvelle non plus sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches dédiées (y compris des requêtes LinkedIn ciblées) — une vérification directe auprès de ces trois sociétés reste recommandée si le sujet demeure prioritaire.",
-    "Rappel de marché : le compromis « bring your own power »/PPA nucléaire et gaz continue de structurer les plus gros deals américains (Nscale/Anthropic, Google/Constellation, Entergy/Google, Venture Global), tandis que l'accord de 45 Md$ Nscale-Anthropic reste à ce stade non confirmé officiellement par les deux parties malgré une large couverture presse — à surveiller pour une confirmation ou un démenti.",
-    "La contestation locale sur le foncier neuf (Memphis, Westfield, Oregon, Aurora CO, vague New Jersey) continue de contraster avec la fluidité des projets sur friches déjà industrialisées ou déjà raccordées (OVHcloud/Roubaix, Sepia/Cagny, Goodman/Brebières) — un argument de sourcing à valoriser auprès des exploitants pour accélérer leurs mises en service."
+    "États-Unis : le modèle « foncier + génération gaz dédiée on-site » continue de s'imposer pour contourner les délais réseau — après Taylor (TX, 1 GW), Glendale (Arizona) a approuvé le 27 octobre l'annexion du projet « Eagle/Baccara » (160 acres, 700 MW de gaz dédié), malgré l'appel de la procureure générale de l'Arizona à un moratorium à l'échelle de l'État ; ce même mouvement de sécurisation de puissance propre se retrouve à l'échelle fédérale.",
+    "Le front réglementaire américain s'étend désormais au foncier public fédéral : le Center for Western Priorities recense au moins 35 projets ou infrastructures liés aux data centers sur des terres du Bureau of Land Management (Arizona, Idaho, Nevada, Oregon, Utah, Wyoming, >24 000 acres), avec une proposition de loi fédérale visant à imposer un examen NEPA systématique — un nouvel axe de due diligence pour tout sourcing sur sol public aux États-Unis.",
+    "Moyen-Orient : l'accord-cadre Nebius/Humain/DataVolt sur le campus Oxagon de NEOM (50 MW, alimentation éolien+solaire du site) confirme la montée en puissance du modèle foncier+renouvelable co-localisé dans le Golfe, en parallèle de la poursuite des très gros engagements de capacité (Nscale/Anthropic) qui structurent la demande mondiale de foncier énergisé.",
+    "Europe : les délais de raccordement dépassant désormais 4 ans dans les hubs majeurs continuent de valoriser le foncier déjà énergisé — le modèle de sous-station partagée data center/renouvelable (cas irlandais Arklow, SSE Renewables/Echelon) permettrait de gagner jusqu'à 2 ans de mise en service, un argument de sourcing à valoriser directement auprès des exploitants.",
+    "France : aucune nouvelle annonce concrète cette semaine sur le pipeline historique « powered land » (Brebières, Cagny, Roubaix, Trappes, Strasbourg ÆTHER, friches EDF) ni sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches dédiées (y compris LinkedIn) — une vérification directe auprès de ces trois sociétés reste recommandée si le sujet demeure prioritaire."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "Europe : les délais de raccordement électrique (plus de 4 ans dans les hubs majeurs) poussent vers des montages de sous-station partagée data center/renouvelable, jusqu'à 2 ans gagnés",
+      "region": "Europe",
+      "date": "2026-10-31",
+      "summary": "Une analyse DataCenterDynamics (31 octobre) souligne que les délais de raccordement au réseau dépassant désormais 4 ans dans les principaux hubs européens poussent opérateurs et énergéticiens vers des montages de sous-stations partagées entre data centers et projets renouvelables (à l'image du précédent irlandais SSE Renewables/Echelon Data Centres à Arklow), permettant de gagner jusqu'à deux ans sur la mise en service — une validation supplémentaire de la stratégie de foncier déjà énergisé/co-localisé.",
+      "source": "DataCenterDynamics (analyse)",
+      "url": "https://www.datacenterdynamics.com/en/opinions/europes-ai-ambitions-are-hitting-a-power-bottleneck/",
+      "poweredLand": true,
+      "owners": "n.c.",
+      "investors": "n.c."
+    },
     {
       "category": "market",
       "title": "Analyse Bloomberg : les centrales à gaz « behind-the-meter » dédiées aux data centers IA pourraient accroître les émissions du secteur électrique américain de ~20%",
@@ -16,6 +28,23 @@
       "summary": "Une analyse Bloomberg recense 99 projets de centrales à gaz « behind-the-meter » dédiées à des data centers (plus d'un tiers au Texas, répartis sur 22 États), qui émettraient environ 318 millions de tonnes de CO2/an à pleine charge, soit près de 20% des 1 485 Mt émises par le secteur électrique américain en 2025 ; Amazon, Microsoft, OpenAI et Anthropic figurent parmi les porteurs de projets concernés, motivés par les délais de raccordement réseau — un facteur qui pourrait renforcer la valeur du foncier déjà énergisé par des sources propres (nucléaire, renouvelable colocalisé) face à la pression réglementaire et climatique sur le gaz.",
       "source": "Bloomberg News (relayé par Bloomberg Government/Bloomberg Law)",
       "url": "https://news.bgov.com/construction-labor/data-center-gas-plants-to-boost-us-power-emissions-by-20"
+    },
+    {
+      "category": "construction",
+      "title": "États-Unis (Glendale, Arizona) : le conseil municipal approuve l'annexion du campus « Project Eagle/Baccara » (160 acres, 700 MW de génération gaz dédiée), malgré l'opposition locale",
+      "region": "Amérique du Nord",
+      "date": "2026-10-27",
+      "summary": "Le conseil municipal de Glendale a approuvé le 27 octobre l'annexion et le rezonage d'un site de 160 acres près de la base aérienne de Luke pour le projet « Project Eagle » du développeur Takanock LLC : trois bâtiments data center (environ 1,1 million de pieds carrés) couplés à une centrale gaz dédiée de 700 MW (« Project Baccara », 18 turbines) et un nouveau poste APS ; le coût total est estimé selon les sources entre plus de 10 Md$ (avocat du développeur) et 36 Md$ (presse), la procureure générale de l'Arizona ayant par ailleurs appelé à un moratorium à l'échelle de l'État sur les nouveaux data centers.",
+      "source": "ABC15 / AZFamily / KJZZ / Construction Review Online",
+      "url": "https://www.kjzz.org/business/2026-10-28/glendale-approves-project-eagle-data-center-development",
+      "mw": 700,
+      "coords": [
+        33.531,
+        -112.383
+      ],
+      "poweredLand": true,
+      "owners": "Takanock LLC",
+      "investors": "n.c."
     },
     {
       "category": "market",
@@ -126,6 +155,23 @@
       "investors": "n.c."
     },
     {
+      "category": "power",
+      "title": "Arabie Saoudite (NEOM, Oxagon) : Nebius signe un accord-cadre préliminaire pour 50 MW sur le campus IA d'Humain/DataVolt, alimenté par l'éolien et le solaire de NEOM",
+      "region": "Moyen-Orient",
+      "date": "2026-10-21",
+      "summary": "Humain et DataVolt ont signé le 21 octobre un accord-cadre préliminaire avec Nebius pour jusqu'à 50 MW de capacité sur leur campus IA d'Oxagon (côte de la mer Rouge, province de Tabuk), DataVolt étant locataire du foncier et l'alimentation électrique devant provenir des actifs éoliens et solaires de NEOM ; la mise en service de la capacité Nebius est visée pour le T4 2027, dans le cadre du projet plus large Oxagon-DataVolt (environ 5 Md$ annoncés en 2025, premiers 100 MW en construction depuis septembre 2026).",
+      "source": "MEED / DataCenterDynamics / Baxtel",
+      "url": "https://www.meed.com/nebius-agrees-neom-ai-data-centre-capacity-deal",
+      "mw": 50,
+      "coords": [
+        27.9667,
+        35.4667
+      ],
+      "poweredLand": true,
+      "owners": "DataVolt (foncier/développeur) · Humain",
+      "investors": "Nebius (off-taker) · n.c."
+    },
+    {
       "category": "legislation",
       "title": "États-Unis (Memphis, Tennessee) : le moratorium de 18 mois sur les data centers échoue (6 voix contre 6), le conseil adopte en remplacement une interdiction temporaire de 135 jours",
       "region": "Amérique du Nord",
@@ -163,6 +209,15 @@
       "summary": "Le conseil municipal de Taunton a voté le 20 octobre, à l'unanimité, l'interdiction des data centers sur l'ensemble de la commune ainsi qu'un moratorium complémentaire censé renforcer la protection juridique du texte en cas de contestation ; le vote intervient alors qu'un projet était à l'étude dans une zone industrielle, le propriétaire du site (VMD Industrial) ayant demandé en vain une dérogation pour ne pas perdre un locataire technologique potentiel, dans un contexte de forte mobilisation des riverains sur les craintes environnementales et de réseau électrique.",
       "source": "Turn to 10 (WJAR) / WPRI",
       "url": "https://turnto10.com/news/local/taunton-city-council-unanimously-approves-data-center-ban-october-20-2026"
+    },
+    {
+      "category": "land",
+      "title": "États-Unis : au moins 35 projets de data centers ou d'infrastructures associées recensés sur des terres fédérales dans l'Ouest américain, selon le Center for Western Priorities",
+      "region": "Amérique du Nord",
+      "date": "2026-10-20",
+      "summary": "Une analyse du Center for Western Priorities des dossiers du Bureau of Land Management recense au moins 35 demandes liées à des data centers (campus et infrastructures associées) couvrant plus de 24 000 acres de terres fédérales en Arizona, Idaho, Nevada, Oregon, Utah et Wyoming, dont le projet déjà approuvé Townsite Data Center (88,5 acres, Nevada, juin 2026) ; une élue fédérale a déposé le « Public Lands Accountability Act » pour imposer un examen NEPA systématique à ces projets, signe d'une extension de la bataille du foncier vers les terres publiques fédérales.",
+      "source": "Center for Western Priorities / Ground News / DataCenterDynamics",
+      "url": "https://datacenterdynamics.com/en/news/us-considering-35-data-center-related-developments-on-public-land-land-records-say"
     },
     {
       "category": "power",
@@ -271,34 +326,6 @@
       "investors": "AMD (garant/soutien de crédit) · TensorWave (locataire)"
     },
     {
-      "category": "power",
-      "title": "États-Unis (Santa Teresa, Doña Ana County, Nouveau-Mexique) : Oracle révise à plus de 13 Md$ l'impact économique de son campus Stargate « Project Jupiter », raccordement électrique contesté avec El Paso Electric",
-      "region": "Amérique du Nord",
-      "date": "2026-10-13",
-      "summary": "Oracle a annoncé le 13 octobre revoir à plus de 13 Md$ l'impact économique attendu de son campus de 4 data centers et 2 unités de microréseau de production électrique à Santa Teresa (Doña Ana County, Nouveau-Mexique), site du projet Stargate avec OpenAI ; la révision intègre l'investissement dans une centrale à piles à combustible annoncée en avril 2026 et porte l'impact direct annuel pour le comté à environ 560 M$ une fois le site pleinement opérationnel, dans un contexte où des élus locaux contestent l'accord de raccordement proposé avec El Paso Electric (10 M$/an sur 10 ans, même en cas de sous-consommation).",
-      "source": "Oracle (communiqué) / Albuquerque Journal / Construction Review Online",
-      "url": "https://constructionreviewonline.com/oracles-project-jupiter-forecasts-13b-economic-impact-proposes-up-to-165m-in-power-bill-credits",
-      "inv": 13000,
-      "coords": [
-        31.8167,
-        -106.5833
-      ],
-      "poweredLand": true,
-      "owners": "Oracle (locataire pour OpenAI / Stargate)",
-      "investors": "OpenAI (Stargate)"
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Westfield, Massachusetts) : la commission d'urbanisme refuse l'extension du permis spécial du campus data center de 150+ acres (2,5-4 Md$), projet de fait abandonné",
-      "region": "Amérique du Nord",
-      "date": "2026-10-13",
-      "summary": "Le 13 octobre, la Planning Board de Westfield a voté à l'unanimité le refus de prolonger le permis spécial de Servistar Realties pour son campus data center de plus de 150 acres (investissement estimé entre 2,5 et 4 Md$ selon les sources), qui expirait fin octobre, invoquant des craintes sur l'eau et l'air ; le conseil municipal avait déjà adopté en juillet un moratorium d'un an sur ce type d'installations.",
-      "source": "Boston Globe / Boston.com / WBUR",
-      "url": "https://www.boston.com/news/local-news/2026/10/16/westfield-planning-board-kills-3-billion-data-center-project/",
-      "owners": "Servistar Realties",
-      "investors": "n.c."
-    },
-    {
       "category": "land",
       "title": "Pays-Bas (Rotterdam, Maasvlakte) : Nebius signe une lettre d'intention avec Volt pour devenir premier client de son « AI Gigafactory » de 600 MW",
       "region": "Europe",
@@ -323,23 +350,6 @@
       "summary": "Votée le 1er octobre par le Parlement danois et entrée en vigueur le 12 octobre, la loi d'urgence du ministère du Climat, de l'Énergie et des Services publics remplace l'allocation « premier arrivé, premier servi » du réseau électrique par un classement en 4 catégories de priorité, reléguant par défaut les data centers (catégorie 4, grands consommateurs) derrière transports, industrie et chauffage, sauf exception pour fonctions critiques ou sites jugés « favorables au réseau » (flexibilité de consommation) ; la fédération patronale Dansk Industri accepte une priorisation temporaire mais met en garde contre une relégation systématique — un facteur clé pour la valorisation du foncier déjà énergisé au Danemark.",
       "source": "DataCenterDynamics / Enerdata / Energy Connects",
       "url": "https://datacenterdynamics.com/en/news/danish-parliament-adopts-emergency-plan-for-electricity-grid-puts-data-centers-at-the-back-of-queue"
-    },
-    {
-      "category": "legislation",
-      "title": "Italie (Cologno Monzese, Lombardie) : le conseil municipal rejette à l'unanimité un data center de 80 MW sur l'ancienne friche industrielle Torriani",
-      "region": "Europe",
-      "date": "2026-10-11",
-      "summary": "Le conseil municipal de Cologno Monzese a rejeté à l'unanimité le projet de 80 MW porté par Officine Mak et 2C Sviluppo Immobiliare sur l'ancienne friche industrielle Torriani (environ 12 M€ de recettes espérées pour la commune), invoquant la consommation d'eau et d'électricité ainsi que la non-conformité au plan d'urbanisme local ; la Lombardie, qui vise 2 GW de capacité additionnelle sur 5 ans, a par ailleurs adopté la loi régionale n°11/2026, premier cadre italien complet sur les data centers, qui promeut la réutilisation des friches industrielles.",
-      "source": "DataCenterDynamics / Baxtel / Il Giorno",
-      "url": "https://datacenterdynamics.com/en/news/council-rejects-80mw-data-center-in-northern-italy",
-      "mw": 80,
-      "coords": [
-        45.5392,
-        9.2878
-      ],
-      "poweredLand": true,
-      "owners": "Officine Mak · 2C Sviluppo Immobiliare Spa",
-      "investors": "n.c."
     },
     {
       "category": "construction",
@@ -376,17 +386,6 @@
       "summary": "Le conseil municipal de Hackettstown a adopté le 8 octobre, par 4 voix contre 0 (deux absences, sans débat ni commentaire public), l'ordonnance 2026-11 classant les data centers comme usage non autorisé sur l'ensemble du territoire communal (entrée en vigueur le 9 octobre) ; un développeur devrait désormais obtenir une dérogation d'usage et l'aval de la commission d'urbanisme locale pour implanter un projet. Hackettstown s'ajoute à une vague d'une quarantaine de municipalités du New Jersey ayant voté des interdictions similaires en 2026 (dont Jackson Township, 38e commune du genre, la même semaine, par 4 voix contre 1).",
       "source": "Hoodline (TAPinto Hackettstown) / NJ 101.5 / InsiderNJ",
       "url": "https://hoodline.com/2026/10/hackettstown-council-bans-data-centers-townwide-in-4-0-vote/"
-    },
-    {
-      "category": "legislation",
-      "title": "Finlande (Muhos, Kajaani) : l'autorité environnementale ordonne l'arrêt des travaux sur deux sites de data centers de Google pour défaut d'étude d'impact",
-      "region": "Europe",
-      "date": "2026-10-07",
-      "summary": "L'autorité environnementale finlandaise (LVV) a ordonné début octobre à la filiale locale de Google (Tuike Finland) de cesser les travaux de déboisement, excavation et terrassement sur ses deux sites de data centers en projet à Muhos (environ 330 hectares déjà déboisés) et Kajaani (environ 200 hectares), dans le cadre de l'investissement finlandais de 13 Md€ de Google, au motif qu'aucune étude d'impact environnemental obligatoire n'aurait été réalisée ; la police finlandaise enquête en parallèle sur une possible coupe illégale de bois, et Google a reconnu être resté en deçà de ses propres standards.",
-      "source": "Al Jazeera / Courthouse News / Yle",
-      "url": "https://www.aljazeera.com/news/2026/10/7/finland-orders-halt-to-work-on-google-data-sites-over-environment-concerns",
-      "owners": "Google (Tuike Finland)",
-      "investors": "n.c."
     },
     {
       "category": "land",
