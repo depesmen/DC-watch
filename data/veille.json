@@ -1,13 +1,63 @@
 {
-  "lastUpdated": "2026-11-02",
+  "lastUpdated": "2026-11-03",
   "keyTakeaways": [
-    "États-Unis : le modèle « foncier + génération gaz dédiée on-site » continue de s'imposer pour contourner les délais réseau — après Taylor (TX, 1 GW), Glendale (Arizona) a approuvé le 27 octobre l'annexion du projet « Eagle/Baccara » (160 acres, 700 MW de gaz dédié), malgré l'appel de la procureure générale de l'Arizona à un moratorium à l'échelle de l'État ; ce même mouvement de sécurisation de puissance propre se retrouve à l'échelle fédérale.",
-    "Le front réglementaire américain s'étend désormais au foncier public fédéral : le Center for Western Priorities recense au moins 35 projets ou infrastructures liés aux data centers sur des terres du Bureau of Land Management (Arizona, Idaho, Nevada, Oregon, Utah, Wyoming, >24 000 acres), avec une proposition de loi fédérale visant à imposer un examen NEPA systématique — un nouvel axe de due diligence pour tout sourcing sur sol public aux États-Unis.",
-    "Moyen-Orient : l'accord-cadre Nebius/Humain/DataVolt sur le campus Oxagon de NEOM (50 MW, alimentation éolien+solaire du site) confirme la montée en puissance du modèle foncier+renouvelable co-localisé dans le Golfe, en parallèle de la poursuite des très gros engagements de capacité (Nscale/Anthropic) qui structurent la demande mondiale de foncier énergisé.",
-    "Europe : les délais de raccordement dépassant désormais 4 ans dans les hubs majeurs continuent de valoriser le foncier déjà énergisé — le modèle de sous-station partagée data center/renouvelable (cas irlandais Arklow, SSE Renewables/Echelon) permettrait de gagner jusqu'à 2 ans de mise en service, un argument de sourcing à valoriser directement auprès des exploitants.",
-    "France : aucune nouvelle annonce concrète cette semaine sur le pipeline historique « powered land » (Brebières, Cagny, Roubaix, Trappes, Strasbourg ÆTHER, friches EDF) ni sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches dédiées (y compris LinkedIn) — une vérification directe auprès de ces trois sociétés reste recommandée si le sujet demeure prioritaire."
+    "États-Unis : le risque réglementaire local culmine le jour-même avec 41 référendums sur les data centers dans une dizaine d'États (Election Day du 3 novembre), dont un plafond de puissance à Sunbury (Ohio) qui bloquerait le campus AWS de 2 Md$ déjà engagé — les résultats restent à vérifier dans les prochains jours, mais l'épisode confirme que la sécurisation politique/zonage en amont reste aussi critique que le foncier et la puissance eux-mêmes.",
+    "Le capex IA des quatre hyperscalers atteint un record de 201,9 Md$ au T3 2026 (trajectoire annuelle proche de 725 Md$), sans signal de ralentissement de la demande malgré des free cash flows négatifs chez plusieurs d'entre eux — un indicateur macro qui continue de soutenir la valeur du foncier déjà énergisé à moyen terme.",
+    "La consolidation de la chaîne de valeur IA s'étend au-delà du foncier et de l'énergie : le rachat de Lumentum par Marvell (~115 Md$) souligne que les composants optiques/interconnexion deviennent un goulot d'étranglement potentiel pour la mise en exploitation rapide de sites pourtant déjà raccordés.",
+    "Diversification continue des modèles de sécurisation de puissance hors foncier classique : protocole California Resources/Bloom Energy (piles à combustible + CCS, >1 GW) aux États-Unis, à comparer aux montages gaz dédié/nucléaire/VPP déjà recensés — autant de référentiels de coûts et de délais utiles pour argumenter la valeur du powered land face aux exploitants.",
+    "France : aucune nouvelle actualité confirmée cette semaine sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches dédiées (y compris LinkedIn) ; le pipeline historique France (Brebières, Cagny, Trappes, Strasbourg ÆTHER, friches EDF, Orange/Morrison) reste inchangé — une vérification directe auprès de ces trois sociétés demeure recommandée si le sujet reste prioritaire."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "États-Unis : 41 référendums locaux sur les data centers dans 10 États lors de l'Election Day du 3 novembre, dont le projet AWS de 2 Md$ à Sunbury (Ohio)",
+      "region": "Amérique du Nord",
+      "date": "2026-11-03",
+      "summary": "Selon Ballotpedia, au moins 41 mesures locales liées aux data centers étaient soumises au vote le 3 novembre dans une dizaine d'États (Ohio en tête avec une vingtaine de scrutins, puis Illinois, Kansas, Maine, New Jersey, Wisconsin), allant de bannissements complets (Alhambra, Californie) à des plafonds de puissance qui bloqueraient de facto des projets identifiés, comme le campus AWS de 2 Md$ à Sunbury (Ohio, plafond proposé à 25 MW) ; les résultats n'étaient pas encore connus à l'heure de cette veille, un point à vérifier dans les prochains jours pour mesurer l'ampleur du risque réglementaire local sur le foncier déjà engagé.",
+      "source": "Ballotpedia / Yahoo News / NBC4 Columbus",
+      "url": "https://www.yahoo.com/news/us/articles/ai-data-centers-ballot-10-185841413.html",
+      "owners": "Amazon Web Services (projet Sunbury)",
+      "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "Marvell rachète le fabricant de composants optiques IA Lumentum pour environ 115 Md$, pari sur l'infrastructure data center IA",
+      "region": "International",
+      "date": "2026-11-02",
+      "summary": "Marvell Technology a confirmé le 2 novembre (dépôt SEC de Lumentum) le rachat de Lumentum, fabricant de lasers et composants optiques pour data centers IA dont la capacité serait déjà réservée jusqu'au début 2029, dans une opération en actions valorisant Lumentum autour de 85 Md$ et combinant les deux entreprises à plus de 115 Md$ de capitalisation ; l'opération illustre la consolidation en cours sur la chaîne de valeur de l'infrastructure IA (interconnexion optique), un goulot d'étranglement potentiel pour la mise en exploitation rapide du foncier déjà énergisé.",
+      "source": "SEC (Form 425 Lumentum) / Reuters / Bloomberg",
+      "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442765/d162314d425.htm",
+      "inv": 115000
+    },
+    {
+      "category": "competition",
+      "title": "Inde : KKR, Singtel et Tata Communications étudieraient la cession de STT GDC India pour au moins 5 Md$",
+      "region": "Asie",
+      "date": "2026-11-02",
+      "summary": "Selon des informations de presse du 2 novembre, les actionnaires de STT GDC India (KKR, Singtel, Tata Communications) étudieraient la cession de cette plateforme indienne de data centers pour une valorisation d'au moins 5 à 5,5 Md$ ; le processus en serait à un stade précoce, sans mandat ni calendrier confirmés, mais illustre la poursuite de la consolidation du marché asiatique des data centers.",
+      "source": "BusinessToday / Kotak Neo",
+      "url": "https://businesstoday.in/latest/corporate/story/kkr-singtel-tata-plan-to-sell-data-centre-company-seek-at-least-usd-5-billion-in-sale-report-565012-2026-11-02",
+      "inv": 5000
+    },
+    {
+      "category": "power",
+      "title": "Californie : California Resources et Bloom Energy signent un protocole d'accord pour plus de 1 GW de piles à combustible/CCS, data centers parmi les débouchés visés",
+      "region": "Amérique du Nord",
+      "date": "2026-11-02",
+      "summary": "California Resources Corporation et Bloom Energy ont annoncé le 2 novembre un protocole d'accord non engageant pour évaluer conjointement le développement d'au moins 1 GW de génération par piles à combustible à oxyde solide couplée à du captage de carbone (CCS) en Californie, les data centers figurant parmi les cinq catégories d'acheteurs d'électricité ciblées ; aucun site ni montant financier n'est encore précisé, l'accord restant à un stade d'évaluation.",
+      "source": "California Resources Corporation / FourWeekMBA",
+      "url": "https://fourweekmba.com/ai-bloom-energy-deal-eyes-1-gw-for-data-centers-and-the-grid/",
+      "mw": 1000
+    },
+    {
+      "category": "construction",
+      "title": "Corée du Sud (Gumi) : Samsung SDS démarre la construction d'un data center IA, premier jalon du plan d'investissement régional de Samsung dans le Yeongnam",
+      "region": "Asie",
+      "date": "2026-11-02",
+      "summary": "Samsung SDS a organisé le 2 novembre la cérémonie de lancement des travaux de son data center IA à Gumi (province du Gyeongsang du Nord), première étape du plan d'investissement d'environ 60 000 Md KRW de Samsung Group dans la région de Yeongnam ; la construction est prévue jusqu'à fin 2028, pour une mise en exploitation complète visée en mars 2029.",
+      "source": "Korea Times / Herald Business",
+      "url": "https://www.koreatimes.co.kr/business/companies/20261102/samsung-sds-breaks-ground-on-ai-data-center-in-gumi"
+    },
     {
       "category": "power",
       "title": "Europe : les délais de raccordement électrique (plus de 4 ans dans les hubs majeurs) poussent vers des montages de sous-station partagée data center/renouvelable, jusqu'à 2 ans gagnés",
@@ -22,12 +72,13 @@
     },
     {
       "category": "market",
-      "title": "Analyse Bloomberg : les centrales à gaz « behind-the-meter » dédiées aux data centers IA pourraient accroître les émissions du secteur électrique américain de ~20%",
-      "region": "Amérique du Nord",
-      "date": "2026-10-28",
-      "summary": "Une analyse Bloomberg recense 99 projets de centrales à gaz « behind-the-meter » dédiées à des data centers (plus d'un tiers au Texas, répartis sur 22 États), qui émettraient environ 318 millions de tonnes de CO2/an à pleine charge, soit près de 20% des 1 485 Mt émises par le secteur électrique américain en 2025 ; Amazon, Microsoft, OpenAI et Anthropic figurent parmi les porteurs de projets concernés, motivés par les délais de raccordement réseau — un facteur qui pourrait renforcer la valeur du foncier déjà énergisé par des sources propres (nucléaire, renouvelable colocalisé) face à la pression réglementaire et climatique sur le gaz.",
-      "source": "Bloomberg News (relayé par Bloomberg Government/Bloomberg Law)",
-      "url": "https://news.bgov.com/construction-labor/data-center-gas-plants-to-boost-us-power-emissions-by-20"
+      "title": "Capex IA des hyperscalers : record de 201,9 Md$ au T3 2026 pour Microsoft, Alphabet, Amazon et Meta, trajectoire annuelle proche de 725 Md$",
+      "region": "International",
+      "date": "2026-10-29",
+      "summary": "Les résultats trimestriels publiés fin octobre montrent un capex combiné record de 201,9 Md$ au T3 2026 pour les quatre hyperscalers : Microsoft a légèrement abaissé sa prévision annuelle à 170 Md$ (contre 175 Md$) malgré une croissance de 48% d'Azure, Alphabet a maintenu sa fourchette de 195-205 Md$, Amazon a maintenu 220 Md$, et Meta a relevé la sienne à 135-145 Md$ ; aucun des quatre n'a signalé de ralentissement de la demande de capacité, confirmant la pression continue sur le foncier et la puissance malgré des flux de trésorerie disponibles négatifs pour plusieurs d'entre eux.",
+      "source": "CNBC / 247wallst.com / communiqués des sociétés",
+      "url": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
+      "inv": 201900
     },
     {
       "category": "construction",
@@ -66,19 +117,6 @@
       "url": "https://kfgo.com/2026/10/26/spain-relaxes-initial-proposal-for-data-center-rules/"
     },
     {
-      "category": "legislation",
-      "title": "États-Unis (Aurora, Colorado) : le conseil municipal échoue à nouveau à relancer un moratorium indéfini sur les data centers, le projet « Trident » de Vantage non concerné cherche d'autres sites",
-      "region": "Amérique du Nord",
-      "date": "2026-10-26",
-      "summary": "Le conseil municipal d'Aurora n'a pas réuni, le 26 octobre, la majorité qualifiée nécessaire pour remettre au vote un moratorium indéfini sur les nouveaux data centers (6 voix pour, dont le maire Mike Coffman qui avait changé de position, en-deçà du seuil requis) ; le moratorium ne se serait de toute façon pas appliqué au projet déjà déposé Trident de Vantage Data Centers, contesté par les riverains, Vantage ayant demandé une pause de 90 jours sur toute nouvelle réglementation et indiqué étudier des sites alternatifs plus éloignés des zones résidentielles.",
-      "source": "Colorado Politics / Denver7",
-      "url": "https://www.coloradopolitics.com/2026/10/26/aurora-city-council-votes-down-indefinite-data-center-moratorium/",
-      "coords": [
-        39.7294,
-        -104.8319
-      ]
-    },
-    {
       "category": "land",
       "title": "France (Brebières/Corbehem, Pas-de-Calais) : Goodman propose un campus de 4 data centers (264 MW cumulés) sur l'ancienne friche de la papeterie Stora Enso",
       "region": "France",
@@ -94,16 +132,6 @@
       "poweredLand": true,
       "owners": "Goodman (promesse de vente, Osartis-Marquion)",
       "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "États-Unis (zone PJM) : Google décuple son accord de « virtual power plant » avec Voltus à 1 070 MW (« bring your own capacity »), contrat jusqu'en 2040",
-      "region": "Amérique du Nord",
-      "date": "2026-10-22",
-      "summary": "Google et Voltus ont annoncé le 22 octobre l'extension de leur accord de centrale électrique virtuelle dans la zone PJM à environ 1 070 MW (contre 100 MW initialement en juin), agrégeant batteries, thermostats connectés et autres ressources énergétiques distribuées chez des clients résidentiels et commerciaux, dans le cadre d'un contrat courant jusqu'en 2040 ; Google devient ainsi le premier client « bring your own capacity » de Voltus, une approche alternative ou complémentaire au foncier déjà énergisé classique pour sécuriser de la flexibilité réseau face à la croissance de la demande data center dans PJM (30 à 34 GW de nouvelle charge attendue par le gestionnaire de réseau d'ici le début des années 2030).",
-      "source": "Utility Dive / Latitude Media / Baxtel",
-      "url": "https://www.utilitydive.com/news/google-voltus-vpp-virtual-power-pjm/833717/",
-      "mw": 1070
     },
     {
       "category": "land",
@@ -211,15 +239,6 @@
       "url": "https://turnto10.com/news/local/taunton-city-council-unanimously-approves-data-center-ban-october-20-2026"
     },
     {
-      "category": "land",
-      "title": "États-Unis : au moins 35 projets de data centers ou d'infrastructures associées recensés sur des terres fédérales dans l'Ouest américain, selon le Center for Western Priorities",
-      "region": "Amérique du Nord",
-      "date": "2026-10-20",
-      "summary": "Une analyse du Center for Western Priorities des dossiers du Bureau of Land Management recense au moins 35 demandes liées à des data centers (campus et infrastructures associées) couvrant plus de 24 000 acres de terres fédérales en Arizona, Idaho, Nevada, Oregon, Utah et Wyoming, dont le projet déjà approuvé Townsite Data Center (88,5 acres, Nevada, juin 2026) ; une élue fédérale a déposé le « Public Lands Accountability Act » pour imposer un examen NEPA systématique à ces projets, signe d'une extension de la bataille du foncier vers les terres publiques fédérales.",
-      "source": "Center for Western Priorities / Ground News / DataCenterDynamics",
-      "url": "https://datacenterdynamics.com/en/news/us-considering-35-data-center-related-developments-on-public-land-land-records-say"
-    },
-    {
       "category": "power",
       "title": "États-Unis (Mason County, Virginie-Occidentale) : Nscale et Anthropic négocieraient un second contrat de 45 Md$ pour un second bâtiment de 460 MW au campus foncier énergisé Monarch",
       "region": "Amérique du Nord",
@@ -249,21 +268,6 @@
       "inv": 600,
       "poweredLand": true,
       "owners": "Google",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Maysville, comté de Mason, Kentucky) : Meta confirmé comme partenaire d'un campus hyperscale de plus de 2 000 acres, zonage déjà voté",
-      "region": "Amérique du Nord",
-      "date": "2026-10-16",
-      "summary": "Les autorités du comté de Mason (Kentucky) ont confirmé que Meta est le partenaire du campus technologique hyperscale au nord de Germantown Road, sur un terrain déjà rezoné en mai pour usage industriel rural (plus de 2 000 acres selon le comté, jusqu'à près de 3 000 acres selon d'autres sources) ; les montants d'investissement annoncés varient fortement selon les sources (de 15 M$ pour les seules infrastructures eau/assainissement à plusieurs milliards de dollars selon la montée en puissance du projet), et le projet fait déjà face à deux recours judiciaires de riverains ainsi qu'à une pétition de plus de 1 200 signatures.",
-      "source": "Fox19 / WCPO / DataCenterDynamics",
-      "url": "https://www.fox19.com/2026/10/16/meta-revealed-partner-2000-acre-nky-data-center-residents-pushback/",
-      "coords": [
-        38.6412,
-        -83.7941
-      ],
-      "owners": "Meta",
       "investors": "n.c."
     },
     {
@@ -343,15 +347,6 @@
       "investors": "Nebius (premier client/offtaker)"
     },
     {
-      "category": "legislation",
-      "title": "Danemark : la loi d'urgence reléguant par défaut les data centers en fin de file d'attente pour le raccordement réseau entre en vigueur",
-      "region": "Europe",
-      "date": "2026-10-12",
-      "summary": "Votée le 1er octobre par le Parlement danois et entrée en vigueur le 12 octobre, la loi d'urgence du ministère du Climat, de l'Énergie et des Services publics remplace l'allocation « premier arrivé, premier servi » du réseau électrique par un classement en 4 catégories de priorité, reléguant par défaut les data centers (catégorie 4, grands consommateurs) derrière transports, industrie et chauffage, sauf exception pour fonctions critiques ou sites jugés « favorables au réseau » (flexibilité de consommation) ; la fédération patronale Dansk Industri accepte une priorisation temporaire mais met en garde contre une relégation systématique — un facteur clé pour la valorisation du foncier déjà énergisé au Danemark.",
-      "source": "DataCenterDynamics / Enerdata / Energy Connects",
-      "url": "https://datacenterdynamics.com/en/news/danish-parliament-adopts-emergency-plan-for-electricity-grid-puts-data-centers-at-the-back-of-queue"
-    },
-    {
       "category": "construction",
       "title": "États-Unis (Taylor, comté de Williamson, Texas) : le conseil municipal approuve à l'unanimité le « Taylor Technology Campus » de 664 acres, jusqu'à 1 GW en autoproduction gaz",
       "region": "Amérique du Nord",
@@ -377,15 +372,6 @@
       "summary": "La Federal Energy Regulatory Commission a rejeté le 9 octobre l'essentiel du dispositif IRAS/BYONC proposé par PJM pour les data centers de plus de 50 MW, jugeant le volet délestage et l'option « apporter sa propre capacité » hors de sa compétence ou insuffisamment justifiés ; elle n'a validé que la définition de « Large Load » et le registre associé, effectif depuis le 12 octobre. PJM doit redéposer son dispositif de secours (attendu vers le 29 octobre) et réunit son comité des membres le 22 octobre — une clarification cruciale pour la valorisation du foncier déjà énergisé dans les 13 États de la zone PJM, qui renvoie désormais la question aux États (Pennsylvanie, Ohio en tête).",
       "source": "Utility Dive / TechTarget / Energy News Beat",
       "url": "https://www.utilitydive.com/news/ferc-pjm-large-load-interconnection-iras-byonc/832716/"
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Hackettstown, New Jersey) : le conseil municipal interdit les data centers sur tout le territoire (vote 4-0), nouvelle commune dans la vague des bans du New Jersey",
-      "region": "Amérique du Nord",
-      "date": "2026-10-08",
-      "summary": "Le conseil municipal de Hackettstown a adopté le 8 octobre, par 4 voix contre 0 (deux absences, sans débat ni commentaire public), l'ordonnance 2026-11 classant les data centers comme usage non autorisé sur l'ensemble du territoire communal (entrée en vigueur le 9 octobre) ; un développeur devrait désormais obtenir une dérogation d'usage et l'aval de la commission d'urbanisme locale pour implanter un projet. Hackettstown s'ajoute à une vague d'une quarantaine de municipalités du New Jersey ayant voté des interdictions similaires en 2026 (dont Jackson Township, 38e commune du genre, la même semaine, par 4 voix contre 1).",
-      "source": "Hoodline (TAPinto Hackettstown) / NJ 101.5 / InsiderNJ",
-      "url": "https://hoodline.com/2026/10/hackettstown-council-bans-data-centers-townwide-in-4-0-vote/"
     },
     {
       "category": "land",
