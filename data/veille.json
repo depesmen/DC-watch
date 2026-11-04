@@ -1,23 +1,67 @@
 {
-  "lastUpdated": "2026-11-03",
+  "lastUpdated": "2026-11-04",
   "keyTakeaways": [
-    "États-Unis : le risque réglementaire local culmine le jour-même avec 41 référendums sur les data centers dans une dizaine d'États (Election Day du 3 novembre), dont un plafond de puissance à Sunbury (Ohio) qui bloquerait le campus AWS de 2 Md$ déjà engagé — les résultats restent à vérifier dans les prochains jours, mais l'épisode confirme que la sécurisation politique/zonage en amont reste aussi critique que le foncier et la puissance eux-mêmes.",
-    "Le capex IA des quatre hyperscalers atteint un record de 201,9 Md$ au T3 2026 (trajectoire annuelle proche de 725 Md$), sans signal de ralentissement de la demande malgré des free cash flows négatifs chez plusieurs d'entre eux — un indicateur macro qui continue de soutenir la valeur du foncier déjà énergisé à moyen terme.",
-    "La consolidation de la chaîne de valeur IA s'étend au-delà du foncier et de l'énergie : le rachat de Lumentum par Marvell (~115 Md$) souligne que les composants optiques/interconnexion deviennent un goulot d'étranglement potentiel pour la mise en exploitation rapide de sites pourtant déjà raccordés.",
-    "Diversification continue des modèles de sécurisation de puissance hors foncier classique : protocole California Resources/Bloom Energy (piles à combustible + CCS, >1 GW) aux États-Unis, à comparer aux montages gaz dédié/nucléaire/VPP déjà recensés — autant de référentiels de coûts et de délais utiles pour argumenter la valeur du powered land face aux exploitants.",
-    "France : aucune nouvelle actualité confirmée cette semaine sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches dédiées (y compris LinkedIn) ; le pipeline historique France (Brebières, Cagny, Trappes, Strasbourg ÆTHER, friches EDF, Orange/Morrison) reste inchangé — une vérification directe auprès de ces trois sociétés demeure recommandée si le sujet reste prioritaire."
+    "Confirmation du risque électoral local : les résultats du 3-4 novembre dans l'Ohio confirment un raz-de-marée anti-data center (Sunbury et Granville adoptent un plafond de 25 MW qui menace le campus AWS de 2 Md$ déjà engagé à Sunbury, Pataskala suit le même plafond, Grove City impose désormais un vote public obligatoire pour tout projet de plus de 20 MW, et Ashville annule par référendum son accord municipal avec EdgeConneX pour deux data centers déjà en construction) — la sécurisation politique amont reste aussi critique que le foncier et la puissance, même pour des projets déjà engagés ou en travaux.",
+    "Le modèle « powered land » adossé à une centrale existante se confirme comme référence au Royaume-Uni avec le partenariat Drax/Brookfield/Qai/Radiant (jusqu'à 20 Md£ soit environ 27 Md$, raccordement existant de 2,58 GW à la centrale de Drax) — un comparable direct et chiffré utile pour valoriser des friches énergétiques françaises comparables (programme EDF notamment).",
+    "L'Australie entre dans la cour des méga-deals land+power avec le bail Anthropic de 2,16 GW à Western Downs (Queensland, 31,9 Md$ AU) — nouvel exemple de structuration tripartite foncier/financement/locataire (Zerra DC, Dexus, Macquarie, Anthropic) sur un site greenfield proche d'un pôle de production électrique, à suivre pour du benchmarking de montage.",
+    "La demande de capacité IA ne faiblit pas : AMD confirme une croissance de 97% de son activité data center au T3 2026 (CA total record de 13,4 Md$), dans la continuité de la trajectoire de capex des hyperscalers déjà notée les jours précédents — un indicateur macro qui continue de soutenir la valeur du foncier déjà énergisé à moyen terme.",
+    "France : toujours aucune actualité confirmée cette semaine sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches dédiées (y compris LinkedIn) ; à noter qu'Aurora Infra apparaît comme une petite société basée en Pologne orientée service managé de déploiement d'infrastructure IA plutôt qu'acteur foncier, ce qui pourrait expliquer l'absence d'actus land/power associées — une vérification directe auprès des trois sociétés reste recommandée si le sujet reste prioritaire."
   ],
   "items": [
     {
       "category": "legislation",
-      "title": "États-Unis : 41 référendums locaux sur les data centers dans 10 États lors de l'Election Day du 3 novembre, dont le projet AWS de 2 Md$ à Sunbury (Ohio)",
+      "title": "États-Unis (Ohio) : les électeurs approuvent massivement des interdictions et restrictions sur les data centers lors de l'Election Day (Sunbury, Pataskala, Grove City, Granville, Ashville)",
       "region": "Amérique du Nord",
-      "date": "2026-11-03",
-      "summary": "Selon Ballotpedia, au moins 41 mesures locales liées aux data centers étaient soumises au vote le 3 novembre dans une dizaine d'États (Ohio en tête avec une vingtaine de scrutins, puis Illinois, Kansas, Maine, New Jersey, Wisconsin), allant de bannissements complets (Alhambra, Californie) à des plafonds de puissance qui bloqueraient de facto des projets identifiés, comme le campus AWS de 2 Md$ à Sunbury (Ohio, plafond proposé à 25 MW) ; les résultats n'étaient pas encore connus à l'heure de cette veille, un point à vérifier dans les prochains jours pour mesurer l'ampleur du risque réglementaire local sur le foncier déjà engagé.",
-      "source": "Ballotpedia / Yahoo News / NBC4 Columbus",
-      "url": "https://www.yahoo.com/news/us/articles/ai-data-centers-ballot-10-185841413.html",
-      "owners": "Amazon Web Services (projet Sunbury)",
+      "date": "2026-11-04",
+      "summary": "Au lendemain de l'Election Day du 3 novembre, les résultats non officiels confirment que les communautés de la région de Columbus (Ohio) ont voté en faveur de restrictions sur les data centers dans les cinq scrutins suivis : Sunbury et Granville approuvent un plafond de charge de 25 MW (celui de Sunbury menaçant directement le campus AWS de 2 Md$ déjà engagé), Pataskala adopte un plafond similaire, Grove City impose désormais un vote public obligatoire pour tout projet dépassant 20 MW/50 acres/500 000 gallons d'eau par jour (Issue 28, ~55% des voix), et Ashville annule par référendum (~82% des voix) son accord municipal avec EdgeConneX pour deux data centers déjà en construction, sans toutefois arrêter les travaux en cours ; sur l'ensemble des quelque 41 mesures locales soumises au vote dans une dizaine d'États, la tendance nationale est unanimement en faveur de restrictions renforcées — un signal fort du risque de blocage réglementaire local qui pèse désormais sur le foncier déjà engagé, même raccordé ou en cours de construction.",
+      "source": "NBC4 Columbus / Yahoo News / Benzinga",
+      "url": "https://www.nbc4i.com/news/your-local-election-hq/columbus-area-communities-vote-on-data-center-issues-live-results/",
+      "owners": "Amazon Web Services (projet Sunbury) · EdgeConneX (projets Ashville)",
       "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "Royaume-Uni (centrale de Drax, North Yorkshire) : Brookfield et le fonds qatari Qai investissent 2,5 Md£ dans un partenariat avec Drax et Radiant pour un campus data center à l'échelle du gigawatt sur la centrale existante",
+      "region": "Europe",
+      "date": "2026-11-03",
+      "summary": "Drax, Brookfield Asset Management, sa coentreprise avec le fonds souverain qatari QIA (« Qai ») et la société d'infrastructure IA Radiant (ex-Ori Industries) ont annoncé le 3 novembre un partenariat stratégique pouvant atteindre 20 Md£ (environ 27 Md$) pour développer un campus data center à l'échelle du gigawatt sur le site de la centrale électrique de Drax (North Yorkshire, raccordement existant de 2,58 GW) : Brookfield et Qai investissent dans un premier temps 2,5 Md£ (3,4 Md$), Drax apportant le foncier, la puissance et l'accès réseau, et Radiant l'expertise d'infrastructure IA ; la première phase (jusqu'à 100 MW) utiliserait le raccordement existant pour une mise en service visée au T1 2028, une deuxième phase d'environ 500 MW supplémentaires étant envisagée entre 2028 et 2031, directement alimentée par les générateurs de Drax — un exemple emblématique de foncier déjà énergisé (ancienne centrale charbon/biomasse) valorisé pour l'IA, sous le nouveau « Data Centre Covenant » du gouvernement britannique.",
+      "source": "Drax / Bloomberg / Place Yorkshire / AGBI",
+      "url": "https://www.drax.com/news/drax-brookfield-and-radiant-announce-20bn-partnership-to-deliver-gw-scale-data-centre-capacity-at-drax-power-station/",
+      "mw": 600,
+      "inv": 27000,
+      "coords": [
+        53.737,
+        -1.015
+      ],
+      "poweredLand": true,
+      "owners": "Drax (site/centrale)",
+      "investors": "Brookfield Asset Management · Qatar Investment Authority (Qai) · Radiant"
+    },
+    {
+      "category": "land",
+      "title": "Australie (Western Downs, Queensland) : Anthropic signe son premier bail data center australien, campus de 2,16 GW porté par Zerra DC, Dexus et Macquarie (31,9 Md$ AU)",
+      "region": "Océanie",
+      "date": "2026-11-03",
+      "summary": "La plateforme Australian Data Centres de Dexus (25% de participation), le promoteur singapourien Zerra DC et Macquarie Capital ont signé le 3 novembre une documentation de bail avec la filiale australienne d'Anthropic pour la première phase du « Western Downs Digital Park », un campus de 725 hectares (environ 1 790 acres, ancien feedlot bovin) situé à 37 km au nord-ouest de Dalby (Queensland), à proximité du pôle de production électrique de Braemar ; le projet, valorisé à environ 31,9 Md$ AU (environ 20,7 Md$), viserait une capacité de pointe de 2,16 GW livrée par phases à partir de 2027, et reste soumis à l'approbation du Foreign Investment Review Board (FIRB) ainsi qu'à celle du conseil régional de Western Downs — le premier accord data center d'Anthropic en Australie.",
+      "source": "Dexus / Reuters / Business News Australia / IT Brief Australia",
+      "url": "https://www.businessnewsaustralia.com/articles/dexus-data-centre-platform-secures-25pc-stake-in-32b-queensland-hyperscale-campus-for-ai-giant-anthropic.html",
+      "mw": 2160,
+      "inv": 20700,
+      "coords": [
+        -26.84,
+        150.9
+      ],
+      "owners": "Zerra DC · Dexus (Australian Data Centres, 25%) · Macquarie Capital",
+      "investors": "Anthropic (locataire)"
+    },
+    {
+      "category": "market",
+      "title": "AMD : le chiffre d'affaires data center IA bondit de 97% au T3 2026, portant le CA total à 13,4 Md$ (record)",
+      "region": "International",
+      "date": "2026-11-03",
+      "summary": "AMD a publié le 3 novembre des résultats du troisième trimestre 2026 records, avec un chiffre d'affaires total de 13,4 Md$ (+45% sur un an) et une marge brute de 54% ; le segment data center (IA/serveurs) a progressé de 97% sur un an, la direction indiquant que le chiffre d'affaires IA data center dépasserait celui des CPU serveurs dès le T4 2026 — une confirmation supplémentaire de la demande soutenue de capacité IA qui continue de tirer la valeur du foncier déjà énergisé.",
+      "source": "AMD (SEC Form 8-K) / KuCoin News",
+      "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm"
     },
     {
       "category": "market",
@@ -230,15 +274,6 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "États-Unis (Taunton, Massachusetts) : le conseil municipal vote à l'unanimité l'interdiction des data centers sur tout le territoire, assortie d'un moratorium de sauvegarde",
-      "region": "Amérique du Nord",
-      "date": "2026-10-20",
-      "summary": "Le conseil municipal de Taunton a voté le 20 octobre, à l'unanimité, l'interdiction des data centers sur l'ensemble de la commune ainsi qu'un moratorium complémentaire censé renforcer la protection juridique du texte en cas de contestation ; le vote intervient alors qu'un projet était à l'étude dans une zone industrielle, le propriétaire du site (VMD Industrial) ayant demandé en vain une dérogation pour ne pas perdre un locataire technologique potentiel, dans un contexte de forte mobilisation des riverains sur les craintes environnementales et de réseau électrique.",
-      "source": "Turn to 10 (WJAR) / WPRI",
-      "url": "https://turnto10.com/news/local/taunton-city-council-unanimously-approves-data-center-ban-october-20-2026"
-    },
-    {
       "category": "power",
       "title": "États-Unis (Mason County, Virginie-Occidentale) : Nscale et Anthropic négocieraient un second contrat de 45 Md$ pour un second bâtiment de 460 MW au campus foncier énergisé Monarch",
       "region": "Amérique du Nord",
@@ -406,22 +441,6 @@
     },
     {
       "category": "land",
-      "title": "Royaume-Uni (Fawley, Hampshire) : un promoteur propose un campus industriel avec data centers sur l'ancien site de la centrale électrique de Fawley",
-      "region": "Europe",
-      "date": "2026-10-05",
-      "summary": "Fawley Waterside Limited a présenté un projet de campus industriel et commercial incluant des data centers sur l'ancien site de la centrale au fioul de 2 GW de Fawley (déclassée par RWE en 2013, près de Southampton), avec une surface réduite à 143 000 m² après consultation locale (contre 190 000 m² initialement) et trois grands bâtiments de data centers envisagés ; National Grid prépare une demande auprès d'Ofgem pour renforcer le poste électrique existant du site, le début des travaux étant visé pour l'hiver 2028.",
-      "source": "DataCenterDynamics / Baxtel / bebeez",
-      "url": "https://datacenterdynamics.com/en/news/former-uk-power-station-site-could-become-data-center-campus",
-      "coords": [
-        50.8167,
-        -1.3333
-      ],
-      "poweredLand": true,
-      "owners": "Fawley Waterside Limited",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
       "title": "Finlande (Salo) : atNorth dévoile le campus FIN05, 2 Md€ et une trajectoire de 230 MW, avec une première tranche de 75 MW déjà sécurisée",
       "region": "Europe",
       "date": "2026-10-05",
@@ -453,24 +472,6 @@
       "poweredLand": true,
       "owners": "Google (Tricolore Computing) · RTE",
       "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France (Trappes-Élancourt, Yvelines) : Goodman retenu pour un campus de 300 MW sur la friche Stellantis/Iveco, foncier cédé 42 M€ indexé au raccordement",
-      "region": "France",
-      "date": "2026-09",
-      "summary": "Le Département des Yvelines et l'Epfif, propriétaires du foncier depuis la fermeture du site automobile Stellantis/Iveco/Einstein en 2021, ont retenu Goodman France à l'issue d'une consultation pour y développer trois data centers IA/cloud sur 15,5 hectares, pour une puissance électrique visée de 300 MW ; le prix de cession (42 M€, environ 45 M$) serait explicitement indexé à l'obtention des autorisations administratives et du raccordement électrique. Une concertation publique s'est tenue du 1er juillet au 1er septembre 2026 ; le projet reste au stade de l'étude et fait l'objet d'une opposition locale (collectif SQY en Transition).",
-      "source": "dcmag.fr / La Gazette Eco / Trappes-en-Yvelines.com",
-      "url": "https://dcmag.fr/la-friche-stellantis-a-trappes-transformee-en-data-center-ia-de-300-mw/",
-      "mw": 300,
-      "inv": 45,
-      "coords": [
-        48.7772,
-        2.0117
-      ],
-      "poweredLand": true,
-      "owners": "Goodman France",
-      "investors": "Département des Yvelines / Epfif (vendeurs fonciers)"
     },
     {
       "category": "power",
