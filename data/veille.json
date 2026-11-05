@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-04",
+  "lastUpdated": "2026-11-05",
   "keyTakeaways": [
-    "Confirmation du risque électoral local : les résultats du 3-4 novembre dans l'Ohio confirment un raz-de-marée anti-data center (Sunbury et Granville adoptent un plafond de 25 MW qui menace le campus AWS de 2 Md$ déjà engagé à Sunbury, Pataskala suit le même plafond, Grove City impose désormais un vote public obligatoire pour tout projet de plus de 20 MW, et Ashville annule par référendum son accord municipal avec EdgeConneX pour deux data centers déjà en construction) — la sécurisation politique amont reste aussi critique que le foncier et la puissance, même pour des projets déjà engagés ou en travaux.",
-    "Le modèle « powered land » adossé à une centrale existante se confirme comme référence au Royaume-Uni avec le partenariat Drax/Brookfield/Qai/Radiant (jusqu'à 20 Md£ soit environ 27 Md$, raccordement existant de 2,58 GW à la centrale de Drax) — un comparable direct et chiffré utile pour valoriser des friches énergétiques françaises comparables (programme EDF notamment).",
-    "L'Australie entre dans la cour des méga-deals land+power avec le bail Anthropic de 2,16 GW à Western Downs (Queensland, 31,9 Md$ AU) — nouvel exemple de structuration tripartite foncier/financement/locataire (Zerra DC, Dexus, Macquarie, Anthropic) sur un site greenfield proche d'un pôle de production électrique, à suivre pour du benchmarking de montage.",
-    "La demande de capacité IA ne faiblit pas : AMD confirme une croissance de 97% de son activité data center au T3 2026 (CA total record de 13,4 Md$), dans la continuité de la trajectoire de capex des hyperscalers déjà notée les jours précédents — un indicateur macro qui continue de soutenir la valeur du foncier déjà énergisé à moyen terme.",
-    "France : toujours aucune actualité confirmée cette semaine sur Polarise, Aurora Infra ou La Française de l'Énergie malgré des recherches dédiées (y compris LinkedIn) ; à noter qu'Aurora Infra apparaît comme une petite société basée en Pologne orientée service managé de déploiement d'infrastructure IA plutôt qu'acteur foncier, ce qui pourrait expliquer l'absence d'actus land/power associées — une vérification directe auprès des trois sociétés reste recommandée si le sujet reste prioritaire."
+    "Le risque électoral local se confirme et s'étend au-delà des cinq communes de l'Ohio déjà identifiées : Conneaut, Defiance et Oregon votent aussi un plafond de 25 MW (au moins huit communes ohioennes concernées), et la presse recense jusqu'à 41 mesures locales dans une dizaine d'États le 3 novembre, la quasi-totalité se traduisant par des restrictions — la sécurisation politique amont reste un facteur de risque transversal, y compris sur du foncier déjà très avancé ou raccordé.",
+    "Trois modèles de « powered land » coexistent et s'illustrent simultanément cette semaine à l'échelle mondiale : foncier piloté par le gestionnaire de réseau (National Grid à Teesside, Royaume-Uni, sous-station de 1,44 GW pour un futur data center IA), autoproduction gaz hors réseau sur option foncière (TerraVolt dans l'Idaho, 240 MW) et renouvelable co-localisé (Mubbadrah/O2 Global Energy en Oman, 400 MW solaire+stockage) — une typologie utile pour calibrer les offres de sourcing selon la maturité du raccordement.",
+    "Le campus à dômes géodésiques « Hueco Ranch » de ServerDomes/Kaufman (Texas, 350 MW, 15 Md$, gaz hors réseau) illustre un nouveau format constructif pour le foncier énergisé, mais aussi un risque d'exécution persistant : les autorités locales disent n'avoir pas été informées avant le lancement des travaux, un facteur de friction à anticiper même sur les montages autoproduits.",
+    "France : toujours aucune actualité confirmée sur Polarise, Aurora Infra ou La Française de l'Énergie (FDE) malgré des recherches dédiées, y compris LinkedIn. Polarise reste actif uniquement en Allemagne (Amberg, Bavière, 30→120 MW sur ancien site d'émetteur radio, éolien/solaire on-site via WV Energie), République Tchèque et Norvège. Le nom « Aurora Infra(structure) » recouvre au moins deux sociétés sans lien entre elles (un gestionnaire de réseau électrique finlandais basé à Espoo, et une petite société polonaise de services d'infrastructure IA), ni l'une ni l'autre ne correspondant au profil foncier+énergie recherché — une prise de contact directe reste recommandée si le sujet demeure prioritaire.",
+    "Aux États-Unis, l'incertitude réglementaire sur l'énergie des data centers reste non tranchée dans les principaux marchés : la gouverneure Hochul (New York) dispose toujours jusqu'à fin d'année pour signer ou opposer son veto au moratorium législatif d'un an (au-delà de son décret exécutif déjà en vigueur depuis juillet), et PJM doit encore redéposer son dispositif de secours après le rejet partiel de la FERC — deux dossiers à surveiller pour la valorisation du foncier déjà engagé dans ces zones."
   ],
   "items": [
     {
@@ -17,6 +17,17 @@
       "source": "NBC4 Columbus / Yahoo News / Benzinga",
       "url": "https://www.nbc4i.com/news/your-local-election-hq/columbus-area-communities-vote-on-data-center-issues-live-results/",
       "owners": "Amazon Web Services (projet Sunbury) · EdgeConneX (projets Ashville)",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Ohio) : au-delà de Sunbury/Granville/Pataskala, les électeurs de Conneaut, Defiance et Oregon approuvent aussi un plafond de 25 MW pour les data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-11-04",
+      "summary": "Au-delà des cinq communes de la région de Columbus déjà recensées (Sunbury, Granville, Pataskala, Grove City, Ashville), le recensement plus large des résultats du 3 novembre confirme que Conneaut (comté d'Ashtabula), Defiance et Oregon (près de Toledo, où le projet Vantage Data Centers était explicitement visé par les opposants) ont également voté en faveur d'un plafond de 25 MW sur les data centers, portant à au moins huit le nombre de communes ohioennes ayant restreint les projets lors de ce scrutin ; au niveau national, la presse recense une dizaine d'États et jusqu'à 41 mesures locales soumises au vote le 3 novembre, la quasi-totalité se traduisant par des restrictions renforcées sur le foncier data center.",
+      "source": "DataCenterDynamics / News 5 Cleveland / 13abc / Crescent-News",
+      "url": "https://datacenterdynamics.com/en/news/local-data-center-moratoria-limits-and-restrictions-voted-in-across-the-us/",
+      "owners": "n.c.",
       "investors": "n.c."
     },
     {
@@ -103,6 +114,20 @@
       "url": "https://www.koreatimes.co.kr/business/companies/20261102/samsung-sds-breaks-ground-on-ai-data-center-in-gumi"
     },
     {
+      "category": "land",
+      "title": "Oman : le consortium mené par Mubbadrah Investment prévoit un campus data center IA de 3 Md$ et jusqu'à 400 MW, avec 400 MW de solaire/stockage dédiés développés par O2 Global Energy",
+      "region": "Moyen-Orient",
+      "date": "2026-11",
+      "summary": "Mubbadrah Investment pilote un consortium (avec Sustopia Capital, Vela Tech et O2 Global Energy) pour développer en Oman un campus data center IA d'environ 3 Md$ pouvant atteindre 400 MW ; O2 Global Energy doit développer en parallèle 400 MW de capacité solaire couplée à du stockage par batterie pour alimenter directement le site, selon la presse spécialisée du Golfe, dans la foulée d'une visite officielle au Royaume-Uni. Aucune localisation précise, aucun calendrier ferme ni financement définitif n'est communiqué à ce stade.",
+      "source": "Trade Arabia / Middle East AI News",
+      "url": "https://tradearabia.com/News/488408/Mubbadrah-consortium-plans-$3bn-AI-data-centre-facility-in-Oman",
+      "mw": 400,
+      "inv": 3000,
+      "poweredLand": true,
+      "owners": "n.c. (consortium : Mubbadrah Investment, Sustopia Capital, Vela Tech)",
+      "investors": "O2 Global Energy (développeur solaire/stockage dédié)"
+    },
+    {
       "category": "power",
       "title": "Europe : les délais de raccordement électrique (plus de 4 ans dans les hubs majeurs) poussent vers des montages de sous-station partagée data center/renouvelable, jusqu'à 2 ans gagnés",
       "region": "Europe",
@@ -112,6 +137,19 @@
       "url": "https://www.datacenterdynamics.com/en/opinions/europes-ai-ambitions-are-hitting-a-power-bottleneck/",
       "poweredLand": true,
       "owners": "n.c.",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (comté de Cassia, Idaho) : TerraVolt Holdings sécurise des options sur 1 077 acres pour un campus data center hors réseau de 240 MW alimenté au gaz",
+      "region": "Amérique du Nord",
+      "date": "2026-10-30",
+      "summary": "TerraVolt Holdings a annoncé le 30 octobre avoir signé des accords d'option sur 1 077 acres dans le comté de Cassia (Idaho) pour développer un campus data center « behind-the-meter » de 240 MW alimenté par une centrale gaz sur site, adossée à un accord d'approvisionnement gazier ferme (55 000 MMBtu/jour) déjà signé au printemps 2026 et raccordé au gazoduc Northwest Natural Gas Pipeline. TerraVolt, société cotée OTCQB en phase de démarrage, prévoit de revendre des parcelles prêtes à construire à des opérateurs de data centers plutôt que d'exploiter elle-même les sites ; les accords restent des options, pas des achats fermes.",
+      "source": "TerraVolt Holdings (SEC Form 8-K) / W.Media / Blackridge Research",
+      "url": "https://www.blackridgeresearch.com/news-releases/terravolt-holdings-secures-options-on-1077-acres-idaho-240-mw-behind-the-meter-data-center-campus-in-the-us",
+      "mw": 240,
+      "poweredLand": true,
+      "owners": "TerraVolt Holdings (options ; vente prévue à des opérateurs tiers)",
       "investors": "n.c."
     },
     {
@@ -426,6 +464,20 @@
       "investors": "n.c."
     },
     {
+      "category": "construction",
+      "title": "États-Unis (comté de Hudspeth, Texas, près d'El Paso) : ServerDomes Global et Kaufman & Company démarrent la construction du campus à dômes géodésiques « Hueco Ranch », 350 MW alimentés au gaz hors réseau",
+      "region": "Amérique du Nord",
+      "date": "2026-10-07",
+      "summary": "ServerDomes Global et le promoteur Kaufman & Company ont lancé le 7 octobre la construction de leur campus de data centers à dômes géodésiques « Hueco Ranch » près de Desert Haven (comté de Hudspeth, Texas, à environ 45 km à l'est d'El Paso), valorisé à environ 15 Md$ pour une capacité visée de 350 MW, dont une première tranche de 80 MW attendue environ 16 mois après le début des travaux ; le site est conçu pour fonctionner majoritairement en autoproduction gaz hors réseau, les autorités du comté indiquant n'avoir pas été informées avant le démarrage des travaux.",
+      "source": "Baxtel / DataCenterDynamics / The Cool Down",
+      "url": "https://baxtel.com/news/serverdomes-global-breaks-ground-on-350mw-hueco-ranch-campus-near-el-paso",
+      "mw": 350,
+      "inv": 15000,
+      "poweredLand": true,
+      "owners": "ServerDomes Global · Kaufman & Company",
+      "investors": "n.c."
+    },
+    {
       "category": "power",
       "title": "États-Unis (zone PJM, Illinois/New Jersey/Pennsylvanie) : Google signe avec Constellation un accord de 3,6 GW incluant 890 MW de nouvelle capacité nucléaire et 4,3 Md$ d'investissement",
       "region": "Amérique du Nord",
@@ -438,24 +490,6 @@
       "poweredLand": true,
       "owners": "Constellation Energy (parc nucléaire/gaz PJM)",
       "investors": "Google (acheteur PPA)"
-    },
-    {
-      "category": "land",
-      "title": "Finlande (Salo) : atNorth dévoile le campus FIN05, 2 Md€ et une trajectoire de 230 MW, avec une première tranche de 75 MW déjà sécurisée",
-      "region": "Europe",
-      "date": "2026-10-05",
-      "summary": "atNorth a annoncé le développement de son data center FIN05 sur un site de 28,6 hectares à Salo, pour un investissement d'environ 2 Md€ (hors équipements des clients) ; seule la première phase (75 MW) est déjà sécurisée, avec une trajectoire visée jusqu'à 230 MW, un raccordement via un poste source de Fingrid, et des PPA de long terme à l'étude avec des fournisseurs d'énergie locaux ainsi qu'une valorisation de la chaleur résiduelle.",
-      "source": "W.Media / BeBeez / Datacentre Magazine",
-      "url": "https://bebeez.eu/2026/10/05/atnorth-to-develop-new-data-center-in-salo-finland/",
-      "mw": 230,
-      "inv": 2240,
-      "coords": [
-        60.3833,
-        23.1333
-      ],
-      "poweredLand": true,
-      "owners": "atNorth",
-      "investors": "n.c."
     },
     {
       "category": "land",
@@ -472,6 +506,19 @@
       "poweredLand": true,
       "owners": "Google (Tricolore Computing) · RTE",
       "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "Royaume-Uni (Teesside, Dorman Point) : National Grid achète un terrain pour la plus grande sous-station du pays, destinée à alimenter un futur data center IA sur le site de Teesworks",
+      "region": "Europe",
+      "date": "2026-10",
+      "summary": "National Grid a acheté un terrain à Dorman Point, sur l'ancien site sidérurgique de Teesworks (Teesside), pour y construire ce qui serait la plus grande sous-station électrique du Royaume-Uni (« Teesside Node A », capacité initiale de 1,44 GW, mise en service visée fin 2029) ; la sous-station est destinée à alimenter un data center IA que Teesworks développe sur un site ayant déjà obtenu un permis d'urbanisme de principe (« outline planning permission »). Google serait intéressé selon la presse, mais aucun partenaire opérateur ou investisseur n'est confirmé à ce stade.",
+      "source": "DataCenterDynamics / Construction Enquirer / ITPro / Crypto Briefing",
+      "url": "https://datacenterdynamics.com/en/news/national-grid-buys-land-in-teesside-uk-for-32gw-substation-to-power-ai-data-center",
+      "mw": 1440,
+      "poweredLand": true,
+      "owners": "Teesworks (foncier) · National Grid (sous-station)",
+      "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
     },
     {
       "category": "power",
