@@ -1,13 +1,27 @@
 {
-  "lastUpdated": "2026-11-05",
+  "lastUpdated": "2026-11-06",
   "keyTakeaways": [
-    "Le risque électoral local se confirme et s'étend au-delà des cinq communes de l'Ohio déjà identifiées : Conneaut, Defiance et Oregon votent aussi un plafond de 25 MW (au moins huit communes ohioennes concernées), et la presse recense jusqu'à 41 mesures locales dans une dizaine d'États le 3 novembre, la quasi-totalité se traduisant par des restrictions — la sécurisation politique amont reste un facteur de risque transversal, y compris sur du foncier déjà très avancé ou raccordé.",
-    "Trois modèles de « powered land » coexistent et s'illustrent simultanément cette semaine à l'échelle mondiale : foncier piloté par le gestionnaire de réseau (National Grid à Teesside, Royaume-Uni, sous-station de 1,44 GW pour un futur data center IA), autoproduction gaz hors réseau sur option foncière (TerraVolt dans l'Idaho, 240 MW) et renouvelable co-localisé (Mubbadrah/O2 Global Energy en Oman, 400 MW solaire+stockage) — une typologie utile pour calibrer les offres de sourcing selon la maturité du raccordement.",
-    "Le campus à dômes géodésiques « Hueco Ranch » de ServerDomes/Kaufman (Texas, 350 MW, 15 Md$, gaz hors réseau) illustre un nouveau format constructif pour le foncier énergisé, mais aussi un risque d'exécution persistant : les autorités locales disent n'avoir pas été informées avant le lancement des travaux, un facteur de friction à anticiper même sur les montages autoproduits.",
-    "France : toujours aucune actualité confirmée sur Polarise, Aurora Infra ou La Française de l'Énergie (FDE) malgré des recherches dédiées, y compris LinkedIn. Polarise reste actif uniquement en Allemagne (Amberg, Bavière, 30→120 MW sur ancien site d'émetteur radio, éolien/solaire on-site via WV Energie), République Tchèque et Norvège. Le nom « Aurora Infra(structure) » recouvre au moins deux sociétés sans lien entre elles (un gestionnaire de réseau électrique finlandais basé à Espoo, et une petite société polonaise de services d'infrastructure IA), ni l'une ni l'autre ne correspondant au profil foncier+énergie recherché — une prise de contact directe reste recommandée si le sujet demeure prioritaire.",
-    "Aux États-Unis, l'incertitude réglementaire sur l'énergie des data centers reste non tranchée dans les principaux marchés : la gouverneure Hochul (New York) dispose toujours jusqu'à fin d'année pour signer ou opposer son veto au moratorium législatif d'un an (au-delà de son décret exécutif déjà en vigueur depuis juillet), et PJM doit encore redéposer son dispositif de secours après le rejet partiel de la FERC — deux dossiers à surveiller pour la valorisation du foncier déjà engagé dans ces zones."
+    "Le risque électoral/réglementaire local aux États-Unis continue de peser sur le foncier déjà engagé : au-delà des huit communes ohioennes ayant voté des plafonds de 25 MW le 3 novembre, la gouverneure Hochul (New York) n'a toujours pas tranché sur le moratorium législatif d'un an à l'approche de l'échéance de fin d'année, et PJM doit encore redéposer son dispositif de secours après le rejet partiel de la FERC — deux dossiers déterminants pour la valorisation du foncier déjà énergisé dans ces zones.",
+    "La clôture par WhiteFiber (Enovum) du rachat à 60 M$ de deux friches industrielles Unifi à Yadkinville (Caroline du Nord, 120 acres, 60 MW extensibles à ~200 MW) et le term sheet non engageant de NextNRG sur 33 acres en Indiana (« Lone Wolf Energy Center », jusqu'à 70 MW) confirment la vitalité du segment foncier industriel de taille moyenne (60-200 MW) comme alternative plus rapide aux méga-campus gigawatt, avec des montages combinant reconversion de bâtiments existants et financement hybride (cash/actions préférentielles/dette).",
+    "En Espagne, le bras de fer réglementaire s'intensifie à l'approche d'une adoption visée avant le 29 novembre : cinq grandes ONG environnementales (dont Greenpeace et WWF) demandent au gouvernement de ne pas assouplir le décret imposant 80% de renouvelables horaires aux data centers, tandis que la patronale SpainDC alerte sur un risque pour 80-90% des nouveaux investissements si le texte reste trop contraignant — un facteur d'incertitude direct pour le sourcing foncier espagnol à court terme.",
+    "France : toujours aucune actualité confirmée sur Polarise, Aurora Infra ou La Française de l'Énergie (FDE) malgré des recherches dédiées répétées, y compris LinkedIn et une recherche par nom légal (Oy/GmbH/Ltd) ; Polarise reste actif uniquement en Allemagne, République Tchèque et Norvège, le nom « Aurora Infra(structure) » ne correspondant toujours à aucune entité foncier+énergie identifiable, et FDE n'a publié aucune actualité data center depuis son chiffre d'affaires 2026 — une prise de contact directe reste recommandée si le sujet demeure prioritaire.",
+    "Trois typologies de foncier énergisé restent à l'œuvre à l'échelle mondiale : reconversion industrielle mi-échelle (WhiteFiber/Enovum, NextNRG), méga-campus adossé à une sous-station pilotée par le gestionnaire de réseau (National Grid à Teesside) et autoproduction/renouvelable co-localisé (TerraVolt Idaho, Mubbadrah Oman) — une grille utile pour calibrer la maturité des offres de sourcing selon le profil de raccordement visé."
   ],
   "items": [
+    {
+      "category": "land",
+      "title": "États-Unis (Indiana) : NextNRG signe un term sheet non engageant pour 33 acres dédiés au « Lone Wolf Energy Center », jusqu'à 70 MW de capacité data center",
+      "region": "Amérique du Nord",
+      "date": "2026-11-05",
+      "summary": "NextNRG a annoncé le 5 novembre la signature d'un term sheet non engageant pour l'acquisition d'un site de 33 acres en Indiana destiné à son « Lone Wolf Energy Center », avec un potentiel de jusqu'à 70 MW de capacité dédiée aux data centers ; l'opération, structurée à environ 22 M$ (0,5 M$ en cash, 10 M$ en actions préférentielles nouvellement créées et 11,5 M$ en dette), prévoit le maintien d'un locataire pharmaceutique existant sur le bâtiment en place, les quelque 27 acres restants étant réservés au data center et aux infrastructures de puissance. Accord non engageant, à un stade précoce.",
+      "source": "GlobeNewswire (NextNRG) / Manila Times",
+      "url": "https://www.manilatimes.net/2026/11/05/tmt-newswire/globenewswire/nextnrg-executes-term-sheet-to-acquire-33-acre-indiana-site-for-lone-wolf-energy-center-with-potential-to-support-up-to-70-mw-of-data-center-capacity/2463058",
+      "mw": 70,
+      "inv": 22,
+      "poweredLand": true,
+      "owners": "n.c. (term sheet non engageant)",
+      "investors": "NextNRG"
+    },
     {
       "category": "legislation",
       "title": "États-Unis (Ohio) : les électeurs approuvent massivement des interdictions et restrictions sur les data centers lors de l'Election Day (Sunbury, Pataskala, Grove City, Granville, Ashville)",
@@ -66,43 +80,31 @@
       "investors": "Anthropic (locataire)"
     },
     {
-      "category": "market",
-      "title": "AMD : le chiffre d'affaires data center IA bondit de 97% au T3 2026, portant le CA total à 13,4 Md$ (record)",
-      "region": "International",
-      "date": "2026-11-03",
-      "summary": "AMD a publié le 3 novembre des résultats du troisième trimestre 2026 records, avec un chiffre d'affaires total de 13,4 Md$ (+45% sur un an) et une marge brute de 54% ; le segment data center (IA/serveurs) a progressé de 97% sur un an, la direction indiquant que le chiffre d'affaires IA data center dépasserait celui des CPU serveurs dès le T4 2026 — une confirmation supplémentaire de la demande soutenue de capacité IA qui continue de tirer la valeur du foncier déjà énergisé.",
-      "source": "AMD (SEC Form 8-K) / KuCoin News",
-      "url": "https://www.sec.gov/Archives/edgar/data/0000002488/000000248826000188/q32026991.htm"
-    },
-    {
-      "category": "market",
-      "title": "Marvell rachète le fabricant de composants optiques IA Lumentum pour environ 115 Md$, pari sur l'infrastructure data center IA",
-      "region": "International",
-      "date": "2026-11-02",
-      "summary": "Marvell Technology a confirmé le 2 novembre (dépôt SEC de Lumentum) le rachat de Lumentum, fabricant de lasers et composants optiques pour data centers IA dont la capacité serait déjà réservée jusqu'au début 2029, dans une opération en actions valorisant Lumentum autour de 85 Md$ et combinant les deux entreprises à plus de 115 Md$ de capitalisation ; l'opération illustre la consolidation en cours sur la chaîne de valeur de l'infrastructure IA (interconnexion optique), un goulot d'étranglement potentiel pour la mise en exploitation rapide du foncier déjà énergisé.",
-      "source": "SEC (Form 425 Lumentum) / Reuters / Bloomberg",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001633978/000119312526442765/d162314d425.htm",
-      "inv": 115000
-    },
-    {
-      "category": "competition",
-      "title": "Inde : KKR, Singtel et Tata Communications étudieraient la cession de STT GDC India pour au moins 5 Md$",
-      "region": "Asie",
-      "date": "2026-11-02",
-      "summary": "Selon des informations de presse du 2 novembre, les actionnaires de STT GDC India (KKR, Singtel, Tata Communications) étudieraient la cession de cette plateforme indienne de data centers pour une valorisation d'au moins 5 à 5,5 Md$ ; le processus en serait à un stade précoce, sans mandat ni calendrier confirmés, mais illustre la poursuite de la consolidation du marché asiatique des data centers.",
-      "source": "BusinessToday / Kotak Neo",
-      "url": "https://businesstoday.in/latest/corporate/story/kkr-singtel-tata-plan-to-sell-data-centre-company-seek-at-least-usd-5-billion-in-sale-report-565012-2026-11-02",
-      "inv": 5000
-    },
-    {
-      "category": "power",
-      "title": "Californie : California Resources et Bloom Energy signent un protocole d'accord pour plus de 1 GW de piles à combustible/CCS, data centers parmi les débouchés visés",
+      "category": "land",
+      "title": "États-Unis (Yadkin County, Caroline du Nord) : WhiteFiber (Enovum) finalise le rachat de deux friches industrielles de 120 acres pour un campus de 60 MW extensible à ~200 MW",
       "region": "Amérique du Nord",
-      "date": "2026-11-02",
-      "summary": "California Resources Corporation et Bloom Energy ont annoncé le 2 novembre un protocole d'accord non engageant pour évaluer conjointement le développement d'au moins 1 GW de génération par piles à combustible à oxyde solide couplée à du captage de carbone (CCS) en Californie, les data centers figurant parmi les cinq catégories d'acheteurs d'électricité ciblées ; aucun site ni montant financier n'est encore précisé, l'accord restant à un stade d'évaluation.",
-      "source": "California Resources Corporation / FourWeekMBA",
-      "url": "https://fourweekmba.com/ai-bloom-energy-deal-eyes-1-gw-for-data-centers-and-the-grid/",
-      "mw": 1000
+      "date": "2026-11-03",
+      "summary": "WhiteFiber, via sa filiale Enovum Data Centers, a finalisé le 3 novembre l'acquisition pour 60 M$ de deux anciens sites industriels Unifi Manufacturing à Yadkinville (comté de Yadkin, Caroline du Nord, environ 120 acres cumulés, ~500 000 pieds carrés d'entrepôts existants), destinés à devenir les campus NC-2 et NC-3 ; la capacité initiale brute visée est d'environ 60 MW, avec un potentiel d'extension jusqu'à environ 200 MW sous réserve de la capacité réseau disponible, mise en service visée T3 2027 — un exemple de reconversion industrielle mi-échelle plus rapide à monter qu'un méga-campus gigawatt.",
+      "source": "WUNC / Panabee / WhiteFiber (communiqué)",
+      "url": "https://www.panabee.com/news/whitefiber-expands-ai-infrastructure-with-60-million-north-carolina-site-acquisition",
+      "mw": 60,
+      "inv": 60,
+      "coords": [
+        36.1327,
+        -80.6578
+      ],
+      "poweredLand": true,
+      "owners": "WhiteFiber (Enovum Data Centers)",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "Espagne : cinq grandes ONG environnementales demandent au gouvernement de ne pas affaiblir le décret sur les data centers avant son adoption",
+      "region": "Europe",
+      "date": "2026-11-03",
+      "summary": "Amigas de la Tierra, Ecologistas en Acción, Greenpeace, SEO/BirdLife et WWF España ont publié le 3 novembre un communiqué commun alertant sur un possible assouplissement du projet de décret espagnol sur les data centers avant son passage au Conseil d'État, réclamant une couverture à 100% par des renouvelables additionnelles, des limites sur la consommation d'eau et une évaluation de l'impact cumulé par territoire plutôt que projet par projet ; le texte, actuellement devant le Conseil d'État, viserait une adoption avant le 29 novembre selon la presse, dans un contexte où la patronale SpainDC alerte de son côté sur un risque pour 80-90% des nouveaux investissements si les exigences restent trop strictes — un bras de fer réglementaire à suivre pour la sécurisation du foncier énergisé en Espagne.",
+      "source": "Energías Renovables / El Salto Diario / MITECO",
+      "url": "https://www.energias-renovables.com/panorama/las-cinco-grandes-organizaciones-ambientales-de-espa-20261103"
     },
     {
       "category": "construction",
@@ -151,16 +153,6 @@
       "poweredLand": true,
       "owners": "TerraVolt Holdings (options ; vente prévue à des opérateurs tiers)",
       "investors": "n.c."
-    },
-    {
-      "category": "market",
-      "title": "Capex IA des hyperscalers : record de 201,9 Md$ au T3 2026 pour Microsoft, Alphabet, Amazon et Meta, trajectoire annuelle proche de 725 Md$",
-      "region": "International",
-      "date": "2026-10-29",
-      "summary": "Les résultats trimestriels publiés fin octobre montrent un capex combiné record de 201,9 Md$ au T3 2026 pour les quatre hyperscalers : Microsoft a légèrement abaissé sa prévision annuelle à 170 Md$ (contre 175 Md$) malgré une croissance de 48% d'Azure, Alphabet a maintenu sa fourchette de 195-205 Md$, Amazon a maintenu 220 Md$, et Meta a relevé la sienne à 135-145 Md$ ; aucun des quatre n'a signalé de ralentissement de la demande de capacité, confirmant la pression continue sur le foncier et la puissance malgré des flux de trésorerie disponibles négatifs pour plusieurs d'entre eux.",
-      "source": "CNBC / 247wallst.com / communiqués des sociétés",
-      "url": "https://www.cnbc.com/2026/10/29/microsoft-google-ai-capex-estimates.html",
-      "inv": 201900
     },
     {
       "category": "construction",
@@ -476,20 +468,6 @@
       "poweredLand": true,
       "owners": "ServerDomes Global · Kaufman & Company",
       "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "États-Unis (zone PJM, Illinois/New Jersey/Pennsylvanie) : Google signe avec Constellation un accord de 3,6 GW incluant 890 MW de nouvelle capacité nucléaire et 4,3 Md$ d'investissement",
-      "region": "Amérique du Nord",
-      "date": "2026-10-06",
-      "summary": "Google et Constellation Energy ont annoncé le 6 octobre un accord d'approvisionnement électrique de 3,6 GW dans la zone PJM : un PPA nucléaire de 20 ans sur 890 MW de capacité additionnelle (uprates sur 11 réacteurs en Illinois, au New Jersey et en Pennsylvanie, 4,3 Md$ d'investissement, 4 400 emplois sécurisés et 7 200 créés) complété par un contrat de 15 ans sur 2,7 GW supplémentaires issus du parc nucléaire et gaz de Constellation ; l'accord répond à la proposition « bring your own power » de PJM qui impose aux data centers d'apporter leur propre puissance sous peine de délestage en période de pointe.",
-      "source": "CNBC / Constellation Energy / DataCenterDynamics",
-      "url": "https://www.constellationenergy.com/news/2026/10/google-and-constellation-announce-landmark-agreement-to-bring-890-mw-of-new-nuclear-capacity-to-pjm-grid.html",
-      "mw": 3600,
-      "inv": 4300,
-      "poweredLand": true,
-      "owners": "Constellation Energy (parc nucléaire/gaz PJM)",
-      "investors": "Google (acheteur PPA)"
     },
     {
       "category": "land",
