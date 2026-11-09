@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-06",
+  "lastUpdated": "2026-11-09",
   "keyTakeaways": [
-    "Le risque électoral/réglementaire local aux États-Unis continue de peser sur le foncier déjà engagé : au-delà des huit communes ohioennes ayant voté des plafonds de 25 MW le 3 novembre, la gouverneure Hochul (New York) n'a toujours pas tranché sur le moratorium législatif d'un an à l'approche de l'échéance de fin d'année, et PJM doit encore redéposer son dispositif de secours après le rejet partiel de la FERC — deux dossiers déterminants pour la valorisation du foncier déjà énergisé dans ces zones.",
-    "La clôture par WhiteFiber (Enovum) du rachat à 60 M$ de deux friches industrielles Unifi à Yadkinville (Caroline du Nord, 120 acres, 60 MW extensibles à ~200 MW) et le term sheet non engageant de NextNRG sur 33 acres en Indiana (« Lone Wolf Energy Center », jusqu'à 70 MW) confirment la vitalité du segment foncier industriel de taille moyenne (60-200 MW) comme alternative plus rapide aux méga-campus gigawatt, avec des montages combinant reconversion de bâtiments existants et financement hybride (cash/actions préférentielles/dette).",
-    "En Espagne, le bras de fer réglementaire s'intensifie à l'approche d'une adoption visée avant le 29 novembre : cinq grandes ONG environnementales (dont Greenpeace et WWF) demandent au gouvernement de ne pas assouplir le décret imposant 80% de renouvelables horaires aux data centers, tandis que la patronale SpainDC alerte sur un risque pour 80-90% des nouveaux investissements si le texte reste trop contraignant — un facteur d'incertitude direct pour le sourcing foncier espagnol à court terme.",
-    "France : toujours aucune actualité confirmée sur Polarise, Aurora Infra ou La Française de l'Énergie (FDE) malgré des recherches dédiées répétées, y compris LinkedIn et une recherche par nom légal (Oy/GmbH/Ltd) ; Polarise reste actif uniquement en Allemagne, République Tchèque et Norvège, le nom « Aurora Infra(structure) » ne correspondant toujours à aucune entité foncier+énergie identifiable, et FDE n'a publié aucune actualité data center depuis son chiffre d'affaires 2026 — une prise de contact directe reste recommandée si le sujet demeure prioritaire.",
-    "Trois typologies de foncier énergisé restent à l'œuvre à l'échelle mondiale : reconversion industrielle mi-échelle (WhiteFiber/Enovum, NextNRG), méga-campus adossé à une sous-station pilotée par le gestionnaire de réseau (National Grid à Teesside) et autoproduction/renouvelable co-localisé (TerraVolt Idaho, Mubbadrah Oman) — une grille utile pour calibrer la maturité des offres de sourcing selon le profil de raccordement visé."
+    "Le foncier énergisé continue de se diversifier aux États-Unis avec trois nouveaux dossiers concrets début novembre : Vantage Data Centers finalise 180 acres près de Richmond (Virginie, ~3 Md$, lignes de transport existantes à proximité), Amazon confirme être l'acheteur du terrain de 264 M$ à West Richland (Washington), et surtout Tombstone Resources dépose une demande pour un campus de 6 GW en Arizona sur un terrain à racheter directement à la coopérative électrique AEPCO, qui en resterait aussi le fournisseur d'électricité — un cas d'école de foncier adossé à une centrale existante (Apache Generating Station), avec un possible lien SpaceX non confirmé par la presse locale.",
+    "La Virginie émerge comme le prochain front réglementaire majeur après l'Ohio : la sénatrice Russet Perry a déposé un projet de moratorium étatique de trois ans sur les data centers (SB 843), rejoint par d'autres propositions concurrentes (Roem, Sturtevant) et des démarches locales à Loudoun et Prince William ; la gouverneure Spanberger n'a pas endossé de moratorium mais pousse un cadre de responsabilisation — un risque réglementaire à surveiller pour le premier marché data center du pays, en écho direct au vote du 3 novembre en Ohio.",
+    "Trois échéances réglementaires clés arrivent à maturité : PJM doit redéposer son dispositif de secours sur les gros consommateurs avant le 16 novembre (délai désormais fixé après plusieurs reports), le décret espagnol sur les renouvelables horaires vise toujours une adoption avant le 29 novembre malgré l'opposition conjointe des ONG et de la filière SpainDC, et la gouverneure Hochul (New York) n'a toujours pas tranché sur le moratorium législatif d'un an à l'approche de l'échéance de fin d'année — trois dossiers déterminants pour la valorisation du foncier déjà engagé dans ces zones.",
+    "En France, la concertation préalable sur le projet de data centers Google/RTE à Étrechet (Châteauroux Métropole) s'est officiellement ouverte le 2 novembre et se poursuivra jusqu'au 10 janvier 2027, dans un climat toujours très contesté localement (démissions d'élus, pétition à plus de 18 000 signatures) ; aucune actualité confirmée sur Polarise, Aurora Infra ou La Française de l'Énergie (FDE) malgré des recherches dédiées répétées (LinkedIn inclus) — Polarise reste actif en Allemagne/République Tchèque/Norvège, « Aurora Infra(structure) » ne correspond toujours à aucune entité foncier+énergie identifiable, et FDE n'a publié aucune actualité data center récente.",
+    "La typologie du foncier énergisé reste à trois vitesses : adossement à une centrale existante pilotée par son exploitant (Tombstone/AEPCO en Arizona, Drax au Royaume-Uni), reconversion industrielle mi-échelle à proximité de lignes de transport (Vantage/Powhatan en Virginie, WhiteFiber en Caroline du Nord) et acquisition foncière classique en amont du raccordement (Amazon/West Richland) — une grille utile pour prioriser les opportunités de sourcing selon la maturité de raccordement recherchée."
   ],
   "items": [
     {
@@ -107,6 +107,22 @@
       "url": "https://www.energias-renovables.com/panorama/las-cinco-grandes-organizaciones-ambientales-de-espa-20261103"
     },
     {
+      "category": "land",
+      "title": "États-Unis (West Richland, Washington) : Amazon confirme être l'acheteur du terrain de 264 M$ de l'ancien ranch Lewis and Clark pour un possible campus data center",
+      "region": "Amérique du Nord",
+      "date": "2026-11-03",
+      "summary": "Amazon Web Services a confirmé début novembre à la ville de West Richland être l'acheteur, via Trammell Crow Co., d'environ 1 000 acres de l'ancien ranch Lewis and Clark (deux transactions de juillet 2026 totalisant environ 264 M$), en vue d'un possible campus data center encore à un stade préliminaire ; aucune demande de permis n'a été déposée à ce jour, et une réunion publique d'information est prévue le 19 novembre à l'Enterprise Middle School.",
+      "source": "MyNorthwest / Tacoma News Tribune / Tri-Cities Business News",
+      "url": "https://mynorthwest.com/money/aws-richland-datacenter-264m/4294306",
+      "inv": 264,
+      "coords": [
+        46.304,
+        -119.353
+      ],
+      "owners": "Trammell Crow Co. (acquéreur initial) · Amazon Web Services (acheteur confirmé)",
+      "investors": "n.c."
+    },
+    {
       "category": "construction",
       "title": "Corée du Sud (Gumi) : Samsung SDS démarre la construction d'un data center IA, premier jalon du plan d'investissement régional de Samsung dans le Yeongnam",
       "region": "Asie",
@@ -114,6 +130,57 @@
       "summary": "Samsung SDS a organisé le 2 novembre la cérémonie de lancement des travaux de son data center IA à Gumi (province du Gyeongsang du Nord), première étape du plan d'investissement d'environ 60 000 Md KRW de Samsung Group dans la région de Yeongnam ; la construction est prévue jusqu'à fin 2028, pour une mise en exploitation complète visée en mars 2029.",
       "source": "Korea Times / Herald Business",
       "url": "https://www.koreatimes.co.kr/business/companies/20261102/samsung-sds-breaks-ground-on-ai-data-center-in-gumi"
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (comté de Powhatan, Virginie) : une entité liée à Vantage Data Centers finalise l'achat de 180 acres pour un campus data center d'environ 3 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-11-02",
+      "summary": "Powhatan Technology Park LLC, une entité liée à Vantage Data Centers, a finalisé le 21 octobre l'acquisition de deux parcelles (environ 120 et 60 acres, 180 acres au total) à une quinzaine de kilomètres à l'ouest de Richmond pour environ 9,4 M$, en vue d'un campus pouvant compter jusqu'à quatre bâtiments (environ 2 millions de pieds carrés, jusqu'à 365 MW selon certaines estimations) valorisé à environ 3 Md$ ; le site, déjà rezoné, est desservi par plusieurs lignes de transport électrique existantes à proximité, mais aucun site plan n'a encore été déposé et l'identité du locataire final n'est pas communiquée.",
+      "source": "RichmondBizSense / Construction Review Online / ConnectCRE",
+      "url": "https://richmondbizsense.com/2026/11/02/land-slated-for-powhatan-tech-park-data-center-campus-sells-for-nearly-10m/",
+      "mw": 365,
+      "inv": 3000,
+      "coords": [
+        37.554,
+        -77.922
+      ],
+      "poweredLand": true,
+      "owners": "Vantage Data Centers (Powhatan Technology Park LLC) · Province Group (développeur)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (comté de Cochise, Arizona) : Tombstone Resources dépose une demande pour un campus data center de 6 GW sur un terrain à racheter à l'exploitant de la centrale Apache Generating Station",
+      "region": "Amérique du Nord",
+      "date": "2026-11-02",
+      "summary": "Le comté de Cochise (Arizona) a annoncé le 2 novembre avoir reçu une demande d'usage spécial de Tombstone Resources LLC pour un campus data center pouvant atteindre 6 GW (jusqu'à neuf bâtiments) sur environ 747 acres le long de la US 191, près de la communauté de Cochise ; le terrain doit être racheté à la coopérative électrique Arizona Electric Power Cooperative (AEPCO), qui exploite la centrale voisine Apache Generating Station (charbon/gaz, bascule au tout-gaz visée pour 2027) et qui fournirait également l'électricité du site, en lien avec Southline Transmission LLC. Une réunion publique s'est tenue le 4 novembre ; la presse locale évoque un possible lien avec SpaceX, non confirmé à ce stade, et la consommation d'eau du site reste inconnue.",
+      "source": "KJZZ / AZFamily / More Than Just Parks",
+      "url": "https://www.kjzz.org/business/2026-11-03/largest-data-center-proposal-in-arizona-heads-to-cochise-county-1st-community-meeting-scheduled",
+      "mw": 6000,
+      "coords": [
+        32.098,
+        -109.89
+      ],
+      "poweredLand": true,
+      "owners": "Tombstone Resources LLC (acheteur proposé) · AEPCO (vendeur/fournisseur d'électricité)",
+      "investors": "n.c. (lien SpaceX évoqué par la presse, non confirmé)"
+    },
+    {
+      "category": "land",
+      "title": "France (Étrechet, Châteauroux Métropole, Indre) : la concertation préalable sur le projet de data centers de Google/RTE s'ouvre le 2 novembre, jusqu'au 10 janvier 2027",
+      "region": "France",
+      "date": "2026-11-02",
+      "summary": "La concertation préalable sous l'égide de la Commission nationale du débat public (CNDP), maîtres d'ouvrage Google et RTE, s'est ouverte le 2 novembre et se poursuivra jusqu'au 10 janvier 2027, sur le projet de 8 à 10 bâtiments de data centers (environ 195 hectares, ZAC d'Ozans) dont la puissance électrique reste non chiffrée officiellement (estimations divergentes jusqu'à 500 MW selon la presse) ; le projet reste très contesté localement, après la démission en septembre de la maire d'Étrechet et de plusieurs élus, et malgré une pétition ayant dépassé 18 000 signatures.",
+      "source": "CNDP / Next.ink / Blog du Modérateur",
+      "url": "https://www.debatpublic.fr/sites/default/files/2026-04/DECISION_2026_37_CENTRE%20DE%20DONNEES%20GOOGLE%20RTE_1%20Sign%C3%A9%20MP.pdf",
+      "coords": [
+        46.76,
+        1.72
+      ],
+      "poweredLand": true,
+      "owners": "Google (Tricolore Computing) · RTE",
+      "investors": "n.c."
     },
     {
       "category": "land",
@@ -128,6 +195,19 @@
       "poweredLand": true,
       "owners": "n.c. (consortium : Mubbadrah Investment, Sustopia Capital, Vela Tech)",
       "investors": "O2 Global Energy (développeur solaire/stockage dédié)"
+    },
+    {
+      "category": "power",
+      "title": "Royaume-Uni (Teesside, Dorman Point) : National Grid achète un terrain pour la plus grande sous-station du pays, consultation publique sur le projet jusqu'au 11 novembre",
+      "region": "Europe",
+      "date": "2026-11",
+      "summary": "National Grid a acheté un terrain à Dorman Point, sur l'ancien site sidérurgique de Teesworks (Teesside), pour y construire ce qui serait la plus grande sous-station électrique du Royaume-Uni (« Teesside Node A », capacité initiale de 1,44 GW, mise en service visée fin 2029) ; la sous-station est destinée à alimenter un data center IA que Teesworks développe sur un site ayant déjà obtenu un permis d'urbanisme de principe. La consultation communautaire sur le projet doit se clore le 11 novembre, en amont d'une demande de permis attendue. Google serait intéressé selon la presse, mais aucun partenaire opérateur ou investisseur n'est confirmé à ce stade.",
+      "source": "DataCenterDynamics / Construction Enquirer / ITPro / Crypto Briefing",
+      "url": "https://datacenterdynamics.com/en/news/national-grid-buys-land-in-teesside-uk-for-32gw-substation-to-power-ai-data-center",
+      "mw": 1440,
+      "poweredLand": true,
+      "owners": "Teesworks (foncier) · National Grid (sous-station)",
+      "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
     },
     {
       "category": "power",
@@ -308,7 +388,7 @@
       "title": "États-Unis (Mason County, Virginie-Occidentale) : Nscale et Anthropic négocieraient un second contrat de 45 Md$ pour un second bâtiment de 460 MW au campus foncier énergisé Monarch",
       "region": "Amérique du Nord",
       "date": "2026-10-19",
-      "summary": "Selon Reuters (19 octobre, sources proches du dossier), Nscale négocierait avec Anthropic un second accord d'environ 45 Md$ portant sur un second bâtiment de 460 MW (puces Nvidia Vera Rubin) au sein de son campus Monarch (2 250 à 2 380 acres, Mason County, près de Point Pleasant, micro-réseau dédié visant jusqu'à 8 GW à terme) ; Anthropic dispose par ailleurs d'un droit de négociation prioritaire sur un 3e bâtiment. Ces discussions interviennent juste après le retrait de Microsoft d'un autre projet Nscale au Royaume-Uni (Loughton), attribué à un retard de raccordement réseau. Le 30 octobre, ni Nscale ni Anthropic n'avaient confirmé officiellement l'accord, qui reste fondé sur des sources de presse non nommées.",
+      "summary": "Selon Reuters (19 octobre, sources proches du dossier), Nscale négocierait avec Anthropic un second accord d'environ 45 Md$ portant sur un second bâtiment de 460 MW (puces Nvidia Vera Rubin) au sein de son campus Monarch (2 250 à 2 380 acres, Mason County, près de Point Pleasant, micro-réseau dédié visant jusqu'à 8 GW à terme) ; Anthropic dispose par ailleurs d'un droit de négociation prioritaire sur un 3e bâtiment. Ces discussions interviennent juste après le retrait de Microsoft d'un autre projet Nscale au Royaume-Uni (Loughton, Essex), attribué à un retard de raccordement réseau (National Grid n'anticipant pas de capacité disponible avant les années 2030). Ni Nscale ni Anthropic n'ont confirmé officiellement l'accord, qui reste fondé sur des sources de presse non nommées.",
       "source": "Reuters / VKTR / DataCenterDynamics",
       "url": "https://www.vktr.com/ai-market/anthropic-signs-45-billion-compute-deal-with-nscale-for-460-megawatts-in-west-virginia/",
       "mw": 460,
@@ -352,6 +432,17 @@
       "poweredLand": true,
       "owners": "EverWind Fuels",
       "investors": "Anthropic (locataire, bail ≥20 ans)"
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Virginie) : la sénatrice Russet Perry dépose un projet de moratorium étatique de trois ans sur les nouveaux data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-10-16",
+      "summary": "La sénatrice démocrate Russet Perry (Loudoun) a déposé le Senate Bill 843, qui suspendrait pendant trois ans (du 1er juillet 2027 au 1er juillet 2030) toute nouvelle approbation locale de data center nécessitant un rezonage, une exception spéciale ou un permis de construire, ainsi que les lignes de distribution et la puissance sur site dédiées ; deux autres sénateurs (Danica Roem, Glen Sturtevant) préparent des versions concurrentes, tandis que la gouverneure Spanberger n'a pas endossé de moratorium mais a présenté un cadre de responsabilisation des data centers. Le débat est attendu à la session législative de janvier 2027 ; Loudoun County prépare par ailleurs son propre moratorium local de 12 mois, et le comté voisin de Prince William durcit ses règles d'urbanisme.",
+      "source": "Virginia Mercury / Baxtel / Broadband Breakfast",
+      "url": "https://virginiamercury.com/2026/10/16/data-center-moratorium-bills-stack-up-ahead-of-virginia-legislative-session-in-january/",
+      "owners": "n.c.",
+      "investors": "n.c."
     },
     {
       "category": "power",
@@ -410,93 +501,6 @@
       ],
       "owners": "Volt",
       "investors": "Nebius (premier client/offtaker)"
-    },
-    {
-      "category": "construction",
-      "title": "États-Unis (Taylor, comté de Williamson, Texas) : le conseil municipal approuve à l'unanimité le « Taylor Technology Campus » de 664 acres, jusqu'à 1 GW en autoproduction gaz",
-      "region": "Amérique du Nord",
-      "date": "2026-10-09",
-      "summary": "Le conseil municipal de Taylor a approuvé à l'unanimité un accord d'annexion/développement pour le campus de 664 acres de Big Watt Digital et PowerHouse Data Centers, conçu pour délivrer jusqu'à 1 GW en électricité dédiée « behind-the-meter » via une nouvelle centrale gaz de 750 MW (première phase 500 MW) ; impact économique estimé à 4,8 Md$, travaux prévus 2027-2029, première puissance disponible au premier semestre 2028, malgré l'opposition de nombreux riverains présents à la séance.",
-      "source": "KUT / CBS Austin / DataCenterDynamics",
-      "url": "https://www.kut.org/energy-environment/2026-10-09/taylor-tx-annex-data-center-power-plant",
-      "mw": 1000,
-      "inv": 4800,
-      "coords": [
-        30.5707,
-        -97.4091
-      ],
-      "poweredLand": true,
-      "owners": "Big Watt Digital · PowerHouse Data Centers",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (zone PJM) : la FERC rejette l'essentiel du plan « bring your own power » de PJM pour les gros consommateurs (data centers)",
-      "region": "Amérique du Nord",
-      "date": "2026-10-09",
-      "summary": "La Federal Energy Regulatory Commission a rejeté le 9 octobre l'essentiel du dispositif IRAS/BYONC proposé par PJM pour les data centers de plus de 50 MW, jugeant le volet délestage et l'option « apporter sa propre capacité » hors de sa compétence ou insuffisamment justifiés ; elle n'a validé que la définition de « Large Load » et le registre associé, effectif depuis le 12 octobre. PJM doit redéposer son dispositif de secours (attendu vers le 29 octobre) et réunit son comité des membres le 22 octobre — une clarification cruciale pour la valorisation du foncier déjà énergisé dans les 13 États de la zone PJM, qui renvoie désormais la question aux États (Pennsylvanie, Ohio en tête).",
-      "source": "Utility Dive / TechTarget / Energy News Beat",
-      "url": "https://www.utilitydive.com/news/ferc-pjm-large-load-interconnection-iras-byonc/832716/"
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Center/Blacklick Townships, Indiana County, Pennsylvanie) : AWS dépose un plan pour un campus de 36 à 39 data centers sur environ 2 200 acres adossé à une centrale gaz de 4,5 GW",
-      "region": "Amérique du Nord",
-      "date": "2026-10-07",
-      "summary": "Amazon Data Services a déposé le 28 août auprès de la commission d'urbanisme du comté d'Indiana (Pennsylvanie) un plan préliminaire d'aménagement pour l'« Homer City Energy Campus » : jusqu'à 39 bâtiments de data centers sur environ 2 200 acres répartis sur 6 sites (Bruner, Helen, Green, West, Harvey/Gaston, Rura), directement adossés à la centrale au gaz naturel de 4,5 GW qu'Homer City Redevelopment construit sur l'ancien site charbon voisin — plus de 1 GW de cette capacité sera aussi injecté sur le réseau ; travaux prévus de décembre 2026 à juin 2036, 1 500 à 2 000 emplois visés, après une réunion publique houleuse le 9 septembre.",
-      "source": "DataCenterDynamics / Baxtel / TechRadar Pro",
-      "url": "https://datacenterdynamics.com/en/news/aws-plans-36-building-data-center-campus-in-indiana-county-pennsylvania",
-      "mw": 4500,
-      "coords": [
-        40.5423,
-        -79.1534
-      ],
-      "poweredLand": true,
-      "owners": "Amazon Data Services (AWS) · Homer City Redevelopment (centrale gaz dédiée)",
-      "investors": "n.c."
-    },
-    {
-      "category": "construction",
-      "title": "États-Unis (comté de Hudspeth, Texas, près d'El Paso) : ServerDomes Global et Kaufman & Company démarrent la construction du campus à dômes géodésiques « Hueco Ranch », 350 MW alimentés au gaz hors réseau",
-      "region": "Amérique du Nord",
-      "date": "2026-10-07",
-      "summary": "ServerDomes Global et le promoteur Kaufman & Company ont lancé le 7 octobre la construction de leur campus de data centers à dômes géodésiques « Hueco Ranch » près de Desert Haven (comté de Hudspeth, Texas, à environ 45 km à l'est d'El Paso), valorisé à environ 15 Md$ pour une capacité visée de 350 MW, dont une première tranche de 80 MW attendue environ 16 mois après le début des travaux ; le site est conçu pour fonctionner majoritairement en autoproduction gaz hors réseau, les autorités du comté indiquant n'avoir pas été informées avant le démarrage des travaux.",
-      "source": "Baxtel / DataCenterDynamics / The Cool Down",
-      "url": "https://baxtel.com/news/serverdomes-global-breaks-ground-on-350mw-hueco-ranch-campus-near-el-paso",
-      "mw": 350,
-      "inv": 15000,
-      "poweredLand": true,
-      "owners": "ServerDomes Global · Kaufman & Company",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France (Étrechet, Châteauroux Métropole, Indre) : la concertation publique sur le projet de data centers de Google/RTE annoncée pour novembre-décembre, forte contestation locale",
-      "region": "France",
-      "date": "2026-10",
-      "summary": "La préfecture de l'Indre a confirmé à l'AFP qu'une concertation préalable sous l'égide de la Commission nationale du débat public se tiendra en novembre et décembre, avec Google et RTE comme maîtres d'ouvrage, sur le projet de 8 à 10 bâtiments de data centers (environ 195 hectares, ZAC d'Ozans) dont la vente du terrain à la filiale Tricolore Computing avait été votée en 2025 ; la puissance électrique reste non chiffrée officiellement (estimations divergentes de 500 MW à 1,1 GW selon les sources), le raccordement RTE prévoyant des liaisons souterraines à 225 kV puis deux lignes aériennes à 400 kV, et le projet a déjà provoqué en septembre la démission de la maire d'Étrechet et de plusieurs élus face à la contestation locale (pétition à plus de 18 000 signatures).",
-      "source": "Préfecture de l'Indre (AFP) / Blog du Modérateur / Next.ink",
-      "url": "https://www.blogdumoderateur.com/data-centers-projet-google-chateauroux-methode-francaise/",
-      "coords": [
-        46.76,
-        1.72
-      ],
-      "poweredLand": true,
-      "owners": "Google (Tricolore Computing) · RTE",
-      "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "Royaume-Uni (Teesside, Dorman Point) : National Grid achète un terrain pour la plus grande sous-station du pays, destinée à alimenter un futur data center IA sur le site de Teesworks",
-      "region": "Europe",
-      "date": "2026-10",
-      "summary": "National Grid a acheté un terrain à Dorman Point, sur l'ancien site sidérurgique de Teesworks (Teesside), pour y construire ce qui serait la plus grande sous-station électrique du Royaume-Uni (« Teesside Node A », capacité initiale de 1,44 GW, mise en service visée fin 2029) ; la sous-station est destinée à alimenter un data center IA que Teesworks développe sur un site ayant déjà obtenu un permis d'urbanisme de principe (« outline planning permission »). Google serait intéressé selon la presse, mais aucun partenaire opérateur ou investisseur n'est confirmé à ce stade.",
-      "source": "DataCenterDynamics / Construction Enquirer / ITPro / Crypto Briefing",
-      "url": "https://datacenterdynamics.com/en/news/national-grid-buys-land-in-teesside-uk-for-32gw-substation-to-power-ai-data-center",
-      "mw": 1440,
-      "poweredLand": true,
-      "owners": "Teesworks (foncier) · National Grid (sous-station)",
-      "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
     },
     {
       "category": "power",
