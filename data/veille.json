@@ -1,13 +1,51 @@
 {
-  "lastUpdated": "2026-11-09",
+  "lastUpdated": "2026-11-10",
   "keyTakeaways": [
-    "Le foncier énergisé continue de se diversifier aux États-Unis avec trois nouveaux dossiers concrets début novembre : Vantage Data Centers finalise 180 acres près de Richmond (Virginie, ~3 Md$, lignes de transport existantes à proximité), Amazon confirme être l'acheteur du terrain de 264 M$ à West Richland (Washington), et surtout Tombstone Resources dépose une demande pour un campus de 6 GW en Arizona sur un terrain à racheter directement à la coopérative électrique AEPCO, qui en resterait aussi le fournisseur d'électricité — un cas d'école de foncier adossé à une centrale existante (Apache Generating Station), avec un possible lien SpaceX non confirmé par la presse locale.",
-    "La Virginie émerge comme le prochain front réglementaire majeur après l'Ohio : la sénatrice Russet Perry a déposé un projet de moratorium étatique de trois ans sur les data centers (SB 843), rejoint par d'autres propositions concurrentes (Roem, Sturtevant) et des démarches locales à Loudoun et Prince William ; la gouverneure Spanberger n'a pas endossé de moratorium mais pousse un cadre de responsabilisation — un risque réglementaire à surveiller pour le premier marché data center du pays, en écho direct au vote du 3 novembre en Ohio.",
-    "Trois échéances réglementaires clés arrivent à maturité : PJM doit redéposer son dispositif de secours sur les gros consommateurs avant le 16 novembre (délai désormais fixé après plusieurs reports), le décret espagnol sur les renouvelables horaires vise toujours une adoption avant le 29 novembre malgré l'opposition conjointe des ONG et de la filière SpainDC, et la gouverneure Hochul (New York) n'a toujours pas tranché sur le moratorium législatif d'un an à l'approche de l'échéance de fin d'année — trois dossiers déterminants pour la valorisation du foncier déjà engagé dans ces zones.",
-    "En France, la concertation préalable sur le projet de data centers Google/RTE à Étrechet (Châteauroux Métropole) s'est officiellement ouverte le 2 novembre et se poursuivra jusqu'au 10 janvier 2027, dans un climat toujours très contesté localement (démissions d'élus, pétition à plus de 18 000 signatures) ; aucune actualité confirmée sur Polarise, Aurora Infra ou La Française de l'Énergie (FDE) malgré des recherches dédiées répétées (LinkedIn inclus) — Polarise reste actif en Allemagne/République Tchèque/Norvège, « Aurora Infra(structure) » ne correspond toujours à aucune entité foncier+énergie identifiable, et FDE n'a publié aucune actualité data center récente.",
-    "La typologie du foncier énergisé reste à trois vitesses : adossement à une centrale existante pilotée par son exploitant (Tombstone/AEPCO en Arizona, Drax au Royaume-Uni), reconversion industrielle mi-échelle à proximité de lignes de transport (Vantage/Powhatan en Virginie, WhiteFiber en Caroline du Nord) et acquisition foncière classique en amont du raccordement (Amazon/West Richland) — une grille utile pour prioriser les opportunités de sourcing selon la maturité de raccordement recherchée."
+    "Deux accords majeurs illustrent une stratégie alternative au foncier déjà énergisé — la sécurisation de puissance captive via équipement plutôt que via site : Anthropic reprend pour 3,4 Md$ les commandes de générateurs gaz d'OnePWR Solutions (1,7 GW, le plus gros achat connu d'un acteur IA), et NTT DATA signe avec Bloom Energy un nouvel accord de piles à combustible (900 MW) comme alimentation principale de ses data centers mondiaux — le gaz et les piles à combustible deviennent des leviers de puissance concurrents du foncier pré-raccordé, à intégrer dans la grille de lecture du sourcing.",
+    "En Arizona, le dossier Tombstone Resources/AEPCO (6 GW, foncier adossé à la centrale Apache Generating Station) franchit une étape : SpaceX serait confirmé localement comme porteur du projet lors d'une réunion communautaire (sans confirmation officielle de l'entreprise ni des documents déposés auprès du comté), avec une audience publique décisive fixée au 9 décembre à Bisbee devant la Commission de planification de Cochise County.",
+    "En Virginie du Nord, premier marché mondial de data centers, le Board of Supervisors de Loudoun County a reporté au 17 novembre l'examen de la pause sur les nouvelles demandes de data centers/postes électriques et de la suppression du « grandfathering » pour au moins 23 projets déjà engagés (11+ M pieds carrés) — un rendez-vous à ne pas manquer pour la disponibilité du foncier dans la région, en écho direct au projet de moratorium étatique de la sénatrice Perry (SB 843).",
+    "Trois échéances réglementaires convergent sous trois semaines : PJM doit redéposer son dispositif de secours sur les gros consommateurs avant le 16 novembre, le décret espagnol sur les renouvelables horaires vise toujours une adoption avant le 29 novembre (projet assoupli le 26 octobre, texte définitif toujours non confirmé), et la gouverneure Hochul (New York) n'a toujours pas statué sur le moratorium législatif d'un an voté par les deux chambres, à l'approche de l'échéance de fin d'année.",
+    "Recherches dédiées répétées sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center confirmée pour FDE (activité gaz de mine/électricité verte uniquement à ce stade) ; Polarise reste actif en reconversion de friches en Allemagne (Amberg/Wertachtal, Munich) ; « Aurora Infra(structure) » la mieux identifiée reste la finlandaise Aurora Infrastructure (rachat d'actifs réseau électrique de Terrafame à Sotkamo), sans lien confirmé avec du foncier data center."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "États-Unis : Anthropic rachète pour 3,4 Md$ les commandes de générateurs gaz d'OnePWR Solutions, sécurisant 1,7 GW de puissance captive pour ses data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-11-08",
+      "summary": "Selon le Financial Times (8 novembre), Anthropic a repris pour environ 3,4 Md$ les commandes de générateurs gaz Caterpillar passées il y a environ deux ans par le fournisseur texan OnePWR Solutions, sécurisant ainsi 1,7 GW de capacité de production électrique captive pour ses data centers IA sans attendre les délais de raccordement réseau ; les engagements avaient été obtenus fin septembre, livraison attendue dans les deux prochaines années — ce qui serait le plus gros achat unique d'équipements de génération électrique jamais recensé pour un acteur de l'IA.",
+      "source": "Financial Times / DataCenterDynamics / Tom's Hardware",
+      "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-34bn-gas-generator-deal-to-support-17gw-of-data-center-power/",
+      "mw": 1700,
+      "inv": 3400
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Cochise County, Arizona) : SpaceX confirmé lors d'une réunion publique comme porteur du campus data center de 6 GW adossé à l'AEPCO ; audience publique fixée au 9 décembre",
+      "region": "Amérique du Nord",
+      "date": "2026-11-05",
+      "summary": "Lors d'une réunion communautaire tenue début novembre à Cochise, SpaceX aurait été confirmé comme à l'origine du projet de campus data center de 6 GW porté par Tombstone Resources LLC sur un terrain à racheter à la coopérative électrique AEPCO (centrale Apache Generating Station) ; la presse locale reste toutefois partagée, certains relevant que les documents déposés auprès du comté ne nomment ni SpaceX ni Elon Musk. La Commission de planification et de zonage de Cochise County tiendra une audience publique le 9 décembre à Bisbee, étape clé avant toute approbation.",
+      "source": "AZFamily / Cochise Regional News / DataCenterDynamics / Tucson.com",
+      "url": "https://www.datacenterdynamics.com/en/news/spacexai-data-center-arizona-cochise-county-elon-musk/",
+      "mw": 6000,
+      "coords": [
+        32.098,
+        -109.89
+      ],
+      "poweredLand": true,
+      "owners": "Tombstone Resources LLC (lien SpaceX rapporté localement, non confirmé officiellement) · AEPCO (vendeur/fournisseur d'électricité)",
+      "investors": "n.c."
+    },
+    {
+      "category": "power",
+      "title": "NTT DATA signe avec Bloom Energy un nouvel accord pour déployer 900 MW de piles à combustible comme alimentation principale de ses data centers dans le monde",
+      "region": "International",
+      "date": "2026-11-05",
+      "summary": "NTT DATA a annoncé le 5 novembre un accord avec Bloom Energy pour le déploiement de 900 MW de systèmes de piles à combustible à oxyde solide (SOFC), destinés à servir d'alimentation électrique principale (et non de secours) sur des sites NTT Global Data Centers à travers le monde, premières livraisons dès 2027 ; montants, pays concernés et répartition par site non communiqués. Cet accord fait suite à un premier contrat de 1,2 GW signé l'an dernier entre les deux sociétés.",
+      "source": "NTT DATA (communiqué) / DataCenterDynamics / Bloom Energy",
+      "url": "https://www.nttdata.com/en-us/news/2026/ntt-data-announces-agreement-with-bloom-energy",
+      "mw": 900
+    },
     {
       "category": "land",
       "title": "États-Unis (Indiana) : NextNRG signe un term sheet non engageant pour 33 acres dédiés au « Lone Wolf Energy Center », jusqu'à 70 MW de capacité data center",
@@ -183,20 +221,6 @@
       "investors": "n.c."
     },
     {
-      "category": "land",
-      "title": "Oman : le consortium mené par Mubbadrah Investment prévoit un campus data center IA de 3 Md$ et jusqu'à 400 MW, avec 400 MW de solaire/stockage dédiés développés par O2 Global Energy",
-      "region": "Moyen-Orient",
-      "date": "2026-11",
-      "summary": "Mubbadrah Investment pilote un consortium (avec Sustopia Capital, Vela Tech et O2 Global Energy) pour développer en Oman un campus data center IA d'environ 3 Md$ pouvant atteindre 400 MW ; O2 Global Energy doit développer en parallèle 400 MW de capacité solaire couplée à du stockage par batterie pour alimenter directement le site, selon la presse spécialisée du Golfe, dans la foulée d'une visite officielle au Royaume-Uni. Aucune localisation précise, aucun calendrier ferme ni financement définitif n'est communiqué à ce stade.",
-      "source": "Trade Arabia / Middle East AI News",
-      "url": "https://tradearabia.com/News/488408/Mubbadrah-consortium-plans-$3bn-AI-data-centre-facility-in-Oman",
-      "mw": 400,
-      "inv": 3000,
-      "poweredLand": true,
-      "owners": "n.c. (consortium : Mubbadrah Investment, Sustopia Capital, Vela Tech)",
-      "investors": "O2 Global Energy (développeur solaire/stockage dédié)"
-    },
-    {
       "category": "power",
       "title": "Royaume-Uni (Teesside, Dorman Point) : National Grid achète un terrain pour la plus grande sous-station du pays, consultation publique sur le projet jusqu'au 11 novembre",
       "region": "Europe",
@@ -208,18 +232,6 @@
       "poweredLand": true,
       "owners": "Teesworks (foncier) · National Grid (sous-station)",
       "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
-    },
-    {
-      "category": "power",
-      "title": "Europe : les délais de raccordement électrique (plus de 4 ans dans les hubs majeurs) poussent vers des montages de sous-station partagée data center/renouvelable, jusqu'à 2 ans gagnés",
-      "region": "Europe",
-      "date": "2026-10-31",
-      "summary": "Une analyse DataCenterDynamics (31 octobre) souligne que les délais de raccordement au réseau dépassant désormais 4 ans dans les principaux hubs européens poussent opérateurs et énergéticiens vers des montages de sous-stations partagées entre data centers et projets renouvelables (à l'image du précédent irlandais SSE Renewables/Echelon Data Centres à Arklow), permettant de gagner jusqu'à deux ans sur la mise en service — une validation supplémentaire de la stratégie de foncier déjà énergisé/co-localisé.",
-      "source": "DataCenterDynamics (analyse)",
-      "url": "https://www.datacenterdynamics.com/en/opinions/europes-ai-ambitions-are-hitting-a-power-bottleneck/",
-      "poweredLand": true,
-      "owners": "n.c.",
-      "investors": "n.c."
     },
     {
       "category": "land",
@@ -355,16 +367,14 @@
     },
     {
       "category": "legislation",
-      "title": "États-Unis (Memphis, Tennessee) : le moratorium de 18 mois sur les data centers échoue (6 voix contre 6), le conseil adopte en remplacement une interdiction temporaire de 135 jours",
+      "title": "États-Unis (Loudoun County, Virginie) : le vote sur la pause des nouvelles demandes de data centers et la fin du « grandfathering » pour 23 projets est reporté au 17 novembre",
       "region": "Amérique du Nord",
       "date": "2026-10-20",
-      "summary": "Le conseil municipal de Memphis a rejeté le 20 octobre, à 6 voix contre 6, le moratorium de 18 mois (porté à l'origine à 12 mois par le conseiller J.B. Smiley Jr. après l'installation de turbines à gaz par xAI/Colossus) sur les nouveaux data centers, mais a adopté en remplacement une interdiction temporaire de 135 jours, en complément d'une étude de 90 jours déjà ordonnée par le maire Paul Young.",
-      "source": "CNN / Yahoo News / Action News 5",
-      "url": "https://www.cnn.com/2026/10/20/us/memphis-council-data-center-vote",
-      "coords": [
-        35.1495,
-        -90.049
-      ]
+      "summary": "Le Board of Supervisors de Loudoun County, premier marché mondial de data centers, a reporté au 17 novembre l'examen d'une résolution visant à geler l'étude de nouvelles demandes législatives de data centers et de postes électriques, le comté estimant avoir besoin de davantage d'informations ; en parallèle, deux élus (Briskman, TeKrony) proposent de mettre fin au « grandfathering » accordé en 2025 à au moins 23 projets déjà engagés (plus de 11 millions de pieds carrés), sur fond d'avis de l'avocat du comté jugeant qu'un moratoire général ne serait pas légal — un rendez-vous décisif pour la disponibilité du foncier déjà engagé en Virginie du Nord.",
+      "source": "Loudoun County (communiqué) / Virginia Mercury / Fox5DC",
+      "url": "https://virginiamercury.com/2026/09/14/loudoun-to-consider-data-center-pause-removing-by-right-grandfather-clause/",
+      "owners": "n.c.",
+      "investors": "n.c."
     },
     {
       "category": "land",
@@ -442,19 +452,6 @@
       "source": "Virginia Mercury / Baxtel / Broadband Breakfast",
       "url": "https://virginiamercury.com/2026/10/16/data-center-moratorium-bills-stack-up-ahead-of-virginia-legislative-session-in-january/",
       "owners": "n.c.",
-      "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "États-Unis : Venture Global signe avec GE Vernova et Baker Hughes un cadre pour jusqu'à 16 unités de génération gaz hors réseau (environ 11,5 GW), visant 10 GW de capacité IA d'ici 2034",
-      "region": "Amérique du Nord",
-      "date": "2026-10-15",
-      "summary": "L'exportateur de GNL Venture Global a annoncé le 15 octobre des accords-cadres avec GE Vernova et Baker Hughes pour jusqu'à 16 unités de génération au gaz de 720 MW chacune (environ 11,5 GW au total), destinées à alimenter des data centers IA hors du réseau public, sur du foncier détenu ou contrôlé par l'entreprise ; l'objectif affiché est 10 GW de capacité de calcul d'ici 2034, avec un premier bon de commande d'îlot de puissance attendu fin 2026 et les premiers dépôts de permis cette semaine — l'accord reste un cadre, pas une commande ferme, et la contrepartie d'achat d'électricité n'est pas encore identifiée.",
-      "source": "Wall Street Journal / Oilprice / BlackRidge Research",
-      "url": "https://oilprice.com/Company-News/Venture-Global-Targets-10-GW-of-Gas-Fired-Power-for-AI-Data-Centers.amp.html",
-      "mw": 11500,
-      "poweredLand": true,
-      "owners": "Venture Global",
       "investors": "n.c."
     },
     {
