@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-10",
+  "lastUpdated": "2026-11-11",
   "keyTakeaways": [
-    "Deux accords majeurs illustrent une stratégie alternative au foncier déjà énergisé — la sécurisation de puissance captive via équipement plutôt que via site : Anthropic reprend pour 3,4 Md$ les commandes de générateurs gaz d'OnePWR Solutions (1,7 GW, le plus gros achat connu d'un acteur IA), et NTT DATA signe avec Bloom Energy un nouvel accord de piles à combustible (900 MW) comme alimentation principale de ses data centers mondiaux — le gaz et les piles à combustible deviennent des leviers de puissance concurrents du foncier pré-raccordé, à intégrer dans la grille de lecture du sourcing.",
-    "En Arizona, le dossier Tombstone Resources/AEPCO (6 GW, foncier adossé à la centrale Apache Generating Station) franchit une étape : SpaceX serait confirmé localement comme porteur du projet lors d'une réunion communautaire (sans confirmation officielle de l'entreprise ni des documents déposés auprès du comté), avec une audience publique décisive fixée au 9 décembre à Bisbee devant la Commission de planification de Cochise County.",
-    "En Virginie du Nord, premier marché mondial de data centers, le Board of Supervisors de Loudoun County a reporté au 17 novembre l'examen de la pause sur les nouvelles demandes de data centers/postes électriques et de la suppression du « grandfathering » pour au moins 23 projets déjà engagés (11+ M pieds carrés) — un rendez-vous à ne pas manquer pour la disponibilité du foncier dans la région, en écho direct au projet de moratorium étatique de la sénatrice Perry (SB 843).",
-    "Trois échéances réglementaires convergent sous trois semaines : PJM doit redéposer son dispositif de secours sur les gros consommateurs avant le 16 novembre, le décret espagnol sur les renouvelables horaires vise toujours une adoption avant le 29 novembre (projet assoupli le 26 octobre, texte définitif toujours non confirmé), et la gouverneure Hochul (New York) n'a toujours pas statué sur le moratorium législatif d'un an voté par les deux chambres, à l'approche de l'échéance de fin d'année.",
-    "Recherches dédiées répétées sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center confirmée pour FDE (activité gaz de mine/électricité verte uniquement à ce stade) ; Polarise reste actif en reconversion de friches en Allemagne (Amberg/Wertachtal, Munich) ; « Aurora Infra(structure) » la mieux identifiée reste la finlandaise Aurora Infrastructure (rachat d'actifs réseau électrique de Terrafame à Sotkamo), sans lien confirmé avec du foncier data center."
+    "Nouveau signal réglementaire fort en Europe : plus de 100 organisations dans 15 pays (dont France Nature Environnement) ont lancé les 6-7 novembre une campagne « Stop Dirty Data Centres » réclamant un moratoire temporaire sur les mégaprojets, directement connectée à la contestation du campus IA de Fouju (Seine-et-Marne) — un risque de durcissement des cadres de planification à intégrer dans le sourcing foncier européen, en écho aux mobilisations déjà vues en Ohio et en Virginie.",
+    "En Virginie du Nord/Centrale, le foncier énergisé continue de s'étendre au-delà des zones traditionnelles : Google est désormais confirmé par le comté de Goochland comme porteur d'un projet de 1 200 MW sur 1 000 acres (West Creek, usage by-right grâce au nouveau zonage technologique local), juste après les dossiers Vantage/Powhatan et Microsoft/Rome (Géorgie) — la Virginie reste le marché le plus actif malgré la pression réglementaire croissante (vote Loudoun reporté au 17 novembre, SB 843 de la sénatrice Perry).",
+    "Les montages financiers intègrent de plus en plus explicitement le foncier et l'énergie comme postes dédiés : Pure DC (Oaktree) a sécurisé le 4 novembre 780 M$ (extensible à 1,9 Md$) explicitement affectés à l'acquisition de terrains et à la sécurisation d'énergie en Europe/Moyen-Orient, un signal sur la structuration financière du « powered land » à suivre pour le sourcing.",
+    "En Caroline du Nord, la North Carolina Utilities Commission doit statuer d'ici la mi-novembre sur l'accord Duke Energy/Big Tech (Amazon, Google, Meta, Microsoft) sur la tarification des gros consommateurs — une décision clé qui fixera combien les data centers paient pour les infrastructures réseau dédiées, et donc l'attractivité relative du foncier énergisé dans cet État.",
+    "Recherches dédiées répétées sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center confirmée pour FDE ; Polarise reste actif en reconversion de friches en Allemagne/Norvège (Amberg, AI Hub ONE à Oslo) sans nouvelle annonce cette semaine ; « Aurora Infra(structure) » la mieux identifiée reste la finlandaise Aurora Infrastructure (énergie, Sotkamo/Mikkeli), toujours sans lien confirmé avec un projet data center nommé."
   ],
   "items": [
     {
@@ -18,6 +18,15 @@
       "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-34bn-gas-generator-deal-to-support-17gw-of-data-center-power/",
       "mw": 1700,
       "inv": 3400
+    },
+    {
+      "category": "legislation",
+      "title": "Europe : plus de 100 organisations dans 15 pays lancent une campagne « Stop Dirty Data Centres » réclamant un moratoire sur les mégaprojets, la France activement mobilisée",
+      "region": "Europe",
+      "date": "2026-11-06",
+      "summary": "Une mobilisation coordonnée les 6 et 7 novembre à travers l'Irlande, la Pologne, le Danemark, la Finlande, l'Espagne, les Pays-Bas, la France et le Royaume-Uni (plus de 100 organisations, une dizaine de pays, dont France Nature Environnement côté français) a réclamé un moratoire temporaire sur les nouveaux data centers de grande envergure, le temps que les gouvernements fixent des cadres de planification énergie/eau/sols plus stricts ; en France, la mobilisation est directement liée à la contestation du projet de campus IA de Fouju (Seine-et-Marne, six recours administratifs déposés fin septembre) — un nouveau signal de risque réglementaire à intégrer dans la lecture du foncier énergisé en Europe.",
+      "source": "Euronews / TechRadar / Tech Insider",
+      "url": "https://www.euronews.com/2026/11/05/protesters-across-europe-to-call-for-freeze-on-energy-hungry-data-centres"
     },
     {
       "category": "land",
@@ -81,6 +90,16 @@
       "url": "https://datacenterdynamics.com/en/news/local-data-center-moratoria-limits-and-restrictions-voted-in-across-the-us/",
       "owners": "n.c.",
       "investors": "n.c."
+    },
+    {
+      "category": "market",
+      "title": "Royaume-Uni/Europe/Moyen-Orient : Pure DC (Oaktree) sécurise 780 M$ de financement extensible à 1,9 Md$, explicitement destiné au foncier et à l'énergie",
+      "region": "International",
+      "date": "2026-11-04",
+      "summary": "Pure Data Centres Group, soutenu par Oaktree, a annoncé le 4 novembre une « Platform Growth Facility » de 780 M$ (extensible à environ 1,9 Md$), avec Citigroup, First Abu Dhabi Bank et Infranity comme nouveaux prêteurs ; selon Bloomberg, le CEO par intérim Gary Wojtaszek a précisé que les fonds serviront notamment à l'acquisition de foncier et à la sécurisation d'énergie, en plus du pipeline de développement en Europe et au Moyen-Orient (plus de 500 MW en exploitation ou en développement). Ce financement porte à plus de 6,2 Md$ les montants levés par la société sur les douze derniers mois.",
+      "source": "Bloomberg / W.Media / DataCenterDynamics / Dealroom",
+      "url": "https://www.whtop.com/news/36061-pure-dc-secures-780m-for-data-center-expansion",
+      "inv": 780
     },
     {
       "category": "power",
@@ -161,6 +180,22 @@
       "investors": "n.c."
     },
     {
+      "category": "land",
+      "title": "États-Unis (comté de Dallas, Iowa) : Microsoft confirme l'achat de 616 acres de terres agricoles près de Woodward pour 95,5 M$, futur campus data center",
+      "region": "Amérique du Nord",
+      "date": "2026-11-03",
+      "summary": "Microsoft a confirmé début novembre l'acquisition, via un véhicule lié à Trammell Crow, de 616 acres de terres agricoles près de Woodward (comté de Dallas, Iowa) pour environ 95,5 M$, en vue d'un futur campus data center ; aucune conception de campus ni calendrier de construction n'a encore été arrêté, et l'entreprise n'a communiqué aucune information sur la puissance électrique visée ou le raccordement réseau à ce stade.",
+      "source": "BlackRidge Research / presse locale Iowa",
+      "url": "https://www.blackridgeresearch.com/news-releases/microsoft-pays-usd-95-5-million-for-616-acres-near-woodward-iowa-for-future-data-center-campus-in-the-us",
+      "inv": 95.5,
+      "coords": [
+        41.8778,
+        -93.9196
+      ],
+      "owners": "Trammell Crow (acquéreur initial) · Microsoft (confirmé utilisateur final)",
+      "investors": "n.c."
+    },
+    {
       "category": "construction",
       "title": "Corée du Sud (Gumi) : Samsung SDS démarre la construction d'un data center IA, premier jalon du plan d'investissement régional de Samsung dans le Yeongnam",
       "region": "Asie",
@@ -234,6 +269,15 @@
       "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
     },
     {
+      "category": "legislation",
+      "title": "États-Unis (Caroline du Nord) : décision attendue mi-novembre de la Utilities Commission sur l'accord Duke Energy/Big Tech sur la tarification des gros consommateurs (data centers)",
+      "region": "Amérique du Nord",
+      "date": "2026-11",
+      "summary": "Duke Energy Carolinas et Duke Energy Progress ont conclu en octobre un accord avec le Public Staff de Caroline du Nord et plusieurs géants technologiques (Amazon, Google, Meta, Microsoft) sur une nouvelle tarification « large load » pour les data centers, censée répartir le coût des infrastructures réseau dédiées ; la North Carolina Utilities Commission doit statuer sur cet accord d'ici la mi-novembre, des associations environnementales (Southern Environmental Law Center) jugeant que l'accord ne ferait porter que 25% de certains coûts sur les data centers — une décision déterminante pour le coût du foncier énergisé en Caroline du Nord, à surveiller dans les prochains jours.",
+      "source": "Axios / WUNC / SELC / Carolina Journal",
+      "url": "https://www.axios.com/local/raleigh/2026/10/07/duke-energy-agrees-on-new-rules-for-large-energy-users-like-data-centers"
+    },
+    {
       "category": "land",
       "title": "États-Unis (comté de Cassia, Idaho) : TerraVolt Holdings sécurise des options sur 1 077 acres pour un campus data center hors réseau de 240 MW alimenté au gaz",
       "region": "Amérique du Nord",
@@ -245,6 +289,23 @@
       "poweredLand": true,
       "owners": "TerraVolt Holdings (options ; vente prévue à des opérateurs tiers)",
       "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (comté de Goochland, Virginie) : Google confirmé comme porteur d'un campus data center de 1 200 MW sur environ 1 000 acres au West Creek Business Park",
+      "region": "Amérique du Nord",
+      "date": "2026-10-28",
+      "summary": "Le comté de Goochland a confirmé le 28 octobre que Google est l'utilisateur final derrière un projet de campus data center pouvant atteindre 1 200 MW sur environ 1 000 acres du West Creek Business Park (route 6/Hockett Road) ; le site se trouve dans le nouveau « technology overlay district » du comté, ce qui en fait un usage de droit (by-right) sans audience publique obligatoire, et la demande initiale déposée en juillet auprès de la State Corporation Commission prévoyait déjà quatre nouveaux postes électriques. Google indique poursuivre sa due diligence, sans engagement final confirmé ; la presse locale évoque un lien possible avec le développeur Tract, non confirmé officiellement.",
+      "source": "Richmond BizSense / DataCenterDynamics / Virginia Business",
+      "url": "https://richmondbizsense.com/2026/10/28/breaking-news-google-eyeing-data-center-campus-in-goochlands-west-creek/",
+      "mw": 1200,
+      "coords": [
+        37.65,
+        -77.69
+      ],
+      "poweredLand": true,
+      "owners": "n.c. (site en diligence ; lien avec Tract évoqué par la presse, non confirmé)",
+      "investors": "Google (client final confirmé par le comté)"
     },
     {
       "category": "construction",
@@ -262,25 +323,6 @@
       "poweredLand": true,
       "owners": "Takanock LLC",
       "investors": "n.c."
-    },
-    {
-      "category": "market",
-      "title": "Meta lance une levée de capitaux de 35 Md$ (actions + préférentielles) et prévoit jusqu'à 60 Md$ supplémentaires via un programme ATM, pour financer son capex IA/data centers",
-      "region": "International",
-      "date": "2026-10-26",
-      "summary": "Selon le prospectus déposé auprès de la SEC le 26 octobre, Meta lance une offre publique combinée d'environ 35 Md$ (22,5 Md$ d'actions ordinaires de catégorie A et 12,5 Md$ d'actions préférentielles sous forme de depositary shares), complétée par un programme « at-the-market » pouvant aller jusqu'à environ 60 Md$ supplémentaires, pour financer son infrastructure IA et ses data centers ; Meta avait généré 97 Md$ de flux de trésorerie opérationnel sur les trois premiers trimestres 2026 et avait relevé sa guidance de capex 2026 à une fourchette de 125-145 Md$ — un signal macro supplémentaire de la demande de foncier déjà énergisé pour héberger cette capacité.",
-      "source": "Meta (SEC Form FWP) / CXO Digital Pulse",
-      "url": "https://www.sec.gov/Archives/edgar/data/0001326801/000119312526431036/d116268dfwp.htm",
-      "inv": 35000
-    },
-    {
-      "category": "legislation",
-      "title": "Espagne : le gouvernement assouplit son projet de décret imposant 80% de renouvelables horaires aux data centers",
-      "region": "Europe",
-      "date": "2026-10-26",
-      "summary": "Selon Reuters (26 octobre), le gouvernement espagnol a revu à la baisse certains paramètres de son projet de décret (seuils d'application, délais laissés aux développeurs pour démontrer leurs engagements renouvelables, période de transition), tout en maintenant l'exigence centrale d'une couverture d'au moins 80% de la consommation des data centers par des renouvelables additionnelles, heure par heure ; la version initiale d'août imposait 1 MW de nouvelle capacité renouvelable commissionnée dans les 18 mois précédant la mise en service pour chaque MW de charge, jusqu'à ce que le mix électrique national dépasse 90% de renouvelables. Le texte ne s'appliquera qu'aux nouveaux projets, les développeurs non conformes risquant de perdre leurs droits de raccordement.",
-      "source": "Reuters (via KFGO/WHTC)",
-      "url": "https://kfgo.com/2026/10/26/spain-relaxes-initial-proposal-for-data-center-rules/"
     },
     {
       "category": "land",
@@ -331,24 +373,6 @@
       "investors": "n.c."
     },
     {
-      "category": "land",
-      "title": "États-Unis (Alton, Illinois) : TerraWatt propose un campus data center raccordé au réseau jusqu'à 1 GW sur le site de l'ancienne aciérie Alton Steel",
-      "region": "Amérique du Nord",
-      "date": "2026-10-21",
-      "summary": "TerraWatt a proposé le rachat du site de 381 acres de l'ancienne aciérie Alton Steel (5 Cut Street) pour y développer le « Riverbend Technology Center », un campus data center raccordé au réseau d'Ameren Illinois, construit par blocs de 200 MW jusqu'à 1 GW au total ; seul le premier bloc (200 MW, soit l'ordre de grandeur de ce que consommait l'aciérie) est jugé réalisable à court terme par le consultant réseau de TerraWatt, l'opération restant conditionnée à un changement de zonage, une étude d'Ameren Illinois et la due diligence de l'acheteur, avec une clôture visée en 2027 et une mise en service complète à l'horizon 2031.",
-      "source": "St. Louis Public Radio / DataCenterDynamics / Baxtel",
-      "url": "https://www.stlpr.org/economy-business/2026-10-21/alton-data-center-proposal",
-      "mw": 1000,
-      "inv": 2640,
-      "coords": [
-        38.8906,
-        -90.1843
-      ],
-      "poweredLand": true,
-      "owners": "TerraWatt (acheteur proposé) · Alton Steel (vendeur)",
-      "investors": "n.c."
-    },
-    {
       "category": "power",
       "title": "Arabie Saoudite (NEOM, Oxagon) : Nebius signe un accord-cadre préliminaire pour 50 MW sur le campus IA d'Humain/DataVolt, alimenté par l'éolien et le solaire de NEOM",
       "region": "Moyen-Orient",
@@ -374,23 +398,6 @@
       "source": "Loudoun County (communiqué) / Virginia Mercury / Fox5DC",
       "url": "https://virginiamercury.com/2026/09/14/loudoun-to-consider-data-center-pause-removing-by-right-grandfather-clause/",
       "owners": "n.c.",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Rome, comté de Floyd, Géorgie) : Microsoft dépose une demande pour un campus de 422 MW sur 349 acres",
-      "region": "Amérique du Nord",
-      "date": "2026-10-20",
-      "summary": "Microsoft a déposé le 20 octobre une « Development of Regional Impact » auprès du comté de Floyd pour un campus de trois bâtiments au 0 Huffaker Road à Rome (Géorgie), sur environ 349 acres, pour une puissance totale de 422 MW fournie par Georgia Power ; le projet, valorisé à environ 360 M$ selon DataCenterDynamics, intervient après l'adoption en août d'une ordonnance locale limitant les data centers au zonage industriel lourd et imposant une étude d'impact puissance/eau/réseau, le comté ayant déjà voté un moratorium de 80 jours en juin.",
-      "source": "DataCenterDynamics / Baxtel",
-      "url": "https://datacenterdynamics.com/en/news/microsoft-files-for-data-center-campus-in-floyd-county-georgia",
-      "mw": 422,
-      "inv": 360,
-      "coords": [
-        34.257,
-        -85.1647
-      ],
-      "owners": "Microsoft",
       "investors": "n.c."
     },
     {
@@ -455,17 +462,6 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "États-Unis (Oregon) : la gouverneure Kotek étend son blocage de facto en suspendant les permis environnementaux des data centers jusqu'en juillet 2027",
-      "region": "Amérique du Nord",
-      "date": "2026-10-13",
-      "summary": "Après avoir suspendu en septembre les cessions et baux de terrains publics pour data centers, la gouverneure de l'Oregon Tina Kotek a ordonné le 13 octobre au Department of Environmental Quality de geler les permis air/eau des data centers nouveaux ou en extension jusqu'au 1er juillet 2027, ce qui revient dans les faits à mettre en pause l'essentiel du développement du secteur dans l'État ; Amazon (plus d'une dizaine de sites dans les comtés de Morrow et Umatilla) s'est dit déçu. L'État reconnaît ne pas avoir le pouvoir légal d'imposer un moratoire général sur le foncier privé sans vote de la législature.",
-      "source": "OPB / Washington State Standard / KATU",
-      "url": "https://www.opb.org/article/2026/10/13/oregon-data-centers-technology-amazon-tina-kotek/",
-      "owners": "n.c.",
-      "investors": "n.c."
-    },
-    {
       "category": "power",
       "title": "États-Unis (Carson County, Amarillo, Texas) : AMD apporte un soutien de crédit à la 1ère phase (222 MW) du campus foncier énergisé « Project Matador » de Fermi",
       "region": "Amérique du Nord",
@@ -481,23 +477,6 @@
       "poweredLand": true,
       "owners": "Fermi America",
       "investors": "AMD (garant/soutien de crédit) · TensorWave (locataire)"
-    },
-    {
-      "category": "land",
-      "title": "Pays-Bas (Rotterdam, Maasvlakte) : Nebius signe une lettre d'intention avec Volt pour devenir premier client de son « AI Gigafactory » de 600 MW",
-      "region": "Europe",
-      "date": "2026-10-12",
-      "summary": "Nebius a signé le 12 octobre une lettre d'intention pour réserver une part significative de la capacité du futur campus « AI Gigafactory » de Volt à Rotterdam (Maasvlakte) : 6 bâtiments pour 600 MW IT au total (contre jusqu'à 800 MW évoqué précédemment), dont une première phase de 2 bâtiments de 100 MW chacun, pour un investissement estimé à environ 7 Md€ ; l'alimentation est prévue via l'éolien offshore et un contrat avec Eneco, mais la réalisation reste conditionnée à des accords définitifs, au financement et à l'obtention de la capacité réseau nécessaire.",
-      "source": "DataCenterDynamics / NL Times / W.Media",
-      "url": "https://datacenterdynamics.com/en/news/nebius-signs-loi-with-volt-for-data-center-capacity-in-rotterdam-the-netherlands",
-      "mw": 600,
-      "inv": 7570,
-      "coords": [
-        51.9667,
-        3.9833
-      ],
-      "owners": "Volt",
-      "investors": "Nebius (premier client/offtaker)"
     },
     {
       "category": "power",
