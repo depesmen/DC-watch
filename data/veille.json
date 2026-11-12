@@ -1,13 +1,74 @@
 {
-  "lastUpdated": "2026-11-11",
+  "lastUpdated": "2026-11-12",
   "keyTakeaways": [
-    "Nouveau signal réglementaire fort en Europe : plus de 100 organisations dans 15 pays (dont France Nature Environnement) ont lancé les 6-7 novembre une campagne « Stop Dirty Data Centres » réclamant un moratoire temporaire sur les mégaprojets, directement connectée à la contestation du campus IA de Fouju (Seine-et-Marne) — un risque de durcissement des cadres de planification à intégrer dans le sourcing foncier européen, en écho aux mobilisations déjà vues en Ohio et en Virginie.",
-    "En Virginie du Nord/Centrale, le foncier énergisé continue de s'étendre au-delà des zones traditionnelles : Google est désormais confirmé par le comté de Goochland comme porteur d'un projet de 1 200 MW sur 1 000 acres (West Creek, usage by-right grâce au nouveau zonage technologique local), juste après les dossiers Vantage/Powhatan et Microsoft/Rome (Géorgie) — la Virginie reste le marché le plus actif malgré la pression réglementaire croissante (vote Loudoun reporté au 17 novembre, SB 843 de la sénatrice Perry).",
-    "Les montages financiers intègrent de plus en plus explicitement le foncier et l'énergie comme postes dédiés : Pure DC (Oaktree) a sécurisé le 4 novembre 780 M$ (extensible à 1,9 Md$) explicitement affectés à l'acquisition de terrains et à la sécurisation d'énergie en Europe/Moyen-Orient, un signal sur la structuration financière du « powered land » à suivre pour le sourcing.",
-    "En Caroline du Nord, la North Carolina Utilities Commission doit statuer d'ici la mi-novembre sur l'accord Duke Energy/Big Tech (Amazon, Google, Meta, Microsoft) sur la tarification des gros consommateurs — une décision clé qui fixera combien les data centers paient pour les infrastructures réseau dédiées, et donc l'attractivité relative du foncier énergisé dans cet État.",
-    "Recherches dédiées répétées sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center confirmée pour FDE ; Polarise reste actif en reconversion de friches en Allemagne/Norvège (Amberg, AI Hub ONE à Oslo) sans nouvelle annonce cette semaine ; « Aurora Infra(structure) » la mieux identifiée reste la finlandaise Aurora Infrastructure (énergie, Sotkamo/Mikkeli), toujours sans lien confirmé avec un projet data center nommé."
+    "Les moratoires locaux américains poussent à des contournements fonciers explicites : SpaceX a fait désannexer 444 acres de Brownsville vers Starbase (hors moratoire) pour un projet de 24 Md$ (centrale gaz dédiée + supercalcul), signe que la juridiction foncière devient elle-même un levier de sourcing face à la vague de restrictions locales.",
+    "Google consolide son emprise sur le foncier énergisé de l'Ouest américain en reprenant directement le site développé par Crusoe à Cheyenne (Wyoming) pour un campus annoncé à 17 Md$ / 2,7 GW (« Project Tembo ») — confirmation du schéma où l'hyperscaler évince le développeur intermédiaire une fois le site mûr et le raccordement sécurisé.",
+    "La valeur du foncier industriel déjà énergisé résiste même aux échecs : à Jay (Maine), le projet de data center sur l'ancienne papeterie Androscoggin Mill revient à la table (permis d'État, discussions renouvelées avec Sentinel) trois mois après sa mise en pause, confirmant l'attrait persistant des friches déjà raccordées au réseau électrique.",
+    "Recherches dédiées répétées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center confirmée pour FDE (seule actualité FDE identifiée : rachat de CryoPur, biométhane, sans lien data center) ; Polarise et Aurora Infrastructure (Finlande, réseaux électriques) restent sans nouvelle annonce cette semaine.",
+    "En Caroline du Nord, la décision de la Utilities Commission sur l'accord Duke Energy/Big Tech reste attendue d'ici mi-novembre ; en Virginie, le vote Loudoun sur la pause des nouvelles demandes et la fin du « grandfathering » approche (17 novembre) — deux échéances réglementaires à surveiller de près pour l'attractivité du foncier énergisé déjà engagé."
   ],
   "items": [
+    {
+      "category": "power",
+      "title": "Royaume-Uni (Teesside, Dorman Point) : National Grid achète un terrain pour la plus grande sous-station du pays, consultation publique sur le projet jusqu'au 11 novembre",
+      "region": "Europe",
+      "date": "2026-11",
+      "summary": "National Grid a acheté un terrain à Dorman Point, sur l'ancien site sidérurgique de Teesworks (Teesside), pour y construire ce qui serait la plus grande sous-station électrique du Royaume-Uni (« Teesside Node A », capacité initiale de 1,44 GW, mise en service visée fin 2029) ; la sous-station est destinée à alimenter un data center IA que Teesworks développe sur un site ayant déjà obtenu un permis d'urbanisme de principe. La consultation communautaire sur le projet doit se clore le 11 novembre, en amont d'une demande de permis attendue. Google serait intéressé selon la presse, mais aucun partenaire opérateur ou investisseur n'est confirmé à ce stade.",
+      "source": "DataCenterDynamics / Construction Enquirer / ITPro / Crypto Briefing",
+      "url": "https://datacenterdynamics.com/en/news/national-grid-buys-land-in-teesside-uk-for-32gw-substation-to-power-ai-data-center",
+      "mw": 1440,
+      "poweredLand": true,
+      "owners": "Teesworks (foncier) · National Grid (sous-station)",
+      "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Caroline du Nord) : décision attendue mi-novembre de la Utilities Commission sur l'accord Duke Energy/Big Tech sur la tarification des gros consommateurs (data centers)",
+      "region": "Amérique du Nord",
+      "date": "2026-11",
+      "summary": "Duke Energy Carolinas et Duke Energy Progress ont conclu en octobre un accord avec le Public Staff de Caroline du Nord et plusieurs géants technologiques (Amazon, Google, Meta, Microsoft) sur une nouvelle tarification « large load » pour les data centers, censée répartir le coût des infrastructures réseau dédiées ; la North Carolina Utilities Commission doit statuer sur cet accord d'ici la mi-novembre, des associations environnementales (Southern Environmental Law Center) jugeant que l'accord ne ferait porter que 25% de certains coûts sur les data centers — une décision déterminante pour le coût du foncier énergisé en Caroline du Nord, à surveiller dans les prochains jours.",
+      "source": "Axios / WUNC / SELC / Carolina Journal",
+      "url": "https://www.axios.com/local/raleigh/2026/10/07/duke-energy-agrees-on-new-rules-for-large-energy-users-like-data-centers"
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Cameron County, Texas) : SpaceX proposerait un data center de 24 Md$ avec centrale gaz dédiée à Starbase, sur un terrain désannexé de Brownsville pour contourner le moratoire local",
+      "region": "Amérique du Nord",
+      "date": "2026-11-10",
+      "summary": "Selon des documents municipaux de Starbase rapportés par la presse (The Information, Benzinga, Tesla North) début novembre, SpaceX prévoirait un centre de supercalcul couplé à une centrale électrique au gaz sur environ 444 acres à l'est de Brownsville (comté de Cameron), pour un investissement initial estimé à environ 24 Md$ ; une audience sur les incitations fiscales est fixée au 9 décembre. Le site a été désannexé de Brownsville fin août, juste avant l'adoption par la ville d'un moratoire local de 90 jours sur les data centers, le plaçant sous l'autorité de zonage de Starbase plutôt que de Brownsville ou Harlingen (qui ont, elles, un moratoire en vigueur) — SpaceX n'a pas confirmé publiquement l'usage du site.",
+      "source": "The Information / Benzinga / Tesla North / San Antonio Current",
+      "url": "https://www.benzinga.com/node/61897669",
+      "inv": 24000,
+      "poweredLand": true,
+      "owners": "SpaceX (non confirmé officiellement)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Jay, Maine) : le projet de data center sur l'ancienne papeterie Androscoggin Mill reprend son chemin administratif, accord avec Sentinel pas encore finalisé",
+      "region": "Amérique du Nord",
+      "date": "2026-11-10",
+      "summary": "Selon le Portland Press Herald (10 novembre), le propriétaire du site JGT2 Redevelopment LLC poursuit les démarches de permis environnemental d'État et des discussions renouvelées avec Sentinel Data Centers pour un projet de data center (environ 550 M$) sur l'ancienne papeterie Androscoggin Mill à Jay, après la mise en pause du projet en juin ; aucun accord définitif n'est encore conclu. Le site, fermé depuis une explosion en 2023 et racheté par JGT2 fin 2023, dispose d'une allocation électrique déjà existante auprès de Central Maine Power, ce qui en fait un cas emblématique de foncier industriel pré-énergisé à reconvertir.",
+      "source": "Portland Press Herald",
+      "url": "https://www.pressherald.com/2026/11/10/planning-for-jay-data-center-moves-forward-but-deal-not-yet-final-2/",
+      "inv": 550,
+      "coords": [
+        44.517,
+        -70.207
+      ],
+      "poweredLand": true,
+      "owners": "JGT2 Redevelopment LLC",
+      "investors": "Sentinel Data Centers (discussions renouvelées, non finalisé)"
+    },
+    {
+      "category": "competition",
+      "title": "Corée du Sud : GS Group et POSCO négocieraient un partenariat matériaux/construction pour se positionner sur le marché des AI Data Centers (AIDC)",
+      "region": "Asie",
+      "date": "2026-11-09",
+      "summary": "Selon Maeil Business (9 novembre), GS Group et POSCO discuteraient d'une coopération combinant matériaux sidérurgiques/solutions POSCO et capacités de construction/ventes internationales de GS (GS Global, GS E&C, GS Caltex) pour cibler le marché naissant des « AI Data Centers », une formalisation étant évoquée pour ce mois-ci ; information non confirmée officiellement par les deux groupes à ce stade, à suivre comme signal de repositionnement des conglomérats coréens sur la chaîne de valeur data center plutôt que comme un projet foncier identifié.",
+      "source": "Maeil Business / Korea Times",
+      "url": "https://www.koreatimes.co.kr/business/companies/20261111/gs-posco-join-hands-for-future-large-scale-ai-data-center-projects"
+    },
     {
       "category": "power",
       "title": "États-Unis : Anthropic rachète pour 3,4 Md$ les commandes de générateurs gaz d'OnePWR Solutions, sécurisant 1,7 GW de puissance captive pour ses data centers",
@@ -18,6 +79,24 @@
       "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-34bn-gas-generator-deal-to-support-17gw-of-data-center-power/",
       "mw": 1700,
       "inv": 3400
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (comté de Laramie, Wyoming) : Google finalise le rachat du site Crusoe à Cheyenne et confirme un campus à 17 Md$ (« Project Tembo », 2,7 GW)",
+      "region": "Amérique du Nord",
+      "date": "2026-11-06",
+      "summary": "Crusoe a confirmé début novembre avoir cédé à Google son site de développement data center du sud-est du Wyoming (Switchgrass Industrial Park, près de Cheyenne), au lendemain de l'annonce par Google d'un plan de long terme de 17 Md$ pour son premier data center dans l'État (« Project Tembo », capacité visée de 2,7 GW alimentée notamment par Tallgrass/BFC Power) ; selon Bloomberg, Crusoe aurait été écarté du projet après ne pas avoir réussi à sécuriser Google comme client final. Crusoe reste développeur d'un autre site Google en construction près d'Amarillo (Texas). Montant de la transaction foncière elle-même non communiqué.",
+      "source": "Crusoe (communiqué) / Reuters / Bloomberg / w.media / TechCrunch",
+      "url": "https://www.webpronews.com/google-crusoe-wyoming-data-center-site-17-billion/",
+      "mw": 2700,
+      "inv": 17000,
+      "coords": [
+        41.14,
+        -104.72
+      ],
+      "poweredLand": true,
+      "owners": "Google (Jupiter Star Holdings LLC)",
+      "investors": "n.c. (Crusoe, développeur sortant du site)"
     },
     {
       "category": "legislation",
@@ -256,28 +335,6 @@
       "investors": "n.c."
     },
     {
-      "category": "power",
-      "title": "Royaume-Uni (Teesside, Dorman Point) : National Grid achète un terrain pour la plus grande sous-station du pays, consultation publique sur le projet jusqu'au 11 novembre",
-      "region": "Europe",
-      "date": "2026-11",
-      "summary": "National Grid a acheté un terrain à Dorman Point, sur l'ancien site sidérurgique de Teesworks (Teesside), pour y construire ce qui serait la plus grande sous-station électrique du Royaume-Uni (« Teesside Node A », capacité initiale de 1,44 GW, mise en service visée fin 2029) ; la sous-station est destinée à alimenter un data center IA que Teesworks développe sur un site ayant déjà obtenu un permis d'urbanisme de principe. La consultation communautaire sur le projet doit se clore le 11 novembre, en amont d'une demande de permis attendue. Google serait intéressé selon la presse, mais aucun partenaire opérateur ou investisseur n'est confirmé à ce stade.",
-      "source": "DataCenterDynamics / Construction Enquirer / ITPro / Crypto Briefing",
-      "url": "https://datacenterdynamics.com/en/news/national-grid-buys-land-in-teesside-uk-for-32gw-substation-to-power-ai-data-center",
-      "mw": 1440,
-      "poweredLand": true,
-      "owners": "Teesworks (foncier) · National Grid (sous-station)",
-      "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Caroline du Nord) : décision attendue mi-novembre de la Utilities Commission sur l'accord Duke Energy/Big Tech sur la tarification des gros consommateurs (data centers)",
-      "region": "Amérique du Nord",
-      "date": "2026-11",
-      "summary": "Duke Energy Carolinas et Duke Energy Progress ont conclu en octobre un accord avec le Public Staff de Caroline du Nord et plusieurs géants technologiques (Amazon, Google, Meta, Microsoft) sur une nouvelle tarification « large load » pour les data centers, censée répartir le coût des infrastructures réseau dédiées ; la North Carolina Utilities Commission doit statuer sur cet accord d'ici la mi-novembre, des associations environnementales (Southern Environmental Law Center) jugeant que l'accord ne ferait porter que 25% de certains coûts sur les data centers — une décision déterminante pour le coût du foncier énergisé en Caroline du Nord, à surveiller dans les prochains jours.",
-      "source": "Axios / WUNC / SELC / Carolina Journal",
-      "url": "https://www.axios.com/local/raleigh/2026/10/07/duke-energy-agrees-on-new-rules-for-large-energy-users-like-data-centers"
-    },
-    {
       "category": "land",
       "title": "États-Unis (comté de Cassia, Idaho) : TerraVolt Holdings sécurise des options sur 1 077 acres pour un campus data center hors réseau de 240 MW alimenté au gaz",
       "region": "Amérique du Nord",
@@ -419,20 +476,6 @@
       "investors": "Anthropic (discussions en cours, non finalisé)"
     },
     {
-      "category": "power",
-      "title": "États-Unis (West Memphis, Arkansas) : Entergy Arkansas et Google ajoutent 440 MW de solaire et 1 400 MWh de stockage batterie pour le campus data center",
-      "region": "Amérique du Nord",
-      "date": "2026-10-19",
-      "summary": "Entergy Arkansas a annoncé le 19 octobre une seconde phase d'approvisionnement pour le campus data center de Google à West Memphis (investissement total estimé à environ 4 Md$) : un PPA solaire de 440 MW (projet Big Island, Pattern Energy) et deux installations de stockage batterie (1 000 MWh près d'Osceola, 400 MWh près de Hot Springs), pour un investissement réseau/génération d'environ 600 M$ financé par Google ; le dossier doit encore être validé par l'Arkansas Public Service Commission, mise en service visée 2028.",
-      "source": "Talk Business & Politics / DataCenterDynamics / T&D World",
-      "url": "https://talkbusiness.net/2026/10/entergy-google-announce-second-phase-partnership/",
-      "mw": 440,
-      "inv": 600,
-      "poweredLand": true,
-      "owners": "Google",
-      "investors": "n.c."
-    },
-    {
       "category": "land",
       "title": "Canada (Point Tupper, Nouvelle-Écosse) : Anthropic signe son premier bail data center canadien avec EverWind, campus adossé à un portefeuille éolien",
       "region": "Amérique du Nord",
@@ -449,34 +492,6 @@
       "poweredLand": true,
       "owners": "EverWind Fuels",
       "investors": "Anthropic (locataire, bail ≥20 ans)"
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Virginie) : la sénatrice Russet Perry dépose un projet de moratorium étatique de trois ans sur les nouveaux data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-10-16",
-      "summary": "La sénatrice démocrate Russet Perry (Loudoun) a déposé le Senate Bill 843, qui suspendrait pendant trois ans (du 1er juillet 2027 au 1er juillet 2030) toute nouvelle approbation locale de data center nécessitant un rezonage, une exception spéciale ou un permis de construire, ainsi que les lignes de distribution et la puissance sur site dédiées ; deux autres sénateurs (Danica Roem, Glen Sturtevant) préparent des versions concurrentes, tandis que la gouverneure Spanberger n'a pas endossé de moratorium mais a présenté un cadre de responsabilisation des data centers. Le débat est attendu à la session législative de janvier 2027 ; Loudoun County prépare par ailleurs son propre moratorium local de 12 mois, et le comté voisin de Prince William durcit ses règles d'urbanisme.",
-      "source": "Virginia Mercury / Baxtel / Broadband Breakfast",
-      "url": "https://virginiamercury.com/2026/10/16/data-center-moratorium-bills-stack-up-ahead-of-virginia-legislative-session-in-january/",
-      "owners": "n.c.",
-      "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "États-Unis (Carson County, Amarillo, Texas) : AMD apporte un soutien de crédit à la 1ère phase (222 MW) du campus foncier énergisé « Project Matador » de Fermi",
-      "region": "Amérique du Nord",
-      "date": "2026-10-13",
-      "summary": "Fermi America a signé le 13 octobre un accord de soutien de crédit avec AMD, qui agit comme garant pour permettre à Fermi de boucler le financement de la première phase (222 MW) de son campus Project Matador, dont le premier bail est déjà signé avec le locataire TensorWave (environ 6,5 Md$ de revenus sur 15 ans) ; les deux sociétés ont aussi conclu un cadre de partenariat pour jusqu'à 650 MW de phases futures. Le bail doit encore être finalisé avant le 31 octobre et le financement de projet reste à boucler.",
-      "source": "DataCenterDynamics / Newswire / TIKR",
-      "url": "https://datacenterdynamics.com/en/news/fermi-and-amd-sign-credit-support-deal-for-build-out-of-project-matador-campus-in-amarillo-texas",
-      "mw": 222,
-      "coords": [
-        35.199,
-        -101.8313
-      ],
-      "poweredLand": true,
-      "owners": "Fermi America",
-      "investors": "AMD (garant/soutien de crédit) · TensorWave (locataire)"
     },
     {
       "category": "power",
