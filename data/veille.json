@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-12",
+  "lastUpdated": "2026-11-13",
   "keyTakeaways": [
-    "Les moratoires locaux américains poussent à des contournements fonciers explicites : SpaceX a fait désannexer 444 acres de Brownsville vers Starbase (hors moratoire) pour un projet de 24 Md$ (centrale gaz dédiée + supercalcul), signe que la juridiction foncière devient elle-même un levier de sourcing face à la vague de restrictions locales.",
-    "Google consolide son emprise sur le foncier énergisé de l'Ouest américain en reprenant directement le site développé par Crusoe à Cheyenne (Wyoming) pour un campus annoncé à 17 Md$ / 2,7 GW (« Project Tembo ») — confirmation du schéma où l'hyperscaler évince le développeur intermédiaire une fois le site mûr et le raccordement sécurisé.",
-    "La valeur du foncier industriel déjà énergisé résiste même aux échecs : à Jay (Maine), le projet de data center sur l'ancienne papeterie Androscoggin Mill revient à la table (permis d'État, discussions renouvelées avec Sentinel) trois mois après sa mise en pause, confirmant l'attrait persistant des friches déjà raccordées au réseau électrique.",
-    "Recherches dédiées répétées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center confirmée pour FDE (seule actualité FDE identifiée : rachat de CryoPur, biométhane, sans lien data center) ; Polarise et Aurora Infrastructure (Finlande, réseaux électriques) restent sans nouvelle annonce cette semaine.",
-    "En Caroline du Nord, la décision de la Utilities Commission sur l'accord Duke Energy/Big Tech reste attendue d'ici mi-novembre ; en Virginie, le vote Loudoun sur la pause des nouvelles demandes et la fin du « grandfathering » approche (17 novembre) — deux échéances réglementaires à surveiller de près pour l'attractivité du foncier énergisé déjà engagé."
+    "Le modèle du foncier énergisé reste résilient face aux aléas locataires : Fermi (Project Matador/HyperGrid, Texas) résilie son bail avec TensorWave (jusqu'à 650 MW) mais signe le jour même un nouvel accord à 600 MW avec un hyperscaler confidentiel (prépaiement de 200 M$) — le site pré-équipé en génération gaz dédiée retrouve un locataire sans perdre sa valeur.",
+    "Deux échéances réglementaires majeures arrivent à bref délai et vont directement peser sur le coût et la disponibilité du foncier énergisé : la décision de la North Carolina Utilities Commission sur l'accord tarifaire Duke Energy/Big Tech est attendue d'ici la mi-novembre, et le Board of Supervisors de Loudoun County doit statuer le 17 novembre sur la pause des nouvelles demandes et la fin du « grandfathering » pour une vingtaine de projets déjà engagés (risque de contentieux chiffré à 60 M$ par l'avocat du comté).",
+    "En Espagne, le projet de décret sur les data centers (seuil relevé à 10 MW, délai des renouvelables additionnelles étendu à 36 mois) reste en attente de passage au Conseil des ministres sous procédure d'urgence ; les ONG environnementales continuent d'alerter sur un possible assouplissement au détriment de projets comme la gigafactory IA de Móra la Nova.",
+    "Recherches dédiées répétées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs — Polarise reste centré sur son pipeline allemand (Amberg, Bavière, 30 MW extensible à 120 MW), Aurora Infrastructure (Finlande, réseaux électriques, groupe Equitix) n'a pas d'actualité data center au-delà d'un MoU énergie de mars avec Norsk e-Fuel, et FDE n'a toujours aucune actualité data center identifiée.",
+    "Le marché du foncier data center américain continue de valoriser fortement la puissance déjà sécurisée : les achats de foncier dédiés aux data centers ont atteint environ 6 Md$ aux États-Unis au premier semestre 2026 (+79% sur un an selon Avison Young), avec une prime nette pour le foncier énergisé (environ 6 M$/acre contre 4 M$/acre sans raccordement en Virginie du Nord selon les estimations de marché)."
   ],
   "items": [
     {
@@ -29,6 +29,19 @@
       "summary": "Duke Energy Carolinas et Duke Energy Progress ont conclu en octobre un accord avec le Public Staff de Caroline du Nord et plusieurs géants technologiques (Amazon, Google, Meta, Microsoft) sur une nouvelle tarification « large load » pour les data centers, censée répartir le coût des infrastructures réseau dédiées ; la North Carolina Utilities Commission doit statuer sur cet accord d'ici la mi-novembre, des associations environnementales (Southern Environmental Law Center) jugeant que l'accord ne ferait porter que 25% de certains coûts sur les data centers — une décision déterminante pour le coût du foncier énergisé en Caroline du Nord, à surveiller dans les prochains jours.",
       "source": "Axios / WUNC / SELC / Carolina Journal",
       "url": "https://www.axios.com/local/raleigh/2026/10/07/duke-energy-agrees-on-new-rules-for-large-energy-users-like-data-centers"
+    },
+    {
+      "category": "power",
+      "title": "États-Unis (Carson County, Texas) : Fermi signe un accord avec un hyperscaler non identifié pour 600 MW à Project Matador, résilie le bail TensorWave",
+      "region": "Amérique du Nord",
+      "date": "2026-11-12",
+      "summary": "Fermi Inc. a annoncé le 12 novembre un accord avec un client hyperscaler non identifié (qualifié d'investment-grade) portant sur 600 MW de capacité électrique à son campus Project Matador (plateforme HyperGrid, Carson County, près d'Amarillo, Texas), mise en service visée à partir de 2027 ; l'accord inclut un prépaiement client de 200 M$ et un contrat distinct de 15 M$ pour les travaux préparatoires et le développement anticipé du site. Fermi a dans le même temps annoncé la résiliation de son bail de data center avec TensorWave (qui portait sur jusqu'à 650 MW sur ce même site), les deux parties vers le nouveau client continuant de travailler à un bail définitif de long terme.",
+      "source": "Fermi Inc. (communiqué) / Investing.com",
+      "url": "https://investing.com/news/company-news/fermi-secures-600-mw-hyperscaler-deal-terminates-tensorwave-lease-93CH-5021319",
+      "mw": 600,
+      "poweredLand": true,
+      "owners": "Fermi Inc. (Project Matador / HyperGrid)",
+      "investors": "n.c. (client hyperscaler confidentiel ; prépaiement de 200 M$)"
     },
     {
       "category": "land",
@@ -59,15 +72,6 @@
       "poweredLand": true,
       "owners": "JGT2 Redevelopment LLC",
       "investors": "Sentinel Data Centers (discussions renouvelées, non finalisé)"
-    },
-    {
-      "category": "competition",
-      "title": "Corée du Sud : GS Group et POSCO négocieraient un partenariat matériaux/construction pour se positionner sur le marché des AI Data Centers (AIDC)",
-      "region": "Asie",
-      "date": "2026-11-09",
-      "summary": "Selon Maeil Business (9 novembre), GS Group et POSCO discuteraient d'une coopération combinant matériaux sidérurgiques/solutions POSCO et capacités de construction/ventes internationales de GS (GS Global, GS E&C, GS Caltex) pour cibler le marché naissant des « AI Data Centers », une formalisation étant évoquée pour ce mois-ci ; information non confirmée officiellement par les deux groupes à ce stade, à suivre comme signal de repositionnement des conglomérats coréens sur la chaîne de valeur data center plutôt que comme un projet foncier identifié.",
-      "source": "Maeil Business / Korea Times",
-      "url": "https://www.koreatimes.co.kr/business/companies/20261111/gs-posco-join-hands-for-future-large-scale-ai-data-center-projects"
     },
     {
       "category": "power",
@@ -157,17 +161,6 @@
       "source": "NBC4 Columbus / Yahoo News / Benzinga",
       "url": "https://www.nbc4i.com/news/your-local-election-hq/columbus-area-communities-vote-on-data-center-issues-live-results/",
       "owners": "Amazon Web Services (projet Sunbury) · EdgeConneX (projets Ashville)",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Ohio) : au-delà de Sunbury/Granville/Pataskala, les électeurs de Conneaut, Defiance et Oregon approuvent aussi un plafond de 25 MW pour les data centers",
-      "region": "Amérique du Nord",
-      "date": "2026-11-04",
-      "summary": "Au-delà des cinq communes de la région de Columbus déjà recensées (Sunbury, Granville, Pataskala, Grove City, Ashville), le recensement plus large des résultats du 3 novembre confirme que Conneaut (comté d'Ashtabula), Defiance et Oregon (près de Toledo, où le projet Vantage Data Centers était explicitement visé par les opposants) ont également voté en faveur d'un plafond de 25 MW sur les data centers, portant à au moins huit le nombre de communes ohioennes ayant restreint les projets lors de ce scrutin ; au niveau national, la presse recense une dizaine d'États et jusqu'à 41 mesures locales soumises au vote le 3 novembre, la quasi-totalité se traduisant par des restrictions renforcées sur le foncier data center.",
-      "source": "DataCenterDynamics / News 5 Cleveland / 13abc / Crescent-News",
-      "url": "https://datacenterdynamics.com/en/news/local-data-center-moratoria-limits-and-restrictions-voted-in-across-the-us/",
-      "owners": "n.c.",
       "investors": "n.c."
     },
     {
