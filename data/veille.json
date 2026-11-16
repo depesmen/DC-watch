@@ -1,13 +1,39 @@
 {
-  "lastUpdated": "2026-11-13",
+  "lastUpdated": "2026-11-16",
   "keyTakeaways": [
-    "Le modèle du foncier énergisé reste résilient face aux aléas locataires : Fermi (Project Matador/HyperGrid, Texas) résilie son bail avec TensorWave (jusqu'à 650 MW) mais signe le jour même un nouvel accord à 600 MW avec un hyperscaler confidentiel (prépaiement de 200 M$) — le site pré-équipé en génération gaz dédiée retrouve un locataire sans perdre sa valeur.",
-    "Deux échéances réglementaires majeures arrivent à bref délai et vont directement peser sur le coût et la disponibilité du foncier énergisé : la décision de la North Carolina Utilities Commission sur l'accord tarifaire Duke Energy/Big Tech est attendue d'ici la mi-novembre, et le Board of Supervisors de Loudoun County doit statuer le 17 novembre sur la pause des nouvelles demandes et la fin du « grandfathering » pour une vingtaine de projets déjà engagés (risque de contentieux chiffré à 60 M$ par l'avocat du comté).",
-    "En Espagne, le projet de décret sur les data centers (seuil relevé à 10 MW, délai des renouvelables additionnelles étendu à 36 mois) reste en attente de passage au Conseil des ministres sous procédure d'urgence ; les ONG environnementales continuent d'alerter sur un possible assouplissement au détriment de projets comme la gigafactory IA de Móra la Nova.",
-    "Recherches dédiées répétées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs — Polarise reste centré sur son pipeline allemand (Amberg, Bavière, 30 MW extensible à 120 MW), Aurora Infrastructure (Finlande, réseaux électriques, groupe Equitix) n'a pas d'actualité data center au-delà d'un MoU énergie de mars avec Norsk e-Fuel, et FDE n'a toujours aucune actualité data center identifiée.",
-    "Le marché du foncier data center américain continue de valoriser fortement la puissance déjà sécurisée : les achats de foncier dédiés aux data centers ont atteint environ 6 Md$ aux États-Unis au premier semestre 2026 (+79% sur un an selon Avison Young), avec une prime nette pour le foncier énergisé (environ 6 M$/acre contre 4 M$/acre sans raccordement en Virginie du Nord selon les estimations de marché)."
+    "Nouveau grand pari sur du foncier non encore énergisé : Lambda ancre « Project Red Clay » (33,1 Md$, ~1 GW) à Lowndes County (Alabama), malgré un abattement fiscal de 1,15 Md$ voté en urgence (13 octobre) et une deuxième action en justice de riverains sur la transparence du processus — un nouveau cas d'école de risque contentieux local pesant sur un site non encore raccordé.",
+    "Deux échéances réglementaires majeures arrivent à très bref délai et vont directement peser sur le coût et la disponibilité du foncier énergisé américain : le Board of Supervisors de Loudoun County statue le 17 novembre (demain) sur la pause des nouvelles demandes et la fin du « grandfathering » pour une vingtaine de projets déjà engagés, et la North Carolina Utilities Commission doit encore statuer sur l'accord tarifaire Duke Energy/Big Tech, la décision restant attendue d'ici la mi-novembre sans qu'aucune décision n'ait encore été rendue publique à ce jour.",
+    "En Espagne, le projet de décret sur les data centers (seuil à 1 MW, obligation de couverture à 80% par des renouvelables additionnelles) est toujours en instruction au Conseil d'État, dernière étape avant retour au gouvernement ; adoption toujours visée avant le 29 novembre, les ONG environnementales et la filière SpainDC continuant de s'opposer sur des positions inverses (trop laxiste vs trop strict).",
+    "Recherches dédiées répétées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs — situation inchangée par rapport aux veilles précédentes.",
+    "Le marché du foncier data center américain continue de valoriser fortement la puissance déjà sécurisée (prime nette pour le foncier énergisé, de l'ordre de 6 M$/acre contre 4 M$/acre sans raccordement en Virginie du Nord selon les estimations de marché), tandis qu'en Asie le marché malaisien de Johor progresse d'un cran avec l'approbation actionnariale (27 octobre) de la cession de 65 acres de Paragon Globe à DayOne Data Centers."
   ],
   "items": [
+    {
+      "category": "construction",
+      "title": "États-Unis (Lowndes County, Alabama) : Lambda ancre un campus data center de 33,1 Md$ (« Project Red Clay », ~1 GW), malgré une deuxième action en justice de riverains",
+      "region": "Amérique du Nord",
+      "date": "2026-11-04",
+      "summary": "Lambda a annoncé le 4 novembre un investissement pouvant atteindre 33,1 Md$ pour ancrer « Project Red Clay », un campus data center d'environ 1 GW développé par Cloverleaf Infrastructure sur environ 800 acres à Lowndes County (Alabama, le long de la route historique Selma-Montgomery) ; la commission du comté avait voté le 13 octobre, dans la précipitation selon des associations locales, un abattement fiscal de 1,15 Md$ sur 20 ans, mais le contrat d'approvisionnement avec Alabama Power reste soumis à l'approbation réglementaire et une deuxième action en justice de riverains a été déposée, contestant la transparence du processus d'approbation.",
+      "source": "Lambda (communiqué) / Baxtel / SELC / GovTech",
+      "url": "https://lambda.ai/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center",
+      "mw": 1000,
+      "inv": 33100,
+      "poweredLand": true,
+      "owners": "Cloverleaf Infrastructure (développeur) · Lambda (ancre/locataire)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Malaisie (Johor Bahru) : les actionnaires de Paragon Globe approuvent la cession de 65 acres à DayOne Data Centers pour environ 100 M$",
+      "region": "Asie",
+      "date": "2026-10-27",
+      "summary": "Les actionnaires du promoteur malaisien Paragon Globe ont approuvé le 27 octobre la cession de deux parcelles (environ 65 acres, actuellement zonées agricoles) à Johor Bahru à DayOne Data Centers Malaysia III, pour un montant annoncé à environ 100 M$ (accord initial de juin évalué à environ 96,6 M$/RM398,11 M) ; la transaction, qui doit encore obtenir le changement d'usage des terres et les permis data center, est attendue pour finalisation au second semestre 2027.",
+      "source": "W.Media / Bursa Malaysia / DataCenterDynamics",
+      "url": "https://w.media/dayone-deepens-johor-data-center-push-with-us-96-6-million-land-deal/",
+      "inv": 100,
+      "owners": "Paragon Globe (vendeur)",
+      "investors": "DayOne Data Centers Malaysia III"
+    },
     {
       "category": "power",
       "title": "Royaume-Uni (Teesside, Dorman Point) : National Grid achète un terrain pour la plus grande sous-station du pays, consultation publique sur le projet jusqu'au 11 novembre",
@@ -467,24 +493,6 @@
       "poweredLand": true,
       "owners": "Nscale",
       "investors": "Anthropic (discussions en cours, non finalisé)"
-    },
-    {
-      "category": "land",
-      "title": "Canada (Point Tupper, Nouvelle-Écosse) : Anthropic signe son premier bail data center canadien avec EverWind, campus adossé à un portefeuille éolien",
-      "region": "Amérique du Nord",
-      "date": "2026-10-16",
-      "summary": "EverWind Fuels et Anthropic ont annoncé le 16 octobre un bail d'au moins 20 ans pour une première tranche de 95 MW au campus de Point Tupper (Nouvelle-Écosse), dans le cadre d'un plan d'investissement EverWind dépassant 10 Md CAD (environ 7,1 Md$), dont plus de 8 Md CAD pour le campus data center et 2 Md CAD pour son portefeuille éolien terrestre colocalisé ; il s'agit du premier accord data center d'Anthropic au Canada, la mise en service étant visée pour fin 2027. EverWind qualifie l'opération de plus gros investissement privé de l'histoire de la Nouvelle-Écosse.",
-      "source": "EverWind Fuels / DataCenterDynamics / BetaKit",
-      "url": "https://betakit.com/anthropic-signs-lease-for-10-billion-nova-scotia-data-centre/",
-      "mw": 95,
-      "inv": 7100,
-      "coords": [
-        45.606,
-        -61.342
-      ],
-      "poweredLand": true,
-      "owners": "EverWind Fuels",
-      "investors": "Anthropic (locataire, bail ≥20 ans)"
     },
     {
       "category": "power",
