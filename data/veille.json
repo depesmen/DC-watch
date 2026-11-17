@@ -1,39 +1,13 @@
 {
-  "lastUpdated": "2026-11-16",
+  "lastUpdated": "2026-11-17",
   "keyTakeaways": [
-    "Nouveau grand pari sur du foncier non encore énergisé : Lambda ancre « Project Red Clay » (33,1 Md$, ~1 GW) à Lowndes County (Alabama), malgré un abattement fiscal de 1,15 Md$ voté en urgence (13 octobre) et une deuxième action en justice de riverains sur la transparence du processus — un nouveau cas d'école de risque contentieux local pesant sur un site non encore raccordé.",
-    "Deux échéances réglementaires majeures arrivent à très bref délai et vont directement peser sur le coût et la disponibilité du foncier énergisé américain : le Board of Supervisors de Loudoun County statue le 17 novembre (demain) sur la pause des nouvelles demandes et la fin du « grandfathering » pour une vingtaine de projets déjà engagés, et la North Carolina Utilities Commission doit encore statuer sur l'accord tarifaire Duke Energy/Big Tech, la décision restant attendue d'ici la mi-novembre sans qu'aucune décision n'ait encore été rendue publique à ce jour.",
-    "En Espagne, le projet de décret sur les data centers (seuil à 1 MW, obligation de couverture à 80% par des renouvelables additionnelles) est toujours en instruction au Conseil d'État, dernière étape avant retour au gouvernement ; adoption toujours visée avant le 29 novembre, les ONG environnementales et la filière SpainDC continuant de s'opposer sur des positions inverses (trop laxiste vs trop strict).",
-    "Recherches dédiées répétées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs — situation inchangée par rapport aux veilles précédentes.",
-    "Le marché du foncier data center américain continue de valoriser fortement la puissance déjà sécurisée (prime nette pour le foncier énergisé, de l'ordre de 6 M$/acre contre 4 M$/acre sans raccordement en Virginie du Nord selon les estimations de marché), tandis qu'en Asie le marché malaisien de Johor progresse d'un cran avec l'approbation actionnariale (27 octobre) de la cession de 65 acres de Paragon Globe à DayOne Data Centers."
+    "Le financement dédié au foncier pré-développement s'affirme comme une classe d'actifs à part entière : Rowan Digital Infrastructure (Blackstone/Quinbrook) sécurise 1,5 Md$ supplémentaires explicitement fléchés vers l'acquisition de terrain, le raccordement réseau et les équipements à long délai sur un pipeline de 5,5 GW, pendant que Polar DC Group (H.I.G. Capital) dépasse 1 Md€ de financements cumulés dont une facilité de 75 M€ de Palistar Capital dédiée au foncier et au permitting en Finlande et Allemagne — deux signaux convergents que le marché commence à financer le « powered land » en amont de toute construction.",
+    "Le retrait de Prometheus Hyperscale de son campus de 1,25 GW près de Casper (Wyoming), alors que le propriétaire foncier affirme vouloir poursuivre le projet avec un autre partenaire, illustre le risque d'échec d'un montage foncier+énergie déjà engagé face à l'opposition locale croissante — un rappel utile que la sécurisation du foncier ne garantit pas la pérennité du projet porté dessus.",
+    "Deux échéances réglementaires américaines majeures arrivent à leur terme cette semaine sans issue encore connue : le Board of Supervisors de Loudoun County vote aujourd'hui (17 novembre) sur la pause des nouvelles demandes et la fin du « grandfathering » d'une vingtaine de projets déjà engagés, et la North Carolina Utilities Commission n'a toujours pas rendu sa décision sur l'accord tarifaire Duke Energy/Big Tech, attendue avant le 1er janvier 2027 — deux dossiers à rouvrir dès demain pour en connaître l'issue.",
+    "En Espagne, le projet de décret sur les data centers reste bloqué devant le Conseil d'État, sans nouvelle confirmation de calendrier d'adoption ; SpainDC s'est fait accepter pour se présenter devant l'instance, aux côtés d'une pression concurrente des grandes ONG environnementales pour ne pas assouplir le texte — un bras de fer toujours sans résolution.",
+    "Recherches dédiées répétées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs — situation inchangée depuis plusieurs veilles consécutives."
   ],
   "items": [
-    {
-      "category": "construction",
-      "title": "États-Unis (Lowndes County, Alabama) : Lambda ancre un campus data center de 33,1 Md$ (« Project Red Clay », ~1 GW), malgré une deuxième action en justice de riverains",
-      "region": "Amérique du Nord",
-      "date": "2026-11-04",
-      "summary": "Lambda a annoncé le 4 novembre un investissement pouvant atteindre 33,1 Md$ pour ancrer « Project Red Clay », un campus data center d'environ 1 GW développé par Cloverleaf Infrastructure sur environ 800 acres à Lowndes County (Alabama, le long de la route historique Selma-Montgomery) ; la commission du comté avait voté le 13 octobre, dans la précipitation selon des associations locales, un abattement fiscal de 1,15 Md$ sur 20 ans, mais le contrat d'approvisionnement avec Alabama Power reste soumis à l'approbation réglementaire et une deuxième action en justice de riverains a été déposée, contestant la transparence du processus d'approbation.",
-      "source": "Lambda (communiqué) / Baxtel / SELC / GovTech",
-      "url": "https://lambda.ai/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center",
-      "mw": 1000,
-      "inv": 33100,
-      "poweredLand": true,
-      "owners": "Cloverleaf Infrastructure (développeur) · Lambda (ancre/locataire)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Malaisie (Johor Bahru) : les actionnaires de Paragon Globe approuvent la cession de 65 acres à DayOne Data Centers pour environ 100 M$",
-      "region": "Asie",
-      "date": "2026-10-27",
-      "summary": "Les actionnaires du promoteur malaisien Paragon Globe ont approuvé le 27 octobre la cession de deux parcelles (environ 65 acres, actuellement zonées agricoles) à Johor Bahru à DayOne Data Centers Malaysia III, pour un montant annoncé à environ 100 M$ (accord initial de juin évalué à environ 96,6 M$/RM398,11 M) ; la transaction, qui doit encore obtenir le changement d'usage des terres et les permis data center, est attendue pour finalisation au second semestre 2027.",
-      "source": "W.Media / Bursa Malaysia / DataCenterDynamics",
-      "url": "https://w.media/dayone-deepens-johor-data-center-push-with-us-96-6-million-land-deal/",
-      "inv": 100,
-      "owners": "Paragon Globe (vendeur)",
-      "investors": "DayOne Data Centers Malaysia III"
-    },
     {
       "category": "power",
       "title": "Royaume-Uni (Teesside, Dorman Point) : National Grid achète un terrain pour la plus grande sous-station du pays, consultation publique sur le projet jusqu'au 11 novembre",
@@ -68,6 +42,20 @@
       "poweredLand": true,
       "owners": "Fermi Inc. (Project Matador / HyperGrid)",
       "investors": "n.c. (client hyperscaler confidentiel ; prépaiement de 200 M$)"
+    },
+    {
+      "category": "market",
+      "title": "États-Unis : Rowan Digital Infrastructure (Blackstone, Quinbrook) sécurise plus de 1,5 Md$ de financement additionnel pour son pipeline foncier et réseau de 5,5 GW",
+      "region": "Amérique du Nord",
+      "date": "2026-11-12",
+      "summary": "Rowan Digital Infrastructure, recapitalisée par Blackstone (participation minoritaire d'environ 49%, valorisation ~3,8 Md$) aux côtés de Quinbrook, a annoncé le 12 novembre plus de 1,5 Md$ de financements additionnels menés par Citibank et Apterra Infrastructure Capital ; les fonds sont explicitement destinés à l'acquisition de foncier, au raccordement réseau et aux équipements à long délai de livraison en amont de la construction, sur un pipeline revendiqué de 5,5 GW (Texas, Maryland, Oregon notamment). Rowan a levé plus de 8 Md$ auprès de plus de 40 prêteurs en 18 mois — un signal fort de la montée en puissance du financement dédié au foncier pré-développement.",
+      "source": "Bloomberg / Power Magazine / drweb.de",
+      "url": "https://www.powermag.com/rowan-digital-infrastructure-secures-1-5-billion-in-financing-for-hyperscale-development-platform",
+      "mw": 5500,
+      "inv": 1500,
+      "poweredLand": true,
+      "owners": "Rowan Digital Infrastructure (Quinbrook)",
+      "investors": "Blackstone (participation minoritaire ~49%) · Citibank · Apterra Infrastructure Capital · +40 prêteurs"
     },
     {
       "category": "land",
@@ -177,6 +165,33 @@
       "poweredLand": true,
       "owners": "n.c. (term sheet non engageant)",
       "investors": "NextNRG"
+    },
+    {
+      "category": "market",
+      "title": "Europe (Norvège, Finlande, Allemagne) : Polar DC Group (H.I.G. Capital) franchit 1 Md€ de financements cumulés en 2026, avec une facilité dédiée au foncier et au raccordement en Finlande et Allemagne",
+      "region": "Europe",
+      "date": "2026-11-05",
+      "summary": "Polar DC Group, contrôlé par H.I.G. Capital et LIAN Group, a annoncé le 5 novembre avoir dépassé 1 Md€ de financements cumulés sur 2026, combinant l'émission obligataire senior sécurisée de 800 M€ réalisée en juin (refinancement et achèvement de son site norvégien de Drangedal) et une nouvelle facilité de développement de 75 M€ auprès de Palistar Capital, extensible via de nouveaux prêteurs ; cette dernière est explicitement dédiée au travail de foncier, de raccordement réseau et de permitting nécessaire pour transformer des opportunités identifiées en Finlande et en Allemagne en sites prêts à construire — une illustration directe du financement amont du « powered land » en Europe du Nord.",
+      "source": "H.I.G. Capital (communiqué) / Dealroom / bebeez.eu",
+      "url": "https://dealroom.co/news/169947-polar-lands-75m-facility-crossing-1b-raised-for-european-ai-data-centres/",
+      "inv": 1080,
+      "poweredLand": true,
+      "owners": "Polar DC Group (H.I.G. Capital · LIAN Group)",
+      "investors": "H.I.G. Capital · LIAN Group · Palistar Capital (facilité foncier/raccordement 75 M€)"
+    },
+    {
+      "category": "construction",
+      "title": "États-Unis (Lowndes County, Alabama) : Lambda ancre un campus data center de 33,1 Md$ (« Project Red Clay », ~1 GW), malgré une deuxième action en justice de riverains",
+      "region": "Amérique du Nord",
+      "date": "2026-11-04",
+      "summary": "Lambda a annoncé le 4 novembre un investissement pouvant atteindre 33,1 Md$ pour ancrer « Project Red Clay », un campus data center d'environ 1 GW développé par Cloverleaf Infrastructure sur environ 800 acres à Lowndes County (Alabama, le long de la route historique Selma-Montgomery) ; la commission du comté avait voté le 13 octobre, dans la précipitation selon des associations locales, un abattement fiscal de 1,15 Md$ sur 20 ans, mais le contrat d'approvisionnement avec Alabama Power reste soumis à l'approbation réglementaire et une deuxième action en justice de riverains a été déposée, contestant la transparence du processus d'approbation.",
+      "source": "Lambda (communiqué) / Baxtel / SELC / GovTech",
+      "url": "https://lambda.ai/blog/lambda-to-invest-33-billion-in-alabama-with-new-data-center",
+      "mw": 1000,
+      "inv": 33100,
+      "poweredLand": true,
+      "owners": "Cloverleaf Infrastructure (développeur) · Lambda (ancre/locataire)",
+      "investors": "n.c."
     },
     {
       "category": "legislation",
@@ -294,15 +309,6 @@
       "investors": "n.c."
     },
     {
-      "category": "construction",
-      "title": "Corée du Sud (Gumi) : Samsung SDS démarre la construction d'un data center IA, premier jalon du plan d'investissement régional de Samsung dans le Yeongnam",
-      "region": "Asie",
-      "date": "2026-11-02",
-      "summary": "Samsung SDS a organisé le 2 novembre la cérémonie de lancement des travaux de son data center IA à Gumi (province du Gyeongsang du Nord), première étape du plan d'investissement d'environ 60 000 Md KRW de Samsung Group dans la région de Yeongnam ; la construction est prévue jusqu'à fin 2028, pour une mise en exploitation complète visée en mars 2029.",
-      "source": "Korea Times / Herald Business",
-      "url": "https://www.koreatimes.co.kr/business/companies/20261102/samsung-sds-breaks-ground-on-ai-data-center-in-gumi"
-    },
-    {
       "category": "land",
       "title": "États-Unis (comté de Powhatan, Virginie) : une entité liée à Vantage Data Centers finalise l'achat de 180 acres pour un campus data center d'environ 3 Md$",
       "region": "Amérique du Nord",
@@ -319,23 +325,6 @@
       "poweredLand": true,
       "owners": "Vantage Data Centers (Powhatan Technology Park LLC) · Province Group (développeur)",
       "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (comté de Cochise, Arizona) : Tombstone Resources dépose une demande pour un campus data center de 6 GW sur un terrain à racheter à l'exploitant de la centrale Apache Generating Station",
-      "region": "Amérique du Nord",
-      "date": "2026-11-02",
-      "summary": "Le comté de Cochise (Arizona) a annoncé le 2 novembre avoir reçu une demande d'usage spécial de Tombstone Resources LLC pour un campus data center pouvant atteindre 6 GW (jusqu'à neuf bâtiments) sur environ 747 acres le long de la US 191, près de la communauté de Cochise ; le terrain doit être racheté à la coopérative électrique Arizona Electric Power Cooperative (AEPCO), qui exploite la centrale voisine Apache Generating Station (charbon/gaz, bascule au tout-gaz visée pour 2027) et qui fournirait également l'électricité du site, en lien avec Southline Transmission LLC. Une réunion publique s'est tenue le 4 novembre ; la presse locale évoque un possible lien avec SpaceX, non confirmé à ce stade, et la consommation d'eau du site reste inconnue.",
-      "source": "KJZZ / AZFamily / More Than Just Parks",
-      "url": "https://www.kjzz.org/business/2026-11-03/largest-data-center-proposal-in-arizona-heads-to-cochise-county-1st-community-meeting-scheduled",
-      "mw": 6000,
-      "coords": [
-        32.098,
-        -109.89
-      ],
-      "poweredLand": true,
-      "owners": "Tombstone Resources LLC (acheteur proposé) · AEPCO (vendeur/fournisseur d'électricité)",
-      "investors": "n.c. (lien SpaceX évoqué par la presse, non confirmé)"
     },
     {
       "category": "land",
@@ -382,6 +371,44 @@
       "poweredLand": true,
       "owners": "n.c. (site en diligence ; lien avec Tract évoqué par la presse, non confirmé)",
       "investors": "Google (client final confirmé par le comté)"
+    },
+    {
+      "category": "competition",
+      "title": "États-Unis (Natrona County, Wyoming) : Prometheus Hyperscale se retire du campus de 1,25 GW près de Casper, le propriétaire foncier affirme que le projet n'est pas mort",
+      "region": "Amérique du Nord",
+      "date": "2026-10-28",
+      "summary": "Prometheus Hyperscale a annoncé le 28 octobre renoncer à son projet de campus data center de 1 250 MW (environ 640 acres pour les data halls, 300 acres supplémentaires pour la centrale électrique dédiée) sur le ranch Falls Ranch près de Casper (Wyoming), son président évoquant un retrait des comtés de Natrona et Converse dans un contexte d'opposition locale croissante ; le propriétaire du terrain affirme toutefois que le projet se poursuit avec un autre partenaire à identifier — un cas d'école du risque d'échec d'un montage foncier+énergie déjà engagé, y compris sur un site où la centrale dédiée était planifiée.",
+      "source": "WyoFile / DataCenterDynamics / Cowboy State Daily",
+      "url": "https://datacenterdynamics.com/en/news/prometheus-hyperscale-pulls-out-of-gigawatt-scale-data-center-project-in-casper-wyoming",
+      "mw": 1250,
+      "poweredLand": true,
+      "owners": "Falls Ranch (propriétaire foncier ; projet maintenu selon le propriétaire)",
+      "investors": "n.c. (Prometheus Hyperscale, développeur sortant)"
+    },
+    {
+      "category": "market",
+      "title": "États-Unis (Santa Clara, Californie) : EdgeCore (Partners Group) boucle un second financement adossé à ses actifs (ABS) de 521 M$ pour son site de Silicon Valley",
+      "region": "Amérique du Nord",
+      "date": "2026-10-28",
+      "summary": "EdgeCore Digital Infrastructure, détenue par Partners Group, a finalisé le 28 octobre une titrisation adossée à des actifs (ABS) de 521 M$ garantie par son site SV01 de Santa Clara (36 MW de capacité IT), deuxième opération de ce type après un ABS de 235 M$ en 2025 adossé à son site PH01 de Phoenix ; les produits serviront à refinancer des prêts de construction et à financer de futurs projets de data centers, sans site nouveau nommé à ce stade.",
+      "source": "DataCenterDynamics / Pulse2 / Blackridge Research",
+      "url": "https://datacenterdynamics.com/en/news/edgecore-secures-521-million-in-abs-financing",
+      "mw": 36,
+      "inv": 521,
+      "owners": "EdgeCore Digital Infrastructure (Partners Group)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Malaisie (Johor Bahru) : les actionnaires de Paragon Globe approuvent la cession de 65 acres à DayOne Data Centers pour environ 100 M$",
+      "region": "Asie",
+      "date": "2026-10-27",
+      "summary": "Les actionnaires du promoteur malaisien Paragon Globe ont approuvé le 27 octobre la cession de deux parcelles (environ 65 acres, actuellement zonées agricoles) à Johor Bahru à DayOne Data Centers Malaysia III, pour un montant annoncé à environ 100 M$ (accord initial de juin évalué à environ 96,6 M$/RM398,11 M) ; la transaction, qui doit encore obtenir le changement d'usage des terres et les permis data center, est attendue pour finalisation au second semestre 2027.",
+      "source": "W.Media / Bursa Malaysia / DataCenterDynamics",
+      "url": "https://w.media/dayone-deepens-johor-data-center-push-with-us-96-6-million-land-deal/",
+      "inv": 100,
+      "owners": "Paragon Globe (vendeur)",
+      "investors": "DayOne Data Centers Malaysia III"
     },
     {
       "category": "construction",
@@ -449,23 +476,6 @@
       "investors": "n.c."
     },
     {
-      "category": "power",
-      "title": "Arabie Saoudite (NEOM, Oxagon) : Nebius signe un accord-cadre préliminaire pour 50 MW sur le campus IA d'Humain/DataVolt, alimenté par l'éolien et le solaire de NEOM",
-      "region": "Moyen-Orient",
-      "date": "2026-10-21",
-      "summary": "Humain et DataVolt ont signé le 21 octobre un accord-cadre préliminaire avec Nebius pour jusqu'à 50 MW de capacité sur leur campus IA d'Oxagon (côte de la mer Rouge, province de Tabuk), DataVolt étant locataire du foncier et l'alimentation électrique devant provenir des actifs éoliens et solaires de NEOM ; la mise en service de la capacité Nebius est visée pour le T4 2027, dans le cadre du projet plus large Oxagon-DataVolt (environ 5 Md$ annoncés en 2025, premiers 100 MW en construction depuis septembre 2026).",
-      "source": "MEED / DataCenterDynamics / Baxtel",
-      "url": "https://www.meed.com/nebius-agrees-neom-ai-data-centre-capacity-deal",
-      "mw": 50,
-      "coords": [
-        27.9667,
-        35.4667
-      ],
-      "poweredLand": true,
-      "owners": "DataVolt (foncier/développeur) · Humain",
-      "investors": "Nebius (off-taker) · n.c."
-    },
-    {
       "category": "legislation",
       "title": "États-Unis (Loudoun County, Virginie) : le vote sur la pause des nouvelles demandes de data centers et la fin du « grandfathering » pour 23 projets est reporté au 17 novembre",
       "region": "Amérique du Nord",
@@ -477,22 +487,57 @@
       "investors": "n.c."
     },
     {
-      "category": "power",
-      "title": "États-Unis (Mason County, Virginie-Occidentale) : Nscale et Anthropic négocieraient un second contrat de 45 Md$ pour un second bâtiment de 460 MW au campus foncier énergisé Monarch",
-      "region": "Amérique du Nord",
-      "date": "2026-10-19",
-      "summary": "Selon Reuters (19 octobre, sources proches du dossier), Nscale négocierait avec Anthropic un second accord d'environ 45 Md$ portant sur un second bâtiment de 460 MW (puces Nvidia Vera Rubin) au sein de son campus Monarch (2 250 à 2 380 acres, Mason County, près de Point Pleasant, micro-réseau dédié visant jusqu'à 8 GW à terme) ; Anthropic dispose par ailleurs d'un droit de négociation prioritaire sur un 3e bâtiment. Ces discussions interviennent juste après le retrait de Microsoft d'un autre projet Nscale au Royaume-Uni (Loughton, Essex), attribué à un retard de raccordement réseau (National Grid n'anticipant pas de capacité disponible avant les années 2030). Ni Nscale ni Anthropic n'ont confirmé officiellement l'accord, qui reste fondé sur des sources de presse non nommées.",
-      "source": "Reuters / VKTR / DataCenterDynamics",
-      "url": "https://www.vktr.com/ai-market/anthropic-signs-45-billion-compute-deal-with-nscale-for-460-megawatts-in-west-virginia/",
-      "mw": 460,
-      "inv": 45000,
+      "category": "land",
+      "title": "SoftBank engage jusqu'à 75 Md€ pour 5 GW de data centers IA dans les Hauts-de-France",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Annoncé à Choose France par Masayoshi Son, le plan SoftBank prévoit 45 Md€ fermes pour une 1ère phase de 3,1 GW (sites de Dunkerque/Loon-Plage, Bosquel et Bouchain), extensible à 75 Md€ / 5 GW selon l'exécution — l'un des plus gros engagements land+power jamais annoncés en France.",
+      "source": "SoftBank Group / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
+      "mw": 3100,
+      "inv": 52000,
       "coords": [
-        38.8445,
-        -82.1356
+        50.98,
+        2.13
       ],
       "poweredLand": true,
-      "owners": "Nscale",
-      "investors": "Anthropic (discussions en cours, non finalisé)"
+      "owners": "SoftBank Group",
+      "investors": "SoftBank (autofinancé)"
+    },
+    {
+      "category": "land",
+      "title": "Data4 confirme un campus de 5 Md€ / 700 MW sur la friche Usinor à Escaudain (Nord)",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Data4 transforme 33 ha de friche sidérurgique Usinor (en jachère depuis 45 ans) à Escaudain en son plus grand campus IA : 700 MW, 4 data centers, ~2 400 emplois visés, mise en service à partir de 2030.",
+      "source": "DataCenterDynamics / Data4",
+      "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
+      "mw": 700,
+      "inv": 5800,
+      "coords": [
+        50.33,
+        3.27
+      ],
+      "poweredLand": true,
+      "owners": "Data4",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Brookfield structure 10 Md€ pour le méga-campus Data4 de Cambrai (jusqu'à 1 GW, ex-base aérienne)",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Dans le cadre de son engagement de 20 Md€ pour l'IA en France annoncé à Choose France, Brookfield structure environ 10 Md€ pour le plus grand campus data center de Data4, sur 320 ha de l'ancienne base aérienne militaire de Cambrai-Épinoy (Nord) : jusqu'à 1 GW à terme (première étape 300 MW visée pour 2030), ~4 000 emplois directs et indirects, travaux visés au second semestre 2026.",
+      "source": "DataCenterDynamics / Brookfield",
+      "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
+      "mw": 1000,
+      "inv": 10900,
+      "coords": [
+        50.1758,
+        3.2354
+      ],
+      "owners": "Data4 (site) · Brookfield (investisseur)",
+      "investors": "Brookfield Asset Management"
     },
     {
       "category": "power",
@@ -550,59 +595,6 @@
       "poweredLand": true,
       "owners": "Orange",
       "investors": "Morrison (fonds d'infrastructure)"
-    },
-    {
-      "category": "land",
-      "title": "SoftBank engage jusqu'à 75 Md€ pour 5 GW de data centers IA dans les Hauts-de-France",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Annoncé à Choose France par Masayoshi Son, le plan SoftBank prévoit 45 Md€ fermes pour une 1ère phase de 3,1 GW (sites de Dunkerque/Loon-Plage, Bosquel et Bouchain), extensible à 75 Md€ / 5 GW selon l'exécution — l'un des plus gros engagements land+power jamais annoncés en France.",
-      "source": "SoftBank Group / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
-      "mw": 3100,
-      "inv": 52000,
-      "coords": [
-        50.98,
-        2.13
-      ],
-      "poweredLand": true,
-      "owners": "SoftBank Group",
-      "investors": "SoftBank (autofinancé)"
-    },
-    {
-      "category": "land",
-      "title": "Data4 confirme un campus de 5 Md€ / 700 MW sur la friche Usinor à Escaudain (Nord)",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Data4 transforme 33 ha de friche sidérurgique Usinor (en jachère depuis 45 ans) à Escaudain en son plus grand campus IA : 700 MW, 4 data centers, ~2 400 emplois visés, mise en service à partir de 2030.",
-      "source": "DataCenterDynamics / Data4",
-      "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
-      "mw": 700,
-      "inv": 5800,
-      "coords": [
-        50.33,
-        3.27
-      ],
-      "poweredLand": true,
-      "owners": "Data4",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Brookfield structure 10 Md€ pour le méga-campus Data4 de Cambrai (jusqu'à 1 GW, ex-base aérienne)",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Dans le cadre de son engagement de 20 Md€ pour l'IA en France annoncé à Choose France, Brookfield structure environ 10 Md€ pour le plus grand campus data center de Data4, sur 320 ha de l'ancienne base aérienne militaire de Cambrai-Épinoy (Nord) : jusqu'à 1 GW à terme (première étape 300 MW visée pour 2030), ~4 000 emplois directs et indirects, travaux visés au second semestre 2026.",
-      "source": "DataCenterDynamics / Brookfield",
-      "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
-      "mw": 1000,
-      "inv": 10900,
-      "coords": [
-        50.1758,
-        3.2354
-      ],
-      "owners": "Data4 (site) · Brookfield (investisseur)",
-      "investors": "Brookfield Asset Management"
     }
   ]
 }
