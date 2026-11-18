@@ -1,34 +1,23 @@
 {
-  "lastUpdated": "2026-11-17",
+  "lastUpdated": "2026-11-18",
   "keyTakeaways": [
-    "Le financement dédié au foncier pré-développement s'affirme comme une classe d'actifs à part entière : Rowan Digital Infrastructure (Blackstone/Quinbrook) sécurise 1,5 Md$ supplémentaires explicitement fléchés vers l'acquisition de terrain, le raccordement réseau et les équipements à long délai sur un pipeline de 5,5 GW, pendant que Polar DC Group (H.I.G. Capital) dépasse 1 Md€ de financements cumulés dont une facilité de 75 M€ de Palistar Capital dédiée au foncier et au permitting en Finlande et Allemagne — deux signaux convergents que le marché commence à financer le « powered land » en amont de toute construction.",
-    "Le retrait de Prometheus Hyperscale de son campus de 1,25 GW près de Casper (Wyoming), alors que le propriétaire foncier affirme vouloir poursuivre le projet avec un autre partenaire, illustre le risque d'échec d'un montage foncier+énergie déjà engagé face à l'opposition locale croissante — un rappel utile que la sécurisation du foncier ne garantit pas la pérennité du projet porté dessus.",
-    "Deux échéances réglementaires américaines majeures arrivent à leur terme cette semaine sans issue encore connue : le Board of Supervisors de Loudoun County vote aujourd'hui (17 novembre) sur la pause des nouvelles demandes et la fin du « grandfathering » d'une vingtaine de projets déjà engagés, et la North Carolina Utilities Commission n'a toujours pas rendu sa décision sur l'accord tarifaire Duke Energy/Big Tech, attendue avant le 1er janvier 2027 — deux dossiers à rouvrir dès demain pour en connaître l'issue.",
-    "En Espagne, le projet de décret sur les data centers reste bloqué devant le Conseil d'État, sans nouvelle confirmation de calendrier d'adoption ; SpainDC s'est fait accepter pour se présenter devant l'instance, aux côtés d'une pression concurrente des grandes ONG environnementales pour ne pas assouplir le texte — un bras de fer toujours sans résolution.",
-    "Recherches dédiées répétées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs — situation inchangée depuis plusieurs veilles consécutives."
+    "États-Unis (Texas) : Riot Platforms confirme via son 10-Q qu'Anthropic est le locataire de l'intégralité de son campus foncier énergisé de Corsicana (910 MW, bail triple net valorisé jusqu'à 54 Md$) — un signal fort que les grands labs IA sont prêts à payer pour du foncier déjà énergisé sans que le bailleur n'opère le calcul, validant le modèle économique du « powered land » pur.",
+    "Norvège : Statnett suspend toute nouvelle réservation de capacité réseau pour les data centers jusqu'au 1er août 2027, et le gouvernement annonce en parallèle un régime de licence obligatoire — un coup de frein direct sur un marché scandinave jusqu'ici privilégié pour le foncier énergisé (dont Polar DC Group), à surveiller pour l'effet d'entraînement possible en Finlande/Suède.",
+    "États-Unis (Virginie) : le Board of Supervisors de Loudoun County a approuvé le 17 novembre une pause sur les nouvelles demandes législatives de data centers (durée disputée selon les sources, 10 à 12 mois), mais le sort du « grandfathering » de 23 projets déjà engagés — déterminant pour la disponibilité immédiate de foncier dans le premier marché mondial — reste non tranché dans les premiers comptes rendus, à vérifier dans les prochains jours.",
+    "États-Unis (Alaska) : approbation d'un bail foncier de 50 ans pour un campus data center hors réseau jusqu'à 3 GW sur le North Slope, alimenté par génération gazière captive et un accord gazier ExxonMobil de 15 ans — nouvelle illustration de l'extension du foncier énergisé vers des zones non conventionnelles, hors réseau électrique public.",
+    "Espagne et Caroline du Nord : deux décisions réglementaires structurantes restent en suspens au 18 novembre — le décret data centers espagnol toujours devant le Conseil d'État avec un objectif d'adoption avant les élections du 29 novembre (seuil relevé à 10 MW), et la tarification Duke Energy/Big Tech toujours sans décision de la North Carolina Utilities Commission avant le 1er janvier 2027 — deux dossiers à rouvrir la semaine prochaine. Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs."
   ],
   "items": [
     {
-      "category": "power",
-      "title": "Royaume-Uni (Teesside, Dorman Point) : National Grid achète un terrain pour la plus grande sous-station du pays, consultation publique sur le projet jusqu'au 11 novembre",
-      "region": "Europe",
-      "date": "2026-11",
-      "summary": "National Grid a acheté un terrain à Dorman Point, sur l'ancien site sidérurgique de Teesworks (Teesside), pour y construire ce qui serait la plus grande sous-station électrique du Royaume-Uni (« Teesside Node A », capacité initiale de 1,44 GW, mise en service visée fin 2029) ; la sous-station est destinée à alimenter un data center IA que Teesworks développe sur un site ayant déjà obtenu un permis d'urbanisme de principe. La consultation communautaire sur le projet doit se clore le 11 novembre, en amont d'une demande de permis attendue. Google serait intéressé selon la presse, mais aucun partenaire opérateur ou investisseur n'est confirmé à ce stade.",
-      "source": "DataCenterDynamics / Construction Enquirer / ITPro / Crypto Briefing",
-      "url": "https://datacenterdynamics.com/en/news/national-grid-buys-land-in-teesside-uk-for-32gw-substation-to-power-ai-data-center",
-      "mw": 1440,
-      "poweredLand": true,
-      "owners": "Teesworks (foncier) · National Grid (sous-station)",
-      "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
-    },
-    {
       "category": "legislation",
-      "title": "États-Unis (Caroline du Nord) : décision attendue mi-novembre de la Utilities Commission sur l'accord Duke Energy/Big Tech sur la tarification des gros consommateurs (data centers)",
+      "title": "États-Unis (Loudoun County, Virginie) : le Board of Supervisors approuve une pause sur les nouvelles demandes législatives de data centers (durée disputée selon les sources, 10 à 12 mois), le sort du « grandfathering » de 23 projets reste incertain",
       "region": "Amérique du Nord",
-      "date": "2026-11",
-      "summary": "Duke Energy Carolinas et Duke Energy Progress ont conclu en octobre un accord avec le Public Staff de Caroline du Nord et plusieurs géants technologiques (Amazon, Google, Meta, Microsoft) sur une nouvelle tarification « large load » pour les data centers, censée répartir le coût des infrastructures réseau dédiées ; la North Carolina Utilities Commission doit statuer sur cet accord d'ici la mi-novembre, des associations environnementales (Southern Environmental Law Center) jugeant que l'accord ne ferait porter que 25% de certains coûts sur les data centers — une décision déterminante pour le coût du foncier énergisé en Caroline du Nord, à surveiller dans les prochains jours.",
-      "source": "Axios / WUNC / SELC / Carolina Journal",
-      "url": "https://www.axios.com/local/raleigh/2026/10/07/duke-energy-agrees-on-new-rules-for-large-energy-users-like-data-centers"
+      "date": "2026-11-17",
+      "summary": "Le Board of Supervisors de Loudoun County, premier marché mondial de data centers, a approuvé le 17 novembre (vote 7-1-1 porté par la superviseure Briskman) une pause sur l'examen des nouvelles demandes législatives de data centers et de postes électriques ; les sources divergent sur sa durée (Loudoun Now évoque 12 mois, Fox5DC 10 mois). Le comté continuera d'accepter les demandes, qui s'accumuleront en attente, et son avocat a prévenu qu'un contentieux reste probable malgré la légalité du délai. Le sort de la proposition distincte visant à mettre fin au « grandfathering » accordé en 2025 à au moins 23 projets déjà engagés (plus de 11 millions de pieds carrés) n'est pas tranché dans les premiers comptes rendus — un dossier encore à clarifier pour la disponibilité du foncier déjà engagé en Virginie du Nord.",
+      "source": "Loudoun Now / Fox5DC / Loudoun County (communiqué)",
+      "url": "https://www.loudounnow.com/news/loudoun-supervisors-approve-12-month-data-center-pause/article_595ee60a-6c09-427e-ac37-af7bde569964.html",
+      "owners": "n.c.",
+      "investors": "n.c."
     },
     {
       "category": "power",
@@ -59,6 +48,24 @@
     },
     {
       "category": "land",
+      "title": "États-Unis (North Slope, Alaska) : l'État approuve un bail foncier de 50 ans pour le campus data center hors réseau de STAK Energy, jusqu'à 3 GW au gaz",
+      "region": "Amérique du Nord",
+      "date": "2026-11-10",
+      "summary": "Le Department of Natural Resources de l'Alaska a signé le 10 novembre la décision finale approuvant un bail de 50 ans sur 715,4 acres au profit de STAK Energy Corp, à environ 26 miles au sud de Deadhorse et 1 mile à l'ouest de la Dalton Highway, pour un campus data center alimenté par sa propre génération gazière (hors réseau Railbelt), avec un potentiel jusqu'à 3 GW ; STAK dispose d'un accord gazier de 15 ans avec ExxonMobil Alaska Production (approvisionnement encore à finaliser), l'investissement initial est estimé à environ 500 M$ par l'État, et aucun locataire final n'est encore nommé. 1 205 commentaires publics ont été reçus avant l'approbation ; des permis supplémentaires restent nécessaires avant toute construction.",
+      "source": "Alaska DNR / Alaska Beacon / Alaska Public Media / Baxtel",
+      "url": "https://alaskabeacon.com/2026/11/11/alaska-approves-50-year-land-lease-for-large-natural-gas-powered-data-center-in-the-arctic/",
+      "mw": 3000,
+      "inv": 500,
+      "coords": [
+        69.82,
+        -148.6
+      ],
+      "poweredLand": true,
+      "owners": "État de l'Alaska (foncier) · STAK Energy Corp (bail)",
+      "investors": "n.c. (locataire final non nommé ; accord gazier ExxonMobil Alaska Production)"
+    },
+    {
+      "category": "land",
       "title": "États-Unis (Cameron County, Texas) : SpaceX proposerait un data center de 24 Md$ avec centrale gaz dédiée à Starbase, sur un terrain désannexé de Brownsville pour contourner le moratoire local",
       "region": "Amérique du Nord",
       "date": "2026-11-10",
@@ -86,6 +93,17 @@
       "poweredLand": true,
       "owners": "JGT2 Redevelopment LLC",
       "investors": "Sentinel Data Centers (discussions renouvelées, non finalisé)"
+    },
+    {
+      "category": "power",
+      "title": "Norvège : Statnett suspend toute nouvelle réservation de capacité réseau pour les data centers jusqu'au 1er août 2027",
+      "region": "Europe",
+      "date": "2026-11-09",
+      "summary": "Le gestionnaire de réseau norvégien Statnett a annoncé le 9 novembre suspendre les nouvelles demandes de réservation de capacité et les nouvelles demandes d'agrément de fonctionnement pour les data centers, pause valable jusqu'au 1er août 2027 au plus tard, le temps d'élaborer des règles techniques sur la tenue aux perturbations réseau ; le pipeline norvégien affiche environ 800 MW déjà raccordés, 4 200 MW réservés, 9 100 MW en file d'attente et jusqu'à 18 000 MW de demandes additionnelles, pour une pointe de consommation nationale d'environ 25 000 MW. Le gouvernement norvégien a annoncé le même jour un projet de régime de licence obligatoire pour l'implantation de data centers — un coup de frein direct à la disponibilité de foncier énergisé en Scandinavie, marché jusqu'ici privilégié (notamment par Polar DC Group).",
+      "source": "Reuters / Baxtel / Enerdata / CMS Law",
+      "url": "https://baxtel.com/news/norway-grid-operator-statnett-halts-new-data-center-capacity-reservations",
+      "owners": "n.c.",
+      "investors": "n.c."
     },
     {
       "category": "power",
@@ -143,16 +161,6 @@
       "investors": "n.c."
     },
     {
-      "category": "power",
-      "title": "NTT DATA signe avec Bloom Energy un nouvel accord pour déployer 900 MW de piles à combustible comme alimentation principale de ses data centers dans le monde",
-      "region": "International",
-      "date": "2026-11-05",
-      "summary": "NTT DATA a annoncé le 5 novembre un accord avec Bloom Energy pour le déploiement de 900 MW de systèmes de piles à combustible à oxyde solide (SOFC), destinés à servir d'alimentation électrique principale (et non de secours) sur des sites NTT Global Data Centers à travers le monde, premières livraisons dès 2027 ; montants, pays concernés et répartition par site non communiqués. Cet accord fait suite à un premier contrat de 1,2 GW signé l'an dernier entre les deux sociétés.",
-      "source": "NTT DATA (communiqué) / DataCenterDynamics / Bloom Energy",
-      "url": "https://www.nttdata.com/en-us/news/2026/ntt-data-announces-agreement-with-bloom-energy",
-      "mw": 900
-    },
-    {
       "category": "land",
       "title": "États-Unis (Indiana) : NextNRG signe un term sheet non engageant pour 33 acres dédiés au « Lone Wolf Energy Center », jusqu'à 70 MW de capacité data center",
       "region": "Amérique du Nord",
@@ -178,6 +186,24 @@
       "poweredLand": true,
       "owners": "Polar DC Group (H.I.G. Capital · LIAN Group)",
       "investors": "H.I.G. Capital · LIAN Group · Palistar Capital (facilité foncier/raccordement 75 M€)"
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Corsicana, Texas) : Riot Platforms loue l'intégralité de son campus de 910 MW à Anthropic dans un bail foncier énergisé triple net de 28 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-11-04",
+      "summary": "Le rapport trimestriel (10-Q) de Riot Platforms, déposé début novembre, confirme qu'Anthropic PBC est le locataire derrière le bail de 15 ans signé le 28 octobre (effectif le 4 novembre) portant sur l'intégralité des 910 MW de son campus de Corsicana (Texas, 332 acres) : un bail foncier énergisé triple net à 130 $/kW/mois avec escalade annuelle de 3%, valorisé à environ 28 Md$ sur la durée initiale (jusqu'à 54 Md$ avec les deux extensions de 5 ans) ; Riot livre le foncier, la puissance et les dalles énergisées, Anthropic finançant et exploitant elle-même les modules de calcul. Avec son bail de 191 MW à Rockdale, Anthropic devient le locataire d'environ 1 101 MW sur les 1 151 MW sous contrat de Riot — un cas d'école de monétisation du foncier énergisé pur, sans exploitation de calcul par le propriétaire du site.",
+      "source": "Riot Platforms (10-Q) / Baxtel / FourWeekMBA / Blockspace Media",
+      "url": "https://baxtel.com/news/riot-leases-910mw-corsicana-campus-to-anthropic-in-28b-deal",
+      "mw": 910,
+      "inv": 28000,
+      "coords": [
+        32.0954,
+        -96.4689
+      ],
+      "poweredLand": true,
+      "owners": "Riot Platforms (foncier/infrastructure)",
+      "investors": "Anthropic PBC (locataire ; financement et exploitation du calcul)"
     },
     {
       "category": "construction",
@@ -343,6 +369,28 @@
       "investors": "n.c."
     },
     {
+      "category": "power",
+      "title": "Royaume-Uni (Teesside, Dorman Point) : National Grid achète un terrain pour la plus grande sous-station du pays, consultation publique sur le projet jusqu'au 11 novembre",
+      "region": "Europe",
+      "date": "2026-11",
+      "summary": "National Grid a acheté un terrain à Dorman Point, sur l'ancien site sidérurgique de Teesworks (Teesside), pour y construire ce qui serait la plus grande sous-station électrique du Royaume-Uni (« Teesside Node A », capacité initiale de 1,44 GW, mise en service visée fin 2029) ; la sous-station est destinée à alimenter un data center IA que Teesworks développe sur un site ayant déjà obtenu un permis d'urbanisme de principe. La consultation communautaire sur le projet doit se clore le 11 novembre, en amont d'une demande de permis attendue. Google serait intéressé selon la presse, mais aucun partenaire opérateur ou investisseur n'est confirmé à ce stade.",
+      "source": "DataCenterDynamics / Construction Enquirer / ITPro / Crypto Briefing",
+      "url": "https://datacenterdynamics.com/en/news/national-grid-buys-land-in-teesside-uk-for-32gw-substation-to-power-ai-data-center",
+      "mw": 1440,
+      "poweredLand": true,
+      "owners": "Teesworks (foncier) · National Grid (sous-station)",
+      "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Caroline du Nord) : décision attendue mi-novembre de la Utilities Commission sur l'accord Duke Energy/Big Tech sur la tarification des gros consommateurs (data centers)",
+      "region": "Amérique du Nord",
+      "date": "2026-11",
+      "summary": "Duke Energy Carolinas et Duke Energy Progress ont conclu en octobre un accord avec le Public Staff de Caroline du Nord et plusieurs géants technologiques (Amazon, Google, Meta, Microsoft) sur une nouvelle tarification « large load » pour les data centers, censée répartir le coût des infrastructures réseau dédiées ; au 18 novembre, la North Carolina Utilities Commission n'a toujours pas rendu sa décision, qui doit intervenir avant l'entrée en vigueur des nouveaux tarifs le 1er janvier 2027. Des associations environnementales (Southern Environmental Law Center) et le procureur général Jeff Jackson jugent que l'accord ne ferait porter qu'une part insuffisante des coûts sur les data centers — une décision toujours déterminante pour le coût du foncier énergisé en Caroline du Nord.",
+      "source": "Axios / WUNC / SELC / Carolina Journal",
+      "url": "https://www.axios.com/local/raleigh/2026/10/07/duke-energy-agrees-on-new-rules-for-large-energy-users-like-data-centers"
+    },
+    {
       "category": "land",
       "title": "États-Unis (comté de Cassia, Idaho) : TerraVolt Holdings sécurise des options sur 1 077 acres pour un campus data center hors réseau de 240 MW alimenté au gaz",
       "region": "Amérique du Nord",
@@ -384,31 +432,6 @@
       "poweredLand": true,
       "owners": "Falls Ranch (propriétaire foncier ; projet maintenu selon le propriétaire)",
       "investors": "n.c. (Prometheus Hyperscale, développeur sortant)"
-    },
-    {
-      "category": "market",
-      "title": "États-Unis (Santa Clara, Californie) : EdgeCore (Partners Group) boucle un second financement adossé à ses actifs (ABS) de 521 M$ pour son site de Silicon Valley",
-      "region": "Amérique du Nord",
-      "date": "2026-10-28",
-      "summary": "EdgeCore Digital Infrastructure, détenue par Partners Group, a finalisé le 28 octobre une titrisation adossée à des actifs (ABS) de 521 M$ garantie par son site SV01 de Santa Clara (36 MW de capacité IT), deuxième opération de ce type après un ABS de 235 M$ en 2025 adossé à son site PH01 de Phoenix ; les produits serviront à refinancer des prêts de construction et à financer de futurs projets de data centers, sans site nouveau nommé à ce stade.",
-      "source": "DataCenterDynamics / Pulse2 / Blackridge Research",
-      "url": "https://datacenterdynamics.com/en/news/edgecore-secures-521-million-in-abs-financing",
-      "mw": 36,
-      "inv": 521,
-      "owners": "EdgeCore Digital Infrastructure (Partners Group)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Malaisie (Johor Bahru) : les actionnaires de Paragon Globe approuvent la cession de 65 acres à DayOne Data Centers pour environ 100 M$",
-      "region": "Asie",
-      "date": "2026-10-27",
-      "summary": "Les actionnaires du promoteur malaisien Paragon Globe ont approuvé le 27 octobre la cession de deux parcelles (environ 65 acres, actuellement zonées agricoles) à Johor Bahru à DayOne Data Centers Malaysia III, pour un montant annoncé à environ 100 M$ (accord initial de juin évalué à environ 96,6 M$/RM398,11 M) ; la transaction, qui doit encore obtenir le changement d'usage des terres et les permis data center, est attendue pour finalisation au second semestre 2027.",
-      "source": "W.Media / Bursa Malaysia / DataCenterDynamics",
-      "url": "https://w.media/dayone-deepens-johor-data-center-push-with-us-96-6-million-land-deal/",
-      "inv": 100,
-      "owners": "Paragon Globe (vendeur)",
-      "investors": "DayOne Data Centers Malaysia III"
     },
     {
       "category": "construction",
@@ -476,70 +499,6 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "États-Unis (Loudoun County, Virginie) : le vote sur la pause des nouvelles demandes de data centers et la fin du « grandfathering » pour 23 projets est reporté au 17 novembre",
-      "region": "Amérique du Nord",
-      "date": "2026-10-20",
-      "summary": "Le Board of Supervisors de Loudoun County, premier marché mondial de data centers, a reporté au 17 novembre l'examen d'une résolution visant à geler l'étude de nouvelles demandes législatives de data centers et de postes électriques, le comté estimant avoir besoin de davantage d'informations ; en parallèle, deux élus (Briskman, TeKrony) proposent de mettre fin au « grandfathering » accordé en 2025 à au moins 23 projets déjà engagés (plus de 11 millions de pieds carrés), sur fond d'avis de l'avocat du comté jugeant qu'un moratoire général ne serait pas légal — un rendez-vous décisif pour la disponibilité du foncier déjà engagé en Virginie du Nord.",
-      "source": "Loudoun County (communiqué) / Virginia Mercury / Fox5DC",
-      "url": "https://virginiamercury.com/2026/09/14/loudoun-to-consider-data-center-pause-removing-by-right-grandfather-clause/",
-      "owners": "n.c.",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "SoftBank engage jusqu'à 75 Md€ pour 5 GW de data centers IA dans les Hauts-de-France",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Annoncé à Choose France par Masayoshi Son, le plan SoftBank prévoit 45 Md€ fermes pour une 1ère phase de 3,1 GW (sites de Dunkerque/Loon-Plage, Bosquel et Bouchain), extensible à 75 Md€ / 5 GW selon l'exécution — l'un des plus gros engagements land+power jamais annoncés en France.",
-      "source": "SoftBank Group / DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
-      "mw": 3100,
-      "inv": 52000,
-      "coords": [
-        50.98,
-        2.13
-      ],
-      "poweredLand": true,
-      "owners": "SoftBank Group",
-      "investors": "SoftBank (autofinancé)"
-    },
-    {
-      "category": "land",
-      "title": "Data4 confirme un campus de 5 Md€ / 700 MW sur la friche Usinor à Escaudain (Nord)",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Data4 transforme 33 ha de friche sidérurgique Usinor (en jachère depuis 45 ans) à Escaudain en son plus grand campus IA : 700 MW, 4 data centers, ~2 400 emplois visés, mise en service à partir de 2030.",
-      "source": "DataCenterDynamics / Data4",
-      "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
-      "mw": 700,
-      "inv": 5800,
-      "coords": [
-        50.33,
-        3.27
-      ],
-      "poweredLand": true,
-      "owners": "Data4",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "Brookfield structure 10 Md€ pour le méga-campus Data4 de Cambrai (jusqu'à 1 GW, ex-base aérienne)",
-      "region": "France",
-      "date": "2026-Q2",
-      "summary": "Dans le cadre de son engagement de 20 Md€ pour l'IA en France annoncé à Choose France, Brookfield structure environ 10 Md€ pour le plus grand campus data center de Data4, sur 320 ha de l'ancienne base aérienne militaire de Cambrai-Épinoy (Nord) : jusqu'à 1 GW à terme (première étape 300 MW visée pour 2030), ~4 000 emplois directs et indirects, travaux visés au second semestre 2026.",
-      "source": "DataCenterDynamics / Brookfield",
-      "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
-      "mw": 1000,
-      "inv": 10900,
-      "coords": [
-        50.1758,
-        3.2354
-      ],
-      "owners": "Data4 (site) · Brookfield (investisseur)",
-      "investors": "Brookfield Asset Management"
-    },
-    {
       "category": "power",
       "title": "États-Unis : le DOE ouvre son site nucléaire de Paducah (Kentucky) à Brookfield et NextEra pour un campus IA de 100 Md$ avec 4,6 GW de génération dédiée",
       "region": "Amérique du Nord",
@@ -595,6 +554,59 @@
       "poweredLand": true,
       "owners": "Orange",
       "investors": "Morrison (fonds d'infrastructure)"
+    },
+    {
+      "category": "land",
+      "title": "SoftBank engage jusqu'à 75 Md€ pour 5 GW de data centers IA dans les Hauts-de-France",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Annoncé à Choose France par Masayoshi Son, le plan SoftBank prévoit 45 Md€ fermes pour une 1ère phase de 3,1 GW (sites de Dunkerque/Loon-Plage, Bosquel et Bouchain), extensible à 75 Md€ / 5 GW selon l'exécution — l'un des plus gros engagements land+power jamais annoncés en France.",
+      "source": "SoftBank Group / DataCenterDynamics",
+      "url": "https://www.datacenterdynamics.com/en/news/softbank-plans-up-to-5gw-data-center-buildout-in-france-investment-of-up-to-75bn/",
+      "mw": 3100,
+      "inv": 52000,
+      "coords": [
+        50.98,
+        2.13
+      ],
+      "poweredLand": true,
+      "owners": "SoftBank Group",
+      "investors": "SoftBank (autofinancé)"
+    },
+    {
+      "category": "land",
+      "title": "Data4 confirme un campus de 5 Md€ / 700 MW sur la friche Usinor à Escaudain (Nord)",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Data4 transforme 33 ha de friche sidérurgique Usinor (en jachère depuis 45 ans) à Escaudain en son plus grand campus IA : 700 MW, 4 data centers, ~2 400 emplois visés, mise en service à partir de 2030.",
+      "source": "DataCenterDynamics / Data4",
+      "url": "https://www.datacenterdynamics.com/en/news/data4-confirms-5bn-plan-for-700mw-ai-data-center-in-northern-france/",
+      "mw": 700,
+      "inv": 5800,
+      "coords": [
+        50.33,
+        3.27
+      ],
+      "poweredLand": true,
+      "owners": "Data4",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "Brookfield structure 10 Md€ pour le méga-campus Data4 de Cambrai (jusqu'à 1 GW, ex-base aérienne)",
+      "region": "France",
+      "date": "2026-Q2",
+      "summary": "Dans le cadre de son engagement de 20 Md€ pour l'IA en France annoncé à Choose France, Brookfield structure environ 10 Md€ pour le plus grand campus data center de Data4, sur 320 ha de l'ancienne base aérienne militaire de Cambrai-Épinoy (Nord) : jusqu'à 1 GW à terme (première étape 300 MW visée pour 2030), ~4 000 emplois directs et indirects, travaux visés au second semestre 2026.",
+      "source": "DataCenterDynamics / Brookfield",
+      "url": "https://www.datacenterdynamics.com/en/news/brookfield-and-data4-to-spend-20bn-on-ai-infrastructure-in-france/",
+      "mw": 1000,
+      "inv": 10900,
+      "coords": [
+        50.1758,
+        3.2354
+      ],
+      "owners": "Data4 (site) · Brookfield (investisseur)",
+      "investors": "Brookfield Asset Management"
     }
   ]
 }
