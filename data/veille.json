@@ -1,13 +1,22 @@
 {
-  "lastUpdated": "2026-11-18",
+  "lastUpdated": "2026-11-19",
   "keyTakeaways": [
-    "États-Unis (Texas) : Riot Platforms confirme via son 10-Q qu'Anthropic est le locataire de l'intégralité de son campus foncier énergisé de Corsicana (910 MW, bail triple net valorisé jusqu'à 54 Md$) — un signal fort que les grands labs IA sont prêts à payer pour du foncier déjà énergisé sans que le bailleur n'opère le calcul, validant le modèle économique du « powered land » pur.",
-    "Norvège : Statnett suspend toute nouvelle réservation de capacité réseau pour les data centers jusqu'au 1er août 2027, et le gouvernement annonce en parallèle un régime de licence obligatoire — un coup de frein direct sur un marché scandinave jusqu'ici privilégié pour le foncier énergisé (dont Polar DC Group), à surveiller pour l'effet d'entraînement possible en Finlande/Suède.",
-    "États-Unis (Virginie) : le Board of Supervisors de Loudoun County a approuvé le 17 novembre une pause sur les nouvelles demandes législatives de data centers (durée disputée selon les sources, 10 à 12 mois), mais le sort du « grandfathering » de 23 projets déjà engagés — déterminant pour la disponibilité immédiate de foncier dans le premier marché mondial — reste non tranché dans les premiers comptes rendus, à vérifier dans les prochains jours.",
-    "États-Unis (Alaska) : approbation d'un bail foncier de 50 ans pour un campus data center hors réseau jusqu'à 3 GW sur le North Slope, alimenté par génération gazière captive et un accord gazier ExxonMobil de 15 ans — nouvelle illustration de l'extension du foncier énergisé vers des zones non conventionnelles, hors réseau électrique public.",
-    "Espagne et Caroline du Nord : deux décisions réglementaires structurantes restent en suspens au 18 novembre — le décret data centers espagnol toujours devant le Conseil d'État avec un objectif d'adoption avant les élections du 29 novembre (seuil relevé à 10 MW), et la tarification Duke Energy/Big Tech toujours sans décision de la North Carolina Utilities Commission avant le 1er janvier 2027 — deux dossiers à rouvrir la semaine prochaine. Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs."
+    "États-Unis (Caroline du Nord) : la Utilities Commission a approuvé le 16-17 novembre le tarif « large load » Duke Energy/Big Tech (paiements anticipés, garanties sur les renforcements réseau, suivi distinct des coûts) ainsi qu'une hausse tarifaire générale — le cadre de coût du foncier énergisé en Caroline du Nord est désormais stabilisé, contrairement à l'Espagne et à l'Ohio où l'incertitude réglementaire reste entière.",
+    "États-Unis (Ohio) : une disposition « fuitée » du projet de loi data centers en discussion lors de la session de fin d'année élargirait la définition de « service public » aux infrastructures de transport associées à un projet, ouvrant une voie indirecte à l'expropriation malgré le démenti du patronat (Ohio Business Roundtable) — un signal à surveiller pour la sécurisation foncière des méga-projets dans l'État, alors que des textes concurrents (HB695, HB710) excluent explicitement cette possibilité.",
+    "Canada (Alberta) : la province dévoile le 18 novembre de nouvelles limites d'implantation pour les data centers IA (proximité des habitations, terres agricoles irriguées) tout en renonçant à inscrire dans la loi le plafond d'émissions des sables bitumineux — un nouveau marché nord-américain qui, après avoir fortement courtisé les data centers via les lois Bill 8/Bill 12, resserre désormais l'accès au foncier.",
+    "États-Unis (Virginie, Caroline du Nord) : le sort du « grandfathering » des 23 projets déjà engagés à Loudoun County reste non tranché dans la presse locale malgré la pause votée le 17 novembre, et la décision espagnole sur le décret data centers reste suspendue à l'adoption visée avant les élections du 29 novembre — deux dossiers déterminants pour la disponibilité immédiate de foncier énergisé à rouvrir dans les prochains jours.",
+    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs ; seule actualité connexe identifiée, le financement par dette de Polarise (SWI Stoneweg Icona Group, août 2026) pour son site bavarois d'Amberg, déjà connu."
   ],
   "items": [
+    {
+      "category": "legislation",
+      "title": "Canada (Alberta) : la province dévoile de nouvelles limites d'implantation pour les data centers IA et renonce à inscrire dans la loi le plafond d'émissions des sables bitumineux",
+      "region": "International",
+      "date": "2026-11-18",
+      "summary": "Le gouvernement albertain a dévoilé le 18 novembre de nouvelles règles encadrant l'implantation des data centers IA — restrictions de proximité avec les zones résidentielles et les terres agricoles irriguées, selon la presse — dans la continuité des lois Bill 8/Bill 12 (sanctionnées en décembre 2025) qui instauraient déjà une redevance sur les data centers raccordés au réseau ; le même jour, la province a renoncé à inscrire dans la loi un plafond de 100 mégatonnes sur les émissions des sables bitumineux. Les détails précis du texte (distances exactes, portée, numéro de projet de loi) restent à confirmer auprès de la législature albertaine.",
+      "source": "Boe Report / Startup Fortune",
+      "url": "https://boereport.com/2026/11/18/alberta-unveils-data-center-limits-drops-oil-sands-emissions-cap"
+    },
     {
       "category": "legislation",
       "title": "États-Unis (Loudoun County, Virginie) : le Board of Supervisors approuve une pause sur les nouvelles demandes législatives de data centers (durée disputée selon les sources, 10 à 12 mois), le sort du « grandfathering » de 23 projets reste incertain",
@@ -18,6 +27,24 @@
       "url": "https://www.loudounnow.com/news/loudoun-supervisors-approve-12-month-data-center-pause/article_595ee60a-6c09-427e-ac37-af7bde569964.html",
       "owners": "n.c.",
       "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Caroline du Nord) : la Utilities Commission approuve le tarif dédié aux data centers (« large load ») et une hausse tarifaire Duke Energy, nouvelles garanties contre les coûts échoués",
+      "region": "Amérique du Nord",
+      "date": "2026-11-17",
+      "summary": "La North Carolina Utilities Commission a approuvé le 16-17 novembre la hausse tarifaire de Duke Energy Carolinas et Duke Energy Progress (environ +3,4% et +3,7% en moyenne annuelle, effective au 1er janvier 2027) ainsi que le nouveau tarif « large load » négocié en octobre avec Amazon, Google, Meta et Microsoft pour les clients data centers de 50 MW et plus : paiements anticipés dédiés à l'infrastructure, garanties financières sur les renforcements réseau et un suivi distinct des coûts par catégorie de clientèle pour limiter le risque de coûts échoués (« stranded costs ») répercutés sur les autres abonnés. Des associations environnementales (Southern Environmental Law Center) jugent le dispositif encore insuffisant pour faire porter aux data centers une part suffisante des coûts — une décision désormais actée qui sécurise le cadre tarifaire du foncier énergisé en Caroline du Nord.",
+      "source": "WUNC / Axios / CryptoBriefing",
+      "url": "https://www.wunc.org/2026-11-17/duke-energy-rates-are-going-up-next-year-as-nc-utilities-commission-approves-increase"
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Ohio) : une disposition « fuitée » du projet de loi sur les data centers redéfinit le « service public », ouvrant une voie indirecte à l'expropriation pour les infrastructures associées",
+      "region": "Amérique du Nord",
+      "date": "2026-11-17",
+      "summary": "Selon WCPO et News 5 Cleveland (17 novembre), une version non officielle du texte en discussion à la législature de l'Ohio lors de la session de fin d'année élargirait la définition de « service public » aux détenteurs d'un certificat de l'Ohio Power Siting Board pour une ligne de transport électrique ou un gazoduc associé à un projet, ouvrant selon des juristes une voie indirecte à l'expropriation pour des infrastructures liées aux data centers (sans octroyer ce pouvoir à l'opérateur du data center lui-même). L'Ohio Business Roundtable (patronat) dément toute intention d'élargir l'expropriation, tandis que l'Ohio Farm Bureau s'y oppose frontalement ; au moins deux autres textes concurrents (HB695, HB710) excluent explicitement l'expropriation pour l'implantation de data centers — un dossier législatif à forts enjeux pour la sécurisation foncière des projets dans l'État.",
+      "source": "WCPO / News 5 Cleveland / States Newsroom",
+      "url": "https://www.wcpo.com/news/state/state-ohio/leaked-bill-could-allow-ohio-data-centers-to-seize-land"
     },
     {
       "category": "power",
@@ -320,22 +347,6 @@
     },
     {
       "category": "land",
-      "title": "États-Unis (comté de Dallas, Iowa) : Microsoft confirme l'achat de 616 acres de terres agricoles près de Woodward pour 95,5 M$, futur campus data center",
-      "region": "Amérique du Nord",
-      "date": "2026-11-03",
-      "summary": "Microsoft a confirmé début novembre l'acquisition, via un véhicule lié à Trammell Crow, de 616 acres de terres agricoles près de Woodward (comté de Dallas, Iowa) pour environ 95,5 M$, en vue d'un futur campus data center ; aucune conception de campus ni calendrier de construction n'a encore été arrêté, et l'entreprise n'a communiqué aucune information sur la puissance électrique visée ou le raccordement réseau à ce stade.",
-      "source": "BlackRidge Research / presse locale Iowa",
-      "url": "https://www.blackridgeresearch.com/news-releases/microsoft-pays-usd-95-5-million-for-616-acres-near-woodward-iowa-for-future-data-center-campus-in-the-us",
-      "inv": 95.5,
-      "coords": [
-        41.8778,
-        -93.9196
-      ],
-      "owners": "Trammell Crow (acquéreur initial) · Microsoft (confirmé utilisateur final)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
       "title": "États-Unis (comté de Powhatan, Virginie) : une entité liée à Vantage Data Centers finalise l'achat de 180 acres pour un campus data center d'environ 3 Md$",
       "region": "Amérique du Nord",
       "date": "2026-11-02",
@@ -380,15 +391,6 @@
       "poweredLand": true,
       "owners": "Teesworks (foncier) · National Grid (sous-station)",
       "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Caroline du Nord) : décision attendue mi-novembre de la Utilities Commission sur l'accord Duke Energy/Big Tech sur la tarification des gros consommateurs (data centers)",
-      "region": "Amérique du Nord",
-      "date": "2026-11",
-      "summary": "Duke Energy Carolinas et Duke Energy Progress ont conclu en octobre un accord avec le Public Staff de Caroline du Nord et plusieurs géants technologiques (Amazon, Google, Meta, Microsoft) sur une nouvelle tarification « large load » pour les data centers, censée répartir le coût des infrastructures réseau dédiées ; au 18 novembre, la North Carolina Utilities Commission n'a toujours pas rendu sa décision, qui doit intervenir avant l'entrée en vigueur des nouveaux tarifs le 1er janvier 2027. Des associations environnementales (Southern Environmental Law Center) et le procureur général Jeff Jackson jugent que l'accord ne ferait porter qu'une part insuffisante des coûts sur les data centers — une décision toujours déterminante pour le coût du foncier énergisé en Caroline du Nord.",
-      "source": "Axios / WUNC / SELC / Carolina Journal",
-      "url": "https://www.axios.com/local/raleigh/2026/10/07/duke-energy-agrees-on-new-rules-for-large-energy-users-like-data-centers"
     },
     {
       "category": "land",
@@ -481,21 +483,6 @@
       ],
       "poweredLand": true,
       "owners": "Sepia Infrastructure",
-      "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "France (Roubaix, Nord) : la Métropole de Lille approuve le raccordement du campus data center d'OVHcloud au réseau de chaleur urbain",
-      "region": "France",
-      "date": "2026-10-21",
-      "summary": "La Métropole Européenne de Lille a approuvé à l'unanimité le raccordement du campus de 8 data centers d'OVHcloud à Roubaix (8-12 MW chacun) au réseau de chaleur urbain exploité par R-Énergies (environ 31 km de canalisations, 105 MW de capacité thermique, ~117 GWh de chaleur livrée par an sur 205 points de livraison), après 10 ans d'études ; le refroidissement liquide des serveurs OVHcloud facilite la récupération de chaleur vers le réseau urbain.",
-      "source": "DataCenterDynamics",
-      "url": "https://www.datacenterdynamics.com/en/news/ovhcloud-wins-approval-to-connect-data-centers-in-roubaix-france-to-local-district-heating-network/",
-      "coords": [
-        50.6942,
-        3.1746
-      ],
-      "owners": "OVHcloud",
       "investors": "n.c."
     },
     {
