@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-19",
+  "lastUpdated": "2026-11-20",
   "keyTakeaways": [
-    "États-Unis (Caroline du Nord) : la Utilities Commission a approuvé le 16-17 novembre le tarif « large load » Duke Energy/Big Tech (paiements anticipés, garanties sur les renforcements réseau, suivi distinct des coûts) ainsi qu'une hausse tarifaire générale — le cadre de coût du foncier énergisé en Caroline du Nord est désormais stabilisé, contrairement à l'Espagne et à l'Ohio où l'incertitude réglementaire reste entière.",
-    "États-Unis (Ohio) : une disposition « fuitée » du projet de loi data centers en discussion lors de la session de fin d'année élargirait la définition de « service public » aux infrastructures de transport associées à un projet, ouvrant une voie indirecte à l'expropriation malgré le démenti du patronat (Ohio Business Roundtable) — un signal à surveiller pour la sécurisation foncière des méga-projets dans l'État, alors que des textes concurrents (HB695, HB710) excluent explicitement cette possibilité.",
-    "Canada (Alberta) : la province dévoile le 18 novembre de nouvelles limites d'implantation pour les data centers IA (proximité des habitations, terres agricoles irriguées) tout en renonçant à inscrire dans la loi le plafond d'émissions des sables bitumineux — un nouveau marché nord-américain qui, après avoir fortement courtisé les data centers via les lois Bill 8/Bill 12, resserre désormais l'accès au foncier.",
-    "États-Unis (Virginie, Caroline du Nord) : le sort du « grandfathering » des 23 projets déjà engagés à Loudoun County reste non tranché dans la presse locale malgré la pause votée le 17 novembre, et la décision espagnole sur le décret data centers reste suspendue à l'adoption visée avant les élections du 29 novembre — deux dossiers déterminants pour la disponibilité immédiate de foncier énergisé à rouvrir dans les prochains jours.",
-    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs ; seule actualité connexe identifiée, le financement par dette de Polarise (SWI Stoneweg Icona Group, août 2026) pour son site bavarois d'Amberg, déjà connu."
+    "États-Unis : la vague de moratoires municipaux post-Election Day se poursuit une semaine après le scrutin du 3 novembre — Boise (Idaho, urgence, ≥100 000 sq ft ou ≥20 MW, 10/11) et prolongations à Edmond et Oklahoma City (Oklahoma, jusqu'à mi/fin 2027) confirment que le risque réglementaire local reste le principal frein à la sécurisation rapide de foncier aux États-Unis, y compris dans des marchés jusque-là peu contestés.",
+    "États-Unis (Michigan) : le retrait de Lighthouse Sustainability de son projet de 700 MW / 10 Md$ à Delhi Township, deux semaines seulement après son annonce, rappelle qu'un foncier identifié ou même un parc industriel aménagé ne vaut pas sécurisation effective tant que permis et locataire final ne sont pas actés — un risque à intégrer systématiquement dans l'évaluation d'un pipeline de sourcing.",
+    "États-Unis (Texas) : le marché du foncier énergisé loué clé en main continue de se structurer hors des méga-deals gigawatts — Giga Energy a signé un bail de 10 ans (1 Md$) pour 60 MW dans le comté de Hunt au profit d'un client cloud IA non identifié, confirmant la demande pour des sites mid-size prêts à l'emploi.",
+    "Les dossiers ouverts les jours précédents (tarif NC, loi Ohio sur l'expropriation, limites Alberta, pause Loudoun, décret espagnol) restent sans dénouement nouveau identifié cette semaine — à surveiller dans les prochains jours (vote espagnol visé avant le 29 novembre).",
+    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie : toujours aucune actualité data center nouvelle identifiée pour les trois acteurs cette semaine."
   ],
   "items": [
     {
@@ -45,6 +45,20 @@
       "summary": "Selon WCPO et News 5 Cleveland (17 novembre), une version non officielle du texte en discussion à la législature de l'Ohio lors de la session de fin d'année élargirait la définition de « service public » aux détenteurs d'un certificat de l'Ohio Power Siting Board pour une ligne de transport électrique ou un gazoduc associé à un projet, ouvrant selon des juristes une voie indirecte à l'expropriation pour des infrastructures liées aux data centers (sans octroyer ce pouvoir à l'opérateur du data center lui-même). L'Ohio Business Roundtable (patronat) dément toute intention d'élargir l'expropriation, tandis que l'Ohio Farm Bureau s'y oppose frontalement ; au moins deux autres textes concurrents (HB695, HB710) excluent explicitement l'expropriation pour l'implantation de data centers — un dossier législatif à forts enjeux pour la sécurisation foncière des projets dans l'État.",
       "source": "WCPO / News 5 Cleveland / States Newsroom",
       "url": "https://www.wcpo.com/news/state/state-ohio/leaked-bill-could-allow-ohio-data-centers-to-seize-land"
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Hunt County, Texas) : Giga Energy signe un bail de 10 ans (1 Md$) pour 60 MW dédiés à un client cloud IA non identifié",
+      "region": "Amérique du Nord",
+      "date": "2026-11-17",
+      "summary": "Giga Energy a annoncé le 17 novembre un bail de 10 ans portant sur environ 1 Md$ pour 60 MW de capacité data center (« Project Clay » selon Reuters, « Project Marl » selon l'entreprise) dans le comté de Hunt (Texas), au profit d'un fournisseur cloud IA américain non identifié ; Giga Energy développe, détient et exploite le site, dont la construction a débuté en juillet 2026 pour une mise en service visée au printemps 2027. L'opération illustre la généralisation du modèle développeur-bailleur foncier+énergie à une échelle mid-size (hors méga-deals gigawatts).",
+      "source": "Giga Energy (communiqué) / Reuters / FourWeekMBA",
+      "url": "https://fourweekmba.com/ai-giga-energys-1b-60mw-texas-lease-1-67m-per-mw-a-year/",
+      "mw": 60,
+      "inv": 1000,
+      "poweredLand": true,
+      "owners": "Giga Energy (développeur/bailleur)",
+      "investors": "n.c. (client cloud IA non identifié)"
     },
     {
       "category": "power",
@@ -122,6 +136,28 @@
       "investors": "Sentinel Data Centers (discussions renouvelées, non finalisé)"
     },
     {
+      "category": "legislation",
+      "title": "États-Unis (Boise, Idaho) : le conseil municipal approuve en urgence un moratoire de 6 mois sur les grands data centers",
+      "region": "Amérique du Nord",
+      "date": "2026-11-10",
+      "summary": "Le conseil municipal de Boise a approuvé à l'unanimité, le 10 novembre, un moratoire d'urgence de 6 mois sur les nouveaux projets de data centers de plus de 100 000 pieds carrés ou consommant plus de 20 MW, à la demande de la maire Lauren McLean ; la ville indique n'avoir à ce jour aucune demande de méga data center en cours, et la pause ne concerne pas les projets déjà autorisés. Le délai doit permettre à la ville d'étudier l'impact sur l'eau, l'énergie, les eaux usées, le bruit et la sécurité publique avant d'adopter un cadre réglementaire dédié.",
+      "source": "Idaho Capital Sun / States Newsroom / Idaho News 6",
+      "url": "https://idahocapitalsun.com/?p=33208",
+      "owners": "n.c.",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis (Oklahoma) : Edmond prolonge son moratorium data centers jusqu'à juin 2027, Oklahoma City étend le sien jusqu'à fin 2027",
+      "region": "Amérique du Nord",
+      "date": "2026-11-10",
+      "summary": "Le conseil municipal d'Edmond (Oklahoma) a voté à l'unanimité (5-0) le 9 novembre la prolongation de son moratorium sur les data centers (rezonages, permis de construire et exploitation) jusqu'au 30 juin 2027 ; celui d'Oklahoma City a de son côté voté, autour du 10 novembre, l'extension de sa propre pause sur les demandes de rezonage data centers jusqu'à fin 2027 ou l'adoption d'un nouveau code de zonage, selon la première échéance — le maire David Holt ayant précisé que l'approbation le 27 octobre d'un rezonage pour un data center déjà engagé ne signifiait pas une réouverture générale de la ville aux nouveaux projets.",
+      "source": "News9 / OKCFOX / City of Edmond",
+      "url": "https://okcfox.com/news/local/edmond-city-council-extends-moratorium-on-new-data-centers-through-june",
+      "owners": "n.c.",
+      "investors": "n.c."
+    },
+    {
       "category": "power",
       "title": "Norvège : Statnett suspend toute nouvelle réservation de capacité réseau pour les data centers jusqu'au 1er août 2027",
       "region": "Europe",
@@ -131,6 +167,19 @@
       "url": "https://baxtel.com/news/norway-grid-operator-statnett-halts-new-data-center-capacity-reservations",
       "owners": "n.c.",
       "investors": "n.c."
+    },
+    {
+      "category": "competition",
+      "title": "États-Unis (Delhi Township, Michigan) : le promoteur Lighthouse Sustainability retire son projet de campus de 10 Md$ / 700 MW, deux semaines après l'avoir annoncé",
+      "region": "Amérique du Nord",
+      "date": "2026-11-09",
+      "summary": "La Lansing Economic Area Partnership (LEAP) a annoncé le 9 novembre que Lighthouse Sustainability retirait son intérêt pour un site de 423 acres (Holt Economic Opportunity Park, Delhi Township, Michigan) destiné à un campus data center d'environ 10 Md$ et 700 MW, et chercherait d'autres opportunités ailleurs dans le pays ; le conseil du township avait voté 6-0 son opposition au projet, aucune demande de permis n'avait été déposée et aucun locataire final n'avait été identifié. Un rappel que la disponibilité affichée d'un foncier ne vaut pas sécurisation effective, même sur un parc industriel déjà aménagé.",
+      "source": "LEAP (communiqué) / FourWeekMBA / Michigan Advance",
+      "url": "https://fourweekmba.com/ai-developer-exits-10b-michigan-data-center-plan-after-13-days/",
+      "mw": 700,
+      "inv": 10000,
+      "owners": "n.c. (site non sécurisé, retrait du promoteur)",
+      "investors": "Lighthouse Sustainability (retrait)"
     },
     {
       "category": "power",
@@ -186,20 +235,6 @@
       "poweredLand": true,
       "owners": "Tombstone Resources LLC (lien SpaceX rapporté localement, non confirmé officiellement) · AEPCO (vendeur/fournisseur d'électricité)",
       "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Indiana) : NextNRG signe un term sheet non engageant pour 33 acres dédiés au « Lone Wolf Energy Center », jusqu'à 70 MW de capacité data center",
-      "region": "Amérique du Nord",
-      "date": "2026-11-05",
-      "summary": "NextNRG a annoncé le 5 novembre la signature d'un term sheet non engageant pour l'acquisition d'un site de 33 acres en Indiana destiné à son « Lone Wolf Energy Center », avec un potentiel de jusqu'à 70 MW de capacité dédiée aux data centers ; l'opération, structurée à environ 22 M$ (0,5 M$ en cash, 10 M$ en actions préférentielles nouvellement créées et 11,5 M$ en dette), prévoit le maintien d'un locataire pharmaceutique existant sur le bâtiment en place, les quelque 27 acres restants étant réservés au data center et aux infrastructures de puissance. Accord non engageant, à un stade précoce.",
-      "source": "GlobeNewswire (NextNRG) / Manila Times",
-      "url": "https://www.manilatimes.net/2026/11/05/tmt-newswire/globenewswire/nextnrg-executes-term-sheet-to-acquire-33-acre-indiana-site-for-lone-wolf-energy-center-with-potential-to-support-up-to-70-mw-of-data-center-capacity/2463058",
-      "mw": 70,
-      "inv": 22,
-      "poweredLand": true,
-      "owners": "n.c. (term sheet non engageant)",
-      "investors": "NextNRG"
     },
     {
       "category": "market",
@@ -331,22 +366,6 @@
     },
     {
       "category": "land",
-      "title": "États-Unis (West Richland, Washington) : Amazon confirme être l'acheteur du terrain de 264 M$ de l'ancien ranch Lewis and Clark pour un possible campus data center",
-      "region": "Amérique du Nord",
-      "date": "2026-11-03",
-      "summary": "Amazon Web Services a confirmé début novembre à la ville de West Richland être l'acheteur, via Trammell Crow Co., d'environ 1 000 acres de l'ancien ranch Lewis and Clark (deux transactions de juillet 2026 totalisant environ 264 M$), en vue d'un possible campus data center encore à un stade préliminaire ; aucune demande de permis n'a été déposée à ce jour, et une réunion publique d'information est prévue le 19 novembre à l'Enterprise Middle School.",
-      "source": "MyNorthwest / Tacoma News Tribune / Tri-Cities Business News",
-      "url": "https://mynorthwest.com/money/aws-richland-datacenter-264m/4294306",
-      "inv": 264,
-      "coords": [
-        46.304,
-        -119.353
-      ],
-      "owners": "Trammell Crow Co. (acquéreur initial) · Amazon Web Services (acheteur confirmé)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
       "title": "États-Unis (comté de Powhatan, Virginie) : une entité liée à Vantage Data Centers finalise l'achat de 180 acres pour un campus data center d'environ 3 Md$",
       "region": "Amérique du Nord",
       "date": "2026-11-02",
@@ -393,49 +412,6 @@
       "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
     },
     {
-      "category": "land",
-      "title": "États-Unis (comté de Cassia, Idaho) : TerraVolt Holdings sécurise des options sur 1 077 acres pour un campus data center hors réseau de 240 MW alimenté au gaz",
-      "region": "Amérique du Nord",
-      "date": "2026-10-30",
-      "summary": "TerraVolt Holdings a annoncé le 30 octobre avoir signé des accords d'option sur 1 077 acres dans le comté de Cassia (Idaho) pour développer un campus data center « behind-the-meter » de 240 MW alimenté par une centrale gaz sur site, adossée à un accord d'approvisionnement gazier ferme (55 000 MMBtu/jour) déjà signé au printemps 2026 et raccordé au gazoduc Northwest Natural Gas Pipeline. TerraVolt, société cotée OTCQB en phase de démarrage, prévoit de revendre des parcelles prêtes à construire à des opérateurs de data centers plutôt que d'exploiter elle-même les sites ; les accords restent des options, pas des achats fermes.",
-      "source": "TerraVolt Holdings (SEC Form 8-K) / W.Media / Blackridge Research",
-      "url": "https://www.blackridgeresearch.com/news-releases/terravolt-holdings-secures-options-on-1077-acres-idaho-240-mw-behind-the-meter-data-center-campus-in-the-us",
-      "mw": 240,
-      "poweredLand": true,
-      "owners": "TerraVolt Holdings (options ; vente prévue à des opérateurs tiers)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (comté de Goochland, Virginie) : Google confirmé comme porteur d'un campus data center de 1 200 MW sur environ 1 000 acres au West Creek Business Park",
-      "region": "Amérique du Nord",
-      "date": "2026-10-28",
-      "summary": "Le comté de Goochland a confirmé le 28 octobre que Google est l'utilisateur final derrière un projet de campus data center pouvant atteindre 1 200 MW sur environ 1 000 acres du West Creek Business Park (route 6/Hockett Road) ; le site se trouve dans le nouveau « technology overlay district » du comté, ce qui en fait un usage de droit (by-right) sans audience publique obligatoire, et la demande initiale déposée en juillet auprès de la State Corporation Commission prévoyait déjà quatre nouveaux postes électriques. Google indique poursuivre sa due diligence, sans engagement final confirmé ; la presse locale évoque un lien possible avec le développeur Tract, non confirmé officiellement.",
-      "source": "Richmond BizSense / DataCenterDynamics / Virginia Business",
-      "url": "https://richmondbizsense.com/2026/10/28/breaking-news-google-eyeing-data-center-campus-in-goochlands-west-creek/",
-      "mw": 1200,
-      "coords": [
-        37.65,
-        -77.69
-      ],
-      "poweredLand": true,
-      "owners": "n.c. (site en diligence ; lien avec Tract évoqué par la presse, non confirmé)",
-      "investors": "Google (client final confirmé par le comté)"
-    },
-    {
-      "category": "competition",
-      "title": "États-Unis (Natrona County, Wyoming) : Prometheus Hyperscale se retire du campus de 1,25 GW près de Casper, le propriétaire foncier affirme que le projet n'est pas mort",
-      "region": "Amérique du Nord",
-      "date": "2026-10-28",
-      "summary": "Prometheus Hyperscale a annoncé le 28 octobre renoncer à son projet de campus data center de 1 250 MW (environ 640 acres pour les data halls, 300 acres supplémentaires pour la centrale électrique dédiée) sur le ranch Falls Ranch près de Casper (Wyoming), son président évoquant un retrait des comtés de Natrona et Converse dans un contexte d'opposition locale croissante ; le propriétaire du terrain affirme toutefois que le projet se poursuit avec un autre partenaire à identifier — un cas d'école du risque d'échec d'un montage foncier+énergie déjà engagé, y compris sur un site où la centrale dédiée était planifiée.",
-      "source": "WyoFile / DataCenterDynamics / Cowboy State Daily",
-      "url": "https://datacenterdynamics.com/en/news/prometheus-hyperscale-pulls-out-of-gigawatt-scale-data-center-project-in-casper-wyoming",
-      "mw": 1250,
-      "poweredLand": true,
-      "owners": "Falls Ranch (propriétaire foncier ; projet maintenu selon le propriétaire)",
-      "investors": "n.c. (Prometheus Hyperscale, développeur sortant)"
-    },
-    {
       "category": "construction",
       "title": "États-Unis (Glendale, Arizona) : le conseil municipal approuve l'annexion du campus « Project Eagle/Baccara » (160 acres, 700 MW de génération gaz dédiée), malgré l'opposition locale",
       "region": "Amérique du Nord",
@@ -467,22 +443,6 @@
       ],
       "poweredLand": true,
       "owners": "Goodman (promesse de vente, Osartis-Marquion)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France (Cagny, Calvados) : Sepia Infrastructure signe une promesse de vente pour un campus IA avec data center sur l'ancienne sucrerie Saint-Louis, un des 55 sites « clés en main » France 2030",
-      "region": "France",
-      "date": "2026-10-22",
-      "summary": "Sepia Infrastructure a signé début septembre une promesse de vente avec les propriétaires allemands de l'ancienne sucrerie Saint-Louis à Cagny (Calvados) pour y développer un campus technologique hybride incluant un data center et des activités liées à l'IA (200 emplois directs et indirects visés), avec valorisation de la chaleur fatale vers des serres et du chauffage de proximité ; le site fait partie des 55 sites industriels « clés en main France 2030 », mais le permis de construire n'est pas encore déposé, la puissance électrique visée n'est pas communiquée et les riverains s'inquiètent déjà de la consommation d'eau prévue.",
-      "source": "ICI Normandie (France Bleu/France Info)",
-      "url": "https://www.ici.fr/normandie/calvados-14/cagny/a-cagny-un-campus-technologique-dedie-a-l-ia-et-un-data-center-verront-bien-le-jour-3954785",
-      "coords": [
-        49.1333,
-        -0.25
-      ],
-      "poweredLand": true,
-      "owners": "Sepia Infrastructure",
       "investors": "n.c."
     },
     {
