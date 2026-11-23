@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-20",
+  "lastUpdated": "2026-11-23",
   "keyTakeaways": [
-    "États-Unis : la vague de moratoires municipaux post-Election Day se poursuit une semaine après le scrutin du 3 novembre — Boise (Idaho, urgence, ≥100 000 sq ft ou ≥20 MW, 10/11) et prolongations à Edmond et Oklahoma City (Oklahoma, jusqu'à mi/fin 2027) confirment que le risque réglementaire local reste le principal frein à la sécurisation rapide de foncier aux États-Unis, y compris dans des marchés jusque-là peu contestés.",
-    "États-Unis (Michigan) : le retrait de Lighthouse Sustainability de son projet de 700 MW / 10 Md$ à Delhi Township, deux semaines seulement après son annonce, rappelle qu'un foncier identifié ou même un parc industriel aménagé ne vaut pas sécurisation effective tant que permis et locataire final ne sont pas actés — un risque à intégrer systématiquement dans l'évaluation d'un pipeline de sourcing.",
-    "États-Unis (Texas) : le marché du foncier énergisé loué clé en main continue de se structurer hors des méga-deals gigawatts — Giga Energy a signé un bail de 10 ans (1 Md$) pour 60 MW dans le comté de Hunt au profit d'un client cloud IA non identifié, confirmant la demande pour des sites mid-size prêts à l'emploi.",
-    "Les dossiers ouverts les jours précédents (tarif NC, loi Ohio sur l'expropriation, limites Alberta, pause Loudoun, décret espagnol) restent sans dénouement nouveau identifié cette semaine — à surveiller dans les prochains jours (vote espagnol visé avant le 29 novembre).",
-    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie : toujours aucune actualité data center nouvelle identifiée pour les trois acteurs cette semaine."
+    "États-Unis : Blackstone Digital Infrastructure Trust (BXDC), nouveau REIT de data centers, démarre par le rachat de 75,1% (5 Md$) de 647 MW de « powered shells » déjà loués à AWS en Indiana et au Mississippi (17/11) — signe que les capitaux institutionnels se tournent de plus en plus vers du foncier énergisé déjà stabilisé et loué plutôt que vers du foncier brut, un segment à surveiller pour le refinancement d'actifs existants.",
+    "Europe : la Commission confirme (Euronews Verify, 17/11) son objectif de tripler la capacité des data centers d'ici 2030-2035, tout en reconnaissant elle-même des limites sur l'électricité, l'eau, le foncier et les raccordements réseau ; environ 63% des nouvelles capacités se développent désormais hors des cinq grands marchés historiques (Francfort, Londres, Amsterdam, Paris, Dublin), confirmant la dispersion géographique du sourcing foncier+énergie à anticiper en Europe.",
+    "États-Unis : le risque réglementaire local continue de s'accumuler sans dénouement cette semaine — le projet de moratoire en Virginie (SB843, Sen. Perry, soutenu par Sen. Sturtevant) reste en attente de la session de janvier 2027, et le statut final des permis de centrales gaz dédiées en Ohio (Ashville/PowerConneX, Millersport/Vantage) n'a pas pu être confirmé, laissant planer une incertitude sur la disponibilité effective de puissance déjà annoncée sur ces deux campus.",
+    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs. Rappel de contexte sur Polarise : projet de 30-65 MW à Amberg (Bavière, ex-site de transmission Wertachtal, annoncé en mars 2026) et partenariat de financement par dette avec SWI Stoneweg Icona Group (août 2026) — un profil de reconversion de friche à garder en veille ; FDE n'a qu'une mention LinkedIn récente liée à une acquisition dans le biogaz (Cryo Pur), sans lien avec les data centers.",
+    "Les dossiers ouverts les semaines précédentes (recours administratifs contre Fouju, décision préfectorale Petit-Landau/Hombourg de Microsoft, décret espagnol avant les élections du 29 novembre, pause Loudoun et son « grandfathering » de 23 projets) restent sans dénouement nouveau identifié cette semaine."
   ],
   "items": [
     {
@@ -59,6 +59,29 @@
       "poweredLand": true,
       "owners": "Giga Energy (développeur/bailleur)",
       "investors": "n.c. (client cloud IA non identifié)"
+    },
+    {
+      "category": "market",
+      "title": "États-Unis : Blackstone Digital Infrastructure Trust (BXDC) démarre avec le rachat de 75,1% de deux coentreprises AWS, 5 Md$ pour 647 MW de « powered shells » en Indiana et au Mississippi",
+      "region": "Amérique du Nord",
+      "date": "2026-11-17",
+      "summary": "Blackstone Digital Infrastructure Trust (BXDC), REIT de data centers récemment introduit, a annoncé le 17 novembre l'acquisition d'une participation de 75,1% dans deux coentreprises avec Amazon Web Services, pour environ 5 Md$ ; les actifs sont 13 bâtiments « powered shells » déjà raccordés sur des campus AWS du nord de l'Indiana (9 bâtiments) et du Mississippi (4 bâtiments), totalisant 647 MW, qu'AWS reloue en triple net sur une durée initiale de 12 ans (jusqu'à 32 ans avec extensions). Le financement combine environ 2,5 Md$ de nouvelles dettes hypothécaires non recours, 1,9 Md$ de produits de l'introduction en bourse de BXDC et 0,6 Md$ correspondant à la participation résiduelle d'Amazon (25%) ; clôture visée au T4 2026. Un signal de l'appétit croissant des capitaux institutionnels pour du foncier énergisé déjà stabilisé et loué, plutôt que pour du foncier brut.",
+      "source": "Reuters / Baxtel / Finimize / Citybiz",
+      "url": "https://baxtel.com/news/blackstone-digital-infrastructure-trust-buys-75-of-aws-joint-ventures-for-5b",
+      "mw": 647,
+      "inv": 5000,
+      "poweredLand": true,
+      "owners": "AWS (foncier/campus, 25% résiduel)",
+      "investors": "Blackstone Digital Infrastructure Trust (75,1%)"
+    },
+    {
+      "category": "legislation",
+      "title": "Europe : la Commission veut tripler la capacité des data centers d'ici 2030-2035, un objectif qui se heurte aux limites de foncier, d'eau et de réseau selon Euronews Verify",
+      "region": "Europe",
+      "date": "2026-11-17",
+      "summary": "Un décryptage d'Euronews Verify publié le 17 novembre revient sur l'objectif de la Commission européenne, annoncé en avril, de tripler la capacité des data centers du continent dans les 5 à 7 prochaines années (28 GW visés d'ici 2030 contre 12 GW un an plus tôt selon certaines estimations) ; la Commission reconnaît elle-même des limites sur l'électricité, l'eau, le foncier, les raccordements réseau et le financement, et des associations (dont Stop Dirty Data Centres) alertent sur la concurrence avec le logement et l'agriculture. Plusieurs pays (Espagne, Irlande, Pays-Bas) connaissent déjà des tensions sur l'eau, et environ 63% des nouvelles capacités européennes se développent désormais hors des cinq grands marchés historiques (Francfort, Londres, Amsterdam, Paris, Dublin) selon CBRE/JLL — une confirmation de la dispersion géographique du sourcing foncier+énergie en Europe.",
+      "source": "Euronews Verify / EUobserver / CBRE / JLL",
+      "url": "https://www.euronews.com/2026/11/17/euronews-verify-whats-at-stake-as-europe-seeks-to-triple-its-data-centre-capacity"
     },
     {
       "category": "power",
@@ -397,19 +420,6 @@
       "poweredLand": true,
       "owners": "Google (Tricolore Computing) · RTE",
       "investors": "n.c."
-    },
-    {
-      "category": "power",
-      "title": "Royaume-Uni (Teesside, Dorman Point) : National Grid achète un terrain pour la plus grande sous-station du pays, consultation publique sur le projet jusqu'au 11 novembre",
-      "region": "Europe",
-      "date": "2026-11",
-      "summary": "National Grid a acheté un terrain à Dorman Point, sur l'ancien site sidérurgique de Teesworks (Teesside), pour y construire ce qui serait la plus grande sous-station électrique du Royaume-Uni (« Teesside Node A », capacité initiale de 1,44 GW, mise en service visée fin 2029) ; la sous-station est destinée à alimenter un data center IA que Teesworks développe sur un site ayant déjà obtenu un permis d'urbanisme de principe. La consultation communautaire sur le projet doit se clore le 11 novembre, en amont d'une demande de permis attendue. Google serait intéressé selon la presse, mais aucun partenaire opérateur ou investisseur n'est confirmé à ce stade.",
-      "source": "DataCenterDynamics / Construction Enquirer / ITPro / Crypto Briefing",
-      "url": "https://datacenterdynamics.com/en/news/national-grid-buys-land-in-teesside-uk-for-32gw-substation-to-power-ai-data-center",
-      "mw": 1440,
-      "poweredLand": true,
-      "owners": "Teesworks (foncier) · National Grid (sous-station)",
-      "investors": "n.c. (intérêt de Google rapporté par la presse, non confirmé)"
     },
     {
       "category": "construction",
