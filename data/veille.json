@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-23",
+  "lastUpdated": "2026-11-24",
   "keyTakeaways": [
-    "États-Unis : Blackstone Digital Infrastructure Trust (BXDC), nouveau REIT de data centers, démarre par le rachat de 75,1% (5 Md$) de 647 MW de « powered shells » déjà loués à AWS en Indiana et au Mississippi (17/11) — signe que les capitaux institutionnels se tournent de plus en plus vers du foncier énergisé déjà stabilisé et loué plutôt que vers du foncier brut, un segment à surveiller pour le refinancement d'actifs existants.",
-    "Europe : la Commission confirme (Euronews Verify, 17/11) son objectif de tripler la capacité des data centers d'ici 2030-2035, tout en reconnaissant elle-même des limites sur l'électricité, l'eau, le foncier et les raccordements réseau ; environ 63% des nouvelles capacités se développent désormais hors des cinq grands marchés historiques (Francfort, Londres, Amsterdam, Paris, Dublin), confirmant la dispersion géographique du sourcing foncier+énergie à anticiper en Europe.",
-    "États-Unis : le risque réglementaire local continue de s'accumuler sans dénouement cette semaine — le projet de moratoire en Virginie (SB843, Sen. Perry, soutenu par Sen. Sturtevant) reste en attente de la session de janvier 2027, et le statut final des permis de centrales gaz dédiées en Ohio (Ashville/PowerConneX, Millersport/Vantage) n'a pas pu être confirmé, laissant planer une incertitude sur la disponibilité effective de puissance déjà annoncée sur ces deux campus.",
-    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs. Rappel de contexte sur Polarise : projet de 30-65 MW à Amberg (Bavière, ex-site de transmission Wertachtal, annoncé en mars 2026) et partenariat de financement par dette avec SWI Stoneweg Icona Group (août 2026) — un profil de reconversion de friche à garder en veille ; FDE n'a qu'une mention LinkedIn récente liée à une acquisition dans le biogaz (Cryo Pur), sans lien avec les data centers.",
-    "Les dossiers ouverts les semaines précédentes (recours administratifs contre Fouju, décision préfectorale Petit-Landau/Hombourg de Microsoft, décret espagnol avant les élections du 29 novembre, pause Loudoun et son « grandfathering » de 23 projets) restent sans dénouement nouveau identifié cette semaine."
+    "États-Unis (Texas) : la TCEQ a repris le 16 novembre l'instruction des permis environnementaux pour data centers (suspendus depuis le 21 septembre dans l'attente d'un audit ERCOT) et a immédiatement délivré à SpaceX un permis air pour 1 456 MW de turbines gaz à Starbase — la relance réglementaire profite d'abord aux projets foncier+énergie déjà engagés avec génération captive, malgré les critiques sur l'absence d'avis public.",
+    "États-Unis (Virginie) : la chasse au foncier hyperscaler continue hors de Loudoun malgré la pause votée le 17 novembre — Google confirmé (28 octobre) sur 1 200 MW à Goochland (West Creek) et Spotsylvania qui approuve (4-3) le campus Crossroads de 550 acres malgré l'opposition locale sur la fiscalité ; le sort de la proposition distincte visant à retirer le « grandfathering » 2025 d'au moins 23 projets a lui-même été reporté, et non tranché, lors du même vote.",
+    "Europe (Espagne) : le décret sur les data centers franchit le Conseil d'État avec un seuil relevé de 1 à 10 MW et une dérogation ciblée pour des sites stratégiques (Móra la Nova), dans une course contre le calendrier électoral (29 novembre) — un signal que l'arbitrage réglementaire pourrait de plus en plus façonner la valeur du foncier énergisé en Europe du Sud.",
+    "États-Unis (fédéral) : le Sénat a ouvert le débat (vote procédural 73-25) sur un texte obligeant les data centers à payer les coûts de renforcement réseau, dans la continuité du tarif « large load » déjà approuvé en Caroline du Nord — la tendance à faire porter le coût du raccordement sur l'opérateur plutôt que sur le réseau général se structure, avec un impact direct sur la valorisation du foncier déjà énergisé vs. non raccordé.",
+    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle identifiée cette semaine pour les trois acteurs. Rappel de contexte sur Polarise : projet de 30-65 MW à Amberg (Bavière, ex-site de transmission Wertachtal) et partenariat de financement par dette avec SWI Stoneweg Icona Group — un profil de reconversion de friche à garder en veille ; FDE reste sans lien connu avec les data centers (seule actualité récente : acquisition biogaz Cryo Pur)."
   ],
   "items": [
     {
@@ -85,6 +85,56 @@
     },
     {
       "category": "power",
+      "title": "États-Unis (Starbase, Texas) : le régulateur environnemental texan (TCEQ) reprend l'instruction des permis data centers et délivre à SpaceX un permis air pour 43 turbines gaz (1 456 MW) au projet Starbase",
+      "region": "Amérique du Nord",
+      "date": "2026-11-16",
+      "summary": "Après la pause générale sur les nouveaux permis environnementaux pour data centers décrétée par le gouverneur Abbott le 21 septembre (en attente d'un audit de l'ERCOT sur les files d'attente de raccordement), la Texas Commission on Environmental Quality a repris l'instruction des dossiers le 16 novembre et délivré dans la foulée à SpaceX un permis air portant sur 43 turbines gaz pour une capacité totale de 1 456 MW, destiné au projet de data center de 24 Md$ à Starbase (Cameron County) ; l'association Public Citizen dénonce une procédure sans avis public préalable.",
+      "source": "DataCenterDynamics / Fox4/Fox7/Fox26 / Public Citizen",
+      "url": "https://datacenterdynamics.com/en/news/texas-environmental-regulator-resumes-data-center-permitting-following-ercot-review",
+      "mw": 1456,
+      "coords": [
+        25.997,
+        -97.157
+      ],
+      "poweredLand": true,
+      "owners": "SpaceX (non confirmé officiellement)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Spotsylvania County, Virginie) : le conseil approuve (4-3) le campus data center Crossroads Technology Campus sur 550 acres, malgré une forte opposition locale",
+      "region": "Amérique du Nord",
+      "date": "2026-11",
+      "summary": "Le Board of Supervisors de Spotsylvania County a approuvé par 4 voix contre 3 le rezonage du Crossroads Technology Campus, un projet de data center porté par le développeur Kettler sur environ 550 acres incluant trois postes électriques, après un avis favorable de la commission de planification ; l'opposition locale porte notamment sur la fiscalité jugée trop favorable (taux de 1,25 $ par 100 $ de valeur d'équipement, l'un des plus bas de la région avec Stafford et Fredericksburg).",
+      "source": "WJLA / Fredericksburg Free Press",
+      "url": "https://wjla.com/news/local/spotsylvania-county-board-approves-550-acre-data-center-site-despite-fierce-opposition",
+      "owners": "Kettler (développeur)",
+      "investors": "n.c."
+    },
+    {
+      "category": "construction",
+      "title": "États-Unis (Kingston, Géorgie) : le conseil municipal approuve le permis d'usage spécial pour le campus data center de 1 Md$ de Thor Equities (560 acres, 150 MW), malgré la menace d'un recours des riverains",
+      "region": "Amérique du Nord",
+      "date": "2026-11",
+      "summary": "Après un avis favorable (2-1) du zoning board, le conseil municipal de Kingston (comté de Bartow, Géorgie) a approuvé le permis d'usage spécial pour un campus data center de Thor Equities sur environ 560 acres le long de la Georgia State Route 293, projet estimé à 1 Md$ (environ 150 MW, jusqu'à 50 000 gallons d'eau par jour selon Bisnow) et visé pour 2030 ; aucun locataire final n'est signé, et des riverains préparent un recours en justice invoquant l'impact environnemental.",
+      "source": "FOX5 Atlanta / Bisnow / Baxtel",
+      "url": "https://www.fox5atlanta.com/news/kingston-data-center-city-leaders-approve-special-use-permit",
+      "mw": 150,
+      "inv": 1000,
+      "owners": "Thor Equities",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "Espagne : le décret sur les data centers franchit l'étape du Conseil d'État, avec des exigences assouplies (seuil relevé à 10 MW) avant les élections du 29 novembre",
+      "region": "Europe",
+      "date": "2026-11",
+      "summary": "Selon Ara (novembre), le projet de décret espagnol sur les data centers, transmis au Conseil d'État le 26 octobre en procédure d'urgence, a été révisé pour relever le seuil d'application de 1 à 10 MW et étendre de 18 à 36 mois l'âge maximal des installations renouvelables éligibles ; le texte introduirait aussi une dérogation sur les exigences d'efficacité hydrique pour des sites stratégiques comme le projet de gigafactory IA de Móra la Nova, suscitant la critique d'ONG environnementales qui redoutaient déjà un assouplissement, avant une adoption visée avant les élections générales du 29 novembre.",
+      "source": "Ara / Baxtel / Cuatrecasas",
+      "url": "https://en.ara.cat/economy/the-data-center-decree-dilutes-the-requirements-for-ai-gigafactories-like-the-one-in-mora-nova_1_5891916.html"
+    },
+    {
+      "category": "power",
       "title": "États-Unis (Carson County, Texas) : Fermi signe un accord avec un hyperscaler non identifié pour 600 MW à Project Matador, résilie le bail TensorWave",
       "region": "Amérique du Nord",
       "date": "2026-11-12",
@@ -160,25 +210,12 @@
     },
     {
       "category": "legislation",
-      "title": "États-Unis (Boise, Idaho) : le conseil municipal approuve en urgence un moratoire de 6 mois sur les grands data centers",
+      "title": "États-Unis : le Sénat engage le débat (vote procédural 73-25) sur un texte fédéral obligeant les data centers à payer les coûts de renforcement réseau",
       "region": "Amérique du Nord",
       "date": "2026-11-10",
-      "summary": "Le conseil municipal de Boise a approuvé à l'unanimité, le 10 novembre, un moratoire d'urgence de 6 mois sur les nouveaux projets de data centers de plus de 100 000 pieds carrés ou consommant plus de 20 MW, à la demande de la maire Lauren McLean ; la ville indique n'avoir à ce jour aucune demande de méga data center en cours, et la pause ne concerne pas les projets déjà autorisés. Le délai doit permettre à la ville d'étudier l'impact sur l'eau, l'énergie, les eaux usées, le bruit et la sécurité publique avant d'adopter un cadre réglementaire dédié.",
-      "source": "Idaho Capital Sun / States Newsroom / Idaho News 6",
-      "url": "https://idahocapitalsun.com/?p=33208",
-      "owners": "n.c.",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Oklahoma) : Edmond prolonge son moratorium data centers jusqu'à juin 2027, Oklahoma City étend le sien jusqu'à fin 2027",
-      "region": "Amérique du Nord",
-      "date": "2026-11-10",
-      "summary": "Le conseil municipal d'Edmond (Oklahoma) a voté à l'unanimité (5-0) le 9 novembre la prolongation de son moratorium sur les data centers (rezonages, permis de construire et exploitation) jusqu'au 30 juin 2027 ; celui d'Oklahoma City a de son côté voté, autour du 10 novembre, l'extension de sa propre pause sur les demandes de rezonage data centers jusqu'à fin 2027 ou l'adoption d'un nouveau code de zonage, selon la première échéance — le maire David Holt ayant précisé que l'approbation le 27 octobre d'un rezonage pour un data center déjà engagé ne signifiait pas une réouverture générale de la ville aux nouveaux projets.",
-      "source": "News9 / OKCFOX / City of Edmond",
-      "url": "https://okcfox.com/news/local/edmond-city-council-extends-moratorium-on-new-data-centers-through-june",
-      "owners": "n.c.",
-      "investors": "n.c."
+      "summary": "Le Sénat américain a voté 73-25 pour ouvrir le débat sur un paquet bipartisan de réforme du permitting énergétique incluant une obligation pour les grands data centers de payer les coûts de raccordement et de renforcement réseau qu'ils engendrent ; le texte doit encore franchir un vote final au Sénat, puis la Chambre des représentants et la signature présidentielle, dans la continuité du précédent « Data Center Ratepayer Protection Act » bloqué au Sénat le 30 septembre. Grid Strategies estime l'impact potentiel à environ 35 Md$ de coûts additionnels pour les data centers sur dix ans.",
+      "source": "Al Jazeera / Bloomberg Government / Honolulu Star-Advertiser",
+      "url": "https://www.aljazeera.com/news/2026/11/10/us-senate-advances-major-bill-boosting-energy-infrastructure"
     },
     {
       "category": "power",
@@ -379,15 +416,6 @@
       "investors": "n.c."
     },
     {
-      "category": "legislation",
-      "title": "Espagne : cinq grandes ONG environnementales demandent au gouvernement de ne pas affaiblir le décret sur les data centers avant son adoption",
-      "region": "Europe",
-      "date": "2026-11-03",
-      "summary": "Amigas de la Tierra, Ecologistas en Acción, Greenpeace, SEO/BirdLife et WWF España ont publié le 3 novembre un communiqué commun alertant sur un possible assouplissement du projet de décret espagnol sur les data centers avant son passage au Conseil d'État, réclamant une couverture à 100% par des renouvelables additionnelles, des limites sur la consommation d'eau et une évaluation de l'impact cumulé par territoire plutôt que projet par projet ; le texte, actuellement devant le Conseil d'État, viserait une adoption avant le 29 novembre selon la presse, dans un contexte où la patronale SpainDC alerte de son côté sur un risque pour 80-90% des nouveaux investissements si les exigences restent trop strictes — un bras de fer réglementaire à suivre pour la sécurisation du foncier énergisé en Espagne.",
-      "source": "Energías Renovables / El Salto Diario / MITECO",
-      "url": "https://www.energias-renovables.com/panorama/las-cinco-grandes-organizaciones-ambientales-de-espa-20261103"
-    },
-    {
       "category": "land",
       "title": "États-Unis (comté de Powhatan, Virginie) : une entité liée à Vantage Data Centers finalise l'achat de 180 acres pour un campus data center d'environ 3 Md$",
       "region": "Amérique du Nord",
@@ -422,6 +450,23 @@
       "investors": "n.c."
     },
     {
+      "category": "land",
+      "title": "États-Unis (Goochland County, Virginie) : Google confirmé comme porteur d'un projet de campus data center de 1 200 MW sur environ 1 000 acres à West Creek",
+      "region": "Amérique du Nord",
+      "date": "2026-10-28",
+      "summary": "Le comté de Goochland a confirmé le 28 octobre que Google est à l'origine d'un projet de campus data center de 1 200 MW sur environ 1 000 acres dans le secteur de West Creek ; le dossier avait émergé via un dépôt auprès de la State Corporation Commission de Virginie en juillet (quatre « engineering letters of authorization » signées), mais aucun plan n'a encore été déposé auprès du comté et quatre nouveaux postes électriques seraient nécessaires.",
+      "source": "RichmondBizSense / Baxtel / DataCenterDynamics",
+      "url": "https://richmondbizsense.com/2026/10/28/breaking-news-google-eyeing-data-center-campus-in-goochlands-west-creek/",
+      "mw": 1200,
+      "coords": [
+        37.73,
+        -77.88
+      ],
+      "poweredLand": true,
+      "owners": "Google",
+      "investors": "n.c."
+    },
+    {
       "category": "construction",
       "title": "États-Unis (Glendale, Arizona) : le conseil municipal approuve l'annexion du campus « Project Eagle/Baccara » (160 acres, 700 MW de génération gaz dédiée), malgré l'opposition locale",
       "region": "Amérique du Nord",
@@ -436,23 +481,6 @@
       ],
       "poweredLand": true,
       "owners": "Takanock LLC",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "France (Brebières/Corbehem, Pas-de-Calais) : Goodman propose un campus de 4 data centers (264 MW cumulés) sur l'ancienne friche de la papeterie Stora Enso",
-      "region": "France",
-      "date": "2026-10-26",
-      "summary": "Le groupe australien Goodman projette un campus de 4 data centers (25 000 m² chacun, 60-72 MW par bâtiment, soit environ 264 MW cumulés) sur l'ancienne friche de la papeterie Stora Enso à cheval entre Brebières et Corbehem (Pas-de-Calais, 16 à 23 ha selon les sources) ; RTE prévoit de construire un poste 225 kV à Noyelles-sous-Bellonne avec deux lignes souterraines vers le site (travaux 2027-2029), le projet (350 emplois visés) n'étant pas encore validé et contesté par trois collectifs de riverains ; aucun montant d'investissement ni opérateur final n'est officiellement communiqué à ce stade.",
-      "source": "Le Journal des Entreprises / La Gazette France / ICI Hauts-de-France",
-      "url": "https://www.lejournaldesentreprises.com/article/goodman-projette-un-campus-geant-de-data-centers-et-jusqua-350-emplois-brebieres-2147204",
-      "mw": 264,
-      "coords": [
-        50.313,
-        2.983
-      ],
-      "poweredLand": true,
-      "owners": "Goodman (promesse de vente, Osartis-Marquion)",
       "investors": "n.c."
     },
     {
