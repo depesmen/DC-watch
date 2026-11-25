@@ -1,21 +1,36 @@
 {
-  "lastUpdated": "2026-11-24",
+  "lastUpdated": "2026-11-25",
   "keyTakeaways": [
-    "États-Unis (Texas) : la TCEQ a repris le 16 novembre l'instruction des permis environnementaux pour data centers (suspendus depuis le 21 septembre dans l'attente d'un audit ERCOT) et a immédiatement délivré à SpaceX un permis air pour 1 456 MW de turbines gaz à Starbase — la relance réglementaire profite d'abord aux projets foncier+énergie déjà engagés avec génération captive, malgré les critiques sur l'absence d'avis public.",
-    "États-Unis (Virginie) : la chasse au foncier hyperscaler continue hors de Loudoun malgré la pause votée le 17 novembre — Google confirmé (28 octobre) sur 1 200 MW à Goochland (West Creek) et Spotsylvania qui approuve (4-3) le campus Crossroads de 550 acres malgré l'opposition locale sur la fiscalité ; le sort de la proposition distincte visant à retirer le « grandfathering » 2025 d'au moins 23 projets a lui-même été reporté, et non tranché, lors du même vote.",
-    "Europe (Espagne) : le décret sur les data centers franchit le Conseil d'État avec un seuil relevé de 1 à 10 MW et une dérogation ciblée pour des sites stratégiques (Móra la Nova), dans une course contre le calendrier électoral (29 novembre) — un signal que l'arbitrage réglementaire pourrait de plus en plus façonner la valeur du foncier énergisé en Europe du Sud.",
-    "États-Unis (fédéral) : le Sénat a ouvert le débat (vote procédural 73-25) sur un texte obligeant les data centers à payer les coûts de renforcement réseau, dans la continuité du tarif « large load » déjà approuvé en Caroline du Nord — la tendance à faire porter le coût du raccordement sur l'opérateur plutôt que sur le réseau général se structure, avec un impact direct sur la valorisation du foncier déjà énergisé vs. non raccordé.",
-    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle identifiée cette semaine pour les trois acteurs. Rappel de contexte sur Polarise : projet de 30-65 MW à Amberg (Bavière, ex-site de transmission Wertachtal) et partenariat de financement par dette avec SWI Stoneweg Icona Group — un profil de reconversion de friche à garder en veille ; FDE reste sans lien connu avec les data centers (seule actualité récente : acquisition biogaz Cryo Pur)."
+    "États-Unis (Texas) : le comté de Cottle County a approuvé le 13 novembre le bail « Project Matter » d'Aetheris sur des terres agricoles de la Farmland Reserve (Église mormone) — data center 96 MW + centrale gaz dédiée 180 MW sans locataire final nommé — un nouveau modèle de foncier agricole massif sécurisé avec génération captive avant tout engagement hyperscaler, à rapprocher du précédent STAK Energy en Alaska.",
+    "France : le dossier Google/RTE de Châteauroux (ZAC d'Ozans) se structure avec un partenariat énergétique envisagé avec ENGIE (renouvelables, stockage, chaleur fatale), tandis que Cegedim met en service à Magny-les-Hameaux (Yvelines) son 5e data center sur l'emprise d'un ancien site météorologique — deux illustrations complémentaires de la valorisation de foncier existant (public ou en concertation) pour l'IA en France.",
+    "Asie du Sud-Est : SoftBank, Grab et la société pétrolière publique PETROS signent un accord de développement conjoint visant 5 GW de capacité IA en Malaisie (Sarawak + péninsule), avec 1,85 Md$ de capital d'amorçage annoncé — la course au foncier+énergie s'étend désormais explicitement à des marchés dotés de ressources énergétiques locales abondantes, hors Amérique du Nord et Europe.",
+    "États-Unis (marchés secondaires) : le comté de Spartanburg (Caroline du Sud) approuve trois nouveaux accords de développement data center (~5,5 Md$ cumulés) et un filing de la Tennessee Valley Authority révèle un accord non identifié d'environ 1,7 Md$ — la dynamique transactionnelle continue de se diffuser hors des marchés historiques (Virginie, Texas).",
+    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs ; à noter qu'aucune entité publiquement identifiable sous le nom exact « Aurora Infra » n'a pu être trouvée — à clarifier (autre orthographe ou nom complet ?) lors d'une prochaine veille. Rappel Polarise : pipeline actif (Amberg/Wertachtal Bavière, financement Macquarie et SWI Stoneweg Icona, partenariat Deutsche Telekom à Munich, site Oslo Gardermoen/Jessheim) mais sans annonce datée cette semaine."
   ],
   "items": [
     {
-      "category": "legislation",
-      "title": "Canada (Alberta) : la province dévoile de nouvelles limites d'implantation pour les data centers IA et renonce à inscrire dans la loi le plafond d'émissions des sables bitumineux",
-      "region": "International",
-      "date": "2026-11-18",
-      "summary": "Le gouvernement albertain a dévoilé le 18 novembre de nouvelles règles encadrant l'implantation des data centers IA — restrictions de proximité avec les zones résidentielles et les terres agricoles irriguées, selon la presse — dans la continuité des lois Bill 8/Bill 12 (sanctionnées en décembre 2025) qui instauraient déjà une redevance sur les data centers raccordés au réseau ; le même jour, la province a renoncé à inscrire dans la loi un plafond de 100 mégatonnes sur les émissions des sables bitumineux. Les détails précis du texte (distances exactes, portée, numéro de projet de loi) restent à confirmer auprès de la législature albertaine.",
-      "source": "Boe Report / Startup Fortune",
-      "url": "https://boereport.com/2026/11/18/alberta-unveils-data-center-limits-drops-oil-sands-emissions-cap"
+      "category": "market",
+      "title": "États-Unis (Tennessee) : un document réglementaire de la Tennessee Valley Authority (TVA) révèle un accord data center non identifié d'environ 1,7 Md$",
+      "region": "Amérique du Nord",
+      "date": "2026-11-24",
+      "summary": "Un filing de la Tennessee Valley Authority daté du 24 novembre fait référence à un accord portant sur un data center pouvant rapporter environ 1,7 Md$ à l'utility publique ; ni le client final ni la localisation précise du site ne sont divulgués à ce stade, ce qui illustre la poursuite de la montée en charge des engagements financiers liés aux data centers sur le réseau TVA (Tennessee, Alabama, Kentucky notamment).",
+      "source": "WSMV / Action News 5",
+      "url": "https://www.wsmv.com/2026/11/24/tennessee-valley-authority-filing-references-17-billion-data-center-deal/",
+      "inv": 1700,
+      "owners": "n.c.",
+      "investors": "n.c."
+    },
+    {
+      "category": "construction",
+      "title": "France (Magny-les-Hameaux, Yvelines) : Cegedim met en service EB6, son 5e data center, sur l'emprise d'un ancien site météorologique",
+      "region": "France",
+      "date": "2026-11-19",
+      "summary": "Cegedim a annoncé le 19 novembre la mise en service d'EB6, son cinquième data center, sur une friche de 2,2 hectares d'un ancien observatoire météorologique à Magny-les-Hameaux (Yvelines, parc naturel régional) ; le site, en refroidissement liquide direct, vise une certification Tier IV Design & Build/Facility et une qualification SecNumCloud — un nouveau cas de reconversion de foncier public/industriel existant en France, sans puissance ni investissement officiellement communiqués.",
+      "source": "Idéal Investisseur / Boursedirect / Tradingsat",
+      "url": "https://www.ideal-investisseur.fr/actions-b/cegedim-ouvre-eb6-dans-les-yvelines-un-data-center-souverain-dedie-a-lia/29683.html",
+      "poweredLand": true,
+      "owners": "Cegedim",
+      "investors": "n.c."
     },
     {
       "category": "legislation",
@@ -75,13 +90,16 @@
       "investors": "Blackstone Digital Infrastructure Trust (75,1%)"
     },
     {
-      "category": "legislation",
-      "title": "Europe : la Commission veut tripler la capacité des data centers d'ici 2030-2035, un objectif qui se heurte aux limites de foncier, d'eau et de réseau selon Euronews Verify",
-      "region": "Europe",
+      "category": "construction",
+      "title": "États-Unis (Spartanburg County, Caroline du Sud) : le conseil départemental approuve en 3e lecture trois accords de développement data center (~5,5 Md$ cumulés), trois autres avancent en 1ère lecture",
+      "region": "Amérique du Nord",
       "date": "2026-11-17",
-      "summary": "Un décryptage d'Euronews Verify publié le 17 novembre revient sur l'objectif de la Commission européenne, annoncé en avril, de tripler la capacité des data centers du continent dans les 5 à 7 prochaines années (28 GW visés d'ici 2030 contre 12 GW un an plus tôt selon certaines estimations) ; la Commission reconnaît elle-même des limites sur l'électricité, l'eau, le foncier, les raccordements réseau et le financement, et des associations (dont Stop Dirty Data Centres) alertent sur la concurrence avec le logement et l'agriculture. Plusieurs pays (Espagne, Irlande, Pays-Bas) connaissent déjà des tensions sur l'eau, et environ 63% des nouvelles capacités européennes se développent désormais hors des cinq grands marchés historiques (Francfort, Londres, Amsterdam, Paris, Dublin) selon CBRE/JLL — une confirmation de la dispersion géographique du sourcing foncier+énergie en Europe.",
-      "source": "Euronews Verify / EUobserver / CBRE / JLL",
-      "url": "https://www.euronews.com/2026/11/17/euronews-verify-whats-at-stake-as-europe-seeks-to-triple-its-data-centre-capacity"
+      "summary": "Le conseil du comté de Spartanburg (Caroline du Sud) a approuvé en lecture finale, le 17-18 novembre, trois accords de développement data center représentant un investissement cumulé revendiqué d'environ 5,5 Md$ ; trois projets additionnels portés par AIB sur le Tyger River Industrial Park ont par ailleurs été votés à l'unanimité en première lecture. La puissance (MW) exacte de chaque projet n'est pas confirmée par la source — un marché secondaire sud-est américain qui continue de monter en puissance hors Virginie/Texas.",
+      "source": "Blackridge Research",
+      "url": "https://www.blackridgeresearch.com/news-releases/spartanburg-county-council-approves-three-data-center-agreements-in-the-us",
+      "inv": 5500,
+      "owners": "n.c.",
+      "investors": "n.c."
     },
     {
       "category": "power",
@@ -102,6 +120,19 @@
     },
     {
       "category": "land",
+      "title": "États-Unis (Cottle County, Texas) : le comté approuve le bail « Project Matter » d'Aetheris sur des terres de la Farmland Reserve (Église mormone), data center 96 MW + centrale gaz dédiée 180 MW",
+      "region": "Amérique du Nord",
+      "date": "2026-11-13",
+      "summary": "Le comté de Cottle County (Texas) a approuvé le 13 novembre deux étapes clés d'un projet porté par Aetheris (via RS 70 Land Holdings LLC) sur jusqu'à 3 710 acres du ranch Triangle appartenant à Farmland Reserve/AgReserve, bras foncier de l'Église mormone (LDS) : un data center de 96 MW couplé à une centrale gaz dédiée de 180 MW ; le locataire final reste confidentiel. Un nouvel exemple de foncier agricole à grande échelle sécurisé avec génération captive avant tout engagement d'un hyperscaler nommé.",
+      "source": "Salt Lake Tribune / DataCenterDynamics",
+      "url": "https://www.sltrib.com/religion/2026/11/13/texas-officials-advance-plan-data/",
+      "mw": 96,
+      "poweredLand": true,
+      "owners": "Farmland Reserve / AgReserve (foncier) · Aetheris / RS 70 Land Holdings LLC (développeur)",
+      "investors": "n.c."
+    },
+    {
+      "category": "land",
       "title": "États-Unis (Spotsylvania County, Virginie) : le conseil approuve (4-3) le campus data center Crossroads Technology Campus sur 550 acres, malgré une forte opposition locale",
       "region": "Amérique du Nord",
       "date": "2026-11",
@@ -112,19 +143,6 @@
       "investors": "n.c."
     },
     {
-      "category": "construction",
-      "title": "États-Unis (Kingston, Géorgie) : le conseil municipal approuve le permis d'usage spécial pour le campus data center de 1 Md$ de Thor Equities (560 acres, 150 MW), malgré la menace d'un recours des riverains",
-      "region": "Amérique du Nord",
-      "date": "2026-11",
-      "summary": "Après un avis favorable (2-1) du zoning board, le conseil municipal de Kingston (comté de Bartow, Géorgie) a approuvé le permis d'usage spécial pour un campus data center de Thor Equities sur environ 560 acres le long de la Georgia State Route 293, projet estimé à 1 Md$ (environ 150 MW, jusqu'à 50 000 gallons d'eau par jour selon Bisnow) et visé pour 2030 ; aucun locataire final n'est signé, et des riverains préparent un recours en justice invoquant l'impact environnemental.",
-      "source": "FOX5 Atlanta / Bisnow / Baxtel",
-      "url": "https://www.fox5atlanta.com/news/kingston-data-center-city-leaders-approve-special-use-permit",
-      "mw": 150,
-      "inv": 1000,
-      "owners": "Thor Equities",
-      "investors": "n.c."
-    },
-    {
       "category": "legislation",
       "title": "Espagne : le décret sur les data centers franchit l'étape du Conseil d'État, avec des exigences assouplies (seuil relevé à 10 MW) avant les élections du 29 novembre",
       "region": "Europe",
@@ -132,6 +150,22 @@
       "summary": "Selon Ara (novembre), le projet de décret espagnol sur les data centers, transmis au Conseil d'État le 26 octobre en procédure d'urgence, a été révisé pour relever le seuil d'application de 1 à 10 MW et étendre de 18 à 36 mois l'âge maximal des installations renouvelables éligibles ; le texte introduirait aussi une dérogation sur les exigences d'efficacité hydrique pour des sites stratégiques comme le projet de gigafactory IA de Móra la Nova, suscitant la critique d'ONG environnementales qui redoutaient déjà un assouplissement, avant une adoption visée avant les élections générales du 29 novembre.",
       "source": "Ara / Baxtel / Cuatrecasas",
       "url": "https://en.ara.cat/economy/the-data-center-decree-dilutes-the-requirements-for-ai-gigafactories-like-the-one-in-mora-nova_1_5891916.html"
+    },
+    {
+      "category": "power",
+      "title": "France (Châteauroux, Indre) : ENGIE et Google envisageraient un partenariat énergétique pour le projet de data centers de la ZAC d'Ozans",
+      "region": "France",
+      "date": "2026-11",
+      "summary": "Selon la presse financière, ENGIE pourrait devenir fournisseur d'énergie et partenaire de gestion énergétique (renouvelables, stockage, valorisation de chaleur fatale) du projet de campus Google/RTE de la ZAC d'Ozans (195 ha, Étrechet/Châteauroux Métropole), sous réserve d'accords définitifs et de l'issue de la concertation CNDP en cours jusqu'au 10 janvier 2027 — un développement qui confirme la structuration progressive du volet énergie de ce dossier déjà suivi, sans MW ni montant officiellement chiffrés à ce stade.",
+      "source": "Fortuneo Bourse / CryptoBriefing / Les Énergies Renouvelables",
+      "url": "https://bourse.fortuneo.fr/actualites/engie-et-google-envisagent-un-partenariat-a-chateauroux-2423584",
+      "coords": [
+        46.76,
+        1.72
+      ],
+      "poweredLand": true,
+      "owners": "Google (Tricolore Computing) · RTE",
+      "investors": "ENGIE (partenaire énergie envisagé, accord non définitif)"
     },
     {
       "category": "power",
@@ -180,19 +214,6 @@
     },
     {
       "category": "land",
-      "title": "États-Unis (Cameron County, Texas) : SpaceX proposerait un data center de 24 Md$ avec centrale gaz dédiée à Starbase, sur un terrain désannexé de Brownsville pour contourner le moratoire local",
-      "region": "Amérique du Nord",
-      "date": "2026-11-10",
-      "summary": "Selon des documents municipaux de Starbase rapportés par la presse (The Information, Benzinga, Tesla North) début novembre, SpaceX prévoirait un centre de supercalcul couplé à une centrale électrique au gaz sur environ 444 acres à l'est de Brownsville (comté de Cameron), pour un investissement initial estimé à environ 24 Md$ ; une audience sur les incitations fiscales est fixée au 9 décembre. Le site a été désannexé de Brownsville fin août, juste avant l'adoption par la ville d'un moratoire local de 90 jours sur les data centers, le plaçant sous l'autorité de zonage de Starbase plutôt que de Brownsville ou Harlingen (qui ont, elles, un moratoire en vigueur) — SpaceX n'a pas confirmé publiquement l'usage du site.",
-      "source": "The Information / Benzinga / Tesla North / San Antonio Current",
-      "url": "https://www.benzinga.com/node/61897669",
-      "inv": 24000,
-      "poweredLand": true,
-      "owners": "SpaceX (non confirmé officiellement)",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
       "title": "États-Unis (Jay, Maine) : le projet de data center sur l'ancienne papeterie Androscoggin Mill reprend son chemin administratif, accord avec Sentinel pas encore finalisé",
       "region": "Amérique du Nord",
       "date": "2026-11-10",
@@ -219,6 +240,19 @@
     },
     {
       "category": "power",
+      "title": "Malaisie (Sarawak + péninsule) : SoftBank, Grab et PETROS signent un accord de développement conjoint visant 5 GW de capacité IA, 1,85 Md$ de capital d'amorçage annoncé",
+      "region": "Asie",
+      "date": "2026-11-09",
+      "summary": "SoftBank, Grab et la société pétrolière publique sarawakienne PETROS ont signé le 9 novembre un Joint Development Agreement visant 5 GW de capacité data center IA à Sarawak et en Malaisie péninsulaire, avec un capital d'amorçage annoncé de 1 Md$ pour le volet Sarawak (800 M$ SoftBank, 100 M$ Grab, 100 M$ PETROS) et 850 M$ proposés pour le volet péninsulaire ; le déploiement se fera par étapes selon la finalisation d'accords définitifs, sans site précis encore identifié. Un signal de l'extension de la course au foncier+énergie vers l'Asie du Sud-Est, portée par les ressources énergétiques locales (PETROS).",
+      "source": "Grab Holdings (SEC Form 6-K) / DevelopingTelecoms",
+      "url": "https://developingtelecoms.com/telecom-technology/data-centres-networks/21111-softbank-grab-and-petros-invest-us-1b-in-sarawak-ai-infrastructure-project.html",
+      "mw": 5000,
+      "inv": 1850,
+      "owners": "n.c.",
+      "investors": "SoftBank · Grab · PETROS"
+    },
+    {
+      "category": "power",
       "title": "Norvège : Statnett suspend toute nouvelle réservation de capacité réseau pour les data centers jusqu'au 1er août 2027",
       "region": "Europe",
       "date": "2026-11-09",
@@ -227,19 +261,6 @@
       "url": "https://baxtel.com/news/norway-grid-operator-statnett-halts-new-data-center-capacity-reservations",
       "owners": "n.c.",
       "investors": "n.c."
-    },
-    {
-      "category": "competition",
-      "title": "États-Unis (Delhi Township, Michigan) : le promoteur Lighthouse Sustainability retire son projet de campus de 10 Md$ / 700 MW, deux semaines après l'avoir annoncé",
-      "region": "Amérique du Nord",
-      "date": "2026-11-09",
-      "summary": "La Lansing Economic Area Partnership (LEAP) a annoncé le 9 novembre que Lighthouse Sustainability retirait son intérêt pour un site de 423 acres (Holt Economic Opportunity Park, Delhi Township, Michigan) destiné à un campus data center d'environ 10 Md$ et 700 MW, et chercherait d'autres opportunités ailleurs dans le pays ; le conseil du township avait voté 6-0 son opposition au projet, aucune demande de permis n'avait été déposée et aucun locataire final n'avait été identifié. Un rappel que la disponibilité affichée d'un foncier ne vaut pas sécurisation effective, même sur un parc industriel déjà aménagé.",
-      "source": "LEAP (communiqué) / FourWeekMBA / Michigan Advance",
-      "url": "https://fourweekmba.com/ai-developer-exits-10b-michigan-data-center-plan-after-13-days/",
-      "mw": 700,
-      "inv": 10000,
-      "owners": "n.c. (site non sécurisé, retrait du promoteur)",
-      "investors": "Lighthouse Sustainability (retrait)"
     },
     {
       "category": "power",
@@ -269,15 +290,6 @@
       "poweredLand": true,
       "owners": "Google (Jupiter Star Holdings LLC)",
       "investors": "n.c. (Crusoe, développeur sortant du site)"
-    },
-    {
-      "category": "legislation",
-      "title": "Europe : plus de 100 organisations dans 15 pays lancent une campagne « Stop Dirty Data Centres » réclamant un moratoire sur les mégaprojets, la France activement mobilisée",
-      "region": "Europe",
-      "date": "2026-11-06",
-      "summary": "Une mobilisation coordonnée les 6 et 7 novembre à travers l'Irlande, la Pologne, le Danemark, la Finlande, l'Espagne, les Pays-Bas, la France et le Royaume-Uni (plus de 100 organisations, une dizaine de pays, dont France Nature Environnement côté français) a réclamé un moratoire temporaire sur les nouveaux data centers de grande envergure, le temps que les gouvernements fixent des cadres de planification énergie/eau/sols plus stricts ; en France, la mobilisation est directement liée à la contestation du projet de campus IA de Fouju (Seine-et-Marne, six recours administratifs déposés fin septembre) — un nouveau signal de risque réglementaire à intégrer dans la lecture du foncier énergisé en Europe.",
-      "source": "Euronews / TechRadar / Tech Insider",
-      "url": "https://www.euronews.com/2026/11/05/protesters-across-europe-to-call-for-freeze-on-energy-hungry-data-centres"
     },
     {
       "category": "land",
@@ -340,27 +352,6 @@
       "poweredLand": true,
       "owners": "Cloverleaf Infrastructure (développeur) · Lambda (ancre/locataire)",
       "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Ohio) : les électeurs approuvent massivement des interdictions et restrictions sur les data centers lors de l'Election Day (Sunbury, Pataskala, Grove City, Granville, Ashville)",
-      "region": "Amérique du Nord",
-      "date": "2026-11-04",
-      "summary": "Au lendemain de l'Election Day du 3 novembre, les résultats non officiels confirment que les communautés de la région de Columbus (Ohio) ont voté en faveur de restrictions sur les data centers dans les cinq scrutins suivis : Sunbury et Granville approuvent un plafond de charge de 25 MW (celui de Sunbury menaçant directement le campus AWS de 2 Md$ déjà engagé), Pataskala adopte un plafond similaire, Grove City impose désormais un vote public obligatoire pour tout projet dépassant 20 MW/50 acres/500 000 gallons d'eau par jour (Issue 28, ~55% des voix), et Ashville annule par référendum (~82% des voix) son accord municipal avec EdgeConneX pour deux data centers déjà en construction, sans toutefois arrêter les travaux en cours ; sur l'ensemble des quelque 41 mesures locales soumises au vote dans une dizaine d'États, la tendance nationale est unanimement en faveur de restrictions renforcées — un signal fort du risque de blocage réglementaire local qui pèse désormais sur le foncier déjà engagé, même raccordé ou en cours de construction.",
-      "source": "NBC4 Columbus / Yahoo News / Benzinga",
-      "url": "https://www.nbc4i.com/news/your-local-election-hq/columbus-area-communities-vote-on-data-center-issues-live-results/",
-      "owners": "Amazon Web Services (projet Sunbury) · EdgeConneX (projets Ashville)",
-      "investors": "n.c."
-    },
-    {
-      "category": "market",
-      "title": "Royaume-Uni/Europe/Moyen-Orient : Pure DC (Oaktree) sécurise 780 M$ de financement extensible à 1,9 Md$, explicitement destiné au foncier et à l'énergie",
-      "region": "International",
-      "date": "2026-11-04",
-      "summary": "Pure Data Centres Group, soutenu par Oaktree, a annoncé le 4 novembre une « Platform Growth Facility » de 780 M$ (extensible à environ 1,9 Md$), avec Citigroup, First Abu Dhabi Bank et Infranity comme nouveaux prêteurs ; selon Bloomberg, le CEO par intérim Gary Wojtaszek a précisé que les fonds serviront notamment à l'acquisition de foncier et à la sécurisation d'énergie, en plus du pipeline de développement en Europe et au Moyen-Orient (plus de 500 MW en exploitation ou en développement). Ce financement porte à plus de 6,2 Md$ les montants levés par la société sur les douze derniers mois.",
-      "source": "Bloomberg / W.Media / DataCenterDynamics / Dealroom",
-      "url": "https://www.whtop.com/news/36061-pure-dc-secures-780m-for-data-center-expansion",
-      "inv": 780
     },
     {
       "category": "power",
