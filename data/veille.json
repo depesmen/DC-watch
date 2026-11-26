@@ -1,11 +1,11 @@
 {
-  "lastUpdated": "2026-11-25",
+  "lastUpdated": "2026-11-26",
   "keyTakeaways": [
-    "États-Unis (Texas) : le comté de Cottle County a approuvé le 13 novembre le bail « Project Matter » d'Aetheris sur des terres agricoles de la Farmland Reserve (Église mormone) — data center 96 MW + centrale gaz dédiée 180 MW sans locataire final nommé — un nouveau modèle de foncier agricole massif sécurisé avec génération captive avant tout engagement hyperscaler, à rapprocher du précédent STAK Energy en Alaska.",
-    "France : le dossier Google/RTE de Châteauroux (ZAC d'Ozans) se structure avec un partenariat énergétique envisagé avec ENGIE (renouvelables, stockage, chaleur fatale), tandis que Cegedim met en service à Magny-les-Hameaux (Yvelines) son 5e data center sur l'emprise d'un ancien site météorologique — deux illustrations complémentaires de la valorisation de foncier existant (public ou en concertation) pour l'IA en France.",
-    "Asie du Sud-Est : SoftBank, Grab et la société pétrolière publique PETROS signent un accord de développement conjoint visant 5 GW de capacité IA en Malaisie (Sarawak + péninsule), avec 1,85 Md$ de capital d'amorçage annoncé — la course au foncier+énergie s'étend désormais explicitement à des marchés dotés de ressources énergétiques locales abondantes, hors Amérique du Nord et Europe.",
-    "États-Unis (marchés secondaires) : le comté de Spartanburg (Caroline du Sud) approuve trois nouveaux accords de développement data center (~5,5 Md$ cumulés) et un filing de la Tennessee Valley Authority révèle un accord non identifié d'environ 1,7 Md$ — la dynamique transactionnelle continue de se diffuser hors des marchés historiques (Virginie, Texas).",
-    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs ; à noter qu'aucune entité publiquement identifiable sous le nom exact « Aurora Infra » n'a pu être trouvée — à clarifier (autre orthographe ou nom complet ?) lors d'une prochaine veille. Rappel Polarise : pipeline actif (Amberg/Wertachtal Bavière, financement Macquarie et SWI Stoneweg Icona, partenariat Deutsche Telekom à Munich, site Oslo Gardermoen/Jessheim) mais sans annonce datée cette semaine."
+    "États-Unis (terres publiques fédérales) : double mouvement convergent contre l'implantation de data centers sur le domaine public — une coalition de 115 organisations (dont Veterans for Public Lands) a adressé le 18 novembre aux secrétaires de l'Intérieur et de l'Agriculture une demande de moratoire immédiat, tandis que la représentante Maxine Dexter (Oregon) a déposé le 11 novembre au Congrès le H.R. 11002 visant à interdire purement et simplement le développement de data centers sur les terres du BLM et du Forest Service ; au moins 17 campus déjà identifiés dans six États de l'Ouest (Arizona, Idaho, Nevada, Oregon, Utah, Wyoming) sont directement concernés — un risque réglementaire croissant à surveiller pour tout sourcing sur foncier fédéral américain.",
+    "États-Unis (Wheatfield, Indiana) : AWS démarre la construction de son campus « Project Rise » (7 Md$) sur un terrain racheté à l'utility NIPSCO juste à côté de sa centrale Schahfer, NIPSCO construisant en parallèle une centrale gaz et un poste de pointe dédiés — un nouveau cas d'école du modèle où l'utility elle-même co-développe du foncier déjà énergisé pour un hyperscaler.",
+    "France (Île-de-France) : une note de l'Institut Paris Région anticipe une puissance data centers multipliée par 6 à 8 d'ici 2040 (1 GW en 2025 à 6,5-8 GW) et souligne que la disponibilité du raccordement électrique, non le foncier brut, est désormais le critère décisif d'implantation dans la région — un signal qui renforce l'intérêt des sites déjà raccordés ou fast-track (Montereau, Bouchain, Creys-Mépieu, Châteauroux) plutôt que du foncier neuf en zone dense.",
+    "États-Unis : la dynamique législative reste à double sens — les moratoires locaux et étatiques continuent de se multiplier (Loudoun, Palm Beach, Prince George's, propositions fédérales sur terres publiques) pendant que la Caroline du Nord vient d'acter un tarif dédié « large load » sécurisant le cadre financier des projets plutôt que de les freiner — l'avantage de localisation va continuer de se déplacer vers les États dotés de cadres tarifaires stabilisés.",
+    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs. Sur « Aurora Infra », plusieurs entités homonymes ont été vérifiées sans concluance (Aurora Infrastructure en Finlande, Aurora DC Finland, une parcelle « Aurora 1GW » à Aurora, Colorado) — aucune ne correspond clairement au nom recherché ; une clarification de l'orthographe ou du nom complet reste utile pour la prochaine veille."
   ],
   "items": [
     {
@@ -30,6 +30,17 @@
       "url": "https://www.ideal-investisseur.fr/actions-b/cegedim-ouvre-eb6-dans-les-yvelines-un-data-center-souverain-dedie-a-lia/29683.html",
       "poweredLand": true,
       "owners": "Cegedim",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis : une coalition de 115 organisations (dont Veterans for Public Lands) demande un moratoire immédiat sur les data centers sur les terres publiques fédérales",
+      "region": "Amérique du Nord",
+      "date": "2026-11-18",
+      "summary": "Une lettre datée du 18 novembre, signée par 115 organisations environnementales, communautaires et confessionnelles dont Veterans for Public Lands, demande aux secrétaires américains de l'Intérieur (Doug Burgum) et de l'Agriculture (Brooke Rollins) un moratoire immédiat sur les nouveaux data centers commerciaux sur les terres gérées par le Bureau of Land Management et le Forest Service ; les signataires recensent au moins 17 campus de data centers et 13 projets d'infrastructures associés sur plus de 24 000 acres de terres publiques dans six États de l'Ouest (Arizona, Idaho, Nevada, Oregon, Utah, Wyoming) — une mobilisation qui pourrait restreindre la disponibilité de foncier public pour le secteur.",
+      "source": "Common Dreams / Sierra Club / Axios",
+      "url": "https://www.commondreams.org/news/data-centers-public-lands",
+      "owners": "n.c.",
       "investors": "n.c."
     },
     {
@@ -119,6 +130,23 @@
       "investors": "n.c."
     },
     {
+      "category": "construction",
+      "title": "États-Unis (Wheatfield, Jasper County, Indiana) : AWS démarre la construction du campus « Project Rise » (7 Md$), centrale gaz et poste électrique dédiés de NIPSCO",
+      "region": "Amérique du Nord",
+      "date": "2026-11-16",
+      "summary": "Amazon Web Services a démarré la construction de son campus « Project Rise » à Wheatfield (comté de Jasper, Indiana), sur 304 acres rachetés à l'utility NIPSCO à proximité de sa centrale Schahfer ; l'investissement est évalué à environ 7 Md$ (jusqu'à 9 bâtiments), pour environ 250 emplois permanents, AWS versant 98 M$ de taxes anticipées et 25 M$ pour l'eau publique de la commune. NIPSCO construit en parallèle une centrale gaz et un poste de pointe dédiés pour alimenter le site, un nouvel exemple de foncier énergisé co-développé avec l'utility locale.",
+      "source": "DataCenterDynamics / Baxtel / FourWeekMBA",
+      "url": "https://baxtel.com/news/aws-breaks-ground-on-7-billion-project-rise-campus-in-indiana",
+      "inv": 7000,
+      "coords": [
+        41.218,
+        -87.084
+      ],
+      "poweredLand": true,
+      "owners": "Amazon Web Services",
+      "investors": "n.c. (NIPSCO : centrale gaz et poste dédiés)"
+    },
+    {
       "category": "land",
       "title": "États-Unis (Cottle County, Texas) : le comté approuve le bail « Project Matter » d'Aetheris sur des terres de la Farmland Reserve (Église mormone), data center 96 MW + centrale gaz dédiée 180 MW",
       "region": "Amérique du Nord",
@@ -130,6 +158,15 @@
       "poweredLand": true,
       "owners": "Farmland Reserve / AgReserve (foncier) · Aetheris / RS 70 Land Holdings LLC (développeur)",
       "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis : la représentante Maxine Dexter (Oregon) dépose au Congrès le « Protecting Our Public Lands from Data Centers Act » (H.R. 11002), interdiction fédérale sur les terres publiques",
+      "region": "Amérique du Nord",
+      "date": "2026-11-11",
+      "summary": "La représentante démocrate de l'Oregon Maxine Dexter a déposé le 11 novembre le H.R. 11002, qui interdirait le développement, la vente ou le transfert de terres fédérales gérées par le Department of the Interior et le Forest Service à des fins de data centers à l'échelle nationale ; le texte, co-porté par 13 élus démocrates dont Alexandria Ocasio-Cortez, cite au moins 17 campus proposés sur des terres publiques dans six États de l'Ouest, dont un projet de 106 acres près de Hermiston (Oregon) — un texte distinct d'une proposition similaire déposée en juillet par la représentante Rashida Tlaib.",
+      "source": "Nextgov / Baxtel / TechRadar Pro",
+      "url": "https://www.nextgov.com/policy/2026/11/tech-bills-week-no-data-centers-public-lands-creating-va-office-innovation-and-more/417230/"
     },
     {
       "category": "land",
@@ -147,7 +184,7 @@
       "title": "Espagne : le décret sur les data centers franchit l'étape du Conseil d'État, avec des exigences assouplies (seuil relevé à 10 MW) avant les élections du 29 novembre",
       "region": "Europe",
       "date": "2026-11",
-      "summary": "Selon Ara (novembre), le projet de décret espagnol sur les data centers, transmis au Conseil d'État le 26 octobre en procédure d'urgence, a été révisé pour relever le seuil d'application de 1 à 10 MW et étendre de 18 à 36 mois l'âge maximal des installations renouvelables éligibles ; le texte introduirait aussi une dérogation sur les exigences d'efficacité hydrique pour des sites stratégiques comme le projet de gigafactory IA de Móra la Nova, suscitant la critique d'ONG environnementales qui redoutaient déjà un assouplissement, avant une adoption visée avant les élections générales du 29 novembre.",
+      "summary": "Selon Ara (novembre), le projet de décret espagnol sur les data centers, transmis au Conseil d'État le 26 octobre en procédure d'urgence, a été révisé pour relever le seuil d'application de 1 à 10 MW et étendre de 18 à 36 mois l'âge maximal des installations renouvelables éligibles ; le texte introduirait aussi une dérogation sur les exigences d'efficacité hydrique pour des sites stratégiques comme le projet de gigafactory IA de Móra la Nova, suscitant la critique d'ONG environnementales qui redoutaient déjà un assouplissement, avant une adoption visée avant les élections générales du 29 novembre. Le secteur (association espagnole des data centers, Amazon, Google, Microsoft, Meta) menace de retirer plus de 60 Md€ d'investissements si l'exigence d'heure par heure de couverture renouvelable à 80% est maintenue en l'état.",
       "source": "Ara / Baxtel / Cuatrecasas",
       "url": "https://en.ara.cat/economy/the-data-center-decree-dilutes-the-requirements-for-ai-gigafactories-like-the-one-in-mora-nova_1_5891916.html"
     },
@@ -166,6 +203,15 @@
       "poweredLand": true,
       "owners": "Google (Tricolore Computing) · RTE",
       "investors": "ENGIE (partenaire énergie envisagé, accord non définitif)"
+    },
+    {
+      "category": "market",
+      "title": "France (Île-de-France) : l'Institut Paris Région anticipe une puissance data centers multipliée par 6 à 8 d'ici 2040, l'énergie devient le critère clé d'implantation",
+      "region": "France",
+      "date": "2026-11",
+      "summary": "Une note rapide de l'Institut Paris Région publiée en novembre projette une hausse de la puissance installée des data centers franciliens d'environ 1 GW en 2025 à 6,5-8 GW en 2040, et une consommation passant de 1,7 TWh (2022) à environ 8,2 TWh en 2035 ; l'institut souligne que les data centers n'utilisent en moyenne que 20 à 40% de la puissance à laquelle ils sont raccordés et que la disponibilité du raccordement électrique devient le critère décisif d'implantation, RTE recensant fin 2025 environ 640 MW déjà raccordés sur 6 sites et près de 8 GW de raccordements en cours sur une cinquantaine de sites en Île-de-France.",
+      "source": "Institut Paris Région / Banque des Territoires / Les Énergies Renouvelables",
+      "url": "https://www.banquedesterritoires.fr/linstitut-paris-region-alerte-sur-lexplosion-des-besoins-electriques-des-datacenters-franciliens"
     },
     {
       "category": "power",
@@ -438,40 +484,6 @@
       ],
       "poweredLand": true,
       "owners": "Google (Tricolore Computing) · RTE",
-      "investors": "n.c."
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Goochland County, Virginie) : Google confirmé comme porteur d'un projet de campus data center de 1 200 MW sur environ 1 000 acres à West Creek",
-      "region": "Amérique du Nord",
-      "date": "2026-10-28",
-      "summary": "Le comté de Goochland a confirmé le 28 octobre que Google est à l'origine d'un projet de campus data center de 1 200 MW sur environ 1 000 acres dans le secteur de West Creek ; le dossier avait émergé via un dépôt auprès de la State Corporation Commission de Virginie en juillet (quatre « engineering letters of authorization » signées), mais aucun plan n'a encore été déposé auprès du comté et quatre nouveaux postes électriques seraient nécessaires.",
-      "source": "RichmondBizSense / Baxtel / DataCenterDynamics",
-      "url": "https://richmondbizsense.com/2026/10/28/breaking-news-google-eyeing-data-center-campus-in-goochlands-west-creek/",
-      "mw": 1200,
-      "coords": [
-        37.73,
-        -77.88
-      ],
-      "poweredLand": true,
-      "owners": "Google",
-      "investors": "n.c."
-    },
-    {
-      "category": "construction",
-      "title": "États-Unis (Glendale, Arizona) : le conseil municipal approuve l'annexion du campus « Project Eagle/Baccara » (160 acres, 700 MW de génération gaz dédiée), malgré l'opposition locale",
-      "region": "Amérique du Nord",
-      "date": "2026-10-27",
-      "summary": "Le conseil municipal de Glendale a approuvé le 27 octobre l'annexion et le rezonage d'un site de 160 acres près de la base aérienne de Luke pour le projet « Project Eagle » du développeur Takanock LLC : trois bâtiments data center (environ 1,1 million de pieds carrés) couplés à une centrale gaz dédiée de 700 MW (« Project Baccara », 18 turbines) et un nouveau poste APS ; le coût total est estimé selon les sources entre plus de 10 Md$ (avocat du développeur) et 36 Md$ (presse), la procureure générale de l'Arizona ayant par ailleurs appelé à un moratorium à l'échelle de l'État sur les nouveaux data centers.",
-      "source": "ABC15 / AZFamily / KJZZ / Construction Review Online",
-      "url": "https://www.kjzz.org/business/2026-10-28/glendale-approves-project-eagle-data-center-development",
-      "mw": 700,
-      "coords": [
-        33.531,
-        -112.383
-      ],
-      "poweredLand": true,
-      "owners": "Takanock LLC",
       "investors": "n.c."
     },
     {
