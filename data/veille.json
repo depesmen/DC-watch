@@ -1,23 +1,23 @@
 {
-  "lastUpdated": "2026-11-26",
+  "lastUpdated": "2026-11-27",
   "keyTakeaways": [
-    "États-Unis (terres publiques fédérales) : double mouvement convergent contre l'implantation de data centers sur le domaine public — une coalition de 115 organisations (dont Veterans for Public Lands) a adressé le 18 novembre aux secrétaires de l'Intérieur et de l'Agriculture une demande de moratoire immédiat, tandis que la représentante Maxine Dexter (Oregon) a déposé le 11 novembre au Congrès le H.R. 11002 visant à interdire purement et simplement le développement de data centers sur les terres du BLM et du Forest Service ; au moins 17 campus déjà identifiés dans six États de l'Ouest (Arizona, Idaho, Nevada, Oregon, Utah, Wyoming) sont directement concernés — un risque réglementaire croissant à surveiller pour tout sourcing sur foncier fédéral américain.",
-    "États-Unis (Wheatfield, Indiana) : AWS démarre la construction de son campus « Project Rise » (7 Md$) sur un terrain racheté à l'utility NIPSCO juste à côté de sa centrale Schahfer, NIPSCO construisant en parallèle une centrale gaz et un poste de pointe dédiés — un nouveau cas d'école du modèle où l'utility elle-même co-développe du foncier déjà énergisé pour un hyperscaler.",
-    "France (Île-de-France) : une note de l'Institut Paris Région anticipe une puissance data centers multipliée par 6 à 8 d'ici 2040 (1 GW en 2025 à 6,5-8 GW) et souligne que la disponibilité du raccordement électrique, non le foncier brut, est désormais le critère décisif d'implantation dans la région — un signal qui renforce l'intérêt des sites déjà raccordés ou fast-track (Montereau, Bouchain, Creys-Mépieu, Châteauroux) plutôt que du foncier neuf en zone dense.",
-    "États-Unis : la dynamique législative reste à double sens — les moratoires locaux et étatiques continuent de se multiplier (Loudoun, Palm Beach, Prince George's, propositions fédérales sur terres publiques) pendant que la Caroline du Nord vient d'acter un tarif dédié « large load » sécurisant le cadre financier des projets plutôt que de les freiner — l'avantage de localisation va continuer de se déplacer vers les États dotés de cadres tarifaires stabilisés.",
-    "Recherches dédiées (y compris LinkedIn) sur Polarise, Aurora Infra(structure) et La Française de l'Énergie (FDE) : toujours aucune actualité data center nouvelle cette semaine pour les trois acteurs. Sur « Aurora Infra », plusieurs entités homonymes ont été vérifiées sans concluance (Aurora Infrastructure en Finlande, Aurora DC Finland, une parcelle « Aurora 1GW » à Aurora, Colorado) — aucune ne correspond clairement au nom recherché ; une clarification de l'orthographe ou du nom complet reste utile pour la prochaine veille."
+    "Polarise (surveillé spécifiquement par Noémie) sort enfin du silence : extension annoncée le 12 novembre d'environ 150 MW de capacité IA en Allemagne d'ici 2028, en priorisant des bâtiments existants déjà raccordés plutôt que du foncier neuf — exactement le modèle « powered land » recherché ; Aurora Infra et La Française de l'Énergie (FDE) restent en revanche sans actualité data center identifiable malgré des recherches ciblées (y compris LinkedIn) cette semaine encore.",
+    "France (Fouju, Seine-et-Marne) : un mégaprojet foncier+puissance majeur jusqu'ici absent de la veille est désormais documenté — le « Campus IA » de MGX/Bpifrance/NVIDIA/Mistral AI (90 ha, jusqu'à 1 400 MW, 50 Md€), autorisé le 29 juillet, fait l'objet d'au moins six recours administratifs déposés fin septembre par des associations environnementales, illustrant le risque contentieux qui pèse sur les plus gros projets fonciers français même après autorisation préfectorale.",
+    "France (Marseille) : la reconversion de friches industrielles urbaines en data centers se poursuit (ancienne sucrerie Saint-Louis, projet Edged Energy/ESL Properties), avec une consultation publique qui vient de se clôturer le 24 novembre — un marché marseillais déjà dense qui continue de densifier son foncier énergisé existant.",
+    "Espagne : le décret sur les data centers reste suspendu à l'arbitrage du Conseil d'État, le gouvernement visant toujours une adoption avant les élections générales du 29 novembre — un dossier à rouvrir dès la semaine prochaine pour en confirmer l'issue (approuvé, ajourné ou dilué davantage).",
+    "Contexte macro et sociétal : la convergence des guidances de capex 2026 des hyperscalers autour de 700-725 Md$ (Meta, Alphabet, Microsoft) confirme que la pression sur le foncier et la puissance associée ne faiblit pas, tandis qu'une mobilisation citoyenne européenne coordonnée (« Stop Dirty Data Centres », 15 pays, 6-7 novembre) réclame un moratoire — un double mouvement d'accélération de la demande et de contestation sociétale à surveiller en parallèle."
   ],
   "items": [
     {
-      "category": "market",
-      "title": "États-Unis (Tennessee) : un document réglementaire de la Tennessee Valley Authority (TVA) révèle un accord data center non identifié d'environ 1,7 Md$",
-      "region": "Amérique du Nord",
+      "category": "land",
+      "title": "France (Marseille, 15e) : la consultation publique sur le data center d'Edged Energy (ESL Properties) sur l'ancienne friche sucrière Saint-Louis se clôture le 24 novembre",
+      "region": "France",
       "date": "2026-11-24",
-      "summary": "Un filing de la Tennessee Valley Authority daté du 24 novembre fait référence à un accord portant sur un data center pouvant rapporter environ 1,7 Md$ à l'utility publique ; ni le client final ni la localisation précise du site ne sont divulgués à ce stade, ce qui illustre la poursuite de la montée en charge des engagements financiers liés aux data centers sur le réseau TVA (Tennessee, Alabama, Kentucky notamment).",
-      "source": "WSMV / Action News 5",
-      "url": "https://www.wsmv.com/2026/11/24/tennessee-valley-authority-filing-references-17-billion-data-center-deal/",
-      "inv": 1700,
-      "owners": "n.c.",
+      "summary": "La consultation publique relative à la demande d'autorisation environnementale du projet de data center porté par ESL Properties, filiale d'Edged Energy, sur l'ancienne friche industrielle de la sucrerie Saint-Louis (15e arrondissement de Marseille), ouverte depuis le 24 août et clôturée le 24 novembre (réunion publique de clôture le 17 novembre), continue de susciter une opposition locale (La Quadrature du Net notamment) ; le projet partage le site avec les futurs Studios de la Méditerranée, dont le financement resterait conditionné à l'implantation du data center — un nouveau cas de reconversion de friche industrielle urbaine dans le marché marseillais déjà dense (Digital Realty, Data4, Phocea DC).",
+      "source": "Made in Marseille",
+      "url": "https://madeinmarseille.net/actualite/211327-a-marseille-les-travaux-demarrent-sur-lusine-saint-louis-en-pleine-consultation-publique/",
+      "poweredLand": true,
+      "owners": "Brownfields (foncier) · ESL Properties / Edged Energy (projet data center)",
       "investors": "n.c."
     },
     {
@@ -62,15 +62,6 @@
       "summary": "La North Carolina Utilities Commission a approuvé le 16-17 novembre la hausse tarifaire de Duke Energy Carolinas et Duke Energy Progress (environ +3,4% et +3,7% en moyenne annuelle, effective au 1er janvier 2027) ainsi que le nouveau tarif « large load » négocié en octobre avec Amazon, Google, Meta et Microsoft pour les clients data centers de 50 MW et plus : paiements anticipés dédiés à l'infrastructure, garanties financières sur les renforcements réseau et un suivi distinct des coûts par catégorie de clientèle pour limiter le risque de coûts échoués (« stranded costs ») répercutés sur les autres abonnés. Des associations environnementales (Southern Environmental Law Center) jugent le dispositif encore insuffisant pour faire porter aux data centers une part suffisante des coûts — une décision désormais actée qui sécurise le cadre tarifaire du foncier énergisé en Caroline du Nord.",
       "source": "WUNC / Axios / CryptoBriefing",
       "url": "https://www.wunc.org/2026-11-17/duke-energy-rates-are-going-up-next-year-as-nc-utilities-commission-approves-increase"
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis (Ohio) : une disposition « fuitée » du projet de loi sur les data centers redéfinit le « service public », ouvrant une voie indirecte à l'expropriation pour les infrastructures associées",
-      "region": "Amérique du Nord",
-      "date": "2026-11-17",
-      "summary": "Selon WCPO et News 5 Cleveland (17 novembre), une version non officielle du texte en discussion à la législature de l'Ohio lors de la session de fin d'année élargirait la définition de « service public » aux détenteurs d'un certificat de l'Ohio Power Siting Board pour une ligne de transport électrique ou un gazoduc associé à un projet, ouvrant selon des juristes une voie indirecte à l'expropriation pour des infrastructures liées aux data centers (sans octroyer ce pouvoir à l'opérateur du data center lui-même). L'Ohio Business Roundtable (patronat) dément toute intention d'élargir l'expropriation, tandis que l'Ohio Farm Bureau s'y oppose frontalement ; au moins deux autres textes concurrents (HB695, HB710) excluent explicitement l'expropriation pour l'implantation de data centers — un dossier législatif à forts enjeux pour la sécurisation foncière des projets dans l'État.",
-      "source": "WCPO / News 5 Cleveland / States Newsroom",
-      "url": "https://www.wcpo.com/news/state/state-ohio/leaked-bill-could-allow-ohio-data-centers-to-seize-land"
     },
     {
       "category": "land",
@@ -147,39 +138,6 @@
       "investors": "n.c. (NIPSCO : centrale gaz et poste dédiés)"
     },
     {
-      "category": "land",
-      "title": "États-Unis (Cottle County, Texas) : le comté approuve le bail « Project Matter » d'Aetheris sur des terres de la Farmland Reserve (Église mormone), data center 96 MW + centrale gaz dédiée 180 MW",
-      "region": "Amérique du Nord",
-      "date": "2026-11-13",
-      "summary": "Le comté de Cottle County (Texas) a approuvé le 13 novembre deux étapes clés d'un projet porté par Aetheris (via RS 70 Land Holdings LLC) sur jusqu'à 3 710 acres du ranch Triangle appartenant à Farmland Reserve/AgReserve, bras foncier de l'Église mormone (LDS) : un data center de 96 MW couplé à une centrale gaz dédiée de 180 MW ; le locataire final reste confidentiel. Un nouvel exemple de foncier agricole à grande échelle sécurisé avec génération captive avant tout engagement d'un hyperscaler nommé.",
-      "source": "Salt Lake Tribune / DataCenterDynamics",
-      "url": "https://www.sltrib.com/religion/2026/11/13/texas-officials-advance-plan-data/",
-      "mw": 96,
-      "poweredLand": true,
-      "owners": "Farmland Reserve / AgReserve (foncier) · Aetheris / RS 70 Land Holdings LLC (développeur)",
-      "investors": "n.c."
-    },
-    {
-      "category": "legislation",
-      "title": "États-Unis : la représentante Maxine Dexter (Oregon) dépose au Congrès le « Protecting Our Public Lands from Data Centers Act » (H.R. 11002), interdiction fédérale sur les terres publiques",
-      "region": "Amérique du Nord",
-      "date": "2026-11-11",
-      "summary": "La représentante démocrate de l'Oregon Maxine Dexter a déposé le 11 novembre le H.R. 11002, qui interdirait le développement, la vente ou le transfert de terres fédérales gérées par le Department of the Interior et le Forest Service à des fins de data centers à l'échelle nationale ; le texte, co-porté par 13 élus démocrates dont Alexandria Ocasio-Cortez, cite au moins 17 campus proposés sur des terres publiques dans six États de l'Ouest, dont un projet de 106 acres près de Hermiston (Oregon) — un texte distinct d'une proposition similaire déposée en juillet par la représentante Rashida Tlaib.",
-      "source": "Nextgov / Baxtel / TechRadar Pro",
-      "url": "https://www.nextgov.com/policy/2026/11/tech-bills-week-no-data-centers-public-lands-creating-va-office-innovation-and-more/417230/"
-    },
-    {
-      "category": "land",
-      "title": "États-Unis (Spotsylvania County, Virginie) : le conseil approuve (4-3) le campus data center Crossroads Technology Campus sur 550 acres, malgré une forte opposition locale",
-      "region": "Amérique du Nord",
-      "date": "2026-11",
-      "summary": "Le Board of Supervisors de Spotsylvania County a approuvé par 4 voix contre 3 le rezonage du Crossroads Technology Campus, un projet de data center porté par le développeur Kettler sur environ 550 acres incluant trois postes électriques, après un avis favorable de la commission de planification ; l'opposition locale porte notamment sur la fiscalité jugée trop favorable (taux de 1,25 $ par 100 $ de valeur d'équipement, l'un des plus bas de la région avec Stafford et Fredericksburg).",
-      "source": "WJLA / Fredericksburg Free Press",
-      "url": "https://wjla.com/news/local/spotsylvania-county-board-approves-550-acre-data-center-site-despite-fierce-opposition",
-      "owners": "Kettler (développeur)",
-      "investors": "n.c."
-    },
-    {
       "category": "legislation",
       "title": "Espagne : le décret sur les data centers franchit l'étape du Conseil d'État, avec des exigences assouplies (seuil relevé à 10 MW) avant les élections du 29 novembre",
       "region": "Europe",
@@ -214,6 +172,29 @@
       "url": "https://www.banquedesterritoires.fr/linstitut-paris-region-alerte-sur-lexplosion-des-besoins-electriques-des-datacenters-franciliens"
     },
     {
+      "category": "market",
+      "title": "Monde : les dépenses d'investissement 2026 des hyperscalers (Alphabet, Amazon, Microsoft, Meta) convergeraient vers 700-725 Md$, portées par la course aux data centers IA",
+      "region": "Monde",
+      "date": "2026-11",
+      "summary": "Les publications de résultats trimestriels d'Alphabet, Amazon, Microsoft et Meta pour l'exercice 2026 convergent vers un total cumulé de capex proche de 700 à 725 Md$ pour l'année, en forte hausse par rapport aux prévisions de début d'année (environ 600 Md$) ; Meta a relevé sa guidance à 125-145 Md$, Alphabet à 195-205 Md$ et Microsoft table sur environ 190 Md$, l'essentiel de ces montants étant absorbé par la construction de data centers et l'acquisition de foncier et de puissance associée — un contexte macro qui continue de tirer la demande mondiale de foncier énergisé.",
+      "source": "Yahoo Finance / Data Center Knowledge / LPL Research",
+      "url": "https://www.datacenterknowledge.com/data-center-construction/hyperscalers-say-ai-race-has-entered-a-new-phase",
+      "inv": 712500
+    },
+    {
+      "category": "land",
+      "title": "États-Unis (Cottle County, Texas) : le comté approuve le bail « Project Matter » d'Aetheris sur des terres de la Farmland Reserve (Église mormone), data center 96 MW + centrale gaz dédiée 180 MW",
+      "region": "Amérique du Nord",
+      "date": "2026-11-13",
+      "summary": "Le comté de Cottle County (Texas) a approuvé le 13 novembre deux étapes clés d'un projet porté par Aetheris (via RS 70 Land Holdings LLC) sur jusqu'à 3 710 acres du ranch Triangle appartenant à Farmland Reserve/AgReserve, bras foncier de l'Église mormone (LDS) : un data center de 96 MW couplé à une centrale gaz dédiée de 180 MW ; le locataire final reste confidentiel. Un nouvel exemple de foncier agricole à grande échelle sécurisé avec génération captive avant tout engagement d'un hyperscaler nommé.",
+      "source": "Salt Lake Tribune / DataCenterDynamics",
+      "url": "https://www.sltrib.com/religion/2026/11/13/texas-officials-advance-plan-data/",
+      "mw": 96,
+      "poweredLand": true,
+      "owners": "Farmland Reserve / AgReserve (foncier) · Aetheris / RS 70 Land Holdings LLC (développeur)",
+      "investors": "n.c."
+    },
+    {
       "category": "power",
       "title": "États-Unis (Carson County, Texas) : Fermi signe un accord avec un hyperscaler non identifié pour 600 MW à Project Matador, résilie le bail TensorWave",
       "region": "Amérique du Nord",
@@ -239,6 +220,28 @@
       "poweredLand": true,
       "owners": "Rowan Digital Infrastructure (Quinbrook)",
       "investors": "Blackstone (participation minoritaire ~49%) · Citibank · Apterra Infrastructure Capital · +40 prêteurs"
+    },
+    {
+      "category": "power",
+      "title": "Allemagne : Polarise prévoit d'ajouter environ 150 MW de capacité IA d'ici fin 2028, principalement sur des bâtiments existants déjà raccordés",
+      "region": "Europe",
+      "date": "2026-11-12",
+      "summary": "Polarise (Paderborn, Allemagne), surveillé spécifiquement par Noémie comme acteur du foncier énergisé européen, a annoncé le 12 novembre un plan d'extension d'environ 150 MW de capacité IA en Allemagne d'ici fin 2028, en s'appuyant principalement sur des bâtiments existants pouvant être raccordés rapidement au réseau plutôt que sur l'artificialisation de nouveaux terrains ; l'entreprise a par ailleurs été distinguée « Hidden Champion » par l'association allemande de l'IA. Aucune actualité spécifique n'a en revanche été trouvée cette semaine sur Aurora Infra ou La Française de l'Énergie (FDE) en lien avec les data centers, malgré des recherches ciblées incluant LinkedIn.",
+      "source": "TT (communiqué syndiqué) / German AI Association",
+      "url": "https://via.tt.se/pressmeddelande/4638331/polarise-plans-to-add-roughly-150-megawatts-of-new-ai-capacity-in-germany-by-the-end-of-2028-named-hidden-champion-by-the-german-ai-association?lang=en",
+      "mw": 150,
+      "poweredLand": true,
+      "owners": "Polarise",
+      "investors": "n.c."
+    },
+    {
+      "category": "legislation",
+      "title": "États-Unis : la représentante Maxine Dexter (Oregon) dépose au Congrès le « Protecting Our Public Lands from Data Centers Act » (H.R. 11002), interdiction fédérale sur les terres publiques",
+      "region": "Amérique du Nord",
+      "date": "2026-11-11",
+      "summary": "La représentante démocrate de l'Oregon Maxine Dexter a déposé le 11 novembre le H.R. 11002, qui interdirait le développement, la vente ou le transfert de terres fédérales gérées par le Department of the Interior et le Forest Service à des fins de data centers à l'échelle nationale ; le texte, co-porté par 13 élus démocrates dont Alexandria Ocasio-Cortez, cite au moins 17 campus proposés sur des terres publiques dans six États de l'Ouest, dont un projet de 106 acres près de Hermiston (Oregon) — un texte distinct d'une proposition similaire déposée en juillet par la représentante Rashida Tlaib.",
+      "source": "Nextgov / Baxtel / TechRadar Pro",
+      "url": "https://www.nextgov.com/policy/2026/11/tech-bills-week-no-data-centers-public-lands-creating-va-office-innovation-and-more/417230/"
     },
     {
       "category": "land",
@@ -276,15 +279,6 @@
       "investors": "Sentinel Data Centers (discussions renouvelées, non finalisé)"
     },
     {
-      "category": "legislation",
-      "title": "États-Unis : le Sénat engage le débat (vote procédural 73-25) sur un texte fédéral obligeant les data centers à payer les coûts de renforcement réseau",
-      "region": "Amérique du Nord",
-      "date": "2026-11-10",
-      "summary": "Le Sénat américain a voté 73-25 pour ouvrir le débat sur un paquet bipartisan de réforme du permitting énergétique incluant une obligation pour les grands data centers de payer les coûts de raccordement et de renforcement réseau qu'ils engendrent ; le texte doit encore franchir un vote final au Sénat, puis la Chambre des représentants et la signature présidentielle, dans la continuité du précédent « Data Center Ratepayer Protection Act » bloqué au Sénat le 30 septembre. Grid Strategies estime l'impact potentiel à environ 35 Md$ de coûts additionnels pour les data centers sur dix ans.",
-      "source": "Al Jazeera / Bloomberg Government / Honolulu Star-Advertiser",
-      "url": "https://www.aljazeera.com/news/2026/11/10/us-senate-advances-major-bill-boosting-energy-infrastructure"
-    },
-    {
       "category": "power",
       "title": "Malaisie (Sarawak + péninsule) : SoftBank, Grab et PETROS signent un accord de développement conjoint visant 5 GW de capacité IA, 1,85 Md$ de capital d'amorçage annoncé",
       "region": "Asie",
@@ -318,6 +312,15 @@
       "url": "https://www.datacenterdynamics.com/en/news/anthropic-signs-34bn-gas-generator-deal-to-support-17gw-of-data-center-power/",
       "mw": 1700,
       "inv": 3400
+    },
+    {
+      "category": "legislation",
+      "title": "Europe (France incluse) : la campagne « Stop Dirty Data Centres » appelle à un moratoire sur les nouveaux data centers dans 15 pays européens",
+      "region": "Europe",
+      "date": "2026-11-07",
+      "summary": "Une campagne européenne coordonnée « Stop Dirty Data Centres », réunissant plus de 100 organisations environnementales et communautaires dans 15 pays (dont France Nature Environnement pour la France), a organisé des mobilisations les 6 et 7 novembre pour réclamer un moratoire temporaire sur les nouveaux projets de data centers, le temps de fixer des règles plus strictes sur l'énergie, l'eau et l'usage des sols — un signal de la montée en puissance de la contestation civile à l'échelle européenne, en écho aux mobilisations déjà actives en France (Fouju, Marseille) et aux États-Unis.",
+      "source": "Tech Insider / France Nature Environnement",
+      "url": "https://tech-insider.org/fr/moratoire-data-centers-ong-stop-dirty-data-centres-2026/"
     },
     {
       "category": "land",
@@ -453,6 +456,18 @@
       "investors": "n.c."
     },
     {
+      "category": "competition",
+      "title": "Afrique du Sud : Digital Realty renforce sa participation dans Teraco à hauteur de 688 M$, consolidation du principal marché de data centers africain",
+      "region": "Afrique",
+      "date": "2026-11-03",
+      "summary": "Digital Realty a annoncé le 3 novembre l'acquisition d'une participation additionnelle d'environ 16% dans l'opérateur sud-africain Teraco pour environ 688 M$, renforçant son contrôle sur le principal marché de data centers du continent africain — un signal de la poursuite de la consolidation actionnariale sur des plateformes déjà établies plutôt que sur l'acquisition de foncier neuf.",
+      "source": "W.Media",
+      "url": "https://w.media/digital-realty-deepens-teraco-ownership-in-us-688-million-deal/",
+      "inv": 688,
+      "owners": "Teraco",
+      "investors": "Digital Realty (participation additionnelle ~16%)"
+    },
+    {
       "category": "land",
       "title": "États-Unis (comté de Powhatan, Virginie) : une entité liée à Vantage Data Centers finalise l'achat de 180 acres pour un campus data center d'environ 3 Md$",
       "region": "Amérique du Nord",
@@ -542,6 +557,19 @@
       "poweredLand": true,
       "owners": "Orange",
       "investors": "Morrison (fonds d'infrastructure)"
+    },
+    {
+      "category": "land",
+      "title": "France (Fouju, Seine-et-Marne) : le « Campus IA » de MGX, Bpifrance, Mistral AI et NVIDIA (90 ha, jusqu'à 1 400 MW, 50 Md€) autorisé en juillet fait face à au moins six recours administratifs",
+      "region": "France",
+      "date": "2026-Q3",
+      "summary": "Le préfet de Seine-et-Marne a autorisé le 29 juillet 2026 les premières infrastructures du « Campus IA » à Fouju (environ 90 hectares de terres agricoles, jusqu'à 11 data centers et 1 400 MW de capacité électrique à terme), coentreprise détenue à 70% par MGX (fonds souverain d'Abu Dhabi), 25% par Bpifrance, 4% par NVIDIA et 1% par Mistral AI, pour un investissement total annoncé de 50 Md€ ; au moins six recours administratifs ont été déposés fin septembre par des associations (dont France Nature Environnement, la Confédération paysanne, Les Soulèvements de la Terre) devant la juridiction administrative, qui jugent l'enquête publique insuffisante — l'un des plus gros projets de foncier+puissance en France, désormais sous risque contentieux prolongé.",
+      "source": "Next.ink / Multinationales.org / Sénat (question écrite)",
+      "url": "https://next.ink/brief-article/la-prefecture-de-seine-et-marne-autorise-linstallation-de-campus-ia-a-fouju/",
+      "mw": 1400,
+      "inv": 54000,
+      "owners": "MGX (70%) · Bpifrance (25%) · NVIDIA (4%) · Mistral AI (1%)",
+      "investors": "MGX · Bpifrance · NVIDIA"
     },
     {
       "category": "land",
